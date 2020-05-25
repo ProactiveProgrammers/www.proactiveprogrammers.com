@@ -19,6 +19,10 @@
   },
   "homepage": "https://www.proactiveprogrammers.com/",
   "dependencies": {
-    "fullpage.js": "^3.0.8"
+    "browser-sync": "^2.26.7",
+    "del": "^5.1.0",
+    "fullpage.js": "^3.0.8",
+    "gulp": "^4.0.2",
+    "n": "^6.5.1"
   }
 }
