@@ -90,7 +90,7 @@ gulp.task('css-fullpage', function() {
 
 // TASK: automatically perform the full deploy when files change
 gulp.task('deploy-watch', function() {
-  gulp.watch(['**/*.html', '**/css/*.css', '**/js/*.js'], gulp.series('deploy'))
+  gulp.watch(['*.html', '**/css/*.css', '**/js/*.js'], gulp.series('deploy'))
 });
 
 // TASK: perform the full deploy
