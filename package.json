@@ -1,0 +1,21 @@
+{
+  "name": "www.proactiveprogrammers.com",
+  "version": "1.0.0",
+  "description": "Web Site for the Proactive Programmers Book Series and Community",
+  "main": "index.html",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ProactiveProgrammers/www.proactiveprogrammers.com.git"
+  },
+  "keywords": [
+    "proactive",
+    "programming",
+    "python"
+  ],
+  "author": "Gregory M. Kapfhammer",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/ProactiveProgrammers/www.proactiveprogrammers.com/issues"
+  },
+  "homepage": "https://www.proactiveprogrammers.com/"
+}
