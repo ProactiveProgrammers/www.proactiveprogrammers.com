@@ -23,7 +23,7 @@ var SITE_HTML_SOURCE = '**/*.html';
 var SITE_HTML_DEST = '_site/';
 
 // define the directories for the fonts
-var SITE_CSS_SOURCE = '**/*.css';
+var SITE_CSS_SOURCE = 'css/*.css';
 var SITE_CSS_DEST = '_site/css';
 
 // define the directories for the fullpage.js javascript files
@@ -72,8 +72,8 @@ gulp.task('html-site', function() {
 
 // TASK: Copy all of the CSS for the site to the destination directory
 gulp.task('css-site', function() {
-  return gulp.src(SITE_HTML_SOURCE)
-    .pipe(gulp.dest(SITE_HTML_DEST));
+  return gulp.src(SITE_CSS_SOURCE)
+    .pipe(gulp.dest(SITE_CSS_DEST));
 });
 
 // TASK: Copy all of the fullpage javascripts to the deployment directory
@@ -96,7 +96,7 @@ gulp.task('deploy-watch', function() {
 // TASK: perform the full deploy
 gulp.task(
   'deploy',
-  gulp.parallel('html-site', 'javascript-fullpage', 'css-fullpage')
+  gulp.parallel('html-site', 'css-site', 'javascript-fullpage', 'css-fullpage')
 );
 
 // }}}
