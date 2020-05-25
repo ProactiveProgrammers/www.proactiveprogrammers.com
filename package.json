@@ -17,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/ProactiveProgrammers/www.proactiveprogrammers.com/issues"
   },
-  "homepage": "https://www.proactiveprogrammers.com/"
+  "homepage": "https://www.proactiveprogrammers.com/",
+  "dependencies": {
+    "fullpage.js": "^3.0.8"
+  }
 }
