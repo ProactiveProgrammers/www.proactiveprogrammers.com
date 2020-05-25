@@ -1,22 +1,41 @@
 /* eslint-disable block-scoped-var */
 
-// GULP {{{
+// Gulp {{{
 
 // use gulp to manage the web site
 var gulp = require('gulp');
 
 // }}}
 
-// PACKAGE LOADING {{{
+// Package Loading {{{
 
 // declare variables for used packages
 var browserSync = require('browser-sync').create();
 var del = require('del');
+var argv = require('yargs').argv;
+var spawn = require('child_process').spawn;
 
 // }}}
 
-// VARIABLES {{{
+// Reloading of gulpfile.js {{{
 
+// Usage: gulp auto-reload --task deploy-watch
+
+gulp.task('auto-reload', function() {
+  var p;
+  gulp.watch('gulpfile.js', spawnChildren);
+  spawnChildren();
+  function spawnChildren(e) {
+    // kill previous spawned process
+    if(p) { p.kill(); }
+    // `spawn` a child `gulp` process linked to the parent `stdio`
+    p = spawn('gulp', [argv.task], {stdio: 'inherit'});
+  }
+});
+
+// }}}
+
+// Variables {{{
 
 // define the directories for the fonts
 var SITE_HTML_SOURCE = '**/*.html';
@@ -27,16 +46,16 @@ var SITE_CSS_SOURCE = 'css/*.css';
 var SITE_CSS_DEST = '_site/css';
 
 // define the directories for the fullpage.js javascript files
-var FULLPAGE_JAVASCRIPT_SOURCE = 'node_modules/fullpage.js/dist/fullpage.min.js';
+var FULLPAGE_JAVASCRIPT_SOURCE = ['node_modules/fullpage.js/dist/fullpage.min.js', 'node_modules/fullpage.js/dist/fullpage.min.js.map'];
 var FULLPAGE_JAVASCRIPT_DEST = '_site/js';
 
 // define the directories for the fullpage.js javascript files
-var FULLPAGE_CSS_SOURCE = 'node_modules/fullpage.js/dist/fullpage.min.css';
+var FULLPAGE_CSS_SOURCE = ['node_modules/fullpage.js/dist/fullpage.min.css', 'node_modules/fullpage.js/dist/fullpage.min.css.map'];
 var FULLPAGE_CSS_DEST = '_site/css';
 
 // }}}
 
-// BROWSER {{{
+// Browser {{{
 
 // TASK: use browsersync to load the site for local synced testing
 gulp.task('browsersync', function() {
@@ -51,7 +70,7 @@ gulp.task('browsersync', function() {
 
 // }}}
 
-// MAINTENANCE {{{
+// Maintenance {{{
 
 // TASK: delete the generated site
 gulp.task('clean', function() {
@@ -62,7 +81,7 @@ gulp.task('clean', function() {
 
 // }}}
 
-// DEPLOY {{{
+// Deploy {{{
 
 // TASK: Copy all of the HTML for the site to the destination directory
 gulp.task('html-site', function() {
@@ -90,7 +109,7 @@ gulp.task('css-fullpage', function() {
 
 // TASK: automatically perform the full deploy when files change
 gulp.task('deploy-watch', function() {
-  gulp.watch(['*.html', '**/css/*.css', '**/js/*.js'], gulp.series('deploy'))
+  gulp.watch(['*.html', 'css/*.css', 'js/*.js'], gulp.series('deploy'))
 });
 
 // TASK: perform the full deploy
@@ -101,16 +120,7 @@ gulp.task(
 
 // }}}
 
-// DEFAULT {{{
-
-gulp.task('default', gulp.series('deploy'));
-
-// }}}
-
-
-// }}}
-
-// DEFAULT {{{
+// Default {{{
 
 gulp.task('default', gulp.series('deploy'));
 
