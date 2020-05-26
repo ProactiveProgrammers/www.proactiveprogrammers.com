@@ -24,55 +24,36 @@
     <!-- Load the web fonts -->
     <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,500;1,500&family=IBM+Plex+Sans:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
 
-    <!-- Load the required CSS for the fullpage framework -->
-    <link rel="stylesheet" type="text/css" href="css/fullpage.min.css" />
-
     <!-- Load the required CSS for the proactive web site-->
     <link rel="stylesheet" type="text/css" href="css/proactive.css" />
-
-    <!-- Load the required JavaScript for the fullpage framework -->
-    <script type="text/javascript" src="js/fullpage.min.js"></script>
-
-    <!-- Load the required JavaScript for the fullpage extensions framework -->
-    <script type="text/javascript" src="js/fullpage.extensions.min.js"></script>
 
   </head>
 
   <body>
 
-    <div id="fullpage">
+    <main class="scroll-container">
 
-      <div class="section">
-        <h1>What are the principles of a proactive programmer?</h1>
-      </div>
+      <section class="material-blue-bg">
+        <h2>What are the principles of a proactive programmer?</h2>
+      </section>
 
-      <div class="section">
-        <h1>What are the practices of a proactive programmer?</h1>
-      </div>
+      <section class="material-green-bg">
+        <h2>What are the practices of a proactive programmer?</h2>
+      </section>
 
-      <div class="section">
-        <h1>How do I become a proactive programmer?</h1>
-      </div>
+      <section class="material-gold-bg">
+        <h2>How do I become a proactive programmer?</h2>
+      </section>
 
-    </div>
+      <section class="material-orange-bg">
+        <h1>Proactive Programming</h1>
+        <ul>
+          <li> Book series </li>
+          <li> Programmer community </li>
+        </ul>
+      </section>
 
-    <script>
-      new fullpage('#fullpage', {
-        autoScrolling: true,
-        css3: true,
-        fitToSection: false,
-        loopBottom: true,
-        navigation: true,
-        responsiveWidth: 0,
-        responsiveHeight: 0,
-        scrollingSpeed: 1000,
-        slidesNavigation: true,
-        sectionsColor: ['#1E88E5', '#43A047', '#FDD835'],
-      });
-
-      //methods
-      fullpage_api.setAllowScrolling(false);
-    </script>
+    </main>
 
   </body>
 
