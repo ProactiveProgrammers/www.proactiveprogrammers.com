@@ -1,4 +1,27 @@
+/* Headers */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 4rem;
+  hyphens: auto;
+  word-spacing: -0.25em;
+  margin-left: 1.3em;
+  margin-right: 1.5em;
+}
+
+/* Sections or "pages" of the web site */
+
 .section {
-  text-align:center;
-  font-size: 10em;
+  text-align: center;
 }
