@@ -12,6 +12,7 @@ h6,
 .h4,
 .h5,
 .h6 {
+  color: #212121;
   font-family: 'IBM Plex Mono', monospace;
   font-size: 4rem;
   hyphens: auto;
@@ -25,3 +26,11 @@ h6,
 .section {
   text-align: center;
 }
+
+/* Define the color of the right-side bullets to match the headers */
+
+/* stylelint-disable */
+#fp-nav ul li a span, .fp-slidesNav ul li a span {
+  background: #212121;
+}
+/* stylelint-enable */
