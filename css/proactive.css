@@ -14,11 +14,9 @@ h6,
 .h6 {
   color: #212121;
   font-family: 'IBM Plex Mono', monospace;
-  font-size: 8.9vw;
+  font-size: 10.9vw;
   hyphens: auto;
   word-spacing: -0.25em;
-  margin-left: 1.3em;
-  margin-right: 1.5em;
 }
 
 * {
@@ -28,6 +26,14 @@ h6,
 body {
   margin: 0;
   font-family: 'IBM Plex', sans-serif;
+}
+
+ul {
+  font-family: 'IBM Plex', sans-serif;
+  font-size: 4.9vw;
+  hyphens: auto;
+  margin-left: 1em;
+  margin-top: -2em;
 }
 
 .scroll-container {
@@ -40,23 +46,23 @@ section {
   height: 100vh;
   scroll-snap-align: center;
   padding: 1rem;
-  display: flex;
+  display: grid;
   align-items: center;
   justify-content: center;
 }
 
 .material-blue-bg {
-  background-color: #1E88E5;
+  background-color: #1e88e5;
 }
 
 .material-green-bg {
-  background-color: #43A047;
+  background-color: #43a047;
 }
 
 .material-gold-bg {
-  background-color: #FFB300;
+  background-color: #ffb300;
 }
 
 .material-orange-bg {
-  background-color: #F4511E;
+  background-color: #f4511e;
 }
