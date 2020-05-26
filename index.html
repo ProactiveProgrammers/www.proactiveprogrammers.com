@@ -30,19 +30,23 @@
     <!-- Load the required JavaScript for the fullpage framework -->
     <script type="text/javascript" src="js/fullpage.min.js"></script>
 
+    <!-- Load the required JavaScript for the fullpage extensions framework -->
+    <script type="text/javascript" src="js/fullpage.extensions.min.js"></script>
+
   </head>
 
   <body>
 
     <div id="fullpage">
-      <div class="section">One</div>
-      <div class="section">Three</div>
-      <div class="section">Four</div>
+
+      <div class="section">
+        <h1>What are the mindsets of a proactive programmer?</h1>
+      </div>
+
     </div>
 
     <script>
       new fullpage('#fullpage', {
-        //options here
         autoScrolling:true,
         scrollHorizontally: true,
         css3: true,
@@ -51,6 +55,7 @@
         slidesNavigation: true,
         responsiveHeight: 330,
         dragAndMove: true,
+        sectionsColor: ['#1E88E5'],
       });
 
       //methods
