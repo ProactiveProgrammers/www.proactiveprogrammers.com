@@ -96,13 +96,13 @@ gulp.task('css-site', function() {
     .pipe(gulp.dest(SITE_CSS_DEST));
 });
 
-// TASK: Copy all of the fullpage javascripts to the deployment directory
+// TASK: Copy all of the fullpage javascript files to the deployment directory
 gulp.task('javascript-fullpage', function() {
   return gulp.src(FULLPAGE_JAVASCRIPT_SOURCE)
     .pipe(gulp.dest(FULLPAGE_JAVASCRIPT_DEST));
 });
 
-// TASK: Copy all of the fullpage javascripts to the deployment directory
+// TASK: Copy all of the fullpage css files to the deployment directory
 gulp.task('css-fullpage', function() {
   return gulp.src(FULLPAGE_CSS_SOURCE)
     .pipe(gulp.dest(FULLPAGE_CSS_DEST));
@@ -113,7 +113,7 @@ gulp.task('deploy-watch', function() {
   gulp.watch(['*.html', 'css/*.css', 'js/*.js'], gulp.series('deploy'))
 });
 
-// TASK: perform the full deploy
+// TASK: perform the deploy of the site
 gulp.task(
   'deploy',
   gulp.parallel('html-site', 'css-site', 'javascript-fullpage', 'css-fullpage')
