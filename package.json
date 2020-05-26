@@ -29,5 +29,16 @@
     "gulper": "^0.1.4",
     "n": "^6.5.1",
     "yargs": "^15.3.1"
+  },
+  "devDependencies": {
+    "stylelint": "^13.5.0",
+    "stylelint-config-standard": "^20.0.0",
+    "stylelint-order": "^4.0.0"
+  },
+  "stylelint": {
+    "plugins": [
+      "stylelint-order"
+    ],
+    "extends": "stylelint-config-standard"
   }
 }
