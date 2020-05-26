@@ -20,9 +20,14 @@
   "homepage": "https://www.proactiveprogrammers.com/",
   "dependencies": {
     "browser-sync": "^2.26.7",
+    "child_process": "^1.0.2",
     "del": "^5.1.0",
     "fullpage.js": "^3.0.8",
     "gulp": "^4.0.2",
-    "n": "^6.5.1"
+    "gulp-data": "^1.3.1",
+    "gulp-newer": "^1.4.0",
+    "gulper": "^0.1.4",
+    "n": "^6.5.1",
+    "yargs": "^15.3.1"
   }
 }
