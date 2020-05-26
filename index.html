@@ -15,8 +15,8 @@
     <link rel="preconnect" href="https://cdn.syndication.twimg.com" crossorigin>
     <link rel="preconnect" href="https://syndication.twitter.com" crossorigin>
 
-    <!-- Define the viewport so that Bootstrap works on mobile -->
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- <!-1- Define the viewport so that Bootstrap works on mobile -1-> -->
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> -->
 
     <!-- Define the meta characteristics for the theme color -->
     <meta name="theme-color" content="#F4511E">
@@ -58,14 +58,15 @@
 
     <script>
       new fullpage('#fullpage', {
-        autoScrolling:true,
-        scrollHorizontally: true,
+        autoScrolling: true,
         css3: true,
-        scrollingSpeed: 1000,
+        fitToSection: false,
+        loopBottom: true,
         navigation: true,
+        responsiveHeight: 250,
+        scrollHorizontally: true,
+        scrollingSpeed: 1000,
         slidesNavigation: true,
-        responsiveHeight: 330,
-        dragAndMove: true,
         sectionsColor: ['#1E88E5', '#43A047', '#FDD835'],
       });
 
