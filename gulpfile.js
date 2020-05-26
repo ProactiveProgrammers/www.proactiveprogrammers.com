@@ -17,12 +17,13 @@ var spawn = require('child_process').spawn;
 
 // }}}
 
-// Reloading of gulpfile.js {{{
+// Reloading when gulpfile.js changes {{{
 
 // Usage: gulp auto-reload --task deploy-watch
 
 gulp.task('auto-reload', function() {
   var p;
+  // define the file that will be watched
   gulp.watch('gulpfile.js', spawnChildren);
   spawnChildren();
   function spawnChildren(e) {
@@ -37,19 +38,19 @@ gulp.task('auto-reload', function() {
 
 // Variables {{{
 
-// define the directories for the fonts
-var SITE_HTML_SOURCE = '**/*.html';
+// define the directories for the HTML
+var SITE_HTML_SOURCE = '*.html';
 var SITE_HTML_DEST = '_site/';
 
-// define the directories for the fonts
+// define the directories for the CSS
 var SITE_CSS_SOURCE = 'css/*.css';
 var SITE_CSS_DEST = '_site/css';
 
 // define the directories for the fullpage.js javascript files
-var FULLPAGE_JAVASCRIPT_SOURCE = ['node_modules/fullpage.js/dist/fullpage.min.js', 'node_modules/fullpage.js/dist/fullpage.min.js.map'];
+var FULLPAGE_JAVASCRIPT_SOURCE = ['node_modules/fullpage.js/dist/fullpage.min.js', 'node_modules/fullpage.js/dist/fullpage.min.js.map', 'node_modules/fullpage.js/dist/fullpage.extensions.min.js'];
 var FULLPAGE_JAVASCRIPT_DEST = '_site/js';
 
-// define the directories for the fullpage.js javascript files
+// define the directories for the fullpage.js CSS files
 var FULLPAGE_CSS_SOURCE = ['node_modules/fullpage.js/dist/fullpage.min.css', 'node_modules/fullpage.js/dist/fullpage.min.css.map'];
 var FULLPAGE_CSS_DEST = '_site/css';
 
