@@ -17,20 +17,52 @@ h6,
   font-size: 8.9vw;
   hyphens: auto;
   word-spacing: -0.25em;
-  margin-left: 1.3em;
-  margin-right: 1.5em;
 }
 
-/* Sections or "pages" of the web site */
-
-.section {
-  text-align: center;
+* {
+  box-sizing: border-box;
 }
 
-/* Define the color of the right-side bullets to match the headers */
-
-/* stylelint-disable */
-#fp-nav ul li a span, .fp-slidesNav ul li a span {
-  background: #212121;
+body {
+  font-family: 'IBM Plex', sans-serif;
+  margin: 0;
 }
-/* stylelint-enable */
+
+ul {
+  font-family: 'IBM Plex', sans-serif;
+  font-size: 4.9vw;
+  hyphens: auto;
+  margin-left: 1em;
+  margin-top: -1em;
+}
+
+.scroll-container {
+  height: 100vh;
+  overflow-y: scroll;
+  scroll-snap-type: y mandatory;
+}
+
+section {
+  height: 100vh;
+  scroll-snap-align: center;
+  padding: 1rem;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+}
+
+.material-blue-bg {
+  background-color: #1e88e5;
+}
+
+.material-green-bg {
+  background-color: #43a047;
+}
+
+.material-gold-bg {
+  background-color: #ffb300;
+}
+
+.material-orange-bg {
+  background-color: #f4511e;
+}
