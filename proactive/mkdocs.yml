@@ -15,15 +15,6 @@ theme:
     - scheme: default
       primary: black
       accent: deep orange
-      toggle:
-        icon: material/weather-sunny
-        name: Switch to light mode
-    - scheme: proactivedark
-      primary: black
-      accent: deep orange
-      toggle:
-        icon: material/weather-night
-        name: Switch to dark mode
 
 markdown_extensions:
     - attr_list
