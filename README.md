@@ -1,3 +1,3 @@
 # www.proactiveprogrammers.com
 
-The web site the book series and community of proactive programmers.
+Educational resources for people who want to put the pro in programmer.

@@ -1,0 +1,115 @@
+# Details about the site
+site_name: "Proactive Programmers"
+site_url: https://www.proactiveprogrammers.com
+repo_url: https://github.com/ProactiveProgrammers/www.proactiveprogrammers.com
+
+# Copyright of the site appears in the footer
+# copyright: Copyright &copy; 2021 Gregory M. Kapfhammer
+# copyright: 'Deploys by <a href = "https://www.netlify.com/" rel="noopener" target="_blank">Netlify</a>'
+
+# Definition of the theme
+theme:
+  # Use the default theme and then customize it further
+  name: material
+  # Provide an overrides/ directory that contains a main.html file for customization
+  custom_dir: overrides
+  # Define the logo for the top left-hand corner of the screen and collapsible menu
+  logo: img/Pro-Icon.svg
+  # Define the logo for the repository for the top right-hand corner of the screen
+  icon:
+      repo: fontawesome/brands/github
+  # Define the fonts used on the site
+  font:
+      # The main font used in header, footer, and all body text
+      text: IBM Plex Sans
+      # The font used in all of the source code samples
+      code: IBM Plex Mono
+  # Create black menu bars at the top and bottom
+  palette:
+    - scheme: default
+      primary: black
+      accent: orange
+  # Enable features that are built-in to material for mkdocs
+  features:
+      # Note that this option prohibits the rendering of mathematics
+      # - navigation.instant
+      # Display tabs for main sections at top of page
+      - navigation.tabs
+      # Offer a "Back to Top" button when person starts scrolling up on page
+      - navigation.top
+      # Make search suggestions when using project-wide search
+      - search.suggest
+      # Enable the sharing of searches with an icon in search box after start
+      - search.share
+
+# Extensions to markdown that provide the feature described above the extension itself
+markdown_extensions:
+    # Add HTML attributes and CSS classes to markdown elements
+    - attr_list
+    # Display and generate emojis using the standard notation (e.g., ":runner:")
+    - pymdownx.emoji:
+          emoji_index: !!python/name:materialx.emoji.twemoji
+          emoji_generator: !!python/name:materialx.emoji.to_svg
+    # Display mathematics using MathJax
+    - pymdownx.arithmatex:
+          generic: true
+    # Display paragraph markers that exhibit as permalinks for section in a file
+    - toc:
+        permalink: true
+    # Highlight source code
+    - codehilite
+    - markdown.extensions.codehilite:
+        guess_lang: true
+    # Admonitions in separate boxes
+    - admonition
+    # Support extra social media icons in the footer
+    - extra
+    # Display keys with easier-to-read symbols
+    - pymdownx.keys
+    # Allow jump-to-and-jump back footnotes
+    - footnotes
+    # Display diagrams created with mermaid
+    # Note that this works in conjunction with mermaid2
+    - pymdownx.superfences:
+        custom_fences:
+            - name: mermaid
+              class: mermaid
+              format: !!python/name:pymdownx.superfences.fence_div_format
+    # Enable source code and admonitions to be tabbed
+    - pymdownx.tabbed
+
+# Install plugins
+plugins:
+  - search
+  - mermaid2
+
+# Add icons and links to the footer
+extra:
+  social:
+    # GitHub organization
+    - icon: fontawesome/brands/github
+      link: https://github.com/ProactiveProgrammers
+    # GitHub discussions
+    - icon: fontawesome/brands/github-alt
+      link: https://github.com/ProactiveProgrammers/www.proactiveprogrammers.com/discussions
+    # Slack workspace (open to allegheny.edu by default)
+    - icon: fontawesome/brands/slack
+      link: https://proactiveprogrammers.slack.com
+    # Discord server invitation (open publicly)
+    - icon: fontawesome/brands/discord
+      link: https://discord.gg/kjah8MFYbR
+    # Twitter account
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/ProactiveProgr3
+    # G. Kapfhammer's web site
+    - icon: fontawesome/solid/globe
+      link: https://www.gregorykapfhammer.com/
+
+# Load the stylesheet that overrides parts of the material for mkdocs theme
+extra_css:
+  - stylesheets/extra.css
+
+# Load the JavaScript needed to support MathJax rendering inside of site
+extra_javascript:
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js

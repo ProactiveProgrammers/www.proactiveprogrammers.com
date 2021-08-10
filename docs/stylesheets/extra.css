@@ -1,0 +1,56 @@
+[data-md-color-scheme="default"] {
+  --md-typeset-a-color: #f57c00;
+}
+
+.announcement {
+  color: var(--md-typeset-a-color)!important;
+  text-decoration: underline;
+  word-break: break-word;
+}
+
+.md-typeset a {
+  text-decoration: underline;
+  color: #000;
+  word-break: break-word;
+}
+
+.md-typeset p {
+    font-weight: 500;
+    font-size: 0.85rem;
+}
+
+.md-typeset pre {
+    font-weight: 600;
+}
+
+.md-typeset code {
+    font-weight: 600;
+}
+
+.md-typeset h1 {
+    margin: 0 0 px2em(40px, 32px);
+    color: var(--md-default-fg-color);
+    font-weight: 600;
+    font-size: 2.75rem;
+    line-height: 1.0;
+    margin-bottom: .5em;
+    letter-spacing: -0.01em;
+}
+
+.md-typeset h2 {
+    color: var(--md-default-fg-color);
+    font-weight: 600;
+    font-size: 1.75rem;
+    margin-top: .75em;
+    margin-bottom: .75em;
+    line-height: 1.0;
+}
+
+.md-typeset h3 {
+    color: var(--md-default-fg-color);
+    font-weight: 600;
+    font-size: 1.25rem;
+    margin-top: .75em;
+    margin-bottom: .75em;
+    line-height: 1.0;
+}
