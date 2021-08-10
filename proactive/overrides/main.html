@@ -1,22 +1,7 @@
 {% extends "base.html" %}
 
-{% set thanks %}
- Deploys by <a class="announcement" href = "https://www.netlify.com/">Netlify</a> and theme by <a class="announcement" href = "https://squidfunk.github.io/mkdocs-material/">Material for MkDocs</a>
+{% set extracopyright %}
+<div>
+Deploys by <a href = "https://www.netlify.com/" rel="noopener" target="_blank">Netlify</a>
+</div>
 {% endset %}
-
-{% set copyright %}
- Copyright &copy; 2021 <a class="announcement" href = "https://www.gregorykapfhammer.com/">Gregory M. Kapfhammer</a>
-{% endset %}
-
-{% set netlify %}
- Deploys by <a class="announcement" href = "https://www.netlify.com/">Netlify</a>
-{% endset %}
-
-{% set mkdocs %}
- Framework by <a class="announcement" href = "https://squidfunk.github.io/mkdocs-material/">Material for MkDocs</a>
-{% endset %}
-
-{% block announce %}
-  The new version of Proactive Programmers is available!
-  For full documentation visit <a class="announcement" href = "http://google.com">Google</a>
-{% endblock %}
