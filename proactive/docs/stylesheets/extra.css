@@ -27,7 +27,7 @@
     font-weight: 600;
     font-size: 2.75rem;
     line-height: 1.0;
-    margin-bottom: 0px;
+    margin-bottom: .75em;
     letter-spacing: -0.01em;
 }
 
@@ -35,12 +35,16 @@
     color: var(--md-default-fg-color);
     font-weight: 600;
     font-size: 1.75rem;
+    margin-top: .75em;
+    margin-bottom: .75em;
     line-height: 1.0;
 }
 
-.md-typeset h2 {
+.md-typeset h3 {
     color: var(--md-default-fg-color);
     font-weight: 600;
     font-size: 1.25rem;
+    margin-top: .75em;
+    margin-bottom: .75em;
     line-height: 1.0;
 }
