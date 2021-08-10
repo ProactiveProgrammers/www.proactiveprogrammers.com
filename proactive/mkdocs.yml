@@ -1,18 +1,27 @@
+# Details about the site
 site_name: "Proactive Programmers"
-site_url: https://example.com/
+site_url: https://www.proactiveprogrammers.com
 repo_url: https://github.com/ProactiveProgrammers/www.proactiveprogrammers.com
 
-# Copyright
+# Copyright of the site appears in the footer
 copyright: Copyright &copy; 2020 - 2021 Gregory M. Kapfhammer
 
+# Definition of the theme
 theme:
+  # Use the default theme and then customize it further
   name: material
+  # Provide an overrides/ directory that contains a main.html file for customization
   custom_dir: overrides
+  # Define the logo for the top left-hand corner of the screen and collapsible menu
   logo: img/Pro-Icon.svg
+  # Define the logo for the repository for the top right-hand corner of the screen
   icon:
       repo: fontawesome/brands/github
+  # Define the fonts used on the site
   font:
+      # The main font used in header, footer, and all body text
       text: IBM Plex Sans
+      # The font used in all of the source code samples
       code: IBM Plex Mono
   palette:
     - scheme: default
