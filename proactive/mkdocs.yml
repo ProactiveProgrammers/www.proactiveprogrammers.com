@@ -23,27 +23,35 @@ theme:
       text: IBM Plex Sans
       # The font used in all of the source code samples
       code: IBM Plex Mono
+  # Create black menu bars at the top and bottom
   palette:
     - scheme: default
       primary: black
       accent: orange
   features:
-      - navigation.instant
+      # Note that this option prohibits the rendering of mathematics
+      # - navigation.instant
       - navigation.top
       - search.suggest
       - search.share
 
+# Extensions to markdown that provide the feature described above the extension itself
 markdown_extensions:
+    # Add HTML attributes and CSS classes to markdown elements
     - attr_list
+    # Display and generate emojis using the standard notation (e.g., ":runner:")
     - pymdownx.emoji:
           emoji_index: !!python/name:materialx.emoji.twemoji
           emoji_generator: !!python/name:materialx.emoji.to_svg
+    # Display mathematics using MathJax
     - pymdownx.arithmatex:
           generic: true
+    # Display paragraph markers that exhibit as permalinks for section in a file
     - toc:
         permalink: true
+    # Highlight source code
     - markdown.extensions.codehilite:
-        guess_lang: false
+        guess_lang: true
     - admonition
     - codehilite
     - extra
