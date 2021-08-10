@@ -98,6 +98,9 @@ extra:
     # Twitter account
     - icon: fontawesome/brands/twitter
       link: https://twitter.com/ProactiveProgr3
+    # G. Kapfhammer's web site
+    - icon: fontawesome/solid/globe
+      link: https://www.gregorykapfhammer.com/
 
 # Load the stylesheet that overrides parts of the material for mkdocs theme
 extra_css:
