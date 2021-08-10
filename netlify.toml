@@ -1,5 +1,10 @@
 [build]
-    command = "bash scripts/netlify-docs.sh"
-    publish = "site"
-    # only build when files in docs or configuration are being updated
-    ignore = "git diff --quiet HEAD^ HEAD docs/ netlify.toml scripts/netlify-docs.sh"
+publish = "site"
+command = """
+restore_home_cache ".cache" "pip cache" &&
+restore_cwd_cache '.venv' 'python virtualenv' &&
+pip3 install -q poetry &&
+poetry config virtualenvs.in-project true &&
+poetry install -v &&
+mkdocs build -d site
+"""
