@@ -2,6 +2,12 @@
   --md-typeset-a-color: #f57c00;
 }
 
+.announcement {
+  color: var(--md-typeset-a-color)!important;
+  text-decoration: underline;
+  word-break: break-word;
+}
+
 .md-typeset a {
   text-decoration: underline;
   color: #000;
