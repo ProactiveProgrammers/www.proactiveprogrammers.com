@@ -31,8 +31,13 @@ theme:
   features:
       # Note that this option prohibits the rendering of mathematics
       # - navigation.instant
+      # Display tabs for main sections at top of page
+      - navigation.tabs
+      # Offer a "Back to Top" button when person starts scrolling up on page
       - navigation.top
+      # Make search suggestions when using project-wide search
       - search.suggest
+      # Enable the sharing of searches with an icon in search box after start
       - search.share
 
 # Extensions to markdown that provide the feature described above the extension itself
