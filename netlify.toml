@@ -1,0 +1,5 @@
+[build]
+    command = "bash ./proactive/scripts/netlify-docs.sh"
+    publish = "site"
+    # only build when files in docs or configuration are being updated
+    ignore = "git diff --quiet HEAD^ HEAD docs/ netlify.toml scripts/netlify-docs.sh"
