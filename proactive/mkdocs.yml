@@ -50,21 +50,29 @@ markdown_extensions:
     - toc:
         permalink: true
     # Highlight source code
+    - codehilite
     - markdown.extensions.codehilite:
         guess_lang: true
+    # Admonitions in separate boxes
     - admonition
-    - codehilite
     - extra
+    # Display keys with easier-to-read symbols
+    - pymdownx.keys
+    # Display diagrams created with mermaid
     - pymdownx.superfences:
         custom_fences:
             - name: mermaid
               class: mermaid
               format: !!python/name:pymdownx.superfences.fence_div_format
+    # Enable source code and admonitions to be tabbed
     - pymdownx.tabbed
 
+# Install plugins
 plugins:
   - search
+  - mermaid2
 
+# Add icons and links to the footer
 extra:
   social:
     - icon: fontawesome/brands/github
