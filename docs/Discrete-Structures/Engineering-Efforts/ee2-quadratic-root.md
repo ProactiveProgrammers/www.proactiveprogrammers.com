@@ -3,10 +3,11 @@
 ## Speed Surprises
 
 We have provided an extensive library of functions and sample JSON schemas in
-[Speed-Surprises repository](https://github.com/Tada-Project/speed-surprises) for
-you to test Tada in conjunction and experience how Tada automatically suggests
-the likely worst-case order-of-growth function for various types of Python function.
-The examples provided in this documentation will be mostly coming from `Speed-Surprises`.
+[Speed-Surprises repository](https://github.com/Tada-Project/speed-surprises)
+for you to test Tada in conjunction and experience how Tada automatically
+  suggests the likely worst-case order-of-growth function for various types of
+  Python function. The examples provided in this documentation will be mostly
+  coming from `Speed-Surprises`.
 
 ## Data Generation
 
@@ -28,7 +29,8 @@ encourage you to create a file of JSON array that contains JSON schemas of
 each parameter of your experiment function.
 
 For example, if you would like to conduct an experiment for a function like
-[insertion sort](https://github.com/Tada-Project/speed-surprises/blob/master/speedsurprises/lists/sorting.py)
+[insertion
+sort](https://github.com/Tada-Project/speed-surprises/blob/master/speedsurprises/lists/sorting.py)
 that takes an `int` list as input:
 
 ```python
@@ -221,7 +223,7 @@ tada --directory . --module speedsurprises.graph.graph_gen \
      --startsize 50  --max 1000 --contrast
 ```
 
-#### Sample output
+#### Sample output of program
 
 ```shell
 Start running experiment graph_gen for size 50 →
@@ -256,19 +258,6 @@ Start running experiment graph_gen for size 50 →
 At the greatest common size 800:
 Mean: graph_gen is 99.94% faster than graph_gen_BFS
 Median: graph_gen is 99.94% faster than graph_gen_BFS
-
-+----------------------------------------------------------------------------------------+
-|               Contrast for graph_gen and graph_gen_BFS: O(n^2) quadratic               |
-+-------+---------------------------+---------------------------+------------------------+
-|  Size |            Mean           |           Median          |         Ratio          |
-+-------+---------------------------+---------------------------+------------------------+
-|   50  |   0.0010223395021565756   |   0.0009266807281494141   |           0            |
-|  100  |   0.0037775860469563805   |    0.003630197589111328   |   3.6950406777667753   |
-|  200  |    0.014875287769368488   |    0.014300846411132813   |   3.9377760253412575   |
-|  400  |    0.06087879420084635    |    0.05784384841308593    |   4.092612872082332    |
-|  800  |    0.25235291450520836    |    0.23845404716796878    |   4.145169394660909    |
-+-------+---------------------------+---------------------------+------------------------+
-```
 
 ### Record Tada experiment results
 
