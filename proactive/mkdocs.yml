@@ -1,0 +1,53 @@
+site_name: "Proactive Programmers"
+site_url: https://example.com/
+repo_url: https://github.com/ProactiveProgrammers/www.proactiveprogrammers.com
+
+# Copyright
+copyright: Copyright &copy; 2020 - 2021 Gregory M. Kapfhammer
+
+theme:
+  name: material
+  logo: img/Pro-Icon.svg
+  font:
+      text: IBM Plex Sans
+      code: IBM Plex Mono
+  palette:
+    - scheme: default
+      primary: black
+      accent: deep orange
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+    - scheme: proactivedark
+      primary: black
+      accent: deep orange
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+
+markdown_extensions:
+    - attr_list
+    - toc:
+        permalink: true
+    - markdown.extensions.codehilite:
+        guess_lang: false
+    - admonition
+    - codehilite
+    - extra
+    - pymdownx.superfences:
+        custom_fences:
+            - name: mermaid
+              class: mermaid
+              format: !!python/name:pymdownx.superfences.fence_div_format
+    - pymdownx.tabbed
+
+plugins:
+  - search
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/ProactiveProgrammers
+
+extra_css:
+  - stylesheets/extra.css
