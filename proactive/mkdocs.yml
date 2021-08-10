@@ -62,9 +62,12 @@ markdown_extensions:
         guess_lang: true
     # Admonitions in separate boxes
     - admonition
+    # Support extra social media icons in the footer
     - extra
     # Display keys with easier-to-read symbols
     - pymdownx.keys
+    # Allow jump-to-and-jump back footnotes
+    - footnotes
     # Display diagrams created with mermaid
     # Note that this works in conjunction with mermaid2
     - pymdownx.superfences:
