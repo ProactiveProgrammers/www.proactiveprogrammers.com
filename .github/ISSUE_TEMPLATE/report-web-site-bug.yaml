@@ -1,5 +1,5 @@
 name: Report Bug on Web Site
-description: File a bug report
+description: File a bug report about the web site
 title: "[Bug]: "
 labels: [bug, triage]
 assignees:
