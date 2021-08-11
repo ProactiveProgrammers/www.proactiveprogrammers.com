@@ -41,6 +41,8 @@ theme:
       - search.suggest
       # Enable the sharing of searches with an icon in search box after start
       - search.share
+      # Highlight search terms that match on the chosen page
+      - search.highlight
 
 # Extensions to markdown that provide the feature described above the extension itself
 markdown_extensions:
