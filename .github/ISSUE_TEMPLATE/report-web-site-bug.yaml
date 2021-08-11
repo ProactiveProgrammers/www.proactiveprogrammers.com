@@ -47,7 +47,7 @@ body:
         - Microsoft Edge
         - Other
   - type: dropdown
-    id: browsers
+    id: severity
     attributes:
       label: What is the severity of the bug in the source code example?
       multiple: true
