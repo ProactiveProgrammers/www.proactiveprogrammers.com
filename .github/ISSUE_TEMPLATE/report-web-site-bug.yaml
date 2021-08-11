@@ -46,6 +46,15 @@ body:
         - Safari
         - Microsoft Edge
         - Other
+  - type: textarea
+    id: what-like
+    attributes:
+      label: What do you like about this web site?
+      description: Explain what you have enjoyed so far about this site!
+      placeholder: Tell us what you like!
+      value: "I really like that Proactive Programmers ..."
+    validations:
+      required: false
   - type: checkboxes
     id: terms-of-conduct
     attributes:
