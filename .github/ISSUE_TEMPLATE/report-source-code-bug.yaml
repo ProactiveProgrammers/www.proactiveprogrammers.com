@@ -44,7 +44,7 @@ body:
     validations:
       required: true
   - type: dropdown
-    id: browsers
+    id: severity
     attributes:
       label: What is the serverity of the bug in the source code example?
       multiple: true
