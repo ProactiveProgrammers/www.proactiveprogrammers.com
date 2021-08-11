@@ -66,6 +66,8 @@ markdown_extensions:
         guess_lang: true
     # Admonitions in separate boxes
     - admonition
+    # Make admonitions collapsible
+    - pymdownx.details
     # Support extra social media icons in the footer
     - extra
     # Display keys with easier-to-read symbols
