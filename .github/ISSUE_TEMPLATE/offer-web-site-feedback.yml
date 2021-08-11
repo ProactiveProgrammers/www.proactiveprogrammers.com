@@ -20,8 +20,8 @@ body:
   - type: textarea
     id: extra-feedback
     attributes:
-      label: Do you have any additional feedback about the site?
-      description: Do you have any additional feedback about the Proactive Programmers web site?
+      label: What is your feedback about the site?
+      description: What is your feedback about the Proactive Programmers web site?
       placeholder: Share your ideas!
       value: "My feedback about the site is that ..."
     validations:
