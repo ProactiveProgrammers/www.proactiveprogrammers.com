@@ -16,7 +16,7 @@ theme:
   # Define the logo for the top left-hand corner of the screen and collapsible menu
   logo: img/Pro-Icon.svg
   # Define the favicon that displays in the tab of the browser
-  favicon: img/Pro-Icon.png
+  favicon: img/Pro-Favicon.png
   # Define the logo for the repository for the top right-hand corner of the screen
   icon:
       repo: fontawesome/brands/github
