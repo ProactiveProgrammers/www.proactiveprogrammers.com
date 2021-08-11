@@ -99,7 +99,7 @@ extra:
     - icon: fontawesome/brands/github
       link: https://github.com/ProactiveProgrammers
     # GitHub issue tracker
-    - icon: fontawesome/solid/github-alt
+    - icon: fontawesome/brands/github-alt
       link: https://github.com/ProactiveProgrammers/www.proactiveprogrammers.com/issues
     # GitHub discussions
     - icon: fontawesome/solid/comments
