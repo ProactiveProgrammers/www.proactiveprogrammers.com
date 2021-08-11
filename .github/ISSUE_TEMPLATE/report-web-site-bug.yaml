@@ -47,7 +47,7 @@ body:
         - Microsoft Edge
         - Other
   - type: checkboxes
-    id: terms
+    id: terms-of-conduct
     attributes:
       label: Code of Conduct
       description: By submitting this issue, you agree to follow our [Code of Conduct](https://github.com/ProactiveProgrammers/www.proactiveprogrammers.com/CODE_OF_CONDUCT.md)
