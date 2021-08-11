@@ -49,7 +49,7 @@ body:
   - type: dropdown
     id: severity
     attributes:
-      label: What is the severity of the bug in the source code example?
+      label: What is the severity of the bug in the web site?
       multiple: true
       options:
         - Not Severe
