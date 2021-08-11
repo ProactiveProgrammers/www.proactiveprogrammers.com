@@ -1,5 +1,6 @@
 [data-md-color-scheme="default"] {
   --md-typeset-a-color: #f57c00;
+  --md-typeset-mark-color: #FFCC80;
 }
 
 .announcement {
@@ -53,4 +54,18 @@
     margin-top: .75em;
     margin-bottom: .75em;
     line-height: 1.0;
+}
+
+[data-md-toggle="search"]:not(:checked) ~ .md-header .md-search__form::after {
+  position: absolute;
+  top: .3rem;
+  right: .3rem;
+  display: block;
+  padding: .1rem .4rem;
+  color: var(--md-default-bg-color);
+  font-weight: bold;
+  font-size: .8rem;
+  border: .05rem solid var(--md-default-bg-color--lighter);
+  border-radius: .1rem;
+  content: "/ or s";
 }

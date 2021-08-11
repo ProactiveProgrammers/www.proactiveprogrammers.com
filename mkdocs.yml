@@ -15,6 +15,8 @@ theme:
   custom_dir: overrides
   # Define the logo for the top left-hand corner of the screen and collapsible menu
   logo: img/Pro-Icon.svg
+  # Define the favicon that displays in the tab of the browser
+  favicon: img/Pro-Favicon.png
   # Define the logo for the repository for the top right-hand corner of the screen
   icon:
       repo: fontawesome/brands/github
@@ -41,6 +43,8 @@ theme:
       - search.suggest
       # Enable the sharing of searches with an icon in search box after start
       - search.share
+      # Highlight search terms that match on the chosen page
+      - search.highlight
 
 # Extensions to markdown that provide the feature described above the extension itself
 markdown_extensions:
