@@ -46,6 +46,17 @@ body:
         - Safari
         - Microsoft Edge
         - Other
+  - type: dropdown
+    id: browsers
+    attributes:
+      label: What is the serverity of the bug in the source code example?
+      multiple: true
+      options:
+        - Not Severe
+        - Mild Serverity
+        - Moderate Serverity
+        - Serious Serverity
+        - Showstopper Serverity
   - type: textarea
     id: what-like
     attributes:
