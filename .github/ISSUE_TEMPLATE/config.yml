@@ -2,7 +2,7 @@ blank_issues_enabled: true
 contact_links:
   - name: I have a technical question or need technical support with content on Proactive Programmers
     url: https://github.com/ProactiveProgrammers/www.proactiveprogrammers.com/discussions
-    about: We use GitHub Discussions for all detailed communication about technical content.
+    about: We use GitHub Discussions for all detailed communication about technical content. No invitation needed!
   - name: I have a quick technical question about the content on Proactive Programmers
     url: https://discord.com/invite/kjah8MFYbR
     about: If you have a quick question, then joining our Discord Chat is a great idea. Just ask for an invitation!
