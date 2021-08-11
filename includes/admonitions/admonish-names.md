@@ -3,7 +3,7 @@
     Don't forget that one of the principles of proactive programming is the use
     of descriptive, yet succinct, **names** for the modules, functions, and
     variables in your program. As Perdita Stevens explains in *How to Write Good
-    Programs", the "good choice of names will help you, and everyone else, to
+    Programs*, the "good choice of names will help you, and everyone else, to
     read the code, and hence reduce the number of comments that you need to
     write." While adhering to the naming conventions set by your programming
     language (e.g., the use of "snake case" for Python programs) and the style
