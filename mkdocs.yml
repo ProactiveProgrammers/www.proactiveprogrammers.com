@@ -98,8 +98,11 @@ extra:
     # GitHub organization
     - icon: fontawesome/brands/github
       link: https://github.com/ProactiveProgrammers
+    # GitHub issue tracker
+    - icon: fontawesome/solid/github-alt
+      link: https://github.com/ProactiveProgrammers/www.proactiveprogrammers.com/issues
     # GitHub discussions
-    - icon: fontawesome/brands/github-alt
+    - icon: fontawesome/solid/comments
       link: https://github.com/ProactiveProgrammers/www.proactiveprogrammers.com/discussions
     # Slack workspace (open to allegheny.edu by default)
     - icon: fontawesome/brands/slack
