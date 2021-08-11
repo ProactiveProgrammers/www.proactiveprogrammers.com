@@ -1,4 +1,4 @@
-blank_issues_enabled: true
+blank_issues_enabled: false
 contact_links:
   - name: I have a technical question or need technical support with content on Proactive Programmers
     url: https://github.com/ProactiveProgrammers/www.proactiveprogrammers.com/discussions
