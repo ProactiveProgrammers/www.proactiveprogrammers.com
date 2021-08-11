@@ -32,6 +32,7 @@ body:
       label: What repair do you suggest for the source code example?
       description: How do you think that we should fix the mistake in the source code example?
       placeholder: Please copy and pase the incorrect source code. This will be automatically formatted as source code in your reported issue!
+      render: shell
     validations:
       required: true
   - type: textarea
