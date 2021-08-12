@@ -86,6 +86,16 @@ markdown_extensions:
               format: !!python/name:pymdownx.superfences.fence_div_format
     # Enable source code and admonitions to be tabbed
     - pymdownx.tabbed
+    # Provide support for more intelligent emphasis and bolding
+    - pymdownx.betterem:
+        smart_enable: all
+    # Support highlighting of text and super- and sub-scripts
+    - pymdownx.caret
+    - pymdownx.mark
+    - pymdownx.tilde
+    # Support inserting special characters with greater ease
+    - pymdownx.smartsymbols
+
 
 # Install plugins
 plugins:
