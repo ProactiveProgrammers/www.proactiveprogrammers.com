@@ -157,7 +157,7 @@ nav:
     - Professional Resources: proactive-community/professional-resources.md
     - Community Connections: proactive-community/community-connections.md
   - Proactive Learning:
-    - Introduction: proactive-community/introduction-proactive-learning.md
-    - Bloom's Taxonomy: proactive-community/blooms-taxonomy.md
-    - Professional Resources: proactive-community/assignment-types.md
-    - Community Connections: proactive-community/assessment-strategy.md
+    - Introduction: proactive-learning/introduction-proactive-learning.md
+    - Bloom's Taxonomy: proactive-learning/blooms-taxonomy.md
+    - Assignment Types: proactive-learning/assignment-types.md
+    - Assessment Strategy: proactive-learning/assessment-strategy.md
