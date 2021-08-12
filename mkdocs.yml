@@ -95,6 +95,9 @@ markdown_extensions:
     - pymdownx.tilde
     # Support inserting special characters with greater ease
     - pymdownx.smartsymbols
+    # Support the creation of customizable task lists
+    - pymdownx.tasklist:
+        custom_checkbox: true
 
 # Install plugins
 plugins:
