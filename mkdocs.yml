@@ -166,3 +166,11 @@ nav:
     - Introduction: data-abstraction/introduction-data-abstraction.md
     - Engineering Efforts:
       - Software Tools: data-abstraction/engineering-efforts/software-tools.md
+  - Discrete Structures:
+    - Introduction: discrete-structures/introduction-discrete-structures.md
+    - Learning Objectives: discrete-structures/learning-objectives-discrete-structures.md
+    - Source Code Surveys:
+      - Averaging Values: discrete-structures/source-code-surveys/averaging-values.md
+      - File Searching: discrete-structures/source-code-surveys/file-searching.md
+    - Engineering Efforts:
+      - Software Tools: data-abstraction/engineering-efforts/software-tools.md
