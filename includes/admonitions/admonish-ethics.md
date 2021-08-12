@@ -7,4 +7,3 @@
     Stevens](https://www.stevens-bradfield.com/~perdita/) in [*How to
     Write Good
     Programs*](https://www.cambridge.org/gb/academic/subjects/computer-science/computing-general-interest/how-write-good-programs-guide-students)
-
