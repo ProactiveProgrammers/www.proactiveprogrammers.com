@@ -2,26 +2,48 @@
 
 # Welcome!
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+--8<-- "includes/admonitions/admonish-ethics.md"
 
-The HTML specification is maintained by the W3C and describes the HTTP approach.
+As [Perdita Stevens](https://www.stevens-bradfield.com/~perdita/) points out in
+[*How to Write Good
+Programs*](https://www.cambridge.org/gb/academic/subjects/computer-science/computing-general-interest/how-write-good-programs-guide-students),
+"ethical programming includes being honest about the extent to which you can be
+confident that your program is good, and adhering to quality control processes
+that ensure if a mistake has been made &mdash; everybody makes mistakes &mdash;
+it is found and rectified before it causes harm." She also writes that an
+ethical programmer you should be "a decent human being"!
 
---8<-- "includes/abbreviations.md"
+What should you do to ensure that you write source code and documentation in an
+ethical fashion? How can you become a programmer who is an empathetic member of
+a software engineering team? If you complete the projects on this site and adopt
+the principles that it introduces you will have embarked on an adventure to
+become a **proactive programmer** who "acts in anticipation of future problems,
+needs, or changes" [^1].
 
-## Commands
+As they engineer an efficient and correct program that is properly designed,
+documented, tested, and maintained, proactive programmers are responsible to
+both themselves and to the others in their team as they ethically implement
+programs. Does this sounds challenging? It sure is! Will you make mistakes along
+the way to emerging as a proactive programmer? Of course! Are the many benefits
+to being a proactive programmer? Yes, there are! If you want to learn more about
+the principles and practices of proactive programming, you should study the
+technical and professional skills and complete the projects in the fields of
+data abstraction and discrete structures.
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+Are you nervous about getting started or afraid that becoming a proactive
+programmer will prove to be too overwhelming? Don't worry, you can rely on the
+team of programming experts who have crafted activities that will help you to
+hone your technical and professional skills. If you get stuck on this adventure
+you will find a welcoming community of like-minded learners who can answer your
+technical questions, make suggestions for improvement, and relate to your
+struggles. Oh, remember how Perdita Stevens said that everyone makes mistakes?
+That includes the creators of this site! Although we have worked hard to ensure
+that all of the program source code and documentation are correct, we welcome
+your bug reports and suggestions for improving the platform.
 
-## Project layout
+*Okay, let's become proactive programmers so that we can put the PRO in
+programmer!*
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
-
---8<-- "includes/admonitions/admonish-comments.md"
-
---8<-- "includes/questions.md"
+[^1]: See Merriam-Webster's definition of
+  [proactive](https://www.merriam-webster.com/dictionary/proactive) for more
+  details and examples of sentences that use this word.
