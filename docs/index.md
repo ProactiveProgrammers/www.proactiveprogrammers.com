@@ -11,7 +11,7 @@ Programs*](https://www.cambridge.org/gb/academic/subjects/computer-science/compu
 confident that your program is good, and adhering to quality control processes
 that ensure if a mistake has been made &mdash; everybody makes mistakes &mdash;
 it is found and rectified before it causes harm." She also writes that an
-ethical programmer you should be "a decent human being"!
+ethical programmer should be "a decent human being"!
 
 What should you do to ensure that you write source code and documentation in an
 ethical fashion? How can you become a programmer who is an empathetic member of
