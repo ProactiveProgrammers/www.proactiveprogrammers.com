@@ -173,4 +173,5 @@ nav:
       - Averaging Values: discrete-structures/source-code-surveys/averaging-values.md
       - File Searching: discrete-structures/source-code-surveys/file-searching.md
     - Engineering Efforts:
-      - Software Tools: data-abstraction/engineering-efforts/software-tools.md
+      - Software Tools: discrete-structures/engineering-efforts/software-tools.md
+      - Quadratic Roots: discrete-structures/engineering-efforts/quadratic-roots.md
