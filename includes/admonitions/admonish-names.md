@@ -1,4 +1,4 @@
-!!! tip
+!!! note
 
     Don't forget that one of the principles of proactive programming is the use
     of descriptive, yet succinct, **names** for the modules, functions, and
