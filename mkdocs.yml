@@ -33,8 +33,10 @@ theme:
       accent: orange
   # Enable features that are built-in to material for mkdocs
   features:
+      # Create a single-page application with faster loading evident
       # Note that this option prohibits the rendering of mathematics
-      # - navigation.instant
+      # It is perhaps the case that instant does not break MathJax?
+      - navigation.instant
       # Display tabs for main sections at top of page
       - navigation.tabs
       # Automatically expand the navigation for each section
