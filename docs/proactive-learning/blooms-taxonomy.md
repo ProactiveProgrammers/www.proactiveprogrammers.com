@@ -1,15 +1,21 @@
 # Bloom's Taxonomy
 
-As you embark on the adventure of learning how to become a proactive programmer,
-it is important for you to know how the projects on this site were designed in
-terms of the type of learning they support and the difficulty or complexity of
-the tasks they ask you to complete.[^1]
+--8<-- "includes/admonitions/admonish-taxonomy.md"
 
+As you become a proactive programmer, it is important for you to know how the
+projects on this site were designed in terms of the learning type that they
+support and the complexity of the tasks they ask you to complete.[^1] While you
+may be thinking that this is only a topic for teachers, it turns out that
+knowing the basics of this taxonomy is also helpful for learners! For instance,
+this site creates assignments and learning objectives that are connected to
+specific levels in this taxonomy.
 
-To ensure conformity with the standard definitions in the education field, what
-follows is a description of these levels is directly quoted from [Teaching Tech
-Together](https://teachtogether.tech/), which is available for free download in
-English and Spanish.
+Don't forget that these levels are organized from those that have the least
+amount of cognitive complexity to those that have the most. Ready to see
+examples of programming projects and how they connect to Bloom's taxonomy? Using
+quotes from [Greg Wilson](https://third-bit.com/)'s book called [Teaching Tech
+Together](https://teachtogether.tech/), let's dive in to this description of the
+taxonomy's levels and programming tasks.[^2]
 
 - **Remembering**: Exhibit memory of previously learned material by recalling
   facts, terms, basic concepts, and answers.
@@ -56,3 +62,8 @@ English and Spanish.
   for a description of Bloom's taxonomy and how it aids the design of courses.
     In the context of programming, what level of the taxonomy is most exciting
     for you?
+
+[^2]: Check out [Greg Wilson](https://third-bit.com/)'s book called [Teaching
+  Tech Together](https://teachtogether.tech/) for lots of great ideas on how to
+  teach programming to different types of learners. How could ideas from this
+  book could be further applied to improve this learning platform?
