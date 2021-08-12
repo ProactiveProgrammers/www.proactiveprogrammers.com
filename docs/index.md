@@ -18,7 +18,7 @@ ethical fashion? How can you become a programmer who is an empathetic member of
 a software engineering team? If you complete the projects on this site and adopt
 the principles that it introduces you will have embarked on an adventure to
 become a **proactive programmer** who "acts in anticipation of future problems,
-needs, or changes" [^1].
+needs, or changes".[^1]
 
 As they engineer an efficient and correct program that is properly designed,
 documented, tested, and maintained, proactive programmers are responsible to
