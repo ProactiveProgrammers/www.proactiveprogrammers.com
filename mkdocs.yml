@@ -37,6 +37,8 @@ theme:
       # - navigation.instant
       # Display tabs for main sections at top of page
       - navigation.tabs
+      # Automatically expand the navigation for each section
+      - navigation.expand
       # Offer a "Back to Top" button when person starts scrolling up on page
       - navigation.top
       # Make search suggestions when using project-wide search
