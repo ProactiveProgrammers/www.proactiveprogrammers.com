@@ -7,6 +7,6 @@
     be confident that your program is good, and adhering to quality control
     processes that ensure if a mistake has been made &mdash; everybody makes
     mistakes &mdash; it is found and rectifies before it causes harm." She also
-    writes that ethical programming also means that you shoud be "a decent human
+    writes that ethical programming also means that you should be "a decent human
     being".
 
