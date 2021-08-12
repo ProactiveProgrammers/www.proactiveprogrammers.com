@@ -26,4 +26,6 @@ The HTML specification is maintained by the W3C and describes the HTTP approach.
 
 --8<-- "includes/admonitions/admonish-names.md"
 
+--8<-- "includes/admonitions/admonish-git.md"
+
 --8<-- "includes/questions.md"
