@@ -20,8 +20,11 @@ taxonomy's levels and programming tasks.[^2]
 - **Remembering**: Exhibit memory of previously learned material by recalling
   facts, terms, basic concepts, and answers.
 
-    * **Keywords**: recognize, list, describe, name, find.
-    * **Example**: 
+    * **Keywords**: recognize, list, describe, name, and find.
+    * **Example**: Run a program that performs a numerical calculation, find the
+      iteration construct used in the program, observe its output when run in
+      the terminal window, and use a text editor to describe why the program
+      produces this output.
 
 - **Understanding**:
 
