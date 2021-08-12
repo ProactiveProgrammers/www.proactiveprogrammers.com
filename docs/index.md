@@ -44,6 +44,7 @@ your bug reports and suggestions for improving the platform.
 *Okay, let's become proactive programmers so that we can put the PRO in
 programmer!*
 
-[^1]: See Merriam-Webster's definition of
-  [proactive](https://www.merriam-webster.com/dictionary/proactive) for more
-  details and examples of sentences that use this word.
+[^1]: See Merriam-Webster for the definition of
+  "[proactive](https://www.merriam-webster.com/dictionary/proactive)" and
+  examples of sentences using the word. What do you think are the
+  characteristics of a proactive programmer?
