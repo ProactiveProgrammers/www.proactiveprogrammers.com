@@ -162,3 +162,7 @@ nav:
     - Bloom's Taxonomy: proactive-learning/blooms-taxonomy.md
     - Assignment Types: proactive-learning/assignment-types.md
     - Assessment Strategy: proactive-learning/assessment-strategy.md
+  - Data Abstraction:
+    - Introduction: data-abstraction/introduction-data-abstraction.md
+    - Engineering Efforts:
+      - Software Tools: data-abstraction/engineering-efforts/software-tools.md
