@@ -183,9 +183,12 @@ nav:
     - Source Code Surveys:
       - Averaging Values: discrete-structures/source-code-surveys/averaging-values.md
       - File Searching: discrete-structures/source-code-surveys/file-searching.md
+      - Approximate Roots: discrete-structures/source-code-surveys/approximate-roots.md
     - Programming Projects:
       - Temperature Conversion: discrete-structures/programming-projects/temperature-conversion.md
       - Contact Searching: discrete-structures/programming-projects/contact-searching.md
+      - Factorial Numbers: discrete-structures/programming-projects/factorial-numbers.md
     - Engineering Efforts:
       - Software Tools: discrete-structures/engineering-efforts/software-tools.md
       - Quadratic Roots: discrete-structures/engineering-efforts/quadratic-roots.md
+      - Iterative Exponentiation: discrete-structures/engineering-efforts/iterative-exponentiation.md
