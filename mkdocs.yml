@@ -39,7 +39,7 @@ theme:
       - navigation.tabs
       # Automatically expand the navigation for each section
       # Note that this might not be suitable for courses with many assignments
-      - navigation.expand
+      # - navigation.expand
       # Offer a "Back to Top" button when person starts scrolling up on page
       - navigation.top
       # Make search suggestions when using project-wide search
