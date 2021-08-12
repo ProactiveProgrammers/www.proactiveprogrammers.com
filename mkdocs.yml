@@ -96,7 +96,6 @@ markdown_extensions:
     # Support inserting special characters with greater ease
     - pymdownx.smartsymbols
 
-
 # Install plugins
 plugins:
   - search
