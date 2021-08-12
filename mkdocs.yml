@@ -164,7 +164,7 @@ nav:
     - Assessment Strategy: proactive-learning/assessment-strategy.md
   - Data Abstraction:
     - Introduction: data-abstraction/introduction-data-abstraction.md
-    - Learning Objectives: data-abstraction/learning-objectives-discrete-structures.md
+    - Learning Objectives: data-abstraction/learning-objectives-data-abstraction.md
     - Source Code Surveys:
       - Number Squaring: data-abstraction/source-code-surveys/number-squaring.md
       - Primality Testing: data-abstraction/source-code-surveys/primality-testing.md
