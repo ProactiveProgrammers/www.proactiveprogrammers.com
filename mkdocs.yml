@@ -144,9 +144,9 @@ nav:
   - Proactive Skills:
     - Technical Skills:
       - Introduction: proactive-skills/technical-skills/introduction-technical-skills.md
+      - Using Terminal: proactive-skills/technical-skills/using-terminal.md
       - Using Docker: proactive-skills/technical-skills/using-docker.md
       - Using Git: proactive-skills/technical-skills/using-git.md
-      - Using Terminal: proactive-skills/technical-skills/using-terminal.md
     - Professional Skills:
       - Introduction: proactive-skills/professional-skills/introduction-professional-skills.md
       - Effective Communication: proactive-skills/professional-skills/effective-communication.md
