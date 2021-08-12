@@ -33,10 +33,15 @@ theme:
       accent: orange
   # Enable features that are built-in to material for mkdocs
   features:
+      # Create a single-page application with faster loading evident
       # Note that this option prohibits the rendering of mathematics
-      # - navigation.instant
+      # It is perhaps the case that instant does not break MathJax?
+      - navigation.instant
       # Display tabs for main sections at top of page
       - navigation.tabs
+      # Automatically expand the navigation for each section
+      # Note that this might not be suitable for courses with many assignments
+      # - navigation.expand
       # Offer a "Back to Top" button when person starts scrolling up on page
       - navigation.top
       # Make search suggestions when using project-wide search
@@ -86,6 +91,18 @@ markdown_extensions:
               format: !!python/name:pymdownx.superfences.fence_div_format
     # Enable source code and admonitions to be tabbed
     - pymdownx.tabbed
+    # Provide support for more intelligent emphasis and bolding
+    - pymdownx.betterem:
+        smart_enable: all
+    # Support highlighting of text and super- and sub-scripts
+    - pymdownx.caret
+    - pymdownx.mark
+    - pymdownx.tilde
+    # Support inserting special characters with greater ease
+    - pymdownx.smartsymbols
+    # Support the creation of customizable task lists
+    - pymdownx.tasklist:
+        custom_checkbox: true
 
 # Install plugins
 plugins:
@@ -122,3 +139,62 @@ extra_css:
 extra_javascript:
   - https://polyfill.io/v3/polyfill.min.js?features=es6
   - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+
+# Page tree that defines the navigation structure
+nav:
+  - Home: index.md
+  - Proactive Skills:
+    - Technical Skills:
+      - Introduction: proactive-skills/technical-skills/introduction-technical-skills.md
+      - Using VS Code: proactive-skills/technical-skills/using-vscode.md
+      - Using Markdown: proactive-skills/technical-skills/using-markdown.md
+      - Using Terminal: proactive-skills/technical-skills/using-terminal.md
+      - Using Docker: proactive-skills/technical-skills/using-docker.md
+      - Using GitHub: proactive-skills/technical-skills/using-git.md
+      - Python Programming: proactive-skills/technical-skills/python-programming.md
+      - Python Packages: proactive-skills/technical-skills/python-packages.md
+    - Professional Skills:
+      - Introduction: proactive-skills/professional-skills/introduction-professional-skills.md
+      - Effective Communication: proactive-skills/professional-skills/effective-communication.md
+      - Time Management: proactive-skills/professional-skills/time-management.md
+      - Reading Documentation: proactive-skills/professional-skills/reading-documentation.md
+  - Proactive Community:
+    - Introduction: proactive-community/introduction-proactive-community.md
+    - Technical Resources: proactive-community/technical-resources.md
+    - Professional Resources: proactive-community/professional-resources.md
+    - Community Connections: proactive-community/community-connections.md
+  - Proactive Learning:
+    - Introduction: proactive-learning/introduction-proactive-learning.md
+    - Bloom's Taxonomy: proactive-learning/blooms-taxonomy.md
+    - Assignment Types: proactive-learning/assignment-types.md
+    - Assessment Strategy: proactive-learning/assessment-strategy.md
+  - Data Abstraction:
+    - Introduction: data-abstraction/introduction-data-abstraction.md
+    - Learning Objectives: data-abstraction/learning-objectives-data-abstraction.md
+    - Source Code Surveys:
+      - Number Squaring: data-abstraction/source-code-surveys/number-squaring.md
+      - Primality Testing: data-abstraction/source-code-surveys/primality-testing.md
+      - Exhaustive Enumeration: data-abstraction/source-code-surveys/exhaustive-enumeration.md
+    - Programming Projects:
+      - Iteration Comparison: data-abstraction/programming-projects/iteration-comparison.md
+      - Maximum Detection: data-abstraction/programming-projects/maximum-detection.md
+      - Bisection Search: data-abstraction/programming-projects/bisection-search.md
+    - Engineering Efforts:
+      - Software Tools: data-abstraction/engineering-efforts/software-tools.md
+      - Repairing Iteration: data-abstraction/engineering-efforts/repairing-iteration.md
+      - Newton-Raphson Method: data-abstraction/engineering-efforts/newtons-method.md
+  - Discrete Structures:
+    - Introduction: discrete-structures/introduction-discrete-structures.md
+    - Learning Objectives: discrete-structures/learning-objectives-discrete-structures.md
+    - Source Code Surveys:
+      - Averaging Values: discrete-structures/source-code-surveys/averaging-values.md
+      - File Searching: discrete-structures/source-code-surveys/file-searching.md
+      - Approximate Roots: discrete-structures/source-code-surveys/approximate-roots.md
+    - Programming Projects:
+      - Temperature Conversion: discrete-structures/programming-projects/temperature-conversion.md
+      - Contact Searching: discrete-structures/programming-projects/contact-searching.md
+      - Factorial Numbers: discrete-structures/programming-projects/factorial-numbers.md
+    - Engineering Efforts:
+      - Software Tools: discrete-structures/engineering-efforts/software-tools.md
+      - Quadratic Roots: discrete-structures/engineering-efforts/quadratic-roots.md
+      - Iterative Exponentiation: discrete-structures/engineering-efforts/iterative-exponentiation.md
