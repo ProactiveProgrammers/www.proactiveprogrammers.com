@@ -20,7 +20,18 @@ programming knowledge and skills in a systematic and scaffolded fashion.
 
 - **Source Code Surveys** connect to the **remember** and **understanding**
   levels of Bloom's taxonomy and invite learners to build a basic understanding
-  of the building blocks of programs. Aimed at ensuring that you can remember
-  and understand how programming language constructs and the functions in a
-  program work, these projects ask you to run a program, observe its output, and
-  describe its source source through technical writing.
+  of the building blocks of programs. Aimed at helping you to remember and
+  understand how programming language constructs and a program's functions work,
+  these projects ask you to run a program, observe its output, and describe its
+  source source through technical writing.
+
+- **Programming Projects** connect to the **applying** and **analyzing** levels
+  of Bloom's taxonomy and encourage learners to complete programming tasks
+  designed to ensure that they can effectively build a program by comparing and
+  contrasting different solutions and picking the best one for a given problem.
+
+- **Engineering Efforts** connect to the **evaluating** and **creating** levels
+  of Bloom's taxonomy by asking learners to design, implement, test, and
+  document programs that innovatively solve a problem. These projects help you
+  to hone the skills of proposing, creating, assessing, and improving a complete
+  software product.
