@@ -38,7 +38,8 @@ Server](https://discord.gg/kjah8MFYbR) (for all learners).
 
 Before you dive into the projects on this site, let's first consider how
 different types of learning exhibit different levels of cognitive difficulty and
-how your completed projects will be assessed depending on how you are learning.
+how the projects you complete will be assessed depending on your learning
+context.
 
 [^1]: Check out the paper [The Eighty Five Percent Rule for Optimal
   Learning](https://www.nature.com/articles/s41467-019-12552-4) that [Robert
