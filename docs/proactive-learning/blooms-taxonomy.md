@@ -17,7 +17,7 @@ amount of cognitive complexity to those that have the most. Ready to see
 examples of programming projects and how they connect to Bloom's taxonomy? Using
 direct quotes from [Greg Wilson](https://third-bit.com/)'s book called [Teaching
 Tech Together](https://teachtogether.tech/), let's describe the taxonomy's
-levels and example programming tasks.[^2] It's worth noting that many of the
+"levels" and "verbs" and give task examples.[^2] It's worth noting that many of the
 examples in this list will require the design and implementation of a program,
 which is normally the domain of the **creating** level. Since the study of
 proactive programming often requires the creation of source code, this task is
