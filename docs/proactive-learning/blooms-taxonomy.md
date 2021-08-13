@@ -9,7 +9,7 @@ projects on this site were designed in terms of the learning type that they
 support and the complexity of the tasks they ask you to complete.[^1] While you
 may be thinking that this is only a topic for teachers, it turns out that
 knowing the basics of this taxonomy is also helpful for learners! For instance,
-this site creates assignments and learning objectives that are connected to
+this site features assignments and learning objectives that are connected to
 specific levels in this taxonomy.
 
 Don't forget that these levels are organized from those that have the least
@@ -21,8 +21,8 @@ levels and example programming tasks.[^2] It's worth noting that many of the
 examples in this list will require the design and implementation of a program,
 which is normally the domain of the **creating** level. Since the study of
 proactive programming often requires the creation of source code, this task is
-supported with instructor-provided programs at less complex levels and done by
-the learner when more cognitive difficulty is expected.
+supported with instructor-provided programs at less difficult levels and done
+by the learner when more cognitive challenge is appropriate.
 
 - **Remembering**: "Exhibit memory of previously learned material by recalling
   facts, terms, basic concepts, and answers."
