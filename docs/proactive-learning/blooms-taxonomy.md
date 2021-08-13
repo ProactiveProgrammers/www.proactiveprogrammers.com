@@ -71,8 +71,8 @@ by the learner when more cognitive challenge is appropriate.
       design, implementation, and user interface, create and evaluate a software
       tool that computes and visualizes the numbers in the Collatz sequence.
 
-- **Creating**: Compile information together in a different way by
-    combining elements in a new pattern or proposing alternative solutions.
+- **Creating**: "Compile information together in a different way by
+    combining elements in a new pattern or proposing alternative solutions."
 
     * **Keywords**: design, construct, improve, adapt, maximize, solve.
     * **Example**: After collecting information about the efficiency of
