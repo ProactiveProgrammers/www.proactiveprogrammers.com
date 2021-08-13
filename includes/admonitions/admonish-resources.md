@@ -6,7 +6,7 @@
     this site, make sure that you raise an issue in the [GitHub Issue
     Tracker](https://github.com/ProactiveProgrammers/www.proactiveprogrammers.com/issues).
     If you have a detailed question about any of the projects on this site, you
-    are invited to post in the [GitHub Discussions
+    are invited to post in it the [GitHub Discussions
     Forum](https://github.com/ProactiveProgrammers/www.proactiveprogrammers.com/discussions).
     If you want to have a quick discussion about a technical topic then you can
     ask it in the [Slack Workspace](https://proactiveprogrammers.slack.com) (for
