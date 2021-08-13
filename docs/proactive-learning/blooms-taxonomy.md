@@ -82,6 +82,9 @@ by the learner when more cognitive challenge is appropriate.
       uniqifier so that it offers the best possible efficiency for a variety of
       inputs.
 
+Okay, let's explore how the types of assignments that you will complete are
+connected to these levels of learning in Bloom's taxonomy!
+
 [^1]: See [Robert Talbert](https://rtalbert.org/)'s article [Re-thinking Bloom's
   Taxonomy for Flipped Learning
   Design](https://rtalbert.org/re-thinking-blooms-taxonomy-for-flipped-learning-design/)
