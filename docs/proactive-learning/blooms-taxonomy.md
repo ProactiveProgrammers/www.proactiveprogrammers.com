@@ -47,10 +47,10 @@ by the learner when more cognitive challenge is appropriate.
     techniques, and rules in a different way."
 
     * **Keywords**: build, identify, use, plan, select.
-    * **Example**: Leveraging existing knowledge about file input and parsing,
-      select from existing functions to implement a program that iteratively
-      searches a contact database for details about the individuals in someone's
-      professional network.
+    * **Example**: Leveraging previously acquired knowledge about file input and
+      parsing, select from existing functions to implement a program that
+      iteratively searches a contact database for details about the individuals
+      in someone's professional network.
 
 - **Analyzing**: "Examine and break information into parts by identifying
     motives or causes; make inferences and find evidence to support
@@ -77,9 +77,10 @@ by the learner when more cognitive challenge is appropriate.
     * **Keywords**: design, construct, improve, adapt, maximize, solve.
     * **Example**: After collecting information about the efficiency of
       different ways to uniqify a list, engineer a benchmarking framework that
-      can run experiments to evaluate each approach. As the use of this
-      framework to helps to identify the best method, adapt each one so that it
-      offers the best possible efficiency for a variety of inputs.
+      can run experiments to evaluate each approach. As the use of these
+      benchmarks aids the identification of the best method, adapt each
+      uniqifier so that it offers the best possible efficiency for a variety of
+      inputs.
 
 [^1]: See [Robert Talbert](https://rtalbert.org/)'s article [Re-thinking Bloom's
   Taxonomy for Flipped Learning
