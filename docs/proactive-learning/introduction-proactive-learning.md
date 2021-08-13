@@ -40,7 +40,8 @@ Before you dive into the projects on this site, let's first consider how
 different types of learning exhibit different levels of cognitive difficulty and
 how your completed projects will be assessed depending on how you are learning.
 
-[^1]: Wilson, R.C., Shenhav, A., Straccia, M. et al. [The Eighty Five Percent
-Rule for Optimal
-Learning](https://www.nature.com/articles/s41467-019-12552-4). Nature
-Communications 10, 4646 (2019).
+[^1]: Check out the paper [The Eighty Five Percent Rule for Optimal
+  Learning](https://www.nature.com/articles/s41467-019-12552-4) that [Robert
+  Wilson](https://psychology.arizona.edu/users/robert-wilson) published as the
+  lead author. After reading this article, do you think that the behavior of
+  machine learning algorithms can surface insights about human learning?
