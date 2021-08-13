@@ -17,3 +17,10 @@ This site teaches proactive programming through three different types of
 programming projects, each of which is connected to two of the levels in
 [Bloom's Taxonomy](bloms-taxonomy.md) and therefore designed to develop your
 programming knowledge and skills in a systematic and scaffolded fashion.
+
+- **Source Code Surveys** connect to the **remember** and **understanding**
+  levels of Bloom's taxonomy and invite learners to build a basic understanding
+  of the building blocks of programs. Aimed at ensuring that you can remember
+  and understand how programming language constructs and the functions in a
+  program work, these projects ask you to run a program, observe its output, and
+  describe its source source through technical writing.
