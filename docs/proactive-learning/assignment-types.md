@@ -35,3 +35,27 @@ programming knowledge and skills in a systematic and scaffolded fashion.
   document programs that innovatively solve a problem. These projects help you
   to hone the skills of proposing, creating, assessing, and improving a complete
   software product.
+
+Okay, sometimes the lines blur between these three types of assignments! With
+that said, it should be clear that a source code survey is very different than
+an engineering effort in that the former requires a learner to run a program and
+observe its output while the later asks a person to create and evaluate a
+complete program.
+
+It's also worth noting that, for this purposes of this site's projects, a
+programming project normally involves the implementation and testing of fewer
+(and often less complex) source code lines than the program created as part of
+an engineering effort. Since projects in the engineering effort category focus
+on the creation and evaluation of programs, they also call for learners to
+complete technical writing tasks that are more thorough than those that are a
+part of either a programming project or an source code survey.
+
+Still a little confused? Unconvinced that this focus on proactive learning is
+important? Don't check out until you complete some projects in fields like [data
+abstraction](data-abstraction/introduction-data-abstraction.md) and [discrete
+structures](discrete-structures/introduction-discrete-structures.md)! Also,
+don't forget: if you have some ideas for improve this content you can share them
+in the [GitHub Issue
+Tracker](https://github.com/ProactiveProgrammers/www.proactiveprogrammers.com/issues)
+or in the [GitHub Discussions
+Forum](https://github.com/ProactiveProgrammers/www.proactiveprogrammers.com/discussions).
