@@ -155,15 +155,16 @@ technical topics developed as part of the project.
 The instructor will convert the specification-based grades that a learner
 received to a numerical grade for each type of assignment. The following example
 illustrates the calculation of a grade under the simplifying assumption that
-there are three of each type of assignment with the following grades:
+there are three of each type of assignment with the grade(s) given next to the
+name of the assignment:
 
 ### Engineering Efforts
 
 - Assignment One: 100%, :fontawesome-solid-check:, :fontawesome-solid-check:, :fontawesome-solid-times:
 - Assignment Two: 81%, :fontawesome-solid-times:, :fontawesome-solid-check:, :fontawesome-solid-times:
-- Assignment Three: 95%, ❌, ✔, ✔
+- Assignment Three: 95%, :fontawesome-solid-times:, :fontawesome-solid-check:, :fontawesome-solid-check:
 
-Laboratory Assignment Grade:
+**Calculation Example**
 
 - Assignment One:
 
@@ -193,11 +194,13 @@ Laboratory Assignment Grade:
           73.767
   ```
 
-### Practical Assignments
+### Programming Projects
 
-- Assignment One: ✔
-- Assignment Two: ❌
-- Assignment Three: ❌
+- Assignment One: :fontawesome-solid-check:
+- Assignment Two: :fontawesome-solid-times:
+- Assignment Three: :fontawesome-solid-times:
+
+**Calculation Example**
 
 - Overall:
 
@@ -206,11 +209,13 @@ Laboratory Assignment Grade:
         33.33
   ```
 
-### Technical Challenges
+### Source Code Survey
 
-- Assignment One: ✔
-- Assignment Two: ✔
-- Assignment Three: ✔
+- Assignment One: :fontawesome-solid-check:
+- Assignment Two: :fontawesome-solid-check:
+- Assignment Three: :fontawesome-solid-check:
+
+**Calculation Example**
 
 - Overall:
 
@@ -219,25 +224,12 @@ Laboratory Assignment Grade:
         100.00
   ```
 
-## Grading Percentages
+## Grade Questions
 
-- Technical Assessments: 10%
-- Midterm Examination: 10%
-- Final Examination: 10%
-- Technical Challenges: 10%
-- Practical Assignments: 30%
-- Laboratory Assignments: 30%
-
-Please note that these grading percentages supersede those originally specified
-in the course syllabus.
-
-## Questions About Your Grade
-
-Before asking the course instructor a question about the calculation of your
-either assignment grades or your overall grade, please make sure that you have
+Before asking the instructor a question about the calculation of either your
+assignment grades or your overall course grade, please make sure that you have
 already consulted the GitHub repository for each assignment to see your grades
-and then calculated your grade using this approach outlined in this document.
-The course instructor will use your calculations to support the discussion of
-any questions that you have about how to calculate either your grade for the
-technical challenges, laboratory assignments, and practical assignments or your
-overall grade for the course.
+and then calculated your grade using this approach outlined in this section. The
+instructor will use your calculations to support the discussion of any questions
+that you have about how to calculate either your grade for a project or your
+overall grade for a course.
