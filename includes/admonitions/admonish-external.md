@@ -9,7 +9,7 @@
     [GitHub plan](https://github.com/pricing). With that said, learners not
     enrolled at Allegheny College have free access to all of the assignments on
     this site! They can also create a GitHub repository for each project that
-    completely integrates with an automated assessment tool that gives them
-    rapid feedback about the correctness of their solution. Finally, all
+    completely integrates with an automated assessment tool designed to give
+    them rapid feedback about the correctness of their solution. Finally, all
     learners are invited to join this site's [Discord
     Server](https://discord.gg/kjah8MFYbR) and discuss each of the assignments!
