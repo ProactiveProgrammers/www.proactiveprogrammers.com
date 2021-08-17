@@ -23,12 +23,14 @@ needs, or changes".[^1]
 As they ethically engineer an efficient and correct program that is properly
 designed, documented, tested, and maintained, proactive programmers are
 **responsible** to **themselves**, to the others in their **team**, and to the
-**people** who rely on their software. Does this sounds challenging? It sure is!
-Will you make mistakes along the way to emerging as a proactive programmer? Of
-course! Are there many benefits to being a proactive programmer? Yes, there are!
-If you want to learn more about the principles and practices of proactive
+**people** who rely on their software. Does this sounds challenging? It sure
+is! Will you make mistakes along the way to emerging as a proactive programmer?
+Of course! Are there many benefits to being a proactive programmer? Yes, there
+are! If you want to learn more about the principles and practices of proactive
 programming, you should study this site's description of proactive skills and
-complete the projects in the fields of data abstraction and discrete structures.
+complete the projects in the fields like [data
+abstraction](data-abstraction/introduction-data-abstraction.md) and [discrete
+structures](discrete-structures/introduction-discrete-structures.md).
 
 Are you **nervous** about getting started or **afraid** that becoming a
 proactive programmer will prove to be too overwhelming? Don't worry, you can
