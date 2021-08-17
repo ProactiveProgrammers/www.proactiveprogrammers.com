@@ -63,10 +63,15 @@ effort will have the following components:
   in the GitHub repository pass both the GatorGrader checks and the additional
   checks encoded in the configuration of GitHub Actions.
 
-- **Technical Knowledge and Skill Mastery of Either ✔  or ❌**: Students will
-  also receive a checkmark grade when the GitHub repository reveals that they
-  have mastered all of the technical knowledge and skills developed during the
-  completion of the laboratory assignment. As a part of this grade, the
-  instructor will assess aspects of the project including, but not limited to,
-  the use of effective Python source code comments, correct Git commit messages,
-  and accurate responses to the technical writing questions.
+- **Technical Knowledge and Skill Mastery of Either :fontawesome-solid-check:
+  or :fontawesome-solid-times:**: An engineering effort will also receive a
+  checkmark grade when the content of the GitHub repository reveals the mastery
+  of the technical knowledge and skills developed during the completion of the
+  project. As a part of this grade, the instructor will assess aspects of the
+  project including, but not limited to, the demonstration of the mastery of
+  the specific
+  [technical](../../proactive-skills/technical-skills/introduction-technical-skills/)
+  and
+  [professional](../../proactive-skills/professional-skills/introduction-professional-skills/)
+  skills associated with proactive programming and the accuracy of the
+  responses to the technical writing questions.
