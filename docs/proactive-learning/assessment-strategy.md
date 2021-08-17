@@ -134,20 +134,15 @@ survey. As long as a learner's work passes all of the GatorGrader checks before
 an assignment's deadline, they will receive full credit for that part of an
 assignment's grade. After the deadline for project submission, all grades for a
 project will be reported through a student's GitHub repository using messages in
-the GitHub repository's commit log, issues raised in the issue tracker, or
-comments on a pull request in the GitHub repository. Learners should ask
-questions about their grade for a project on GitHub so as to facilitate an
-effective conversation about the submitted deliverables and to ensure that a
-learner can ultimately master all of the technical knowledge and skills
-developed as part of that assignment's exploration of a specific topic in the
-field of discrete structures.
+the GitHub repository's commit log, issues raised in the issue tracker, and
+comments on a pull request in the GitHub repository.
 
 ## Assignment Discussion
 
 Learners who wish to receive feedback on their work for any graded assignment
-should ask questions in the same region of Github where the instructor gave the
-assignment's grade. For example, if the instructor submits the grade to a pull
-request in the repository for an engineering effort, then you should ask
+should ask questions in the same region of Github where the instructor shared
+the assignment's grade. For example, if the instructor shares the grade in a
+pull request in the repository for an engineering effort, then you should ask
 questions about your grade in that pull request, bearing in mind the need to
 @-mention the instructor in the body of your comment. Learners can continue to
 discuss the graded assignment with the instructor until they understand all the
