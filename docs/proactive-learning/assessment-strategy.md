@@ -114,3 +114,44 @@ discrete structures as evidenced by:
   only be a :fontawesome-solid-check: if the source code and program output
   exist in the repository and the program output and the written responses pass
   any checks run in GitHub Actions.
+
+## Advance Feedback
+
+Students who wish to receive feedback on their work for any course assignment
+should first open an issue on the issue tracker for their assignment's GitHub
+repository, giving an appropriate title and description for the type of feedback
+that you would like the course instructor to provide. After creating this issue,
+you will see that GitHub has created a unique web site that references it. To
+alert the course instructor to the fact that the issue was created and that you
+want feedback on your work, please send it to him by a Slack direct message at
+least 24 hours in advance of the project's due date. After the instructor
+responds to the issue, please resolve all of the stated concerns and participate
+in the discussion until the issue is resolved and ultimately marked as closed.
+
+## Assessment Delivery
+
+The course instructor invites students to incrementally complete all of the
+learning objectives for a technical challenge, laboratory assignment, and
+practical assignment. As long as your work passes all of the GatorGrader checks
+before an assignment's deadline, you will receive full credit for that part of
+your assignment grade. After the deadline for project submission, all grades for
+the course projects will be reported through a student's GitHub repository using
+either messages in the GitHub repository's commit log, issues raised in the
+issue tracker, or comments on a pull request in the GitHub repository. Students
+should ask questions about their grade for any project on GitHub so as to
+facilitate an effective conversation about the submitted deliverables and to
+ensure that a student can ultimately master all of the technical knowledge and
+skills developed as part of that assignment's exploration of a specific topic in
+the field of discrete structures.
+
+## Assignment Discussion
+
+Students who wish to receive feedback on their work for any graded course
+assignment should leave question in the same region of Github where the course
+instructor submitted the assignment's grade. For example, if the instructor
+submits your grade to a pull request in your repository for a laboratory
+assignment, then you should ask questions about your grade in that pull request,
+bearing in mind the need to @-mention the course instructor in the body of your
+comment. Students can continue to discuss the graded assignment with the course
+instructor until they understand all the technical topics that were the
+focus of the particular assignment.
