@@ -10,14 +10,19 @@ materials and submit the final version of each assignment.
 
 Learners will receive rapid feedback on their work through a tool called
 [GatorGrader](https://github.com/GatorEducator/gatorgrader). The instructor will
-define GatorGrader checks for each type of assignment and your job will be to
-use a programming language, like Python, to implement a complete solution that
-passes all of the GatorGrader checks. In addition to running the GatorGrader
-tool on your laptop, learners will see the results from running GatorGrader
-checks in the [GitHub Actions](https://github.com/features/actions) continuous
-integration environment.
+define GatorGrader checks for each type of assignment. A learner's job will be
+to use a programming language, like Python, to implement a complete solution
+that passes all of the GatorGrader checks. Learners should also complete writing
+tasks that demonstrate their knowledge of the technical knowledge and skills
+developed as part of an assignment. In addition to running the GatorGrader tool
+on their laptop, learners will see the results from running GatorGrader checks
+in the continuous integration environment called [GitHub
+Actions](https://github.com/features/actions).
 
-Each [assignment type](assignment-types.md) has its own assessment strategy!
+A learner will receive a separate GitHub repository for each engineering effort
+and programming project while all of the source code surveys will exist in a
+single GitHub repository. Moreover, each [assignment type](assignment-types.md)
+has its own assessment strategy!
 
 --8<-- "includes/admonitions/admonish-external.md"
 
@@ -25,11 +30,11 @@ Each [assignment type](assignment-types.md) has its own assessment strategy!
 
 Leveraging the principles of [specification-based
 grading](https://www.amazon.com/Specifications-Grading-Restoring-Motivating-Students/dp/1620362422),
-the grade that a student receives on an engineering effort will be based on
+the grade that a learner receives on an engineering effort will be based on
 whether or not it meets the standards for technical work in the fields of
-discrete structures. Instead of receiving a single numerical or letter grade
-for this assignment, the grade for an engineering effort will have the
-  following components:
+discrete structures. Instead of receiving a single numerical or letter grade for
+this assignment, the grade for an engineering effort will have the following
+components:
 
 - **Percentage of Correct GatorGrader Checks Ranging Between 0 and 100**: The
   submitted Python program must pass all of GatorGrader's checks by, for
@@ -63,35 +68,49 @@ for this assignment, the grade for an engineering effort will have the
   in the GitHub repository pass both the GatorGrader checks and the additional
   checks encoded in the configuration of GitHub Actions.
 
-- **Technical Knowledge and Skill Mastery of Either :fontawesome-solid-check:
-  or :fontawesome-solid-times:**: An engineering effort will also receive a
-  checkmark grade when the content of the GitHub repository reveals the mastery
-  of the technical knowledge and skills developed during the completion of the
-  project. As a part of this grade, the instructor will assess aspects of the
-  project including, but not limited to, the demonstration of the mastery of
-  the specific
+- **Overall Technical Knowledge and Skill Mastery of Either
+  :fontawesome-solid-check: or :fontawesome-solid-times:**: An engineering
+  effort will also receive a checkmark grade when the content of the GitHub
+  repository reveals the mastery of the technical knowledge and skills developed
+  during the completion of the project. As a part of this grade, the instructor
+  will assess aspects of the project including, but not limited to, the
+  demonstration of the mastery of the specific
   [technical](../../proactive-skills/technical-skills/introduction-technical-skills/)
   and
   [professional](../../proactive-skills/professional-skills/introduction-professional-skills/)
-  skills associated with proactive programming and the accuracy of the
-  responses to the technical writing questions.
+  skills associated with proactive programming and the accuracy of the responses
+  to the technical writing questions.
 
 ## Programming Projects
 
 Again leveraging the principles of [specification-based
 grading](https://www.amazon.com/Specifications-Grading-Restoring-Motivating-Students/dp/1620362422),
-the grade that a student receives on programming project will be based on
+the grade that a learner receives on a programming project will be based on
 whether or not it meets the standards for technical work in the fields of
 discrete structures as evidenced by:
 
 - **GitHub Actions Build Status of Either :fontawesome-solid-check: or
-  :fontawesome-solid-times::** Since additional checks on the Python source
-  code and technical writing are encoded in GitHub Action workflows and,
-  moreover, all of the GatorGrader checks are also run in GitHub Actions, a
-  programming project will receive a checkmark grade if the last
-  before-the-deadline build in GitHub Actions passes and a
+  :fontawesome-solid-times::** A programming project will receive a checkmark
+  grade if the last before-the-deadline build in GitHub Actions passes and a
   :fontawesome-solid-check: appears in the GitHub commit log instead of an
   :fontawesome-solid-times:. The build status reported by GitHub Actions will
   only be a :fontawesome-solid-check: if the source code and technical writing
   in the GitHub repository pass both the GatorGrader checks and the additional
-  checks encoded in the configuration of GitHub Actions.
+  checks pass in GitHub Actions.
+
+## Source Code Surveys
+
+Again leveraging the principles of [specification-based
+grading](https://www.amazon.com/Specifications-Grading-Restoring-Motivating-Students/dp/1620362422),
+the grade that a learner receives on a source code survey will be based on
+whether or not it meets the standards for technical work in the fields of
+discrete structures as evidenced by:
+
+- **GitHub Actions Build Status of Either :fontawesome-solid-check: or
+  :fontawesome-solid-times::** A source code survey will receive a checkmark
+  grade if the last before-the-deadline build in GitHub Actions passes and a
+  :fontawesome-solid-check: appears in the GitHub commit log instead of an
+  :fontawesome-solid-times:. The build status reported by GitHub Actions will
+  only be a :fontawesome-solid-check: if the source code and program output
+  exist in the repository and the program output and the written responses pass
+  any checks run in GitHub Actions.
