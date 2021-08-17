@@ -11,10 +11,10 @@ showing things that never were nor could be." Wow, that makes programming sound
 really exciting! And, it really is as enervating as Frederick P. Brooks, Jr.
 makes it out to be. With that said, it can be overwhelming &mdash; and even
 counter-productive &mdash; for an emerging proactive programmer to start their
-journey by aiming to complete a useful software tool.
+journey by aiming to complete a major software project.
 
 This site teaches proactive programming through three different types of
-programming projects, each of which is connected to two of the levels in
+programming projects, each of which is connected to two unique levels in
 [Bloom's Taxonomy](blooms-taxonomy.md) and therefore designed to develop your
 programming knowledge and skills in a systematic and scaffolded fashion.
 
@@ -51,11 +51,12 @@ complete technical writing tasks that are more thorough than those that are a
 part of either a programming project or an source code survey.
 
 Still a little confused? Unconvinced that this focus on proactive learning is
-important? Don't check out until you complete some projects in fields like [data
-abstraction](../data-abstraction/introduction-data-abstraction.md) and [discrete
+important? Don't give up until you complete some projects in fields like [data
+abstraction](../data-abstraction/introduction-data-abstraction.md) and
+[discrete
 structures](../discrete-structures/introduction-discrete-structures.md)! Also,
-don't forget: if you have some ideas for improve this content you can share them
-in the [GitHub Issue
+don't forget: if you have some ideas for improving this content you can share
+them in the [GitHub Issue
 Tracker](https://github.com/ProactiveProgrammers/www.proactiveprogrammers.com/issues)
 or in the [GitHub Discussions
 Forum](https://github.com/ProactiveProgrammers/www.proactiveprogrammers.com/discussions).
