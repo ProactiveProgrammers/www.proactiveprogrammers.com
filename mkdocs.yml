@@ -170,6 +170,7 @@ nav:
     - Assessment Strategy: proactive-learning/assessment-strategy.md
   - Data Abstraction:
     - Introduction: data-abstraction/introduction-data-abstraction.md
+    - Course Syllabus: data-abstraction/syllabus-data-abstraction.md
     - Learning Objectives: data-abstraction/learning-objectives-data-abstraction.md
     - Source Code Surveys:
       - Number Squaring: data-abstraction/source-code-surveys/number-squaring.md
@@ -185,6 +186,7 @@ nav:
       - Newton-Raphson Method: data-abstraction/engineering-efforts/newtons-method.md
   - Discrete Structures:
     - Introduction: discrete-structures/introduction-discrete-structures.md
+    - Course Syllabus: discrete-structures/syllabus-discrete-structures.md
     - Learning Objectives: discrete-structures/learning-objectives-discrete-structures.md
     - Source Code Surveys:
       - Averaging Values: discrete-structures/source-code-surveys/averaging-values.md
