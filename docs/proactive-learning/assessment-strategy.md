@@ -233,3 +233,12 @@ and then calculated your grade using this approach outlined in this section. The
 instructor will use your calculations to support the discussion of any questions
 that you have about how to calculate either your grade for a project or your
 overall grade for a course.
+
+## Conclusion
+
+Unsure about how the instructor will assess your work? Unconvinced that this is
+a good approach to project assessment? If you have some ideas for improving the
+assessment strategy please share them in the [GitHub Issue
+Tracker](https://github.com/ProactiveProgrammers/www.proactiveprogrammers.com/issues)
+or the [GitHub Discussions
+Forum](https://github.com/ProactiveProgrammers/www.proactiveprogrammers.com/discussions)!
