@@ -42,24 +42,26 @@ effort will have the following components:
   percentage of GatorGrader checks that automatically pass inside of a GitHub
   Actions build.
 
+- **Technical Writing Mastery of Either :fontawesome-solid-check: or
+  :fontawesome-solid-times:**: The responses to the technical writing questions
+  will receive a :fontawesome-solid-check: when they reveal a mastery of
+  technical writing skills. To receive a checkmark grade, the submitted writing
+  should have correct spelling, grammar, punctuation, and formatting in
+  addition to following the rules of the Markdown language. The technical
+  writing will receive a checkmark grade if the build report from GitHub
+  Actions reveals no detected mistakes in the technical writing.
+
 - **GitHub Actions Build Status of Either :fontawesome-solid-check: or
   :fontawesome-solid-times::** Since additional checks on the Python source
-  code and/or technical writing are encoded in GitHub Action workflows and,
-  moreover, all of the GatorGrader checks are also run in GitHub Actions, your
-  work will receive a checkmark grade if the last before-the-deadline build in
-  GitHub Actions passes and a ✔  appears in the GitHub commit log instead of an
-  ❌. The build status reported by GitHub Actions will only be a ✔ if the
-  source code and technical writing in the GitHub repository pass all of both
-  the GatorGrader checks and the additional checks.
-
-- **Technical Writing Mastery of Either ✔  or ❌**: Students will also receive a
-  ✔ grade when the responses to the technical writing questions presented in the
-  `writing/reflection.md` reveal a mastery of technical writing skills. To
-  receive a checkmark grade, the submitted writing should have correct spelling,
-  grammar, punctuation, and formatting in addition to following the rules of the
-  Markdown language. Your work will receive a ✔ grade for this component
-  if the build report from GitHub Actions reveals that there are no detected
-  mistakes in the technical writing.
+  code and technical writing are encoded in GitHub Action workflows and,
+  moreover, all of the GatorGrader checks are also run in GitHub Actions, an
+  engineering effort will receive a checkmark grade if the last
+  before-the-deadline build in GitHub Actions passes and a
+  :fontawesome-solid-check: appears in the GitHub commit log instead of an
+  :fontawesome-solid-times:. The build status reported by GitHub Actions will
+  only be a :fontawesome-solid-check: if the source code and technical writing
+  in the GitHub repository pass both the GatorGrader checks and the additional
+  checks encoded in the configuration of GitHub Actions.
 
 - **Technical Knowledge and Skill Mastery of Either ✔  or ❌**: Students will
   also receive a checkmark grade when the GitHub repository reveals that they
@@ -68,4 +70,3 @@ effort will have the following components:
   instructor will assess aspects of the project including, but not limited to,
   the use of effective Python source code comments, correct Git commit messages,
   and accurate responses to the technical writing questions.
-
