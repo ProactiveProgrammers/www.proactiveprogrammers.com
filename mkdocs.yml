@@ -186,8 +186,9 @@ nav:
       - Newton-Raphson Method: data-abstraction/engineering-efforts/newtons-method.md
   - Discrete Structures:
     - Introduction: discrete-structures/introduction-discrete-structures.md
-    - Course Syllabus: discrete-structures/syllabus-discrete-structures.md
     - Learning Objectives: discrete-structures/learning-objectives-discrete-structures.md
+    - Course Syllabus: discrete-structures/syllabus-discrete-structures.md
+    - Course Schedule: discrete-structures/schedule-discrete-structures.md
     - Source Code Surveys:
       - Averaging Values: discrete-structures/source-code-surveys/averaging-values.md
       - File Searching: discrete-structures/source-code-surveys/file-searching.md
