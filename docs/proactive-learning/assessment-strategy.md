@@ -31,30 +31,28 @@ has its own assessment strategy!
 Leveraging the principles of [specification-based
 grading](https://www.amazon.com/Specifications-Grading-Restoring-Motivating-Students/dp/1620362422),
 the grade that a learner receives on an engineering effort will be based on
-whether or not it meets the standards for technical work in the fields of
+whether or not it meets the standards for technical work in the field of
 discrete structures. Instead of receiving a single numerical or letter grade for
-this assignment, the grade for an engineering effort will have the following
-components:
+this assignment, the grade for an engineering effort will have these parts:
 
 - **Percentage of Correct GatorGrader Checks Ranging Between 0 and 100**: The
   submitted Python program must pass all of GatorGrader's checks by, for
   instance, ensuring that it produces the correct output and has all of the
-  required characteristics. The technical writing must pass all of
-  GatorGrader's checks about, for instance, the length of its output and its
-  use of the required Markdown language features for technical writing. For
-  this component of the grade for an engineering effort, the project will
-  receive a percentage, ranging from 0 to 100, that corresponds to the
-  percentage of GatorGrader checks that automatically pass inside of a GitHub
-  Actions build.
+  required characteristics. The technical writing must pass all of GatorGrader's
+  checks about, for instance, the length of its output and its use of the
+  required Markdown language features for technical writing. For this component
+  of the grade for an engineering effort, the project will receive a percentage,
+  ranging from 0 to 100, that corresponds to the percentage of GatorGrader
+  checks that automatically pass inside of a GitHub Actions build.
 
 - **Technical Writing Mastery of Either :fontawesome-solid-check: or
   :fontawesome-solid-times:**: The responses to the technical writing questions
-  will receive a :fontawesome-solid-check: when they reveal a mastery of
-  technical writing skills. To receive a checkmark grade, the submitted writing
-  should have correct spelling, grammar, punctuation, and formatting in
-  addition to following the rules of the Markdown language. The technical
-  writing will receive a checkmark grade if the build report from GitHub
-  Actions reveals no detected mistakes in the technical writing.
+  will receive a checkmark when they reveal a mastery of technical writing
+  skills. To receive a checkmark grade, the submitted writing should have
+  correct spelling, grammar, punctuation, and formatting in addition to
+  following the rules of the Markdown language. The technical writing will
+  receive a checkmark grade if the build report from GitHub Actions reveals no
+  detected mistakes in the technical writing.
 
 - **GitHub Actions Build Status of Either :fontawesome-solid-check: or
   :fontawesome-solid-times::** Since additional checks on the Python source
@@ -70,11 +68,11 @@ components:
 
 - **Overall Technical Knowledge and Skill Mastery of Either
   :fontawesome-solid-check: or :fontawesome-solid-times:**: An engineering
-  effort will also receive a checkmark grade when the content of the GitHub
+  effort will also receive a checkmark grade when the contents of the GitHub
   repository reveals the mastery of the technical knowledge and skills developed
-  during the completion of the project. As a part of this grade, the instructor
-  will assess aspects of the project including, but not limited to, the
-  demonstration of the mastery of the specific
+  during the completion of the project. As a part of this assessment, the
+  instructor will evaluate aspects of the project including, but not limited to,
+  the demonstration of the mastery of the specific
   [technical](../../proactive-skills/technical-skills/introduction-technical-skills/)
   and
   [professional](../../proactive-skills/professional-skills/introduction-professional-skills/)
@@ -86,7 +84,7 @@ components:
 Again leveraging the principles of [specification-based
 grading](https://www.amazon.com/Specifications-Grading-Restoring-Motivating-Students/dp/1620362422),
 the grade that a learner receives on a programming project will be based on
-whether or not it meets the standards for technical work in the fields of
+whether or not it meets the standards for technical work in the field of
 discrete structures as evidenced by:
 
 - **GitHub Actions Build Status of Either :fontawesome-solid-check: or
@@ -103,7 +101,7 @@ discrete structures as evidenced by:
 Again leveraging the principles of [specification-based
 grading](https://www.amazon.com/Specifications-Grading-Restoring-Motivating-Students/dp/1620362422),
 the grade that a learner receives on a source code survey will be based on
-whether or not it meets the standards for technical work in the fields of
+whether or not it meets the standards for technical work in the field of
 discrete structures as evidenced by:
 
 - **GitHub Actions Build Status of Either :fontawesome-solid-check: or
@@ -130,15 +128,15 @@ discussion until the issue is resolved and ultimately marked as closed.
 
 ## Assessment Delivery
 
-The instructor invites learners to incrementally complete all of the
-learning objectives for an engineering effort, programming project, and source
-code survey. As long as a learner's work passes all of the GatorGrader checks
-before an assignment's deadline, they will receive full credit for that part of
-an assignment's grade. After the deadline for project submission, all grades for
-a project will be reported through a student's GitHub repository using either
-messages in the GitHub repository's commit log, issues raised in the issue
-tracker, or comments on a pull request in the GitHub repository. Learners should
-ask questions about their grade for a project on GitHub so as to facilitate an
+The instructor invites learners to incrementally complete all of the learning
+objectives for an engineering effort, programming project, and source code
+survey. As long as a learner's work passes all of the GatorGrader checks before
+an assignment's deadline, they will receive full credit for that part of an
+assignment's grade. After the deadline for project submission, all grades for a
+project will be reported through a student's GitHub repository using messages in
+the GitHub repository's commit log, issues raised in the issue tracker, or
+comments on a pull request in the GitHub repository. Learners should ask
+questions about their grade for a project on GitHub so as to facilitate an
 effective conversation about the submitted deliverables and to ensure that a
 learner can ultimately master all of the technical knowledge and skills
 developed as part of that assignment's exploration of a specific topic in the
@@ -147,11 +145,104 @@ field of discrete structures.
 ## Assignment Discussion
 
 Learners who wish to receive feedback on their work for any graded assignment
-should leave question in the same region of Github where the instructor
-submitted the assignment's grade. For example, if the instructor submits the
-grade to a pull request in the repository for an engineering effort, then you
-should ask questions about your grade in that pull request, bearing in mind the
-need to @-mention the instructor in the body of your comment. Learners can
-continue to discuss the graded assignment with the instructor until they
-understand all the technical topics that were the focus of the particular
-assignment.
+should ask questions in the same region of Github where the instructor gave the
+assignment's grade. For example, if the instructor submits the grade to a pull
+request in the repository for an engineering effort, then you should ask
+questions about your grade in that pull request, bearing in mind the need to
+@-mention the instructor in the body of your comment. Learners can continue to
+discuss the graded assignment with the instructor until they understand all the
+technical topics developed as part of the project.
+
+--8<-- "includes/admonitions/admonish-feedback.md"
+
+## Grade Calculation
+
+The instructor will convert the specification-based grades that a learner
+received to a numerical grade for each type of assignment. The following example
+illustrates the calculation of a grade under the simplifying assumption that
+there are three of each type of assignment with the following grades:
+
+### Engineering Efforts
+
+- Assignment One: 100%, :fontawesome-solid-check:, :fontawesome-solid-check:, :fontawesome-solid-times:
+- Assignment Two: 81%, :fontawesome-solid-times:, :fontawesome-solid-check:, :fontawesome-solid-times:
+- Assignment Three: 95%, ❌, ✔, ✔
+
+Laboratory Assignment Grade:
+
+- Assignment One:
+
+  ```
+  (100 + ((1+1+0)/3)*100)/200
+          0.833
+  ```
+
+- Assignment Two:
+
+  ```
+  (81 + ((0+1+0)/3)*100)/200
+         0.572
+  ```
+
+- Assignment Three:
+
+  ```
+  (95 + ((0+1+1)/3)*100)/200
+         0.808
+  ```
+
+- Overall:
+
+  ```
+  (0.833 + 0.572 + 0.808) / 3 * 100
+          73.767
+  ```
+
+### Practical Assignments
+
+- Assignment One: ✔
+- Assignment Two: ❌
+- Assignment Three: ❌
+
+- Overall:
+
+  ```
+  (1+0+0)/3 * 100
+        33.33
+  ```
+
+### Technical Challenges
+
+- Assignment One: ✔
+- Assignment Two: ✔
+- Assignment Three: ✔
+
+- Overall:
+
+  ```
+  (1+1+1)/3 * 100
+        100.00
+  ```
+
+## Grading Percentages
+
+- Technical Assessments: 10%
+- Midterm Examination: 10%
+- Final Examination: 10%
+- Technical Challenges: 10%
+- Practical Assignments: 30%
+- Laboratory Assignments: 30%
+
+Please note that these grading percentages supersede those originally specified
+in the course syllabus.
+
+## Questions About Your Grade
+
+Before asking the course instructor a question about the calculation of your
+either assignment grades or your overall grade, please make sure that you have
+already consulted the GitHub repository for each assignment to see your grades
+and then calculated your grade using this approach outlined in this document.
+The course instructor will use your calculations to support the discussion of
+any questions that you have about how to calculate either your grade for the
+technical challenges, laboratory assignments, and practical assignments or your
+overall grade for the course.
