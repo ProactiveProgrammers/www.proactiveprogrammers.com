@@ -27,9 +27,9 @@ Leveraging the principles of [specification-based
 grading](https://www.amazon.com/Specifications-Grading-Restoring-Motivating-Students/dp/1620362422),
 the grade that a student receives on an engineering effort will be based on
 whether or not it meets the standards for technical work in the fields of
-software engineering and discrete structures. Instead of receiving a single
-numerical or letter grade for this assignment, the grade for an engineering
-effort will have the following components:
+discrete structures. Instead of receiving a single numerical or letter grade
+for this assignment, the grade for an engineering effort will have the
+  following components:
 
 - **Percentage of Correct GatorGrader Checks Ranging Between 0 and 100**: The
   submitted Python program must pass all of GatorGrader's checks by, for
@@ -75,3 +75,23 @@ effort will have the following components:
   [professional](../../proactive-skills/professional-skills/introduction-professional-skills/)
   skills associated with proactive programming and the accuracy of the
   responses to the technical writing questions.
+
+## Programming Projects
+
+Again leveraging the principles of [specification-based
+grading](https://www.amazon.com/Specifications-Grading-Restoring-Motivating-Students/dp/1620362422),
+the grade that a student receives on programming project will be based on
+whether or not it meets the standards for technical work in the fields of
+discrete structures as evidenced by:
+
+- **GitHub Actions Build Status of Either :fontawesome-solid-check: or
+  :fontawesome-solid-times::** Since additional checks on the Python source
+  code and technical writing are encoded in GitHub Action workflows and,
+  moreover, all of the GatorGrader checks are also run in GitHub Actions, a
+  programming project will receive a checkmark grade if the last
+  before-the-deadline build in GitHub Actions passes and a
+  :fontawesome-solid-check: appears in the GitHub commit log instead of an
+  :fontawesome-solid-times:. The build status reported by GitHub Actions will
+  only be a :fontawesome-solid-check: if the source code and technical writing
+  in the GitHub repository pass both the GatorGrader checks and the additional
+  checks encoded in the configuration of GitHub Actions.
