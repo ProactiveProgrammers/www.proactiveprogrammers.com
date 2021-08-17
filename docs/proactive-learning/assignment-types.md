@@ -15,7 +15,7 @@ journey by aiming to complete a useful software tool.
 
 This site teaches proactive programming through three different types of
 programming projects, each of which is connected to two of the levels in
-[Bloom's Taxonomy](bloms-taxonomy.md) and therefore designed to develop your
+[Bloom's Taxonomy](blooms-taxonomy.md) and therefore designed to develop your
 programming knowledge and skills in a systematic and scaffolded fashion.
 
 - **Source Code Surveys** connect to the **remember** and **understanding**
