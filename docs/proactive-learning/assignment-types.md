@@ -59,3 +59,6 @@ in the [GitHub Issue
 Tracker](https://github.com/ProactiveProgrammers/www.proactiveprogrammers.com/issues)
 or in the [GitHub Discussions
 Forum](https://github.com/ProactiveProgrammers/www.proactiveprogrammers.com/discussions).
+
+Okay, now we can learn more about how these types of assignments will be
+assessed!
