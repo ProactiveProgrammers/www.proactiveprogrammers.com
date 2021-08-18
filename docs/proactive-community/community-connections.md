@@ -17,3 +17,9 @@ think!
   accepted answer and help out others who face the same challenge. To get
   started, log into your GitHub account and click the "New discussion" green
   button.
+
+- [Discord Server](https://discord.gg/kjah8MFYbR) provides an way for members of
+  the proactive community to use text and video to chat with each other. To get
+  started, click the link and accept the invitation to join the community. After
+  you have setup your account and connected it to your email address, you can
+  start to participate in the discussion.
