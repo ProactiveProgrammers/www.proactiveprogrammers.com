@@ -33,7 +33,7 @@ to post in the [GitHub Discussions
 Forum](https://github.com/ProactiveProgrammers/www.proactiveprogrammers.com/discussions).
 Or, if you want to have a quick discussion about a technical topic then you can
 ask it in the [Allegheny College Computer Science
-Discord Server](https://discord.gg/3AzphUqEBQ) (for Allegheny College students) or the
+Discord Server](https://discord.gg/CS2h9kXzX6) (for Allegheny College students) or the
 [Proactive Programmers Discord Server](https://discord.gg/kjah8MFYbR) (for all
 learners).
 
