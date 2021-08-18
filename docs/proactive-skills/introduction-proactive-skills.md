@@ -33,7 +33,7 @@ you can't communicate effectively to learn, for instance, what software you need
 to build, who will design and create the different system components, and how
 you should create your own parts of the system.
 
-Okay, dive into some of the technical skills that you will need as a proactive
+Let's dive into some of the technical skills that you will need as a proactive
 programmer!
 
 [^1]: Don't forget to review Merriam-Webster for the definition of
