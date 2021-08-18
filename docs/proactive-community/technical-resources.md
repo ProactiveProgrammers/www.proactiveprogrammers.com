@@ -29,6 +29,21 @@ edit to this page if you have a cool technical community to share!
 
 ## Programming Communities
 
+- [Stack Overflow](https://stackoverflow.com/) is a question and answer site
+  that hosts communities in many technical and professional areas. After reading
+  a question, evaluate the quality of different answers and then try a solution
+  to see if it solves your technical challenge!
+
+- [Reddit](https://www.reddit.com/) is a discussion forum that hosts communities
+  that devoted to many different areas. While this platform hosts
+  less-than-stellar content, some communities are welcoming and provide
+  thoughtful assistance for those facing technical challenges.
+
+- [Real Python](https://realpython.com/) helps people to "learn Python
+  programming, by example" and is useful for learners in courses on this site
+  that require Python programming. The site features up-to-date technical
+  articles with source code examples, diagrams, and illustrations.
+
 ## Independent Contributors
 
 ## Audio Podcasts
