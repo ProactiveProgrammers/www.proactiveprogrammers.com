@@ -17,4 +17,17 @@ Drake](https://victoria.dev/)'s reminder that "[t]he secret to good
 documentation is to write it while you're writing the code. You are your first
 audience. Explain what you're doing to yourself." This means that the community
 of proactive programmers can, as a "second audience", benefit from the wide
-variety of technical posts on personal and company blogs!
+variety of technical posts on personal and company blogs. Here is an exciting
+thought to consider: after investing the time to become a proactive programmer
+you will have the knowledge and skills needed to deploy your own web site and
+featuring articles in which you share what you learned when you overcame a
+tricky technical challenge!
+
+The remainder of this section overviews a few external resources designed to
+help a proactive programmer grow in their technical and professional skills. It
+is worth noting that the lists in the following sections are only starting
+points for your technical and professional growth. If you have some ideas for
+improving these lists of resources you can share them in the [GitHub Issue
+Tracker](https://github.com/ProactiveProgrammers/www.proactiveprogrammers.com/issues)
+or in the [GitHub Discussions
+Forum](https://github.com/ProactiveProgrammers/www.proactiveprogrammers.com/discussions)!
