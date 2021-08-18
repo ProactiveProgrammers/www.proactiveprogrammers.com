@@ -144,6 +144,7 @@ extra_javascript:
 nav:
   - Home: index.md
   - Proactive Skills:
+    - Introduction: proactive-skills/introduction-proactive-skills.md
     - Technical Skills:
       - Introduction: proactive-skills/technical-skills/introduction-technical-skills.md
       - Using VS Code: proactive-skills/technical-skills/using-vscode.md
