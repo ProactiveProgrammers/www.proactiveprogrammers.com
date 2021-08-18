@@ -22,11 +22,13 @@ time to become a proactive programmer you will have the knowledge and skills
 needed to deploy your own web site featuring articles in which you share what
 you learned when you overcame a tricky technical challenge!
 
-The remainder of this section overviews a few of the external resources that can
-help a proactive programmer grow in their technical and professional skills. It
-is worth noting that the lists in the following sections are only starting
-points for your technical and professional growth. If you have some ideas for
-improving these lists of resources you can share them in the [GitHub Issue
+The remainder of this section overviews a few of the external communities
+offering resources that can help a proactive programmer grow in their technical
+and professional skills. Please bear in mind that many of these communities
+provide **both** technical and professional development resources! It is also
+worth noting that the lists in the following sections are only starting points
+for your technical and professional growth. If you have some ideas for improving
+these lists of resources you can share them in the [GitHub Issue
 Tracker](https://github.com/ProactiveProgrammers/www.proactiveprogrammers.com/issues)
 or in the [GitHub Discussions
 Forum](https://github.com/ProactiveProgrammers/www.proactiveprogrammers.com/discussions)!
