@@ -10,7 +10,7 @@
     Forum](https://github.com/ProactiveProgrammers/www.proactiveprogrammers.com/discussions).
     If you want to have a quick discussion about a technical topic then you can
     ask it in the [Allegheny College Computer Science Discord
-    Server](https://discord.gg/3AzphUqEBQ) (for students at Allegheny College)
+    Server](https://discord.gg/CS2h9kXzX6) (for students at Allegheny College)
     or the [Proactive Programmers Discord Server](https://discord.gg/kjah8MFYbR)
     (for all learners). As you respectfully and joyfully communicate with the
     members of this community, please explain what you have tried so far, what
