@@ -62,3 +62,15 @@ edit to this page if you have a cool technical community to share!
   these posts informative and helpful.
 
 ## Audio Podcasts
+
+- [Changelog](https://changelog.com/) offers multiple free podcasts, including
+  "The Changelog" podcast featuring "Conversations with the hackers, leaders,
+  and innovators in the software world".
+
+- [Software Engineering Daily](https://softwareengineeringdaily.com/) features a
+  daily podcast episode that interviews technical leaders and explores "the
+  world through the lens of software".
+
+- [Talk Python to Me](https://talkpython.fm/) offers interviews with the
+  innovators in the field of Python programming, now in both an audio and live
+  stream format.
