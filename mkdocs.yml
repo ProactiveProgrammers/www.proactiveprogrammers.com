@@ -121,12 +121,12 @@ extra:
     # GitHub discussions
     - icon: fontawesome/solid/comments
       link: https://github.com/ProactiveProgrammers/www.proactiveprogrammers.com/discussions
-    # Slack workspace (open to allegheny.edu by default)
-    - icon: fontawesome/brands/slack
-      link: https://proactiveprogrammers.slack.com
     # Discord server invitation (open publicly)
     - icon: fontawesome/brands/discord
       link: https://discord.gg/kjah8MFYbR
+    # Computer science Discord (for Allegheny courses)
+    - icon: fontawesome/solid/broadcast-tower
+      link: https://discord.gg/CS2h9kXzX6
     # Twitter account
     - icon: fontawesome/brands/twitter
       link: https://twitter.com/ProactiveProgr3
@@ -161,8 +161,8 @@ nav:
       - Reading Documentation: proactive-skills/professional-skills/reading-documentation.md
   - Proactive Community:
     - Introduction: proactive-community/introduction-proactive-community.md
-    - Technical Resources: proactive-community/technical-resources.md
-    - Professional Resources: proactive-community/professional-resources.md
+    - Technical Community: proactive-community/technical-resources.md
+    - Professional Community: proactive-community/professional-resources.md
     - Community Connections: proactive-community/community-connections.md
   - Proactive Learning:
     - Introduction: proactive-learning/introduction-proactive-learning.md
