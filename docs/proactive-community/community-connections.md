@@ -23,3 +23,34 @@ think!
   started, click the link and accept the invitation to join the community. After
   you have setup your account and connected it to your email address, you can
   start to participate in the discussion.
+
+Sometimes you may not be sure which community forum you should use! Here is some
+advice for you to consider when facing this dilemma. You should use the
+community forum that best connects to your situation, as illustrated with the
+following examples.
+
+- If you have a **detailed technical question** or **need technical support**
+  with content on Proactive Programmers, then you should ask it on [GitHub
+  Discussions
+  Forum](https://github.com/ProactiveProgrammers/www.proactiveprogrammers.com/discussions).
+
+- If you have a **quick technical question** about the content on Proactive
+  Programmers, then you should ask it on the [Discord
+  Server](https://discord.gg/kjah8MFYbR).
+
+- If you want to **hang out** or **discuss the challenges** you face as you
+  become a proactive programmer, then you should go to the [Discord
+  Server](https://discord.gg/kjah8MFYbR).
+
+- If you want to **share or receive career advice** with other proactive
+  programmers, then you should go to the [Discord
+  Server](https://discord.gg/kjah8MFYbR).
+
+- If you want to **offer feedback** about the content on Proactive Programmers,
+  then you should create an issue in the [GitHub Issue
+  Tracker](https://github.com/ProactiveProgrammers/www.proactiveprogrammers.com/issues).
+
+- If you want to **report a bug** in either the **source code** or **written
+  content** on Proactive Programmers, then you should create an issue in the
+  [GitHub Issue
+  Tracker](https://github.com/ProactiveProgrammers/www.proactiveprogrammers.com/issues).
