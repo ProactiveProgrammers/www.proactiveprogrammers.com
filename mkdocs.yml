@@ -124,6 +124,9 @@ extra:
     # Discord server invitation (open publicly)
     - icon: fontawesome/brands/discord
       link: https://discord.gg/kjah8MFYbR
+    # Computer science Discord (for Allegheny courses)
+    - icon: fontawesome/solid/broadcast-tower
+      link: https://discord.gg/3AzphUqEBQ
     # Twitter account
     - icon: fontawesome/brands/twitter
       link: https://twitter.com/ProactiveProgr3
