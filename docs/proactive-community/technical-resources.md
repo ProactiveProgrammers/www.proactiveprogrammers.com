@@ -29,21 +29,36 @@ edit to this page if you have a cool technical community to share!
 
 ## Programming Communities
 
-- [Stack Overflow](https://stackoverflow.com/) is a question and answer site
-  that hosts communities in many technical and professional areas. After reading
-  a question, evaluate the quality of different answers and then try a solution
-  to see if it solves your technical challenge!
+- [Real Python](https://realpython.com/) helps people to "learn Python
+  programming, by example" and is useful for learners in courses on this site
+  that require Python programming. The site features up-to-date technical
+  articles with source code examples, diagrams, and illustrations.
 
 - [Reddit](https://www.reddit.com/) is a discussion forum that hosts communities
   that devoted to many different areas. While this platform hosts
   less-than-stellar content, some communities are welcoming and provide
   thoughtful assistance for those facing technical challenges.
 
-- [Real Python](https://realpython.com/) helps people to "learn Python
-  programming, by example" and is useful for learners in courses on this site
-  that require Python programming. The site features up-to-date technical
-  articles with source code examples, diagrams, and illustrations.
+- [Stack Overflow](https://stackoverflow.com/) is a question and answer site
+  that hosts communities in many technical and professional areas. After reading
+  a question, evaluate the quality of different answers and then try a solution
+  to see if it solves your technical challenge!
 
 ## Independent Contributors
+
+- [Victoria Drake](https://victoria.dev/) regularly shares blog posts that
+  explore a variety of technical issues. Even if a specific post focuses on
+  a technology that a learner is not currently using, it will likely share
+  beneficial tips, tricks, and ways of thinking.
+
+- [Gergely Grosz](https://blog.pragmaticengineer.com/) writes under the name
+  "The Pragmatic Engineer" and shares numerous experiences that will help you to
+  become a better programmer. Even if you are not an engineering manager you
+  will find these posts interesting and thought provoking.
+
+- [Ines Montani](https://ines.io/) shares articles and videos that explain how
+  to do natural language processing (NLP) in with the Python programming
+  language. Even if you are not working in NLP, you will find the lessons in
+  these posts informative and helpful.
 
 ## Audio Podcasts
