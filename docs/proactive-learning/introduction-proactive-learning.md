@@ -32,9 +32,10 @@ have a detailed question about any of the projects on this site, you are invited
 to post in the [GitHub Discussions
 Forum](https://github.com/ProactiveProgrammers/www.proactiveprogrammers.com/discussions).
 Or, if you want to have a quick discussion about a technical topic then you can
-ask it in the [Slack Workspace](https://proactiveprogrammers.slack.com) (for
-Allegheny College students) or the [Discord
-Server](https://discord.gg/kjah8MFYbR) (for all learners).
+ask it in the [Allegheny College Computer Science
+Discord Server](https://discord.gg/3AzphUqEBQ) (for Allegheny College students) or the
+[Proactive Programmers Discord Server](https://discord.gg/kjah8MFYbR) (for all
+learners).
 
 Before you dive into the projects on this site, let's first consider how
 different types of learning exhibit different levels of cognitive difficulty and
