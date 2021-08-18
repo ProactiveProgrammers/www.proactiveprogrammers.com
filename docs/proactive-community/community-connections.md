@@ -19,13 +19,13 @@ think!
   button.
 
 - [Proactive Programmers Discord Server](https://discord.gg/kjah8MFYbR) provides
-  an way for members of the proactive community to use text and video to chat
+  a way for members of the proactive community to use text and video to chat
   with each other. To get started, click the link and accept the invitation to
   join the community. After you have setup your account and connected it to your
   email address, you can start to participate in the discussion.
 
 - [Allegheny College Computer Science Discord
-  Server](https://discord.gg/CS2h9kXzX6) provides an way for students who are
+  Server](https://discord.gg/CS2h9kXzX6) provides a way for students who are
   studying computer science at Allegheny College to use text and video to chat
   with each other. To get started, click the link and accept the invitation to
   join the community. After you have setup your account and connected it to your
