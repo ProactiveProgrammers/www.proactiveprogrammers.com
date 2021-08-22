@@ -10,11 +10,11 @@ mkdocs build -d site
 [[redirects]]
   from = "/decks/week-one"
   to = "https://simple-slidev-decks.netlify.app/week-one/"
-  status = 200
+  status = 301
   force = true # COMMENT: ensure that we always redirect
 
 [[redirects]]
   from = "/decks/week-two"
   to = "https://simple-slidev-decks.netlify.app/week-two/"
-  status = 200
+  status = 301
   force = true # COMMENT: ensure that we always redirect
