@@ -5,13 +5,15 @@ pip install -q poetry &&
 poetry config virtualenvs.in-project true &&
 poetry install -v &&
 mkdocs build -d site
+cd decks
+npx pnpm install --recursive --store=node_modules/.pnpm-store && npx pnpm run build
 """
 
-[[redirects]]
-  from = "/decks/*"
-  to = "https://simple-slidev-decks.netlify.app/:splat"
-  status = 200
-  force = true # COMMENT: ensure that we always redirect
+# [[redirects]]
+#   from = "/decks/*"
+#   to = "https://simple-slidev-decks.netlify.app/:splat"
+#   status = 200
+#   force = true # COMMENT: ensure that we always redirect
 
 # [[redirects]]
 #   from = "/decks/week-"
