@@ -2,7 +2,7 @@
   "private": true,
   "scripts": {
     "dev": "slidev",
-    "build": "slidev build --base /week-two/ --out ../site/week-two",
+    "build": "slidev build --base /week-two/ --out ../../site/week-two",
     "export": "slidev export"
   },
   "dependencies": {
