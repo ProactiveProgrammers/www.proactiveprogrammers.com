@@ -43,8 +43,8 @@ for improvement, and relate to your struggles. Oh, remember how Perdita Stevens
 said that everyone makes mistakes? That includes the creators of this site!
 Although we have worked hard to ensure that all of the program source code
 and documentation are correct, we welcome your **bug reports** and
-**feedback** through the [GitHub Issue
-Tracker](https://github.com/ProactiveProgrammers/www.proactiveprogrammers.com/issues).
+**feedback** through the [GitHub issue
+tracker](https://github.com/ProactiveProgrammers/www.proactiveprogrammers.com/issues).
 
 *Okay, let's become proactive programmers so that we can put the PRO in
 programmer!*
