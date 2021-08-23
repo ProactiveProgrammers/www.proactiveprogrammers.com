@@ -48,6 +48,8 @@ technical skills:
   you to more effectively put a specific technical skill into practice, follow
   your plan, and work to continually to improve.[^2]
 
+Keeping these ideas in mind, let's dive into the first technical skill!
+
 --8<-- "includes/abbreviations.md"
 
 [^1]: See Merriam-Webster for the definition of [Teaching Tech
