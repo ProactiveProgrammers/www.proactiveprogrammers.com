@@ -29,3 +29,9 @@ Make sure that you install extensions in each of the following categories!
 - [18 Plugins for Writing Python in VS
   Code](https://switowski.com/blog/18-plugins-for-python-in-vscode)
 - [10 Best VS Code Extensions for Python](https://dannys.cloud/10-best-vs-code-extensions-for-python)
+
+### Collaborative Programming
+
+- [Use Live Share to Better Collaborate in VS Code](https://docs.microsoft.com/en-us/visualstudio/liveshare/use/vscode)
+- [Collaborate with Live Share in VS Code](https://code.visualstudio.com/learn/collaboration/live-share)
+- [Remove Pair Programming with VS Code and Live Share](https://betterprogramming.pub/5-benefits-of-pair-programming-and-how-to-set-it-remotely-with-vs-code-acc2df7a6b8c)
