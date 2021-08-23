@@ -35,3 +35,12 @@ Make sure that you install extensions in each of the following categories!
 - [Use Live Share to Better Collaborate in VS Code](https://docs.microsoft.com/en-us/visualstudio/liveshare/use/vscode)
 - [Collaborate with Live Share in VS Code](https://code.visualstudio.com/learn/collaboration/live-share)
 - [Remove Pair Programming with VS Code and Live Share](https://betterprogramming.pub/5-benefits-of-pair-programming-and-how-to-set-it-remotely-with-vs-code-acc2df7a6b8c)
+
+### Git and GitHub
+
+- [Using Version Control in VS Code](https://code.visualstudio.com/docs/editor/versioncontrol)
+- [Working with GitHub in VS Code](https://code.visualstudio.com/docs/editor/github)
+- [GitLens, Git Supercharged](https://gitlens.amod.io/)
+
+Okay, now that you have configured your text editor it is time to learn how to
+write technical documentation with VS Code!
