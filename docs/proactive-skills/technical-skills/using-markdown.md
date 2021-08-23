@@ -12,4 +12,10 @@ code](https://github.com/ProactiveProgrammers/www.proactiveprogrammers.com) of
 reading the following resources that will help you to learn how to use
 Markdown for technical writing.
 
+## Resources
+
+- [Markdown Guide](https://www.markdownguide.org/)
+- [Markdown Tutorial](https://www.markdowntutorial.com/)
+- [Markdown and Visual Studio Code](https://code.visualstudio.com/docs/languages/markdown)
+
 --8<-- "includes/abbreviations.md"
