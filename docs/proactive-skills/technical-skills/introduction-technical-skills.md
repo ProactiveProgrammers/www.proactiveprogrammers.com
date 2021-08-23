@@ -14,7 +14,7 @@ Have you ever heard that, to master a skill, you primarily need to devote 10,000
 hours to practicing it? While practice is, in fact, really important, it seems
 that the "10,000 hours rule" in a
 [misinterpretation](https://www.goodlifeproject.com/podcast/anders-ericsson/) of
-the research of K. Anders Ericsson. So, what does work? Well, [Greg
+the research of K. Anders Ericsson. So, what does help? Well, [Greg
 Wilson](https://third-bit.com/) writes in [*Teaching Tech
 Together*](https://teachtogether.tech/en/index.html) that "what actually works
 is doing similar but subtly different things, paying attention to what works and
