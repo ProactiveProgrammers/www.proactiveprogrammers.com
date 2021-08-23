@@ -36,12 +36,14 @@ Are you **nervous** about getting started or **afraid** that becoming a
 proactive programmer will prove to be too overwhelming? Don't worry, you can
 rely on the team of **programming experts** who have crafted activities that
 will help you to hone your technical and professional skills. If you get stuck
-on this adventure you will find a welcoming **community** of like-minded learners
-who can answer your technical questions, make suggestions for improvement, and
-relate to your struggles. Oh, remember how Perdita Stevens said that everyone
-makes mistakes? That includes the creators of this site! Although we have worked
-hard to ensure that all of the program source code and documentation are
-correct, we welcome your **bug reports** and **feedback** about this platform.
+on this adventure you will find a welcoming
+[community](proactive-community/introduction-proactive-community.md) of
+like-minded learners who can answer your technical questions, make suggestions
+for improvement, and relate to your struggles. Oh, remember how Perdita Stevens
+said that everyone makes mistakes? That includes the creators of this site!
+Although we have worked hard to ensure that all of the program source code
+and documentation are correct, we welcome your **bug reports** and
+**feedback** about this platform.
 
 *Okay, let's become proactive programmers so that we can put the PRO in
 programmer!*
