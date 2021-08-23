@@ -18,4 +18,6 @@ Markdown for technical writing.
 - [Markdown Tutorial](https://www.markdowntutorial.com/)
 - [Markdown and Visual Studio Code](https://code.visualstudio.com/docs/languages/markdown)
 
+Okay, now let's learn how to install, configure, and use a terminal application!
+
 --8<-- "includes/abbreviations.md"
