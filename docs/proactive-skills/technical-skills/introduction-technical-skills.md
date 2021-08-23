@@ -23,17 +23,40 @@ cumulatively better." Specifically, to master the technical skills introduced on
 this site you need to participate in deliberate practice that "requires both a
 clear performance goal and immediate informative feedback".[^1] Here is a
 summary from [Teaching Tech Together](https://teachtogether.tech/en/index.html)
-of the stages you should take when learning these technical skills:
+of the stages you should take when using deliberate practice to learn these
+technical skills:
 
-- **Act on feedback from others**: while attempting to install, configure, and
+- **Act on feedback from others**: While attempting to install, configure, and
   use a program on your laptop (e.g., [VS Code](https://code.visualstudio.com/)
-  or [Python](https://www.python.org/)), ask another programmer who has already
-  successfully accomplished this task what they think of your setup and the
-  approach that you took to create it. Next, listen carefully to their feedback
-  and then attempt to improve your setup as needed, asking for clarification as
-  appropriate.
+  or [Python](https://www.python.org/)), ask a more established programmer who
+  has already successfully accomplished this task what they think of your setup
+  and the approach that you took to create it. Next, listen carefully to their
+  feedback and then attempt to improve your setup as needed, asking for
+  clarification as appropriate.
+
+- **Give feedback on the work of others**: As you are installing, configuring,
+  and learning how to use a software tool needed for proactive programming,
+  offer constructive feedback to a peer who recently completed a similar step.
+  Once you have shared your suggestions, ask both your peer and a more
+  established programmer to evaluate the way in which you delivered the feedback
+  and the quality of the feedback itself.
+
+- **Give feedback to yourself**: After you have regularly practiced a technical
+  skill, such as implementing and testing Python programs, take time to observe
+  your use of this skill and develop a critique of your own approach. After
+  identifying areas for improvement, make a list of SMART goals that will enable
+  you to more effectively put a specific technical skill into practice, follow
+  your plan, and work to continually to improve.[^2]
+
+--8<-- "includes/abbreviations.md"
 
 [^1]: See Merriam-Webster for the definition of [Teaching Tech
   Together](https://teachtogether.tech/en/index.html) for more details about how
-  to effectively learn technical skills. What do you think that it takes for you
-  to master the skills of a proactive programmer?
+  to effectively learn technical skills. What practical steps can you take to
+  best ensure that you can master the technical skills of a proactive programmer?
+
+[^2]: See the article called [How to write SMART
+  goals](https://www.atlassian.com/blog/productivity/how-to-write-smart-goals)
+  for an overview of how to create SMART goals that are specific, measurable,
+    achievable, relevant, and time-bound. In your view, what are the benefits of
+    ensuring that your goals fit into the SMART paradigm?
