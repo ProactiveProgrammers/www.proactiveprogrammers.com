@@ -80,10 +80,10 @@ Now that you have Python 3.9 installed on your computer you should complete all
 of the steps in the tutorial called [Getting Started with Python in VS
 Code](https://code.visualstudio.com/docs/python/python-tutorial#_select-a-python-interpreter).
 When you complete this tutorial make sure that select your installed version of
-Python through VS Code and write, run, and debug a starting "Hello World!"
-program written in Python. Along with confirming that you can run the "Hello
-World!" Python program in VS Code, you should ensure that you can run the same
-program in your terminal window.
+Python through VS Code and write, run, and debug a "Hello World!" program
+written in Python. Along with confirming that you can run the "Hello World!"
+Python program in VS Code, you should ensure that you can run the same program
+in your terminal window.
 
 [^1]: Many proactive programmers benefit from using
   [pyenv](https://github.com/pyenv/pyenv) on either MacOS or Linux and
