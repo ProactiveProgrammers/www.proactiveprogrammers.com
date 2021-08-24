@@ -70,4 +70,14 @@ are ready to confirm that it is working correctly! Depending on your operating
 system, you may have a "tray icon" in the shape of a whale: you can click on
 this icon and access the settings and menus for Docker. It is also possible for
 you to type `docker --version` in your terminal window to discover what version
-of Docker you are using. Next, you should 
+of Docker you are using. Next, you should complete steps 4 through 6 in [Brian
+Hogan](https://bphogan.com/)'s Docker tutorial called [How to Install and Use
+Docker on Ubuntu
+20.04](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-on-ubuntu-20-04).
+Even though parts of this tutorial are customized to using Docker on Ubuntu
+Linux, the aforementioned steps will help you learn how to download and use
+Docker containers in your terminal window! Here is a summary of the steps:
+
+* Step 4: Working with Docker Images
+* Step 5: Running a Docker Container
+* Step 6: Managing Docker Containers
