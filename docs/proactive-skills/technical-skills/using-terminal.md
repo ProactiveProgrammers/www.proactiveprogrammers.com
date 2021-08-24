@@ -27,3 +27,15 @@ on Ubuntu. If you are using Windows 10 Pro or Windows 10 Enterprise, then you
 may have a terminal window called `cmd` or `powershell`. Regardless of which
 terminal window is on your computer, run it and then explore the commands for
 completing the tasks listed above, like going into and out of a directory.
+
+Once you have developed some proficiency with your computer's default terminal
+window, share your experiences with the other members of the [proactive
+community](/proactive-community/community-connections/)! Depending on your
+computer's operating system you may also want to try one one or more of the
+terminal windows suggested by the following articles:
+
+* [The Best Free Standalone Terminals for Windows 10](https://dev.to/adnanmostafa/the-best-free-standalone-terminals-for-windows-2019-kmj)
+* [Ten Best Alternatives for the MacOS Terminal App](https://www.fossmint.com/alternative-terminal-apps-for-macos/)
+* [Top Seven Open Source Terminal Emulators for Linux](https://opensource.com/life/17/10/top-terminal-emulators)
+
+Okay, now that you have a terminal window, you are ready to install and use Docker Desktop!
