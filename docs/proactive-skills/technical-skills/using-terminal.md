@@ -30,9 +30,11 @@ completing the tasks listed above, like going into and out of a directory.
 
 Once you have developed some proficiency with your computer's default terminal
 window, share your experiences with the other members of the [proactive
-community](/proactive-community/community-connections/)! Depending on your
-computer's operating system you may also want to try one one or more of the
-terminal windows suggested by the following articles:
+community](/proactive-community/community-connections/)! Along with sharing
+your favorite tips and tricks, you should get solicit feedback on how to
+improve your use of the terminal window. Depending on your operating system you
+may also want to try one one or more of the terminal windows suggested by the
+following articles:
 
 * [The Best Free Standalone Terminals for Windows 10](https://dev.to/adnanmostafa/the-best-free-standalone-terminals-for-windows-2019-kmj)
 * [Ten Best Alternatives for the MacOS Terminal App](https://www.fossmint.com/alternative-terminal-apps-for-macos/)
