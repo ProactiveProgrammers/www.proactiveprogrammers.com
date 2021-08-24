@@ -28,4 +28,4 @@ you are not sure whether or not your computer supports Docker, you can visit the
 the see if Docker will work correctly. It is worth taking a minute to review the
 requirements for using Docker by visiting the following web sites:
 
-## Docker Installation
+## Installing Docker
