@@ -38,4 +38,5 @@ terminal windows suggested by the following articles:
 * [Ten Best Alternatives for the MacOS Terminal App](https://www.fossmint.com/alternative-terminal-apps-for-macos/)
 * [Top Seven Open Source Terminal Emulators for Linux](https://opensource.com/life/17/10/top-terminal-emulators)
 
-Okay, now that you have a terminal window, you are ready to install and use Docker Desktop!
+Now that you can use the terminal, you are ready to install and use
+Docker Desktop!
