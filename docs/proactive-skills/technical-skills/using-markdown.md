@@ -23,14 +23,23 @@ following:
 * Ordered and unordered lists
 * Links to images and web sites
 
-You can learn more about each of these constructs by checking the following
-resources.
+A platform like [GitHub](https://github.com/) can render Markdown into text that
+looks like you wrote it in a word processor! You can learn more about these
+constructs by checking these resources.
 
 ## Resources
 
 - [Markdown Guide](https://www.markdownguide.org/)
 - [Markdown Tutorial](https://www.markdowntutorial.com/)
 - [Markdown and Visual Studio Code](https://code.visualstudio.com/docs/languages/markdown)
+- [Markdownlint Markdown Linting Tool](https://github.com/markdownlint/markdownlint)
+
+It is worth noting that the last tool in this list is called a "linter" because
+it can check for small mistakes in a programmer's technical writing. Many
+proactive programmers use linters in [GitHub
+Actions](https://github.com/features/actions) to ensure that they don't write
+Markdown that does not display correctly when a web browser views the technical
+writing in a GitHub repository.
 
 Okay, now let's learn how to install, configure, and use a terminal application!
 
