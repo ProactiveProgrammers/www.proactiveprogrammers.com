@@ -152,9 +152,9 @@ nav:
       - Using Terminal: proactive-skills/technical-skills/using-terminal.md
       - Using GitHub: proactive-skills/technical-skills/using-git.md
       - Using Docker: proactive-skills/technical-skills/using-docker.md
-      - Using GatorGrader: proactive-skills/technical-skills/using-gatorgrader.md
       - Python Programming: proactive-skills/technical-skills/python-programming.md
       - Python Packaging: proactive-skills/technical-skills/python-packages.md
+      - Using GatorGrader: proactive-skills/technical-skills/using-gatorgrader.md
     - Professional Skills:
       - Introduction: proactive-skills/professional-skills/introduction-professional-skills.md
       - Effective Communication: proactive-skills/professional-skills/effective-communication.md
