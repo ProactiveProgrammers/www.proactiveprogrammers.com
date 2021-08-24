@@ -8,9 +8,23 @@ either their source code or their technical documentation. Instead, you can use
 documentation in a markup language called Markdown. Guess what? A significant
 amount of the content on this site was written in Markdown! You can learn some
 of the features of Markdown by studying this site's [source
-code](https://github.com/ProactiveProgrammers/www.proactiveprogrammers.com) of
-reading the following resources that will help you to learn how to use
-Markdown for technical writing.
+code](https://github.com/ProactiveProgrammers/www.proactiveprogrammers.com) and
+reading the following resources that will help you to learn how to use Markdown
+for technical writing.
+
+## Features
+
+Markdown offers several constructs that support technical writing, including the
+following:
+
+* Inline source code samples
+* Fenced source code block
+* Nestable sections
+* Ordered and unordered lists
+* Links to images and web sites
+
+You can learn more about each of these constructs by checking the following
+resources.
 
 ## Resources
 
