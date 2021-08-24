@@ -38,7 +38,7 @@ install your program with either
 [pipx](https://github.com/pypa/pipx) and run it as a stand-alone executable. If
 you get stuck on the use of either Poetry or Typer, make sure that you ask for
 help from the other members of the [proactive
-community](/proactive-community/community-connections/)!
+community](/proactive-community/community-connections/).
 
 After reviewing all of these technical skills, you are ready to learn more about
-the professional skills of a proactive programmer.
+the professional skills of a proactive programmer!
