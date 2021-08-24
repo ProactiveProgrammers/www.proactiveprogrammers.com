@@ -50,8 +50,9 @@ parts of the notional machine, let's review some of them now!
 
 ## Installing Python
 
-Now that you have an intuitive understanding of how the Python programming
-language works, you are ready to install it on your own computer!
+Now that you have an intuitive understanding of how a program written in the
+Python programming language works, you are ready to install it on your own
+computer!
 
 
 [^1]: Many proactive programmers benefit from using
