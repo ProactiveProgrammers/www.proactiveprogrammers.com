@@ -1,5 +1,7 @@
 # Python Packaging
 
+## Installing Poetry
+
 It is common for a proactive programmer to run their Python programs in a
 virtual environment that contains isolated versions of all the packages on which
 a specific program depends. Although there are many different ways to package a
@@ -10,6 +12,8 @@ whether your computer runs Windows, MacOS, or Linux, follow the installation
 instructions in the [Poetry Documentation](https://python-poetry.org/docs/) to
 ensure that the `poetry --version` command displays the expected output in your
 terminal window.
+
+## Using Poetry
 
 Once you have installed Poetry, you should complete a tutorial called [Building
 a Package](https://typer.tiangolo.com/tutorial/package/) where you can learn how
