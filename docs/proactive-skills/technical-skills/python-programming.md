@@ -19,10 +19,10 @@ statements, a notional machine for the syntax, semantics, and behavior of a
 Python program. Please read the twelve components of the [notional machine for
 Python](http://teachtogether.tech/en/#s:models-notional) and identify both the
 parts of it that you understand the best and those that are confusing. You can
-share your ideas in the [proactive
+share your ideas with the [proactive
 community](/proactive-community/community-connections/) and then clarify points
 that are confusing for others and receive feedback on your own points of
-confusion. Although you should develop an intuitive understanding of the twelve
+confusion. Although you should develop an intuitive understanding of all twelve
 parts of the notional machine, let's review some of them now!
 
 - **Every piece of data is stored in a two-part structure. The first part says
