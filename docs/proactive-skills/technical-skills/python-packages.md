@@ -34,6 +34,8 @@ tutorial, make sure that you consider the following commands in Poetry:
 * `poetry run`: runs a program in a virtual environment
 * `poetry build`: build a packaged version of the Poetry project
 
+## Package Installation
+
 Please note that, at least for now, you don't need to focus on learning how to
 publish the tutorial package to the [Python Package Index](https://pypi.org/)!
 With that said, if you are interested in doing so, you should now be able to
