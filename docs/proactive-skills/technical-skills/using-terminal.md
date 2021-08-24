@@ -20,13 +20,14 @@ that best suit their professional needs, the experiences of many suggest that
 complete common programming tasks more rapidly.
 
 Depending on your operating system, you may already have a terminal window
-installed on your development workstation. If you are using MacOS or Linux, then
-you should search through the programs installed on your computer to see if you
-already have a suitable terminal, such as `iTerm` on MacOS and `gnome-terminal`
-on Ubuntu. If you are using Windows 10 Pro or Windows 10 Enterprise, then you
-may have a terminal window called `cmd` or `powershell`. Regardless of which
-terminal window is on your computer, run it and then explore the commands for
-completing the tasks listed above, like going into and out of a directory.
+installed on your development workstation. If you are using MacOS or Linux,
+then you should search through the programs installed on your computer to see
+if you already have a suitable terminal, such as `iTerm` on MacOS and
+`gnome-terminal` on Ubuntu. If you are using Windows 10 Pro or Windows 10
+Enterprise, then you may have a terminal window called `cmd` or `powershell`.
+Regardless of which terminal window is on your computer, run it and then
+explore the commands for completing the tasks listed above, like going into
+and out of a directory and creating and deleting a file or a directory.
 
 Once you have developed some proficiency with your computer's default terminal
 window, share your experiences with the other members of the [proactive
