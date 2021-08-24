@@ -19,12 +19,19 @@ Wilson](https://third-bit.com/) writes in [*Teaching Tech
 Together*](https://teachtogether.tech/en/index.html) that "what actually works
 is doing similar but subtly different things, paying attention to what works and
 what doesn't, and then changing behavior in response to that feedback to get
-cumulatively better." Specifically, to master the technical skills introduced on
-this site you need to participate in deliberate practice that "requires both a
-clear performance goal and immediate informative feedback".[^1] Here is a
-summary from [Teaching Tech Together](https://teachtogether.tech/en/index.html)
-of the stages you should take when using deliberate practice to learn these
-technical skills:
+cumulatively better."
+
+Specifically, to master the technical skills introduced on this site you need
+to participate in deliberate practice that "requires both a clear performance
+goal and immediate informative feedback".[^1] In his post entitled [Getting
+Good](https://bphogan.com/2021/04/28/getting-good/), author [Brian
+Hogan](https://bphogan.com/) explained deliberate practice similarly when he
+wrote that if you have a skill you want to get better at you must "practice
+every day", "get feedback", and "do more than you watch and read". Building on
+the bullet point from [Teaching Tech
+Together](https://teachtogether.tech/en/index.html), these are the steps you
+should take when using deliberate practice to proactively learn new technical
+skills:
 
 - **Act on feedback from others**: While attempting to install, configure, and
   use a program on your laptop (e.g., [VS Code](https://code.visualstudio.com/)
