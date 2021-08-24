@@ -28,8 +28,8 @@ Desktop](https://www.docker.com/products/docker-desktop) on MacOS and Windows
 and [Docker Engine](https://docs.docker.com/engine/install/ubuntu/) on Linux. If
 you are not sure whether or not your computer supports Docker, you can visit the
 [Can I Run Docker?](https://www.cs.allegheny.edu/canirundocker/) web site and
-the see if Docker will work correctly. Of course, if you are not enrolled at
-Allegheny College, you also welcome to use Docker to complete and check the
+the see if Docker will work correctly on it. Of course, if you are not enrolled
+at Allegheny College, you also welcome to use Docker to complete and check the
 projects on this site! With that said, it is worthwhile to visit the following
 web sites and review the requirements for using Docker before you install it.
 
