@@ -11,6 +11,8 @@ program does something initially unexpected.
 
 ## Notional Machine
 
+[//]: # (Note that the phrase "notional machine" must appear on one line)
+
 The book called [Teaching Tech
 Together](https://teachtogether.tech/en/index.html) summarizes, in twelve
 statements, a notional machine for the syntax, semantics, and behavior of a
