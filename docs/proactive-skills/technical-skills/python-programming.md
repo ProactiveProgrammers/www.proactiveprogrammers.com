@@ -99,6 +99,8 @@ simple program on your computer. If you get stuck or if you have advice to
 share, make sure that you connect with the other members of the [proactive
 community](/proactive-community/community-connections/)!
 
+Now you are ready to install a tool that supports Python packaging!
+
 [^1]: Many proactive programmers benefit from using
   [pyenv](https://github.com/pyenv/pyenv) on either MacOS or Linux and
   [pyenv-win](https://github.com/pyenv-win/pyenv-win) on Windows 10 to manage
