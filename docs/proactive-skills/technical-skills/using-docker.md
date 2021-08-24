@@ -60,4 +60,14 @@ If your computer runs Windows 10 Home you can only install Docker Desktop if you
 have also installed the Windows Subsystem for Linux (WSL) version 2 backend. If
 your Windows 10 Home operating system cannot run WSL 2, then you must upgrade
 your operating system to either Windows 10 Pro, Windows 10 Enterprise, or
-Windows 10 Education.
+Windows 10 Education. Finally, you should not use Docker Toolbox since it is
+deprecated and no longer supported!
+
+## Using Docker
+
+Once you have successfully installed and configured Docker on your computer, you
+are ready to confirm that it is working correctly! Depending on your operating
+system, you may have a "tray icon" in the shape of a whale: you can click on
+this icon and access the settings and menus for Docker. It is also possible for
+you to type `docker --version` in your terminal window to discover what version
+of Docker you are using. Next, you should 
