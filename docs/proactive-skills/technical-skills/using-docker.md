@@ -1,5 +1,11 @@
 # Using Docker
 
+Docker Desktop and Docker Engine make it possible for a proactive programmer to
+download a Docker container that contains all of the software that they need to
+complete a programming project. This means that, instead of having to separately
+download all of the dependencies for a project, you can download a single Docker
+container that contains all of them.
+
 If you are a student at Allegheny College, you must complete your course
 projects using a [Department Approved
 Laptop](https://www.cs.allegheny.edu/resources/laptops/). This is primarily due
