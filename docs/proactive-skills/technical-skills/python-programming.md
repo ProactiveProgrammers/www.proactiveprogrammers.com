@@ -52,8 +52,29 @@ parts of the notional machine, let's review some of them now!
 
 Now that you have an intuitive understanding of how a program written in the
 Python programming language works, you are ready to install it on your own
-computer!
+computer! In his book [Introduction to Computation and Programming Using
+Python](https://mitpress.mit.edu/books/introduction-computation-and-programming-using-python-third-edition)
+[John Guttag](https://people.csail.mit.edu/guttag/) writes "By now, all of the
+important public domain Python libraries have been ported to Python 3. Today,
+there is no reason to use Python 2." Given this observation, this site
+encourages you to install Python 3 on your computer and ensure that it is
+invoked by the running command `python` in your terminal window. To get started
+with the installation of Python, you should review these tutorials:
 
+* [Setting Up Python on Windows](https://realpython.com/lessons/python-windows-setup/)
+* [Python 3 Installation and Setup Guide](https://realpython.com/installing-python/)
+* [How to Install Python 3 and Set Up a Local Programming Environment on Windows
+  10](https://www.digitalocean.com/community/tutorials/how-to-install-python-3-and-set-up-a-local-programming-environment-on-windows-10)
+
+If you are learning to become a proactive programmer while using a computer
+running either a Linux or a MacOS, then you should install Python 3.9 by using
+the tool called [Pyenv](https://github.com/pyenv/pyenv). If you are instead
+using a computer that runs Windows 10, then you can attempt to install Python
+3.9 using either [Pyenv-win](https://github.com/pyenv-win/pyenv-win) or the
+installation instructions in one of the aforementioned articles. Please remember
+that, if you are installing Python on Windows it should either be a complete
+version of Python 3.8 or Python 3.9 and it should be executable through the use
+of the `python` command in your terminal window.
 
 [^1]: Many proactive programmers benefit from using
   [pyenv](https://github.com/pyenv/pyenv) on either MacOS or Linux and
