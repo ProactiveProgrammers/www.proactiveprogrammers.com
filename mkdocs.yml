@@ -153,7 +153,7 @@ nav:
       - Using Docker: proactive-skills/technical-skills/using-docker.md
       - Using GitHub: proactive-skills/technical-skills/using-git.md
       - Python Programming: proactive-skills/technical-skills/python-programming.md
-      - Python Packages: proactive-skills/technical-skills/python-packages.md
+      - Python Packaging: proactive-skills/technical-skills/python-packages.md
     - Professional Skills:
       - Introduction: proactive-skills/professional-skills/introduction-professional-skills.md
       - Effective Communication: proactive-skills/professional-skills/effective-communication.md
