@@ -85,6 +85,20 @@ written in Python. Along with confirming that you can run the "Hello World!"
 Python program in VS Code, you should ensure that you can run the same program
 in your terminal window.
 
+Depending on your computer's hardware, operating system, and supporting
+software, you may find numerous tutorials that will explain how to install all
+of the software development tools needed for proactive programming. For
+instance, [Ian Wootten](https://www.ianwootten.co.uk/)'s article called [Setting
+Up a New M1 mac for
+Development](https://www.ianwootten.co.uk/2021/03/05/setting-up-a-new-m1-mac-for-development/)
+explains, among many other steps, how to install Python on a laptop running
+MacOS. Regardless of which approach you adopt for installing Python on your
+compute, make sure that you take careful notes at each step and plan for having
+to repeat specific steps until you can confirm that you can implement and run a
+simple program on your computer. If you get stuck or if you have advice to
+share, make sure that you connect with the other members of the [proactive
+community](/proactive-community/community-connections/)!
+
 [^1]: Many proactive programmers benefit from using
   [pyenv](https://github.com/pyenv/pyenv) on either MacOS or Linux and
   [pyenv-win](https://github.com/pyenv-win/pyenv-win) on Windows 10 to manage
