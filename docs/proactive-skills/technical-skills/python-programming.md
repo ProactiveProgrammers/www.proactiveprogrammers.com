@@ -74,7 +74,10 @@ using a computer that runs Windows 10, then you can attempt to install Python
 installation instructions in one of the aforementioned articles. Please remember
 that, if you are installing Python on Windows it should either be a complete
 version of Python 3.8 or Python 3.9 and it should be executable through the use
-of the `python` command in your terminal window.
+of the `python` command in your terminal. You can confirm that you have the
+correct version of Python installed on your computer by typing `python
+--version` in your terminal window and then looking for the expected version
+number.
 
 Now that you have Python 3.9 installed on your computer you should complete all
 of the steps in the tutorial called [Getting Started with Python in VS
@@ -86,7 +89,7 @@ Python program in VS Code, you should ensure that you can run the same program
 in your terminal window.
 
 Depending on your computer's hardware, operating system, and supporting
-software, you may find numerous tutorials that will explain how to install all
+software, you will find numerous tutorials that will explain how to install all
 of the software development tools needed for proactive programming. For
 instance, [Ian Wootten](https://www.ianwootten.co.uk/)'s article called [Setting
 Up a New M1 mac for
