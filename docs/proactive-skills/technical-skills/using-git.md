@@ -89,7 +89,18 @@ communicate with the GitHub servers.
   instructions you should run a command like `git clone
   git@github.com:ProactiveProgrammers/www.proactiveprogrammers.com.git` in your
   terminal window. If everything worked correctly then you should see the source
-  code for this site on your computer! It is also worth pointing out that the
-  repository that you cloned is a public one and, once you start to clone
-  private GitHub repositories, you will again need to confirm that your SSH keys
-  are supporting secure communication correctly.
+  code for this site on your computer! It is also worth pointing out that, if
+  you cloned this site's GitHub repository, then you cloned a public repository
+  and, once you start to clone private GitHub repositories, you will again need
+  to confirm that your SSH keys are supporting secure communication correctly.
+
+It is a good idea to further customize your configuration of Git! Although you
+might not need to apply all of the commands in the following tutorials, make
+sure to read them and carefully take those steps that are necessary for your
+computer.
+
+- [Setting up Git](https://swcarpentry.github.io/git-novice/02-setup/index.html)
+- [Your First Time with Git and GitHub](https://kbroman.org/github_tutorial/pages/first_time.html)
+- [First-Time Git Setup](https://git-scm.com/book/en/v2/Getting-Started-First-Time-Git-Setup)
+
+Okay, now you are ready to setup Docker on your computer!
