@@ -121,8 +121,8 @@ repository, giving an appropriate title and description for the type of feedback
 that they would like the instructor to provide. After creating this issue, they
 will see that GitHub has created a unique web site that references it. To alert
 the instructor to the fact that the issue was created and that you want feedback
-on your work, please send it to him by a Slack direct message at least 24 hours
-in advance of the project's due date. After the instructor responds to the
+on your work, please send it to him by a Discord direct message at least 24
+hours in advance of the project's due date. After the instructor responds to the
 issue, please resolve all of the stated concerns and participate in the
 discussion until the issue is resolved and ultimately marked as closed.
 

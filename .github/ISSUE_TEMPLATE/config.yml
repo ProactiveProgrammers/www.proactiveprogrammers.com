@@ -6,9 +6,9 @@ contact_links:
   - name: I have a quick technical question about the content on Proactive Programmers
     url: https://discord.com/invite/kjah8MFYbR
     about: If you have a quick question, then joining our Discord Chat is a great idea. Just ask for an invitation!
-  - name: I have a quick technical question about the content on Proactive Programmers and I am an Allegheny College student
-    url: https://proactiveprogrammers.slack.com/
-    about: If you have a quick question and need a non-public discussion forum, then joining our Slack Workspace is a good idea!
+  - name: I am an Allegheny College student and I have a quick technical question about the content on Proactive Programmers
+    url: https://discord.gg/CS2h9kXzX6
+    about: If you have a quick question and are a student at Allegheny College, then using the private Discord Chat is a great idea.
   - name: I heard about Proactive Programmers but I don't know how to find it!
     url: https://proactiveprogrammers.com/
     about: If you want to access the technical content, then visit the main web site!

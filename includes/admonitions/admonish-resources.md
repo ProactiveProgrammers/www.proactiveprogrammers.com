@@ -9,9 +9,10 @@
     are invited to post in it the [GitHub Discussions
     Forum](https://github.com/ProactiveProgrammers/www.proactiveprogrammers.com/discussions).
     If you want to have a quick discussion about a technical topic then you can
-    ask it in the [Slack Workspace](https://proactiveprogrammers.slack.com) (for
-    students at Allegheny College) or the [Discord
-    Server](https://discord.gg/kjah8MFYbR) (for all learners). As you
-    respectfully and joyfully communicate with the members of this community,
-    please explain what you have tried so far, what worked and did not work, and
-    your best guess as to root cause of your difficulties.
+    ask it in the [Allegheny College Computer Science Discord
+    Server](https://discord.gg/CS2h9kXzX6) (for students at Allegheny College)
+    or the [Proactive Programmers Discord Server](https://discord.gg/kjah8MFYbR)
+    (for all learners). As you respectfully and joyfully communicate with the
+    members of this community, please explain what you have tried so far, what
+    worked and did not work, and your best guess as to root cause of your
+    difficulties.
