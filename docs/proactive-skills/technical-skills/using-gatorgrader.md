@@ -94,11 +94,10 @@ tool](https://github.com/GatorEducator/gatorgrader), yielding output for you
 should carefully inspect. If GatorGrader's output shows that there are no
 mistakes in a project, then your source code and technical writing are passing
 all of the baseline checks. However, if the output indicates that there are
-mistakes, then you will need to understand what they are and then try to fix
-them by leveraging your topic knowledge and technical and professional skills!
+mistakes, then you will need to understand what they are and try to fix them by
+leveraging your topic knowledge and technical and professional skills!
 
 ## Interactive Shell
-
 
 === "Windows"
 
