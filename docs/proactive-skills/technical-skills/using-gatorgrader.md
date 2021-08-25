@@ -153,4 +153,4 @@ language. In this situation, you should delete the directories inside of the
 `.dockagator/` directory and then again attempt to run the `gradle grade`
 command inside of the Docker container. Specifically, you will need to delete
 directories in the `.dockagator/` directory that are normally called
-`gatorgrader`, `virtualenv`, and `virtualenvs`.
+`gatorgrader/`, `virtualenv/`, and `virtualenvs/`.
