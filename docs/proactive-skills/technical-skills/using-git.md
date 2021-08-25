@@ -38,26 +38,23 @@ communicate with the GitHub servers.
 
 - If you have never done so before, you must use the `ssh-keygen` program to
   create secure-shell keys that you can use to support your communication with
-  GitHub. But, to start, this task requires you to type commands in a program
-  that is known as a terminal. Your terminal program will vary depending on your
-  operating system. For instance, if you are running Linux, you can click on an
-  icon that contains the `>` symbol or press the "Super" key, start typing the
-  word "terminal", and then select that program. Another way to open a terminal
-  involves typing the key combination `<Ctrl>-<Alt>-t`. On the Windows operating
-  system you may want to use the "Command Prompt" or the "Power Shell" and on
-  MacOS you can use "Terminal". Your terminal will display as a box into which
-  you can type commands. For the next step, you may need to separately install
-  `ssh-keygen` if it is not on your laptop.
+  GitHub. This task requires you to type commands in a program that is known as
+  a terminal. Your terminal will display as a box into which you can type
+  commands. If you have already installed your terminal and it runs commands
+  correctly, then you may need to further install `ssh-keygen` if it is not
+  already installed on your computer.
 
-- Now that you have started the terminal, you will need to type the `ssh-keygen`
-  command in it. Follow the prompts to create your keys and save them in the
-  default directory. That is, you should press "Enter" after you are prompted to
+- After starting the terminal, you will need to type the `ssh-keygen` command in
+  it. Follow the prompts to create your keys and save them in the default
+  directory. That is, you should press ++"Enter"++ after you are prompted to
   "`Enter file in which to save the key ...  :`" and then type your selected
   passphrase whenever you are prompted to do so. Please note that a "passphrase"
   is like a password that you will type when you need to prove your identify to
-  GitHub. What files does "`ssh-keygen`" produce? Where does this program store
-  these files by default? Do you have any questions about how to create your SSH
-  keys?
+  GitHub. What files does `ssh-keygen` produce? Where does this program store
+  these files by default? Before moving on to the next step, take time to read
+  the [About
+  SSH](https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh/about-ssh)
+  documentation provided by GitHub.
 
 - Once you have created your ssh keys, you need to upload them to GitHub. First,
   you must log into GitHub and look in the right corner for an account avatar
@@ -70,9 +67,3 @@ communicate with the GitHub servers.
   that you only highlight the letters and numbers in your key &mdash; if you
   highlight any extra symbols or spaces then this step may not work correctly.
   Then, paste this into the GitHub text field in your web browser.
-
-- Again, when you are completing these steps, please make sure that you take
-  careful notes about the inputs, outputs, and behavior of each command. If
-  there is something that you do not understand, then please ask the course
-  instructor or the technical leader about it.
-
