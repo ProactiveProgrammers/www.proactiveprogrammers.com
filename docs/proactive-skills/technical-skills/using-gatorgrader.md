@@ -43,67 +43,47 @@ the summary of the project).
       gatoreducator/dockagator
     ```
 
+Note that both of these commands reference a "project directory" (specified with
+the first `-v` argument and the "cache directory" (given by the second `-v`
+argument). The project directory (i.e., the "home base" for a project) should
+contain the source code and technical writing for a project and the cache
+directory should only contain the files and directories created by DockaGator
+and GatorGrader. Further instructions for using and changing these commands vary
+depending on the operating system installed on your computer!
+
 !!! note
 
     === "Windows"
 
-        However, if you are using the Windows operating system then you will
-        instead need to type the command `mkdir
-        %HomeDrive%%HomePath%/.dockagator`. Finally, since the above `docker
-        run` command does not work correctly on the Windows operating system,
-        you will need to instead run the following command to adapt to the
-        differences in the `cmd` terminal window:
+        The Docker command for the non-interactive shell uses the `%cd%` and
+        `%HomeDrive%%HomePath%` variables to respectively designate the current
+        working directory and the home directory for a user's account. Make sure
+        that you create the cache directory inside your home account. If you
+        face challenges when using either the `%cd%` variable or the drive
+        `%HomeDrive%%HomePath%` variable, you can substitute for them with the
+        fully qualified path that serves as the project directory or the cache
+        directory. Finally, some terminals on Windows do not support
+        multiple-line commands and thus you may need to join each line into a
+        single long command instead.
 
     === "Linux and MacOS"
 
-        The aforementioned command will use `"$(pwd)"` (i.e., the current working
-        directory) as the project directory and `"$HOME/.dockagator"` as the cached
-        GatorGrader directory. Please note that both of these directories must exist,
-        although only the project directory must contain something. Generally, the
-        project directory should contain the source code and technical writing for an
-        assignment, as provided to a student by the instructor through GitHub.
-        Additionally, the cached directory should not contain anything other than
-        directories and programs created by DockaGator, thus ensuring that they are not
-        otherwise overwritten during the completion of the assignment.
-
-
-
-
-To ensure that the previous command will work correctly, you should create the
-cache directory by running the command `mkdir $HOME/.dockagator` on the MacOS
-and Linux operating systems.
-
-```bash
-docker run --rm --name dockagator \
-  -v "%cd%:/project" \
-  -v "%HomeDrive%%HomePath%/.dockagator:/root/.local/share" \
-  gatoreducator/dockagator
-```
-
-Please note that not all version of the Windows terminal window will correctly
-recognize the use of the `%cd%` and `%HomeDrive%%HomePath%` variables. In this
-case, you should substitute the actual directory for a specific course
-assignment for the `%cd%` variable and the drive letter that contains the
-`.dockagator` directory for the `%HomeDrive%%HomePath%` variable. Finally, the
-Windows terminal window may not work correctly when you attempt to run a
-multi-line command. In this case, you should break up the aforementioned
-four-line command into separate lines, like `docker run --rm --name dockagator`
-and `-v "%cd%:/project"` and then connect them into a single long line that you
-separate by a single space. Here is an example of what the long command would
-look like, again assuming that the Windows `cmd` terminal correctly interprets
-the `%cd%` and `%HomeDrive%%HomePath%` variables:
-
-```bash
-docker run -it --rm --name dockagator -v "%cd%:/project" -v "%HomeDrive%%HomePath%/.dockagator:/root/.local/share" gatoreducator/dockagator /bin/bash
-```
+        The Docker command for the non-interactive shell uses `"$(pwd)"` as the
+        project directory and `"$HOME/.dockagator"` as the cache GatorGrader
+        directory.  Make sure that you create the cache directory by running the
+        command `mkdir $HOME/.dockagator`. If you face challenges when using
+        either `"$(pwd)"` or `$HOME`, you can substitute for them with the fully
+        qualified path that serves as the project directory and cache directory,
+        respectively. If you find it difficult to copy and paste the
+        multiple-line command you may join each line into a single long command
+        instead.
 
 Here are some additional commands that you may need to run when using Docker:
 
-* `docker info`: display information about how Docker runs on your workstation
-* `docker images`: show the Docker images installed on your workstation
-* `docker container list`: list the active images running on your workstation
-* `docker system prune`: remove many types of "dangling" components from your workstation
-* `docker image prune`: remove all "dangling" docker images from your workstation
-* `docker container prune`: remove all stopped docker containers from your workstation
-* `docker rmi $(docker images -q) --force`: remove all docker images from your workstation
-
+* `docker info`: display information about Docker's current setup
+* `docker images`: show the Docker images installed on your computer
+* `docker container list`: list the active images running
+* `docker system prune`: remove many types of "dangling" components
+* `docker image prune`: remove all "dangling" docker images
+* `docker container prune`: remove all stopped docker containers
+* `docker rmi $(docker images -q) --force`: remove all docker images
