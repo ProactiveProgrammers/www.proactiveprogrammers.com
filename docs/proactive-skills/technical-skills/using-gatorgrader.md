@@ -87,3 +87,42 @@ Here are some additional commands that you may need to run when using Docker:
 * `docker image prune`: remove all "dangling" docker images
 * `docker container prune`: remove all stopped docker containers
 * `docker rmi $(docker images -q) --force`: remove all docker images
+
+Once you have typed the command for running the non-interactive shell, it will
+automatically run the [GatorGrader
+tool](https://github.com/GatorEducator/gatorgrader), yielding output for you
+should carefully inspect. If GatorGrader's output shows that there are no
+mistakes in a project, then your source code and technical writing are passing
+all of the baseline checks. However, if the output indicates that there are
+mistakes, then you will need to understand what they are and then try to fix
+them by leveraging your topic knowledge and technical and professional skills!
+
+## Interactive Shell
+
+
+=== "Windows"
+
+    ```bash
+    docker run -it --rm --name dockagator \
+      -v "%cd%:/project" \
+      -v "%HomeDrive%%HomePath%/.dockagator:/root/.local/share" \
+      gatoreducator/dockagator /bin/bash
+    ```
+
+=== "Linux and MacOS"
+
+    ```bash
+    docker run -it --rm --name dockagator \
+      -v "$(pwd)":/project \
+      -v "$HOME/.dockagator":/root/.local/share \
+      gatoreducator/dockagator /bin/bash
+    ```
+
+Once you have typed the correct command for your operating system, you can run
+[GatorGrader](https://github.com/GatorEducator/gatorgrader) in the Docker
+container by typing the command `gradle grade` in your terminal. As before,
+running this command will produce a lot of output that you should carefully
+inspect! If GatorGrader's output shows that there are no mistakes in a project,
+then your source code and technical writing are passing all of the automated
+baseline checks. However, if the output indicates that there are mistakes, then
+you will need to understand what they are and then try to fix them.
