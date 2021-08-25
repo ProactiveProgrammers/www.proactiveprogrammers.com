@@ -154,3 +154,16 @@ language. In this situation, you should delete the directories inside of the
 command inside of the Docker container. Specifically, you will need to delete
 directories in the `.dockagator/` directory that are normally called
 `gatorgrader/`, `virtualenv/`, and `virtualenvs/`.
+
+## Next Steps
+
+Before you start to learn more about the professional skills of a proactive
+programmer, make sure that you review the
+[introduction](./introduction-technical-skills.md) to these technical skills.
+Have you become comfortable with, for instance, acting on feedback from others,
+giving feedback to your colleagues, and giving feedback to yourself? Make sure
+that you continue to practice all of these technical skills, participating in
+the [proactive
+community](../../../proactive-community/introduction-proactive-community/) by
+sharing your ideas for improving this content and helping others to master each
+software tool!
