@@ -56,7 +56,7 @@ communicate with the GitHub servers.
   SSH](https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh/about-ssh)
   documentation provided by GitHub.
 
-- Once you have created your ssh keys, you need to upload them to GitHub. First,
+- Once you have created your SSH keys, you need to upload them to GitHub. First,
   you must log into GitHub and look in the right corner for an account avatar
   with a down arrow. Click on this link and then select the "Settings" option.
   Now, scroll down until you find the "SSH and GPG keys" label on the left,
@@ -67,3 +67,19 @@ communicate with the GitHub servers.
   that you only highlight the letters and numbers in your key &mdash; if you
   highlight any extra symbols or spaces then this step may not work correctly.
   Then, paste this into the GitHub text field in your web browser.
+
+- Now that your SSH keys are uploaded to GitHub you should try to clone a GitHub
+  repository to your computer and confirm that the keys are working as expected.
+  You might want to clone the GitHub repository that hosts the source code for
+  this web site. Or, you can clone another repository on GitHub that seems
+  interesting to you! If you want to clone the repository that contains the
+  source code for this web site, go to
+  [github/www.proactiveprogrammers.com](https://github.com/ProactiveProgrammers/www.proactiveprogrammers.com/)
+  and click the green button with the "Clone" label. After following the
+  instructions you should run a command like `git clone
+  git@github.com:ProactiveProgrammers/www.proactiveprogrammers.com.git` in your
+  terminal window. If everything worked correctly then you should see the source
+  code for this site on your computer! It is also worth pointing out that the
+  repository that you cloned is a public one and, once you start to clone
+  private GitHub repositories, you will again need to confirm that your SSH keys
+  are supporting secure communication correctly.
