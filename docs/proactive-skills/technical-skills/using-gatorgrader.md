@@ -23,7 +23,8 @@ available on
 [DockerHub](https://cloud.docker.com/u/gatoreducator/repository/docker/gatoreducator/dockagator).
 When you run one of these commands you should make sure that you do so in the
 "home base" of a project (i.e., the directory that contains the `README.md` with
-the summary of the project).
+the summary of the project). To learn how to run GatorGrader in a
+non-interactive shell, pick the tab for your computer's operating system!
 
 === "Windows"
 
@@ -99,6 +100,14 @@ leveraging your topic knowledge and technical and professional skills!
 
 ## Interactive Shell
 
+The Docker command for creating a non-interactive shell will, by default, run
+the `gradle grade` command and exit the Docker container. If you instead want to
+keep the Docker container open, you need to create an interactive shell!
+Regardless of your computer's operating system, running an interactive shell
+requires you to add the `-it` flag before the `--rm` flag in the command and the
+`/bin/bash` at the end of the command. As before, click on the tab for the
+appropriate operating system to see how to run an interactive shell!
+
 === "Windows"
 
     ```bash
@@ -119,9 +128,29 @@ leveraging your topic knowledge and technical and professional skills!
 
 Once you have typed the correct command for your operating system, you can run
 [GatorGrader](https://github.com/GatorEducator/gatorgrader) in the Docker
-container by typing the command `gradle grade` in your terminal. As before,
-running this command will produce a lot of output that you should carefully
-inspect! If GatorGrader's output shows that there are no mistakes in a project,
-then your source code and technical writing are passing all of the automated
-baseline checks. However, if the output indicates that there are mistakes, then
-you will need to understand what they are and then try to fix them.
+container by typing the command `gradle grade` in your terminal. As with the
+non-interactive shell, running this Docker command will produce a lot of output
+that you should carefully inspect! If GatorGrader's output shows that there are
+no mistakes in a project, then your source code and technical writing are
+passing all of the baseline checks. However, if the output indicates that there
+are mistakes, then you should work to understand what they are and then try to
+fix them.
+
+## Upgrading DockaGator
+
+If the maintainers of DockaGator provide a new version of the Docker container
+called `gatoreducator/dockagator` and you want to receive it immediately, you
+must first delete the existing Docker container on your computer by running the
+command `docker rmi gatoreducator/dockagator`. After this command completes, you
+can then run the appropriate Docker command for your computer's operating
+system, prompting the download of the updated version of the DockaGator image
+for a Docker container.
+
+If you attempt to run `gradle grade` in an updated Docker container it is
+possible that the command will fail if you previously used GatorGrader with a
+Docker container that featured a different version of the Python programming
+language. In this situation, you should delete the directories inside of the
+`.dockagator/` directory and then again attempt to run the `gradle grade`
+command inside of the Docker container. Specifically, you will need to delete
+directories in the `.dockagator/` directory that are normally called
+`gatorgrader`, `virtualenv`, and `virtualenvs`.
