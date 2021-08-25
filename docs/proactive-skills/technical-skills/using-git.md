@@ -56,17 +56,27 @@ communicate with the GitHub servers.
   SSH](https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh/about-ssh)
   documentation provided by GitHub.
 
-- Once you have created your SSH keys, you need to upload them to GitHub. First,
-  you must log into GitHub and look in the right corner for an account avatar
-  with a down arrow. Click on this link and then select the "Settings" option.
-  Now, scroll down until you find the "SSH and GPG keys" label on the left,
-  click to create a "New SSH key", and then upload your ssh key to GitHub. You
-  can copy your SSH key to the clipboard by going to the terminal and typing a
-  command like `cat ~/.ssh/id_rsa.pub` command and then highlighting this
-  output. When you are completing this step in your terminal, please make sure
-  that you only highlight the letters and numbers in your key &mdash; if you
-  highlight any extra symbols or spaces then this step may not work correctly.
-  Then, paste this into the GitHub text field in your web browser.
+- Once you have created your SSH keys, you need to upload them to GitHub. To
+  accomplish this task you should read the article called [Adding an SSH Key to
+  Your GitHub
+  Account](https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account).
+  Depending on your operating system and the programs currently installed on
+  your laptop, it is possible that the steps that you need to follow may be
+  slightly different than those listed on this site!
+
+- To upload your SSH key, you must log into GitHub and look in the right corner
+  for an account avatar with a down arrow. Click on this link and then select
+  the "Settings" option. Now, scroll down until you find the "SSH and GPG
+  keys" label on the left, click to create a "New SSH key", and then upload
+  your SSH key to GitHub. Depending on your operating system, you can copy
+  your SSH key to the clipboard by going to the terminal and typing a command
+  like `cat ~/.ssh/id_rsa.pub` and then highlighting its output.
+  Alternatively, you can load your SSH key into VS Code and copy its contents
+  to the clipboard. When you are completing this step in your terminal, please
+  make sure that you only highlight the letters and numbers in your key! If
+  you highlight any extra symbols or spaces then this step may not work
+  correctly. To complete this step, paste the key's contents into the GitHub
+  text field in your web browser.
 
 - Now that your SSH keys are uploaded to GitHub you should try to clone a GitHub
   repository to your computer and confirm that the keys are working as expected.
