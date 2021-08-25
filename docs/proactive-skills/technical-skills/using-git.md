@@ -1,31 +1,40 @@
 # Using GitHub
 
-Git is a version control system that enables a proactive programmer to
-incrementally document and save their work on a project.
+## Understanding Git
 
-The projects on this site expect you to use a program to securely communicate
-the GitHub servers that will host all of the project templates and your
-submitted deliverables. In this assignment, you will perform all of the steps to
-configure your account on GitHub and you will start your first assignment using
-GitHub Classroom. As you will be required to use Git, an industry standard tool,
-in all of the remaining laboratory and practical assignments and during the
-class sessions, you should keep a record of all of the steps that you complete
-and the challenges that you face. You may chat with the course instructor or one
-of the technical leaders if you are not able to complete a certain step or if
-you are not sure how to proceed.
+[Git](https://git-scm.com/) is a version control system that enables a proactive
+programmer to incrementally document and save their work on a project. In
+addition to installing Git on your computer you need to setup an account on
+GitHub! Before you do so, it is worth taking some time to read a tutorial on
+[Automated Version
+Control](https://swcarpentry.github.io/git-novice/01-basics/index.html). After
+you understand what version control is and why you should use it, you are ready
+to install Git on your computer and create and configure a GitHub account! To
+get started, please read [Installing
+Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) and follow
+the instructions for your computer's operating system. If you want to learn more
+about Git commands that you can use, make sure to read the [Git Cheatsheet from
+GitHub](https://training.github.com/downloads/github-git-cheat-sheet/).
+
+The projects on this site expect you to use [GitHub](https://github.com/) to
+receive starting source code and, if you are an Allegheny College student,
+submit your projects for assessment. As such, it is important for you to be able
+to securely communicate with the GitHub servers! In the remainder of these steps
+you will create an account on GitHub and ensure that you can securely
+communicate with the GitHub servers.
 
 - If you do not already have a GitHub account, then please go to the GitHub web
-  site and create one, making sure that you use your `allegheny.edu` email
-  address so that you can join GitHub as a student at an accredited educational
-  institution. You are also encouraged to sign up for GitHub's "Student
-  Developer Pack" at [Student Developer
-  Pack](https://education.github.com/pack), qualifying you to receive free
-  software development tools. Additionally, please add a description of yourself
-  and an appropriate professional photograph to your GitHub profile. Unless your
-  username is taken, you should also pick your GitHub username to be the same as
-  Allegheny's Google-based email account. Now, in the `#labs` channel of our
-  Slack workspace, please type on one line your full name, `allegheny.edu` email
-  address, and your new GitHub username.
+  site and create one, making sure that, if you are a student at Allegheny
+  College, you use your `allegheny.edu` email address so that you can join
+  GitHub as a student at an accredited educational institution. You are also
+  encouraged to sign up for GitHub's "Student Developer Pack" at [Student
+  Developer Pack](https://education.github.com/pack), qualifying you to receive
+  free software development tools. Additionally, please add a description of
+  yourself and an appropriate professional photograph to your GitHub profile.
+  Unless your username is taken, you should also pick your GitHub username to be
+  the same as Allegheny's Google-based email account. If you are not enrolled at
+  Allegheny College, then you can create a GitHub account with any name you
+  prefer.
 
 - If you have never done so before, you must use the `ssh-keygen` program to
   create secure-shell keys that you can use to support your communication with
