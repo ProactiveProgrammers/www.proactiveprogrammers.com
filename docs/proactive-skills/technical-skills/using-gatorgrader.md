@@ -21,6 +21,9 @@ operating system to start `gradle grade` as a containerized application, using
 the [DockaGator](https://github.com/GatorEducator/dockagator) Docker image
 available on
 [DockerHub](https://cloud.docker.com/u/gatoreducator/repository/docker/gatoreducator/dockagator).
+When you run one of these commands you should make sure that you do so in the
+"home base" of a project (i.e., the directory that contains the `README.md` with
+the summary of the project).
 
 === "Windows"
 
@@ -39,24 +42,36 @@ available on
       -v "$HOME/.dockagator":/root/.local/share \
       gatoreducator/dockagator
     ```
-The aforementioned command will use `"$(pwd)"` (i.e., the current working
-directory) as the project directory and `"$HOME/.dockagator"` as the cached
-GatorGrader directory. Please note that both of these directories must exist,
-although only the project directory must contain something. Generally, the
-project directory should contain the source code and technical writing for an
-assignment, as provided to a student by the instructor through GitHub.
-Additionally, the cached directory should not contain anything other than
-directories and programs created by DockaGator, thus ensuring that they are not
-otherwise overwritten during the completion of the assignment.
+
+!!! note
+
+    === "Windows"
+
+        However, if you are using the Windows operating system then you will
+        instead need to type the command `mkdir
+        %HomeDrive%%HomePath%/.dockagator`. Finally, since the above `docker
+        run` command does not work correctly on the Windows operating system,
+        you will need to instead run the following command to adapt to the
+        differences in the `cmd` terminal window:
+
+    === "Linux and MacOS"
+
+        The aforementioned command will use `"$(pwd)"` (i.e., the current working
+        directory) as the project directory and `"$HOME/.dockagator"` as the cached
+        GatorGrader directory. Please note that both of these directories must exist,
+        although only the project directory must contain something. Generally, the
+        project directory should contain the source code and technical writing for an
+        assignment, as provided to a student by the instructor through GitHub.
+        Additionally, the cached directory should not contain anything other than
+        directories and programs created by DockaGator, thus ensuring that they are not
+        otherwise overwritten during the completion of the assignment.
+
+
+
 
 To ensure that the previous command will work correctly, you should create the
 cache directory by running the command `mkdir $HOME/.dockagator` on the MacOS
-and Linux operating systems. However, if you are using the Windows operating
-system then you will instead need to type the command `mkdir
-%HomeDrive%%HomePath%/.dockagator`. Finally, since the above `docker run`
-command does not work correctly on the Windows operating system, you will need
-to instead run the following command to adapt to the differences in the `cmd`
-terminal window:
+and Linux operating systems.
 
 ```bash
 docker run --rm --name dockagator \
