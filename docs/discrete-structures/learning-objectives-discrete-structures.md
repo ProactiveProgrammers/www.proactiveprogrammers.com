@@ -38,12 +38,19 @@ will be able to demonstrate mastery of the following programming skills:
       through experiments that evaluate the function's performance in seconds or
       milliseconds.
     - Correctly uses assignment statements, iteration constructs, conditional
-      logic, and recursion in a way that passes the function's test suite, works
-      efficiently, and conveys the intended function's purpose in a Pythonic
-      fashion.
-    - Correctly uses discrete structures such as numbers, tuples, sets, streams,
-      and sequences in a way that passes the test suite, works efficiently, and
-      conveys the intended purpose of the function in a Pythonic fashion.
+      logic, function invocation, and function recursion in a way that passes
+      the function's test suite, works efficiently, and conveys the intended
+      function's purpose in a Pythonic fashion.
+    - Correctly uses discrete structure variables such as numbers, tuples, sets,
+      streams, and sequences in a way that passes the test suite, works
+      efficiently, and conveys the intended purpose of the function in a
+      Pythonic fashion.
+    - Correctly performs file and console input and output, ensuring that all
+      input and output is displayed and stored correctly, is not corrupted, and
+      is processed efficiently.
+    - Correctly performs calculations for statistical properties of data, such
+      as the mean, median, and standard deviation, while also clearly displaying
+      the data, its relevant summarization, and the meaning of all calculations.
   - Writes correct Python programs consisting of between one and five hundred
     lines of source code that correctly solve problems using the aforementioned
     discrete structures.
