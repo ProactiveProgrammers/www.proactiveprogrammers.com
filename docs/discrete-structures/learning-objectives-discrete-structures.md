@@ -24,12 +24,12 @@ when there is "some way to know whether the objective has been met" or "how far
 away the learning is from meeting it". Do you see a way in which we can improve
 the learning objectives for discrete structures? If you do, then please
 participate in the [proactive
-community](../../../proactive-community/introduction-proactive-community/) by
-sharing your ideas for improving them!
+community](../../../proactive-community/community-connections/)
+by sharing your ideas for improving them!
 
 [^1]: See [Robert Talbert](https://rtalbert.org/)'s article entitled [How to
   Write Learning
   Objectives](https://rtalbert.org/how-to-write-learning-objectives/) for more
-  details about how to write learning objectives for a academic course. From
+  details about how to design learning objectives for a academic course. From
   your perspective what does it mean to write learning objectives that are both
   clear and measurable?
