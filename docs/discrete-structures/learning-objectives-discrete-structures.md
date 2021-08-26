@@ -25,8 +25,7 @@ away the learning is from meeting it". Do you see a way in which we can improve
 the learning objectives for discrete structures? If you do, then please
 participate in the [proactive
 community](../../../proactive-community/introduction-proactive-community/) by
-sharing your ideas for improving this these learning objectives!
-
+sharing your ideas for improving them!
 
 [^1]: See [Robert Talbert](https://rtalbert.org/)'s article entitled [How to
   Write Learning
