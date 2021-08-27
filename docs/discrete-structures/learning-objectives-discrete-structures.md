@@ -34,6 +34,17 @@ emerging proactive programmers.
     verify those properties through testing and/or proof, describe how these
     properties are similar to and/or different from other discrete structures,
     and explain when it is appropriate to use the structure.
+  - Correctly complete Python programming for each discrete structure, such as:
+    - Use the formal definition of a monoid to describe and predict the output
+      of operations (e.g., concatentation) on textual strings in the Python
+      programming language.
+    - Use the formal definition of a monoid to describe and predict the output
+      of operations (e.g., concatentation) on finite and infinite streams in the
+      a Python program.
+    - Use the formal definition of a set and set-theoretic operations like
+      union, intersection, and containment check to implement a Python program
+      that stores data in a set and manipulates the data using the aforementioned
+      operations.
 
 ### Mathematical Functions
 
@@ -49,8 +60,8 @@ emerging proactive programmers.
       evaluate its performance.
     - After implementing a function in Python using, for instance, higher-order
       functions like `map`, `reduce`, and `filter`, translate that to an
-      equivalent implementation using, for instance, one or more lambda
-      functions.
+      equivalent implementation using, for instance, lambda
+      functions and/or traditional Python functions.
     - After using Python type annotations to precisely document the type of the
       input and output of a Python function, use a type checker to confirm that
       all of the mathematical functions in a program communicate in a type-safe
