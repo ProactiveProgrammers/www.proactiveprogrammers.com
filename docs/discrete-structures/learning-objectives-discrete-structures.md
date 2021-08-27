@@ -80,7 +80,7 @@ emerging proactive programmers.
 
   - Given one or more sets of textual, numerical, categorical, binary, or
     combined data (that may have missing and/or corrupted data values),
-    implement, use, and evaluate a Python function that support data analysis
+    implement, use, and evaluate a Python function that supports data analysis
     through these steps:
     - Input, process, and check the data sets to confirm their correctness.
     - Run an appropriate statistical technique (e.g., the calculation of a mean,
