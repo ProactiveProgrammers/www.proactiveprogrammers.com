@@ -32,8 +32,8 @@ emerging proactive programmers.
   - Given the formal definition of a discrete structure and its implementation
     as a Python program, correctly describe its properties, demonstrate and
     verify those properties through testing and/or proof, describe how these
-    properties are similar to and different from other discrete structures, and
-    explain when it is appropriate to use the structure.
+    properties are similar to and/or different from other discrete structures,
+    and explain when it is appropriate to use the structure.
 
 ### Mathematical Functions
 
@@ -44,23 +44,33 @@ emerging proactive programmers.
       to an algorithm that describes, in a step-by-step fashion, how to solve
       the problem.
     - Pick the most suitable type of function(s) for the problem, implement it
-      in an industry-standard fashion, and then use testing to demonstrate its
-      correctness and experimentation to evaluate its performance.
+      in an industry-standard manner using the Python programming language, and
+      then use testing to demonstrate its correctness and experimentation to
+      evaluate its performance.
+    - After using Python type annotations to precisely document the type of the
+      input and output of a Python function, use a type checker to confirm that
+      all of the mathematical functions in a program communicate in a type-safe
+      fashion.
     - Use formal statements to defend the validity of their design,
       implementation, and testing decisions made when solving the problem with
       the chosen function(s).
 
 ### Data Analysis
 
-  - Given a set of textual, numerical, categorical, and/or binary data, the
-    learner will implement, use, and evaluate:
-    - An appropriate statistical technique, as a Python function, to summarize
-      and analyze the data.
-    - An appropriate visualization technique, as a Python function, that can
-      create graphs and diagrams that highlight the salient properties of the
-      data set.
-    - An appropriate data transmission method, as a Python function, that can
-      transform the data into any format required by any external tools.
+  - Given one or more sets of textual, numerical, categorical, binary, or
+    combined data (that may have missing and/or corrupted data values),
+    implement, use, and evaluate a Python function that support data analysis
+    through these steps:
+    - Input, process, and check the data sets to confirm their correctness.
+    - Run an appropriate statistical technique (e.g., the calculation of a mean,
+      median, or standard deviation) to summarize and analyze the data.
+    - Use an appropriate data visualization technique that can create graphs and
+      diagrams that highlight the salient properties of the data set (e.g., show
+      the general trends in the data set while drawing attention to the
+      dispersion of values).
+    - Perform an appropriate data processing method that can transform the data
+      into any format required by any external functions (e.g., convert from
+      JSON to CSV).
 
 ## Rigorous Programming
 
