@@ -139,9 +139,9 @@ will be able to demonstrate mastery of the following programming skills:
 
 ### Python Programming Tools
 
-  - Use a Python programming environment to complete these tasks
-    while implementing a Python program consisting of between one and five
-      hundred lines of code:
+  - Use a Python programming environment to complete these tasks while
+    implementing a Python program consisting of between one and five hundred
+    lines of code:
     - Install, upgrade, and use [Python](https://www.python.org/) 3.8 or 3.9
       programming environment to create, run, and debug a Python program through
       a terminal window and/or a text editor.
@@ -164,8 +164,9 @@ will be able to demonstrate mastery of the following programming skills:
         - Creating and accepting an invitation to collaboratively create a
           Python program.
         - Collaboratively sharing a terminal window with a remote developer.
-        - While using text-based chat and/or video communication,
-          collaboratively a feature and repair a defect in a Python program.
+        - While using text-based chat and/or video communication with a team,
+          collaboratively create a feature and/or repair a defect in a Python
+          program.
 
 ### Using Version Control
 
