@@ -47,6 +47,10 @@ emerging proactive programmers.
       in an industry-standard manner using the Python programming language, and
       then use testing to demonstrate its correctness and experimentation to
       evaluate its performance.
+    - After implementing a function in Python using, for instance, higher-order
+      functions like `map`, `reduce`, and `filter`, translate that to an
+      equivalent implementation using, for instance, one or more lambda
+      functions.
     - After using Python type annotations to precisely document the type of the
       input and output of a Python function, use a type checker to confirm that
       all of the mathematical functions in a program communicate in a type-safe
