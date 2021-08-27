@@ -51,7 +51,7 @@ emerging proactive programmers.
       input and output of a Python function, use a type checker to confirm that
       all of the mathematical functions in a program communicate in a type-safe
       fashion.
-    - Use formal statements to defend the validity of their design,
+    - Use formal statements to defend the validity of the design,
       implementation, and testing decisions made when solving the problem with
       the chosen function(s).
 
