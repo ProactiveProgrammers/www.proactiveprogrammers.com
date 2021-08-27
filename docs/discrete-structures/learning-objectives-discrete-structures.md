@@ -22,6 +22,8 @@ emerging proactive programmers.
       hundred lines of code.
     - Use formal and precise mathematical language to correctly describe the
       representation, behavior, and limitations of the type of data.
+    - Justify the decision to use a specific discrete structure to solve a
+      problem.
   - Given the formal definition of a discrete structure that uses mathematical
     notation, correctly translate it into a Python program, bearing in mind the
     ways in which the working system may diverge from the formal definition due
