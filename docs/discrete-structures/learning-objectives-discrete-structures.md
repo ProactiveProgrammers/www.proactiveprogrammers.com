@@ -34,17 +34,23 @@ emerging proactive programmers.
     verify those properties through testing and/or proof, describe how these
     properties are similar to and/or different from other discrete structures,
     and explain when it is appropriate to use the structure.
-  - Correctly complete Python programming for each discrete structure, such as:
+  - Correctly complete Python programming tasks with each discrete structure.
+    For instance:
     - Use the formal definition of a monoid to describe and predict the output
       of operations (e.g., concatentation) on textual strings in the Python
       programming language.
     - Use the formal definition of a monoid to describe and predict the output
-      of operations (e.g., concatentation) on finite and infinite streams in the
-      a Python program.
+      of operations (e.g., concatentation) on finite and infinite streams in a
+      Python program.
     - Use the formal definition of a set and set-theoretic operations like
       union, intersection, and containment check to implement a Python program
-      that stores data in a set and manipulates the data using the aforementioned
-      operations.
+      that stores data in a set and correctly manipulates the data using the
+      aforementioned operations.
+    - Given the formal definition of the domain and range of a mathematical
+      function, implement that function as a dictionary in a Python program.
+    - Using the formal definition of a graph and a file with graph-theoretic
+      data, create an adjacency matrix representaton of the graph and save it
+      using a Python program.
 
 ### Mathematical Functions
 
