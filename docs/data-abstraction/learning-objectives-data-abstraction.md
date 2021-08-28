@@ -1,12 +1,11 @@
 # Learning Objectives
 
---8<-- "includes/objectives/learning-objectives.md"
+--8<-- "includes/objectives/learning-objectives-data-abstraction.md"
 
 ## Data Structures
 
-A person learning discrete structures with the mindset of a proactive programmer
+A person learning data abstraction with the mindset of a proactive programmer
 will be able to demonstrate mastery of the following skills in data structures:
-
 
 ## Data Analysis
 
