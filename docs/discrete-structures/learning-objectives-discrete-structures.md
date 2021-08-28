@@ -18,7 +18,7 @@ skills:
 
 ### Data Analysis
 
---8<-- "includes/objectives/data-analysis.md"
+--8<-- "includes/objectives/data-analysis-discrete.md"
 
 ## Rigorous Programming
 
