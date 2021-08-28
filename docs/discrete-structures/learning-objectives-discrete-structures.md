@@ -1,6 +1,6 @@
 # Learning Objectives
 
---8<-- "includes/objectives/learning-objectives.md"
+--8<-- "includes/objectives/learning-objectives-discrete-structures.md"
 
 ## Mathematical Communication
 
