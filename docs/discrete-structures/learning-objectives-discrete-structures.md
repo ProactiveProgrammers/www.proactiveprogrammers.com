@@ -17,18 +17,18 @@ emerging proactive programmers.
   - Given the opportunity to input, store, and output a type of data, pick the
     correct discrete structure (e.g., a number, set, sequence, stream,
     dictionary, or tree) and then:
-    - Implement it and integrate it into a correct, well-tested, and
+    - Import it and then integrate it into a correct, well-tested, and
       well-documented Python program consisting of between one hundred and five
       hundred lines of code.
     - Use formal and precise mathematical language to correctly describe the
       representation, behavior, and limitations of the type of data.
     - Justify the decision to use a specific discrete structure to solve a
       problem.
-  - Given the formal definition of a discrete structure that uses mathematical
-    notation, correctly translate it into a Python program, bearing in mind the
-    ways in which the working system may diverge from the formal definition due
-    to, for instance, implementation concerns related to computational costs and
-    storage overheads.
+  - Given the formal definition of a discrete structure that is described with
+    mathematical notation, correctly translate it into a Python program, bearing
+    in mind the ways in which the working system may diverge from the formal
+    definition due to, for instance, implementation concerns related to
+    computational costs and storage overheads.
   - Given the formal definition of a discrete structure and its implementation
     as a Python program, correctly describe its properties, demonstrate and
     verify those properties through testing and/or proof, describe how these
@@ -47,7 +47,8 @@ emerging proactive programmers.
       that stores data in a set and correctly manipulates the data using the
       aforementioned operations.
     - Given the formal definition of the domain and range of a mathematical
-      function, implement that function as a dictionary in a Python program.
+      function, implement that function as either a traditional Python function
+      or a dictionary.
     - Using the formal definition of a graph and a file with graph-theoretic
       data, create an adjacency matrix representaton of the graph and save it
       using a Python program.
@@ -66,12 +67,12 @@ emerging proactive programmers.
       evaluate its performance.
     - After implementing a function in Python using, for instance, higher-order
       functions like `map`, `reduce`, and `filter`, translate that to an
-      equivalent implementation using, for instance, lambda
-      functions and/or traditional Python functions.
-    - After using Python type annotations to precisely document the type of the
-      input and output of a Python function, use a type checker to confirm that
-      all of the mathematical functions in a program communicate in a type-safe
-      fashion.
+      equivalent implementation using, for instance, lambda functions and/or
+      traditional Python functions.
+    - After using Python type annotations to precisely document the type and
+      structure of the input and output of a Python function, use a type checker
+      to confirm that all of the functions in a program communicate with each
+      other in a type-safe fashion.
     - Use formal statements to defend the validity of the design,
       implementation, and testing decisions made when solving the problem with
       the chosen function(s).
@@ -82,16 +83,20 @@ emerging proactive programmers.
     combined data (that may have missing and/or corrupted data values),
     implement, use, and evaluate a Python function that supports data analysis
     through these steps:
-    - Input, process, and check the data sets to confirm their correctness.
+    - Input, process, check, and clean the data sets to confirm their
+      correctness.
     - Run an appropriate statistical technique (e.g., the calculation of a mean,
       median, or standard deviation) to summarize and analyze the data.
     - Use an appropriate data visualization technique that can create graphs and
       diagrams that highlight the salient properties of the data set (e.g., show
       the general trends in the data set while drawing attention to the
       dispersion of values).
-    - Perform an appropriate data processing method that can transform the data
-      into any format required by any external functions (e.g., convert from
-      JSON to CSV).
+    - Use statistical analysis and data visualization techniques to identify
+      hidden trends in a data set, supporting the prediction of new data values
+      and properties.
+    - Implement and use an appropriate data processing method that transforms
+      the data into any format required by any external functions (e.g., convert
+      from JSON to CSV).
 
 ## Rigorous Programming
 
