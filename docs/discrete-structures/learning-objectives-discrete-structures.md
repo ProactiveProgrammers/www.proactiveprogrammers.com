@@ -216,7 +216,7 @@ communication skills:
 
 - Use [Discord](https://discord.com/) to effectively communicate about
   technology in the following fashion:
-    - Using the correct public channel, post a question that includes source
+    - the correct public channel, post a question that includes source
       code segments, screenshots, and a description of the steps taken in an
       attempt to solve a problem.
     - Answer questions that were posted in a public channel, responding with
