@@ -1,6 +1,6 @@
 # Learning Objectives
 
-A proactive programmer studying discrete structures should be able to
+A proactive programmer studying **discrete structures** should be able to
 effectively demonstrate the mastery of the following learning objectives in the
 categories of **mathematical communication** and **rigorous programming**.
 According to [Robert Talbert](https://rtalbert.org/), a learning objective must
@@ -98,7 +98,7 @@ emerging proactive programmers.
 A person learning discrete structures with the mindset of a proactive programmer
 will be able to demonstrate mastery of the following programming skills:
 
-### Proficient Python Programming
+### Python Programming
 
   - Write short Python functions of ten to twenty lines that have the following
     characteristics:
@@ -137,7 +137,7 @@ will be able to demonstrate mastery of the following programming skills:
     lines of source code that correctly solve problems using the aforementioned
     discrete structures.
 
-### Python Programming Tools
+### Programming Tools
 
   - Use a Python programming environment to complete these tasks while
     implementing a Python program consisting of between one and five hundred
@@ -146,8 +146,8 @@ will be able to demonstrate mastery of the following programming skills:
       programming environment to create, run, and debug a Python program through
       a terminal window and/or a text editor.
     - Use [Poetry](https://python-poetry.org/) to install a Python program's
-      dependencies, create a virtual environment, and run a it without error in
-      an isolated and self-contained setting.
+      dependencies, create a virtual environment, and run it without error in an
+      isolated and self-contained configuration.
     - Use [Docker](https://www.docker.com/) to run, in an isolated container and
       without error, a Python program, an automated test suite, and automated
       grading tools such as
@@ -155,8 +155,8 @@ will be able to demonstrate mastery of the following programming skills:
     - Use and create a test suite implemented with
       [Pytest](https://docs.pytest.org/) to detect a failure in a Python program
       and then effectively use tools like a text editor and a terminal window to
-      find and fix the failure, ultimately confirming that the Python program no
-      longer contains the failure and that the fix did not compromise other
+      find and fix the fault, ultimately confirming that the Python program no
+      longer contains the fault and that the fix did not compromise other
       functions in the program.
     - Use a text editor like [VS Code](https://code.visualstudio.com/) to
       participate in a remote and collaborative Python programming session by
@@ -168,7 +168,7 @@ will be able to demonstrate mastery of the following programming skills:
           collaboratively create a feature and/or repair a defect in a Python
           program.
 
-### Using Version Control
+### Version Control
 
   - Use the [GitHub](https://github.com/) platform and the
     [Git](https://git-scm.com/) version control system in the following fashion:
