@@ -208,7 +208,11 @@ will be able to demonstrate mastery of the following programming skills:
       industry-standard checks, as evidenced through the report of a passing
       build by [GitHub Actions](https://github.com/features/actions).
 
-### Effective Communication
+## Effective Communication
+
+A person learning discrete structures with the mindset of a proactive programmer
+will be able to demonstrate mastery of the following technology-mediated
+communication skills:
 
 - Use [Discord](https://discord.com/) to effectively communicate about
   technology in the following fashion:
