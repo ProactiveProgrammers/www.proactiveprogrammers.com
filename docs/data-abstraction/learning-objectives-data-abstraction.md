@@ -18,12 +18,15 @@ will be able to demonstrate mastery of the following skills in data structures:
 - Adapt an existing implementation of a data structure so that it offers
   additional and/or different functionality not provided by that structure's
   standard implementation.
+- Leveraging knowledge of existing data structures, specify the input, output,
+  and behavior of a new data structure to solve a novel problem.
+- Design, implement, and document a data structure
 
 ### Algorithm Analysis
 
 ## Data Analysis
 
---8<-- "includes/objectives/data-analysis.md"
+--8<-- "includes/objectives/data-analysis-abstraction.md"
 
 ## Rigorous Programming
 
