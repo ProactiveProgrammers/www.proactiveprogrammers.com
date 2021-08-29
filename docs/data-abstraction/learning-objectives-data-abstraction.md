@@ -31,9 +31,9 @@ will be able to demonstrate mastery of the following skills in data structures:
       justifying the need for the bespoke imlementation instead of those that
       are already available.
 
-### Algorithm Analysis
+### Algorithm Evaluation
 
-## Data Analysis
+### Data Analysis
 
 --8<-- "includes/objectives/data-analysis-abstraction.md"
 
