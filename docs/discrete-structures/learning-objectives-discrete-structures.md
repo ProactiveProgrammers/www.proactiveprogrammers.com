@@ -43,6 +43,6 @@ will be able to demonstrate mastery of the following programming skills:
 
 ## Improving Objectives
 
---8<-- "includes/objectives/improving-objectives.md"
+--8<-- "includes/objectives/improving-objectives-structures.md"
 
 --8<-- "includes/objectives/learning-objectives-footnote.md"

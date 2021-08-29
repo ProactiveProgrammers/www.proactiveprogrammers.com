@@ -1,13 +1,13 @@
 - Given the opportunity to input, store, and output a type of data, pick the
   correct discrete structure (e.g., a number, set, sequence, stream,
   dictionary, or tree) and then:
-  - Import it and then integrate it into a correct, well-tested, and
-    well-documented Python program consisting of between one hundred and five
-    hundred lines of code.
-  - Use formal and precise mathematical language to correctly describe the
-    representation, behavior, and limitations of the type of data.
-  - Justify the decision to use a specific discrete structure to solve a
-    problem.
+    - Import it and then integrate it into a correct, well-tested, and
+      well-documented Python program consisting of between one hundred and five
+      hundred lines of code.
+    - Use formal and precise mathematical language to correctly describe the
+      representation, behavior, and limitations of the type of data.
+    - Justify the decision to use a specific discrete structure to solve a
+      problem.
 - Given the formal definition of a discrete structure that is described with
   mathematical notation, correctly translate it into a Python program, bearing
   in mind the ways in which the working system may diverge from the formal
