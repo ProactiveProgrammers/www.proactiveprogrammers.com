@@ -12,15 +12,22 @@ will be able to demonstrate mastery of the following skills in data structures:
 - Correctly implement a data structure, such as a stack, list, or dictionary,
   ensuring that it provides all of the functionality required by the structure's
   specification.
-- After important an existing implementation of a data structure (e.g., a list
+- After importing an existing implementation of a data structure (e.g., a list
   or a dictionary), confirm that it provides the required functionality and
   integrate it into an existing program.
 - Adapt an existing implementation of a data structure so that it offers
   additional and/or different functionality not provided by that structure's
   standard implementation.
-- Leveraging knowledge of existing data structures, specify the input, output,
-  and behavior of a new data structure to solve a novel problem.
-- Design, implement, and document a data structure
+- Leveraging knowledge of existing data structures like a list or dictionary:
+    - Specify the input, output, and behavior of a new data structure.
+    - Design, implement, and document a new data structure.
+    - Implement and execute a test suite for a new data structure and
+      demonstrate that, for given input and output, its behavior matches the
+      specification.
+    - Integrate the new data structure with the data structures used by an
+      existing program.
+    - Document the trade-offs associated with the implementation of the new data
+      structure, comparing and contrasting it with existing alternatives.
 
 ### Algorithm Analysis
 
