@@ -54,14 +54,19 @@ will be able to demonstrate mastery of the following skills in data structures:
   analytical evaluation:
     - Characterize the number of basic operations in both iterative and
       recursive algorithms.
-    - Use the asymptotic notation and the characterization of the number of
-      basic operations to classify the algorithm as belonging to well-known
+    - Use the asymptotic notation and the characterization of the basic
+      operations to classify the algorithm as belonging to a well-known
       worst-case time complexity class.
     - Using an algorithm's worst-case time complexity, compare and contrast it
-      with other algorithms that have similar and different time complexities.
-    - Identify ways in which it is possible to re-design the algorithm and the
+      with other algorithms that have similar and different time complexities,
+      explaining which algorithm is most appropriate depending on, for instance,
+      the likely size of a program's input.
+    - Describe ways in which it is possible to re-design the algorithm and the
       way in which is processes a data structure so as to improve its worst-case
       time complexity.
+    - Explain how the algorithm exhibits trade-offs between its worst-case time
+      complexity and the amount of space that it needs to store the data
+      structure.
 
 ### Data Analysis
 
