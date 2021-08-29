@@ -94,7 +94,7 @@ will be able to demonstrate mastery of the following programming skills:
 
 ## Effective Communication
 
---8<-- "includes/objectives/effective-communication.md"
+--8<-- "includes/objectives/effective-communication-abstraction.md"
 
 ## Improving Objectives
 
