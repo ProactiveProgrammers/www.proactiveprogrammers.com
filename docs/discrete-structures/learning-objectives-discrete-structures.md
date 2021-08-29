@@ -39,7 +39,7 @@ will be able to demonstrate mastery of the following programming skills:
 
 ## Technical Communication
 
---8<-- "includes/objectives/effective-communication.md"
+--8<-- "includes/objectives/effective-communication-structures.md"
 
 ## Improving Objectives
 
