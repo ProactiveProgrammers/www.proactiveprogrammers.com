@@ -74,12 +74,26 @@ will be able to demonstrate mastery of the following skills in data structures:
       through a doubling experiment in which the size of the input repeatedly
       doubles.
     - Use the benchmarking framework to run a doubling experiment for an
-      algorithm, computing the doubling ratio for execution time.
-    - Use the computed doubling ratio to experimentally classify the likely
-      worst-case time complexity of the algorithm.
-    - Leveraging the likely worst-case time complexity and the experimental data
-      reported by the benchmarking framework, describe ways in which it is
-      possible to re-design the algorithm to improve its performace.
+      algorithm, computing the doubling ratio for execution time at each stage
+      of a benchmark.
+    - Use the computed doubling ratio to experimentally predict the likely
+      worst-case time complexity class to which the data structure and algorithm
+      belong.
+    - Leveraging both the likely worst-case time complexity and the experimental
+      data reported from the doubling experiment run by the benchmarking
+      framework, describe ways in which it is possible to re-design the
+      algorithm to improve its performance.
+    - Using the likely worst-case time complexity and the experimental data,
+      explain how the algorithm trade-offs between time efficiency and the space
+      needed for data storage.
+- For the implementation of a data structure and associated algorithms in the
+  Python programming language, use the results from both the analytical and
+  empirical evaluation to:
+    - Confidently classify the algorithm according to its worst-case time
+      complexity.
+    - Identify strengths and weakness in terms of both time and space
+      efficiency.
+    - Suggest ways to improve the efficiency of the Python implementation.
 
 ### Data Analysis
 
