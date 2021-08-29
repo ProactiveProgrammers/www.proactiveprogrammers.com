@@ -31,6 +31,13 @@ will be able to demonstrate mastery of the following skills in data structures:
       structure, comparing and contrasting it with existing alternatives and
       justifying the need for the bespoke imlementation instead of those that
       are already available.
+- Use the principles of object-oriented programming (i.e., encapsulation,
+  inheritance, and polymorphism) to design, implement, document, and test
+  classes that provide all of the features required by the specification of a
+  data structure.
+- Use exception handling techniques to ensure that the implementation of a data
+  structure does not inappropriately crash in when running in non-standard
+  execution circumstances.
 
 ### Algorithm Evaluation
 
