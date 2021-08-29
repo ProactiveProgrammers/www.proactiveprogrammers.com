@@ -7,7 +7,7 @@
 A person learning data abstraction with the mindset of a proactive programmer
 will be able to demonstrate mastery of the following skills in data structures:
 
-### Engineering Efforts
+### Algorithm Engineering
 
 - Correctly implement a data structure, such as a stack, list, or dictionary,
   ensuring that it provides all of the functionality required by the structure's
