@@ -20,9 +20,9 @@
       logic, function invocation, and function recursion in a way that passes
       the function's test suite, works efficiently, and conveys the intended
       function's purpose in a Pythonic fashion.
-    - Correctly uses data structures such as lists and dictionaries in a way
-      that passes the test suite, works efficiently, and conveys the intended
-      purpose of the function in a Pythonic fashion.
+    - Correctly uses a data structure like a dictionary in a way that passes the
+      test suite, works efficiently, and conveys the intended purpose of the
+      data structure.
     - Correctly performs file and console input and output, ensuring that all
       input and output is displayed and stored correctly, is not corrupted, and
       is processed efficiently.
