@@ -21,13 +21,15 @@ will be able to demonstrate mastery of the following skills in data structures:
 - Leveraging knowledge of existing data structures like a list or dictionary:
     - Specify the input, output, and behavior of a new data structure.
     - Design, implement, and document a new data structure.
-    - Implement and execute a test suite for a new data structure and
+    - Implement, execute, and maintain a test suite for a new data structure and
       demonstrate that, for given input and output, its behavior matches the
       specification.
     - Integrate the new data structure with the data structures used by an
       existing program.
     - Document the trade-offs associated with the implementation of the new data
-      structure, comparing and contrasting it with existing alternatives.
+      structure, comparing and contrasting it with existing alternatives and
+      justifying the need for the bespoke imlementation instead of those that
+      are already available.
 
 ### Algorithm Analysis
 
