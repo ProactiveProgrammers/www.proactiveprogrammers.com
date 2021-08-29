@@ -17,5 +17,5 @@
       to confirm that all of the functions in a program communicate with each
       other in a type-safe fashion.
     - Use formal statements to defend the validity of the design,
-      implementation, and testing decisions made when solving the problem with
+      implementation, and testing decisions made when solving a problem with
       the chosen function(s).
