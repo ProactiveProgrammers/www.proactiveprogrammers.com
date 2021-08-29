@@ -34,18 +34,18 @@ will be able to demonstrate mastery of the following skills in data structures:
 - Use the principles of object-oriented programming (i.e., encapsulation,
   inheritance, and polymorphism) to design, implement, document, and test
   classes that provide all of the features required by the specification of a
-  data structure.
+  data structure and the algorithms that process it.
 - Use exception handling techniques to ensure that the implementation of a data
   structure does not inappropriately crash when it runs in non-standard
   execution circumstances.
 - Given input from the file system, network, or console, input the data values,
   store them in a data structure like a list, and then implement and use a
   sorting algorithm like merge sort to order the list of values. Using the same
-  list of values, implement and use a search algorithm that can either find a specific
-  value in the list or confirm that the value is not in the list.
-- Given an input and one or more constraints, use dynamic programming techniques
-  to solve an instance of an optimization problem (e.g., the 0/1 Knapsack
-  Problem).
+  list of values, implement and use a search algorithm that can either find a
+  specific value in the list or confirm that the value is not in the list.
+- Given a finite input and solution constraints, use a dynamic programming
+  technique to efficiently solve an instance of an optimization problem (e.g.,
+  the 0/1 Knapsack Problem).
 
 ### Algorithm Evaluation
 
@@ -86,8 +86,8 @@ will be able to demonstrate mastery of the following skills in data structures:
     - Using the likely worst-case time complexity and the experimental data,
       explain how the algorithm trade-offs between time efficiency and the space
       needed for data storage.
-- For the implementation of a data structure and associated algorithms in the
-  Python programming language, use the results from both the analytical and
+- For the implementation of a data structure and its associated algorithms in
+  the Python programming language, use the results from both the analytical and
   empirical evaluation to:
     - Confidently classify the algorithm according to its worst-case time
       complexity.
