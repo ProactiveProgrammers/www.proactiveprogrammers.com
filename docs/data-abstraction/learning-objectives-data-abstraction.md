@@ -70,6 +70,16 @@ will be able to demonstrate mastery of the following skills in data structures:
 - Given the Python-based implementation of a data structure and the algorithm
   that processes and/or manipulates it, perform these steps as part of its
   empirical evaluation:
+    - Implement a benchmarking framework that repeatedly executes an algorithm
+      through a doubling experiment in which the size of the input repeatedly
+      doubles.
+    - Use the benchmarking framework to run a doubling experiment for an
+      algorithm, computing the doubling ratio for execution time.
+    - Use the computed doubling ratio to experimentally classify the likely
+      worst-case time complexity of the algorithm.
+    - Leveraging the likely worst-case time complexity and the experimental data
+      reported by the benchmarking framework, describe ways in which it is
+      possible to re-design the algorithm to improve its performace.
 
 ### Data Analysis
 
