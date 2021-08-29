@@ -37,7 +37,7 @@ will be able to demonstrate mastery of the following programming skills:
 
 --8<-- "includes/objectives/version-control.md"
 
-## Effective Communication
+## Technical Communication
 
 --8<-- "includes/objectives/effective-communication.md"
 
