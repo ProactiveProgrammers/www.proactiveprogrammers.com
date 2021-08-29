@@ -34,6 +34,12 @@ will be able to demonstrate mastery of the following skills in data structures:
 
 ### Algorithm Evaluation
 
+- Given the psuedo-code description of an algorithm that processes and/or
+  manipulates a data structure, perform the following steps as part of its
+  analytical evaluation:
+    - Count the number of basic operations in both iterative and recursive
+      algorithms.
+
 ### Data Analysis
 
 --8<-- "includes/objectives/data-analysis-abstraction.md"
