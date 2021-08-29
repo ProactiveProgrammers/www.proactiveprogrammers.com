@@ -33,3 +33,6 @@
   - Writes correct Python programs consisting of between one and five hundred
     lines of source code that correctly solve problems using the aforementioned
     data structures.
+  - Uses the features of the Python programming language to create classes and
+    instances of these classes that solve problems using the principles of
+    object-oriented programming.
