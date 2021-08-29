@@ -1,6 +1,7 @@
-- Given one or more sets of textual, numerical, categorical, binary, or combined
-  data (that may have missing and/or corrupted data values), implement, use, and
-  evaluate a Python function that supports data analysis through these steps:
+- Given one or more sets of textual, numerical, categorical, and/or combined
+  data that describe the performance of an algorithm or data structure,
+  implement, use, and evaluate functions that perform data analysis through
+  these steps:
     - Input, process, check, and clean the data sets to confirm their
       correctness.
     - Run an appropriate statistical technique (e.g., the calculation of a mean,
@@ -9,11 +10,12 @@
       diagrams that highlight the salient properties of the data set (e.g., show
       the general trends in the data set while drawing attention to the
       dispersion of values).
-    - Use statistical analysis and data visualization techniques to identify
+    - Use statistical analysis and data visualization techniques to surface
       trends in a data set.
-    - Use existing machine learning methods (e.g., supervised and unsupervised
-      machine learning algorithms) to create a model of a data set and then use
-      the model to make predictions with new data values.
-    - Implement and use an appropriate data processing method that transforms the
-      data into any format required by any external functions (e.g., convert from
-      JSON to CSV).
+    - Using existing machine learning algorithms (e.g., cluster analysis or
+      classification and regression trees) to model the data set and
+      then use this model to make predictions about the performance of the
+      algorithm or data structure in new configurations.
+    - Implement and use an appropriate data processing method that transforms
+      the data into any format required by any external functions (e.g., convert
+      from JSON to CSV).
