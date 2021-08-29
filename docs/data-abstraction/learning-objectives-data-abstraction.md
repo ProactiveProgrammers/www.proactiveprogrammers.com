@@ -67,6 +67,9 @@ will be able to demonstrate mastery of the following skills in data structures:
     - Explain how the algorithm exhibits trade-offs between its worst-case time
       complexity and the amount of space that it needs to store the data
       structure.
+- Given the Python-based implementation of a data structure and the algorithm
+  that processes and/or manipulates it, perform these steps as part of its
+  empirical evaluation:
 
 ### Data Analysis
 
