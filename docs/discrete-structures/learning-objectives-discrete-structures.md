@@ -27,7 +27,7 @@ will be able to demonstrate mastery of the following programming skills:
 
 ### Python Programming
 
---8<-- "includes/objectives/python-programming-abstraction.md"
+--8<-- "includes/objectives/python-programming-discrete.md"
 
 ### Programming Tools
 
