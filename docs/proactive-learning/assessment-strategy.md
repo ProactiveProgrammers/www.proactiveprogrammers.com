@@ -263,5 +263,5 @@ Forum](https://github.com/ProactiveProgrammers/www.proactiveprogrammers.com/disc
   Systems](https://rtalbert.org/finding-common-ground-with-grading-systems/)
   that [Robert Talbert](https://rtalbert.org/) wrote to explain the principles
   of effective grading. From your perspective as an emerging proactive
-  programmer who wants to grow in their knowledge and skills what are the best
+  programmer who wants to grow in their knowledge and skills, what are the best
   steps for an expert to take when assessing your work?
