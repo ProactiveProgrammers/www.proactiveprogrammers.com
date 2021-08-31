@@ -6,7 +6,7 @@ abstraction](/data-abstraction/introduction-data-abstraction) and [discrete
 structures](/discrete-structures/introduction-discrete-structures), the projects
 that they complete will be receive rapid and frequent feedback, in adherence to
 the grading principles set forth by [Robert Talbert](https://rtalbert.org/).
-Specifically, team of proactive programming experts will conduct assessments
+Specifically, the team of proactive programming experts will conduct assessments
 with these principles in mind:
 
 - **Clearly Defined Standards**: Test
@@ -263,5 +263,5 @@ Forum](https://github.com/ProactiveProgrammers/www.proactiveprogrammers.com/disc
   Systems](https://rtalbert.org/finding-common-ground-with-grading-systems/)
   that [Robert Talbert](https://rtalbert.org/) wrote to explain the principles
   of effective grading. From your perspective as an emerging proactive
-  programmer what are the best steps for an expert to take when assessing your
-  work?
+  programmer who wants to grow in their knowledge and skills what are the best
+  steps for an expert to take when assessing your work?
