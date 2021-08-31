@@ -1,8 +1,24 @@
 # Assessment Strategy
 
+To ensure that proactive programmers can effectively grow in their knowledge of
+software engineering as they study topics such as [data
+abstraction](/data-abstraction/introduction-data-abstraction) and [discrete
+structures](/discrete-structures/introduction-discrete-structures), the projects
+that they complete will be receive rapid and frequent feedback, in adherence to
+the grading principles set forth by [Robert Talbert](https://rtalbert.org/).
+Specifically, team of proactive programming experts will conduct assessments
+with these principles in mind:
+
+- **Clearly Defined Standards**: Test
+- **Helpful Feedback**: test
+- **Scores Suggest Progress**: test
+- **Reattempts without Penalty**: test
+
 --8<-- "includes/admonitions/admonish-github.md"
 
-All learners will complete all of their work through an industry-standard
+To support the assessment of projects in adherence to these principles, the team
+of proactive programming experts will leverage several software platforms and
+tools. All learners will complete all of their work through an industry-standard
 platform called [GitHub](https://www.github.com). If they have not done so
 already, learners should create a free GitHub account. They will use this
 account and the GitHub repositories associated with it to receive starter
@@ -242,3 +258,10 @@ assessment strategy please share them in the [GitHub Issue
 Tracker](https://github.com/ProactiveProgrammers/www.proactiveprogrammers.com/issues)
 or the [GitHub Discussions
 Forum](https://github.com/ProactiveProgrammers/www.proactiveprogrammers.com/discussions)!
+
+[^1]: Check out the article [Finding Common Ground with Grading
+  Systems](https://rtalbert.org/finding-common-ground-with-grading-systems/)
+  that [Robert Talbert](https://rtalbert.org/) wrote to explain the principles
+  of effective grading. From your perspective as an emerging proactive
+  programmer what are the best steps for an expert to take when assessing your
+  work?
