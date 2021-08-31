@@ -7,12 +7,20 @@ structures](/discrete-structures/introduction-discrete-structures), the projects
 that they complete will be receive rapid and frequent feedback, in adherence to
 the grading principles set forth by [Robert Talbert](https://rtalbert.org/).
 Specifically, the team of proactive programming experts will conduct assessments
-with these principles in mind:
+with these principles in mind.[^1]
 
-- **Clearly Defined Standards**: Test
-- **Helpful Feedback**: test
-- **Scores Suggest Progress**: test
-- **Reattempts without Penalty**: test
+- **Clearly Defined Standards**: All projects will have a specification that
+  clearly defines the characteristics of acceptable program source code and
+  technical writing.
+- **Helpful Feedback**: Project feedback will offer actionable advice for steps
+  to better ensure that a source code or technical writing more fully adheres to
+  the specification.
+- **Scores Suggest Progress**: The scores assigned to a project will offer
+  meaningful insight into the progress that a proactive programmer made to more
+  fully meet the specification.
+- **Reattempts without Penalty**: All projects will have a completion period
+  during which a proactive programmer may repeatedly attempt to meet the
+  specification without penalty.
 
 --8<-- "includes/admonitions/admonish-github.md"
 
@@ -33,12 +41,12 @@ tasks that demonstrate their knowledge of the technical knowledge and skills
 developed as part of an assignment. In addition to running the GatorGrader tool
 on their laptop, learners will see the results from running GatorGrader checks
 in the continuous integration environment called [GitHub
-Actions](https://github.com/features/actions).
+Actions](https://github.com/features/actions) that is accessible for a GitHub
+repository.
 
-A learner will receive a separate GitHub repository for each engineering effort
-and programming project while all of the source code surveys will exist in a
-single GitHub repository. Moreover, each [assignment type](assignment-types.md)
-has its own assessment strategy!
+A learner will receive a separate GitHub repository for each project on this
+site. Moreover, each [assignment type](assignment-types.md) has its own
+assessment strategy!
 
 --8<-- "includes/admonitions/admonish-external.md"
 
