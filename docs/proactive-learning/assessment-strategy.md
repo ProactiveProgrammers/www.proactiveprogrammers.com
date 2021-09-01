@@ -45,8 +45,11 @@ Actions](https://github.com/features/actions) that is accessible for a GitHub
 repository.
 
 A learner will receive a separate GitHub repository for each project on this
-site. Moreover, each [assignment type](assignment-types.md) has its own
-assessment strategy!
+site. Each of these GitHub repositories will have a [pull
+request](https://docs.github.com/en/github/collaborating-with-pull-requests)
+called "Feedback" through which a learner will receive feedback from the team of
+proactive programming experts who will assess their work. Moreover, each
+[assignment type](assignment-types.md) has its own assessment strategy!
 
 --8<-- "includes/admonitions/admonish-external.md"
 
