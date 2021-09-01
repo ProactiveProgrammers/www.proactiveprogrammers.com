@@ -160,21 +160,21 @@ The instructor invites learners to incrementally complete all of the learning
 objectives for an engineering effort, programming project, and source code
 survey. As long as a learner's work passes all of the GatorGrader checks before
 an assignment's deadline, they will receive full credit for that part of an
-assignment's grade. After the deadline for project submission, all grades for a
-project will be reported through a student's GitHub repository using messages in
-the GitHub repository's commit log, issues raised in the issue tracker, and
-comments on a pull request in the GitHub repository.
+assignment's assessment. After the deadline for project submission, all
+assessments for a project will be reported through a learner's GitHub repository
+using messages in the GitHub repository's commit log, issues raised in the issue
+tracker, and comments on the "Feedback" pull request in the GitHub repository.
 
 ## Assignment Discussion
 
-Learners who wish to receive feedback on their work for any graded assignment
+Learners who wish to receive feedback on their work for any assessed assignment
 should ask questions in the same region of Github where the instructor shared
-the assignment's grade. For example, if the instructor shares the grade in a
-pull request in the repository for an engineering effort, then you should ask
-questions about your grade in that pull request, bearing in mind the need to
-@-mention the instructor in the body of your comment. Learners can continue to
-discuss the graded assignment with the instructor until they understand all the
-technical topics developed as part of the project.
+the assignment's final assessment. For example, if the instructor shares the
+grade in a pull request in the repository for an engineering effort, then you
+should ask questions about your grade in that pull request, bearing in mind the
+need to @-mention the instructor in the body of your comment. Learners can
+continue to discuss the graded assignment with the instructor until they
+understand all the technical topics developed as part of the project.
 
 --8<-- "includes/admonitions/admonish-feedback.md"
 
