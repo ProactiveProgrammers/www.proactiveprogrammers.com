@@ -20,8 +20,8 @@
     - Use a text editor like [VS Code](https://code.visualstudio.com/) to
       participate in a remote and collaborative Python programming session by
       effectively completing the following tasks:
-        - Creating and accepting an invitation to collaboratively create a
-          Python program.
+        - Creating and accepting an invitation to collaboratively engineer
+          a Python program.
         - Collaboratively sharing a terminal window with a remote developer.
         - While using text-based chat and/or video communication with a team,
           collaboratively create a feature and/or repair a defect in a Python
