@@ -59,7 +59,7 @@ Leveraging the principles of [specification-based
 grading](https://www.amazon.com/Specifications-Grading-Restoring-Motivating-Students/dp/1620362422),
 the grade that a learner receives on an engineering effort will be based on
 whether or not it meets the standards for technical work in the field of
-discrete structures. Instead of receiving a single numerical or letter grade for
+computer science. Instead of receiving a single numerical or letter grade for
 this assignment, the grade for an engineering effort will have these parts:
 
 - **Percentage of Correct GatorGrader Checks Ranging Between 0 and 100**: The
@@ -112,7 +112,7 @@ Again leveraging the principles of [specification-based
 grading](https://www.amazon.com/Specifications-Grading-Restoring-Motivating-Students/dp/1620362422),
 the grade that a learner receives on a programming project will be based on
 whether or not it meets the standards for technical work in the field of
-discrete structures as evidenced by:
+computer science as evidenced by:
 
 - **GitHub Actions Build Status of Either :fontawesome-solid-check: or
   :fontawesome-solid-times::** A programming project will receive a checkmark
@@ -129,7 +129,7 @@ Again leveraging the principles of [specification-based
 grading](https://www.amazon.com/Specifications-Grading-Restoring-Motivating-Students/dp/1620362422),
 the grade that a learner receives on a source code survey will be based on
 whether or not it meets the standards for technical work in the field of
-discrete structures as evidenced by:
+computer science as evidenced by:
 
 - **GitHub Actions Build Status of Either :fontawesome-solid-check: or
   :fontawesome-solid-times::** A source code survey will receive a checkmark
