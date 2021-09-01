@@ -12,9 +12,9 @@ with these principles in mind.[^1]
 - **Clearly Defined Standards**: All projects will have a specification that
   clearly defines the characteristics of acceptable program source code and
   technical writing.
-- **Helpful Feedback**: Project feedback will offer actionable advice for steps
-  to better ensure that a source code or technical writing more fully adheres to
-  the specification.
+- **Helpful Feedback**: Project feedback will offer actionable suggestions for
+  ways to better ensure that a source code or technical writing more fully
+  adheres to the specification.
 - **Scores Suggest Progress**: The scores assigned to a project will offer
   meaningful insight into the progress that a proactive programmer made to more
   fully meet the specification.
