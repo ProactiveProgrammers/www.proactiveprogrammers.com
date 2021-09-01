@@ -63,14 +63,14 @@ computer science. Instead of receiving a single numerical or letter grade for
 this assignment, the grade for an engineering effort will have these parts:
 
 - **Percentage of Correct GatorGrader Checks Ranging Between 0 and 100**: The
-  submitted Python program must pass all of GatorGrader's checks by, for
+  submitted program source code must pass all of GatorGrader's checks by, for
   instance, ensuring that it produces the correct output and has all of the
   required characteristics. The technical writing must pass all of GatorGrader's
-  checks about, for instance, the length of its output and its use of the
-  required Markdown language features for technical writing. For this component
-  of the grade for an engineering effort, the project will receive a percentage,
-  ranging from 0 to 100, that corresponds to the percentage of GatorGrader
-  checks that automatically pass inside of a GitHub Actions build.
+  checks about, for instance, its use of the required Markdown language features
+  for technical writing. For this component of the grade for an engineering
+  effort, the project will receive a percentage, ranging from 0 to 100, that
+  corresponds to the percentage of GatorGrader checks that automatically pass
+  inside of a GitHub Actions build.
 
 - **Technical Writing Mastery of Either :fontawesome-solid-check: or
   :fontawesome-solid-times:**: The responses to the technical writing questions
@@ -82,7 +82,7 @@ this assignment, the grade for an engineering effort will have these parts:
   detected mistakes in the technical writing.
 
 - **GitHub Actions Build Status of Either :fontawesome-solid-check: or
-  :fontawesome-solid-times::** Since additional checks on the Python source
+  :fontawesome-solid-times::** Since additional checks on the program source
   code and technical writing are encoded in GitHub Action workflows and,
   moreover, all of the GatorGrader checks are also run in GitHub Actions, an
   engineering effort will receive a checkmark grade if the last
@@ -98,8 +98,8 @@ this assignment, the grade for an engineering effort will have these parts:
   effort will also receive a checkmark grade when the contents of the GitHub
   repository reveals the mastery of the technical knowledge and skills developed
   during the completion of the project. As a part of this assessment, the
-  instructor will evaluate aspects of the project including, but not limited to,
-  the demonstration of the mastery of the specific
+  assessment team will evaluate aspects of the project including, but not
+  limited to, the demonstration of the mastery of the specific
   [technical](../../proactive-skills/technical-skills/introduction-technical-skills/)
   and
   [professional](../../proactive-skills/professional-skills/introduction-professional-skills/)
