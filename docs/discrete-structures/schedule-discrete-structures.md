@@ -28,11 +28,11 @@
 
 ???+ note "Technical Concept Review"
 
-    - **Mapping**: a relationship between two objects
-    - **Function**: an operation that takes input and produces output
-    - **Variable**: a storage location associated with a value and a type
-    - **Number**: a discrete numerical value with a minimum and maximum
-    - **Set**: an unordered collection of related objects
+    - **Mapping**: set of ordered pairs in which no two first elements are the same
+    - **Function**: a process that takes input, performs a computation, and produces output
+    - **Variable**: a storage location in memory associated with both a value and a type
+    - **Number**: a variable that stores numerical value with a minimum, maximum, and type
+    - **Set**: an unordered collection of distinct objects
 
 ## Programming Constructs
 
