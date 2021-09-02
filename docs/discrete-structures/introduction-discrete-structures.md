@@ -25,7 +25,10 @@ learn how to read and translate concepts expressed in **natural language**,
 **formal mathematical notation**, and **Python programs**. Positioning you for
 successful work in both theoretical and practical computer science projects,
 this course imparts to a learner an applied understanding of topics like
-**Boolean logic**, **set theory**, and **probability theory**.
+**Boolean logic**, **set theory**, and **probability theory**. You will combine
+your knowledge of the aforementioned topics as you specify, design, document,
+implement, and test Python programs that employ the best practices for
+**efficient**, **correct**, and **understandable** programs.
 
 *Let's first proactively explore the learning objectives for a course in
 discrete structures!*
