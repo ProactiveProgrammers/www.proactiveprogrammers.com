@@ -19,7 +19,7 @@
 
 - How do I connect mathematical notation and concepts (e.g., mapping, function,
   number, and set), to the implementation of useful Python programs that
-  declare and call functions and declare and manipulate variables?
+  declare and call functions and declare variables and manipulate their values?
 
 ### Reading Assignments
 
