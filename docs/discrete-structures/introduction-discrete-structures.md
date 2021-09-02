@@ -18,6 +18,6 @@ mathematics of modern computer science is built almost entirely on discrete
 mathematics." This course will give you a foundation in both programming and
 discrete mathematics!
 
-Specifically, the **discrete structures** course will teach you how to
-effectively use use functions and the discrete structures that form the input
-and output of the functions in the context of programming.
+In the context of computer programming, the **discrete structures** course
+teaches you how to effectively use functions and the discrete structures that
+form their input and output.
