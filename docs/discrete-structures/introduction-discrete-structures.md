@@ -23,10 +23,10 @@ In the context of Python programming, this course teaches you how to use
 Leveraging this knowledge of discrete structures and functions, you will learn
 how to read and translate concepts expressed in **natural language**, **formal
 mathematical notation**, and **Python programs**. Positioning you for successful
-work in both theoretical and practical computer science projects, this course
-imparts to a learner an applied understanding of topics like **Boolean logic**,
-**set theory**, and **probability theory**. You will combine your knowledge of
-the aforementioned topics as you specify, design, document, implement, and test
+work in both theoretical and practical computer science, this course imparts to
+a learner an applied understanding of topics like **Boolean logic**, **set
+theory**, and **probability theory**. You will combine your knowledge of the
+aforementioned topics as you specify, design, document, implement, and test
 Python programs that employ the best practices for **efficiency**,
 **correctness**, and **understandability**.
 
