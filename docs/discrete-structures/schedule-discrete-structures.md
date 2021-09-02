@@ -36,7 +36,7 @@
 
 ## Programming Constructs
 
-### Key Question
+### Technical Question
 
 - How do I use iteration and conditional logic in a Python program to perform
   computational tasks like processing the contents of a file and mathematical
@@ -57,3 +57,29 @@
       horizontal axis
     - **Square Root**: mathematical function that is the inverse of the square of a
       number
+
+## Python Functions
+
+### Technical Question
+
+- How do I use non-recursive functions, recursive functions, and lambda
+  expressions to perform mathematical operations such as computing the absolute
+  value of a number and the mean and median of a sequence of numbers?
+
+### Reading Assignments
+
+- Chapter 4 of *Programming and Mathematical Thinking*
+- Chapter 3 of *Doing Math with Python*
+
+???+ note "Technical Concept Review"
+
+    - **Python Function**: subroutine or procedure that accepts input, performs
+      steps, and produces output
+    - **Recursive Function**: special type of Python function that makes a call
+      to itself in its definition
+    - **Lambda Expression**: an expression that accepts input, performs steps,
+      and produces output
+    - **Arithmetic Mean**: the average of a list of values calculated by summing
+      the values and divide by the list's size
+    - **Median Value**: for a list of values sorted in increasing order, the
+      middle value in the list
