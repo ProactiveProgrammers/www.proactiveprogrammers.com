@@ -10,8 +10,8 @@ Ousterhout](https://web.stanford.edu/~ouster/cgi-bin/home.php) defines an
 abstraction as "a simplified view of an entity, which omits important details.
 Abstractions are useful because they make it easier for us to think about and
 manipulate complex things." Abstraction is a powerful tool that enables software
-engineers to solve complex problems. The Data Abstraction course will teach you
-how to effectively use several different types of abstractions as you solve
+engineers to solve complex problems. The **data abstraction** course will teach
+you how to effectively use several different types of abstractions as you solve
 problems and build software!
 
 First, you will learn about the **programming abstractions** (e.g., iteration,
