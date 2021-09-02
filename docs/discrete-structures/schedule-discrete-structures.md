@@ -4,13 +4,13 @@
 
 ### Key Question
 
-- How do I install and use the industry-standard [programming
-  tools](../tools/programming-tools.md) that will help me to rigorously
-  explore discrete structures with the Python programming language?
+- How do I install and use the industry-standard programming tools that will
+  help me to rigorously explore discrete structures with the Python programming
+  language?
 
 ### Reading Assignments
 
-- All written content in and all tutorials referenced in the [proactive technical
+- All written content in and tutorials referenced by the [proactive technical
   skills](/technical-skills/introduction-technical-skills).
 
 ## Preliminary Connections
