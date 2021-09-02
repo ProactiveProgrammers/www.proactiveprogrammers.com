@@ -1,8 +1,32 @@
 # Assessment Strategy
 
+To ensure that proactive programmers can effectively grow in their knowledge of
+software engineering as they study topics such as [data
+abstraction](/data-abstraction/introduction-data-abstraction) and [discrete
+structures](/discrete-structures/introduction-discrete-structures), the projects
+that they complete will be receive rapid and frequent feedback, in adherence to
+the grading principles set forth by [Robert Talbert](https://rtalbert.org/).
+Specifically, the team of proactive programming experts will conduct assessments
+with these principles in mind.[^1]
+
+- **Clearly Defined Standards**: All projects will have a specification that
+  clearly defines the characteristics of acceptable program source code and
+  technical writing.
+- **Helpful Feedback**: Project feedback will offer actionable suggestions for
+  ways to better ensure that a source code or technical writing more fully
+  adheres to the specification.
+- **Scores Suggest Progress**: The scores assigned to a project will offer
+  meaningful insight into the progress that a proactive programmer made to more
+  fully meet the specification.
+- **Reattempts without Penalty**: All projects will have a completion period
+  during which a proactive programmer may repeatedly attempt to meet the
+  specification without penalty.
+
 --8<-- "includes/admonitions/admonish-github.md"
 
-All learners will complete all of their work through an industry-standard
+To support the assessment of projects in adherence to these principles, the team
+of proactive programming experts will leverage several software platforms and
+tools. All learners will complete all of their work through an industry-standard
 platform called [GitHub](https://www.github.com). If they have not done so
 already, learners should create a free GitHub account. They will use this
 account and the GitHub repositories associated with it to receive starter
@@ -17,12 +41,15 @@ tasks that demonstrate their knowledge of the technical knowledge and skills
 developed as part of an assignment. In addition to running the GatorGrader tool
 on their laptop, learners will see the results from running GatorGrader checks
 in the continuous integration environment called [GitHub
-Actions](https://github.com/features/actions).
+Actions](https://github.com/features/actions) that is accessible for a GitHub
+repository.
 
-A learner will receive a separate GitHub repository for each engineering effort
-and programming project while all of the source code surveys will exist in a
-single GitHub repository. Moreover, each [assignment type](assignment-types.md)
-has its own assessment strategy!
+A learner will receive a separate GitHub repository for each project on this
+site. Each of these GitHub repositories will have a [pull
+request](https://docs.github.com/en/github/collaborating-with-pull-requests)
+called "Feedback" through which a learner will receive feedback from the team of
+proactive programming experts who will assess their work. Moreover, each
+[assignment type](assignment-types.md) has its own assessment strategy!
 
 --8<-- "includes/admonitions/admonish-external.md"
 
@@ -32,18 +59,18 @@ Leveraging the principles of [specification-based
 grading](https://www.amazon.com/Specifications-Grading-Restoring-Motivating-Students/dp/1620362422),
 the grade that a learner receives on an engineering effort will be based on
 whether or not it meets the standards for technical work in the field of
-discrete structures. Instead of receiving a single numerical or letter grade for
+computer science. Instead of receiving a single numerical or letter grade for
 this assignment, the grade for an engineering effort will have these parts:
 
 - **Percentage of Correct GatorGrader Checks Ranging Between 0 and 100**: The
-  submitted Python program must pass all of GatorGrader's checks by, for
+  submitted program source code must pass all of GatorGrader's checks by, for
   instance, ensuring that it produces the correct output and has all of the
   required characteristics. The technical writing must pass all of GatorGrader's
-  checks about, for instance, the length of its output and its use of the
-  required Markdown language features for technical writing. For this component
-  of the grade for an engineering effort, the project will receive a percentage,
-  ranging from 0 to 100, that corresponds to the percentage of GatorGrader
-  checks that automatically pass inside of a GitHub Actions build.
+  checks about, for instance, its use of the required Markdown language features
+  for technical writing. For this component of the grade for an engineering
+  effort, the project will receive a percentage, ranging from 0 to 100, that
+  corresponds to the percentage of GatorGrader checks that automatically pass
+  inside of a GitHub Actions build.
 
 - **Technical Writing Mastery of Either :fontawesome-solid-check: or
   :fontawesome-solid-times:**: The responses to the technical writing questions
@@ -55,7 +82,7 @@ this assignment, the grade for an engineering effort will have these parts:
   detected mistakes in the technical writing.
 
 - **GitHub Actions Build Status of Either :fontawesome-solid-check: or
-  :fontawesome-solid-times::** Since additional checks on the Python source
+  :fontawesome-solid-times::** Since additional checks on the program source
   code and technical writing are encoded in GitHub Action workflows and,
   moreover, all of the GatorGrader checks are also run in GitHub Actions, an
   engineering effort will receive a checkmark grade if the last
@@ -71,8 +98,8 @@ this assignment, the grade for an engineering effort will have these parts:
   effort will also receive a checkmark grade when the contents of the GitHub
   repository reveals the mastery of the technical knowledge and skills developed
   during the completion of the project. As a part of this assessment, the
-  instructor will evaluate aspects of the project including, but not limited to,
-  the demonstration of the mastery of the specific
+  assessment team will evaluate aspects of the project including, but not
+  limited to, the demonstration of the mastery of the specific
   [technical](../../proactive-skills/technical-skills/introduction-technical-skills/)
   and
   [professional](../../proactive-skills/professional-skills/introduction-professional-skills/)
@@ -85,7 +112,7 @@ Again leveraging the principles of [specification-based
 grading](https://www.amazon.com/Specifications-Grading-Restoring-Motivating-Students/dp/1620362422),
 the grade that a learner receives on a programming project will be based on
 whether or not it meets the standards for technical work in the field of
-discrete structures as evidenced by:
+computer science as evidenced by:
 
 - **GitHub Actions Build Status of Either :fontawesome-solid-check: or
   :fontawesome-solid-times::** A programming project will receive a checkmark
@@ -102,7 +129,7 @@ Again leveraging the principles of [specification-based
 grading](https://www.amazon.com/Specifications-Grading-Restoring-Motivating-Students/dp/1620362422),
 the grade that a learner receives on a source code survey will be based on
 whether or not it meets the standards for technical work in the field of
-discrete structures as evidenced by:
+computer science as evidenced by:
 
 - **GitHub Actions Build Status of Either :fontawesome-solid-check: or
   :fontawesome-solid-times::** A source code survey will receive a checkmark
@@ -123,8 +150,9 @@ will see that GitHub has created a unique web site that references it. To alert
 the instructor to the fact that the issue was created and that you want feedback
 on your work, please send it to him by a Discord direct message at least 24
 hours in advance of the project's due date. After the instructor responds to the
-issue, please resolve all of the stated concerns and participate in the
-discussion until the issue is resolved and ultimately marked as closed.
+issue in GitHub, please resolve all of the stated concerns and participate in
+the discussion until the project meets its specification and the issue is
+closed.
 
 ## Assessment Delivery
 
@@ -132,21 +160,21 @@ The instructor invites learners to incrementally complete all of the learning
 objectives for an engineering effort, programming project, and source code
 survey. As long as a learner's work passes all of the GatorGrader checks before
 an assignment's deadline, they will receive full credit for that part of an
-assignment's grade. After the deadline for project submission, all grades for a
-project will be reported through a student's GitHub repository using messages in
-the GitHub repository's commit log, issues raised in the issue tracker, and
-comments on a pull request in the GitHub repository.
+assignment's assessment. After the deadline for project submission, all
+assessments for a project will be reported through a learner's GitHub repository
+using messages in the GitHub repository's commit log, issues raised in the issue
+tracker, and comments on the "Feedback" pull request in the GitHub repository.
 
 ## Assignment Discussion
 
-Learners who wish to receive feedback on their work for any graded assignment
+Learners who wish to receive feedback on their work for any assessed assignment
 should ask questions in the same region of Github where the instructor shared
-the assignment's grade. For example, if the instructor shares the grade in a
-pull request in the repository for an engineering effort, then you should ask
-questions about your grade in that pull request, bearing in mind the need to
-@-mention the instructor in the body of your comment. Learners can continue to
-discuss the graded assignment with the instructor until they understand all the
-technical topics developed as part of the project.
+the assignment's final assessment. For example, if the instructor shares the
+grade in a pull request in the repository for an engineering effort, then you
+should ask questions about your grade in that pull request, bearing in mind the
+need to @-mention the instructor in the body of your comment. Learners can
+continue to discuss the graded assignment with the instructor until they
+understand all the technical topics developed as part of the project.
 
 --8<-- "includes/admonitions/admonish-feedback.md"
 
@@ -229,7 +257,7 @@ name of the assignment:
 Before asking the instructor a question about the calculation of either your
 assignment grades or your overall course grade, please make sure that you have
 already consulted the GitHub repository for each assignment to see your grades
-and then calculated your grade using this approach outlined in this section. The
+and then calculated your grade using the approach outlined in this document. The
 instructor will use your calculations to support the discussion of any questions
 that you have about how to calculate either your grade for a project or your
 overall grade for a course.
@@ -242,3 +270,10 @@ assessment strategy please share them in the [GitHub Issue
 Tracker](https://github.com/ProactiveProgrammers/www.proactiveprogrammers.com/issues)
 or the [GitHub Discussions
 Forum](https://github.com/ProactiveProgrammers/www.proactiveprogrammers.com/discussions)!
+
+[^1]: Check out the article [Finding Common Ground with Grading
+  Systems](https://rtalbert.org/finding-common-ground-with-grading-systems/)
+  that [Robert Talbert](https://rtalbert.org/) wrote to explain the principles
+  of effective grading. From your perspective as an emerging proactive
+  programmer who wants to grow in their knowledge and skills, what are the best
+  steps for an expert to take when assessing your work?

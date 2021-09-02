@@ -164,6 +164,6 @@ Have you become comfortable with, for instance, acting on feedback from others,
 giving feedback to your colleagues, and giving feedback to yourself? Make sure
 that you continue to practice all of these technical skills, participating in
 the [proactive
-community](../../../proactive-community/introduction-proactive-community/) by
+community](../../../proactive-community/community-connections/) by
 sharing your ideas for improving this content and helping others to master each
 software tool!
