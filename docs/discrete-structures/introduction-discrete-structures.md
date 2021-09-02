@@ -18,6 +18,14 @@ mathematics of modern computer science is built almost entirely on discrete
 mathematics." This course will give you a foundation in both programming and
 discrete mathematics!
 
-In the context of computer programming, the **discrete structures** course
-teaches you how to effectively use functions and the discrete structures that
-form their input and output.
+In the context of Python programming, this course teaches you how to effectively
+use **functions** and the **discrete structures** that form their input and
+output. Leveraging this knowledge of discrete structures and functions, you will
+learn how to read and translate concepts expressed in **natural language**,
+**formal mathematical notation**, and **Python programs**. Positioning you for
+successful work in both theoretical and practical computer science projects,
+this course imparts to a learner an applied understanding of topics like
+**Boolean logic**, **set theory**, and **probability theory**.
+
+*Let's first proactively explore the learning objectives for a course in
+discrete structures!*
