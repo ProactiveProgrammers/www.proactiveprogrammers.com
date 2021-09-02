@@ -23,6 +23,7 @@
 
 ### Technical Concepts
 
+- **Mapping**: a relationship between two objects
 - **Function**: an operation that takes input and produces output
 - **Variable**: a storage location associated with a value and a type
 - **Number**: a discrete numerical value with a minimum and maximum
@@ -40,6 +41,17 @@
 - How do I use iteration and conditional logic in a Python program to perform
   computational tasks like processing the contents of a file and mathematical
   tasks like using Newton's method to approximate the square root of a number?
+
+### Technical Concepts
+
+- **Assignment Statement**: an operation to store a value in a variable
+- **Iteration Construct**: a construct to support repeated execution of
+  operations
+- **Conditional Logic**: a construct to support decision making in a program
+- **Quadratic Root**: value of a quadratic function where it intercepts the
+  horizontal axis
+- **Square Root**: mathematical function that is the inverse of the square of a
+  number
 
 ### Reading Assignments
 
