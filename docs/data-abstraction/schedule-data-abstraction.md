@@ -87,5 +87,5 @@
       at the function invocation point
     - **Debugging**: the systematic process of finding out what a program does
       not work and then fixing it
-    - **Higher-Order Function**: general-purpose functions for problem solving 
+    - **Higher-Order Function**: general-purpose functions for problem solving
       that accept functions as input
