@@ -30,7 +30,7 @@
 
 ### Course Meeting Schedule
 
-- Lecture, Discussion, and Group Work Session: Monday and Wednesday, 9:10 am-10:00 am
+- Discussion and Group Work Session: Monday and Wednesday, 9:10 am-10:00 am
 - Programming Session: Friday, 9:10 am-10:00 am
 - Laboratory Session: Thursday, 3:00 pm-4:50 pm
 
