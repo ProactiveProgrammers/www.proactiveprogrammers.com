@@ -235,7 +235,7 @@ ensure that approved accommodations are implemented in a timely fashion.
 In reference to software, Frederick P. Brooks, Jr. wrote in chapter one of *The
 Mythical Man Month* that "the magic of myth and legend has come true in our
 time." It is so exciting that we can write programs that "come alive" on our
-computers! Moreover, efficient Python programs that correctly use store and
+computers! Moreover, efficient Python programs that correctly use, store and
 manipulate data have the potential to positively influence the lives of many
 people. Moreover, the design, implementation, evaluation, and documentation of
 Python-based software are exciting and rewarding activities! The course
