@@ -12,7 +12,8 @@
 -   Monday: 1:00 pm--2:00 pm, Alden Hall, 15 minute time slots
 -   Tuesday: 1:00 pm--2:00 pm, Google Meet, 15 minute time slots
 -   Wednesday: 5:00 pm--5:30 pm, Alden Hall, 15 minute time slots
--   Wednesday: 5:00 pm--5:30 pm, Alden Hall, 15 minute time slots
+-   Thursday: 11:00 am--12:00 noon, Google Meet, 15 minute time slots
+-   Thursday: 5:00 pm--5:30 pm, Alden Hall, 15 minute time slots
 -   Friday: 1:00 pm--3:00 pm, Alden Hall, 15 minute time slots
 
 ???+ note "Scheduling Office Hours"
@@ -209,7 +210,7 @@ students in this class to discuss their source code, images, and reports
 with their classmates, deliverables that are nearly identical to the
 work of others will be taken as evidence of violating the Honor Code.
 
-### Disability Services {#disability-services .unnumbered}
+#### Disability Services
 
 The Americans with Disabilities Act (ADA) is a federal anti-discrimination
 statute that provides comprehensive civil rights protection for persons with
@@ -221,7 +222,7 @@ Services at 814-332-2898. Disability Services is part of the Learning Commons
 and is located in Pelletier Library. Please do this as soon as possible to
 ensure that approved accommodations are implemented in a timely fashion.
 
-## Welcome to an Adventure in Data Abstraction
+### Welcome Message
 
 In reference to software, Frederick P. Brooks, Jr. wrote in chapter one of *The
 Mythical Man Month*, "The magic of myth and legend has come true in our time."
