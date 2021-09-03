@@ -86,18 +86,18 @@ These grading categories have the following definitions:
     computer to take these technical assessments on the scheduled day.
 
 -   **Midterm Examination**: The midterm is an online cumulative assessment
-    covering all of the material from the class, practical, and laboratory
+    covering all of the material from the class, programming, and laboratory
     sessions, as outlined on the review sheet. Unless prior arrangements are
     made with the course instructor, all students will be expected to use their
     computer to take this test on the scheduled date and complete the test in
     the stated period of time.
 
--   **Final Examination**: The final is an online cumulative assessment covering
-    all of the material from the class, practical, and laboratory sessions, as
-    outlined on the review sheet. Unless prior arrangements are made with the
-    course instructor, all students will be expected to use their computer to
-    take this test on the scheduled date and complete the test in the stated
-    period of time.
+-   **Final Examination**: The final is an online cumulative assessment
+    covering all of the material from the class, programming, and laboratory
+    sessions, as outlined on the review sheet. Unless prior arrangements are
+    made with the course instructor, all students will be expected to use their
+    computer to take this test on the scheduled date and complete the test in
+    the stated period of time.
 
 -   **Source Code Surveys**: Graded on a checkmark basis and building on
     material in the textbook and the content covered during that day's in-person
@@ -110,11 +110,11 @@ These grading categories have the following definitions:
 
 -   **Programming Projects**: Graded on a checkmark basis and building on
     material in the textbook, the content covered during that week's in-person
-    classroom session, and the weekly technical challenges, the practical
-    assignments further equip a learner to solve new problems in the field of
-    discrete structures by applying --- in a new way --- their knowledge of the
-    facts, techniques, and rules of discrete mathematics and rigorous Python
-    programming.
+    classroom session, and the weekly technical challenges, the programming
+    projects further equip a learner to solve new problems in the field of
+    discrete structures by applying &mdash; in a new way &mdash; their
+    knowledge of the facts, techniques, and rules of discrete mathematics and
+    rigorous Python programming.
 
 -   **Engineering Efforts**: These assignments invite students to explore
     different techniques for rigorously designing, implementing, evaluating, and
@@ -158,9 +158,9 @@ In order to minimize confusion and maximize learning, students must invest time
 to prepare for the class discussions, laboratory, and programming sessions.
 During the class periods, the course instructor will often pose challenging
 questions that could require group discussion, the creation of a Python program
-or data table, a vote on a thought-provoking issue, or an in-class presentation.
-Only those students who have prepared for class by reading the assigned material
-and reviewing the current laboratory and practical assignments will be able to
+or data table, a vote on a thought-provoking issue, or an in-class
+presentation. Only those students who have prepared for class by reading the
+assigned material and reviewing the current course assignments will be able to
 effectively participate in these class discussions.
 
 Importantly, only prepared students will be able to acquire the knowledge and
@@ -175,7 +175,7 @@ means such as the course web site and a GitHub repository.
 #### Seeking Assistance
 
 Students who are struggling to understand the knowledge and skills developed in
-either a class, laboratory, or practical session are encouraged to seek
+either a class, laboratory, or programming session are encouraged to seek
 assistance from the course instructor and the student technical leaders.
 Students should, within the bounds of the Honor Code, ask and answer questions
 on the Slack workspace for our course; please request assistance from the
@@ -199,13 +199,13 @@ instructor if you do not have this handbook.
 #### Honor Code
 
 The Academic Honor Program that governs the entire academic program at
-Allegheny College is described in the Allegheny Academic Bulletin. The
-Honor Program applies to all work that is submitted for academic credit
-or to meet non-credit requirements for graduation at Allegheny College.
-This includes all work assigned for this class (e.g., examinations and
-practical and laboratory assignments). All students who have enrolled in
-the College will work under the Honor Program. Each student who has
-matriculated at the College has acknowledged the following pledge:
+Allegheny College is described in the Allegheny Academic Bulletin. The Honor
+Program applies to all work that is submitted for academic credit or to meet
+non-credit requirements for graduation at Allegheny College. This includes all
+work assigned for this class (e.g., examinations and course assignments). All
+students who have enrolled in the College will work under the Honor Program.
+Each student who has matriculated at the College has acknowledged the following
+pledge:
 
 > I hereby recognize and pledge to fulfill my responsibilities, as
 > defined in the Honor Code, and to maintain the integrity of both
