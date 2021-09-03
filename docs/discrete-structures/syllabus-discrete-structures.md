@@ -57,7 +57,8 @@ class and lab sessions. Prerequisite: Knowledge of elementary algebra.
 - [Programming and Mathematical Thinking: A Gentle Introduction to Discrete
   Math Featuring Python](https://www.nmt.edu/press/stavely-2.php) by [Allan M.
   Stavely](https://www.nmt.edu/press/stavely-2.php)
-- [Doing Math with Python](https://nostarch.com/doingmathwithpython) by [Amit
+- [Doing Math with Python: Using Programming to Explore Algebra, Statistics,
+  and More](https://nostarch.com/doingmathwithpython) by [Amit
   Saha](https://echorand.me/)
 
 ### Course Policies
