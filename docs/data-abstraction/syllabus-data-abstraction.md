@@ -124,13 +124,13 @@ These grading categories have the following definitions:
 
 #### Assignment Submission
 
-All assignments will have a stated due date share through GitHub, GitHub
+All assignments will have a stated due date shared through GitHub, GitHub
 Classroom, and Google Calendar. Electronic versions of the engineering efforts,
-programming projects, and source code surveys must be submitted to a student's
-GitHub repository. No credit will be awarded for any course work that is not
-submitted to your GitHub repository with the required name. Unless special
-arrangements are made with the instructor, no work will be accepted after the
-published deadline.
+programming projects, and source code surveys must be submitted to the
+instructor through a student's GitHub repository. No credit will be awarded for
+any course work that is not submitted to your GitHub repository with the
+required name. Unless special arrangements are made with the instructor, no work
+will be accepted after the published deadline.
 
 #### Assignment Evaluation
 
