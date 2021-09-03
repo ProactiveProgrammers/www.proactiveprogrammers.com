@@ -45,8 +45,10 @@ ability to organize and document a program's source code so that it effectively
 communicates with the intended users and maintainers. During a weekly laboratory
 session, students use state-of-the-art technology to complete projects,
 reporting on their results through both written documents and oral
-presentations. Prerequisite: CMPSC 100 or permission of the instructor.
-Distribution Requirements: QR, SP.
+presentations.
+
+- Prerequisite: CMPSC 100 or permission of the instructor.
+- Distribution Requirements: QR, SP.
 
 ### Required Textbook
 
@@ -76,30 +78,31 @@ These grading categories have the following definitions:
 
 -   **Technical Assessments**: These cumulative weekly online assessments will
     cover all course content introduced to date. Unless prior arrangements are
-    made with the course instructor, all students will be expected to take
-    these technical assessments on the scheduled day.
+    made with the course instructor, all students will be expected to use their
+    computer to take these technical assessments on the scheduled day.
 
 -   **Midterm Examination**: The midterm is an online cumulative assessment
     covering all of the material from the class, practical, and laboratory
     sessions, as outlined on the review sheet. Unless prior arrangements are
-    made with the course instructor, all students will be expected to take this
-    test on the scheduled date and complete the test in the stated period of
-    time.
+    made with the course instructor, all students will be expected to use their
+    computer to take this test on the scheduled date and complete the test in
+    the stated period of time.
 
 -   **Final Examination**: The final is an online cumulative assessment covering
     all of the material from the class, practical, and laboratory sessions, as
     outlined on the review sheet. Unless prior arrangements are made with the
-    course instructor, all students will be expected to take this test on the
-    scheduled date and complete the test in the stated period of time.
+    course instructor, all students will be expected to use their computer to
+    take this test on the scheduled date and complete the test in the stated
+    period of time.
 
 -   **Source Code Surveys**: Graded on a checkmark basis and building on
-    material in the textbook and the content covered during that day's
-    in-person classroom session, technical challenges have the following goals:
-    (i) help a learner to demonstrate that they can remember learned material by
-    recalling facts, basic concepts, and answers to questions presented in the
-    textbook and (ii) allow a learner to demonstrate an understanding of facts
-    and ideas by translating, interpreting, and stating the main technical ideas
-    presented in the textbook.
+    material in the textbook and the content covered during that day's in-person
+    classroom session, technical challenges have the following goals: (i) help a
+    learner to demonstrate that they can remember learned material by recalling
+    facts, basic concepts, and answers to questions presented in the textbook
+    and (ii) allow a learner to demonstrate an understanding of facts and ideas
+    by translating, interpreting, and stating the main technical ideas presented
+    in the textbook.
 
 -   **Programming Projects**: Graded on a checkmark basis and building on
     material in the textbook, the content covered during that week's in-person
