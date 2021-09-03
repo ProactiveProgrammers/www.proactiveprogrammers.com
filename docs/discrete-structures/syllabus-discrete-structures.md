@@ -140,8 +140,9 @@ will be accepted after the published deadline.
 
 Using a report that the instructor shares with you through your assignment's
 GitHub repository, you will privately receive a grade for and feedback on each
-assignment. Your grade will be a function of whether or you not completed
-correct work and submitted it by the deadline.
+assignment. Your grade will be a function of whether or not you completed
+correct work that fulfills the project's specification and submitted it by the
+deadline.
 
 #### Course Attendance
 
