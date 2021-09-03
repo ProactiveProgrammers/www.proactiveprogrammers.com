@@ -21,8 +21,12 @@
       To schedule a meeting with the course instructor during his office hours,
       please visit the [schedule](https://www.gregorykapfhammer.com/schedule/)
       page of his web site and click the "Schedule an Appointment" link at the
-      top of the page. Now, you can schedule an appointment by clicking a
-      suitable box in Google Calendar and then reserving an open time slot.
+      top of the page. Now you can schedule an appointment by clicking a
+      suitable box in Google Calendar and then reserving an open time slot. At
+      his point, the details about your chosen appointment will appear in both
+      your Google Calendar and the instructor's Google Calendar. If you have
+      chosen an appointment slot through Google Meet, please check the event for
+      a link to join the meeting with your browser.
 
 ### Course Meeting Schedule
 
