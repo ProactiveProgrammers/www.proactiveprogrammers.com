@@ -30,7 +30,7 @@
 
 ### Course Meeting Schedule
 
-- Lecture, Discussion, and Group Work Session: Monday and Wednesday, 9:10 am-10:00 am
+- Discussion and Group Work Session: Monday and Wednesday, 9:10 am-10:00 am
 - Programming Session: Friday, 9:10 am-10:00 am
 - Laboratory Session: Thursday, 3:00 pm-4:50 pm
 
@@ -82,14 +82,14 @@ These grading categories have the following definitions:
     computer to take these technical assessments on the scheduled day.
 
 -   **Midterm Examination**: The midterm is an online cumulative assessment
-    covering all of the material from the class, practical, and laboratory
+    covering all of the material from the class, programming, and laboratory
     sessions, as outlined on the review sheet. Unless prior arrangements are
     made with the course instructor, all students will be expected to use their
     computer to take this test on the scheduled date and complete the test in
     the stated period of time.
 
 -   **Final Examination**: The final is an online cumulative assessment covering
-    all of the material from the class, practical, and laboratory sessions, as
+    all of the material from the class, programming, and laboratory sessions, as
     outlined on the review sheet. Unless prior arrangements are made with the
     course instructor, all students will be expected to use their computer to
     take this test on the scheduled date and complete the test in the stated
@@ -106,11 +106,10 @@ These grading categories have the following definitions:
 
 -   **Programming Projects**: Graded on a checkmark basis and building on
     material in the textbook, the content covered during that week's in-person
-    classroom session, and the weekly technical challenges, the practical
-    assignments further equip a learner to solve new problems in the field of
-    discrete structures by applying --- in a new way --- their knowledge of the
-    facts, techniques, and rules of discrete mathematics and rigorous Python
-    programming.
+    classroom session, and the weekly technical challenges, the programming
+    projects further equip a learner to solve new problems in the field of data
+    abstraction by applying --- in a new way --- their knowledge of the facts,
+    techniques, and rules of data abstraction and rigorous Python programming.
 
 -   **Engineering Efforts**: These assignments invite students to explore
     different techniques for rigorously designing, implementing, evaluating, and
@@ -136,13 +135,14 @@ will be accepted after the published deadline.
 
 Using a report that the instructor shares with you through your assignment's
 GitHub repository, you will privately receive a grade for and feedback on each
-assignment. Your grade will be a function of whether or you not completed
-correct work and submitted it by the deadline.
+assignment. Your grade will be a function of whether or not you completed
+correct work that fulfills the project's specification and submitted it by the
+deadline.
 
 #### Course Attendance
 
-It is mandatory for all students to attend the assigned course sessions. If, due
-to extenuating circumstances, you will not be able to attend a session, then,
+It is mandatory for all students to attend the course sessions. If, due to
+extenuating circumstances, you will not be able to attend a session, then,
 whenever possible, please communicate with the instructor at least one week in
 advance to describe your situation. Students who have any signs of illness
 should not attend any in-person course sessions.
@@ -155,8 +155,8 @@ During the class periods, the course instructor will often pose challenging
 questions that could require group discussion, the creation of a Python program
 or data table, a vote on a thought-provoking issue, or an in-class presentation.
 Only those students who have prepared for class by reading the assigned material
-and reviewing the current laboratory and practical assignments will be able to
-effectively participate in these class discussions.
+and reviewing the current course assignments will be able to effectively
+participate in these class discussions.
 
 Importantly, only prepared students will be able to acquire the knowledge and
 skills that they need to be successful in this course, subsequent courses, and
@@ -170,7 +170,7 @@ means such as the course web site and a GitHub repository.
 #### Seeking Assistance
 
 Students who are struggling to understand the knowledge and skills developed in
-either a class, laboratory, or practical session are encouraged to seek
+either a class, laboratory, or programming session are encouraged to seek
 assistance from the course instructor and the student technical leaders.
 Students should, within the bounds of the Honor Code, ask and answer questions
 on the Slack workspace for our course; please request assistance from the
@@ -193,14 +193,14 @@ instructor if you do not have this handbook.
 
 #### Honor Code
 
-The Academic Honor Program that governs the entire academic program at
-Allegheny College is described in the Allegheny Academic Bulletin. The
-Honor Program applies to all work that is submitted for academic credit
-or to meet non-credit requirements for graduation at Allegheny College.
-This includes all work assigned for this class (e.g., examinations and
-practical and laboratory assignments). All students who have enrolled in
-the College will work under the Honor Program. Each student who has
-matriculated at the College has acknowledged the following pledge:
+The Academic Honor Program that governs the entire academic program at Allegheny
+College is described in the Allegheny Academic Bulletin. The Honor Program
+applies to all work that is submitted for academic credit or to meet non-credit
+requirements for graduation at Allegheny College. This includes all work
+assigned for this class (e.g., examinations and course assignments). All
+students who have enrolled in the College will work under the Honor Program.
+Each student who has matriculated at the College has acknowledged the following
+pledge:
 
 > I hereby recognize and pledge to fulfill my responsibilities, as
 > defined in the Honor Code, and to maintain the integrity of both
@@ -234,7 +234,7 @@ ensure that approved accommodations are implemented in a timely fashion.
 In reference to software, Frederick P. Brooks, Jr. wrote in chapter one of *The
 Mythical Man Month* that "the magic of myth and legend has come true in our
 time." It is so exciting that we can write programs that "come alive" on our
-computers! Moreover, efficient Python programs that correctly use store and
+computers! Moreover, efficient Python programs that correctly use, store and
 manipulate data have the potential to positively influence the lives of many
 people. Moreover, the design, implementation, evaluation, and documentation of
 Python-based software are exciting and rewarding activities! The course
