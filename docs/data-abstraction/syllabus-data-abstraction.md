@@ -108,8 +108,8 @@ These grading categories have the following definitions:
     material in the textbook, the content covered during that week's in-person
     classroom session, and the weekly technical challenges, the practical
     assignments further equip a learner to solve new problems in the field of
-    discrete structures by applying --- in a new way --- their knowledge of the
-    facts, techniques, and rules of discrete mathematics and rigorous Python
+    data abstraction by applying --- in a new way --- their knowledge of the
+    facts, techniques, and rules of data abstraction and rigorous Python
     programming.
 
 -   **Engineering Efforts**: These assignments invite students to explore
