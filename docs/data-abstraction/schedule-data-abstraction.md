@@ -64,3 +64,28 @@
       the horizontal axis
     - **Square Root**: mathematical function that is the inverse of the square
       of a number
+
+## Function Scope
+
+### Technical Question
+
+- How can I use Python's scoping rules and principle of abstraction to create
+  modularized and/or higher-order functions that are easy to understand,
+  implement, test, and maintain?
+
+### Reading Assignments
+
+- Chapter 4 of *Introduction to Computation and Programming Using Python*
+
+???+ note "Technical Concept Review"
+
+    - **Formal Parameters**: an alternative to the exact value for a function
+      that is close enough to be useful
+    - **Actual Parameters**: representing a decimal value with two integers, one
+      for significant digits and one for exponent
+    - **Debugging**: representation of a number using only a sequence of bits,
+      or digits that must only be 0 or 1
+    - **Function Specification**: value(s) of a quadratic function where it
+      intercepts the horizontal axis
+    - **Higher-Order Function**: mathematical function that is the inverse of
+      the square of a number
