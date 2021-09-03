@@ -9,12 +9,12 @@
 
 ### Instructor Office Hours
 
--   Monday: 1:00 pm--2:00 pm, Alden Hall, 15 minute time slots
--   Tuesday: 1:00 pm--2:00 pm, Google Meet, 15 minute time slots
--   Wednesday: 5:00 pm--5:30 pm, Alden Hall, 15 minute time slots
--   Thursday: 11:00 am--12:00 noon, Google Meet, 15 minute time slots
--   Thursday: 5:00 pm--5:30 pm, Alden Hall, 15 minute time slots
--   Friday: 1:00 pm--3:00 pm, Alden Hall, 15 minute time slots
+-   Monday: 1:00 pm-2:00 pm, Alden Hall, 15 minute time slots
+-   Tuesday: 1:00 pm-2:00 pm, Google Meet, 15 minute time slots
+-   Wednesday: 5:00 pm-5:30 pm, Alden Hall, 15 minute time slots
+-   Thursday: 11:00 am-12:00 noon, Google Meet, 15 minute time slots
+-   Thursday: 5:00 pm-5:30 pm, Alden Hall, 15 minute time slots
+-   Friday: 1:00 pm-3:00 pm, Alden Hall, 15 minute time slots
 
 ???+ note "Scheduling Office Hours"
 
