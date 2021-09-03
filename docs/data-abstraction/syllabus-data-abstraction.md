@@ -142,8 +142,8 @@ deadline.
 
 #### Course Attendance
 
-It is mandatory for all students to attend the assigned course sessions. If, due
-to extenuating circumstances, you will not be able to attend a session, then,
+It is mandatory for all students to attend the course sessions. If, due to
+extenuating circumstances, you will not be able to attend a session, then,
 whenever possible, please communicate with the instructor at least one week in
 advance to describe your situation. Students who have any signs of illness
 should not attend any in-person course sessions.
