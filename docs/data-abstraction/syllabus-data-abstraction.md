@@ -19,16 +19,16 @@
 ???+ note "Scheduling Office Hours"
 
       To schedule a meeting with the course instructor during his office hours,
-      please visit his web site and click the "About $\rightarrow$ Schedule"
-      link at the top of the page. Now, you can schedule an appointment by
-      clicking the correct link in Google Calendar and then reserving an open
-      time slot.
+      please visit the [schedule](https://www.gregorykapfhammer.com/schedule/)
+      page of his web site and click the "Schedule an Appointment" link at the
+      top of the page. Now, you can schedule an appointment by clicking a
+      suitable box in Google Calendar and then reserving an open time slot.
 
 ### Course Meeting Schedule
 
-- Lecture, Discussion, and Group Work Session: Monday and Wednesday, 9:10 am--10:00 am
-- Programming Session: Friday, 9:10 am--10:00 am
-- Laboratory Session: Thursday, 3:00 pm--4:50 pm
+- Lecture, Discussion, and Group Work Session: Monday and Wednesday, 9:10 am-10:00 am
+- Programming Session: Friday, 9:10 am-10:00 am
+- Laboratory Session: Thursday, 3:00 pm-4:50 pm
 
 ### Course Description
 
@@ -89,16 +89,16 @@ These grading categories have the following definitions:
     scheduled date and complete the test in the stated period of time.
 
 -   **Source Code Surveys**: Graded on a checkmark basis and building on
-    material in the textbooks and the content covered during that day's
+    material in the textbook and the content covered during that day's
     in-person classroom session, technical challenges have the following goals:
     (i) help a learner to demonstrate that they can remember learned material by
     recalling facts, basic concepts, and answers to questions presented in the
-    textbooks and (ii) allow a learner to demonstrate an understanding of facts
+    textbook and (ii) allow a learner to demonstrate an understanding of facts
     and ideas by translating, interpreting, and stating the main technical ideas
-    presented in the textbooks.
+    presented in the textbook.
 
 -   **Programming Projects**: Graded on a checkmark basis and building on
-    material in the textbooks, the content covered during that week's in-person
+    material in the textbook, the content covered during that week's in-person
     classroom session, and the weekly technical challenges, the practical
     assignments further equip a learner to solve new problems in the field of
     discrete structures by applying --- in a new way --- their knowledge of the
