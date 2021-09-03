@@ -13,7 +13,7 @@
 - All written content in and tutorials referenced by the list of [proactive
   technical skills](/technical-skills/introduction-technical-skills).
 
-## Preliminary Connections
+## Making Connections
 
 ### Technical Question
 
@@ -50,7 +50,7 @@
 ???+ note "Technical Concept Review"
 
     - **Assignment Statement**: an operation to store a value in a variable
-    - **Iteration Construct**: a construct to support repeated execution of
+    - **Iteration Construct**: a structure to support the repeated execution of
       operations
     - **Conditional Logic**: a construct to support decision making in a program
     - **Quadratic Root**: value of a quadratic function where it intercepts the
