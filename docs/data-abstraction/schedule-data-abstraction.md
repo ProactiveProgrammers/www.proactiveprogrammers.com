@@ -35,7 +35,7 @@
     - **Notional Machine**: idealized abstraction of both computer hardware and
       the semantics of a computer program
     - **Reserved Word**: a keyword in Python that has a built-in meaning and
-      cannot be used for variables
+      cannot be used for a variable's name
     - **Type Checking**: automated process to confirm the compatibility of the
       types for both variables and operations
 
