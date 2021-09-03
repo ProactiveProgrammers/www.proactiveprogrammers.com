@@ -7,24 +7,29 @@
 - Name: Dr. Gregory M. Kapfhammer
 - Office Location: Alden Hall 108
 
-## Instructor's Office Hours {#instructors-office-hours .unnumbered}
+### Instructor Office Hours
 
--   Wednesday: 2:00 pm--4:00 pm (15 minute time slots)
+-   Monday: 1:00 pm-2:00 pm, Alden Hall, 15 minute time slots
+-   Tuesday: 1:00 pm-2:00 pm, Google Meet, 15 minute time slots
+-   Wednesday: 5:00 pm-5:30 pm, Alden Hall, 15 minute time slots
+-   Thursday: 11:00 am-12:00 noon, Google Meet, 15 minute time slots
+-   Thursday: 5:00 pm-5:30 pm, Alden Hall, 15 minute time slots
+-   Friday: 1:00 pm-3:00 pm, Alden Hall, 15 minute time slots
 
--   Thursday: 2:00 pm--4:00 pm (15 minute time slots)
+???+ note "Scheduling Office Hours"
 
--   Friday: 2:00 pm--4:00 pm (15 minute time slots)
+      To schedule a meeting with the course instructor during his office hours,
+      please visit the [schedule](https://www.gregorykapfhammer.com/schedule/)
+      page of his web site and click the "Schedule an Appointment" link at the
+      top of the page. Now you can schedule an appointment by clicking a
+      suitable box in Google Calendar and then reserving an open time slot. At
+      his point, the details about your chosen appointment will appear in both
+      your Google Calendar and the instructor's Google Calendar. If you have
+      chosen an appointment slot through Google Meet, please check the event for
+      a link to join the meeting with your browser.
 
-All office hours are conducted through Google Meet at
-`https://meet.google.com/ttp-hamc-zcx`.
+### Course Meeting Schedule
 
-To schedule a meeting with me during my office hours, please visit my
-web site and click the "About $\rightarrow$ Schedule" link in the top
-left-hand corner. Now, you can schedule an appointment by clicking the
-correct link and then reserving an open time slot. Students are
-encouraged to post questions to a public channel in Slack, which is
-available at `https://join.slack.com/t/cmpsc102fall2020/signup`, and
-monitored by the instructor and the student technical leaders. Students
-who need help with a technical question can also raise an issue through
-the issue tracker available in the course's GitHub repository
-`https://github.com/Allegheny-Computer-Science-102-F2020/cs102-F2020-plans/`.
+- Lecture, Discussion, and Group Work Session: Monday and Wednesday, 11:30 am-12:20 pm
+- Programming Session: Friday, 11:30 am-12:20 am
+- Laboratory Session: Wednesday, 3:00 pm-4:50 pm
