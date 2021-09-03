@@ -5,7 +5,7 @@
 ### Technical Question
 
 - How do I install and use the industry-standard programming tools that will
-  help me to rigorously explore discrete structures with the Python programming
+  help me to rigorously explore data abstraction with the Python programming
   language?
 
 ### Reading Assignments
