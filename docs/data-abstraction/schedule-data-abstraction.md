@@ -79,13 +79,13 @@
 
 ???+ note "Technical Concept Review"
 
-    - **Formal Parameters**: an alternative to the exact value for a function
-      that is close enough to be useful
-    - **Actual Parameters**: representing a decimal value with two integers, one
-      for significant digits and one for exponent
-    - **Debugging**: representation of a number using only a sequence of bits,
-      or digits that must only be 0 or 1
-    - **Function Specification**: value(s) of a quadratic function where it
-      intercepts the horizontal axis
-    - **Higher-Order Function**: mathematical function that is the inverse of
-      the square of a number
+    - **Function Specification**: the assumptions and guarantees in the contract
+      between function creator and caller
+    - **Formal Parameters**: a function's input parameter, given a name and a
+      type in the function's declaration
+    - **Actual Parameters**: the arguments to a function that are passed into it
+      at the function invocation point
+    - **Debugging**: the systematic process of finding out what a program does
+      not work and then fixing it
+    - **Higher-Order Function**: general-purpose functions for problem solving 
+      that accept functions as input
