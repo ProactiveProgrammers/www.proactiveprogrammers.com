@@ -332,7 +332,7 @@ Manage, package, and release with Poetry
 
 <mdi-help-box class="text-8xl ml-9 mt-8 text-blue-600" />
 
-<div class="text-5xl text-true-gray-600 font-bold mt-15 ml-4">
+<div class="text-5xl text-true-gray-700 font-bold mt-15 ml-4">
 Sure, but what can go wrong?
 </div>
 
@@ -420,7 +420,7 @@ Runs to completion and produces (correct?) output
 - VSCode provides support for Python through **syntax highlighting**, **source code
 formatting**, **linting**, **testing**, ... and many more tasks!
 
-- What are some of the tools that provide the features highlighted in bold?
+- What are some of the **tools** that provide the features highlighted in bold?
 
 </v-clicks>
 
@@ -457,3 +457,110 @@ Let's study some source code examples!
 </div>
 
 [//]: # (Slide End }}})
+
+---
+
+[//]: # (Slide Start {{{)
+
+# Python Script for Average Computation
+
+<div class="ml-1">
+
+```python {all|1-2|3|4-7|8|all}
+sum = 0
+count = 0
+file = open("observations")
+for line in file:
+  n = int(line)
+  sum += n
+  count += 1
+print(sum/count)
+```
+
+</div>
+
+<br>
+
+<v-clicks>
+
+<p class = "bold">
+What are the contents of the <code>observations</code> file?
+</p>
+
+<p class = "bold">
+What is the purpose of the <code>for line in file</code> statement?
+</p>
+
+</v-clicks>
+
+[//]: # (Slide End }}})
+
+---
+
+[//]: # (Slide Start {{{)
+
+# Python Function without Annotations
+
+<div class="-ml-0">
+
+```python {all|1|3|4-5|6-7|8|all}
+def extract_urls(df):
+    """Extract a list of urls."""
+    urls = []
+    if "Url" in df.columns:
+        urlc = df["Url"]
+        if urlc is not None:
+            urls = urlc.tolist()
+    return urls
+```
+
+</div>
+
+<br>
+
+<v-clicks>
+
+<p class = "bold">
+What is the type of <code>df</code> ? The terrible docstring does not say!
+</p>
+
+<p class = "bold">
+What is the behavior of <code>return urls</code> in this function?
+</p>
+
+</v-clicks>
+
+[//]: # (Slide End }}})
+
+---
+
+# Python Function with Annotations
+
+<div class="-ml-9">
+
+```python {all|1}
+def extract_urls(df: pandas.DataFrame) -> List[str]:
+    """Extract a list of urls."""
+    urls = []
+    if "Url" in df.columns:
+        urlc = df["Url"]
+        if urlc is not None:
+            urls = urlc.tolist()
+    return urls
+```
+
+</div>
+
+<br>
+
+<v-clicks>
+
+<p class = "bold">
+What is the purpose of <code>df: pandas.DataFrame</code> ?
+</p>
+
+<p class = "bold">
+How does <code>List[str]</code> describe output of <code>extract_urls</code> ?
+</p>
+
+</v-clicks>
