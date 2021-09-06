@@ -1,5 +1,5 @@
 [build.environment]
-  NODE_VERSION = "14"
+  NODE_VERSION = "16"
 
 [build]
 publish = "site"
@@ -9,17 +9,7 @@ poetry config virtualenvs.in-project true &&
 poetry install -v &&
 mkdocs build -d site
 cd decks
-npx pnpm install --recursive --store=node_modules/.pnpm-store && npx pnpm run build
+cd data-abstraction-slides
+npm install
+npm run build --workspaces
 """
-
-# [[redirects]]
-#   from = "/decks/*"
-#   to = "https://simple-slidev-decks.netlify.app/:splat"
-#   status = 200
-#   force = true # COMMENT: ensure that we always redirect
-
-# [[redirects]]
-#   from = "/decks/week-"
-#   to = "https://simple-slidev-decks.netlify.app/week-two/"
-#   status = 200
-#   force = true # COMMENT: ensure that we always redirect

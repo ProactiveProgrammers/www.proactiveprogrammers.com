@@ -1,0 +1,3 @@
+[submodule "decks/data-abstraction-slides"]
+	path = decks/data-abstraction-slides
+	url = https://github.com/ProactiveProgrammers/data-abstraction-slides.git
