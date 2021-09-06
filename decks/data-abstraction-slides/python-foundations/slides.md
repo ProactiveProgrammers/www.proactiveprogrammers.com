@@ -126,85 +126,10 @@ What is challenging about programming in Python?
 
 [//]: # (Slide Start {{{)
 
-<style>
-  li {
-  font-size: 26px;
-  margin-bottom: 1px;
-  }
-</style>
-
-<div class="flex row">
-
-<mdi-package-variant class="text-8xl ml-6 mt-8 text-orange-600" />
-
-<div class="text-6xl text-true-gray-600 font-bold mt-8 ml-4">
-Creating virtual environments
-</div>
-
-<div class="text-6xl text-true-gray-600 font-bold mt-13 mr-15">
-<ul>
-<li> virtualenv </li>
-<li> venv </li>
-<li> pipenv </li>
-</ul>
-</div>
-
-</div>
-
-<v-clicks>
-
-<div class="flex row">
-
-<mdi-package-up class="text-8xl ml-6 mt-8 text-orange-600" />
-
-<div class="text-6xl text-true-gray-600 font-bold mt-8 ml-4">
-Publishing packages to PyPI
-</div>
-
-<div class="text-8xl text-true-gray-600 font-bold mt-15 mr-19">
-<ul>
-<li> twine </li>
-<li> flit </li>
-<li> setup.py </li>
-</ul>
-</div>
-
-</div>
-
-</v-clicks>
-
-<v-clicks>
-
-<div class="flex row">
-
-<mdi-console class="text-8xl ml-6 mt-8 text-orange-600" />
-
-<div class="text-6xl text-true-gray-600 font-bold mt-8 ml-4">
-Making command-line interfaces
-</div>
-
-<div class="text-8xl text-true-gray-600 font-bold mt-14 mr-19">
-<ul>
-<li> argparse </li>
-<li> fire </li>
-<li> click </li>
-</ul>
-</div>
-
-</div>
-
-</v-clicks>
-
-[//]: # (Slide End }}})
-
----
-
-[//]: # (Slide Start {{{)
-
 <div class="flex row">
 
 <div class="text-7xl text-orange-600 font-bold mt-5 ml-4 mb-4">
-What are the downsides of these tools?
+What is challenging about (Python) programming?
 </div>
 
 </div>
@@ -216,21 +141,7 @@ What are the downsides of these tools?
 <mdi-alert-octagram class="text-6xl ml-8 mt-6 text-blue-600" />
 
 <div class="text-3xl font-bold mt-10 ml-4">
-virtualenv uses the requirements.txt file
-</div>
-
-</div>
-
-</div>
-
-<div v-click>
-
-<div class="flex row">
-
-<mdi-alert-octagram class="text-6xl ml-8 mt-6 text-blue-600" />
-
-<div class="text-3xl font-bold mt-10 ml-4">
-twine requires use of complicated setup.py file
+Halting problem and algorithmic undecidability
 </div>
 
 </div>
@@ -244,7 +155,21 @@ twine requires use of complicated setup.py file
 <mdi-alert-octagram class="text-6xl ml-8 mt-6 text-blue-600" />
 
 <div class="text-3xl font-bold mt-10 ml-4">
-argparse does not verify command-line arguments
+Syntax and semantics of the Python language
+</div>
+
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<mdi-alert-octagram class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+Testing, debugging, and program correctness
 </div>
 
 </div>
