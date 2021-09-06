@@ -64,8 +64,8 @@ info: |
 
 ## Learning Objectives
 
-> To **remember** and **understand** some computer science concepts and Python
-> programming, setting the stage for the exploration of data abstraction.
+> To **remember** and **understand** some computer science and Python
+> programming concepts, setting the stage for exploring of data abstraction.
 
 </div>
 
@@ -218,12 +218,16 @@ Poetry: <code>https://python-poetry.org/</code>
 
 </div>
 
+<div v-click>
+
 <div class="flex row">
 
 <uim-grid class="text-6xl ml-8 mt-4 text-blue-600" />
 
 <div class="text-3xl font-bold mt-8 ml-4">
 There are many other exceptional packages and tools!
+</div>
+
 </div>
 
 </div>
@@ -391,5 +395,33 @@ Runs to completion and produces (correct?) output
 </div>
 
 </div>
+
+[//]: # (Slide End }}})
+
+---
+
+[//]: # (Slide Start {{{)
+
+# A First Look at the Python Language
+
+<v-clicks>
+
+- Python is a general purpose programming language with support for **variables**,
+**conditional logic**, **iteration**, **recursion**, **functions**, and **classes**!
+
+- How can we describe the Python language?
+    - High-level language
+    - Scripting language
+    - Object-oriented language
+    - Functional programming language
+    - Procedural programming language
+    - "Second best" programming language
+
+- VSCode provides support for Python through **syntax highlighting**, **source code
+formatting**, **linting**, **testing**, ... and many more tasks!
+
+- What are some of the tools that provide the features highlighted in bold?
+
+</v-clicks>
 
 [//]: # (Slide End }}})
