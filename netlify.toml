@@ -9,5 +9,6 @@ poetry config virtualenvs.in-project true &&
 poetry install -v &&
 mkdocs build -d site
 cd decks
+cd data-abstraction-slides
 npm run build --workspaces
 """
