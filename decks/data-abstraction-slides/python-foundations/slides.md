@@ -225,7 +225,7 @@ Poetry: <code>https://python-poetry.org/</code>
 <uim-grid class="text-6xl ml-8 mt-4 text-blue-600" />
 
 <div class="text-3xl font-bold mt-8 ml-4">
-There are many other exceptional packages and tools!
+There are many other great packages and tools!
 </div>
 
 </div>
