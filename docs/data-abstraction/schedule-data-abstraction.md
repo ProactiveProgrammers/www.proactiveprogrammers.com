@@ -25,6 +25,7 @@
 ### Reading Assignments
 
 - Chapters 1 and 2 of *Introduction to Computation and Programming Using Python*
+- Check out the [course slides](/slides/data-abstraction/python-foundations/) for a detailed investigation of these chapters!
 
 ???+ note "Technical Concept Review"
 
