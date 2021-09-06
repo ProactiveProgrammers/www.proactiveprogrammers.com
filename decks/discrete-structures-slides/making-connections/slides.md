@@ -541,4 +541,110 @@ Let's study some source code examples!
 
 [//]: # (Slide End }}})
 
+---
 
+# Using Python to Find a Name in a File
+
+```python {all|1|2|3-4|all}
+file = open("names")
+for line in file:
+  if line.startswith("John")
+    print(line)
+```
+
+<v-clicks>
+
+- Can you explain the behavior of this program segment?
+
+- What are the constructs inside of this program segment?
+
+- How is this different than a full-fledged Python program?
+
+- What is the purpose of the `open` function?
+
+- What is the purpose of the `line.startswith` function?
+
+</v-clicks>
+
+---
+
+# Using Python to Find an Email in a File
+
+```python {all|1|2|3-4|all}
+file = open("emails")
+for line in file:
+  name, email = line.split(",")
+  if name == "John Davis":
+    print(email)
+```
+
+<v-clicks>
+
+- Can you explain the behavior of this program segment?
+
+- What are the constructs inside of this program segment?
+
+- How is this different than a full-fledged Python program?
+
+- What is the purpose of the `line.split` function?
+
+</v-clicks>
+
+---
+
+[//]: # (Slide Start {{{)
+
+# Python Script for Average Computation
+
+<div class="ml-1">
+
+```python {all|1-2|3|4-7|8|all}
+sum = 0
+count = 0
+file = open("observations")
+for line in file:
+  n = int(line)
+  sum += n
+  count += 1
+print(sum/count)
+```
+
+</div>
+
+<br>
+
+<v-clicks>
+
+<p class = "bold">
+What are the contents of the <code>observations</code> file?
+</p>
+
+<p class = "bold">
+What is the purpose of the <code>for line in file</code> statement?
+</p>
+
+</v-clicks>
+
+[//]: # (Slide End }}})
+
+---
+
+# Useful Mathematical Terminology
+
+-   To be clear and succinct, we use mathematical terminology as a
+    vocabulary for talking about Python programs
+
+-   What are mathematical terms that aid programming?
+
+    -   **Set**: an unordered collection of different entities
+
+    -   **Sequence**: an ordered collection of entities
+
+    -   **Relation**: a set that relates pairs of things with each other
+
+    -   **Mapping**: a set of ordered pairs in which no two first
+        elements are the same (sometimes called a "function" in
+        mathematics)
+
+-   Can you find these mathematical concepts in the Python programs? What is a
+file? What does iteration normally process? What are the benefits?
