@@ -12,4 +12,8 @@ cd decks
 cd data-abstraction-slides
 npm install
 npm run build --workspaces
+cd ..
+cd discrete-structures-slides
+npm install
+npm run build --workspaces
 """
