@@ -10,5 +10,6 @@ poetry install -v &&
 mkdocs build -d site
 cd decks
 cd data-abstraction-slides
+npm install
 npm run build --workspaces
 """
