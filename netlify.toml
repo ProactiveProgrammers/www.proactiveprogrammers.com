@@ -9,5 +9,5 @@ poetry config virtualenvs.in-project true &&
 poetry install -v &&
 mkdocs build -d site
 cd decks
-npx pnpm install --recursive --store=node_modules/.pnpm-store && npx pnpm run build
+npm run build --workspaces
 """
