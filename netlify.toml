@@ -11,15 +11,3 @@ mkdocs build -d site
 cd decks
 npx pnpm install --recursive --store=node_modules/.pnpm-store && npx pnpm run build
 """
-
-# [[redirects]]
-#   from = "/decks/*"
-#   to = "https://simple-slidev-decks.netlify.app/:splat"
-#   status = 200
-#   force = true # COMMENT: ensure that we always redirect
-
-# [[redirects]]
-#   from = "/decks/week-"
-#   to = "https://simple-slidev-decks.netlify.app/week-two/"
-#   status = 200
-#   force = true # COMMENT: ensure that we always redirect
