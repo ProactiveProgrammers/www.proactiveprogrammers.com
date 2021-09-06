@@ -20,7 +20,7 @@ info: |
 
 # Data Abstraction
 
-## Python Foundations!
+## Python Foundations
 
 <div class="container my-5">
   &nbsp;
@@ -49,10 +49,12 @@ info: |
 
 <div v-click>
 
-## Key Questions
+## Key Question
 
-> What are the **benefits** and **challenges** associated with using the Python
-> programming language to explore the field of data abstraction?
+> How can I use **functions**, **variables**, **conditional logic**, and **iteration
+> constructs**, as provided by the Python programming language, to implement
+> programs that, for instance, compute a number's square or determine if a
+> number is divisible by another number?
 
 </div>
 
@@ -60,24 +62,10 @@ info: |
 
 <div v-click>
 
-## Intended Audience
+## Learning Objectives
 
-> An **adventuresome** technology enthusiast who wants to explore how both a
-> new **paradigm** and software **tools** can improve their development skills!
-
-</div>
-
-<div v-click>
-
-<div class="flex row">
-
-<uim-rocket class="text-6xl ml-8 mt-5 text-blue-600" />
-
-<div class="text-3xl font-bold mt-8 ml-4">
-Let's create a command-line application in Python!
-</div>
-
-</div>
+> To **remember** and **understand** some computer science concepts and Python
+> programming, setting the stage for the exploration of data abstraction.
 
 </div>
 
