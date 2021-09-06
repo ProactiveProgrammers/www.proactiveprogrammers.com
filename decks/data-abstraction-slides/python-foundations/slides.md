@@ -129,7 +129,7 @@ What is challenging about programming in Python?
 <div class="flex row">
 
 <div class="text-7xl text-orange-600 font-bold mt-5 ml-4 mb-4">
-What is challenging about (Python) programming?
+What is difficult about (Python) programming?
 </div>
 
 </div>
@@ -423,5 +423,38 @@ formatting**, **linting**, **testing**, ... and many more tasks!
 - What are some of the tools that provide the features highlighted in bold?
 
 </v-clicks>
+
+[//]: # (Slide End }}})
+
+---
+
+[//]: # (Slide Start {{{)
+
+# Python Programming Constructs
+
+- Intuitively read the code segments to grasp their behavior
+
+- Key components of the Python programming segments
+
+    -   Function calls
+    -   Assignment statements
+    -   Iteration constructs
+    -   Conditional logic
+    -   Variable creation
+    -   Variable computations
+    -   Variable output
+
+- Make sure that you can find all of these components!
+
+<div class="flex row">
+
+<mdi-help-box class="text-8xl ml-9 mt-8 text-blue-600" />
+
+<div class="text-5xl text-true-gray-600 font-bold mt-15 ml-4">
+Sure, but what can go wrong?
+</div>
+
+</div>
+
 
 [//]: # (Slide End }}})
