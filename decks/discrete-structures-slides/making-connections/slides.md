@@ -107,7 +107,97 @@ What is beneficial about combining mathematics and computer programming?
 
 </div>
 
+[//]: # (Slide End }}})
+
+---
+
+[//]: # (Slide Start {{{)
+
+# Program that Analyzes Web Pages
+
+-   **Informal specification**: Read two web pages and then find and output
+    all of the URLs that appear in them both
+
+-   Different approaches to implementing this program
+
+    -   **Informal** and **intuitive** specification
+
+    -   **Natural language specification** using **discrete structures**
+
+    -   Which one is shorter? \... clearer? \... unambiguous?
+
+-   The language of mathematics helps us to describe and implement a program
+that is correct, efficient, clearly documented, and maintainable!
+
+<div v-click>
+
+<div class="flex row -mt-4">
+
+<mdi-help-box class="text-6xl ml-8 mt-4 text-blue-600" />
+
+<div class="text-4xl font-bold mt-7 ml-4">
+What is challenging about this specification?
+</div>
+
+</div>
+
+</div>
 
 [//]: # (Slide End }}})
 
 ---
+
+[//]: # (Slide Start {{{)
+
+
+<div class="flex row">
+
+<div class="text-7xl text-orange-600 font-bold mt-5 ml-4 mb-4">
+What is difficult about using discrete structures?
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<mdi-alert-octagram class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+What is the meaning of the term <code>set</code> ?
+</div>
+
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<mdi-alert-octagram class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+How do you perform <code>set insertion</code> ?
+</div>
+
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<mdi-alert-octagram class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+How do you perform <code>set intersection</code> ?
+</div>
+
+</div>
+
+</div>
+
+[//]: # (Slide End }}})
