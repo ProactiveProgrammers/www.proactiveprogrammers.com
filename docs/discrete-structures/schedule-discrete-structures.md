@@ -25,6 +25,7 @@
 
 - Chapters 1 and 2 of *Programming and Mathematical Thinking*
 - Chapter 1 of *Doing Math with Python*
+- Check out the [course slides](/slides/discrete-structures/making-connections/) for a detailed investigation of these chapters!
 
 ???+ note "Technical Concept Review"
 
