@@ -444,17 +444,16 @@ formatting**, **linting**, **testing**, ... and many more tasks!
     -   Variable computations
     -   Variable output
 
-- Make sure that you can find all of these components!
+- Make sure that you can find all of these components in Python source code!
 
 <div class="flex row">
 
-<mdi-help-box class="text-8xl ml-9 mt-8 text-blue-600" />
+<mdi-code-braces-box class="text-6xl ml-9 mt-0 text-blue-600" />
 
-<div class="text-5xl text-true-gray-600 font-bold mt-15 ml-4">
-Sure, but what can go wrong?
+<div class="text-4xl text-true-gray-700 font-bold mt-4 ml-4">
+Let's study some source code examples!
 </div>
 
 </div>
-
 
 [//]: # (Slide End }}})
