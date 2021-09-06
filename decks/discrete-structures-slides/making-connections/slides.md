@@ -51,10 +51,10 @@ info: |
 
 ## Key Question
 
-> How can I use **functions**, **variables**, **conditional logic**, and **iteration
-> constructs**, as provided by the Python programming language, to implement
-> programs that, for instance, compute a number's square or determine if a
-> number is divisible by another number?
+> How do I connect **mathematical terminology**  (e.g., *mapping*, *function*,
+> *number*, *sequence*, and *set*), to the implementation of **Python
+> programs** that declare and call functions and declare and manipulate
+> variables?
 
 </div>
 
@@ -64,8 +64,8 @@ info: |
 
 ## Learning Objectives
 
-> To **remember** and **understand** some computer science and Python
-> programming concepts, setting the stage for exploring of data abstraction.
+> To **remember** and **understand** some discrete mathematics and Python
+> programming concepts, setting the stage for exploring of discrete structures.
 
 </div>
 
