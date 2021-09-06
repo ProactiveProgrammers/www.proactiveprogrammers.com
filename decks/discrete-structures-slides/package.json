@@ -1,0 +1,7 @@
+{
+  "name": "data-abstraction-slides-workspace",
+  "workspaces": [
+    "python-foundations",
+    "numerical-computation"
+  ]
+}
