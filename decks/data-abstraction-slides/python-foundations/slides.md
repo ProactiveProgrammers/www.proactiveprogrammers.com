@@ -99,10 +99,10 @@ info: |
 
 <div v-click>
 
-## Command-Line Interface
+## Programming Opportunities
 
-> Programmers who start using Python through Jupyter notebooks may need to
-> create **tools** and **servers** that require a command-line interface
+> Programmers who use Python can use Jupyter notebooks or build command-line
+> applications for tools or servers, supporting wide variety of tasks
 
 </div>
 
