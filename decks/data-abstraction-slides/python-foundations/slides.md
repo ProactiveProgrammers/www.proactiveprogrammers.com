@@ -337,3 +337,59 @@ Sure, but what can go wrong?
 </v-clicks>
 
 [//]: # (Slide End }}})
+
+---
+
+[//]: # (Slide Start {{{)
+
+<div class="flex row">
+
+<div class="text-7xl text-orange-600 font-bold mt-5 ml-4 mb-4">
+What if semantics do not match our intentions?
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<mdi-alert-octagram class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+Program crash and/or obviously incorrect output
+</div>
+
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<mdi-alert-octagram class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+Program continues to run and seems to not halt
+</div>
+
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<mdi-alert-octagram class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+Runs to completion and produces (correct?) output
+</div>
+
+</div>
+
+</div>
+
+[//]: # (Slide End }}})
