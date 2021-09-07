@@ -534,6 +534,8 @@ What is the behavior of <code>return urls</code> in this function?
 
 ---
 
+[//]: # (Slide Start {{{)
+
 # Python Function with Annotations
 
 <div class="-ml-9">
@@ -564,3 +566,5 @@ How does <code>List[str]</code> describe output of <code>extract_urls</code> ?
 </p>
 
 </v-clicks>
+
+[//]: # (Slide End }}})
