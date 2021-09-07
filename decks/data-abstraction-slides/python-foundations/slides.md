@@ -462,6 +462,44 @@ Let's study some source code examples!
 
 [//]: # (Slide Start {{{)
 
+# Is a Number Even or Odd?
+
+<div class="ml-1">
+
+```python {all|1-2|3|4-7|8|all}
+sum = 0
+count = 0
+file = open("observations")
+for line in file:
+  n = int(line)
+  sum += n
+  count += 1
+print(sum/count)
+```
+
+</div>
+
+<br>
+
+<v-clicks>
+
+<p class = "bold">
+What are the contents of the <code>observations</code> file?
+</p>
+
+<p class = "bold">
+What is the purpose of the <code>for line in file</code> statement?
+</p>
+
+</v-clicks>
+
+[//]: # (Slide End }}})
+
+
+---
+
+[//]: # (Slide Start {{{)
+
 # Python Script for Average Computation
 
 <div class="ml-1">
@@ -526,6 +564,43 @@ What is the type of <code>df</code> ? The terrible docstring does not say!
 
 <p class = "bold">
 What is the behavior of <code>return urls</code> in this function?
+</p>
+
+</v-clicks>
+
+[//]: # (Slide End }}})
+
+---
+
+[//]: # (Slide Start {{{)
+
+# Python Function with Annotations
+
+<div class="-ml-9">
+
+```python {all|1}
+def extract_urls(df: pandas.DataFrame) -> List[str]:
+    """Extract a list of urls."""
+    urls = []
+    if "Url" in df.columns:
+        urlc = df["Url"]
+        if urlc is not None:
+            urls = urlc.tolist()
+    return urls
+```
+
+</div>
+
+<br>
+
+<v-clicks>
+
+<p class = "bold">
+What is the purpose of <code>df: pandas.DataFrame</code> ?
+</p>
+
+<p class = "bold">
+How does <code>List[str]</code> describe output of <code>extract_urls</code> ?
 </p>
 
 </v-clicks>
