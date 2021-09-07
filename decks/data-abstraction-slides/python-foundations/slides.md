@@ -466,15 +466,17 @@ Let's study some source code examples!
 
 <div class="ml-1">
 
-```python {all|1-2|3|4-7|8|all}
-sum = 0
-count = 0
-file = open("observations")
-for line in file:
-  n = int(line)
-  sum += n
-  count += 1
-print(sum/count)
+```python {all|1|2|3-4|5-6|8-10|all}
+def determine_even_odd(value: int) -> str:
+    """Determine if a number is even or odd."""
+    if value % 2 == 0:
+        return "even"
+    else:
+        return "odd"
+
+number = 10
+response = determine_even_odd(number)
+print(f"The number of {number} is {response}!")
 ```
 
 </div>
@@ -483,13 +485,9 @@ print(sum/count)
 
 <v-clicks>
 
-<p class = "bold">
-What are the contents of the <code>observations</code> file?
-</p>
-
-<p class = "bold">
-What is the purpose of the <code>for line in file</code> statement?
-</p>
+<div class = "bold mt-2">
+How is this different than the code segment in the book?
+</div>
 
 </v-clicks>
 
