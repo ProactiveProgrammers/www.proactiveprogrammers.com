@@ -462,7 +462,7 @@ Let's study some source code examples!
 
 [//]: # (Slide Start {{{)
 
-# Is a Number Even or Odd?
+# Determining if a Number Even or Odd
 
 <div class="ml-1">
 
