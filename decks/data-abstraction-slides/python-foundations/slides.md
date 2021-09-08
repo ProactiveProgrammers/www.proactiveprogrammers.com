@@ -604,3 +604,39 @@ How is this different than the code segment in the book?
 
 [//]: # (Slide End }}})
 
+---
+
+[//]: # (Slide Start {{{)
+
+# Squaring an Integer &mdash; the Hard Way!
+
+<div class="ml-1">
+
+```python {all|1-2|3|4-7|8|all}
+sum = 0
+count = 0
+file = open("observations")
+for line in file:
+  n = int(line)
+  sum += n
+  count += 1
+print(sum/count)
+```
+
+</div>
+
+<br>
+
+<v-clicks>
+
+<p class = "bold">
+What are the contents of the <code>observations</code> file?
+</p>
+
+<p class = "bold">
+What is the purpose of the <code>for line in file</code> statement?
+</p>
+
+</v-clicks>
+
+[//]: # (Slide End }}})
