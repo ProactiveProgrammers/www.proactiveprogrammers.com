@@ -889,3 +889,27 @@ True
 - How does this match and diverge from your intuition?
 
 [//]: # (Slide End }}})
+
+---
+
+[//]: # (Slide Start {{{)
+
+# Variables in Python Programs
+
+-   Variables in Python have values, types, and names
+
+-   A function can manipulate a variable using operators
+
+    -   The `+` symbol denotes addition and concatenation
+
+    -   The `-,*,/` symbols denotes have standard meanings
+
+    -   The `+=` symbol denotes addition and assignment
+
+    -   The `%` symbol denotes modular arithmetic for a remainder
+
+-   **Variable Types**: The `type(a)` returns the type of `a`
+
+-   **Type Changing**: `int(a)` transforms variable `a` into an integer type
+
+[//]: # (Slide End }}})
