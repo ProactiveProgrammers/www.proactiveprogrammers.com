@@ -1,4 +1,3 @@
-
 def determine_even_odd(value: int) -> str:
     """Determine if a number is even or odd."""
     if value % 2 == 0:
