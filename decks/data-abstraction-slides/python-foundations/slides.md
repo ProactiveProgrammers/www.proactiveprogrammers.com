@@ -655,3 +655,118 @@ print(f"{value} * {value} = {value_squared}")
 </div>
 
 [//]: # (Slide End }}})
+
+---
+
+[//]: # (Slide Start {{{)
+
+# Python Programming Constructs ♻
+
+- Reminder: intuitively read the code segments to grasp their behavior
+
+- Key components of the Python programming segments
+
+    -   Function calls
+    -   Assignment statements
+    -   Iteration constructs
+    -   Conditional logic
+    -   Variable creation
+    -   Variable computations
+    -   Variable output
+
+- Make sure that you can find all of these components in Python source code!
+
+<div class="flex row">
+
+<mdi-help-box class="text-6xl ml-4 mt-0 text-blue-600" />
+
+<div class="text-4xl text-true-gray-700 font-bold mt-4 ml-4">
+Questions about the Python source code?
+</div>
+
+</div>
+
+[//]: # (Slide End }}})
+
+---
+
+[//]: # (Slide Start {{{)
+
+<div class="flex row">
+
+<div class="text-7xl text-orange-600 font-bold mt-5 ml-4 mb-4">
+Take home points about Python programming?
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+Implement with correct syntax and semantics
+</div>
+
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+Try to create reusable and testable functions
+</div>
+
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+Avoid program defects and follow conventions
+</div>
+
+</div>
+
+</div>
+
+[//]: # (Slide End }}})
+
+---
+
+[//]: # (Slide Start {{{)
+
+# Investigating Foundations of Python
+
+<div class = "mt-10">
+</div>
+
+-   Implementing programs in the Python language:
+
+    -   **Q1**: What is the **syntax** of a programming language?
+
+    -   **Q2**: What are the **semantics** of a programming language?
+
+    -   **Q3**: What are some **best practices** for Python programming?
+
+    -   **Q4**: What is a **reserved word** in the Python language?
+
+    -   **Q5**: How does the Python language perform **type checking**?
+
+-   How do you pick between the `for` and `while` loop?
+
+-   Don't forget to find the defect in the `compute_square` function!
+
+[//]: # (Slide End }}})
