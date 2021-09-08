@@ -597,7 +597,7 @@ print(f"The number of {number} is {response}!")
 <v-clicks>
 
 <div class = "bold mt-2">
-How is this different than the code segment in the book?
+How is this <b>different</b> than the code segment in the book?
 </div>
 
 </v-clicks>
@@ -612,31 +612,21 @@ How is this different than the code segment in the book?
 
 <div class="ml-1">
 
-```python {all|1-2|3|4-7|8|all}
-sum = 0
-count = 0
-file = open("observations")
-for line in file:
-  n = int(line)
-  sum += n
-  count += 1
-print(sum/count)
+```python {all|1-2|3-4|5-7|8|9-11|all}
+def compute_square(value: int) -> int:
+    """Square of a number through iteration."""
+    num_iterations = 0
+    answer = 0
+    while num_iterations < value:
+        answer = answer + value
+        num_iterations = num_iterations + 1
+    return answer
+
+value = 3
+value_squared = compute_square(value)
+print(f"{value}*{value} = {value_squared}")
 ```
 
 </div>
-
-<br>
-
-<v-clicks>
-
-<p class = "bold">
-What are the contents of the <code>observations</code> file?
-</p>
-
-<p class = "bold">
-What is the purpose of the <code>for line in file</code> statement?
-</p>
-
-</v-clicks>
 
 [//]: # (Slide End }}})
