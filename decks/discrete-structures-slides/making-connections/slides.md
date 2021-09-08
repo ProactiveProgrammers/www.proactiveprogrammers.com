@@ -152,7 +152,7 @@ What is challenging about this specification?
 <div class="flex row">
 
 <div class="text-7xl text-orange-600 font-bold mt-5 ml-4 mb-4">
-What is difficult about using discrete structures?
+What is difficult about discrete structures?
 </div>
 
 </div>
@@ -648,3 +648,25 @@ What is the purpose of the <code>for line in file</code> statement?
 
 -   Can you find these mathematical concepts in the Python programs? What is a
 file? What does iteration normally process? What are the benefits?
+
+---
+
+# Properties of Integer Addition
+
+-   The average computation program processes integer values that are
+    governed by mathematical rules
+
+-   Precisely define the set of observations: $O = \{ o_i : o_i \in
+          \mathbb{Z}\}$
+
+-   Two properties of integer addition
+
+    -   **Associative**: $(a + b) + c = a + (b + c), \forall a, b, c \in
+                  \mathbb{Z}$
+
+    -   **Commutative**: $a + b = b + a, \forall a, b \in \mathbb{Z}$
+
+-   Wait, is the collection of observations a set? No, not if it
+    contained recorded temperature values! It can have repeated items,
+    which means it is a **multiset**.
+
