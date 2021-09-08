@@ -18,9 +18,9 @@
 ### Technical Question
 
 - How can I use functions, variables, conditional logic, and iteration
-  constructs, as provided by the Python programming language, to implement
-  programs that, for instance, determine if a number is even or odd, compute a
-  number's square or determine if a number is divisible by another number?
+  constructs, as provided by Python, to implement programs that, for instance,
+  find out if a number is even or odd, compute a number's square, or determine
+  if a number is divisible by another number?
 
 ### Reading Assignments
 
