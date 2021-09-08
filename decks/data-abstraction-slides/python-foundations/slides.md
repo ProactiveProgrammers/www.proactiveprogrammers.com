@@ -462,42 +462,6 @@ Let's study some source code examples!
 
 [//]: # (Slide Start {{{)
 
-# Determining if a Number Even or Odd
-
-<div class="ml-1">
-
-```python {all|1|2|3-4|5-6|8-10|all}
-def determine_even_odd(value: int) -> str:
-    """Determine if a number is even or odd."""
-    if value % 2 == 0:
-        return "even"
-    else:
-        return "odd"
-
-number = 10
-response = determine_even_odd(number)
-print(f"The number of {number} is {response}!")
-```
-
-</div>
-
-<br>
-
-<v-clicks>
-
-<div class = "bold mt-2">
-How is this different than the code segment in the book?
-</div>
-
-</v-clicks>
-
-[//]: # (Slide End }}})
-
-
----
-
-[//]: # (Slide Start {{{)
-
 # Python Script for Average Computation
 
 <div class="ml-1">
@@ -609,19 +573,21 @@ How does <code>List[str]</code> describe output of <code>extract_urls</code> ?
 
 [//]: # (Slide Start {{{)
 
-# Python Function with Annotations
+# Determining if a Number Even or Odd
 
-<div class="-ml-9">
+<div class="ml-1">
 
-```python {all|1}
-def extract_urls(df: pandas.DataFrame) -> List[str]:
-    """Extract a list of urls."""
-    urls = []
-    if "Url" in df.columns:
-        urlc = df["Url"]
-        if urlc is not None:
-            urls = urlc.tolist()
-    return urls
+```python {all|1|2|3-4|5-6|8-10|all}
+def determine_even_odd(value: int) -> str:
+    """Determine if a number is even or odd."""
+    if value % 2 == 0:
+        return "even"
+    else:
+        return "odd"
+
+number = 10
+response = determine_even_odd(number)
+print(f"The number of {number} is {response}!")
 ```
 
 </div>
@@ -630,14 +596,11 @@ def extract_urls(df: pandas.DataFrame) -> List[str]:
 
 <v-clicks>
 
-<p class = "bold">
-What is the purpose of <code>df: pandas.DataFrame</code> ?
-</p>
-
-<p class = "bold">
-How does <code>List[str]</code> describe output of <code>extract_urls</code> ?
-</p>
+<div class = "bold mt-2">
+How is this different than the code segment in the book?
+</div>
 
 </v-clicks>
 
 [//]: # (Slide End }}})
+
