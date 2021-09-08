@@ -793,3 +793,47 @@ mathematics** and in **Python programs**
 ones! What are they? Why do they exist? Why is it important to know about them?
 
 [//]: # (Slide End }}})
+
+---
+
+[//]: # (Slide Start {{{)
+
+# Practical Variable Limitations in Python
+
+<style>
+  h2 {
+    font-size: 42px;
+    @apply text-orange-600 mb-4;
+  }
+  li {
+    font-size: 28px;
+    margin-top: 4px;
+    margin-bottom: 9px;
+  }
+</style>
+
+<div class="border-2 rounded-2xl border-gray-700 bg-true-gray-300 p-5">
+
+<pre>
+Python 3.8.5 (default, Jul 23 2020, 21:35:10)
+[GCC 10.1.0] on linux
+>>> 2**2**8
+115792089237316195423570985008687907853269984665640564039457584007913129639936
+>>> 2**2**10
+1797693134862315907729305190789024733617976978942306572734300811577326758055009
+6313270847732240753602112011387987139335765878976881441662249284743063947412437
+7767893424865485276302219601246094119453082952085005768838150682342462881473913
+110540827237163350510684586298239947245938479716304835356329624224137216
+>>> 2**2**100
+^CTraceback (most recent call last):
+  File "stdin", line 1, in module
+KeyboardInterrupt
+</pre>
+
+</div>
+
+- Can you explain the **output** of the computations one and two?
+
+- Why did the third computation **crash**, not terminate, and not produce output?
+
+[//]: # (Slide End }}})
