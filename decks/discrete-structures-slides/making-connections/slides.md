@@ -913,3 +913,28 @@ True
 -   **Type Changing**: `int(a)` transforms variable `a` into an integer type
 
 [//]: # (Slide End }}})
+
+---
+
+# Math and Programming Connections
+
+<div class = "mt-5">
+</div>
+
+-   Understanding the connections between mathematics and programming:
+
+    -   **Q1**: What is a **mapping** in the mathematics?
+
+    -   **Q2**: What is a **function** in mathematics and Python?
+
+    -   **Q3**: What are some **best practices** for Python programming?
+
+    -   **Q4**: What are the **limits** for variables in the Python language?
+
+    -   **Q5**: How does the Python language perform **type checking**?
+
+-   How do you pick between the `for` and `while` loop?
+
+-   Don't forget to find the defect in the `compute_square` function!
+
+[//]: # (Slide End }}})
