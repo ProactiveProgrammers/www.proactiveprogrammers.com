@@ -20,10 +20,22 @@ def compute_square_for(value: int) -> int:
 value = 3
 value_squared = compute_square_while(value)
 print()
-print(f"The value of {value}*{value} is {value_squared}")
+print(f"The value of {value} * {value} is {value_squared}")
 
 # does not compute the correct value
 value = -3
 value_squared = compute_square_while(value)
 print()
-print(f"The value of {value}*{value} is {value_squared}")
+print(f"The value of {value} * {value} is {value_squared}")
+
+# computes the correct value
+value = 3
+value_squared = compute_square_for(value)
+print()
+print(f"The value of {value} * {value} is {value_squared}")
+
+# does compute the correct value
+value = -3
+value_squared = compute_square_for(value)
+print()
+print(f"The value of {value} * {value} is {value_squared}")
