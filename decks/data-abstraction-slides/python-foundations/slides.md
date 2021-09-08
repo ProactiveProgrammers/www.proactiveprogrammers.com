@@ -574,7 +574,7 @@ How does <code>List[str]</code> describe output of <code>extract_urls</code> ?
 
 [//]: # (Slide Start {{{)
 
-# Determining if a Number Even or Odd
+# Is a Number Even or Odd?
 
 <div class="ml-1">
 
@@ -685,6 +685,156 @@ Questions about the Python source code?
 </div>
 
 </div>
+
+[//]: # (Slide End }}})
+
+---
+
+[//]: # (Slide Start {{{)
+
+<div class="flex row">
+
+<div class="text-7xl text-orange-600 font-bold mt-5 ml-4 mb-4">
+What do we know about program variables?
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+Store a value received during assignment
+</div>
+
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+Have an associated type restricting values
+</div>
+
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+Serve as input and output of a function
+</div>
+
+</div>
+
+</div>
+
+[//]: # (Slide End }}})
+
+---
+
+# Practical Variable Limitations in Python
+
+<style>
+  h2 {
+    font-size: 42px;
+    @apply text-orange-600 mb-4;
+  }
+  li {
+    font-size: 28px;
+    margin-top: 4px;
+    margin-bottom: 9px;
+  }
+</style>
+
+<div class="border-2 rounded-2xl border-gray-700 bg-true-gray-300 p-5">
+
+<pre>
+Python 3.8.5 (default, Jul 23 2020, 21:35:10)
+[GCC 10.1.0] on linux
+>>> 2**2**8
+115792089237316195423570985008687907853269984665640564039457584007913129639936
+>>> 2**2**10
+1797693134862315907729305190789024733617976978942306572734300811577326758055009
+6313270847732240753602112011387987139335765878976881441662249284743063947412437
+7767893424865485276302219601246094119453082952085005768838150682342462881473913
+110540827237163350510684586298239947245938479716304835356329624224137216
+>>> 2**2**100
+^CTraceback (most recent call last):
+  File "stdin", line 1, in module
+KeyboardInterrupt
+</pre>
+
+</div>
+
+- Can you explain the **output** of the computations one and two?
+
+- Why did the third computation **crash**, not terminate, and not produce output?
+
+- How do these **limitations** influence the tasks of programmers?
+
+[//]: # (Slide End }}})
+
+---
+
+[//]: # (Slide Start {{{)
+
+# Comparing Variables in Python
+
+<style>
+  h2 {
+    font-size: 42px;
+    @apply text-orange-600 mb-4;
+  }
+  li {
+    font-size: 28px;
+    margin-top: 4px;
+    margin-bottom: 9px;
+  }
+</style>
+
+<div class="border-2 rounded-2xl border-gray-700 bg-true-gray-300 p-5">
+
+<pre>
+>>> 1.0 == 1.1
+False
+>>> 1.0 == 1
+True
+>>> 'h' + 'i' + '!'
+'hi!'
+>>> .33333 + .33333 + .33333 == 1
+False
+>>> .33333333333 + .33333333333 + .3333333333 == 1
+False
+>>> 1/3
+0.3333333333333333
+>>> 1/3 + 1/3 + 1/3 == 1
+True
+>>> count = 0
+>>> count += 1
+>>> count
+1
+</pre>
+
+</div>
+
+<div class="mt-5">
+</div>
+
+- How does this **match** and **diverge** from your intuition?
 
 [//]: # (Slide End }}})
 
