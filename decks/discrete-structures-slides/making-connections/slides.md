@@ -836,4 +836,56 @@ KeyboardInterrupt
 
 - Why did the third computation **crash**, not terminate, and not produce output?
 
+- In what ways are variables **different** in **mathematics** and **programming**?
+
+[//]: # (Slide End }}})
+
+---
+
+[//]: # (Slide Start {{{)
+
+# Comparing Variables in Python
+
+<style>
+  h2 {
+    font-size: 42px;
+    @apply text-orange-600 mb-4;
+  }
+  li {
+    font-size: 28px;
+    margin-top: 4px;
+    margin-bottom: 9px;
+  }
+</style>
+
+<div class="border-2 rounded-2xl border-gray-700 bg-true-gray-300 p-5">
+
+<pre>
+>>> 1.0 == 1.1
+False
+>>> 1.0 == 1
+True
+>>> 'h' + 'i' + '!'
+'hi!'
+>>> .33333 + .33333 + .33333 == 1
+False
+>>> .33333333333 + .33333333333 + .3333333333 == 1
+False
+>>> 1/3
+0.3333333333333333
+>>> 1/3 + 1/3 + 1/3 == 1
+True
+>>> count = 0
+>>> count += 1
+>>> count
+1
+</pre>
+
+</div>
+
+<div class="mt-5">
+</div>
+
+- How does this match and diverge from your intuition?
+
 [//]: # (Slide End }}})
