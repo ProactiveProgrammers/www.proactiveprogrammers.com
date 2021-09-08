@@ -66,7 +66,7 @@ info: |
 ## Learning Objectives
 
 > To **remember** and **understand** some computer science and Python
-> programming foundations, setting the stage for exploring of data abstraction.
+> programming foundations, setting the stage for exploring data abstraction.
 
 </div>
 
