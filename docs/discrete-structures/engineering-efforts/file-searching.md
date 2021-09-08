@@ -4,10 +4,10 @@
 
 This engineering effort invites you to combine what you learned about the basics
 of Python programming to implement a useful program that can search for a word
-in a file. Leveraging all your [technical
-skills](/proactive-skills/introduction-proactive-skills/), you will use programs
-such as VS Code and a terminal window and the Python programming language and
-the Poetry package manager.
+in a file. As you enhance your [technical
+skills](/proactive-skills/introduction-proactive-skills/), you will program with
+tools such as VS Code and a terminal window and the Python programming language
+and the Poetry package manager.
 
 ## Project Access
 
@@ -134,3 +134,90 @@ functions:
 - `def human_readable_boolean(answer: bool) -> str`
 - `def word_search(text: str, word: str) -> bool`
 - `def word(word: str = typer.Option(None), dir: Path = typer.Option(None), file: Path = typer.Option(None)) -> None`
+
+## Running Checks
+
+If you study the source code in the `pyproject.toml` file you will see that
+it includes the following section:
+
+```toml
+[tool.taskipy.tasks]
+black = { cmd = "black search tests --check", help = "Run the black checks for source code format" }
+flake8 = { cmd = "flake8 search tests", help = "Run the flake8 checks for source code documentation" }
+mypy = { cmd = "poetry run mypy search", help = "Run the mypy type checker for potential type errors" }
+pydocstyle = { cmd = "pydocstyle search tests", help = "Run the pydocstyle checks for source code documentation" }
+pylint = { cmd = "pylint search tests", help = "Run the pylint checks for source code documentation" }
+test = { cmd = "pytest -x -s", help = "Run the pytest test suite" }
+test-silent = { cmd = "pytest -x --show-capture=no", help = "Run the pytest test suite without showing output" }
+all = "task black && task flake8 && task pydocstyle && task pylint && task mypy && task test"
+lint = "task black && task flake8 && task pydocstyle && task pylint"
+```
+
+This section makes it easy to run commands like `poetry run task lint` to
+automatically run all of the linters designed to check the Python source code in
+your program and its test suite. You can also use the command `poetry run task
+black` to confirm that your source code adheres to the industry-standard format
+defined by the `black` tool. If it does not adhere to the standard then you can
+run the command `poetry run black search tests` and it will automatically
+reformat the source code.
+
+Along with running tasks like `poetry run task list`, you can leverage the
+relevant instructions in the [technical
+skills](/proactive-skills/introduction-proactive-skills/) to enter into a Docker
+container and run the command `gradle grade` to check your work. If `gradle
+grade` shows that all checks pass, you will know that you made progress towards
+correctly implementing and writing about `search`.
+
+If your program has all of the anticipated functionality, you can run the
+command `poetry run task test` and see that the test suite produces output like
+this:
+
+```shell
+collected 5 items
+
+tests/test_search.py .....
+```
+
+???+ note
+
+    Don't forget that when you commit source code or technical writing to your
+    GitHub repository for this project, it will trigger the run of a GitHub
+    Actions workflow. If you are a student at Allegheny College, then running
+    this workflow consumes build minutes for the course's organization! As such,
+    you should only commit to your repository once you have made substantive
+    changes to your project and you are ready to confirm its correctness. Before
+    you commit to your repository, you can still run checks on your own computer
+    by either using Poetry or Docker and GatorGrader.
+
+## Project Reflection
+
+Once you have finished both of the previous technical tasks, you can use a text
+editor to answer all of the questions in the `writing/reflection.md` file. For
+instance, you should provide the output of the Python program in a fenced code
+block, explain the meaning of the Python source code segments that you
+implemented, and answer all of the other questions about your experiences in
+completing this project.
+
+## Project Assessment
+
+Since this project is an engineering effort, it is aligned with the
+**evaluating** and **creating** levels of [Bloom's
+taxonomy](proactive-learning/blooms-taxonomy/). You can learn more about how a
+proactive programming expert will assess your work by examining the [assessment
+strategy](/proactive-learning/assessment-strategy/). From the start to the end
+of this project you may make an unlimited number of reattempts at submitting
+source code and technical writing that meet every aspect of the project's
+specification.
+
+## Seeking Assistance
+
+Emerging proactive programmers who have questions about this project are invited
+to ask them in either the [GitHub discussions
+forum](https://github.com/ProactiveProgrammers/www.proactiveprogrammers.com/discussions)
+or the [Proactive Programmers Discord server](https://discord.gg/kjah8MFYbR).
+Before you ask your question, please read the advice concerning how to best
+participate in the [Proactive Programmers
+community](https://proactiveprogrammers.com/proactive-community/community-connections/).
+If you find a mistake in this project, please describe it and propose a solution
+by creating an issue in the [GitHub Issue
+Tracker](https://github.com/ProactiveProgrammers/www.proactiveprogrammers.com/issues).
