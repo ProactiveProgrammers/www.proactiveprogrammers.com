@@ -51,10 +51,11 @@ info: |
 
 ## Key Question
 
-> How can I use **functions**, **variables**, **conditional logic**, and **iteration
-> constructs**, as provided by the Python programming language, to implement
-> programs that, for instance, compute a number's square or determine if a
-> number is divisible by another number?
+> How can I use **functions**, **variables**, **conditional logic**, and
+> **iteration constructs**, as provided by the Python programming language, to
+> implement programs that, for instance, determine if a number is even or odd,
+> compute a number's square or determine if a number is divisible by another
+> number?
 
 </div>
 
@@ -65,7 +66,7 @@ info: |
 ## Learning Objectives
 
 > To **remember** and **understand** some computer science and Python
-> programming concepts, setting the stage for exploring of data abstraction.
+> programming foundations, setting the stage for exploring data abstraction.
 
 </div>
 
@@ -534,6 +535,8 @@ What is the behavior of <code>return urls</code> in this function?
 
 ---
 
+[//]: # (Slide Start {{{)
+
 # Python Function with Annotations
 
 <div class="-ml-9">
@@ -564,3 +567,206 @@ How does <code>List[str]</code> describe output of <code>extract_urls</code> ?
 </p>
 
 </v-clicks>
+
+[//]: # (Slide End }}})
+
+---
+
+[//]: # (Slide Start {{{)
+
+# Determining if a Number Even or Odd
+
+<div class="ml-1">
+
+```python {all|1|2|3-4|5-6|8-10|all}
+def determine_even_odd(value: int) -> str:
+    """Determine if a number is even or odd."""
+    if value % 2 == 0:
+        return "even"
+    else:
+        return "odd"
+
+number = 10
+response = determine_even_odd(number)
+print(f"The number of {number} is {response}!")
+```
+
+</div>
+
+<br>
+
+<v-clicks>
+
+<div class = "bold mt-2">
+How is this <b>different</b> than the code segment in the book?
+</div>
+
+</v-clicks>
+
+[//]: # (Slide End }}})
+
+---
+
+[//]: # (Slide Start {{{)
+
+# Squaring an Integer &mdash; Well, Kinda! 😉
+
+<div class="ml-1">
+
+```python {all|1-2|3-4|5-7|8|9-11|all}
+def compute_square(value: int) -> int:
+    """Square a number through iteration."""
+    num_iterations = 0
+    answer = 0
+    while num_iterations < value:
+        answer = answer + value
+        num_iterations = num_iterations + 1
+    return answer
+
+value = 3
+value_squared = compute_square(value)
+print(f"{value} * {value} = {value_squared}")
+```
+
+</div>
+
+[//]: # (Slide End }}})
+
+---
+
+# Squaring an Integer &mdash; Much Better! 😂
+
+<div class="ml-1">
+
+```python {all|1-2|3-4|5-7|8|9-11|all}
+def compute_square_for(value: int) -> int:
+    """Square a number through iteration."""
+    answer = 0
+    for _ in range(abs(value)):
+        answer = answer + abs(value)
+    return answer
+
+value = -3
+value_squared = compute_square_while(value)
+print()
+print(f"{value} * {value} = {value_squared}")
+```
+
+</div>
+
+[//]: # (Slide End }}})
+
+---
+
+[//]: # (Slide Start {{{)
+
+# Python Programming Constructs ♻
+
+- Reminder: intuitively read the code segments to grasp their behavior
+
+- Key components of the Python programming segments
+
+    -   Function calls
+    -   Assignment statements
+    -   Iteration constructs
+    -   Conditional logic
+    -   Variable creation
+    -   Variable computations
+    -   Variable output
+
+- Make sure that you can find all of these components in Python source code!
+
+<div class="flex row">
+
+<mdi-help-box class="text-6xl ml-4 mt-0 text-blue-600" />
+
+<div class="text-4xl text-true-gray-700 font-bold mt-4 ml-4">
+Questions about the Python source code?
+</div>
+
+</div>
+
+[//]: # (Slide End }}})
+
+---
+
+[//]: # (Slide Start {{{)
+
+<div class="flex row">
+
+<div class="text-7xl text-orange-600 font-bold mt-5 ml-4 mb-4">
+Take home points about Python programming?
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+Implement with correct syntax and semantics
+</div>
+
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+Try to create reusable and testable functions
+</div>
+
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+Avoid program defects and follow conventions
+</div>
+
+</div>
+
+</div>
+
+[//]: # (Slide End }}})
+
+---
+
+[//]: # (Slide Start {{{)
+
+# Investigating Foundations of Python
+
+<div class = "mt-10">
+</div>
+
+-   Implementing programs in the Python language:
+
+    -   **Q1**: What is the **syntax** of a programming language?
+
+    -   **Q2**: What are the **semantics** of a programming language?
+
+    -   **Q3**: What are some **best practices** for Python programming?
+
+    -   **Q4**: What is a **reserved word** in the Python language?
+
+    -   **Q5**: How does the Python language perform **type checking**?
+
+-   How do you pick between the `for` and `while` loop?
+
+-   Don't forget to find the defect in the `compute_square` function!
+
+[//]: # (Slide End }}})

@@ -136,7 +136,7 @@ that is correct, efficient, clearly documented, and maintainable!
 <mdi-help-box class="text-6xl ml-8 mt-4 text-blue-600" />
 
 <div class="text-4xl font-bold mt-7 ml-4">
-What is challenging about this specification?
+Why is this specification challenging?
 </div>
 
 </div>
@@ -152,7 +152,7 @@ What is challenging about this specification?
 <div class="flex row">
 
 <div class="text-7xl text-orange-600 font-bold mt-5 ml-4 mb-4">
-What is difficult about using discrete structures?
+What is difficult about discrete structures?
 </div>
 
 </div>
@@ -648,3 +648,52 @@ What is the purpose of the <code>for line in file</code> statement?
 
 -   Can you find these mathematical concepts in the Python programs? What is a
 file? What does iteration normally process? What are the benefits?
+
+---
+
+# Properties of Integer Addition
+
+<div class="mt-8">
+</div>
+
+-   The **average computation** program processes integer values that are
+governed by mathematical rules
+
+-   Precisely define the set of observations: $O = \{ o_i : o_i \in
+          \mathbb{Z}\}$
+
+-   Two properties of integer addition
+
+    -   **Associative**: $(a + b) + c = a + (b + c), \forall a, b, c \in
+                  \mathbb{Z}$
+
+    -   **Commutative**: $a + b = b + a, \forall a, b \in \mathbb{Z}$
+
+-   Wait, is the collection of observations a set? No, not if it
+    contained recorded temperature values! It can have repeated items,
+    which means it is a **multiset**.
+
+-   What mathematical notation describes average computation with multisets?
+
+---
+
+# Average Computation with Multisets
+
+$$
+O = \{\!\{o_1, \ldots, o_n\}\!\}
+$$
+
+$$
+S = \sum_{o_i \in O} o_i
+$$
+
+$$
+A = \frac{S}{|O|}
+$$
+
+What is the meaning of $O = \{\!\{o_1, \ldots, o_n\}\!\}$?
+
+What is the meaning of $o_i \in O$? Where does this exist in Python
+code?
+
+How would you write $A = \frac{S}{|O|}$ in a Python program?
