@@ -762,6 +762,8 @@ structures (e.g., sets) and concepts (e.g., summation) and Python programs?
 -   When might the **emails** in the file be a **mapping**? When might the
 **temperatures** in the file be a **sequence**? How did you know?
 
+- What are the benefits with **jumping** between different levels of **abstraction**?
+
 </v-clicks>
 
 [//]: # (Slide End }}})
