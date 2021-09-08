@@ -45,7 +45,7 @@
 ### Reading Assignments
 
 - Chapter 3 of *Programming and Mathematical Thinking*
-- Appendix B of *Doing Math with Python*
+- Chapter 1 and Appendix B of *Doing Math with Python*
 
 ???+ note "Technical Concept Review"
 
