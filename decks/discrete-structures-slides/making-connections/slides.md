@@ -697,3 +697,26 @@ What is the meaning of $o_i \in O$? Where does this exist in Python
 code?
 
 How would you write $A = \frac{S}{|O|}$ in a Python program?
+
+---
+
+# Average Computation with Multisets ♻
+
+$$
+O = \{\!\{o_1, \ldots, o_n\}\!\}
+$$
+
+$$
+S = \sum_{i=1}^{n} o_i \in O
+$$
+
+$$
+A = \frac{S}{n}
+$$
+
+Again, what is the meaning of $O = \{\!\{o_1, \ldots, o_n\}\!\}$?
+
+What is the meaning of $\sum_{i=1}^{n} o_i \in O$? Where does this exist in Python
+code?
+
+How would you write $A = \frac{S}{n}$ in a Python program?
