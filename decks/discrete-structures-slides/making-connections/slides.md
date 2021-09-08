@@ -767,3 +767,27 @@ structures (e.g., sets) and concepts (e.g., summation) and Python programs?
 [//]: # (Slide End }}})
 
 ---
+
+[//]: # (Slide Start {{{)
+
+# Connecting Mathematics and Python
+
+-   Program **variables** and their associated **types** exist in both **discrete
+mathematics** and in **Python programs**
+
+-   Connecting **mathematical variables** to **Python variables**:
+
+    -   $a \in \mathbb{Z}$ means that $a$ is an integer value in Python
+
+    -   $a \in \mathbb{R}$ means that $a$ is a floating point value in
+        Python
+
+    -   Python variables have descriptive names like `child_count`
+
+    -   Python variables can also store character strings like
+        ` "radio"`
+
+-   Python variables have **practical limitations** not faced by mathematical
+ones! What are they? Why do they exist? Why is it important to know about them?
+
+[//]: # (Slide End }}})
