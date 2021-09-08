@@ -136,7 +136,7 @@ that is correct, efficient, clearly documented, and maintainable!
 <mdi-help-box class="text-6xl ml-8 mt-4 text-blue-600" />
 
 <div class="text-4xl font-bold mt-7 ml-4">
-What is challenging about this specification?
+Why is this specification challenging?
 </div>
 
 </div>
@@ -653,8 +653,11 @@ file? What does iteration normally process? What are the benefits?
 
 # Properties of Integer Addition
 
--   The average computation program processes integer values that are
-    governed by mathematical rules
+<div class="mt-8">
+</div>
+
+-   The **average computation** program processes integer values that are
+governed by mathematical rules
 
 -   Precisely define the set of observations: $O = \{ o_i : o_i \in
           \mathbb{Z}\}$
@@ -670,3 +673,27 @@ file? What does iteration normally process? What are the benefits?
     contained recorded temperature values! It can have repeated items,
     which means it is a **multiset**.
 
+-   What mathematical notation describes average computation with multisets?
+
+---
+
+# Average Computation with Multisets
+
+$$
+O = \{\!\{o_1, \ldots, o_n\}\!\}
+$$
+
+$$
+S = \sum_{o_i \in O} o_i
+$$
+
+$$
+A = \frac{S}{|O|}
+$$
+
+What is the meaning of $O = \{\!\{o_1, \ldots, o_n\}\!\}$?
+
+What is the meaning of $o_i \in O$? Where does this exist in Python
+code?
+
+How would you write $A = \frac{S}{|O|}$ in a Python program?
