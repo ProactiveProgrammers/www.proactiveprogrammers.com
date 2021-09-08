@@ -615,7 +615,7 @@ How is this <b>different</b> than the code segment in the book?
 
 ```python {all|1-2|3-4|5-7|8|9-11|all}
 def compute_square(value: int) -> int:
-    """Square of a number through iteration."""
+    """Square a number through iteration."""
     num_iterations = 0
     answer = 0
     while num_iterations < value:
@@ -625,6 +625,30 @@ def compute_square(value: int) -> int:
 
 value = 3
 value_squared = compute_square(value)
+print(f"{value} * {value} = {value_squared}")
+```
+
+</div>
+
+[//]: # (Slide End }}})
+
+---
+
+# Squaring an Integer &mdash; Much Better! 😂
+
+<div class="ml-1">
+
+```python {all|1-2|3-4|5-7|8|9-11|all}
+def compute_square_for(value: int) -> int:
+    """Square a number through iteration."""
+    answer = 0
+    for _ in range(abs(value)):
+        answer = answer + abs(value)
+    return answer
+
+value = -3
+value_squared = compute_square_while(value)
+print()
 print(f"{value} * {value} = {value_squared}")
 ```
 
