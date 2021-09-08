@@ -629,6 +629,8 @@ What is the purpose of the <code>for line in file</code> statement?
 
 ---
 
+[//]: # (Slide Start {{{)
+
 # Useful Mathematical Terminology
 
 -   To be clear and succinct, we use mathematical terminology as a
@@ -649,7 +651,11 @@ What is the purpose of the <code>for line in file</code> statement?
 -   Can you find these mathematical concepts in the Python programs? What is a
 file? What does iteration normally process? What are the benefits?
 
+[//]: # (Slide End }}})
+
 ---
+
+[//]: # (Slide Start {{{)
 
 # Properties of Integer Addition
 
@@ -675,7 +681,11 @@ governed by mathematical rules
 
 -   What mathematical notation describes average computation with multisets?
 
+[//]: # (Slide End }}})
+
 ---
+
+[//]: # (Slide Start {{{)
 
 # Average Computation with Multisets
 
@@ -698,7 +708,11 @@ code?
 
 How would you write $A = \frac{S}{|O|}$ in a Python program?
 
+[//]: # (Slide End }}})
+
 ---
+
+[//]: # (Slide Start {{{)
 
 # Average Computation with Multisets ♻
 
@@ -721,7 +735,11 @@ code?
 
 How would you write $A = \frac{S}{n}$ in a Python program?
 
+[//]: # (Slide End }}})
+
 ---
+
+[//]: # (Slide Start {{{)
 
 # Summary of the "Abstraction Jumping"
 
@@ -742,8 +760,10 @@ structures (e.g., sets) and concepts (e.g., summation) and Python programs?
     -   **Temperatures in the file**: a multiset of integers
 
 -   When might the **emails** in the file be a **mapping**? When might the
-**temperatures** in the file be a **sequence**?
+**temperatures** in the file be a **sequence**? How did you know?
 
 </v-clicks>
+
+[//]: # (Slide End }}})
 
 ---
