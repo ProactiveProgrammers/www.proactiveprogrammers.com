@@ -896,6 +896,8 @@ True
 
 # Variables in Python Programs
 
+<v-clicks>
+
 -   Variables in Python have values, types, and names
 
 -   A function can manipulate a variable using operators
@@ -912,6 +914,8 @@ True
 
 -   **Type Changing**: `int(a)` transforms variable `a` into an integer type
 
+</v-clicks>
+
 [//]: # (Slide End }}})
 
 ---
@@ -920,6 +924,8 @@ True
 
 <div class = "mt-5">
 </div>
+
+<v-clicks>
 
 -   Understanding the **connections** between **mathematics** and **programming**:
 
@@ -936,5 +942,7 @@ True
 -   Make sure to **run** the scripts that we discussed this week!
 
 -   Use the Python **REPL** to explore the **limits** of variable values and types!
+
+</v-clicks>
 
 [//]: # (Slide End }}})
