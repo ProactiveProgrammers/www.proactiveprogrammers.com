@@ -746,6 +746,34 @@ Serve as input and output of a function
 
 ---
 
+[//]: # (Slide Start {{{)
+
+# Variables in Python Programs
+
+<v-clicks>
+
+-   Variables in Python have values, types, and names
+
+-   A function can manipulate a variable using operators
+
+    -   The `+` symbol denotes addition and concatenation
+
+    -   The `-,*,/` symbols denotes have standard meanings
+
+    -   The `+=` symbol denotes addition and assignment
+
+    -   The `%` symbol denotes modular arithmetic for a remainder
+
+-   **Variable Types**: The `type(a)` returns the type of `a`
+
+-   **Type Changing**: `int(a)` transforms variable `a` into an integer type
+
+</v-clicks>
+
+[//]: # (Slide End }}})
+
+---
+
 # Practical Variable Limitations in Python
 
 <style>
@@ -903,6 +931,8 @@ Avoid program defects and follow conventions
 <div class = "mt-10">
 </div>
 
+<v-clicks>
+
 -   Implementing programs in the Python language:
 
     -   **Q1**: What is the **syntax** of a programming language?
@@ -918,5 +948,7 @@ Avoid program defects and follow conventions
 -   How do you pick between the `for` and `while` loop?
 
 -   Don't forget to find the defect in the `compute_square` function!
+
+</v-clicks>
 
 [//]: # (Slide End }}})
