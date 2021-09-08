@@ -720,3 +720,30 @@ What is the meaning of $\sum_{i=1}^{n} o_i \in O$? Where does this exist in Pyth
 code?
 
 How would you write $A = \frac{S}{n}$ in a Python program?
+
+---
+
+# Summary of the "Abstraction Jumping"
+
+<v-clicks>
+
+-   **Question**: what are the connections between the discrete mathematical
+structures (e.g., sets) and concepts (e.g., summation) and Python programs?
+
+-   Connections between discrete mathematics and Python:
+
+    -   **Generic file**: a sequence of sequences
+
+    -   **Names in the file**: a set of strings
+
+    -   **Emails in the file**: a set of ordered pairs forming a
+        relation
+
+    -   **Temperatures in the file**: a multiset of integers
+
+-   When might the **emails** in the file be a **mapping**? When might the
+**temperatures** in the file be a **sequence**?
+
+</v-clicks>
+
+---
