@@ -51,10 +51,11 @@ info: |
 
 ## Key Question
 
-> How can I use **functions**, **variables**, **conditional logic**, and **iteration
-> constructs**, as provided by the Python programming language, to implement
-> programs that, for instance, compute a number's square or determine if a
-> number is divisible by another number?
+> How can I use **functions**, **variables**, **conditional logic**, and
+> **iteration constructs**, as provided by the Python programming language, to
+> implement programs that, for instance, determine if a number is even or odd,
+> compute a number's square or determine if a number is divisible by another
+> number?
 
 </div>
 
@@ -65,7 +66,7 @@ info: |
 ## Learning Objectives
 
 > To **remember** and **understand** some computer science and Python
-> programming concepts, setting the stage for exploring of data abstraction.
+> programming foundations, setting the stage for exploring of data abstraction.
 
 </div>
 
@@ -608,7 +609,7 @@ How is this <b>different</b> than the code segment in the book?
 
 [//]: # (Slide Start {{{)
 
-# Squaring an Integer &mdash; the Hard Way!
+# Squaring an Integer &mdash; Well, Kinda! 😉
 
 <div class="ml-1">
 
@@ -624,7 +625,7 @@ def compute_square(value: int) -> int:
 
 value = 3
 value_squared = compute_square(value)
-print(f"{value}*{value} = {value_squared}")
+print(f"{value} * {value} = {value_squared}")
 ```
 
 </div>
