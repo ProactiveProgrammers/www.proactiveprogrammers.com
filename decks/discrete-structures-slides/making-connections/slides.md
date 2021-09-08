@@ -921,7 +921,7 @@ True
 <div class = "mt-5">
 </div>
 
--   Understanding the connections between mathematics and programming:
+-   Understanding the **connections** between **mathematics** and **programming**:
 
     -   **Q1**: What is a **mapping** in the mathematics?
 
@@ -933,8 +933,8 @@ True
 
     -   **Q5**: How does the Python language perform **type checking**?
 
--   How do you pick between the `for` and `while` loop?
+-   Make sure to **run** the scripts that we discussed this week!
 
--   Don't forget to find the defect in the `compute_square` function!
+-   Use the Python **REPL** to explore the **limits** of variable values and types!
 
 [//]: # (Slide End }}})
