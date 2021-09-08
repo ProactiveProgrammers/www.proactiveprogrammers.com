@@ -1,3 +1,5 @@
+# NOTE: the first function is not correct.
+
 def compute_square_while(value: int) -> int:
     """Compute the square of a number through iteration."""
     num_iterations = 0
