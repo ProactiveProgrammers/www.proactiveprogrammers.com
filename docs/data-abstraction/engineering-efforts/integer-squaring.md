@@ -244,6 +244,16 @@ def test_compute_square_iterative_for_loop():
     assert square_list == [72 * 72, 29 * 29, 61 * 61, 42 * 42, 44 * 44]
 ```
 
+This test case takes the following steps:
+
+- Create a `number_list` multiple-line string that contains integers for squaring
+- Defines the `square_function` to be the `compute_square_for` function in `main`
+- Calls the `compute_square_iterative` function with `number_list` and `square_function`
+- Stores the output of the `compute_square_iterative` function in `square_list`
+- Asserts that the `square_list` variable contains the squares of each number
+
+You should write a new test that follows these steps for the `compute_square_while`!
+
 ???+ note
 
     Don't forget that when you commit source code or technical writing to your
@@ -272,7 +282,7 @@ taxonomy](proactive-learning/blooms-taxonomy/). You can learn more about how a
 proactive programming expert will assess your work by examining the [assessment
 strategy](/proactive-learning/assessment-strategy/). From the start to the end
 of this project you may make an unlimited number of reattempts at submitting
-source code and technical writing that meet every aspect of the project's
+source code and technical writing that meet all aspects of the project's
 specification.
 
 ## Seeking Assistance
