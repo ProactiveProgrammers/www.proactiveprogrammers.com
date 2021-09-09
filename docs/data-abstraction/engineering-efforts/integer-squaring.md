@@ -32,41 +32,65 @@ approach to squaring an integer. If you run the program correctly, it will
 iterate through the file of numbers, compute the square for each number, and
 output a complete list of the squared values. For instance, if you run the
 program with the command `poetry run square --approach for --dir input --file
-numbers.txt`
+numbers.txt` it produces this output:
 
 ```shell
-😃 Searching through the file called input/proactive.txt!
+😃 Squaring numbers in a file called input/numbers.txt!
 
-Was the word "ethical" found in the file input/proactive.txt? Yes
+[
+    5184,
+    841,
+    3721,
+    1764,
+    1936,
+    ...
+]
 ```
 
-When you search for a word that does not appear inside of the input file with a
-command like `poetry run search --word conundrum --dir input --file
-proactive.txt` then the program will produce the following output:
+In addition to having a feature that lets you square numbers using a `for` loop,
+the `square` program can perform the same task by using a `while` loop! If you
+run the program with the command `poetry run square --approach while --dir input
+--file numbers.txt` then the program should produce the same output as given
+above this paragraph. If you run the command `poetry run square --help` you
+should see the following output:
 
 ```shell
-😃 Searching through the file called input/proactive.txt!
+Usage: square [OPTIONS]
 
-Was the word "conundrum" found in the file input/proactive.txt? No
+  Process a file by searching for a specified word.
+
+Options:
+  --approach [for|while]  [default: for]
+  --dir PATH
+  --file PATH
+  --install-completion    Install completion for the current shell.
+  --show-completion       Show completion for the current shell, to copy
+                          it or customize the installation.
+
+  --help                  Show this message and exit.
 ```
 
-Once your program is working correctly, you should also try to use if and
-specify a file that is not available on your computer! For instance, if you run
-it with the command `poetry run search --word proactive --dir input --file
-notfound.txta` then it will not perform a search and instead produce the
-following output:
+Please note that the provided source code does not contain all of the
+functionality to produce this output. As explain in the next section, you are
+invited to add all of the missing features and ensure that `square` produces the
+expected output. Once the program is working correctly, you should also try to
+use if and specify a file that is not available on your computer! For instance,
+if you run it with the command `poetry run square --approach for --dir input
+--file numberswrong.txt` then it will not perform the number squaring and
+instead produce the following output:
 
 ```shell
-😃 Searching through the file called input/notfound.txt!
+😃 Squaring numbers in a file called input/numberswrong.txt!
 
-🤷 input/notfound.txt was not a valid file
+🤷 input/numberswrong.txt was not a valid file! Sorry, cannot square the
+numbers!
 ```
 
 ???+ note
 
-    Don't forget that if you want to run the `search` program you must use your
+    Don't forget that if you want to run the `square` program you must use your
     terminal window to first go into the GitHub repository containing this
-    project and then go into the `search` directory that contains the project's
+    project and then go into the `square` directory that contains the project's
     source code. Finally, remember that before running the program you must run
     `poetry install` to add the dependencies.
 
