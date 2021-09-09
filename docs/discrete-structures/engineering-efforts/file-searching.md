@@ -47,10 +47,10 @@ proactive.txt` then the program will produce the following output:
 Was the word "conundrum" found in the file input/proactive.txt? No
 ```
 
-Once your program is working correctly, you should also try to use if and
+Once your program is working correctly, you should also try to use it when
 specify a file that is not available on your computer! For instance, if you run
 it with the command `poetry run search --word proactive --dir input --file
-notfound.txta` then it will not perform a search and instead produce the
+notfound.txt` then it will not perform a search and instead produce the
 following output:
 
 ```shell
