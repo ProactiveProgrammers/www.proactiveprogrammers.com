@@ -3,11 +3,14 @@
 ## Project Goals
 
 This engineering effort invites you to combine what you learned about the basics
-of Python programming to implement a useful program that can search for a word
-in a file. As you enhance your [technical
-skills](/proactive-skills/introduction-proactive-skills/), you will program with
-tools such as VS Code and a terminal window and the Python programming language
-and the Poetry package manager.
+of Python programming to implement a useful program that can compute the square
+for all of the integer values stored inside of a file. In addition to fixing
+defects in the provided source code, you will create your own Python functions
+that use both iteration constructs and conditional logic to implement a
+correct program that passes the test suite and all checks. As you enhance your
+[technical skills](/proactive-skills/introduction-proactive-skills/), you will
+program with tools such as VS Code and a terminal window and the Python
+programming language and the Poetry package manager.
 
 ## Project Access
 
