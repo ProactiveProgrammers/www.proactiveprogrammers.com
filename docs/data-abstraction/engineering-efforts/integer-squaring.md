@@ -52,12 +52,12 @@ the `square` program can perform the same task by using a `while` loop! If you
 run the program with the command `poetry run square --approach while --dir input
 --file numbers.txt` then the program should produce the same output as given
 above this paragraph. If you run the command `poetry run square --help` you
-should see the following output:
+should see the following output that explains how to use the `square` program:
 
 ```shell
 Usage: square [OPTIONS]
 
-  Process a file by searching for a specified word.
+  Iteratively square all integers in a file.
 
 Options:
   --approach [for|while]  [default: for]
@@ -74,7 +74,7 @@ Please note that the provided source code does not contain all of the
 functionality to produce this output. As explain in the next section, you are
 invited to add all of the missing features and ensure that `square` produces the
 expected output. Once the program is working correctly, you should also try to
-use if and specify a file that is not available on your computer! For instance,
+use it when specifying a file that is not available on your computer! For instance,
 if you run it with the command `poetry run square --approach for --dir input
 --file numberswrong.txt` then it will not perform the number squaring and
 instead produce the following output:
@@ -96,29 +96,23 @@ numbers!
 
 ## Adding Functionality
 
-If you study the file `search/search/main.py` you will see that it has many
+If you study the file `square/square/main.py` you will see that it has many
 `TODO` markers that designate the parts of the program that you need to
-implement before `search` will produce correct output. If you run the provided
+implement before `square` will produce correct output. If you run the provided
 test suite with the command `poetry run task test` you will see that it produces
 output like the following:
 
 ```
-================================== ERRORS ==================================
-__________________ ERROR collecting tests/test_search.py ___________________
-tests/test_search.py:5: in <module>
-    from search import main
-search/main.py:31: in <module>
-    ???
-E   NameError: name 'cli' is not defined
-========================= short test summary info ==========================
-ERROR tests/test_search.py - NameError: name 'cli' is not defined
-!!!!!!!!!!!!!!!!!!!!!!!! stopping after 1 failures !!!!!!!!!!!!!!!!!!!!!!!!!
-!!!!!!!!!!!!!!!!!! Interrupted: 1 error during collection !!!!!!!!!!!!!!!!!!
-============================= 1 error in 0.11s =============================
+tests/test_square.py:5: in <module>
+    from square import main
+square/main.py:15: in <module>
+    cli = typer.Typer()
+E   NameError: name 'typer' is not defined
 ```
 
-Alternatively, running the program with a command like `poetry run search --word
-ethical --dir input --file proactive.txt` will produce the following output:
+Alternatively, running the program with a command like `poetry run square
+--approach for --dir input --file numbers.txt` will produce the following
+output:
 
 ```
 Traceback (most recent call last):
@@ -131,14 +125,13 @@ Traceback (most recent call last):
   File "<frozen importlib._bootstrap>", line 680, in _load_unlocked
   File "<frozen importlib._bootstrap_external>", line 790, in exec_module
   File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
-  [...]
-    @cli.command()
-NameError: name 'cli' is not defined
+    cli = typer.Typer()
+NameError: name 'typer' is not defined
 ```
 
-This output suggests that the `cli` variable was not correctly declared! After
-declaring the `cli` variable in the appropriate fashion, following the relevant
-instructions in the description of the [technical
+This output suggests that the `typer` module was not correctly imported! After
+importing this module in the appropriate fashion, all while following the
+relevant instructions in the description of the [technical
 skills](/proactive-skills/introduction-proactive-skills/), you should find the
 other `TODO` markers and correctly resolve them. For instance, you can add this
 function to the `main.py` file:
@@ -158,9 +151,9 @@ def confirm_valid_file(file: Path) -> bool:
 In addition to `confirm_valid_file`, you must completely implement these
 functions:
 
-- `def human_readable_boolean(answer: bool) -> str`
-- `def word_search(text: str, word: str) -> bool`
-- `def word(word: str = typer.Option(None), dir: Path = typer.Option(None), file: Path = typer.Option(None)) -> None`
+- `def compute_square_while(value: int) -> int`
+- `def compute_square_for(value: int) -> int`
+- `def compute_square_iterative(contents: str, square_function: Callable[[int], int]) -> List[int]:`
 
 ## Running Checks
 
@@ -169,11 +162,11 @@ it includes the following section:
 
 ```toml
 [tool.taskipy.tasks]
-black = { cmd = "black search tests --check", help = "Run the black checks for source code format" }
-flake8 = { cmd = "flake8 search tests", help = "Run the flake8 checks for source code documentation" }
-mypy = { cmd = "poetry run mypy search", help = "Run the mypy type checker for potential type errors" }
-pydocstyle = { cmd = "pydocstyle search tests", help = "Run the pydocstyle checks for source code documentation" }
-pylint = { cmd = "pylint search tests", help = "Run the pylint checks for source code documentation" }
+black = { cmd = "black square tests --check", help = "Run the black checks for source code format" }
+flake8 = { cmd = "flake8 square tests", help = "Run the flake8 checks for source code documentation" }
+mypy = { cmd = "poetry run mypy square", help = "Run the mypy type checker for potential type errors" }
+pydocstyle = { cmd = "pydocstyle square tests", help = "Run the pydocstyle checks for source code documentation" }
+pylint = { cmd = "pylint square tests", help = "Run the pylint checks for source code documentation" }
 test = { cmd = "pytest -x -s", help = "Run the pytest test suite" }
 test-silent = { cmd = "pytest -x --show-capture=no", help = "Run the pytest test suite without showing output" }
 all = "task black && task flake8 && task pydocstyle && task pylint && task mypy && task test"
@@ -185,7 +178,7 @@ automatically run all of the linters designed to check the Python source code in
 your program and its test suite. You can also use the command `poetry run task
 black` to confirm that your source code adheres to the industry-standard format
 defined by the `black` tool. If it does not adhere to the standard then you can
-run the command `poetry run black search tests` and it will automatically
+run the command `poetry run black square tests` and it will automatically
 reformat the source code.
 
 Along with running tasks like `poetry run task list`, you can leverage the
@@ -193,7 +186,7 @@ relevant instructions in the [technical
 skills](/proactive-skills/introduction-proactive-skills/) to enter into a Docker
 container and run the command `gradle grade` to check your work. If `gradle
 grade` shows that all checks pass, you will know that you made progress towards
-correctly implementing and writing about `search`.
+correctly implementing and writing about `square`.
 
 If your program has all of the anticipated functionality, you can run the
 command `poetry run task test` and see that the test suite produces output like
@@ -202,7 +195,7 @@ this:
 ```shell
 collected 5 items
 
-tests/test_search.py .....
+tests/test_square.py .....
 ```
 
 ???+ note
