@@ -173,10 +173,21 @@ Try 'square --help' for help.
 Error: Invalid value for '--approach': invalid choice: recursion. (choose from for, while)
 ```
 
+The `square` program contains the following source code to specify the valid
+options:
+
+```python
+class IntegerSquareApproach(str, Enum):
+    """Define the name for the approach to squaring a number."""
+
+    for_loop = "for"
+    while_loop = "while"
+```
+
 ## Running Checks
 
 If you study the source code in the `pyproject.toml` file you will see that
-it includes the following section:
+it includes the following section that specifies different executable tasks:
 
 ```toml
 [tool.taskipy.tasks]
@@ -211,10 +222,13 @@ command `poetry run task test` and see that the test suite produces output like
 this:
 
 ```shell
-collected 5 items
+collected 7 items
 
-tests/test_square.py .....
+tests/test_square.py .......
 ```
+
+It is worth noting that the test suite for the `square` program is missing a
+test case!
 
 ???+ note
 
