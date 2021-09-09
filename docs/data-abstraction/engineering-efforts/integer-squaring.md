@@ -155,6 +155,24 @@ functions:
 - `def compute_square_for(value: int) -> int`
 - `def compute_square_iterative(contents: str, square_function: Callable[[int], int]) -> List[int]:`
 
+It is worth noting that the `compute_square_iterative` function is a
+higher-order function that accepts as one of its inputs the `square_function`
+that should be either `compute_square_for` or `compute_square_while`. The person
+running the `square` program can pick which of these functions the program will
+call by specifying either `for` or `while` as one of the program's command-line
+arguments. The `square` program uses the Typer package and the following source
+code to ensure that the program only accepts one of these two options. For
+instance, if you try to run the program with the command `poetry run square
+--approach recursion --dir input --file numbers.txt` it will produce the
+following error message because `recursion` is not a valid option:
+
+```
+Usage: square [OPTIONS]
+Try 'square --help' for help.
+
+Error: Invalid value for '--approach': invalid choice: recursion. (choose from for, while)
+```
+
 ## Running Checks
 
 If you study the source code in the `pyproject.toml` file you will see that
