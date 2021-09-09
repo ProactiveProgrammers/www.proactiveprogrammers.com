@@ -26,13 +26,13 @@ project!
 
 ## Expected Output
 
-This project invites you to implement a file searching program called `search`.
-The `search` program takes as input a word (e.g., "proactive") and determines
-whether or not it is in the text of a file provided on the input. For instance,
-if the file called `input/proactive.txt` contains inside of the text on the main
-page of this web site, then searching for the word `proactive` with the
-command `poetry run search --word ethical --dir input --file proactive.txt`
-yields:
+This project invites you to implement a number squaring program called `square`.
+The program can accept as input both a file of numbers and the name of an
+approach to squaring an integer. If you run the program correctly, it will
+iterate through the file of numbers, compute the square for each number, and
+output a complete list of the squared values. For instance, if you run the
+program with the command `poetry run square --approach for --dir input --file
+numbers.txt`
 
 ```shell
 😃 Searching through the file called input/proactive.txt!
