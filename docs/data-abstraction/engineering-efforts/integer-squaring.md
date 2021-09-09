@@ -228,7 +228,21 @@ tests/test_square.py .......
 ```
 
 It is worth noting that the test suite for the `square` program is missing a
-test case!
+test case! You can create the missing test case by following the example of the
+following test:
+
+```python
+def test_compute_square_iterative_for_loop():
+    """Confirm that the for loop calculates squares correctly for negatives and positives in loop."""
+    number_list = """-72
+        29
+        61
+        -42
+        44"""
+    square_function = main.compute_square_for
+    square_list = main.compute_square_iterative(number_list, square_function)
+    assert square_list == [72 * 72, 29 * 29, 61 * 61, 42 * 42, 44 * 44]
+```
 
 ???+ note
 
