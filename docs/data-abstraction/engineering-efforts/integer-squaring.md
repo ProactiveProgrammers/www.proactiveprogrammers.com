@@ -210,7 +210,7 @@ defined by the `black` tool. If it does not adhere to the standard then you can
 run the command `poetry run black square tests` and it will automatically
 reformat the source code.
 
-Along with running tasks like `poetry run task list`, you can leverage the
+Along with running tasks like `poetry run task lint`, you can leverage the
 relevant instructions in the [technical
 skills](/proactive-skills/introduction-proactive-skills/) to enter into a Docker
 container and run the command `gradle grade` to check your work. If `gradle
