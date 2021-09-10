@@ -179,7 +179,7 @@ nav:
       - Primality Testing: data-abstraction/source-code-surveys/primality-testing.md
       - Exhaustive Enumeration: data-abstraction/source-code-surveys/exhaustive-enumeration.md
     - Programming Projects:
-      - Iteration Comparison: data-abstraction/programming-projects/iteration-comparison.md
+      - Number Comparison: data-abstraction/programming-projects/number-comparison.md
       - Maximum Detection: data-abstraction/programming-projects/maximum-detection.md
       - Bisection Search: data-abstraction/programming-projects/bisection-search.md
     - Engineering Efforts:
