@@ -7,7 +7,7 @@ command = """
 pip install -q poetry &&
 poetry config virtualenvs.in-project true &&
 poetry install -v &&
-mkdocs build -d site
+ENABLE_PDF_EXPORT=1 mkdocs build -d site
 cd decks
 cd data-abstraction-slides
 npm install
