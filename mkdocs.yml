@@ -4,8 +4,7 @@ site_url: https://www.proactiveprogrammers.com
 repo_url: https://github.com/ProactiveProgrammers/www.proactiveprogrammers.com
 
 # Copyright of the site appears in the footer
-# copyright: Copyright &copy; 2021 Gregory M. Kapfhammer
-# copyright: 'Deploys by <a href = "https://www.netlify.com/" rel="noopener" target="_blank">Netlify</a>'
+copyright: Copyright &copy; 2021 Gregory M. Kapfhammer
 
 # Definition of the theme
 theme:
