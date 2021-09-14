@@ -1,5 +1,22 @@
 {% extends "base.html" %}
 
+{% block content %}
+
+{% if page.url_to_print_page %}
+    <a href="{{ page.url_to_print_page }}" title="Print Site" class="md-content__button md-icon">
+        {% include ".icons/material/printer.svg" %}
+    </a>
+{% endif %}
+
+{% if page.url_to_pdf %}
+    <a href="{{ page.url_to_pdf }}" title="Site PDF" class="md-content__button md-icon">
+        {% include ".icons/material/pdf-box.svg" %}
+    </a>
+{% endif %}
+
+{{ super() }}
+{% endblock content %}
+
 {% set extracopyright %}
 <div>
 Deploys by <a href = "https://www.netlify.com/" rel="noopener" target="_blank">Netlify</a> • Site by <a href = "https://www.gregorykapfhammer.com" rel="noopener" target="_blank">Gregory M. Kapfhammer</a>
