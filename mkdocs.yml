@@ -107,6 +107,11 @@ markdown_extensions:
 plugins:
   - search
   - mermaid2
+  # Minify the HTML source code to support faster downloads
+  - minify:
+      minify_html: true
+      htmlmin_opts:
+          remove_comments: true
   # Render a PDF of the site for referencing in right-side box,
   # ensuring that PDF rendering only takes place when the
   # environment variable ENABLE_PDF_EXPORT is set to 1.
