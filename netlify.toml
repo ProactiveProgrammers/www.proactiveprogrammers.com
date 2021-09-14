@@ -1,5 +1,6 @@
 [build.environment]
   NODE_VERSION = "16"
+  PYTHON_VERSION = "3.8"
 
 [build]
 publish = "site"
