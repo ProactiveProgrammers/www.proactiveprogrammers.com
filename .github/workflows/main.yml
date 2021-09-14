@@ -21,6 +21,9 @@ jobs:
       # regardless of the status of the other platforms.
       fail-fast: false
       matrix:
+        # Can only use ubuntu-latest because MacOS and Windows do not support
+        # the installation of some of the Python dependencies, namely those
+        # connected to weasyprint that support the automated creation of a PDF
         os: [ubuntu-latest]
         python-version: [3.8, 3.9]
     env:
