@@ -77,36 +77,6 @@ make sure that you try your program with several additional inputs, always
 confirming that it works correctly by using the web-based quadratic formula
 calculator.
 
-
-
-```shell
-😃 rootfindering through the file called input/proactive.txt!
-
-Was the word "ethical" found in the file input/proactive.txt? Yes
-```
-
-When you rootfinder for a word that does not appear inside of the input file with a
-command like `poetry run rootfinder --word conundrum --dir input --file
-proactive.txt` then the program will produce the following output:
-
-```shell
-😃 rootfindering through the file called input/proactive.txt!
-
-Was the word "conundrum" found in the file input/proactive.txt? No
-```
-
-Once your program is working correctly, you should also try to use it when
-specify a file that is not available on your computer! For instance, if you run
-it with the command `poetry run rootfinder --word proactive --dir input --file
-notfound.txt` then it will not perform a rootfinder and instead produce the
-following output:
-
-```shell
-😃 rootfindering through the file called input/notfound.txt!
-
-🤷 input/notfound.txt was not a valid file
-```
-
 ???+ note
 
     Don't forget that if you want to run the `rootfinder` program you must use your
