@@ -505,10 +505,37 @@ Exhaustive approach is a good starting point
 
 [//]: # (Slide Start {{{)
 
+# Exhaustive Square Root Computation
+
+<div class="ml-1">
+
+```python {all|1|2|3-4|5-7|8|9-11|all}
+epsilon = 0.01
+step = epsilon**2
+num_guesses = 0
+ans = 0.0
+while abs(ans**2 - x) >= epsilon and ans <= x:
+    ans += step
+    num_guesses += 1
+print(f"Guessed {num_guesses} times")
+if abs(ans**2 - x) >= epsilon:
+    print(f"Could not find sqrt of {x}")
+else:
+    print(f"{ans} is close to sqrt of {x}")
+```
+
+</div>
+
+[//]: # (Slide End }}})
+
+---
+
+[//]: # (Slide Start {{{)
+
 <div class="flex row">
 
 <div class="text-7xl text-orange-600 font-bold mt-5 ml-4 mb-4">
-Take home points about numerical computation?
+Can we improve this algorithm? Yes, we can!
 </div>
 
 </div>
@@ -520,21 +547,7 @@ Take home points about numerical computation?
 <mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
 
 <div class="text-3xl font-bold mt-10 ml-4">
-Exhaustive methods look at all solutions
-</div>
-
-</div>
-
-</div>
-
-<div v-click>
-
-<div class="flex row">
-
-<mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
-
-<div class="text-3xl font-bold mt-10 ml-4">
-Bisection methods divide the input space
+Numbers are totally ordered, use pair comparison
 </div>
 
 </div>
@@ -548,7 +561,21 @@ Bisection methods divide the input space
 <mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
 
 <div class="text-3xl font-bold mt-10 ml-4">
-Need to carefully study perform for inputs
+Repeatedly move to "left" or "right" on number line
+</div>
+
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+Repeat process until have an approximate solution
 </div>
 
 </div>
