@@ -139,18 +139,29 @@ $$
 x_2=\frac{-b-\sqrt{b^2-4ac}}{2a}
 $$
 
+To provide a command-line interface to your program, you should also implement a
+function that has the following signature:
 
-In addition to `confirm_valid_file`, you must completely implement these
-functions:
-
-- `def human_readable_boolean(answer: bool) -> str`
-- `def word_rootfinder(text: str, word: str) -> bool`
-- `def word(word: str = typer.Option(None), dir: Path = typer.Option(None), file: Path = typer.Option(None)) -> None`
+```python
+def main(
+    a: float = typer.Option(1),
+    b: float = typer.Option(2),
+    c: float = typer.Option(2)
+):
+```
 
 ## Running Checks
 
-If you study the source code in the `pyproject.toml` file you will see that
-it includes the following section:
+As you continue to add and confirm the correctness of `rootfinder`'s
+functionality, you also study the source code in the `pyproject.toml` file. This
+file contains the specification of several tasks that will help you to easily
+run checks on your source code. Now, you can run commands like `poetry run task
+lint` to automatically run all of the linters designed to check the Python
+source code in your program and its test suite. You can also use the command
+`poetry run task black` to confirm that your source code adheres to the
+industry-standard format defined by the `black` tool. If it does not adhere to
+the standard then you can run the command `poetry run black rootfinder tests`
+and it will automatically reformat the source code.
 
 ```toml
 [tool.taskipy.tasks]
@@ -165,29 +176,22 @@ all = "task black && task flake8 && task pydocstyle && task pylint && task mypy 
 lint = "task black && task flake8 && task pydocstyle && task pylint"
 ```
 
-This section makes it easy to run commands like `poetry run task lint` to
-automatically run all of the linters designed to check the Python source code in
-your program and its test suite. You can also use the command `poetry run task
-black` to confirm that your source code adheres to the industry-standard format
-defined by the `black` tool. If it does not adhere to the standard then you can
-run the command `poetry run black rootfinder tests` and it will automatically
-reformat the source code.
-
 Along with running tasks like `poetry run task lint`, you can leverage the
 relevant instructions in the [technical
 skills](/proactive-skills/introduction-proactive-skills/) to enter into a Docker
 container and run the command `gradle grade` to check your work. If `gradle
 grade` shows that all checks pass, you will know that you made progress towards
-correctly implementing and writing about `rootfinder`.
-
-If your program has all of the anticipated functionality, you can run the
-command `poetry run task test` and see that the test suite produces output like
-this:
+correctly implementing and writing about `rootfinder`. If your program has all
+of the anticipated functionality, you can run the command `poetry run task test`
+and see that the test suite produces output like the following. Notice that the
+current test suite only has three test cases! If you are looking for an
+additional challenge, consider using the [quadratic formula
+calculator](https://www.calculatorsoup.com/calculators/algebra/quadratic-formula-calculator.php)
 
 ```shell
-collected 5 items
+collected 3 items
 
-tests/test_rootfinder.py .....
+tests/test_rootfind.py ...
 ```
 
 ???+ note
