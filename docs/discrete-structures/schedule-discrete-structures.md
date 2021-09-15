@@ -46,6 +46,7 @@
 
 - Chapter 3 of *Programming and Mathematical Thinking*
 - Chapter 1 and Appendix B of *Doing Math with Python*
+- Check out the [course slides](/slides/discrete-structures/programming-constructs/) for a detailed investigation of these chapters!
 
 ???+ note "Technical Concept Review"
 
