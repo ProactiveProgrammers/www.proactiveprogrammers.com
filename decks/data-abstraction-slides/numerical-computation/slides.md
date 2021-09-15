@@ -530,6 +530,7 @@ else:
 
 ---
 
+
 [//]: # (Slide Start {{{)
 
 <div class="flex row">
@@ -579,6 +580,33 @@ Repeat process until have an approximate solution
 </div>
 
 </div>
+
+</div>
+
+[//]: # (Slide End }}})
+
+---
+
+[//]: # (Slide Start {{{)
+
+# Bisection Square Root Computation
+
+<div class="ml-1">
+
+```python {all|1-3|4-5|6-7|8-9|10-11|12|all}
+epsilon = 0.01
+step = epsilon**2
+num_guesses, low = 0, 0
+high = max(1,x)
+answer = (high + low)/2
+while abs(answer**2 - x) >= epsilon:
+    num_guesses += 1
+    if answer**2 < x:
+        low = answer
+    else:
+        high = answer
+    answer = (high + low)/2
+```
 
 </div>
 
