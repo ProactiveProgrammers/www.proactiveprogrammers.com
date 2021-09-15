@@ -41,7 +41,7 @@ info: |
 <style>
   h2 {
     font-size: 36px;
-    @apply text-orange-600 mb-4;
+    @apply text-orange-600 mb-2;
   }
 </style>
 
@@ -385,7 +385,84 @@ while i < 20:
 
 </div>
 
+[//]: # (Slide End }}})
+
+---
+
+# Loops for Square Root Approximation
+
+<v-clicks>
+
+```python
+n = 4
+guess = 1.0
+while abs(n - guess*guess) > 0.0001:
+    guess = guess - (guess*guess - n)/(2*guess)
+root = guess
+```
+
+- Iteratively **guesses** the square root until **within tolerance**
+
+- The `while` loop uses `abs` for computing an absolute value
+
+- This loop computes the root as 2.0000000929222947
+
+- The `math.sqrt(n)` function confirms this approximation!
+
+- Any questions about this way to approximate a square root?
+
+</v-clicks>
+
+---
+
+[//]: # (Slide Start {{{)
+
+# Mathematics with Python
+
+<v-clicks>
+
+-   Try to see how an equation connects to the source code!
+
+-   Key components of Python programming segments:
+
+    -   Function calls
+    -   Assignment statements
+    -   Iteration constructs
+    -   Conditional logic
+    -   Variable creation
+    -   Variable computations
+    -   Variable output
+
+-   Programs must **correctly implement** the **mathematical equation**
+
+-   Programs must have **industry-standard** comments, format, and tests
+
+</v-clicks>
 
 [//]: # (Slide End }}})
 
+---
 
+# Investigating Python and Mathematics
+
+<v-clicks>
+
+-   How do you pick between the `for` and `while` loops?
+
+-   Program for the root finding of a quadratic equation:
+
+    -   **Q1**: What does it mean if a number is **imaginary**?
+
+    -   **Q2**: What happens if the **root** of the equation is **imaginary**?
+
+    -   **Q3**: How do **tests** use **assertions** for **floating point** values?
+
+    -   **Q4**: How can you **confirm** that a function **works correctly**?
+
+    -   **Q5**: How do you know when you have **tested enough**?
+
+-   Can you translate the root finding equation into a complete Python program
+with a command-line interface? Can you ensure its correctness? Can you follow
+industry standards for comments, format, and testing?
+
+</v-clicks>
