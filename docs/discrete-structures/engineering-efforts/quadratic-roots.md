@@ -3,7 +3,7 @@
 ## Project Goals
 
 This engineering effort invites you to combine what you learned about the basics
-of Python programming to implement a useful program that can search for a word
+of Python programming to implement a useful program that can rootfinder for a word
 in a file. As you learn more about to translate a mathematical equation into a
 Python program and you continue to enhance your [technical
 skills](/proactive-skills/introduction-proactive-skills/), you will program with
@@ -24,74 +24,114 @@ project!
 
 ## Expected Output
 
-This project invites you to implement a file searching program called `search`.
-The `search` program takes as input a word (e.g., "proactive") and determines
-whether or not it is in the text of a file provided on the input. For instance,
-if the file called `input/proactive.txt` contains inside of the text on the main
-page of this web site, then searching for the word `proactive` with the
-command `poetry run search --word ethical --dir input --file proactive.txt`
-yields:
+This project invites you to implement a quadratic root finding program called
+`rootfinder`. To learn more about the equations for calculating the roots of a
+quadratic equation, please try out the [quadratic formula
+calculator](https://www.calculatorsoup.com/calculators/algebra/quadratic-formula-calculator.php).
+For instance, input `a=1`, `b=2`, and `c=1` into this calculator and see what
+answer it produces. After repairing your program, as explained in the next step
+of this assignment, it will also be possible for you to run the provided Python
+program by typing `poetry run python rootfinder --a 1 --b 2 --c 1` in your
+terminal window and observing that the programs produces the following output:
+
+```
+Calculating the roots of a quadratic equation with:
+   a = 1.0
+   b = 2.0
+   c = 1.0
+   x_one = -1.0
+   x_two = -1.0
+```
+
+Does the Python program produce the same output as the web site suggests it
+should? If it does, then try to run the program with different inputs by typing
+`poetry run python rootfinder --a 1 --b 1 --c 1`. In this case, your program
+should produce the following output:
+
+```
+Calculating the roots of a quadratic equation with:
+   a = 1.0
+   b = 1.0
+   c = 1.0
+   x_one = (-0.49999999999999994+0.8660254037844386j)
+   x_two = (-0.5-0.8660254037844386j)
+```
+
+Is this output the same as what the web-based quadratic formula calculator
+produces? Please note that the output of this program includes numbers like
+`-0.5-0.8660254037844386j`, which means that this is a program that has an
+"imaginary" component. If you would like to learn more about "imaginary" numbers
+and how you can intuitively and geometrically interpret them, please read the
+[visual and intuitive guide to imaginary
+numbers](https://betterexplained.com/articles/a-visual-intuitive-guide-to-imaginary-numbers/),
+bearing in mind that the referenced article uses the variable `i` and Python
+programs always use the variable `j` to mean the same thing. Finally, please
+make sure that you try your program with several additional inputs, always
+confirming that it works correctly by using the web-based quadratic formula
+calculator.
+
+
 
 ```shell
-😃 Searching through the file called input/proactive.txt!
+😃 rootfindering through the file called input/proactive.txt!
 
 Was the word "ethical" found in the file input/proactive.txt? Yes
 ```
 
-When you search for a word that does not appear inside of the input file with a
-command like `poetry run search --word conundrum --dir input --file
+When you rootfinder for a word that does not appear inside of the input file with a
+command like `poetry run rootfinder --word conundrum --dir input --file
 proactive.txt` then the program will produce the following output:
 
 ```shell
-😃 Searching through the file called input/proactive.txt!
+😃 rootfindering through the file called input/proactive.txt!
 
 Was the word "conundrum" found in the file input/proactive.txt? No
 ```
 
 Once your program is working correctly, you should also try to use it when
 specify a file that is not available on your computer! For instance, if you run
-it with the command `poetry run search --word proactive --dir input --file
-notfound.txt` then it will not perform a search and instead produce the
+it with the command `poetry run rootfinder --word proactive --dir input --file
+notfound.txt` then it will not perform a rootfinder and instead produce the
 following output:
 
 ```shell
-😃 Searching through the file called input/notfound.txt!
+😃 rootfindering through the file called input/notfound.txt!
 
 🤷 input/notfound.txt was not a valid file
 ```
 
 ???+ note
 
-    Don't forget that if you want to run the `search` program you must use your
+    Don't forget that if you want to run the `rootfinder` program you must use your
     terminal window to first go into the GitHub repository containing this
-    project and then go into the `search` directory that contains the project's
+    project and then go into the `rootfinder` directory that contains the project's
     source code. Finally, remember that before running the program you must run
     `poetry install` to add the dependencies.
 
 ## Adding Functionality
 
-If you study the file `search/search/main.py` you will see that it has many
+If you study the file `rootfinder/rootfinder/main.py` you will see that it has many
 `TODO` markers that designate the parts of the program that you need to
-implement before `search` will produce correct output. If you run the provided
+implement before `rootfinder` will produce correct output. If you run the provided
 test suite with the command `poetry run task test` you will see that it produces
 output like the following:
 
 ```
 ================================== ERRORS ==================================
-__________________ ERROR collecting tests/test_search.py ___________________
-tests/test_search.py:5: in <module>
-    from search import main
-search/main.py:31: in <module>
+__________________ ERROR collecting tests/test_rootfinder.py ___________________
+tests/test_rootfinder.py:5: in <module>
+    from rootfinder import main
+rootfinder/main.py:31: in <module>
     ???
 E   NameError: name 'cli' is not defined
 ========================= short test summary info ==========================
-ERROR tests/test_search.py - NameError: name 'cli' is not defined
+ERROR tests/test_rootfinder.py - NameError: name 'cli' is not defined
 !!!!!!!!!!!!!!!!!!!!!!!! stopping after 1 failures !!!!!!!!!!!!!!!!!!!!!!!!!
 !!!!!!!!!!!!!!!!!! Interrupted: 1 error during collection !!!!!!!!!!!!!!!!!!
 ============================= 1 error in 0.11s =============================
 ```
 
-Alternatively, running the program with a command like `poetry run search --word
+Alternatively, running the program with a command like `poetry run rootfinder --word
 ethical --dir input --file proactive.txt` will produce the following output:
 
 ```
@@ -133,7 +173,7 @@ In addition to `confirm_valid_file`, you must completely implement these
 functions:
 
 - `def human_readable_boolean(answer: bool) -> str`
-- `def word_search(text: str, word: str) -> bool`
+- `def word_rootfinder(text: str, word: str) -> bool`
 - `def word(word: str = typer.Option(None), dir: Path = typer.Option(None), file: Path = typer.Option(None)) -> None`
 
 ## Running Checks
@@ -143,11 +183,11 @@ it includes the following section:
 
 ```toml
 [tool.taskipy.tasks]
-black = { cmd = "black search tests --check", help = "Run the black checks for source code format" }
-flake8 = { cmd = "flake8 search tests", help = "Run the flake8 checks for source code documentation" }
-mypy = { cmd = "poetry run mypy search", help = "Run the mypy type checker for potential type errors" }
-pydocstyle = { cmd = "pydocstyle search tests", help = "Run the pydocstyle checks for source code documentation" }
-pylint = { cmd = "pylint search tests", help = "Run the pylint checks for source code documentation" }
+black = { cmd = "black rootfinder tests --check", help = "Run the black checks for source code format" }
+flake8 = { cmd = "flake8 rootfinder tests", help = "Run the flake8 checks for source code documentation" }
+mypy = { cmd = "poetry run mypy rootfinder", help = "Run the mypy type checker for potential type errors" }
+pydocstyle = { cmd = "pydocstyle rootfinder tests", help = "Run the pydocstyle checks for source code documentation" }
+pylint = { cmd = "pylint rootfinder tests", help = "Run the pylint checks for source code documentation" }
 test = { cmd = "pytest -x -s", help = "Run the pytest test suite" }
 test-silent = { cmd = "pytest -x --show-capture=no", help = "Run the pytest test suite without showing output" }
 all = "task black && task flake8 && task pydocstyle && task pylint && task mypy && task test"
@@ -159,7 +199,7 @@ automatically run all of the linters designed to check the Python source code in
 your program and its test suite. You can also use the command `poetry run task
 black` to confirm that your source code adheres to the industry-standard format
 defined by the `black` tool. If it does not adhere to the standard then you can
-run the command `poetry run black search tests` and it will automatically
+run the command `poetry run black rootfinder tests` and it will automatically
 reformat the source code.
 
 Along with running tasks like `poetry run task list`, you can leverage the
@@ -167,7 +207,7 @@ relevant instructions in the [technical
 skills](/proactive-skills/introduction-proactive-skills/) to enter into a Docker
 container and run the command `gradle grade` to check your work. If `gradle
 grade` shows that all checks pass, you will know that you made progress towards
-correctly implementing and writing about `search`.
+correctly implementing and writing about `rootfinder`.
 
 If your program has all of the anticipated functionality, you can run the
 command `poetry run task test` and see that the test suite produces output like
@@ -176,7 +216,7 @@ this:
 ```shell
 collected 5 items
 
-tests/test_search.py .....
+tests/test_rootfinder.py .....
 ```
 
 ???+ note
