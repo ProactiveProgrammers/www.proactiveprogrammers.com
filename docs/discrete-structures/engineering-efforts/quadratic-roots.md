@@ -140,7 +140,7 @@ x_2=\frac{-b-\sqrt{b^2-4ac}}{2a}
 $$
 
 To provide a command-line interface to your program, you should also implement a
-function that has the following signature:
+main function that has the following signature:
 
 ```python
 def main(
