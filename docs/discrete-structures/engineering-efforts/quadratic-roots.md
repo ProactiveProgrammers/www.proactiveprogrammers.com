@@ -111,7 +111,34 @@ tests/test_rootfind.py:20: TypeError
 ```
 
 Alternatively, running the program with a command like `poetry run rootfinder
---a 1 --b 2 --c 1` will not produce any output!
+--a 1 --b 2 --c 1` will not produce any output! This is due to the fact that the
+required source code does not yet exist inside of the `rootfinder` program. One
+function that you need to implement is specified by the following signature.
+
+```python
+def calculate_quadratic_equation_roots(
+    a: float, b: float, c: float
+) -> Tuple[Union[float, complex], Union[float, complex]]:
+```
+
+The type annotations for this function suggest that each of its three inputs are
+variables of type `float`. The notation `Union[float, complex]` means that one
+of the outputs of `calculate_quadratic_equation_roots` can either be a
+floating-point value of type `float` or an imaginary number of type `complex`.
+The complete annotation of `Tuple[Union[float, complex], Union[float, complex]]`
+means that the return value of `calculate_quadratic_equation_roots` will be a
+two-tuple of values, with each component of the two-tuple being either a `float`
+or a `complex` number. Ultimately, this function should return values for
+`x_one` and `x_two` according to the following equations:
+
+$$
+x_1=\frac{-b+\sqrt{b^2-4ac}}{2a}
+$$
+
+$$
+x_2=\frac{-b-\sqrt{b^2-4ac}}{2a}
+$$
+
 
 In addition to `confirm_valid_file`, you must completely implement these
 functions:
