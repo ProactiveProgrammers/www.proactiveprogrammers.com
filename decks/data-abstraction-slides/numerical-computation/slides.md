@@ -246,21 +246,21 @@ Bisection search is often harder to implement
 
 <v-clicks>
 
-- Python is a general purpose programming language with support for **variables**,
-**conditional logic**, **iteration**, **recursion**, **functions**, and **classes**!
+- Many numerical computations require a specific output value for an input,
+often achieved by iteration with a **decrementation approach**
 
-- How can we describe the Python language?
-    - High-level language
-    - Scripting language
-    - Object-oriented language
-    - Functional programming language
-    - Procedural programming language
-    - "Second best" programming language
+- The **exhaustive enumeration** approach "naively" looks through **all
+possibilities** until it finds the correct solution
 
-- VSCode provides support for Python through **syntax highlighting**, **source code
-formatting**, **linting**, **testing**, ... and many more tasks!
+- How does exhaustive enumeration work?
+    - List all possible values for a computation
+    - Check to see if the current value is correct
+    - If not correct, try the next value in the list
+    - Continue until the correct value is found
 
-- What are some of the **tools** that provide the features highlighted in bold?
+- Easy to implement and understand. Often fast enough for practical purposes!
+
+- When is it not efficient enough to perform exhaustive enumeration?
 
 </v-clicks>
 
@@ -270,39 +270,7 @@ formatting**, **linting**, **testing**, ... and many more tasks!
 
 [//]: # (Slide Start {{{)
 
-# Python Programming Constructs
-
-- Intuitively read the code segments to grasp their behavior
-
-- Key components of the Python programming segments
-
-    -   Function calls
-    -   Assignment statements
-    -   Iteration constructs
-    -   Conditional logic
-    -   Variable creation
-    -   Variable computations
-    -   Variable output
-
-- Make sure that you can find all of these components in Python source code!
-
-<div class="flex row">
-
-<mdi-code-braces-box class="text-6xl ml-9 mt-0 text-blue-600" />
-
-<div class="text-4xl text-true-gray-700 font-bold mt-4 ml-4">
-Let's study some source code examples!
-</div>
-
-</div>
-
-[//]: # (Slide End }}})
-
----
-
-[//]: # (Slide Start {{{)
-
-# Python Script for Average Computation
+# Exhaustive Primality Testing
 
 <div class="ml-1">
 
