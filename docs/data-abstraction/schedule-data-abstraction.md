@@ -52,6 +52,7 @@
 ### Reading Assignments
 
 - Chapter 3 of *Introduction to Computation and Programming Using Python*
+- Check out the [course slides](/slides/data-abstraction/numerical-computation/) for a detailed investigation of these chapters!
 
 ???+ note "Technical Concept Review"
 
