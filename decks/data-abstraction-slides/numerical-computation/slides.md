@@ -242,6 +242,66 @@ Bisection search is often harder to implement
 
 [//]: # (Slide Start {{{)
 
+# Python Programming Constructs
+
+- Reminder: intuitively read the code segments to grasp their behavior
+
+- Key components of the Python programming segments
+
+    -   Function calls
+    -   Assignment statements
+    -   Iteration constructs
+    -   Conditional logic
+    -   Variable creation
+    -   Variable computations
+    -   Variable output
+
+- Make sure that you can find all of these components in Python source code!
+
+<div class="flex row">
+
+<mdi-help-box class="text-6xl ml-4 mt-0 text-blue-600" />
+
+<div class="text-4xl text-true-gray-700 font-bold mt-4 ml-4">
+Questions about the Python source code?
+</div>
+
+</div>
+
+[//]: # (Slide End }}})
+
+---
+
+[//]: # (Slide Start {{{)
+
+# Variables in Python Programs
+
+<v-clicks>
+
+-   Variables in Python have values, types, and names
+
+-   A function can manipulate a variable using operators
+
+    -   The `+` symbol denotes addition and concatenation
+
+    -   The `-,*,/` symbols denotes have standard meanings
+
+    -   The `+=` symbol denotes addition and assignment
+
+    -   The `%` symbol denotes modular arithmetic for a remainder
+
+-   **Variable Types**: The `type(a)` returns the type of `a`
+
+-   **Type Changing**: `int(a)` transforms variable `a` into an integer type
+
+</v-clicks>
+
+[//]: # (Slide End }}})
+
+---
+
+[//]: # (Slide Start {{{)
+
 # A First Look at Exhaustive Enumeration
 
 <v-clicks>
@@ -297,10 +357,6 @@ else:
 What is the purpose of the <code>range(2, x)</code> function call?
 </p>
 
-<p class = "bold">
-What is the purpose of the <code>for line in file</code> statement?
-</p>
-
 </v-clicks>
 
 [//]: # (Slide End }}})
@@ -309,19 +365,20 @@ What is the purpose of the <code>for line in file</code> statement?
 
 [//]: # (Slide Start {{{)
 
-# Python Function without Annotations
+# Efficient Primality Testing
 
-<div class="-ml-0">
+<div class="ml-1">
 
-```python {all|1|3|4-5|6-7|8|all}
-def extract_urls(df):
-    """Extract a list of urls."""
-    urls = []
-    if "Url" in df.columns:
-        urlc = df["Url"]
-        if urlc is not None:
-            urls = urlc.tolist()
-    return urls
+```python {all|1|2|3-4|5-6|7-9|all}
+x = int(input("Enter integer greater than 2: "))
+sm_div = None
+if x % 2 == 0:
+    sm_div = 2
+else:
+    for guess in range(3, x, 2):
+        if x % guess == 0:
+            sm_div = guess
+            break
 ```
 
 </div>
@@ -331,11 +388,7 @@ def extract_urls(df):
 <v-clicks>
 
 <p class = "bold">
-What is the type of <code>df</code> ? The terrible docstring does not say!
-</p>
-
-<p class = "bold">
-What is the behavior of <code>return urls</code> in this function?
+What is the purpose of the <code>range(3, x, 2)</code> function call?
 </p>
 
 </v-clicks>
@@ -346,244 +399,7 @@ What is the behavior of <code>return urls</code> in this function?
 
 [//]: # (Slide Start {{{)
 
-# Python Function with Annotations
-
-<div class="-ml-9">
-
-```python {all|1}
-def extract_urls(df: pandas.DataFrame) -> List[str]:
-    """Extract a list of urls."""
-    urls = []
-    if "Url" in df.columns:
-        urlc = df["Url"]
-        if urlc is not None:
-            urls = urlc.tolist()
-    return urls
-```
-
-</div>
-
-<br>
-
-<v-clicks>
-
-<p class = "bold">
-What is the purpose of <code>df: pandas.DataFrame</code> ?
-</p>
-
-<p class = "bold">
-How does <code>List[str]</code> describe output of <code>extract_urls</code> ?
-</p>
-
-</v-clicks>
-
-[//]: # (Slide End }}})
-
----
-
-[//]: # (Slide Start {{{)
-
-# Is a Number Even or Odd?
-
-<div class="ml-1">
-
-```python {all|1|2|3-4|5-6|8-10|all}
-def determine_even_odd(value: int) -> str:
-    """Determine if a number is even or odd."""
-    if value % 2 == 0:
-        return "even"
-    else:
-        return "odd"
-
-number = 10
-response = determine_even_odd(number)
-print(f"The number of {number} is {response}!")
-```
-
-</div>
-
-<br>
-
-<v-clicks>
-
-<div class = "bold mt-2">
-How is this <b>different</b> than the code segment in the book?
-</div>
-
-</v-clicks>
-
-[//]: # (Slide End }}})
-
----
-
-[//]: # (Slide Start {{{)
-
-# Squaring an Integer &mdash; Well, Kinda! 😉
-
-<div class="ml-1">
-
-```python {all|1-2|3-4|5-7|8|9-11|all}
-def compute_square(value: int) -> int:
-    """Square a number through iteration."""
-    num_iterations = 0
-    answer = 0
-    while num_iterations < value:
-        answer = answer + value
-        num_iterations = num_iterations + 1
-    return answer
-
-value = 3
-value_squared = compute_square(value)
-print(f"{value} * {value} = {value_squared}")
-```
-
-</div>
-
-[//]: # (Slide End }}})
-
----
-
-# Squaring an Integer &mdash; Much Better! 😂
-
-<div class="ml-1">
-
-```python {all|1-2|3-4|5-7|8|9-11|all}
-def compute_square_for(value: int) -> int:
-    """Square a number through iteration."""
-    answer = 0
-    for _ in range(abs(value)):
-        answer = answer + abs(value)
-    return answer
-
-value = -3
-value_squared = compute_square_while(value)
-print()
-print(f"{value} * {value} = {value_squared}")
-```
-
-</div>
-
-[//]: # (Slide End }}})
-
----
-
-[//]: # (Slide Start {{{)
-
-# Python Programming Constructs ♻
-
-- Reminder: intuitively read the code segments to grasp their behavior
-
-- Key components of the Python programming segments
-
-    -   Function calls
-    -   Assignment statements
-    -   Iteration constructs
-    -   Conditional logic
-    -   Variable creation
-    -   Variable computations
-    -   Variable output
-
-- Make sure that you can find all of these components in Python source code!
-
-<div class="flex row">
-
-<mdi-help-box class="text-6xl ml-4 mt-0 text-blue-600" />
-
-<div class="text-4xl text-true-gray-700 font-bold mt-4 ml-4">
-Questions about the Python source code?
-</div>
-
-</div>
-
-[//]: # (Slide End }}})
-
----
-
-[//]: # (Slide Start {{{)
-
-<div class="flex row">
-
-<div class="text-7xl text-orange-600 font-bold mt-5 ml-4 mb-4">
-What do we know about program variables?
-</div>
-
-</div>
-
-<div v-click>
-
-<div class="flex row">
-
-<mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
-
-<div class="text-3xl font-bold mt-10 ml-4">
-Store a value received during assignment
-</div>
-
-</div>
-
-</div>
-
-<div v-click>
-
-<div class="flex row">
-
-<mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
-
-<div class="text-3xl font-bold mt-10 ml-4">
-Have an associated type restricting values
-</div>
-
-</div>
-
-</div>
-
-<div v-click>
-
-<div class="flex row">
-
-<mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
-
-<div class="text-3xl font-bold mt-10 ml-4">
-Serve as input and output of a function
-</div>
-
-</div>
-
-</div>
-
-[//]: # (Slide End }}})
-
----
-
-[//]: # (Slide Start {{{)
-
-# Variables in Python Programs
-
-<v-clicks>
-
--   Variables in Python have values, types, and names
-
--   A function can manipulate a variable using operators
-
-    -   The `+` symbol denotes addition and concatenation
-
-    -   The `-,*,/` symbols denotes have standard meanings
-
-    -   The `+=` symbol denotes addition and assignment
-
-    -   The `%` symbol denotes modular arithmetic for a remainder
-
--   **Variable Types**: The `type(a)` returns the type of `a`
-
--   **Type Changing**: `int(a)` transforms variable `a` into an integer type
-
-</v-clicks>
-
-[//]: # (Slide End }}})
-
----
-
-# Practical Variable Limitations in Python
+# Table of Prime Numbers
 
 <style>
   h2 {
@@ -600,70 +416,23 @@ Serve as input and output of a function
 <div class="border-2 rounded-2xl border-gray-700 bg-true-gray-300 p-5">
 
 <pre>
-Python 3.8.5 (default, Jul 23 2020, 21:35:10)
-[GCC 10.1.0] on linux
->>> 2**2**8
-115792089237316195423570985008687907853269984665640564039457584007913129639936
->>> 2**2**10
-1797693134862315907729305190789024733617976978942306572734300811577326758055009
-6313270847732240753602112011387987139335765878976881441662249284743063947412437
-7767893424865485276302219601246094119453082952085005768838150682342462881473913
-110540827237163350510684586298239947245938479716304835356329624224137216
->>> 2**2**100
-^CTraceback (most recent call last):
-  File "stdin", line 1, in module
-KeyboardInterrupt
-</pre>
-
-</div>
-
-- Can you explain the **output** of the computations one and two?
-
-- Why did the third computation **crash**, not terminate, and not produce output?
-
-- How do these **limitations** influence the tasks of programmers?
-
-[//]: # (Slide End }}})
-
----
-
-[//]: # (Slide Start {{{)
-
-# Comparing Variables in Python
-
-<style>
-  h2 {
-    font-size: 42px;
-    @apply text-orange-600 mb-4;
-  }
-  li {
-    font-size: 28px;
-    margin-top: 4px;
-    margin-bottom: 9px;
-  }
-</style>
-
-<div class="border-2 rounded-2xl border-gray-700 bg-true-gray-300 p-5">
-
-<pre>
->>> 1.0 == 1.1
-False
->>> 1.0 == 1
-True
->>> 'h' + 'i' + '!'
-'hi!'
->>> .33333 + .33333 + .33333 == 1
-False
->>> .33333333333 + .33333333333 + .3333333333 == 1
-False
->>> 1/3
-0.3333333333333333
->>> 1/3 + 1/3 + 1/3 == 1
-True
->>> count = 0
->>> count += 1
->>> count
-1
+      2      3      5      7     11     13     17     19     23     29
+     31     37     41     43     47     53     59     61     67     71
+     73     79     83     89     97    101    103    107    109    113
+    127    131    137    139    149    151    157    163    167    173
+    179    181    191    193    197    199    211    223    227    229
+    233    239    241    251    257    263    269    271    277    281
+    283    293    307    311    313    317    331    337    347    349
+    353    359    367    373    379    383    389    397    401    409
+    419    421    431    433    439    443    449    457    461    463
+    467    479    487    491    499    503    509    521    523    541
+    547    557    563    569    571    577    587    593    599    601
+    607    613    617    619    631    641    643    647    653    659
+    661    673    677    683    691    701    709    719    727    733
+    739    743    751    757    761    769    773    787    797    809
+    811    821    823    827    829    839    853    857    859    863
+    877    881    883    887    907    911    919    929    937    941
+    947    953    967    971    977    983    991    997   1009   1013
 </pre>
 
 </div>
@@ -671,7 +440,64 @@ True
 <div class="mt-5">
 </div>
 
-- How does this **match** and **diverge** from your intuition?
+- Do these programs correctly detect prime numbers?
+
+[//]: # (Slide End }}})
+
+
+---
+
+[//]: # (Slide Start {{{)
+
+<div class="flex row">
+
+<div class="text-7xl text-orange-600 font-bold mt-5 ml-4 mb-4">
+What do we know about primality testing?
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+Both methods compute the same answer
+</div>
+
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+Efficient approach disregards even numbers
+</div>
+
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+Exhaustive approach is a good starting point
+</div>
+
+</div>
+
+</div>
 
 [//]: # (Slide End }}})
 
@@ -682,7 +508,7 @@ True
 <div class="flex row">
 
 <div class="text-7xl text-orange-600 font-bold mt-5 ml-4 mb-4">
-Take home points about Python programming?
+Take home points about numerical computation?
 </div>
 
 </div>
@@ -694,21 +520,7 @@ Take home points about Python programming?
 <mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
 
 <div class="text-3xl font-bold mt-10 ml-4">
-Implement with correct syntax and semantics
-</div>
-
-</div>
-
-</div>
-
-<div v-click>
-
-<div class="flex row">
-
-<mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
-
-<div class="text-3xl font-bold mt-10 ml-4">
-Try to create reusable and testable functions
+Exhaustive methods look at all solutions
 </div>
 
 </div>
@@ -722,7 +534,21 @@ Try to create reusable and testable functions
 <mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
 
 <div class="text-3xl font-bold mt-10 ml-4">
-Avoid program defects and follow conventions
+Bisection methods divide the input space
+</div>
+
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+Need to carefully study perform for inputs
 </div>
 
 </div>
@@ -735,28 +561,28 @@ Avoid program defects and follow conventions
 
 [//]: # (Slide Start {{{)
 
-# Investigating Foundations of Python
+# Investigating Numerical Computation
 
 <div class = "mt-10">
 </div>
 
 <v-clicks>
 
--   Implementing programs in the Python language:
+-   Different forms of numerical computation:
 
-    -   **Q1**: What is the **syntax** of a programming language?
+    -   **Q1**: What are the benefits of **exhaustive** enumeration?
 
-    -   **Q2**: What are the **semantics** of a programming language?
+    -   **Q2**: Why is **exhaustive** enumeration not always efficient?
 
-    -   **Q3**: What are some **best practices** for Python programming?
+    -   **Q3**: How does **bisection search** improve algorithms?
 
-    -   **Q4**: What is a **reserved word** in the Python language?
+    -   **Q4**: How can bisection search help other algorithms?
 
     -   **Q5**: How does the Python language perform **type checking**?
 
--   How do you pick between the `for` and `while` loop?
+-   We will investigate these algorithms in upcoming projects
 
--   Don't forget to find the defect in the `compute_square` function!
+-   Guess and check and divide and conquer are general purpose strategies
 
 </v-clicks>
 
