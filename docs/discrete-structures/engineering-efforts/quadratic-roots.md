@@ -28,34 +28,38 @@ project!
 ## Expected Output
 
 This project invites you to implement a quadratic root finding program called
-`rootfinder`. To learn more about the equations for calculating the roots of a
+`rootfinder`. To learn more about the equations for finding the roots of a
 quadratic equation, please try out the [quadratic formula
 calculator](https://www.calculatorsoup.com/calculators/algebra/quadratic-formula-calculator.php).
 For instance, input `a=1`, `b=2`, and `c=1` into this calculator and see what
 answer it produces. After repairing your program, as explained in the next step
 of this assignment, it will also be possible for you to run the provided Python
-program by typing `poetry run python rootfinder --a 1 --b 2 --c 1` in your
+program by typing `poetry run rootfinder --a 1 --b 2 --c 1` in your
 terminal window and observing that the programs produces the following output:
 
-```
-Calculating the roots of a quadratic equation with:
+```shell
+⭐ Calculating the roots of a quadratic equation with:
    a = 1.0
    b = 2.0
    c = 1.0
+
+⭐ Finished computing the roots of the equation as:
    x_one = -1.0
    x_two = -1.0
 ```
 
-Does the Python program produce the same output as the web site suggests it
-should? If it does, then try to run the program with different inputs by typing
-`poetry run python rootfinder --a 1 --b 1 --c 1`. In this case, your program
-should produce the following output:
+Does the Python program produce the same output as the quadratic formula
+calculator site suggests it should? If it does, then try to run the program with
+different inputs by typing `poetry run python rootfinder --a 1 --b 1 --c 1`. In
+this case, your program should produce the following output:
 
-```
-Calculating the roots of a quadratic equation with:
+```shell
+⭐ Calculating the roots of a quadratic equation with:
    a = 1.0
    b = 1.0
    c = 1.0
+
+⭐ Finished computing the roots of the equation as:
    x_one = (-0.49999999999999994+0.8660254037844386j)
    x_two = (-0.5-0.8660254037844386j)
 ```
