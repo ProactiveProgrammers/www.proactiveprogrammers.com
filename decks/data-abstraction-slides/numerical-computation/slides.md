@@ -603,13 +603,13 @@ Repeat process until have an approximate solution
 
     -   **Q3**: How does **bisection search** improve algorithms?
 
-    -   **Q4**: How can bisection search help other algorithms?
+    -   **Q4**: How can bisection search **help** other algorithms?
 
-    -   **Q5**: How does the Python language perform **type checking**?
+    -   **Q5**: How can we compare the **performance** of two algorithms?
 
--   We will investigate these algorithms in upcoming projects
+-   We will investigate these algorithms in **upcoming projects**!
 
--   Guess and check and divide and conquer are general purpose strategies
+-   Guess and check and divide and conquer are **general purpose** strategies
 
 </v-clicks>
 
