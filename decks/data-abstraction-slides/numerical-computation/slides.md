@@ -274,15 +274,17 @@ possibilities** until it finds the correct solution
 
 <div class="ml-1">
 
-```python {all|1-2|3|4-7|8|all}
-sum = 0
-count = 0
-file = open("observations")
-for line in file:
-  n = int(line)
-  sum += n
-  count += 1
-print(sum/count)
+```python {all|1|2|3-6|7-8|9-10|all}
+x = int(input("Enter integer greater than 2: "))
+sm_div = None
+for guess in range(2, x):
+    if x % guess == 0:
+        sm_div = guess
+        break
+if sm_div != None:
+    print(f"Smallest divisor of {x} is {sm_div}")
+else:
+    print(f"Wow, {x} is a prime number!")
 ```
 
 </div>
@@ -292,7 +294,7 @@ print(sum/count)
 <v-clicks>
 
 <p class = "bold">
-What are the contents of the <code>observations</code> file?
+What is the purpose of the <code>range(2, x)</code> function call?
 </p>
 
 <p class = "bold">
