@@ -35,7 +35,7 @@ For instance, input `a=1`, `b=2`, and `c=1` into this calculator and see what
 answer it produces. After repairing your program, as explained in the next step
 of this assignment, it will also be possible for you to run the provided Python
 program by typing `poetry run rootfinder --a 1 --b 2 --c 1` in your
-terminal window and observing that the programs produces the following output:
+terminal window and observe that the programs produces the following output:
 
 ```shell
 ⭐ Calculating the roots of a quadratic equation with:
