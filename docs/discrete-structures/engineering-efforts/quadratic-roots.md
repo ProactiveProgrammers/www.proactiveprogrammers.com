@@ -150,15 +150,31 @@ def main(
 ):
 ```
 
+Notably, this function signature indicates that the `rootfinder` program accepts
+as input three parameters called `a`, `b`, and `c` that respectively have
+default values of `1`, `2`, and `2`. This means that if you run `poetry run
+rootfinder` if should produce this output:
+
+```shell
+⭐ Calculating the roots of a quadratic equation with:
+   a = 1.0
+   b = 2.0
+   c = 2.0
+
+⭐ Finished computing the roots of the equation as:
+   x_one = (-0.9999999999999999+1j)
+   x_two = (-1-1j)
+```
+
 ## Running Checks
 
 As you continue to add and confirm the correctness of `rootfinder`'s
 functionality, you also study the source code in the `pyproject.toml` file. This
 file contains the specification of several tasks that will help you to easily
-run checks on your source code. Now, you can run commands like `poetry run task
-lint` to automatically run all of the linters designed to check the Python
-source code in your program and its test suite. You can also use the command
-`poetry run task black` to confirm that your source code adheres to the
+run checks on your Python source code. Now, you can run commands like `poetry
+run task lint` to automatically run all of the linters designed to check the
+Python source code in your program and its test suite. You can also use the
+command `poetry run task black` to confirm that your source code adheres to the
 industry-standard format defined by the `black` tool. If it does not adhere to
 the standard then you can run the command `poetry run black rootfinder tests`
 and it will automatically reformat the source code.
