@@ -79,11 +79,13 @@ calculator.
 
 ???+ note
 
-    Don't forget that if you want to run the `rootfinder` program you must use your
-    terminal window to first go into the GitHub repository containing this
-    project and then go into the `rootfinder` directory that contains the project's
-    source code. Finally, remember that before running the program you must run
-    `poetry install` to add the dependencies.
+    Remember, if you want to run `rootfinder` you must use your terminal to go
+    into the GitHub repository containing this project and then go into the
+    `rootfinder` directory that contains the project's source code. Finally,
+    remember that before running the program you must run `poetry install` to
+    add the dependencies. If you run into errors when using a `poetry run`
+    command you can often resolve them by deleting the `.venv` directry and the
+    `poetry.lock` file and the trying `poetry install` again.
 
 ## Adding Functionality
 
