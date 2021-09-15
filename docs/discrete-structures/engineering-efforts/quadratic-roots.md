@@ -187,6 +187,9 @@ and see that the test suite produces output like the following. Notice that the
 current test suite only has three test cases! If you are looking for an
 additional challenge, consider using the [quadratic formula
 calculator](https://www.calculatorsoup.com/calculators/algebra/quadratic-formula-calculator.php)
+to guide you as you create new test cases for
+`calculate_quadratic_equation_roots` that run in
+[Pytest](https://docs.pytest.org/).
 
 ```shell
 collected 3 items
@@ -211,8 +214,8 @@ Once you have finished both of the previous technical tasks, you can use a text
 editor to answer all of the questions in the `writing/reflection.md` file. For
 instance, you should provide the output of the Python program in a fenced code
 block, explain the meaning of the Python source code segments that you
-implemented, and answer all of the other questions about your experiences in
-completing this project.
+implemented and used, and answer all of the other questions about your
+experiences in completing this project.
 
 ## Project Assessment
 
