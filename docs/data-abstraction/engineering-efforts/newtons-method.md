@@ -1,1 +1,0 @@
-# Newton-Raphson Method
