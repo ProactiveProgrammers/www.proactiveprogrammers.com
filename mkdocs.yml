@@ -209,16 +209,13 @@ nav:
     - Course Syllabus: data-abstraction/syllabus-data-abstraction.md
     - Course Schedule: data-abstraction/schedule-data-abstraction.md
     - Source Code Surveys:
-      - Primality Testing: data-abstraction/source-code-surveys/primality-testing.md
-      - Exhaustive Enumeration: data-abstraction/source-code-surveys/exhaustive-enumeration.md
+      - Numerical Data: data-abstraction/source-code-surveys/primality-testing.md
     - Programming Projects:
       - Number Comparison: data-abstraction/programming-projects/number-comparison.md
-      - Maximum Detection: data-abstraction/programming-projects/maximum-detection.md
-      - Bisection Search: data-abstraction/programming-projects/bisection-search.md
+      - Square Root: data-abstraction/programming-projects/square-root.md
     - Engineering Efforts:
       - Integer Squaring: data-abstraction/engineering-efforts/integer-squaring.md
-      - Repairing Iteration: data-abstraction/engineering-efforts/repairing-iteration.md
-      - Newton-Raphson Method: data-abstraction/engineering-efforts/newtons-method.md
+      - Primality Testing: data-abstraction/engineering-efforts/primality-testing.md
   - Discrete Structures:
     - Introduction: discrete-structures/introduction-discrete-structures.md
     - Learning Objectives: discrete-structures/learning-objectives-discrete-structures.md
