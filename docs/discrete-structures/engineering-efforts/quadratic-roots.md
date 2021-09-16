@@ -85,7 +85,7 @@ calculator.
     remember that before running the program you must run `poetry install` to
     add the dependencies. If you run into errors when using a `poetry run`
     command you can often resolve them by deleting the `.venv` directry and the
-    `poetry.lock` file and the trying `poetry install` again.
+    `poetry.lock` file and then trying `poetry install` again.
 
 ## Adding Functionality
 
