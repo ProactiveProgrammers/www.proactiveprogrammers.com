@@ -225,7 +225,7 @@ nav:
     - Course Syllabus: discrete-structures/syllabus-discrete-structures.md
     - Course Schedule: discrete-structures/schedule-discrete-structures.md
     - Source Code Surveys:
-      - Averaging Values: discrete-structures/source-code-surveys/averaging-values.md
+      - Data Types: discrete-structures/source-code-surveys/data-types.md
     - Programming Projects:
       - Average Computation: discrete-structures/programming-projects/average-computation.md
     - Engineering Efforts:
