@@ -87,6 +87,27 @@ Program: primality --number 49979687 --approach exhaustive --profile
 └─ 1.738 primality_test_exhaustive  primality/main.py:57
 ```
 
+If `exhaustive` mode of `primality` takes `1.738` and `efficient` mode only
+takes `0.870`, how much faster is `efficient` mode compared to `exhaustive`? If
+$T_f$ denotes the execution time of `efficient` mode and $T_x$ denotes the
+execution time of `exhausitve` mode, then the following equation defines
+$T_{\Delta}$, or the percentage change in the execution time when running
+`primality` in `efficient` mode instead of `exhaustive`.
+
+$$
+T_{\Delta} = \frac{T_x - T_f}{T_x} \times 100
+$$
+
+Using this equation with the timing values of $T_x = 1.738$ and $T_f = 0.87$
+from Pyinstrument shows that `efficient` mode is $(1.738
+- 0.87) / 1.738 * 100 = 49.9427$ percent faster than `exhaustive` mode. When you
+check the source code in the GitHub repository for this project you will see
+why! Unlike `exhaustive` mode, the `efficient` mode of `primality` does not
+check for even divisors of `number` bigger than two, instead only determining
+if `number` is divisible by any odd number in `range(3, x, 2)`. In retrospect,
+it makes sense that `efficient` is about $50$ percent faster than
+`exhaustive` because, by not checking the even numbers, it does not do half
+of `exhaustive`'s work.
 
 If you run the command `poetry run primality --help` you
 should see the following output that explains how to use the `primality` program:
