@@ -36,20 +36,19 @@ Once you have finished all of the previous technical tasks, you can use a text
 editor to answer all of the questions in the `writing/reflection.md` file. Since
 this is a source code survey, you should provide output from running each of the
 provided Python programs on your own laptop and then explain how the program's
-source code produced that output. A specific goal for this assignment is to
-ensure that you understand how Python programs can correctly use modular
-arithmetic and floating point numbers.
+source code produced that output. A specific goal for this project is to ensure
+that you understand how Python programs should correctly use modular arithmetic
+and floating point numbers to achieve a practical goal.
 
 ## Project Assessment
 
-Since this project is an engineering effort, it is aligned with the
-**evaluating** and **creating** levels of [Bloom's
+Since this project is source code survey, it is aligned with the **remembering**
+and **understanding** levels of [Bloom's
 taxonomy](proactive-learning/blooms-taxonomy/). You can learn more about how a
 proactive programming expert will assess your work by examining the [assessment
 strategy](/proactive-learning/assessment-strategy/). From the start to the end
 of this project you may make an unlimited number of reattempts at submitting
-source code and technical writing that meet all aspects of the project's
-specification.
+source code and technical writing that meet the project's specification.
 
 ## Seeking Assistance
 
