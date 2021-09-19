@@ -256,7 +256,9 @@ editor to answer all of the questions in the `writing/reflection.md` file. For
 instance, you should provide the output of the Python program in a fenced code
 block, explain the meaning of the Python source code segments that you
 implemented, and answer all of the other questions about your experiences in
-completing this project.
+completing this project. A specific goal of the reflection for this project is
+to evaluate the efficiency of the two different modes (i.e., `exhaustive` and
+`efficient`) of the `primality` program.
 
 ## Project Assessment
 
