@@ -153,93 +153,19 @@ next section, you are invited to add the features needed to ensure that
 
 ## Adding Functionality
 
-If you study the file `primality/primality/main.py` you will see that it has many
-`TODO` markers that designate the parts of the program that you need to
-implement before `primality` will produce correct output. If you run the provided
-test suite with the command `poetry run task test` you will see that it produces
-output like the following:
+If you study the file `primality/primality/main.py` you will see that it has
+many `TODO` markers that designate the parts of the program that you need to
+implement before `primality` will produce correct output. If you run the
+provided test suite with the command `poetry run task test` you will see that it
+produces a message suggesting that there is a syntax error in the program. Along
+with creating instances of the `Typer` and `Profiler` classes, you will need to
+resolve all of the syntax errors so that you can run `primality` and its test
+suite. You must also implement all of these functions:
 
-```
-tests/test_primality.py:5: in <module>
-    from primality import main
-primality/main.py:15: in <module>
-    cli = typer.Typer()
-E   NameError: name 'typer' is not defined
-```
-
-Alternatively, running the program with a command like `poetry run primality
---approach for --dir input --file numbers.txt` will produce the following
-output:
-
-```
-Traceback (most recent call last):
-  File "<string>", line 1, in <module>
-  File "/home/gkapfham/.pyenv/versions/3.9.2/lib/python3.9/importlib/__init__.py", line 127, in import_module
-    return _bootstrap._gcd_import(name[level:], package, level)
-  File "<frozen importlib._bootstrap>", line 1030, in _gcd_import
-  File "<frozen importlib._bootstrap>", line 1007, in _find_and_load
-  File "<frozen importlib._bootstrap>", line 986, in _find_and_load_unlocked
-  File "<frozen importlib._bootstrap>", line 680, in _load_unlocked
-  File "<frozen importlib._bootstrap_external>", line 790, in exec_module
-  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
-    cli = typer.Typer()
-NameError: name 'typer' is not defined
-```
-
-This output suggests that the `typer` module was not correctly imported! After
-importing this module in the appropriate fashion, all while following the
-relevant instructions in the description of the [technical
-skills](/proactive-skills/introduction-proactive-skills/), you should find the
-other `TODO` markers and correctly resolve them. For instance, you can add this
-function to the `main.py` file:
-
-```python
-def confirm_valid_file(file: Path) -> bool:
-    """Confirm that the provided file is a valid path."""
-    # determine if the file is not None and if it is a file
-    if file is not None:
-        # the file is valid
-        if file.is_file():
-            return True
-    # the file was either none or not valid
-    return False
-```
-
-In addition to `confirm_valid_file`, you must completely implement these
-functions:
-
-- `def compute_primality_while(value: int) -> int`
-- `def compute_primality_for(value: int) -> int`
-- `def compute_primality_iterative(contents: str, primality_function: Callable[[int], int]) -> List[int]:`
-
-It is worth noting that the `compute_primality_iterative` function is a
-higher-order function that accepts as one of its inputs the `primality_function`
-that should be either `compute_primality_for` or `compute_primality_while`. The person
-running the `primality` program can pick which of these functions the program will
-call by specifying either `for` or `while` as one of the program's command-line
-arguments. The `primality` program uses the Typer package and the following source
-code to ensure that the program only accepts one of these two options. For
-instance, if you try to run the program with the command `poetry run primality
---approach recursion --dir input --file numbers.txt` it will produce the
-following error message because `recursion` is not a valid option:
-
-```
-Usage: primality [OPTIONS]
-Try 'primality --help' for help.
-
-Error: Invalid value for '--approach': invalid choice: recursion. (choose from for, while)
-```
-
-The `primality` program contains the following source code to specify the valid
-options:
-
-```python
-class IntegerprimalityApproach(str, Enum):
-    """Define the name for the approach to squaring a number."""
-
-    for_loop = "for"
-    while_loop = "while"
-```
+- `def human_readable_boolean(answer: bool) -> str`
+- `def pretty_print_list(values: Iterable[int]) -> str`
+- `def primality_test_exhaustive(x: int) -> Tuple[bool, List[int]]`
+- `def primality_test_efficient(x: int) -> Tuple[bool, List[int]]`
 
 ## Running Checks
 
