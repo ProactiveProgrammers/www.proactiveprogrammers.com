@@ -109,42 +109,38 @@ it makes sense that `efficient` is about $50$ percent faster than
 `exhaustive` because, by not checking the even numbers, it does not do half
 of `exhaustive`'s work.
 
-If you run the command `poetry run primality --help` you
-should see the following output that explains how to use the `primality` program:
+It is worth noting that you do not have to run `primality` in the `profile` mode
+that uses Pyinstrument. For instance, running the program with `poetry run
+primality --number 49979687 --approach exhaustive` would run the program in
+`exhaustive` mode and perform the same computation without collecting the
+performance data. You can display `primality`'s help menu and learn more about
+the features it should support by typing `poetry run primality --help` to
+display the following:
 
 ```shell
 Usage: primality [OPTIONS]
 
-  Iteratively primality all integers in a file.
+  Use iteration to perform primality testing on a number.
 
 Options:
-  --approach [for|while]  [default: for]
-  --dir PATH
-  --file PATH
-  --install-completion    Install completion for the current shell.
-  --show-completion       Show completion for the current shell, to copy
-                          it or customize the installation.
+  --number INTEGER                [default: 5]
+  --profile / --no-profile        [default: False]
+  --approach [exhaustive|efficient]
+                                  [default: efficient]
+  --install-completion            Install completion for the current
+                                  shell.
 
-  --help                  Show this message and exit.
+  --show-completion               Show completion for the current shell,
+                                  to copy it or customize the
+                                  installation.
+
+  --help                          Show this message and exit.
 ```
 
 Please note that the provided source code does not contain all of the
-functionality to produce this output. As explain in the next section, you are
-invited to add all of the missing features and ensure that `primality` produces the
-expected output.
-
-Once the program is working correctly, you should also try to
-use it when specifying a file that is not available on your computer! For instance,
-if you run it with the command `poetry run primality --approach for --dir input
---file numberswrong.txt` then it will not perform the number squaring and
-instead produce the following output:
-
-```shell
-😃 Squaring numbers in a file called input/numberswrong.txt!
-
-🤷 input/numberswrong.txt was not a valid file! Sorry, cannot primality the
-numbers!
-```
+functionality to produce the output displayed in this section. As explain in the
+next section, you are invited to add all of the missing features and ensure that
+`primality` produces the expected output!
 
 ???+ note
 
