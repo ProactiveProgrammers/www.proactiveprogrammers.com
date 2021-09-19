@@ -242,7 +242,7 @@ It is worth noting that the test suite for the `square` program is missing a
 test case! You can create the missing test case by following the example of the
 following test:
 
-```python
+```python linenums="1"
 def test_compute_square_iterative_for_loop():
     """Confirm that the for loop calculates squares correctly for negatives and positives in loop."""
     number_list = """-72
@@ -257,11 +257,11 @@ def test_compute_square_iterative_for_loop():
 
 This test case takes the following steps:
 
-- Create a `number_list` multiple-line string that contains integers for squaring
-- Defines the `square_function` to be the `compute_square_for` function in `main`
-- Calls the `compute_square_iterative` function with `number_list` and `square_function`
-- Stores the output of the `compute_square_iterative` function in `square_list`
-- Asserts that the `square_list` variable contains the squares of each number
+- Lines `3` through `7`: Create a `number_list` multiple-line string with integers for squaring
+- Line `8`: Defines the `square_function` to be the `compute_square_for` function in `main`
+- Line `9`: Calls `compute_square_iterative` with `number_list` and `square_function`
+- Line `9`: Stores the output of the `compute_square_iterative` function in `square_list`
+- Line `10`: Asserts that the `square_list` variable contains the squares of each number
 
 You should write a new test that follows these steps for the `compute_square_while`!
 
