@@ -4,13 +4,14 @@
 
 This assignment invites you to implement a program that features multiple
 algorithms for performing primality testing. You will implement two algorithms
-that conduct a search to determine whether or not an input number is prime. The
-exhaustive search algorithm will examine all possible elements of a search space
-while the efficient one will use extra conditional logic to restrict the search
-space. In addition to adding source code the provided Python files, you will
-conduct an experiment to determine which algorithm is the fastest and by how
-much it is faster. As you enhance your [technical
-skills](/proactive-skills/introduction-proactive-skills/) an explore the
+that conduct a search to determine whether or not the number input to the
+program is prime. The exhaustive search algorithm will examine all possible
+elements of a search space while, in contrast, the efficient one will use extra
+conditional logic to restrict the search space. In addition to adding source
+code the provided Python files, you will conduct an experiment to determine
+which algorithm is the fastest and estimate by how much it is faster. As you
+enhance your [technical
+skills](/proactive-skills/introduction-proactive-skills/) and explore the
 experimental evaluation of algorithms, you will continue to program with tools
 such as VS Code and a terminal window and the Python programming language and
 the Poetry package manager.
