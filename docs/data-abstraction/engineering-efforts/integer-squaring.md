@@ -148,8 +148,12 @@ def confirm_valid_file(file: Path) -> bool:
     return False
 ```
 
-In addition to `confirm_valid_file`, you must completely implement these
-functions:
+Line `1` of this function defines the signature of `confirm_valid_file`, showing
+that it will take as input a `Path` object and return as output a `bool` to
+indicate whether or not the file is valid. Lines `4` through `7` confirm that
+the `file` is valid and `True` if it is both not `None` and a valid file.
+Alternatively, line `9` returns `False` to indicate that `file` is not valid. In
+addition to `confirm_valid_file`, you must also implement these functions:
 
 - `def compute_square_while(value: int) -> int`
 - `def compute_square_for(value: int) -> int`
