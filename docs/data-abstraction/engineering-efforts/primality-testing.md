@@ -168,19 +168,22 @@ suite. You must also implement all of these functions:
 - `def primality_test_efficient(x: int) -> Tuple[bool, List[int]]`
 
 The following source code illustrates how to use Pyinstrument to collect the
-timing information for the 
+timing information for the execution of the `efficient` approach for primality
+testing, as implemented in the function `primality_test_efficient`. First, line
+`1` creates an empty `primality_tuple` and lines `2` and `3` confirm that the
+person using the program requested to profile the execution of the `efficient`
+approach. Using Pyinstrument, line `4` starts the profiler and line `6` stops
+it, with line `5` making the call to the `primality_test_efficient` function.
+When the person running `primality` did not use `--profile`, then line `8` calls
+`primality_test_efficient` without using Pyinstrument.
 
 ```python linenums="1"
-# create an empty primality_tuple
 primality_tuple: Tuple[bool, List[int]]
-# use the efficient primality testing algorithm
 if approach.value == PrimalityTestingApproach.efficient:
-    # perform profiling on the execution of the primality test
     if profile:
         profiler.start()
         primality_tuple = primality_test_efficient(number)
         profiler.stop()
-    # do not perform profiling
     else:
         primality_tuple = primality_test_efficient(number)
 ```
