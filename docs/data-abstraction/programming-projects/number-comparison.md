@@ -140,9 +140,12 @@ three int values. You can read a test case in the `test_compare.py` test suite
 to learn more about how `compare`'s `get_minimum` function should work. For
 instance, the following test case confirms that when `get_minimum` receives the
 inputs `3`, `4`, and `5` then it should return the value of `3`, regardless of
-the order in which the values are input to the function.
+the order in which the values are input to the function. Studying the source
+code of `test_find_minimum` shows that lines `3`, `5`, and `7` call the
+`get_minimum` function with different orders of the same input values and lines
+`4`, `6`, and `8` all confirm that the returned value of `minimum` is `3`.
 
-```python
+```python linenums="1"
 def test_find_minimum():
     """Confirm that the function can find the minimum of three values."""
     minimum = main.get_minimum(3, 4, 5)
@@ -161,7 +164,7 @@ that when `get_largest_odd` receives the values `21`, `4`, and `17` it will
 return `21`. In contrast, if it receives the inputs `21`, `4`, and `117` it will
 return the value of `117` because that number is also odd and larger than `21`!
 
-```python
+```python linenums="1"
 def test_largest_odd_can_find_one():
     """Confirm that it is possible to find the largest odd value when it exists."""
     (largest_odd, found) = main.get_largest_odd(21, 4, 17)
