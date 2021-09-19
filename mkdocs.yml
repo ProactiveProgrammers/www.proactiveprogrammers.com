@@ -209,7 +209,7 @@ nav:
     - Course Syllabus: data-abstraction/syllabus-data-abstraction.md
     - Course Schedule: data-abstraction/schedule-data-abstraction.md
     - Source Code Surveys:
-      - Numerical Data: data-abstraction/source-code-surveys/primality-testing.md
+      - Numerical Data: data-abstraction/source-code-surveys/numerical-data.md
     - Programming Projects:
       - Number Comparison: data-abstraction/programming-projects/number-comparison.md
       - Square Root: data-abstraction/programming-projects/square-root.md
