@@ -30,32 +30,65 @@ project!
 
 ## Expected Output
 
-This project invites you to implement a number squaring program called `primality`.
-The program can accept as input both a file of numbers and the name of an
-approach to squaring an integer. If you run the program correctly, it will
-iterate through the file of numbers, compute the primality for each number, and
-output a complete list of the primalityd values. For instance, if you run the
-program with the command `poetry run primality --approach for --dir input --file
-numbers.txt` it produces this output:
+This project invites you to implement a number squaring program called
+`primality`. The program accepts as input a number, like `49979687`, a
+description of an approach (that can either be `efficient` or `exhaustive`), and
+a boolean flag to indicate whether or not the program should profile its
+execution. When `primality` is run in `exhaustive` mode it checks all integer
+values in `range(2, number)` if `number` is the integer value subject to
+primality testing. After you finish the correct implementation of all the
+program's features, running it with the command `poetry run primality --number
+49979687 --approach efficient --profile` will produce output like the following:
 
 ```shell
-😃 Squaring numbers in a file called input/numbers.txt!
+😄 Attempting to determine if 49979687 is a prime number!
 
-[
-    5184,
-    841,
-    3721,
-    1764,
-    1936,
-    ...
-]
+✨ What divisors were found? 1, 49979687
+✨ Was this a prime number? Yes
+
+🔬 Here's profiling data from performing primality testing on 49979687!
+
+  _     ._   __/__   _ _  _  _ _/_   Recorded: 22:10:56  Samples:  1
+ /_//_/// /_\ / //_// / //_'/ //     Duration: 0.870     CPU time: 0.869
+/   _/                      v4.0.3
+
+Program: primality --number 49979687 --approach efficient --profile
+
+0.870 primality  primality/main.py:93
+└─ 0.870 primality_test_efficient  primality/main.py:77
 ```
 
-In addition to having a feature that lets you primality numbers using a `for` loop,
-the `primality` program can perform the same task by using a `while` loop! If you
-run the program with the command `poetry run primality --approach while --dir input
---file numbers.txt` then the program should produce the same output as given
-above this paragraph. If you run the command `poetry run primality --help` you
+Did you notice that this program produces profiling data about how long it took
+to run the `primality` program in `efficient` mode with the input `49979687`?
+This is because of the fact that it uses the
+[Pyinstrument](https://github.com/joerick/pyinstrument) program to collect
+execution traces and efficiency information about the program. For this run of
+the program, it took about `0.870` seconds to determine that `49979687` was a
+prime number. Is that fast or not? Well, let's run the `primality` program in
+`exhaustive` mode and measure by how much it is slower! Specifically, running
+the command `poetry run primality --number 49979687 --approach exhaustive
+--profile` produces the following output:
+
+```shell
+😄 Attempting to determine if 49979687 is a prime number!
+
+✨ What divisors were found? 1, 49979687
+✨ Was this a prime number? Yes
+
+🔬 Here's profiling data from performing primality testing on 49979687!
+
+  _     ._   __/__   _ _  _  _ _/_   Recorded: 22:34:38  Samples:  1
+ /_//_/// /_\ / //_// / //_'/ //     Duration: 1.739     CPU time: 1.738
+/   _/                      v4.0.3
+
+Program: primality --number 49979687 --approach exhaustive --profile
+
+1.738 primality  primality/main.py:93
+└─ 1.738 primality_test_exhaustive  primality/main.py:57
+```
+
+
+If you run the command `poetry run primality --help` you
 should see the following output that explains how to use the `primality` program:
 
 ```shell
@@ -77,7 +110,9 @@ Options:
 Please note that the provided source code does not contain all of the
 functionality to produce this output. As explain in the next section, you are
 invited to add all of the missing features and ensure that `primality` produces the
-expected output. Once the program is working correctly, you should also try to
+expected output.
+
+Once the program is working correctly, you should also try to
 use it when specifying a file that is not available on your computer! For instance,
 if you run it with the command `poetry run primality --approach for --dir input
 --file numberswrong.txt` then it will not perform the number squaring and
