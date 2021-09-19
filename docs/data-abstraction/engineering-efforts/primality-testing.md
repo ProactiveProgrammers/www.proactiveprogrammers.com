@@ -219,44 +219,15 @@ relevant instructions in the [technical
 skills](/proactive-skills/introduction-proactive-skills/) to enter into a Docker
 container and run the command `gradle grade` to check your work. If `gradle
 grade` shows that all checks pass, you will know that you made progress towards
-correctly implementing and writing about `primality`.
-
-If your program has all of the anticipated functionality, you can run the
-command `poetry run task test` and see that the test suite produces output like
-this:
+correctly implementing and writing about `primality`. If your program has all of
+the anticipated functionality, you can run the command `poetry run task test`
+and see that the test suite produces output like this:
 
 ```shell
 collected 7 items
 
 tests/test_primality.py .......
 ```
-
-It is worth noting that the test suite for the `primality` program is missing a
-test case! You can create the missing test case by following the example of the
-following test:
-
-```python
-def test_compute_primality_iterative_for_loop():
-    """Confirm that the for loop calculates primalitys correctly for negatives and positives in loop."""
-    number_list = """-72
-        29
-        61
-        -42
-        44"""
-    primality_function = main.compute_primality_for
-    primality_list = main.compute_primality_iterative(number_list, primality_function)
-    assert primality_list == [72 * 72, 29 * 29, 61 * 61, 42 * 42, 44 * 44]
-```
-
-This test case takes the following steps:
-
-- Create a `number_list` multiple-line string that contains integers for squaring
-- Defines the `primality_function` to be the `compute_primality_for` function in `main`
-- Calls the `compute_primality_iterative` function with `number_list` and `primality_function`
-- Stores the output of the `compute_primality_iterative` function in `primality_list`
-- Asserts that the `primality_list` variable contains the primalitys of each number
-
-You should write a new test that follows these steps for the `compute_primality_while`!
 
 ???+ note
 
