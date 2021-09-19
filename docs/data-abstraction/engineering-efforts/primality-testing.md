@@ -139,16 +139,17 @@ Options:
 
 Please note that the provided source code does not contain all of the
 functionality to produce the output displayed in this section. As explain in the
-next section, you are invited to add all of the missing features and ensure that
+next section, you are invited to add the features needed to ensure that
 `primality` produces the expected output!
 
 ???+ note
 
-    Don't forget that if you want to run the `primality` program you must use your
-    terminal window to first go into the GitHub repository containing this
-    project and then go into the `primality` directory that contains the project's
-    source code. Finally, remember that before running the program you must run
-    `poetry install` to add the dependencies.
+    Don't forget that if you want to run the `primality` program you must use
+    your terminal window to first go into the GitHub repository containing this
+    project and then go into the `primality` directory that contains the
+    project's source code. Finally, remember that before running the program you
+    must run `poetry install` to add its dependencies, such as Pyinstrument,
+    Pytest, and Rich.
 
 ## Adding Functionality
 
