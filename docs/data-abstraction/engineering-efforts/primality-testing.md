@@ -167,6 +167,24 @@ suite. You must also implement all of these functions:
 - `def primality_test_exhaustive(x: int) -> Tuple[bool, List[int]]`
 - `def primality_test_efficient(x: int) -> Tuple[bool, List[int]]`
 
+The following source code illustrates how to use Pyinstrument to collect the
+timing information for the 
+
+```python linenums="1"
+# create an empty primality_tuple
+primality_tuple: Tuple[bool, List[int]]
+# use the efficient primality testing algorithm
+if approach.value == PrimalityTestingApproach.efficient:
+    # perform profiling on the execution of the primality test
+    if profile:
+        profiler.start()
+        primality_tuple = primality_test_efficient(number)
+        profiler.stop()
+    # do not perform profiling
+    else:
+        primality_tuple = primality_test_efficient(number)
+```
+
 ## Running Checks
 
 If you study the source code in the `pyproject.toml` file you will see that
