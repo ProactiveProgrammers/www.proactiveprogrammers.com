@@ -136,7 +136,7 @@ skills](/proactive-skills/introduction-proactive-skills/), you should find the
 other `TODO` markers and correctly resolve them. For instance, you can add this
 function to the `main.py` file:
 
-```python
+```python linenums="1"
 def confirm_valid_file(file: Path) -> bool:
     """Confirm that the provided file is a valid path."""
     # determine if the file is not None and if it is a file
@@ -148,8 +148,12 @@ def confirm_valid_file(file: Path) -> bool:
     return False
 ```
 
-In addition to `confirm_valid_file`, you must completely implement these
-functions:
+Line `1` of this function defines the signature of `confirm_valid_file`, showing
+that it will take as input a `Path` object and return as output a `bool` to
+indicate whether or not the file is valid. Lines `4` through `7` confirm that
+the `file` is valid and `True` if it is both not `None` and a valid file.
+Alternatively, line `9` returns `False` to indicate that `file` is not valid. In
+addition to `confirm_valid_file`, you must also implement these functions:
 
 - `def compute_square_while(value: int) -> int`
 - `def compute_square_for(value: int) -> int`
@@ -176,13 +180,20 @@ Error: Invalid value for '--approach': invalid choice: recursion. (choose from f
 The `square` program contains the following source code to specify the valid
 options:
 
-```python
+```python linenums="1"
 class IntegerSquareApproach(str, Enum):
     """Define the name for the approach to squaring a number."""
 
     for_loop = "for"
     while_loop = "while"
 ```
+
+Line `1` of this code segment defines a new class called `IntegerSquareApproach`
+that operates as a enumeration of values. Specifically, an instance of the
+`IntegerSquareApproach` will have a `value` variable that is either equal to
+`for`, designating that the input integer should be squared through iteration
+with a `for` loop or equal to `while`, meaning that it should complete the same
+task with a `while` loop.
 
 ## Running Checks
 
@@ -231,7 +242,7 @@ It is worth noting that the test suite for the `square` program is missing a
 test case! You can create the missing test case by following the example of the
 following test:
 
-```python
+```python linenums="1"
 def test_compute_square_iterative_for_loop():
     """Confirm that the for loop calculates squares correctly for negatives and positives in loop."""
     number_list = """-72
@@ -246,11 +257,11 @@ def test_compute_square_iterative_for_loop():
 
 This test case takes the following steps:
 
-- Create a `number_list` multiple-line string that contains integers for squaring
-- Defines the `square_function` to be the `compute_square_for` function in `main`
-- Calls the `compute_square_iterative` function with `number_list` and `square_function`
-- Stores the output of the `compute_square_iterative` function in `square_list`
-- Asserts that the `square_list` variable contains the squares of each number
+- Lines `3` through `7`: Create a `number_list` multiple-line string with integers for squaring
+- Line `8`: Defines the `square_function` to be the `compute_square_for` function in `main`
+- Line `9`: Calls `compute_square_iterative` with `number_list` and `square_function`
+- Line `9`: Stores the output of the `compute_square_iterative` function in `square_list`
+- Line `10`: Asserts that the `square_list` variable contains the squares of each number
 
 You should write a new test that follows these steps for the `compute_square_while`!
 

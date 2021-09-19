@@ -3,9 +3,6 @@ site_name: "Proactive Programmers"
 site_url: https://www.proactiveprogrammers.com
 repo_url: https://github.com/ProactiveProgrammers/www.proactiveprogrammers.com
 
-# Copyright of the site appears in the footer
-# copyright: Copyright &copy; 2021 Gregory M. Kapfhammer
-
 # Definition of the theme
 theme:
   # Use the default theme and then customize it further
@@ -209,7 +206,7 @@ nav:
     - Course Syllabus: data-abstraction/syllabus-data-abstraction.md
     - Course Schedule: data-abstraction/schedule-data-abstraction.md
     - Source Code Surveys:
-      - Numerical Data: data-abstraction/source-code-surveys/primality-testing.md
+      - Numerical Data: data-abstraction/source-code-surveys/numerical-data.md
     - Programming Projects:
       - Number Comparison: data-abstraction/programming-projects/number-comparison.md
       - Square Root: data-abstraction/programming-projects/square-root.md
