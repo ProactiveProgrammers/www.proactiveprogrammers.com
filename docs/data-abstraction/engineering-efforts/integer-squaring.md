@@ -136,7 +136,7 @@ skills](/proactive-skills/introduction-proactive-skills/), you should find the
 other `TODO` markers and correctly resolve them. For instance, you can add this
 function to the `main.py` file:
 
-```python
+```python linenums="1"
 def confirm_valid_file(file: Path) -> bool:
     """Confirm that the provided file is a valid path."""
     # determine if the file is not None and if it is a file
@@ -176,13 +176,20 @@ Error: Invalid value for '--approach': invalid choice: recursion. (choose from f
 The `square` program contains the following source code to specify the valid
 options:
 
-```python
+```python linenums="1"
 class IntegerSquareApproach(str, Enum):
     """Define the name for the approach to squaring a number."""
 
     for_loop = "for"
     while_loop = "while"
 ```
+
+Line `1` of this code segment defines a new class called `IntegerSquareApproach`
+that operates as a enumeration of values. Specifically, an instance of the
+`IntegerSquareApproach` will have a `value` variable that is either equal to
+`for`, designating that the input integer should be squared through iteration
+with a `for` loop or equal to `while`, meaning that it should complete the same
+task with a `while` loop.
 
 ## Running Checks
 
