@@ -3,9 +3,6 @@ site_name: "Proactive Programmers"
 site_url: https://www.proactiveprogrammers.com
 repo_url: https://github.com/ProactiveProgrammers/www.proactiveprogrammers.com
 
-# Copyright of the site appears in the footer
-# copyright: Copyright &copy; 2021 Gregory M. Kapfhammer
-
 # Definition of the theme
 theme:
   # Use the default theme and then customize it further
