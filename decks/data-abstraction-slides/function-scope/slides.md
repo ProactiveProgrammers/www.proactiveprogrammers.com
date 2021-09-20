@@ -476,6 +476,31 @@ Does not separate the program's operations
 
 [//]: # (Slide End }}})
 
+---
+
+[//]: # (Slide Start {{{)
+
+# Exhaustive Primality Testing
+
+<div class="ml-1">
+
+```python {all|1-2|9,11|all}
+def primality_test_exhaustive(x: int)
+              -> Tuple[bool, List[int]]:
+    smallest_divisor = None
+    for guess in range(2, x):
+        if x % guess == 0:
+            smallest_divisor = guess
+            break
+    if smallest_divisor is not None:
+        return (False, [smallest_divisor])
+    else:
+        return (True, [1, x])
+```
+
+</div>
+
+[//]: # (Slide End }}})
 
 ---
 
