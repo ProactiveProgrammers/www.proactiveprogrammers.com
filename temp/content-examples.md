@@ -51,21 +51,19 @@ def bubble_sort(lst: list[int]) -> list[int]:
     massa, nec semper lorem quam in massa.
 
 ```mermaid
-graph LR
-  A[Start] --> B{Error?};
-  B -->|Yes| C[Hmm...];
-  C --> D[Debug];
-  D --> B;
-  B ---->|No| E[Yay!];
+erDiagram
+  CUSTOMER ||--o{ ORDER : places
+  ORDER ||--|{ LINE-ITEM : contains
+  CUSTOMER }|..|{ DELIVERY-ADDRESS : uses
 ```
 
 ```mermaid
-graph LR
-    A["Something"]:::someclass --> B
-    B --> C
-    A --> C
-    D --> C
-    classDef someclass fill:#f96;
+flowchart TD
+    A[Start] --> B{Is it?};
+    B -->|Yes| C[OK];
+    C --> D[Rethink];
+    D --> B;
+    B ---->|No| E[End];
 ```
 
 For full documentation visit [mkdocs.org](https://www.mkdocs.org).

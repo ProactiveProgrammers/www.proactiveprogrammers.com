@@ -78,6 +78,7 @@
 ### Reading Assignments
 
 - Chapter 4 of *Introduction to Computation and Programming Using Python*
+- Check out the [course slides](/slides/data-abstraction/function-scope/) for a detailed investigation of these chapters!
 
 ???+ note "Technical Concept Review"
 

@@ -2,6 +2,7 @@
   "name": "data-abstraction-slides-workspace",
   "workspaces": [
     "python-foundations",
-    "numerical-computation"
+    "numerical-computation",
+    "function-scope"
   ]
 }
