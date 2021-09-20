@@ -480,7 +480,7 @@ Does not separate the program's operations
 
 [//]: # (Slide Start {{{)
 
-# Exhaustive Primality Testing
+# Exhaustive Primality Testing ♻
 
 <div class="ml-1">
 
@@ -515,19 +515,19 @@ def primality_test_exhaustive(x: int)
 
 -   Different forms of numerical computation:
 
-    -   **Q1**: What are the benefits of **exhaustive** enumeration?
+    -   **Q1**: What are the benefits of **good design**?
 
-    -   **Q2**: Why is **exhaustive** enumeration not always efficient?
+    -   **Q2**: What **language features** support good design?
 
-    -   **Q3**: How does **bisection search** improve algorithms?
+    -   **Q3**: How does a **higher-order** function improve design?
 
-    -   **Q4**: How can bisection search **help** other algorithms?
+    -   **Q4**: How does a **lambda** function improve design?
 
-    -   **Q5**: How can we compare the **performance** of two algorithms?
+    -   **Q5**: How can we compare the **quality** of two designs?
 
--   We will investigate these algorithms in **upcoming projects**!
+-   We will always aim to create good designs in **upcoming projects**!
 
--   Guess and check and divide and conquer are **general purpose** strategies
+-   Balance the **trade-offs** associated with designing quality software
 
 </v-clicks>
 
