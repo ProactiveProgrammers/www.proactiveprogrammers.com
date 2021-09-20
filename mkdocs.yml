@@ -81,11 +81,13 @@ markdown_extensions:
     - footnotes
     # Display diagrams created with mermaid
     # Note that this works in conjunction with mermaid2
-    # - pymdownx.superfences:
-        # custom_fences:
-            # - name: mermaid
-              # class: mermaid
-              # format: !!python/name:pymdownx.superfences.fence_div_format
+    # It also seems to be required to display Python
+    # source code correctly (even when mermaid2 not used)
+    - pymdownx.superfences:
+        custom_fences:
+            - name: mermaid
+              class: mermaid
+              format: !!python/name:pymdownx.superfences.fence_div_format
     # Enable source code and admonitions to be tabbed
     - pymdownx.tabbed
     # Provide support for more intelligent emphasis and bolding
