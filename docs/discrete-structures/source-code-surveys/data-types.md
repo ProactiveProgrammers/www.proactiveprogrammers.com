@@ -50,19 +50,25 @@ else:
     print("1/3 + 1/3 + 1/3 is not equal 1")
 ```
 
-The second Python program is called `floating-point-confusion.py` because it
+The second Python program is called `demonstrate-variable-limitations.py`
+because it uses the exponentiation operator, written as `**`, 
+
 illustrates some of the initially confusing aspects of using Python's `float`
 data type to store decimal values. To understand this program better, it is
-important to note that lines `1` and `2` in the following segment illustrate the
-respective use addition and multiplication with float-point numbers. You can run
+important to note that lines 
+
+
+You can run
 this program by typing `python floating-point-confusion.py` in your terminal.
+
 Can you explain why it produces this output and what it reveals about the
 challenges of using float-point numbers in arithmetic statements?
 
 ```python linenums="1"
-for _ in range(10):
-    number = number + 0.1
-multiply_number = 10.0 * 0.1
+feasible_number = 2**2**8
+print(f"The value of a feasible number is {feasible_number}")
+another_feasible_number = 2**2**10
+print(f"The value of another feasible number is {another_feasible_number}")
 ```
 
 ## Running Checks
