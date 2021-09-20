@@ -5,7 +5,7 @@
 This assignment invites you to run and observe two Python programs called
 `determine-even-odd` and `floating-point-confusion`. Instead of using the
 [Poetry](https://python-poetry.org/) tool for managing dependencies and
-packaging these programs, as the [technical
+packaging these programs, which the [technical
 skills](/proactive-skills/introduction-proactive-skills/) advise as a best
 practice, these programs are scripts, without any dependencies on other Python
 packages, that you can run through the Python interpreter. As you learn a new
