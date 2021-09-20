@@ -506,6 +506,41 @@ def primality_test_exhaustive(x: int)
 
 [//]: # (Slide Start {{{)
 
+# Higher-Order Functions
+
+<div class="ml-1">
+
+```python {all|1-4|6-8|all}
+def square(number: int):
+    print(f"Called square({number})")
+    print(f"  returning {number*number}")
+    return number * number
+
+def call_twice(f, number: int):
+    print(f"Calling twice {f} with number {number}")
+    return f(f(number))
+```
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<div class="text-3xl font-bold mt-8 ml-4">
+Higher-order functions can accept and call functions as their input! What is the benefit of this design approach?
+</div>
+
+</div>
+
+</div>
+
+[//]: # (Slide End }}})
+
+---
+
+[//]: # (Slide Start {{{)
+
 # Investigating Function Scope
 
 <div class = "mt-10">
