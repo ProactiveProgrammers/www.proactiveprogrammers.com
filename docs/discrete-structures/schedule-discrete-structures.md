@@ -72,6 +72,7 @@
 
 - Chapter 4 of *Programming and Mathematical Thinking*
 - Chapter 3 of *Doing Math with Python*
+- Check out the [course slides](/slides/discrete-structures/python-functions/) for a detailed investigation of these chapters!
 
 ???+ note "Technical Concept Review"
 
