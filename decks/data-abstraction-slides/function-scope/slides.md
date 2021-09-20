@@ -353,31 +353,35 @@ Strategic versus tactical software design
 
 [//]: # (Slide Start {{{)
 
-# Python Programming Constructs
+# Design with Programming Constructs
 
-- Reminder: intuitively read the code segments to grasp their behavior
+<v-clicks>
 
-- Key components of the Python programming segments
+- Leverage Python's constructs to achieve a good software design!
 
-    -   Function calls
-    -   Assignment statements
-    -   Iteration constructs
-    -   Conditional logic
-    -   Variable creation
-    -   Variable computations
-    -   Variable output
+- Key components of Python programming language for design:
 
-- Make sure that you can find all of these components in Python source code!
+    - Formal parameter
+    - Actual parameter
+    - Default parameters
+    - Function calls
+    - Local and global variables
+    - Lambda expressions
+    - Higher-order function
+
+- Make sure that you can find and use these components in Python source code!
 
 <div class="flex row">
 
 <mdi-help-box class="text-6xl ml-4 mt-0 text-blue-600" />
 
 <div class="text-4xl text-true-gray-700 font-bold mt-4 ml-4">
-Questions about the Python source code?
+Questions about Python features for design?
 </div>
 
 </div>
+
+</v-clicks>
 
 [//]: # (Slide End }}})
 
