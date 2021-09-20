@@ -2,6 +2,7 @@
   "name": "discrete-structures-slides-workspace",
   "workspaces": [
     "making-connections",
-    "programming-constructs"
+    "programming-constructs",
+    "python-functions"
   ]
 }
