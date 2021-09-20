@@ -3,16 +3,16 @@
 ## Project Goals
 
 This assignment invites you to run and observe two Python programs called
-`compare-variables` and `demonstrate-variable-limitations`. Instead of using
-the [Poetry](https://python-poetry.org/) tool for managing dependencies and
+`compare-variables` and `demonstrate-variable-limitations`. Instead of using the
+[Poetry](https://python-poetry.org/) tool for managing dependencies and
 packaging these programs, which the [technical
 skills](/proactive-skills/introduction-proactive-skills/) advise as a best
 practice, these programs are scripts, without any dependencies on other Python
 packages, that you can run through the Python interpreter. As you learn a new
 way to run a Python program, this project offers you the opportunity to ensure
-that you understand how to (i) use the modular arithmetic operation (i.e., `%`)
-to determine if a number is even or odd and (ii) correctly multiply and add
-with float-point variables.
+that you understand how to (i) understand the representation of float-point
+variables and (ii) the time and space limitations associated with performing
+computations with numbers.
 
 ## Project Access
 
