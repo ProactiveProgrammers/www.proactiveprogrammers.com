@@ -389,25 +389,32 @@ Questions about Python features for design?
 
 [//]: # (Slide Start {{{)
 
-# Variables in Python Programs
+# Exhaustive Primality Testing
+
+<div class="ml-1">
+
+```python {all|1|8,10|all}
+x = int(input("Enter integer greater than 2: "))
+sm_div = None
+for guess in range(2, x):
+    if x % guess == 0:
+        sm_div = guess
+        break
+if sm_div != None:
+    print(f"Smallest divisor of {x} is {sm_div}")
+else:
+    print(f"Wow, {x} is a prime number!")
+```
+
+</div>
+
+<br>
 
 <v-clicks>
 
--   Variables in Python have values, types, and names
-
--   A function can manipulate a variable using operators
-
-    -   The `+` symbol denotes addition and concatenation
-
-    -   The `-,*,/` symbols denotes have standard meanings
-
-    -   The `+=` symbol denotes addition and assignment
-
-    -   The `%` symbol denotes modular arithmetic for a remainder
-
--   **Variable Types**: The `type(a)` returns the type of `a`
-
--   **Type Changing**: `int(a)` transforms variable `a` into an integer type
+<p class = "bold">
+What is are the <b>downsides</b> of this approach to primality testing?
+</p>
 
 </v-clicks>
 
@@ -417,7 +424,64 @@ Questions about Python features for design?
 
 [//]: # (Slide Start {{{)
 
-# Investigating Numerical Computation
+<div class="flex row">
+
+<div class="text-7xl text-orange-600 font-bold mt-5 ml-4 mb-4">
+Comparison to the engineering effort?
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<mdi-alert-octagram class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+Not defined in a reusable and annotated function
+</div>
+
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<mdi-alert-octagram class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+Not accompanied by executable test suite
+</div>
+
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<mdi-alert-octagram class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+Does not separate the program's operations
+</div>
+
+</div>
+
+</div>
+
+[//]: # (Slide End }}})
+
+
+---
+
+[//]: # (Slide Start {{{)
+
+# Investigating Function Scope
 
 <div class = "mt-10">
 </div>
