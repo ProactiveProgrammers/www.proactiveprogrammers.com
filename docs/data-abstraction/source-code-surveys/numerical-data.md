@@ -11,8 +11,8 @@ practice, these programs are scripts, without any dependencies on other Python
 packages, that you can run through the Python interpreter. As you learn a new
 way to run a Python program, this project offers you the opportunity to ensure
 that you understand how to (i) use the modular arithmetic operation (i.e., `%`)
-to determine if a number is even or odd and (ii) correctly use float-point
-arithmetic.
+to determine if a number is even or odd and (ii) correctly multiply and add
+with float-point variables.
 
 ## Project Access
 
