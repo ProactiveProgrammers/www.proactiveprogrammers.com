@@ -29,22 +29,25 @@ project!
 ## Code Survey
 
 If you change into the `source` directory of your GitHub repository, you will
-see two Python files called `determine-even-odd.py` and
-`floating-point-confusion.py`. You can run the `determine-even-odd.py` program
-by typing `python determine-even-odd.py` in your terminal window. What output
-does the program produce? Can you explain why it produces this output? The key
-to understanding this segment of source code is to notice that line `1` uses the
-modular arithmetic operation, written as `%`, to compute the remainder that
-results from dividing the variable called `value` by `2`. If `2` divides `value`
-evenly, then the remainder will be `0` and this code segment concludes that the
-number is even. However, if the remainder resulting from dividing `value` by `2`
-is not equal to `0`, then there is clear evidence that `value` is odd.
+see two Python files called `compare-variables.py` and
+`demonstrate-variable-limitations.py`. You can run the `compare-variables.py`
+program by typing `python compare-variables.py` in your terminal window. What
+output does the program produce? Can you explain why it produces this output?
+The key to understanding this segment of source code is to notice that the
+conditional logic in lines `1` through `4` use a programmer's decimal
+approximation of $\frac{1}{3}$ while lines `5` through `8` use the fraction
+itself.  What does this output tell you about the difference between `.33333`
+and `(1/3)` in the Python language?
 
 ```python linenums="1"
-if value % 2 == 0:
-    return "even"
+if .33333 + .33333 + .33333 == 1:
+    print(".33333 + .33333 + .33333 is equal to 1")
 else:
-    return "odd"
+    print(".33333 + .33333 + .33333 is not equal to 1")
+if (1/3) + (1/3) + (1/3) == 1:
+    print("1/3 + 1/3 + 1/3 is equal 1")
+else:
+    print("1/3 + 1/3 + 1/3 is not equal 1")
 ```
 
 The second Python program is called `floating-point-confusion.py` because it
