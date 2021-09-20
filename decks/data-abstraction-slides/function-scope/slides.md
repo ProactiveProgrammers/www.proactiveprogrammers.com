@@ -257,7 +257,7 @@ What are the benefits of a good software design?
 <uim-repeat class="text-6xl ml-8 mt-6 text-blue-600" />
 
 <div class="text-5xl font-bold mt-8 ml-4">
-Exhaustive enumeration
+Enable code reuse
 </div>
 
 </div>
@@ -271,7 +271,7 @@ Exhaustive enumeration
 <uim-layer-group class="text-6xl ml-8 mt-6 text-blue-600" />
 
 <div class="text-5xl font-bold mt-8 ml-4">
-Bisection search
+Support software quality
 </div>
 
 </div>
@@ -283,8 +283,8 @@ Bisection search
 <div class="flex row">
 
 <div class="text-3xl font-bold mt-8 ml-4">
-Both approaches can compute approximate solutions to numerical computations
-like primality testing
+It is often possible to build a program with a poor design! Improving it often
+enhances other program characteristics.
 </div>
 
 </div>
@@ -300,7 +300,7 @@ like primality testing
 <div class="flex row">
 
 <div class="text-7xl text-orange-600 font-bold mt-5 ml-4 mb-4">
-What are the trade-offs of these approaches?
+What are the trade-offs of a good design?
 </div>
 
 </div>
@@ -312,21 +312,7 @@ What are the trade-offs of these approaches?
 <mdi-alert-octagram class="text-6xl ml-8 mt-6 text-blue-600" />
 
 <div class="text-3xl font-bold mt-10 ml-4">
-Exhaustive enumeration is easier to implement
-</div>
-
-</div>
-
-</div>
-
-<div v-click>
-
-<div class="flex row">
-
-<mdi-alert-octagram class="text-6xl ml-8 mt-6 text-blue-600" />
-
-<div class="text-3xl font-bold mt-10 ml-4">
-Bisection search tends to be faster than exhaustive
+Obvious designs may take less time to implement
 </div>
 
 </div>
@@ -340,7 +326,21 @@ Bisection search tends to be faster than exhaustive
 <mdi-alert-octagram class="text-6xl ml-8 mt-6 text-blue-600" />
 
 <div class="text-3xl font-bold mt-10 ml-4">
-Bisection search is often harder to implement
+Thoughtful designs take extra time to conceive
+</div>
+
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<mdi-alert-octagram class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+Strategic versus tactical software design
 </div>
 
 </div>
