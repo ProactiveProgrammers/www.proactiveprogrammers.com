@@ -159,26 +159,300 @@ def abs(n):
 
 ---
 
-# Investigating Python and Mathematics
+# Using Newton's Method in a Function
+
+```python {all}
+def sqrt(num: int, tol: float):
+    guess = 1.0
+    while abs(num - guess*guess) > tol:
+        guess = guess -
+        (guess*guess - num)/(2*guess)
+    return guess
+```
+
+- The `sqrt` function calculates the square root of `num`
+
+- What is the meaning of `num:int` and `tol:float`?
+
+- What are the benefits of defining this as a function?
+
+- How could we test the `sqrt` function using Pytest?
+
+---
+
+# Recursive Functions in Python
+
+```python
+def factorial(number: int):
+    if number == 1:
+        return 1
+    return number * factorial(number - 1)
+num = 5
+print("The factorial of " + str(num) +
+        " is " + str(factorial(num)))
+```
+
+<div class="mt-10">
+
+- The recursive `factorial` function calls itself!
+
+- How does this function ever stop executing? 🤔
+
+- What are the benefits to using recursive functions?
+
+</div>
+
+---
+
+# Recursive Factorial Function
+
+-   As an equation:
+    $n! = n \times n-1 \times n-2 \times \ldots \times 1$
+
+-   What are the **parts** of a recursive function in Python?
+
+    -   Defined by **cases** using conditional logic
+
+    -   A function definition that **calls itself**
+
+    -   A recursive call that makes progress to a **base case**
+
+    -   A **base case** that **stops** the **recursive function calls**
+
+-   Repeatedly perform an operation through function calls
+
+-   What would happen if you input a **negative number**?
+
+-   How could you write this function with **iteration**?
+
+---
+
+# Finding Parts of Recursive Functions
+
+```python
+def factorial(number: int):
+    if number == 1:
+        return 1
+    return number * factorial(number - 1)
+
+num = 5
+print("The factorial of " + str(num) +
+        " is " + str(factorial(num)))
+```
+
+- Where is the base case?
+
+- Where is the recursive case?
+
+- How does this function make progress to the base case?
+
+---
+
+[//]: # (Slide Start {{{)
+
+# Higher-Order Functions
+
+<div class="ml-1">
+
+```python {all|1-4|6-8|all}
+def square(number: int):
+    print(f"Called square({number})")
+    print(f"  returning {number*number}")
+    return number * number
+
+def call_twice(f, number: int):
+    print(f"Calling twice {f} with number {number}")
+    return f(f(number))
+```
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<div class="text-3xl font-bold mt-8 ml-4">
+Higher-order functions can accept and call functions as their input! What are the benefits of this function type?
+</div>
+
+</div>
+
+</div>
+
+[//]: # (Slide End }}})
+
+---
+
+# Understanding Higher-Order Functions
 
 <v-clicks>
 
--   How do you pick between the `for` and `while` loops?
+-   You can pass a **function** as an **argument** to a **function**!
 
--   Program for the root finding of a quadratic equation:
+-   The behavior of **higher-order** functions in Python:
 
-    -   **Q1**: What does it mean if a number is **imaginary**?
+    -   **Step 1**: `square` is a function that computes and returns
+        $x^2$
 
-    -   **Q2**: What happens if the **root** of the equation is **imaginary**?
+    -   **Step 2**: `call_twice` is a function that calls a function `f`
+        twice
 
-    -   **Q3**: How do **tests** use **assertions** for **floating point** values?
+    -   **Step 3**: First, `call_twice` calls `f` with ` number`
 
-    -   **Q4**: How can you **confirm** that a function **works correctly**?
+    -   **Step 4**: Then, `call_twice` calls `f` with ` f(number)`
 
-    -   **Q5**: How do you know when you have **tested enough**?
+    -   **Step 5**: Finally, `call_twice` returns result of
+        ` f(f(number))`
 
--   Can you translate the root finding equation into a complete Python program
-with a command-line interface? Can you ensure its correctness? Can you follow
-industry standards for comments, format, and testing?
+-   Can you predict the output of the `call_twice` function? How would
+    you test the `call_twice` function? Can you express it differently?
+
+</v-clicks>
+
+---
+
+# How to Call Higher-Order Function
+
+```python {all}
+num = 5
+result = call_twice(square, num)
+print("Calling the square twice with " +
+      str(num) + " is " + str(result))
+
+num = 5
+result = num ** 4
+print("Computation of twice square is "
+      + str(num) + " is " + str(result))
+```
+
+<div class="flex row mt-5">
+
+<mdi-help-box class="text-6xl ml-4 mt-0 text-blue-600" />
+
+<div class="text-4xl text-true-gray-700 font-bold mt-4 ml-4">
+The output of the two print statements?
+</div>
+
+</div>
+
+---
+
+# Lambda Expressions in Python
+
+```python {all}
+square = lambda x: x*x
+num = 5
+result = call_twice(square, num)
+print("Calling square lambda twice " +
+      "with " +
+      str(number) +
+      " is " +
+      str(result))
+```
+
+- Functions are values in the Python programming language
+
+- `square` is an expression that has a function as its value
+
+---
+
+# Understanding Lambda Expressions
+
+<v-clicks>
+
+-   You can define a "function" without an explicit signature!
+
+-   What are benefits of `square = lambda x: x*x` ?
+
+-   What are drawbacks of `square = lambda x: x*x` ?
+
+-  How do decide between function and lambda expression?
+
+- **Use case**: simple-to-implement mathematical function
+
+-   How do you test a lambda function in a Python program?
+
+-   Implement $n! = n \times n-1 \times n-2 \times \ldots \times 1$ as
+    lambda?
+
+<div class="flex row">
+
+<mdi-help-box class="text-6xl ml-4 mt-0 text-blue-600" />
+
+<div class="text-4xl text-true-gray-700 font-bold mt-4 ml-4">
+Questions about using Lambda expressions?
+</div>
+
+</div>
+
+</v-clicks>
+
+---
+
+# Computing the Arithmetic Mean
+
+```python
+def compute_mean(numbers):
+    s = sum(numbers)
+    N = len(numbers)
+    mean = s / N
+    return mean
+numbers = [5,1,7,99,4]
+print(str(compute_mean(numbers)))
+```
+
+<div class="mt-8">
+
+- How do we compute the **mean** of a list of numbers?
+
+- How do we compute **summary statistics** of a list of numbers?
+
+- What type of function? Recursive? Iterative? Lambda?
+
+</div>
+
+---
+
+# Type Hints for Function Parameters
+
+```python
+from typing import List
+
+def compute_mean(numbers: List):
+    s = sum(numbers)
+    N = len(numbers)
+    mean = s / N
+    return mean
+```
+
+- How is this function different from the previous one?
+
+- What are the benefits of adding type hints to parameters?
+
+- What is currently left out of this function signature?
+
+---
+
+# Implementing and Testing Functions
+
+<v-clicks>
+
+-   How do you pick between the **different types** of **functions**?
+
+-   Python functions to perform statistical analysis of data:
+
+    -   **Q1**: How do you compute the **median** of a list of numbers?
+
+    -   **Q2**: How do you compute the **mode** of a list of numbers?
+
+    -   **Q3**: How do you compute a **frequency table** of a list of
+        numbers?
+
+    -   **Q4**: How do you compute the **range** of a list of numbers?
+
+    -   **Q5**: How do you compute the **variance** and **standard deviation**?
+
+-   Can you translate the mathematical descriptions of these summary statistics
+to Python programs? Can you ensure their correctness with testing?
 
 </v-clicks>
