@@ -121,15 +121,16 @@ def calculate_quadratic_equation_roots(
 ) -> Tuple[Union[float, complex], Union[float, complex]]:
 ```
 
-The type annotations for this function suggest that each of its three inputs are
-variables of type `float`. The notation `Union[float, complex]` means that one
-of the outputs of `calculate_quadratic_equation_roots` can either be a
-floating-point value of type `float` or an imaginary number of type `complex`.
-The complete annotation of `Tuple[Union[float, complex], Union[float, complex]]`
-means that the return value of `calculate_quadratic_equation_roots` will be a
-two-tuple of values, with each component of the two-tuple being either a `float`
-or a `complex` number. Ultimately, this function should return values for
-`x_one` and `x_two` according to the following equations:
+This function's type annotations on line `2` suggest that each of its three
+inputs are variables of type `float`. On line `3`, the notation `Union[float,
+complex]` means that one of the outputs of `calculate_quadratic_equation_roots`
+can either be a floating-point value of type `float` or an imaginary number of
+type `complex`. The complete annotation of `Tuple[Union[float, complex],
+Union[float, complex]]` means that the return value of
+`calculate_quadratic_equation_roots` will be a two-tuple of values, with each
+component of the two-tuple being either a `float` or a `complex` number. This
+function should return values for `x_one` and `x_two` according to the following
+equations:
 
 $$
 x_1=\frac{-b+\sqrt{b^2-4ac}}{2a}
