@@ -50,8 +50,8 @@ terminal window and observe that the programs produces the following output:
 
 Does the Python program produce the same output as the quadratic formula
 calculator site suggests it should? If it does, then try to run the program with
-different inputs by typing `poetry run python rootfinder --a 1 --b 1 --c 1`. In
-this case, your program should produce the following output:
+different inputs by typing `poetry run rootfinder --a 1 --b 1 --c 1`. In this
+case, your program should produce the following output:
 
 ```shell
 ⭐ Calculating the roots of a quadratic equation with:
@@ -115,7 +115,7 @@ Alternatively, running the program with a command like `poetry run rootfinder
 required source code does not yet exist inside of the `rootfinder` program. One
 function that you need to implement is specified by the following signature.
 
-```python
+```python linenums="1"
 def calculate_quadratic_equation_roots(
     a: float, b: float, c: float
 ) -> Tuple[Union[float, complex], Union[float, complex]]:
@@ -142,7 +142,7 @@ $$
 To provide a command-line interface to your program, you should also implement a
 main function that has the following signature:
 
-```python
+```python linenums="1"
 def main(
     a: float = typer.Option(1),
     b: float = typer.Option(2),
@@ -150,9 +150,9 @@ def main(
 ):
 ```
 
-Notably, this function signature indicates that the `rootfinder` program accepts
-as input three parameters called `a`, `b`, and `c` that respectively have
-default values of `1`, `2`, and `2`. This means that if you run `poetry run
+This function signature shows that `rootfinder` accepts as input three
+parameters called `a`, `b`, and `c` that respectively have default values of
+`1`, `2`, and `2`, as seen on lines `2` through `4`. If you run `poetry run
 rootfinder` if should produce this output:
 
 ```shell
