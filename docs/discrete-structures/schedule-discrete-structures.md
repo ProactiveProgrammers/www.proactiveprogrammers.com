@@ -13,6 +13,11 @@
 - All written content in and tutorials referenced by the list of [proactive
   technical skills](/technical-skills/introduction-technical-skills).
 
+### Schedule
+
+- **Start**: August 24, 2021
+- **End**: September 2, 2021
+
 ## Making Connections
 
 ### Technical Question
@@ -26,7 +31,7 @@
 - Chapters 1 and 2 of *Programming and Mathematical Thinking*
 - Check out the [course slides](/slides/discrete-structures/making-connections/) for a detailed investigation of these chapters!
 
-???+ note "Technical Concept Review"
+???+ note "Technical Concepts"
 
     - **Mapping**: set of ordered pairs in which no two first elements are the same
     - **Function**: a process that takes input, performs a computation, and produces output
@@ -48,7 +53,7 @@
 - Chapter 1 and Appendix B of *Doing Math with Python*
 - Check out the [course slides](/slides/discrete-structures/programming-constructs/) for a detailed investigation of these chapters!
 
-???+ note "Technical Concept Review"
+???+ note "Technical Concepts"
 
     - **Assignment Statement**: an operation to store a value in a variable
     - **Iteration Construct**: a structure to support the repeated execution of
@@ -74,7 +79,7 @@
 - Chapter 3 of *Doing Math with Python*
 - Check out the [course slides](/slides/discrete-structures/python-functions/) for a detailed investigation of these chapters!
 
-???+ note "Technical Concept Review"
+???+ note "Technical Concepts"
 
     - **Python Function**: subroutine or procedure that accepts input, performs
       steps, and produces output
