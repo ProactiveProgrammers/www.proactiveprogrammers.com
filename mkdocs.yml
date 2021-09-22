@@ -33,7 +33,7 @@ theme:
       # Note that this option prohibits the rendering of mathematics;
       # there was some evidence that this was not the case but now
       # it seems likely that using "instant" does break MathJax rendering
-      # - navigation.instant
+      - navigation.instant
       # Display tabs for main sections at top of page
       - navigation.tabs
       # Automatically expand the navigation for each section
@@ -106,12 +106,12 @@ markdown_extensions:
 # Install plugins
 plugins:
   - search
-  # - mermaid2
+  - mermaid2
   # Minify the HTML source code to support faster downloads
-  # - minify:
-  #     minify_html: true
-  #     htmlmin_opts:
-  #         remove_comments: true
+  - minify:
+      minify_html: true
+      htmlmin_opts:
+          remove_comments: true
   # Render a PDF of the site for referencing in right-side box,
   # ensuring that PDF rendering only takes place when the
   # environment variable ENABLE_PDF_EXPORT is set to 1.
@@ -169,6 +169,7 @@ extra_css:
 
 # Load the JavaScript needed to support MathJax rendering inside of site
 extra_javascript:
+  - javascripts/config.js
   - https://polyfill.io/v3/polyfill.min.js?features=es6
   - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
   # - https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js
