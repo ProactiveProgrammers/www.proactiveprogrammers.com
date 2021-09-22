@@ -13,11 +13,6 @@
 - All written content in and tutorials referenced by the list of [proactive
   technical skills](/technical-skills/introduction-technical-skills).
 
-### Schedule
-
-- **Start**: August 24, 2021
-- **End**: September 2, 2021
-
 ## Making Connections
 
 ### Technical Question
@@ -91,3 +86,30 @@
       the values and divide by the list's size
     - **Median Value**: for a list of values sorted in increasing order, the
       middle value in the list
+
+## Learning Opportunities
+
+Interested in learning more about any of the topics on this schedule? If you
+are, then make sure to connect with members of the [proactive
+community](../../proactive-community/introduction-proactive-community) for more
+learning opportunities. Remember, this course emphasizes building mastery of the
+course's [learning
+objectives](../learning-objectives/learning-objectives-discrete-structures) through
+"learning by doing", as explained in the description of [proactive
+learning](../../proactive-learning/introduction-proactive-learning). As such,
+you can best understand the content on this schedule by completing all the
+source code surveys, programming projects, and engineering efforts!
+
+??? note "Schedule Review"
+    - **Software Operation**
+        - **Start**: August 24, 2021
+        - **End**: September 3, 2021
+    - **Making Connections**
+        - **Start**: September 6, 2021
+        - **End**: September 10, 2021
+    - **Programming Constructs**
+        - **Start**: September 13, 2021
+        - **End**: September 17, 2021
+    - **Python Functions**
+        - **Start**: September 20, 2021
+        - **End**: September 24, 2021
