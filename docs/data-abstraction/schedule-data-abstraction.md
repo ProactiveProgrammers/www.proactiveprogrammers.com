@@ -13,6 +13,7 @@
 - All written content in and tutorials referenced by the list of [proactive
   technical skills](/technical-skills/introduction-technical-skills).
 
+
 ## Python Foundations
 
 ### Technical Question
@@ -27,7 +28,7 @@
 - Chapters 1 and 2 of *Introduction to Computation and Programming Using Python*
 - Check out the [course slides](/slides/data-abstraction/python-foundations/) for a detailed investigation of these chapters!
 
-???+ note "Technical Concept Review"
+???+ note "Technical Concepts"
 
     - **Syntax**: the structure of a programming language that defines what
       characters and symbols are well formed
@@ -54,7 +55,7 @@
 - Chapter 3 of *Introduction to Computation and Programming Using Python*
 - Check out the [course slides](/slides/data-abstraction/numerical-computation/) for a detailed investigation of these chapters!
 
-???+ note "Technical Concept Review"
+???+ note "Technical Concepts"
 
     - **Numerical Approximation**: an alternative to the exact value for a
       function that is close enough to be useful
@@ -80,7 +81,7 @@
 - Chapter 4 of *Introduction to Computation and Programming Using Python*
 - Check out the [course slides](/slides/data-abstraction/function-scope/) for a detailed investigation of these chapters!
 
-???+ note "Technical Concept Review"
+???+ note "Technical Concepts"
 
     - **Function Specification**: the assumptions and guarantees in the contract
       between function creator and caller
@@ -92,3 +93,30 @@
       not work and then fixing it
     - **Higher-Order Function**: general-purpose functions for problem solving
       that accept functions as input
+
+## Learning Opportunities
+
+Interested in learning more about any of the topics on this schedule? If you
+are, then make sure to connect with members of the [proactive
+community](../../proactive-community/introduction-proactive-community) for more
+learning opportunities. Remember, this course emphasizes building mastery of the
+course's [learning
+objectives](../learning-objectives/learning-objectives-data-abstraction) through
+"learning by doing", as explained in the description of [proactive
+learning](../../proactive-learning/introduction-proactive-learning). As such,
+you can best understand the content on this schedule by completing all the
+source code surveys, programming projects, and engineering efforts!
+
+??? note "Schedule Review"
+    - **Software Operation**
+        - **Start**: August 24, 2021
+        - **End**: September 3, 2021
+    - **Python Foundations**
+        - **Start**: September 6, 2021
+        - **End**: September 10, 2021
+    - **Numerical Computation**
+        - **Start**: September 13, 2021
+        - **End**: September 17, 2021
+    - **Function Scope**
+        - **Start**: September 20, 2021
+        - **End**: September 24, 2021
