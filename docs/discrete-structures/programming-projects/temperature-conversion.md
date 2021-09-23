@@ -172,57 +172,34 @@ If your program has all of the anticipated functionality, you can run the
 command `poetry run task test` and see that the test suite produces output like
 this:
 
-```shell
-collected 5 items
+```
+tests/test_convert.py ........
 
-tests/test_converter.py .....
+============================ 8 passed in 0.02s =============================
 ```
 
-You will know that the `compute_converter` function correctly returns `0` when all
-of the inputs are `0` if the following test case passes:
+The `test_convert` test suite contains test cases for all of the functions
+mentioned in the previous section. Even if the test cases for
+`convert_fahrenheit_to_celsius` and `convert_celsius_to_fahrenheit` pass as
+expected it is possible that those for `convert_temperature` make not if the way
+in which it calls the specific temperature conversion functions is not correct.
+When one or more test cases fail, make sure you check to see which ones are
+failing so that you can better know where to start the debugging process! The
+following test case shows how to test `convert_temperature` when lines `3` and
+`4` configure `convert_temperature` to convert from Celsius to Fahrenheit. After
+setting the input `temperature` to `0` on line `1` and calling the
+`convert_temperature` function on line `5`, the test case checks on line `6`
+that the conversion function produced the temperature value of `32`, failing the
+test if that is not the case.
 
 ```python linenums="1"
-def test_converter_computation_five_numbers_all_zero():
-    """Confirm that it is possible to converter together five zero numbers."""
-    number_list = """0
-        0
-        0
-        0
-        0"""
-    converter_value = main.compute_converter(number_list)
-    assert converter_value == 0
+def test_convert_celsius_to_fahrenheit_wrapper():
+    temperature = 0
+    from_unit = units.TemperatureUnitOfMeasurement.celsius
+    to_unit = units.TemperatureUnitOfMeasurement.fahrenheit
+    converted_temperature = convert.convert_temperature(temperature, from_unit, to_unit)
+    assert converted_temperature == 32
 ```
-
-Lines `3` through `7` of this test case define the `number_list` variable as one
-that contains a list of `0` values separated by newlines. The purpose of
-`number_list` is to represent the string that would arrive from the input file
-if a person ran the `converter` program on the command-line. Line `8` of this test
-case calls the `compute_converter` function with the `number_list` as the input
-and stores the output in a variable called `converter_value`. Finally, line `9`
-confirms that `compute_converter` calculates the converter of the input as `0`.
-
-You will know that the `compute_converter` function correctly returns `-1` when
-there is no input to the function if the follow test case passes:
-
-```python linenums="1"
-def test_converter_computation_no_provided_numbers():
-    """Confirm that it is possible to converter together no numbers."""
-    number_list = ""
-    converter_value = main.compute_converter(number_list)
-    assert converter_value == -1
-```
-
-On line `3` in the above source code, this test defines `number_list` as an
-empty string, denoted by `""`. Finally, on line `4` it calls the
-`compute_converter` function with `number_list` as its input and on line `5` it
-confirms that the computed `converter_value` is `-1`, as required by the
-specification of the function under test.
-
-Once all of the test cases pass, you can run the all of the automated checks by
-typing `poetry run task all` in your terminal and confirming that there are no
-errors in the output. If all of the checks pass, then you can run the program
-with the command `poetry run converter --dir input --file numbers.txt` and then
-confirm that it produces the expected output, including the converter of `-0.95`.
 
 ???+ note
 
