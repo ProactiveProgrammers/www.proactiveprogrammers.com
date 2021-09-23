@@ -33,26 +33,37 @@ project!
 ## Expected Output
 
 This project invites you to implement a number comparison program called
-`compare`. The program accepts through its command-line three integer values. If
-you run the program correctly, it will accept as input the three numbers and
-return the largest odd number as long as at least one of the numbers is odd. In
-the situation in which none of the numbers are odd, it will return the smallest
-number. If you run the program with the command `poetry run compare --first 4
---second 10 --third 21` it produces this output:
+`squareroot`. The program accepts through its command-line a single integer
+value. If you run the program correctly, it will accept as input the single
+number numbers and return the largest odd number as long as at least one of the
+numbers is odd. In the situation in which none of the numbers are odd, it will
+return the smallest number. If you run the program with the command `poetry run
+squareroot --number 25000 --approach exhaustive --profile` it produces this
+output:
 
 ```shell
-✨ Comparing the numbers 4, 10, and 21!
+🧮 Attempting to calculate the square root of 25000!
 
-Looking for the largest odd number ...
-... but if there is no odd number, then ...
-... looking for the smallest of the three!
+✨ Was this search for the square root successful? Yes
+✨ How many guesses did it take to compute the solution? 1581139
+✨ The best approximation for the square root of 25000 is 158.1139000041253
 
-Okay, I found the number 21!
+🔬 Here's profile data from performing square root computation on 25000!
 
-😂 It was nice to find an odd number!
+  _     ._   __/__   _ _  _  _ _/_   Recorded: 10:25:39  Samples:  507
+ /_//_/// /_\ / //_// / //_'/ //     Duration: 0.508     CPU time: 0.508
+/   _/                      v4.0.3
+
+Program: squareroot --number 25000 --approach exhaustive --profile
+
+0.507 primality  squareroot/main.py:106
+└─ 0.507 compute_square_root_exhaustive  squareroot/main.py:36
+   ├─ 0.396 [self]
+   └─ 0.111 abs  <built-in>:0
+         [2 frames hidden]  <built-in>
 ```
 
-Alternatively, if you run the program with the command `poetry run compare
+Alternatively, if you run the program with the command `poetry run squareroot
 --first 4 --second 10 --third 20` then it produces output like:
 
 ```shell
@@ -68,22 +79,22 @@ Okay, I found the number 4!
 ```
 
 If you run the program without specifying one of the required input numbers by
-using, for instance, the command `poetry run compare --first 4 --second 10` then
+using, for instance, the command `poetry run squareroot --first 4 --second 10` then
 it will not perform number comparison and instead produce an error message like
 the following:
 
 ```shell
-Usage: compare [OPTIONS]
-Try 'compare --help' for help.
+Usage: squareroot [OPTIONS]
+Try 'squareroot --help' for help.
 
 Error: Missing option '--third'.
 ```
 
 To learn more about how to run this program, you can type the command `poetry
-run compare --help` to see the following output showing how to use `compare`:
+run squareroot --help` to see the following output showing how to use `squareroot`:
 
 ```shell
-Usage: compare [OPTIONS]
+Usage: squareroot [OPTIONS]
 
   Perform number comparison to find the largest odd number.
 
@@ -100,23 +111,23 @@ Options:
 
 Please note that the provided source code does not contain all of the
 functionality to produce this output. As explained in the next section, you are
-invited to add all of the missing features and ensure that `compare` produces
+invited to add all of the missing features and ensure that `squareroot` produces
 the expected output. Once the program is working correctly, it should produce
 all of the expected output described in this section.
 
 ???+ note
 
-    Don't forget that if you want to run the `compare` program you must use your
+    Don't forget that if you want to run the `squareroot` program you must use your
     terminal window to first go into the GitHub repository containing this
-    project and then go into the `compare` directory that contains the project's
+    project and then go into the `squareroot` directory that contains the project's
     source code. Finally, remember that before running the program you must run
     `poetry install` to add the dependencies.
 
 ## Adding Functionality
 
-If you study the file `compare/compare/main.py` you will see that it has many
+If you study the file `squareroot/squareroot/main.py` you will see that it has many
 `TODO` markers that designate the parts of the program that you need to
-implement before `compare` will produce correct output. If you run the provided
+implement before `squareroot` will produce correct output. If you run the provided
 test suite with the command `poetry run task test` you will see that it produces
 output like the following:
 
@@ -127,19 +138,19 @@ output like the following:
 >       assert minimum == 3
 E       assert None == 3
 
-tests/test_compare.py:16: AssertionError
+tests/test_squareroot.py:16: AssertionError
 ```
 
-Alternatively, running the program with a command like `poetry run compare
---first 4 --second 10 --third 21` will not produce any output because `compare`
+Alternatively, running the program with a command like `poetry run squareroot
+--first 4 --second 10 --third 21` will not produce any output because `squareroot`
 is missing this functionality! As you complete the tasks near each of the `TODO`
 markers, all while following the relevant instructions in the description of the
 [technical skills](/proactive-skills/introduction-proactive-skills/), you should
-have a version of `compare` that produces all of the expected output.
+have a version of `squareroot` that produces all of the expected output.
 
-The `compare` program uses the `get_minimum` function to identify the minimum of
-three int values. You can read a test case in the `test_compare.py` test suite
-to learn more about how `compare`'s `get_minimum` function should work. For
+The `squareroot` program uses the `get_minimum` function to identify the minimum of
+three int values. You can read a test case in the `test_squareroot.py` test suite
+to learn more about how `squareroot`'s `get_minimum` function should work. For
 instance, the following test case confirms that when `get_minimum` receives the
 inputs `3`, `4`, and `5` then it should return the value of `3`, regardless of
 the order in which the values are input to the function. Studying the source
@@ -159,8 +170,8 @@ def test_find_minimum():
 ```
 
 If the `get_minimum` function works correctly, then you can start to implement
-and test the `get_largest_odd` function in the `compare` program! You can read
-some test cases in `test_compare.py` test suite to learn more about how
+and test the `get_largest_odd` function in the `squareroot` program! You can read
+some test cases in `test_squareroot.py` test suite to learn more about how
 `get_largest_odd` should work. For example, the following test case confirms
 that when `get_largest_odd` receives the values `21`, `4`, and `17` it will
 return `21`. In contrast, if it receives the inputs `21`, `4`, and `117` it will
@@ -177,12 +188,12 @@ def test_largest_odd_can_find_one():
     assert found is True
 ```
 
-In summary, you should implement the following functions for the `compare`
+In summary, you should implement the following functions for the `squareroot`
 program:
 
 - `def get_minimum(first: int, second: int, third: int) -> int`
 - `def get_largest_odd(first: int, second: int, third: int) -> Tuple[int, bool]`
-- `def compare(first: int = typer.Option(...), second: int = typer.Option(...),
+- `def squareroot(first: int = typer.Option(...), second: int = typer.Option(...),
   third: int = typer.Option(...)) -> None`
 
 It is worth noting that the `get_largest_odd` function returns two values in the
@@ -199,11 +210,11 @@ it includes the following section that specifies different executable tasks:
 
 ```toml
 [tool.taskipy.tasks]
-black = { cmd = "black compare tests --check", help = "Run the black checks for source code format" }
-flake8 = { cmd = "flake8 compare tests", help = "Run the flake8 checks for source code documentation" }
-mypy = { cmd = "poetry run mypy compare", help = "Run the mypy type checker for potential type errors" }
-pydocstyle = { cmd = "pydocstyle compare tests", help = "Run the pydocstyle checks for source code documentation" }
-pylint = { cmd = "pylint compare tests", help = "Run the pylint checks for source code documentation" }
+black = { cmd = "black squareroot tests --check", help = "Run the black checks for source code format" }
+flake8 = { cmd = "flake8 squareroot tests", help = "Run the flake8 checks for source code documentation" }
+mypy = { cmd = "poetry run mypy squareroot", help = "Run the mypy type checker for potential type errors" }
+pydocstyle = { cmd = "pydocstyle squareroot tests", help = "Run the pydocstyle checks for source code documentation" }
+pylint = { cmd = "pylint squareroot tests", help = "Run the pylint checks for source code documentation" }
 test = { cmd = "pytest -x -s", help = "Run the pytest test suite" }
 test-silent = { cmd = "pytest -x --show-capture=no", help = "Run the pytest test suite without showing output" }
 all = "task black && task flake8 && task pydocstyle && task pylint && task mypy && task test"
@@ -215,7 +226,7 @@ automatically run all of the linters designed to check the Python source code in
 your program and its test suite. You can also use the command `poetry run task
 black` to confirm that your source code adheres to the industry-standard format
 defined by the `black` tool. If it does not adhere to the standard then you can
-run the command `poetry run black compare tests` and it will automatically
+run the command `poetry run black squareroot tests` and it will automatically
 reformat the source code.
 
 Along with running tasks like `poetry run task lint`, you can leverage the
@@ -223,7 +234,7 @@ relevant instructions in the [technical
 skills](/proactive-skills/introduction-proactive-skills/) to enter into a Docker
 container and run `gradle grade` to check your work. If `gradle grade` shows
 that all checks pass, you will know that you made progress towards correctly
-implementing and writing about `compare`.
+implementing and writing about `squareroot`.
 
 If your program has all of the anticipated functionality, you can run the
 command `poetry run task test` and see that the test suite produces output like
@@ -232,7 +243,7 @@ this:
 ```shell
 collected 4 items
 
-tests/test_compare.py ....
+tests/test_squareroot.py ....
 ```
 
 ???+ note
@@ -252,7 +263,7 @@ Once you have finished all of the previous technical tasks, you can use a text
 editor to answer all of the questions in the `writing/reflection.md` file. For
 instance, you should provide the output of the Python program in a fenced code
 block, explain the meaning of the Python source code segments that you
-implemented and tested, compare and contrast different implementations of the
+implemented and tested, squareroot and contrast different implementations of the
 Python function called `get_largest_odd`, and answer all of the other questions
 about your experiences in completing this project.
 
