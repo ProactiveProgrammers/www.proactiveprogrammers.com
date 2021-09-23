@@ -72,8 +72,8 @@
 
 ### Technical Question
 
-- How can I use Python's scoping rules and principle of abstraction to create
-  modularized and/or higher-order functions that are easy to understand,
+- How can I use Python's scoping rules and the principle of abstraction to
+  create modularized and/or higher-order functions that are easy to understand,
   implement, test, and maintain?
 
 ### Reading Assignments
