@@ -124,11 +124,11 @@ similar to that shown in this section.
 
 ???+ note
 
-    Don't forget that if you want to run the `squareroot` program you must use your
-    terminal window to first go into the GitHub repository containing this
-    project and then go into the `squareroot` directory that contains the project's
-    source code. Finally, remember that before running the program you must run
-    `poetry install` to add the dependencies.
+    Don't forget that if you want to run the `squareroot` program you must use
+    your terminal to first go into the GitHub repository containing this project
+    and then go into the `squareroot` directory that houses the project's code.
+    Finally, remember that before running the program you must run `poetry
+    install` to add the dependencies.
 
 ## Adding Functionality
 
