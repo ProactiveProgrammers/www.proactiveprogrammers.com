@@ -51,18 +51,17 @@ else:
 ```
 
 The second Python program is called `demonstrate-variable-limitations.py`
-because it uses the exponentiation operator, written as `**`, 
-
-illustrates some of the initially confusing aspects of using Python's `float`
-data type to store decimal values. To understand this program better, it is
-important to note that lines 
-
-
-You can run
-this program by typing `python floating-point-confusion.py` in your terminal.
-
-Can you explain why it produces this output and what it reveals about the
-challenges of using float-point numbers in arithmetic statements?
+because it uses the exponentiation operator, written as `**`, to raise different
+numbers to different powers. As shown on line `1` in the following excerpt from
+this program, it is feasible to efficiently perform the computation `2**2**8`,
+written as $2^{2^8}$ using mathematical notation. Line `3` also shows that it is
+possible to efficiently compute the value of $2^{2^{10}}$ using the Python
+expression `2**2**10`. Although not shown in the following source code segment,
+the `demonstrate-variable-limitations.py` script also has commented-out source
+code that performs the computation `2**2**100`. If you un-comment this source
+code and run the program by typing `python floating-point-confusion.py` what
+does the output tell you about the challenges of efficiently performing
+exponentiation?
 
 ```python linenums="1"
 feasible_number = 2**2**8
