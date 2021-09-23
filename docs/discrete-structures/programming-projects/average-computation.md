@@ -109,9 +109,10 @@ E       assert 0 == (((((-72 + 29) + 61) + -42) + 44) / 5)
 ```
 
 Note that this test case fails because of the fact that, by default, the
-`compute_average` function returns 0 instead of the correct arithmetic mean of
+`compute_average` function returns `0` instead of the correct arithmetic mean of
 the numbers specified in the `number_list` variable. You will need to add source
-code to the `compute_average` function so that it works correctly!
+code to the `compute_average` function so that it correctly calculates the
+average of the input values!
 
 In summary, you should implement the following functions for the `average`
 program:
@@ -128,7 +129,7 @@ user-provided file (i.e., `numbers.txt`) does not have any numbers inside of it!
 If there were no numbers in the file, then the function can return `-1` to
 indicate that it did not compute an average. As you are finishing your
 implementation of the `compute_average` function, you should also ensure that,
-if all of the numbers inside of the file are 0, then it returns an average of 0.
+if all of the numbers inside of the file are `0`, then it returns an average of `0`.
 
 ## Running Checks
 
