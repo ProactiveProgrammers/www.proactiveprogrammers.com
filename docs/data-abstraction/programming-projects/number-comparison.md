@@ -256,10 +256,10 @@ about your experiences in completing this project.
 
 ## Project Assessment
 
-Since this project is an engineering effort, it is aligned with the **applying**
-and **analyzing** levels of [Bloom's
-taxonomy](proactive-learning/blooms-taxonomy/). You can learn more about how a
-proactive programming expert will assess your work by examining the [assessment
+Since this is a programming project, it is aligned with the **applying** and
+**analyzing** levels of [Bloom's taxonomy](proactive-learning/blooms-taxonomy/).
+You can learn more about how a proactive programming expert will assess your
+work by examining the [assessment
 strategy](/proactive-learning/assessment-strategy/). From the start to the end
 of this project you may make an unlimited number of reattempts at submitting
 source code and technical writing that meet all aspects of the project's
