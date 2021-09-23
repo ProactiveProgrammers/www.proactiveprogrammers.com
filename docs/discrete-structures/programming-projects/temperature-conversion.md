@@ -131,9 +131,21 @@ elif from_unit.value == "Fahrenheit" and to_unit.value == "Celsius":
 return converted_temperature
 ```
 
-Once you have correctly resolved all of the `TODO` markers in the `converter`
-program, it should produce the expected output described in the previous
-section.
+Once you have correctly resolved all of the `TODO` markers in `converter`, it
+should produce the expected output described in the previous section. You can
+use the following equations to guide your implementation of the
+`convert_fahrenheit_to_celsius` and `convert_celsius_to_fahrenheit` functions.
+Knowing that these equations use $C$ and $F$ to respectively denote the
+temperature in Celsius and Fahrenheit, you can translate them into Python source
+code that correctly performs temperature conversion.
+
+$$
+C = (F-32) \times \frac{5}{9}
+$$
+
+$$
+F = (C \times \frac{9}{5}) + 32
+$$
 
 ## Running Checks
 
