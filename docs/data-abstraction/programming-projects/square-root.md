@@ -145,15 +145,14 @@ should implement the following functions for the `squareroot` program:
 
 - `def compute_square_root_exhaustive(
     x: int, epsilon: float = 0.01
-) -> Tuple[bool, float, int]:`
+) -> Tuple[bool, float, int]`
+- `def compute_square_root_efficient(
+    x: int, epsilon: float = 0.01
+) -> Tuple[bool, float, int]`
 
-
-It is worth noting that the `get_largest_odd` function returns two values in the
-form of a `Tuple[int, bool]`. The first of this function's output values is the
-`int` result either the largest odd number or the smallest even number. The
-second `bool` value is a Boolean flag to indicate whether it found an odd number
-or not. Specifically, the `get_largest_odd` function should return `True` if it
-found an odd number and return `False` otherwise.
+Importantly, you will notice that both `compute_square_root_efficient` and
+`compute_square_root_exhaustive` accept the same types of inputs and produce the
+same types of outputs.
 
 ## Running Checks
 
