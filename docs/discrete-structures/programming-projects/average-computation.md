@@ -208,6 +208,12 @@ def test_average_computation_no_provided_numbers():
     assert average_value == -1
 ```
 
+On line `3` in the above source code, this test defines `number_list` as an
+empty string, denoted by `""`. Finally, on line `4` it calls the
+`compute_average` function with `number_list` as its input and on line `5` it
+confirms that the computed `average_value` is `-1`, as required by the
+specification of the function under test.
+
 Once all of the test cases pass, you can run the all of the automated checks by
 typing `poetry run task all` in your terminal and confirming that there are no
 errors in the output. If all of the checks pass, then you can run the program
