@@ -108,6 +108,18 @@ functions in the `convert` module:
 - `def convert_fahrenheit_to_celsius(temperature: float) -> float`
 - `def convert_temperature(temperature: float, from_unit: units.TemperatureUnitOfMeasurement, to_unit: units.TemperatureUnitOfMeasurement)`
 
+The first two functions in this listing input a `float` value that respectively
+represents a temperature in Celsius or Fahrenheit and then converts it to a
+`float` representing a respective temperature in Fahrenheit or Celsius. Finally,
+the `converted_temperature` function uses source code as in the following
+segment to first determine what type of temperature conversion the user
+requested and then call the appropriate function. For instance, lines `3` and
+`4` show that, when the requested temperature conversion is from Celsius to
+Fahrenheit, the `converted_temperature` function will call the
+`convert_celsius_to_fahrenheit` function. Alternatively, lines `6` through `7`
+show that `convert_temperature` calls `convert_fahrenheit_to_celsius` when a
+person requests temperature conversion in the opposite direction.
+
 ```python linenums="1"
 converted_temperature = 0
 # the requested temperature conversion is Celsius --> Fahrenheit
@@ -118,6 +130,10 @@ elif from_unit.value == "Fahrenheit" and to_unit.value == "Celsius":
     converted_temperature = convert_fahrenheit_to_celsius(temperature)
 return converted_temperature
 ```
+
+Once you have correctly resolved all of the `TODO` markers in the `squareroot`
+program, it should produce the expected output described in the previous
+section.
 
 ## Running Checks
 
