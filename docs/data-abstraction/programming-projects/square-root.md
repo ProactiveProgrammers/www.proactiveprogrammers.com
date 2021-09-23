@@ -147,10 +147,6 @@ should implement the following functions for the `squareroot` program:
     x: int, epsilon: float = 0.01
 ) -> Tuple[bool, float, int]:`
 
-- `def get_minimum(first: int, second: int, third: int) -> int`
-- `def get_largest_odd(first: int, second: int, third: int) -> Tuple[int, bool]`
-- `def squareroot(first: int = typer.Option(...), second: int = typer.Option(...),
-  third: int = typer.Option(...)) -> None`
 
 It is worth noting that the `get_largest_odd` function returns two values in the
 form of a `Tuple[int, bool]`. The first of this function's output values is the
