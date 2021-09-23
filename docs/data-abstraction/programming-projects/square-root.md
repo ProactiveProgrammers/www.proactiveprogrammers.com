@@ -167,9 +167,9 @@ specified on the command-line is `True` or `False`. If `profile` is `True`, then
 the program should use Pyinstrument to measure its execution time, as
 illustrated on lines `3` through `5`. However, if `profile` is `False`, then the
 program should only call the `compute_square_root_efficient` as shown on line
-`7`. As lines `9` through `15` show, the function should take analogous steps,
-calling the `compute_square_root_exhaustive` instead of
-`compute_square_root_efficient`.
+`7`. As lines `9` through `15` show, the function should take analogous steps
+for its `exhaustive` mode, calling the `compute_square_root_exhaustive` instead
+of `compute_square_root_efficient`.
 
 ```python linenums="1"
 if approach.value == SquareRootCalculationingApproach.efficient:
