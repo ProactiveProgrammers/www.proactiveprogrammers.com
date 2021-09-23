@@ -2,19 +2,21 @@
 
 ## Project Goals
 
-This programming project invites you to combine what you learned about the
-basics of Python programming to implement a useful program that compares three
-numbers that are provided as input to a program. Specifically, the program
-should return the largest odd number among the provided inputs, provided that at
-least one of the number is odd. When none of the input values are odd, the
-program should return the smallest of the three provided values. Along with
-adding documentation to the provided source code, you will create your own
-Python functions that use both iteration constructs and conditional logic to
-implement a correct program that passes the test suite and all checks. As you
-enhance your [technical
-skills](/proactive-skills/introduction-proactive-skills/), you will program with
-tools such as VS Code and a terminal window and the Python programming language
-and the Poetry package manager.
+This assignment invites you to implement a program that features multiple
+algorithms for computing the square root of a number. You will implement two
+algorithms that use iteration constructs to approximate the square root of a
+number. For a given step size and a tolerance level saying how close the
+approximation must be, the exhaustive algorithm check if each possible answer is
+within a specified tolerance for the square root's approximation. In contrast,
+the efficient algorithm will use bisection search to rapidly prune the search to
+the best possible approximation of the number's square root. In addition to
+adding source code and documentation to the provided Python files, you will
+conduct an experiment to determine which algorithm is the fastest and estimate
+by how much it is faster. As you enhance your [technical
+skills](/proactive-skills/introduction-proactive-skills/) and explore the
+experimental evaluation of algorithms, you will continue to program with tools
+such as VS Code and a terminal window and the Python programming language and
+the Poetry package manager.
 
 ## Project Access
 
