@@ -84,17 +84,17 @@ Options:
 
 Please note that the provided source code does not contain all of the
 functionality to produce this output. As explained in the next section, you are
-invited to add all of the missing features to ensure that `converter` produces the
-expected output. Once the program is working correctly, it should produce all of
-the expected output described in this section.
+invited to add all of the missing features to ensure that `converter` produces
+the expected output. Once you finish the program, it should produce all of the
+expected output described in this section.
 
 ???+ note
 
-    Don't forget that if you want to run the `converter` program you must use your
+    Recall that if you want to run the `converter` program you must use your
     terminal window to first go into the GitHub repository containing this
-    project and then go into the `converter` directory that contains the project's
-    source code. Finally, remember that before running the program you must run
-    `poetry install` to add the dependencies.
+    project and then go into the `converter` directory that contains the
+    project's source code. Remember that before running the program you must run
+    `poetry install` to add the dependencies!
 
 ## Adding Functionality
 
