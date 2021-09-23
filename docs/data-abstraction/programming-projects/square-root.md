@@ -189,6 +189,12 @@ elif approach.value == SquareRootCalculationingApproach.exhaustive:
         square_root_tuple = compute_square_root_exhaustive(number)
 ```
 
+Once you have correctly resolved all of the `TODO` markers in the `squareroot`
+program, it should produce the expected output described in the previous
+section. With that said, please bear in mind that, when running `squareroot`
+with the `--profile` flag it will produce different profiling data depending on
+the performance of your computer.
+
 ## Running Checks
 
 If you study the source code in the `pyproject.toml` file you will see that
