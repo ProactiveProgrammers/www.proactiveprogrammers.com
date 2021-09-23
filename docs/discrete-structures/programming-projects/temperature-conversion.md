@@ -34,28 +34,16 @@ project!
 This project invites you to implement a number comparison program called
 `converter`. The program accepts through its command-line a file that contains
 integer values encoded as text. If you run the program with the command `poetry
-run converter --dir input --file numbers.txt` it produces this output:
+run converter --from-unit Celsius --to-unit Fahrenheit --temperature 22` it
+produces this output:
 
 ```
-😃 Computing the converter of numbers in a file called input/numbers.txt!
+🧮 Converting from Celsius to Fahrenheit!
 
-😉 Phew, that was hard work!
-
-✨ The converter of the input values is -0.95
+22.00 degrees in Celsius is 71.60 degrees in Fahrenheit
 ```
 
-Although this example shows the `converter` program performing its computation
-with the `numbers.txt` file in the `input` directory, it should work in a
-general-purpose fashion for any text file that contains integer numbers aligned
-in a single row like:
 
-```
--19
--24
--81
-12
-16
-```
 
 To learn more about how to run this program, you can type the command `poetry
 run converter --help` to see the following output showing how to use `converter`:
