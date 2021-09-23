@@ -37,9 +37,9 @@ This project invites you to implement a number comparison program called
 value. If you run the program correctly, it will accept as input the single
 number numbers and return the largest odd number as long as at least one of the
 numbers is odd. In the situation in which none of the numbers are odd, it will
-return the smallest number. If you run the program with the command `poetry run
-squareroot --number 25000 --approach exhaustive --profile` it produces the
-following output:
+return the smallest number. If you use Poetry to run the program with the
+command `poetry run squareroot --number 25000 --approach exhaustive --profile`
+it produces the following output:
 
 ```shell
 🧮 Attempting to calculate the square root of 25000!
@@ -143,16 +143,14 @@ many `TODO` markers that designate the parts of the program that you need to
 implement before `squareroot` will produce correct output. In summary, you
 should implement the following functions for the `squareroot` program:
 
-- `def compute_square_root_exhaustive(
-    x: int, epsilon: float = 0.01
-) -> Tuple[bool, float, int]`
-- `def compute_square_root_efficient(
-    x: int, epsilon: float = 0.01
-) -> Tuple[bool, float, int]`
+- `def compute_square_root_exhaustive(x: int, epsilon: float = 0.01) -> Tuple[bool, float, int]`
+- `def compute_square_root_efficient(x: int, epsilon: float = 0.01) -> Tuple[bool, float, int]`
 
 Importantly, you will notice that both `compute_square_root_efficient` and
 `compute_square_root_exhaustive` accept the same types of inputs and produce the
-same types of outputs.
+same types of outputs. In particular, the parameter called `x` is the number
+whose square root the function will compute and `epsilon` is the tolerance
+parameter describing how close the approximation of `x`'s square root must be.
 
 ## Running Checks
 
