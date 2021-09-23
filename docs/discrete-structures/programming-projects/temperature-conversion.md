@@ -229,10 +229,11 @@ def test_convert_celsius_to_fahrenheit_wrapper():
 Once you have finished all of the previous technical tasks, you can use a text
 editor to answer all of the questions in the `writing/reflection.md` file. For
 instance, you should provide the output of the Python program in a fenced code
-block, explain the meaning of the Python source code segments that you
-implemented and tested, compare and contrast different implementations of the
-Python function called `compute_converter`, and answer all of the other questions
-about your experiences in completing this project.
+block and explain the meaning of the Python source code segments that you
+implemented and tested. Along with answering all the questions about your
+experiences with project, you should explain every function call that occurs
+when running the program with command like `poetry run converter --from-unit
+Fahrenheit --to-unit Celsius --temperature 71.6`.
 
 ## Project Assessment
 
