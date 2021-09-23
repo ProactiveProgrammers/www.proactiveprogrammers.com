@@ -225,7 +225,7 @@ nav:
     - Source Code Surveys:
       - Data Types: discrete-structures/source-code-surveys/data-types.md
     - Programming Projects:
-      - Average Computation: discrete-structures/programming-projects/average-computation.md
+      - Computing Averages: discrete-structures/programming-projects/average-computation.md
     - Engineering Efforts:
       - File Searching: discrete-structures/engineering-efforts/file-searching.md
       - Quadratic Roots: discrete-structures/engineering-efforts/quadratic-roots.md
