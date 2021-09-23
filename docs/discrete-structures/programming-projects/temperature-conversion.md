@@ -98,47 +98,26 @@ expected output described in this section.
 
 ## Adding Functionality
 
-If you study the file `converter/converter/main.py` you will see that it has many
-`TODO` markers that designate the parts of the program that you need to
-implement before `converter` will produce correct output. If you run the provided
-test suite with the command `poetry run task test` you will see that it produces
-output like the following:
+If you study the file called `converter/converter/main.py` you will see that it
+has many `TODO` markers that designate the parts of the program that you need to
+implement before `converter` will produce correct output. Along with adding
+requested source code to the `main` module, you should implement the following
+functions in the `convert` module:
 
+- `def convert_celsius_to_fahrenheit(temperature: float) -> float`
+- `def convert_fahrenheit_to_celsius(temperature: float) -> float`
+- `def convert_temperature(temperature: float, from_unit: units.TemperatureUnitOfMeasurement, to_unit: units.TemperatureUnitOfMeasurement)`
+
+```python linenums="1"
+converted_temperature = 0
+# the requested temperature conversion is Celsius --> Fahrenheit
+if from_unit.value == "Celsius" and to_unit.value == "Fahrenheit":
+    converted_temperature = convert_celsius_to_fahrenheit(temperature)
+# the requested temperature conversion is Fahrenheit --> Celsius
+elif from_unit.value == "Fahrenheit" and to_unit.value == "Celsius":
+    converted_temperature = convert_fahrenheit_to_celsius(temperature)
+return converted_temperature
 ```
-    def test_converter_computation_five_numbers():
-        """Confirm that it is possible to converter together five non-zero numbers."""
-        number_list = """-72
-            29
-            61
-            -42
-            44"""
-        converter_value = main.compute_converter(number_list)
->       assert converter_value == ((-72 + 29 + 61 + -42 + 44) / 5)
-E       assert 0 == (((((-72 + 29) + 61) + -42) + 44) / 5)
-```
-
-Note that this test case fails because of the fact that, by default, the
-`compute_converter` function returns `0` instead of the correct arithmetic mean of
-the numbers specified in the `number_list` variable. You will need to add source
-code to the `compute_converter` function so that it correctly calculates the
-converter of the input values!
-
-In summary, you should implement the following functions for the `converter`
-program:
-
-- `def compute_converter(contents: str) -> float:`
-- `def converter(dir: Path = typer.Option(None), file: Path = typer.Option(None)) -> None:`
-
-It is worth noting that the `compute_converter` function accepts as input a `str`
-that is a one-number-per-line encoding of the file that contains the integer
-numbers. This means that `compute_converter` will need to iterate through each
-line in the file and convert the text-based encoding of the number to an `int`.
-The `compute_converter` function should also handle the circumstance in which the
-user-provided file (i.e., `numbers.txt`) does not have any numbers inside of it!
-If there were no numbers in the file, then the function can return `-1` to
-indicate that it did not compute an converter. As you are finishing your
-implementation of the `compute_converter` function, you should also ensure that,
-if all of the numbers inside of the file are `0`, then it returns an converter of `0`.
 
 ## Running Checks
 
