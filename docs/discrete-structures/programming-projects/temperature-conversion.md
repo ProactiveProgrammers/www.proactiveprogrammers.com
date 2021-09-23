@@ -32,19 +32,19 @@ project!
 ## Expected Output
 
 This project invites you to implement a number comparison program called
-`average`. The program accepts through its command-line a file that contains
+`converter`. The program accepts through its command-line a file that contains
 integer values encoded as text. If you run the program with the command `poetry
-run average --dir input --file numbers.txt` it produces this output:
+run converter --dir input --file numbers.txt` it produces this output:
 
 ```
-😃 Computing the average of numbers in a file called input/numbers.txt!
+😃 Computing the converter of numbers in a file called input/numbers.txt!
 
 😉 Phew, that was hard work!
 
-✨ The average of the input values is -0.95
+✨ The converter of the input values is -0.95
 ```
 
-Although this example shows the `average` program performing its computation
+Although this example shows the `converter` program performing its computation
 with the `numbers.txt` file in the `input` directory, it should work in a
 general-purpose fashion for any text file that contains integer numbers aligned
 in a single row like:
@@ -58,12 +58,12 @@ in a single row like:
 ```
 
 To learn more about how to run this program, you can type the command `poetry
-run average --help` to see the following output showing how to use `average`:
+run converter --help` to see the following output showing how to use `converter`:
 
 ```shell
-Usage: average [OPTIONS]
+Usage: converter [OPTIONS]
 
-  Process a file by computing the average of all the numbers.
+  Process a file by computing the converter of all the numbers.
 
 Options:
   --dir PATH
@@ -77,61 +77,61 @@ Options:
 
 Please note that the provided source code does not contain all of the
 functionality to produce this output. As explained in the next section, you are
-invited to add all of the missing features to ensure that `average` produces the
+invited to add all of the missing features to ensure that `converter` produces the
 expected output. Once the program is working correctly, it should produce all of
 the expected output described in this section.
 
 ???+ note
 
-    Don't forget that if you want to run the `average` program you must use your
+    Don't forget that if you want to run the `converter` program you must use your
     terminal window to first go into the GitHub repository containing this
-    project and then go into the `average` directory that contains the project's
+    project and then go into the `converter` directory that contains the project's
     source code. Finally, remember that before running the program you must run
     `poetry install` to add the dependencies.
 
 ## Adding Functionality
 
-If you study the file `average/average/main.py` you will see that it has many
+If you study the file `converter/converter/main.py` you will see that it has many
 `TODO` markers that designate the parts of the program that you need to
-implement before `average` will produce correct output. If you run the provided
+implement before `converter` will produce correct output. If you run the provided
 test suite with the command `poetry run task test` you will see that it produces
 output like the following:
 
 ```
-    def test_average_computation_five_numbers():
-        """Confirm that it is possible to average together five non-zero numbers."""
+    def test_converter_computation_five_numbers():
+        """Confirm that it is possible to converter together five non-zero numbers."""
         number_list = """-72
             29
             61
             -42
             44"""
-        average_value = main.compute_average(number_list)
->       assert average_value == ((-72 + 29 + 61 + -42 + 44) / 5)
+        converter_value = main.compute_converter(number_list)
+>       assert converter_value == ((-72 + 29 + 61 + -42 + 44) / 5)
 E       assert 0 == (((((-72 + 29) + 61) + -42) + 44) / 5)
 ```
 
 Note that this test case fails because of the fact that, by default, the
-`compute_average` function returns `0` instead of the correct arithmetic mean of
+`compute_converter` function returns `0` instead of the correct arithmetic mean of
 the numbers specified in the `number_list` variable. You will need to add source
-code to the `compute_average` function so that it correctly calculates the
-average of the input values!
+code to the `compute_converter` function so that it correctly calculates the
+converter of the input values!
 
-In summary, you should implement the following functions for the `average`
+In summary, you should implement the following functions for the `converter`
 program:
 
-- `def compute_average(contents: str) -> float:`
-- `def average(dir: Path = typer.Option(None), file: Path = typer.Option(None)) -> None:`
+- `def compute_converter(contents: str) -> float:`
+- `def converter(dir: Path = typer.Option(None), file: Path = typer.Option(None)) -> None:`
 
-It is worth noting that the `compute_average` function accepts as input a `str`
+It is worth noting that the `compute_converter` function accepts as input a `str`
 that is a one-number-per-line encoding of the file that contains the integer
-numbers. This means that `compute_average` will need to iterate through each
+numbers. This means that `compute_converter` will need to iterate through each
 line in the file and convert the text-based encoding of the number to an `int`.
-The `compute_average` function should also handle the circumstance in which the
+The `compute_converter` function should also handle the circumstance in which the
 user-provided file (i.e., `numbers.txt`) does not have any numbers inside of it!
 If there were no numbers in the file, then the function can return `-1` to
-indicate that it did not compute an average. As you are finishing your
-implementation of the `compute_average` function, you should also ensure that,
-if all of the numbers inside of the file are `0`, then it returns an average of `0`.
+indicate that it did not compute an converter. As you are finishing your
+implementation of the `compute_converter` function, you should also ensure that,
+if all of the numbers inside of the file are `0`, then it returns an converter of `0`.
 
 ## Running Checks
 
@@ -140,11 +140,11 @@ it includes the following section that specifies different executable tasks:
 
 ```toml
 [tool.taskipy.tasks]
-black = { cmd = "black average tests --check", help = "Run the black checks for source code format" }
-flake8 = { cmd = "flake8 average tests", help = "Run the flake8 checks for source code documentation" }
-mypy = { cmd = "poetry run mypy average", help = "Run the mypy type checker for potential type errors" }
-pydocstyle = { cmd = "pydocstyle average tests", help = "Run the pydocstyle checks for source code documentation" }
-pylint = { cmd = "pylint average tests", help = "Run the pylint checks for source code documentation" }
+black = { cmd = "black converter tests --check", help = "Run the black checks for source code format" }
+flake8 = { cmd = "flake8 converter tests", help = "Run the flake8 checks for source code documentation" }
+mypy = { cmd = "poetry run mypy converter", help = "Run the mypy type checker for potential type errors" }
+pydocstyle = { cmd = "pydocstyle converter tests", help = "Run the pydocstyle checks for source code documentation" }
+pylint = { cmd = "pylint converter tests", help = "Run the pylint checks for source code documentation" }
 test = { cmd = "pytest -x -s", help = "Run the pytest test suite" }
 test-silent = { cmd = "pytest -x --show-capture=no", help = "Run the pytest test suite without showing output" }
 all = "task black && task flake8 && task pydocstyle && task pylint && task mypy && task test"
@@ -156,7 +156,7 @@ automatically run all of the linters designed to check the Python source code in
 your program and its test suite. You can also use the command `poetry run task
 black` to confirm that your source code adheres to the industry-standard format
 defined by the `black` tool. If it does not adhere to the standard then you can
-run the command `poetry run black average tests` and it will automatically
+run the command `poetry run black converter tests` and it will automatically
 reformat the source code.
 
 Along with running tasks like `poetry run task lint`, you can leverage the
@@ -164,7 +164,7 @@ relevant instructions in the [technical
 skills](/proactive-skills/introduction-proactive-skills/) to enter into a Docker
 container and run `gradle grade` to check your work. If `gradle grade` shows
 that all checks pass, you will know that you made progress towards correctly
-implementing and writing about `average`.
+implementing and writing about `converter`.
 
 If your program has all of the anticipated functionality, you can run the
 command `poetry run task test` and see that the test suite produces output like
@@ -173,54 +173,54 @@ this:
 ```shell
 collected 5 items
 
-tests/test_average.py .....
+tests/test_converter.py .....
 ```
 
-You will know that the `compute_average` function correctly returns `0` when all
+You will know that the `compute_converter` function correctly returns `0` when all
 of the inputs are `0` if the following test case passes:
 
 ```python linenums="1"
-def test_average_computation_five_numbers_all_zero():
-    """Confirm that it is possible to average together five zero numbers."""
+def test_converter_computation_five_numbers_all_zero():
+    """Confirm that it is possible to converter together five zero numbers."""
     number_list = """0
         0
         0
         0
         0"""
-    average_value = main.compute_average(number_list)
-    assert average_value == 0
+    converter_value = main.compute_converter(number_list)
+    assert converter_value == 0
 ```
 
 Lines `3` through `7` of this test case define the `number_list` variable as one
 that contains a list of `0` values separated by newlines. The purpose of
 `number_list` is to represent the string that would arrive from the input file
-if a person ran the `average` program on the command-line. Line `8` of this test
-case calls the `compute_average` function with the `number_list` as the input
-and stores the output in a variable called `average_value`. Finally, line `9`
-confirms that `compute_average` calculates the average of the input as `0`.
+if a person ran the `converter` program on the command-line. Line `8` of this test
+case calls the `compute_converter` function with the `number_list` as the input
+and stores the output in a variable called `converter_value`. Finally, line `9`
+confirms that `compute_converter` calculates the converter of the input as `0`.
 
-You will know that the `compute_average` function correctly returns `-1` when
+You will know that the `compute_converter` function correctly returns `-1` when
 there is no input to the function if the follow test case passes:
 
 ```python linenums="1"
-def test_average_computation_no_provided_numbers():
-    """Confirm that it is possible to average together no numbers."""
+def test_converter_computation_no_provided_numbers():
+    """Confirm that it is possible to converter together no numbers."""
     number_list = ""
-    average_value = main.compute_average(number_list)
-    assert average_value == -1
+    converter_value = main.compute_converter(number_list)
+    assert converter_value == -1
 ```
 
 On line `3` in the above source code, this test defines `number_list` as an
 empty string, denoted by `""`. Finally, on line `4` it calls the
-`compute_average` function with `number_list` as its input and on line `5` it
-confirms that the computed `average_value` is `-1`, as required by the
+`compute_converter` function with `number_list` as its input and on line `5` it
+confirms that the computed `converter_value` is `-1`, as required by the
 specification of the function under test.
 
 Once all of the test cases pass, you can run the all of the automated checks by
 typing `poetry run task all` in your terminal and confirming that there are no
 errors in the output. If all of the checks pass, then you can run the program
-with the command `poetry run average --dir input --file numbers.txt` and then
-confirm that it produces the expected output, including the average of `-0.95`.
+with the command `poetry run converter --dir input --file numbers.txt` and then
+confirm that it produces the expected output, including the converter of `-0.95`.
 
 ???+ note
 
@@ -240,7 +240,7 @@ editor to answer all of the questions in the `writing/reflection.md` file. For
 instance, you should provide the output of the Python program in a fenced code
 block, explain the meaning of the Python source code segments that you
 implemented and tested, compare and contrast different implementations of the
-Python function called `compute_average`, and answer all of the other questions
+Python function called `compute_converter`, and answer all of the other questions
 about your experiences in completing this project.
 
 ## Project Assessment
