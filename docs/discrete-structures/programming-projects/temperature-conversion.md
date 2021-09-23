@@ -3,17 +3,19 @@
 ## Project Goals
 
 This programming project invites you to combine what you learned about the
-basics of Python programming to implement a useful program that computes the
-average of all of the numbers in a file that is provided as input to a program.
-The program will input the numerical values in a file, iterate through them,
-and return the average (i.e., arithmetic mean) of all the values. Along with
-adding documentation to the provided source code, you will create your own
-Python functions that use both iteration constructs and conditional logic to
-implement a correct program that passes the test suite and all checks. As you
-enhance your [technical
-skills](/proactive-skills/introduction-proactive-skills/), you will program
-with tools such as VS Code and a terminal window and the Python programming
-language and the Poetry package manager.
+basics of Python programming to implement a useful program that converts a
+temperature value between two different measurement scales, Celsius and
+Fahrenheit. The program inputs the temperature reading that it should convert
+and a configuration explaining whether it should convert from Celsius to
+Fahrenheit or from Fahrenheit to Celsius. Using these inputs the program
+performs the conversion and outputs it in the terminal. Along with adding
+documentation to the provided source code, you will create your own Python
+functions that uses both assignment statements and conditional logic to
+implement a correct program that passes the test suite and all of the checks. As
+you enhance your [technical
+skills](/proactive-skills/introduction-proactive-skills/), you will program with
+tools such as VS Code and a terminal window and the Python programming language
+and the Poetry package manager.
 
 ## Project Access
 
