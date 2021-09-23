@@ -101,7 +101,7 @@ are, then make sure to connect with members of the [proactive
 community](../../proactive-community/introduction-proactive-community) for more
 learning opportunities. Remember, this course emphasizes building mastery of the
 course's [learning
-objectives](../learning-objectives/learning-objectives-data-abstraction) through
+objectives](../learning-objectives-data-abstraction) through
 "learning by doing", as explained in the description of [proactive
 learning](../../proactive-learning/introduction-proactive-learning). As such,
 you can best understand the content on this schedule by completing all the
