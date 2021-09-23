@@ -43,24 +43,43 @@ produces this output:
 22.00 degrees in Celsius is 71.60 degrees in Fahrenheit
 ```
 
+Since the program can also convert from Fahrenheit to Celsius, you can also run
+it with the command `poetry run converter --from-unit Fahrenheit --to-unit
+Celsius --temperature 71.6` and see that it produces the following output:
 
+```
+🧮 Converting from Fahrenheit to Celsius!
 
-To learn more about how to run this program, you can type the command `poetry
-run converter --help` to see the following output showing how to use `converter`:
+71.60 degrees in Fahrenheit is 22.00 degrees in Celsius
+```
 
-```shell
+One way in which you can tell that `converter` is working correctly is that,
+when given "inverse numbers", the output shows that it converts correctly in
+both "directions". For instance, converting `22` degrees Celsius to Fahrenheit
+yields `71.6` degrees and converting `71.6` degrees Fahrenheit to Celsius
+results in `22` degrees! To learn more about how to run this program, you can
+type the command `poetry run converter --help` to see the following output
+showing how to use `converter`:
+
+```
 Usage: converter [OPTIONS]
 
-  Process a file by computing the converter of all the numbers.
+  Convert units.from Fahrenheit to Celsius or from Celsius to
+  Fahrenheit.
 
 Options:
-  --dir PATH
-  --file PATH
-  --install-completion  Install completion for the current shell.
-  --show-completion     Show completion for the current shell, to copy it
-                        or customize the installation.
+  --from-unit [Celsius|Fahrenheit]
+                                  [default: Celsius]
+  --to-unit [Celsius|Fahrenheit]  [default: Fahrenheit]
+  --temperature FLOAT RANGE       [default: 98.6]
+  --install-completion            Install completion for the current
+                                  shell.
 
-  --help                Show this message and exit.
+  --show-completion               Show completion for the current shell,
+                                  to copy it or customize the
+                                  installation.
+
+  --help                          Show this message and exit.
 ```
 
 Please note that the provided source code does not contain all of the
