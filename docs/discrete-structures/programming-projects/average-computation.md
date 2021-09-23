@@ -177,7 +177,7 @@ tests/test_average.py .....
 You will know that the `compute_average` function correctly returns `0` when all
 of the inputs are `0` if the following test case passes:
 
-```python
+```python linenums="1"
 def test_average_computation_five_numbers_all_zero():
     """Confirm that it is possible to average together five zero numbers."""
     number_list = """0
@@ -189,10 +189,18 @@ def test_average_computation_five_numbers_all_zero():
     assert average_value == 0
 ```
 
+Lines `3` through `7` of this test case define the `number_list` variable as one
+that contains a list of `0` values separated by newlines. The purpose of
+`number_list` is to represent the string that would arrive from the input file
+if a person ran the `average` program on the command-line. Line `8` of this test
+case calls the `compute_average` function with the `number_list` as the input
+and stores the output in a variable called `average_value`. Finally, line `9`
+confirms that `compute_average` calculates the average of the input as `0`.
+
 You will know that the `compute_average` function correctly returns `-1` when
 there is no input to the function if the follow test case passes:
 
-```python
+```python linenums="1"
 def test_average_computation_no_provided_numbers():
     """Confirm that it is possible to average together no numbers."""
     number_list = ""
