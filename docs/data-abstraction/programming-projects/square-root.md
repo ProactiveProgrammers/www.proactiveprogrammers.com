@@ -151,6 +151,43 @@ Importantly, you will notice that both `compute_square_root_efficient` and
 same types of outputs. In particular, the parameter called `x` is the number
 whose square root the function will compute and `epsilon` is the tolerance
 parameter describing how close the approximation of `x`'s square root must be.
+The notation `Tuple[bool, float, int]` that describes the output of these
+functions shows that they each return three values. The first variable in the
+return value is a `bool` indicating whether or not the function found an answer
+within the tolerance of `epsilon`. Finally, the second returned variable is a
+`float` for the calculated value of the square root and the third one is an
+`int` for the number of guesses that the algorithm took.
+
+You will also notice that there are some `TODO` markers in the `squareroot`
+function of the `main` module. In the scope of the conditional logic statement
+`if approach.value == SquareRootCalculationingApproach.efficient` on lines `1`
+through `7`, the program should call the function
+`compute_square_root_efficient` depending on whether the `profile` variable
+specified on the command-line is `True` or `False`. If `profile` is `True`, then
+the program should use Pyinstrument to measure its execution time, as
+illustrated on lines `3` through `5`. However, if `profile` is `False`, then the
+program should only call the `compute_square_root_efficient` as shown on line
+`7`. As lines `9` through `15` show, the function should take analogous steps,
+calling the `compute_square_root_exhaustive` instead of
+`compute_square_root_efficient`.
+
+```python linenums="1"
+if approach.value == SquareRootCalculationingApproach.efficient:
+    if profile:
+        profiler.start()
+        square_root_tuple = compute_square_root_efficient(number)
+        profiler.stop()
+    else:
+        square_root_tuple = compute_square_root_efficient(number)
+# use the exhaustive square root computation algorithm
+elif approach.value == SquareRootCalculationingApproach.exhaustive:
+    if profile:
+        profiler.start()
+        square_root_tuple = compute_square_root_exhaustive(number)
+        profiler.stop()
+    else:
+        square_root_tuple = compute_square_root_exhaustive(number)
+```
 
 ## Running Checks
 
