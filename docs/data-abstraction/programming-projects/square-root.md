@@ -93,7 +93,13 @@ could not record any performance data for `squareroot` when the program runs in
 `efficient` mode. Why do you think that this is the case? Is there any way to
 overcome this issue by, for instance, reconfiguring Pyinstrument or changing the
 input that you pass to the program? Overall, how much faster is `efficient` in
-comparison to `exhaustive`? Why is it faster?
+comparison to `exhaustive`? You can use the equations and suggestions in the
+engineering effort about [primality
+testing](../../engineering-efforts/primality-testing) to calculate the
+percentage change in execution time when running `squareroot` in `efficient`
+mode instead of the `exhaustive` mode. Finally, to understand why `efficient` is
+faster than `exhaustive` you should study each function's source code and the
+textbook's content.
 
 To learn more about how to run this program, you can type the command `poetry
 run squareroot --help` to see the following output showing how to use `squareroot`:
@@ -132,71 +138,14 @@ similar to that shown in this section.
 
 ## Adding Functionality
 
-If you study the file `squareroot/squareroot/main.py` you will see that it has many
-`TODO` markers that designate the parts of the program that you need to
-implement before `squareroot` will produce correct output. If you run the provided
-test suite with the command `poetry run task test` you will see that it produces
-output like the following:
+If you study the file `squareroot/squareroot/main.py` you will see that it has
+many `TODO` markers that designate the parts of the program that you need to
+implement before `squareroot` will produce correct output. In summary, you
+should implement the following functions for the `squareroot` program:
 
-```
-    def test_find_minimum():
-        """Confirm that the function can find the minimum of three values."""
-        minimum = main.get_minimum(3, 4, 5)
->       assert minimum == 3
-E       assert None == 3
-
-tests/test_squareroot.py:16: AssertionError
-```
-
-Alternatively, running the program with a command like `poetry run squareroot
---first 4 --second 10 --third 21` will not produce any output because `squareroot`
-is missing this functionality! As you complete the tasks near each of the `TODO`
-markers, all while following the relevant instructions in the description of the
-[technical skills](/proactive-skills/introduction-proactive-skills/), you should
-have a version of `squareroot` that produces all of the expected output.
-
-The `squareroot` program uses the `get_minimum` function to identify the minimum of
-three int values. You can read a test case in the `test_squareroot.py` test suite
-to learn more about how `squareroot`'s `get_minimum` function should work. For
-instance, the following test case confirms that when `get_minimum` receives the
-inputs `3`, `4`, and `5` then it should return the value of `3`, regardless of
-the order in which the values are input to the function. Studying the source
-code of `test_find_minimum` shows that lines `3`, `5`, and `7` call the
-`get_minimum` function with different orders of the same input values and lines
-`4`, `6`, and `8` all confirm that the returned value of `minimum` is `3`.
-
-```python linenums="1"
-def test_find_minimum():
-    """Confirm that the function can find the minimum of three values."""
-    minimum = main.get_minimum(3, 4, 5)
-    assert minimum == 3
-    minimum = main.get_minimum(5, 4, 3)
-    assert minimum == 3
-    minimum = main.get_minimum(4, 3, 5)
-    assert minimum == 3
-```
-
-If the `get_minimum` function works correctly, then you can start to implement
-and test the `get_largest_odd` function in the `squareroot` program! You can read
-some test cases in `test_squareroot.py` test suite to learn more about how
-`get_largest_odd` should work. For example, the following test case confirms
-that when `get_largest_odd` receives the values `21`, `4`, and `17` it will
-return `21`. In contrast, if it receives the inputs `21`, `4`, and `117` it will
-return the value of `117` because that number is also odd and larger than `21`!
-
-```python linenums="1"
-def test_largest_odd_can_find_one():
-    """Confirm that it is possible to find the largest odd value when it exists."""
-    (largest_odd, found) = main.get_largest_odd(21, 4, 17)
-    assert largest_odd == 21
-    assert found is True
-    (largest_odd, found) = main.get_largest_odd(21, 4, 117)
-    assert largest_odd == 117
-    assert found is True
-```
-
-In summary, you should implement the following functions for the `squareroot`
-program:
+- `def compute_square_root_exhaustive(
+    x: int, epsilon: float = 0.01
+) -> Tuple[bool, float, int]:`
 
 - `def get_minimum(first: int, second: int, third: int) -> int`
 - `def get_largest_odd(first: int, second: int, third: int) -> Tuple[int, bool]`
