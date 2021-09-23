@@ -116,7 +116,7 @@ skills](/proactive-skills/introduction-proactive-skills/), you should find the
 other `TODO` markers and correctly resolve them. For instance, you can add this
 function to the `main.py` file:
 
-```python
+```python linenums="1"
 def confirm_valid_file(file: Path) -> bool:
     """Confirm that the provided file is a valid path."""
     # determine if the file is not None and if it is a file
@@ -127,6 +127,14 @@ def confirm_valid_file(file: Path) -> bool:
     # the file was either none or not valid
     return False
 ```
+
+Line `1` of the above source code segment contains the signature for the
+`confirm_valid_file` function, showing that it takes as input a `file` variable
+that is of type `Path` and returns a `bool` to indicate whether or not the file
+is valid. If the conditional logic on lines `4` and `6` confirms that the `file`
+variable is both not equal to `None` and is, in fact, a file, then the function
+returns `True`. Otherwise, line `9` of `confirm_valid_file` returns `False` to
+indicate that the provided `file` is not valid.
 
 In addition to `confirm_valid_file`, you must completely implement these
 functions:

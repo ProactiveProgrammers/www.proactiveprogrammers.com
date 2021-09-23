@@ -26,7 +26,7 @@
 - Chapters 1 and 2 of *Programming and Mathematical Thinking*
 - Check out the [course slides](/slides/discrete-structures/making-connections/) for a detailed investigation of these chapters!
 
-???+ note "Technical Concept Review"
+???+ note "Technical Concepts"
 
     - **Mapping**: set of ordered pairs in which no two first elements are the same
     - **Function**: a process that takes input, performs a computation, and produces output
@@ -48,7 +48,7 @@
 - Chapter 1 and Appendix B of *Doing Math with Python*
 - Check out the [course slides](/slides/discrete-structures/programming-constructs/) for a detailed investigation of these chapters!
 
-???+ note "Technical Concept Review"
+???+ note "Technical Concepts"
 
     - **Assignment Statement**: an operation to store a value in a variable
     - **Iteration Construct**: a structure to support the repeated execution of
@@ -74,7 +74,7 @@
 - Chapter 3 of *Doing Math with Python*
 - Check out the [course slides](/slides/discrete-structures/python-functions/) for a detailed investigation of these chapters!
 
-???+ note "Technical Concept Review"
+???+ note "Technical Concepts"
 
     - **Python Function**: subroutine or procedure that accepts input, performs
       steps, and produces output
@@ -86,3 +86,30 @@
       the values and divide by the list's size
     - **Median Value**: for a list of values sorted in increasing order, the
       middle value in the list
+
+## Learning Opportunities
+
+Interested in learning more about any of the topics on this schedule? If you
+are, then make sure to connect with members of the [proactive
+community](../../proactive-community/introduction-proactive-community) for more
+learning opportunities. Remember, this course emphasizes building mastery of the
+course's [learning
+objectives](../learning-objectives-discrete-structures) through
+"learning by doing", as explained in the description of [proactive
+learning](../../proactive-learning/introduction-proactive-learning). As such,
+you can best understand the content on this schedule by completing all the
+source code surveys, programming projects, and engineering efforts!
+
+???+ note "Schedule Review"
+    - **Software Operation**
+        - **Start**: August 24, 2021
+        - **End**: September 3, 2021
+    - **Making Connections**
+        - **Start**: September 6, 2021
+        - **End**: September 10, 2021
+    - **Programming Constructs**
+        - **Start**: September 13, 2021
+        - **End**: September 17, 2021
+    - **Python Functions**
+        - **Start**: September 20, 2021
+        - **End**: September 24, 2021

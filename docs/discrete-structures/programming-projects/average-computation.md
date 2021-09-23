@@ -1,4 +1,4 @@
-# Average Computation
+# Computing Averages
 
 ## Project Goals
 
@@ -109,9 +109,10 @@ E       assert 0 == (((((-72 + 29) + 61) + -42) + 44) / 5)
 ```
 
 Note that this test case fails because of the fact that, by default, the
-`compute_average` function returns 0 instead of the correct arithmetic mean of
+`compute_average` function returns `0` instead of the correct arithmetic mean of
 the numbers specified in the `number_list` variable. You will need to add source
-code to the `compute_average` function so that it works correctly!
+code to the `compute_average` function so that it correctly calculates the
+average of the input values!
 
 In summary, you should implement the following functions for the `average`
 program:
@@ -128,7 +129,7 @@ user-provided file (i.e., `numbers.txt`) does not have any numbers inside of it!
 If there were no numbers in the file, then the function can return `-1` to
 indicate that it did not compute an average. As you are finishing your
 implementation of the `compute_average` function, you should also ensure that,
-if all of the numbers inside of the file are 0, then it returns an average of 0.
+if all of the numbers inside of the file are `0`, then it returns an average of `0`.
 
 ## Running Checks
 
@@ -176,7 +177,7 @@ tests/test_average.py .....
 You will know that the `compute_average` function correctly returns `0` when all
 of the inputs are `0` if the following test case passes:
 
-```python
+```python linenums="1"
 def test_average_computation_five_numbers_all_zero():
     """Confirm that it is possible to average together five zero numbers."""
     number_list = """0
@@ -188,16 +189,30 @@ def test_average_computation_five_numbers_all_zero():
     assert average_value == 0
 ```
 
+Lines `3` through `7` of this test case define the `number_list` variable as one
+that contains a list of `0` values separated by newlines. The purpose of
+`number_list` is to represent the string that would arrive from the input file
+if a person ran the `average` program on the command-line. Line `8` of this test
+case calls the `compute_average` function with the `number_list` as the input
+and stores the output in a variable called `average_value`. Finally, line `9`
+confirms that `compute_average` calculates the average of the input as `0`.
+
 You will know that the `compute_average` function correctly returns `-1` when
 there is no input to the function if the follow test case passes:
 
-```python
+```python linenums="1"
 def test_average_computation_no_provided_numbers():
     """Confirm that it is possible to average together no numbers."""
     number_list = ""
     average_value = main.compute_average(number_list)
     assert average_value == -1
 ```
+
+On line `3` in the above source code, this test defines `number_list` as an
+empty string, denoted by `""`. Finally, on line `4` it calls the
+`compute_average` function with `number_list` as its input and on line `5` it
+confirms that the computed `average_value` is `-1`, as required by the
+specification of the function under test.
 
 Once all of the test cases pass, you can run the all of the automated checks by
 typing `poetry run task all` in your terminal and confirming that there are no
@@ -228,10 +243,10 @@ about your experiences in completing this project.
 
 ## Project Assessment
 
-Since this project is an engineering effort, it is aligned with the **applying**
-and **analyzing** levels of [Bloom's
-taxonomy](proactive-learning/blooms-taxonomy/). You can learn more about how a
-proactive programming expert will assess your work by examining the [assessment
+Since this is a programming project, it is aligned with the **applying** and
+**analyzing** levels of [Bloom's taxonomy](proactive-learning/blooms-taxonomy/).
+You can learn more about how a proactive programming expert will assess your
+work by examining the [assessment
 strategy](/proactive-learning/assessment-strategy/). From the start to the end
 of this project you may make an unlimited number of reattempts at submitting
 source code and technical writing that meet all aspects of the project's
