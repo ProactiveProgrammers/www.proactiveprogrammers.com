@@ -131,7 +131,7 @@ elif from_unit.value == "Fahrenheit" and to_unit.value == "Celsius":
 return converted_temperature
 ```
 
-Once you have correctly resolved all of the `TODO` markers in the `squareroot`
+Once you have correctly resolved all of the `TODO` markers in the `converter`
 program, it should produce the expected output described in the previous
 section.
 
