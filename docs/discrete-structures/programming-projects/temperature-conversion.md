@@ -232,7 +232,7 @@ instance, you should provide the output of the Python program in a fenced code
 block and explain the meaning of the Python source code segments that you
 implemented and tested. Along with answering all the questions about your
 experiences with project, you should explain every function call that occurs
-when running the program with command like `poetry run converter --from-unit
+when running the program with a command like `poetry run converter --from-unit
 Fahrenheit --to-unit Celsius --temperature 71.6`.
 
 ## Project Assessment
