@@ -1,4 +1,4 @@
-# Average Computation
+# Computing Averages
 
 ## Project Goals
 
