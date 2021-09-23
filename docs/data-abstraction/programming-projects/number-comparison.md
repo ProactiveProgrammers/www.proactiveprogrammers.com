@@ -224,8 +224,8 @@ that all checks pass, you will know that you made progress towards correctly
 implementing and writing about `compare`.
 
 If your program has all of the anticipated functionality, you can run the
-command `poetry run task test` and see that the test suite produces output like
-this:
+command `poetry run task test` and see that the test suite passes and produces
+output like this:
 
 ```shell
 collected 4 items
