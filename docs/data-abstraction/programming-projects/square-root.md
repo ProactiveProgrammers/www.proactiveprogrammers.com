@@ -38,8 +38,8 @@ value. If you run the program correctly, it will accept as input the single
 number numbers and return the largest odd number as long as at least one of the
 numbers is odd. In the situation in which none of the numbers are odd, it will
 return the smallest number. If you run the program with the command `poetry run
-squareroot --number 25000 --approach exhaustive --profile` it produces this
-output:
+squareroot --number 25000 --approach exhaustive --profile` it produces the
+following output:
 
 ```shell
 🧮 Attempting to calculate the square root of 25000!
@@ -63,32 +63,37 @@ Program: squareroot --number 25000 --approach exhaustive --profile
          [2 frames hidden]  <built-in>
 ```
 
-Alternatively, if you run the program with the command `poetry run squareroot
+If you run the program with the command `poetry run squareroot
 --first 4 --second 10 --third 20` then it produces output like:
 
 ```shell
-✨ Comparing the numbers 4, 10, and 20!
+🧮 Attempting to calculate the square root of 25000!
 
-Looking for the largest odd number ...
-... but if there is no odd number, then ...
-... looking for the smallest of the three!
+✨ Was this search for the square root successful? Yes
+✨ How many guesses did it take to compute the solution? 27
+✨ The best approximation for the square root of 25000 is 158.11389312148094
 
-Okay, I found the number 4!
+🔬 Here's profile data from performing square root computation on 25000!
 
-🤷 Oh well, there were no odd numbers this time!
+  _     ._   __/__   _ _  _  _ _/_   Recorded: 10:29:41  Samples:  0
+ /_//_/// /_\ / //_// / //_'/ //     Duration: 0.000     CPU time: 0.000
+/   _/                      v4.0.3
+
+Program: squareroot --number 25000 --approach efficient --profile
+
+No samples were recorded.
 ```
 
-If you run the program without specifying one of the required input numbers by
-using, for instance, the command `poetry run squareroot --first 4 --second 10` then
-it will not perform number comparison and instead produce an error message like
-the following:
-
-```shell
-Usage: squareroot [OPTIONS]
-Try 'squareroot --help' for help.
-
-Error: Missing option '--third'.
-```
+It is worth noting that the `exhaustive` algorithm took `1581139` guesses to
+approximate the square root of `25000` while the `efficient` algorithm only
+needed `27`! This shows that `efficient`'s bisection search algorithm is
+significantly faster than the `exhaustive` approach. Interestingly, the
+[Pyinstrument](https://github.com/joerick/pyinstrument) package reports that it
+could not record any performance data for `squareroot` when the program runs in
+`efficient` mode. Why do you think that this is the case? Is there any way to
+overcome this issue by, for instance, reconfiguring Pyinstrument or changing the
+input that you pass to the program? Overall, how much faster is `efficient` in
+comparison to `exhaustive`? Why is it faster?
 
 To learn more about how to run this program, you can type the command `poetry
 run squareroot --help` to see the following output showing how to use `squareroot`:
@@ -96,24 +101,26 @@ run squareroot --help` to see the following output showing how to use `squareroo
 ```shell
 Usage: squareroot [OPTIONS]
 
-  Perform number comparison to find the largest odd number.
+  Use iteration to perform square root computation of a number and then
+  perform profiling to capture execution time.
 
 Options:
-  --first INTEGER       [required]
-  --second INTEGER      [required]
-  --third INTEGER       [required]
-  --install-completion  Install completion for the current shell.
-  --show-completion     Show completion for the current shell, to copy it
-                        or customize the installation.
+  --number INTEGER                [default: 5]
+  --profile / --no-profile        [default: False]
+  --approach [exhaustive|efficient]
+                                  [default: efficient]
+  --install-completion            Install completion for the current shell.
+  --show-completion               Show completion for the current shell, to
+                                  copy it or customize the installation.
 
-  --help                Show this message and exit.
+  --help                          Show this message and exit.
 ```
 
 Please note that the provided source code does not contain all of the
 functionality to produce this output. As explained in the next section, you are
-invited to add all of the missing features and ensure that `squareroot` produces
-the expected output. Once the program is working correctly, it should produce
-all of the expected output described in this section.
+invited to add the missing features and ensure that `squareroot` produces the
+expected output. Once the program is working correctly, it should produce output
+similar to that shown in this section.
 
 ???+ note
 
