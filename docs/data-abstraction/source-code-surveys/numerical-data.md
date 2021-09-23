@@ -47,14 +47,14 @@ else:
     return "odd"
 ```
 
-The second Python program is called `floating-point-confusion.py` because it
+The second program is called `floating-point-confusion.py` because it
 illustrates some of the initially confusing aspects of using Python's `float`
 data type to store decimal values. To understand this program better, it is
 important to note that lines `1` and `2` in the following segment illustrate the
-respective use addition and multiplication with float-point numbers. You can run
-this program by typing `python floating-point-confusion.py` in your terminal.
-Can you explain why it produces this output and what it reveals about the
-challenges of using float-point numbers in arithmetic statements?
+respective use of addition and multiplication with float-point numbers. You can
+run this program by typing `python floating-point-confusion.py` in your
+terminal. Can you explain why it produces this output and what it reveals about
+the challenges of doing arithmetic with float-point numbers?
 
 ```python linenums="1"
 for _ in range(10):
