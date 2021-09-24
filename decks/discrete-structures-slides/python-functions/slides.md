@@ -610,7 +610,7 @@ Helps <code>pylance</code> offer feedback in VS Code
 
 -   How do you pick between the **different types** of **functions**?
 
--   Python **functions** to perform **statistical analysis** of data:
+-   Python functions to perform **statistical analysis** of data:
 
     -   **Q1**: How do you compute the **median** of a list of numbers?
 
