@@ -562,7 +562,7 @@ Ideally specified in type annotations for a function
 
 [//]: # (Slide Start {{{)
 
-# Higher-Order Functions
+# Higher-order Functions in Python
 
 <div class="ml-1">
 
@@ -641,6 +641,42 @@ Allows executable functions as function input
 
 <div class="text-3xl font-bold mt-10 ml-4">
 Supports both code reuse and modularity
+</div>
+
+</div>
+
+</div>
+
+[//]: # (Slide End }}})
+
+---
+
+[//]: # (Slide Start {{{)
+
+# Lambda Expressions in Python
+
+<div class="ml-1">
+
+```python {all|1|3-4|6-8|all}
+square_lambda = lambda x: x*x
+
+number = 5
+result = call_twice(square_lambda, number)
+
+print("Calling the square lambda twice with " +
+        str(number) + " is " + str(result))
+print()
+```
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<div class="text-3xl font-bold mt-8 ml-4">
+Lambda expressions support the storage of simple computations inside a variable.
+What is the benefit?
 </div>
 
 </div>
