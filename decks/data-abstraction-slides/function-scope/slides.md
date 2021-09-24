@@ -752,7 +752,7 @@ Useful for small functions input to other functions
 
 <v-clicks>
 
--   Different forms of numerical computation:
+-   Creating Python programs with "good" designs:
 
     -   **Q1**: What are the benefits of **good design**?
 
