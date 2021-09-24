@@ -547,6 +547,63 @@ def compute_mean(numbers: List):
 
 ---
 
+[//]: # (Slide Start {{{)
+
+<div class="flex row">
+
+<div class="text-7xl text-orange-600 font-bold mt-5 ml-4 mb-4">
+What are the benefits of type annotations?
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+Specifies the types of function inputs and outputs
+</div>
+
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+Supports type checking with tools like <code>mypy</code>
+</div>
+
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+Helps <code>pylance</code> offer feedback in VS Code
+</div>
+
+</div>
+
+</div>
+
+---
+
+[//]: # (Slide End }}})
+
+
 # Implementing and Testing Functions
 
 <v-clicks>
