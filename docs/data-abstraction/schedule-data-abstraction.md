@@ -94,6 +94,78 @@
     - **Higher-Order Function**: general-purpose functions for problem solving
       that accept functions as input
 
+## Structured Types
+
+### Technical Question
+
+- How can I use Python's structured types (e.g., `str`, `list`, `range`, and
+  `dict`) to implement programs that efficiently store and retrieve data?
+
+### Reading Assignments
+
+- Chapter 5 of *Introduction to Computation and Programming Using Python*
+
+???+ note "Technical Concepts"
+
+    - **Tuple**: immutable ordered sequence that can contain elements of
+      any type
+    - **List**: ordered sequence of values where each value is identified by
+      an index
+    - **Set**: unordered collection of unique elements used for data storage
+    - **Shallow Copy**: creation of a new list that involves inserting contained
+      objects into a new list
+    - **Dictionary**: container structure like a list, except for the fact that
+      it is indexed with a key
+
+## Program Components
+
+### Technical Question
+
+- How can I use different types of program modules, such as recursive functions,
+  modules, libraries, and files to implement efficient programs with effective
+  designs?
+
+### Reading Assignments
+
+- Chapters 6 and 7 of *Introduction to Computation and Programming Using Python*
+
+???+ note "Technical Concepts"
+
+    - **Recursive Function**: function that repeatedly calls itself until
+      reaching a base case that stops recursion
+    - **Global Variable**: a variable that is accessible to all of the functions
+      in a module
+    - **Module**: a Python file that contains definitions of variables and
+      functions accessible to a program
+    - **Standard Library**: collection of packages available to all Python
+      programs through an import statement
+    - **File**: disk-based storage mechanism that contains content created by
+      humans and/or computer programs
+
+## Software Testing
+
+### Technical Question
+
+- How can I use the processes of software testing and debugging to establish a
+  confidence in the correctness of a Python program?
+
+### Reading Assignments
+
+- Chapters 8 of *Introduction to Computation and Programming Using Python*
+
+???+ note "Technical Concepts"
+
+    - **Testing**: process of running a program to try to ascertain whether or
+      not it works as intended
+    - **Debugging**: process of trying to fix a program that does not currently
+      work as intended
+    - **Unit Testing**: writing and running test cases designed to ensure that
+      small units of functionality work correctly
+    - **Regression Testing**: process of re-running test cases whenever a
+      programmer makes any program changes
+    - **Defensive Programming**: creating software to ensure that defects are
+      overt and persistent
+
 ## Learning Opportunities
 
 Interested in learning more about any of the topics on this schedule? If you
@@ -107,7 +179,7 @@ learning](../../proactive-learning/introduction-proactive-learning). As such,
 you can best understand the content on this schedule by completing all the
 source code surveys, programming projects, and engineering efforts!
 
-???+ note "Schedule Review"
+??? note "Schedule Review"
     - **Software Operation**
         - **Start**: August 24, 2021
         - **End**: September 3, 2021
@@ -120,3 +192,12 @@ source code surveys, programming projects, and engineering efforts!
     - **Function Scope**
         - **Start**: September 20, 2021
         - **End**: September 24, 2021
+    - **Structured Types**
+        - **Start**: September 27, 2021
+        - **End**: October 1, 2021
+    - **Program Components**
+        - **Start**: October 4, 2021
+        - **End**: October 8, 2021
+    - **Software Testing**
+        - **Start**: October 11, 2021
+        - **End**: October 15, 2021

@@ -87,6 +87,84 @@
     - **Median Value**: for a list of values sorted in increasing order, the
       middle value in the list
 
+## Data Containers
+
+### Technical Question
+
+- How do I use the mathematical concepts of ordered pairs, n-tuples, and lists
+  to implement efficient Python programs that use functions with a clearly
+  specified behavior to perform tasks like the input and parsing of a comma
+  separated value file?
+
+### Reading Assignments
+
+- Chapter 5 of *Programming and Mathematical Thinking*
+- Chapter 2 of *Doing Math with Python*
+
+???+ note "Technical Concepts"
+
+    - **Ordered Pair**: grouping of two elements such that their order is
+      important
+    - **Tuple**: immutable ordered sequence that can contain elements of
+      any type
+    - **Delimiter**: a symbol that separates data values
+    - **Flat File**: file that has no structure other than being divided into
+      lines and fields
+    - **CSV Format**: comma-separated value files that use a comma as a
+      delimiter to separate data
+
+## Monoids
+
+### Technical Question
+
+- How do I use the mathematical concepts of sequences, monoids, and lists to
+  implement efficient Python programs that use functions with a clearly
+  specified behavior to perform tasks like finding a name in a file or computing
+  the arithmetic mean of data values?
+
+### Reading Assignments
+
+- Chapter 6 of *Programming and Mathematical Thinking*
+- Chapter 3 of *Doing Math with Python*
+
+???+ note "Technical Concepts"
+
+    - **Sequence**: a collection of ordered homogeneous elements such a strings
+      and files
+    - **n-Tuple**: a collection of ordered heterogeneous elements with a fixed
+      number of components
+    - **Concatenation**: the process of joining together the contents of two or
+      more variables to form a new variable
+    - **Monoid**: abstract discrete structure that describes the behavior of
+      other structures in Python, including a string
+    - **Map Function**: function that applies a one-argument function to every
+      element of a sequence
+
+## Data Streams
+
+### Technical Question
+
+- How do I use dynamically generated streams of data to implement memory
+  efficient and predictable Python programs?
+
+### Reading Assignments
+
+- Chapter 7 of *Programming and Mathematical Thinking*
+- All previously assigned chapters of *Doing Math with Python*
+
+???+ note "Technical Concepts"
+
+    - **Static Sequence**: a sequence of values that, at any one time, exists as
+      a complete data structure
+    - **Dynamically-Generated Sequence**: a sequence of values that is all
+      present at once and can appear over time
+    - **Generator Function**: a function that incrementally yields its contents
+      through an iterator
+    - **Endless Stream**: a stream of data that potentially never ends,
+      distinguished from a not-possible infinite stream
+    - **Distributed Processing**: Computations on separate computers communicate
+      to solve a large computation
+
 ## Learning Opportunities
 
 Interested in learning more about any of the topics on this schedule? If you
@@ -100,7 +178,7 @@ learning](../../proactive-learning/introduction-proactive-learning). As such,
 you can best understand the content on this schedule by completing all the
 source code surveys, programming projects, and engineering efforts!
 
-???+ note "Schedule Review"
+??? note "Schedule Review"
     - **Software Operation**
         - **Start**: August 24, 2021
         - **End**: September 3, 2021
@@ -113,3 +191,12 @@ source code surveys, programming projects, and engineering efforts!
     - **Python Functions**
         - **Start**: September 20, 2021
         - **End**: September 24, 2021
+    - **Data Containers**
+        - **Start**: September 27, 2021
+        - **End**: October 1, 2021
+    - **Monoids**
+        - **Start**: October 4, 2021
+        - **End**: October 8, 2021
+    - **Data Streams**
+        - **Start**: October 11, 2021
+        - **End**: October 15, 2021
