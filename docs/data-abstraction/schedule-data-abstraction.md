@@ -117,6 +117,30 @@
     - **Dictionary**: container structure like a list, except for the fact that
       it is indexed with a key
 
+## Program Components
+
+### Technical Question
+
+- How can I use different types of program modules, such as recursive functions,
+  modules, libraries, and files to implement efficient programs with effective
+  designs?
+
+### Reading Assignments
+
+- Chapters 6 and 7 of *Introduction to Computation and Programming Using Python*
+
+???+ note "Technical Concepts"
+
+    - **Tuple**: immutable ordered sequence that can contain elements of
+      any type
+    - **List**: ordered sequence of values where each value is identified by
+      an index
+    - **Set**: unordered collection of unique elements used for data storage
+    - **Shallow Copy**: creation of a new list that involves inserting contained
+      objects into a new list
+    - **Dictionary**: container structure like a list, except for the fact that
+      it is indexed with a key
+
 ## Learning Opportunities
 
 Interested in learning more about any of the topics on this schedule? If you
