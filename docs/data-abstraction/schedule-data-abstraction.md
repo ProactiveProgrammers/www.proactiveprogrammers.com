@@ -94,6 +94,29 @@
     - **Higher-Order Function**: general-purpose functions for problem solving
       that accept functions as input
 
+## Structured Types
+
+### Technical Question
+
+- How can I use Python's structured types (e.g., `str`, `list`, `range`, and
+  `dict`) to implement programs that efficiently store and retrieve data?
+
+### Reading Assignments
+
+- Chapter 5 of *Introduction to Computation and Programming Using Python*
+
+???+ note "Technical Concepts"
+
+    - **Tuple**: immutable ordered sequence that can contain elements of
+      any type
+    - **List**: ordered sequence of values where each value is identified by
+      an index
+    - **Set**: unordered collection of unique elements used for data storage
+    - **Shallow Copy**: creation of a new list that involves inserting contained
+      objects into a new list
+    - **Dictionary**: container structure like a list, except for the fact that
+      it is indexed with a key
+
 ## Learning Opportunities
 
 Interested in learning more about any of the topics on this schedule? If you
@@ -120,3 +143,6 @@ source code surveys, programming projects, and engineering efforts!
     - **Function Scope**
         - **Start**: September 20, 2021
         - **End**: September 24, 2021
+    - **Structured Types**
+        - **Start**: September 27, 2021
+        - **End**: October 1, 2021
