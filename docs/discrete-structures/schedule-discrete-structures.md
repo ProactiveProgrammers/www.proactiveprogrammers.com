@@ -87,6 +87,32 @@
     - **Median Value**: for a list of values sorted in increasing order, the
       middle value in the list
 
+## Data Containers
+
+### Technical Question
+
+- How do I use the mathematical concepts of ordered pairs, n-tuples, and lists
+  to implement efficient Python programs that use functions with a clearly
+  specified behavior to perform tasks like the input and parsing of a comma
+  separated value file?
+
+### Reading Assignments
+
+- Chapter 5 of *Programming and Mathematical Thinking*
+- Chapter 2 of *Doing Math with Python*
+
+???+ note "Technical Concepts"
+
+    - **Ordered Pair**: grouping of two elements such that their order is
+      important
+    - **Tuple**: immutable ordered sequence that can contain elements of
+      any type
+    - **Delimiter**: a symbol that separates data values
+    - **Flat File**: file that has no structure other than being divided into
+      lines and fields
+    - **CSV Format**: comma-separated value files that use a comma as a
+      delimiter to separate data
+
 ## Learning Opportunities
 
 Interested in learning more about any of the topics on this schedule? If you
