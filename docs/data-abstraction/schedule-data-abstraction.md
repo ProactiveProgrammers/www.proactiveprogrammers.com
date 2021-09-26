@@ -142,6 +142,30 @@
     - **File**: disk-based storage mechanism that contains content created by
       humans and/or computer programs
 
+## Software Testing
+
+### Technical Question
+
+- How can I use the processes of software testing and debugging to establish a
+  confidence in the correctness of a Python program?
+
+### Reading Assignments
+
+- Chapters 8 of *Introduction to Computation and Programming Using Python*
+
+???+ note "Technical Concepts"
+
+    - **Testing**: process of running a program to try to ascertain whether or
+      not it works as intended
+    - **Debugging**: process of trying to fix a program that does not currently
+      work as intended
+    - **Unit Testing**: writing and running test cases designed to ensure that
+      small units of functionality work correctly
+    - **Regression Testing**: process of re-running test cases whenever a
+      programmer makes any program changes
+    - **Defensive Programming**: creating software to ensure that defects are
+      overt and persistent
+
 ## Learning Opportunities
 
 Interested in learning more about any of the topics on this schedule? If you
@@ -174,3 +198,6 @@ source code surveys, programming projects, and engineering efforts!
     - **Program Components**
         - **Start**: October 4, 2021
         - **End**: October 8, 2021
+    - **Software Testing**
+        - **Start**: October 11, 2021
+        - **End**: October 15, 2021
