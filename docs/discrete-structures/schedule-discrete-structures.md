@@ -150,19 +150,20 @@
 ### Reading Assignments
 
 - Chapter 7 of *Programming and Mathematical Thinking*
-- All previously assigned chapters in *Doing Math with Python*
+- All previously assigned chapters of *Doing Math with Python*
 
 ???+ note "Technical Concepts"
 
-    - **Ordered Pair**: grouping of two elements such that their order is
-      important
-    - **Tuple**: immutable ordered sequence that can contain elements of
-      any type
-    - **Delimiter**: a symbol that separates data values
-    - **Flat File**: file that has no structure other than being divided into
-      lines and fields
-    - **CSV Format**: comma-separated value files that use a comma as a
-      delimiter to separate data
+    - **Static Sequence**: a sequence of values that, at any one time, exists as
+      a complete data structure
+    - **Dynamically-Generated Sequence**: a sequence of values that is all
+      present at once and can appear over time
+    - **Generator Function**: a function that incrementally yields its contents
+      through an iterator
+    - **Endless Stream**: a stream of data that potentially never ends,
+      distinguished from a not-possible infinite stream
+    - **Distributed Processing**: Computations on separate computers communicate
+      to solve a large computation
 
 ## Learning Opportunities
 
