@@ -171,3 +171,6 @@ source code surveys, programming projects, and engineering efforts!
     - **Structured Types**
         - **Start**: September 27, 2021
         - **End**: October 1, 2021
+    - **Program Components**
+        - **Start**: October 4, 2021
+        - **End**: October 8, 2021
