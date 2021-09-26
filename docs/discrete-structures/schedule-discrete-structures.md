@@ -190,3 +190,12 @@ source code surveys, programming projects, and engineering efforts!
     - **Python Functions**
         - **Start**: September 20, 2021
         - **End**: September 24, 2021
+    - **Data Containers**
+        - **Start**: September 27, 2021
+        - **End**: October 1, 2021
+    - **Monoids**
+        - **Start**: October 4, 2021
+        - **End**: October 8, 2021
+    - **Data Streams**
+        - **Start**: October 11, 2021
+        - **End**: October 15, 2021
