@@ -29,8 +29,8 @@ project!
 
 ## Expected Output
 
-This project invites you to implement a number comparison program called
-`average`. The program accepts through its command-line a file that contains
+This project invites you to implement a program called `average` that performs
+arithmetic. The program accepts through its command-line a file that contains
 integer values encoded as text. If you run the program with the command `poetry
 run average --dir input --file numbers.txt` it produces this output:
 
