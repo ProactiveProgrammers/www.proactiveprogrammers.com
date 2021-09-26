@@ -179,7 +179,7 @@ learning](../../proactive-learning/introduction-proactive-learning). As such,
 you can best understand the content on this schedule by completing all the
 source code surveys, programming projects, and engineering efforts!
 
-???+ note "Schedule Review"
+??? note "Schedule Review"
     - **Software Operation**
         - **Start**: August 24, 2021
         - **End**: September 3, 2021
