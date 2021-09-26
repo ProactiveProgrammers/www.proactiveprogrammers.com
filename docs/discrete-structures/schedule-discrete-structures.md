@@ -113,6 +113,32 @@
     - **CSV Format**: comma-separated value files that use a comma as a
       delimiter to separate data
 
+## Monoids
+
+### Technical Question
+
+- How do I employ the mathematical concepts of sequences, monoids, and lists to
+  implement efficient Python programs that use functions with a clearly
+  specified behavior to perform tasks like finding a name in a file or computing
+  the arithmetic mean of data values?
+
+### Reading Assignments
+
+- Chapter 6 of *Programming and Mathematical Thinking*
+- Chapter 3 of *Doing Math with Python*
+
+???+ note "Technical Concepts"
+
+    - **Ordered Pair**: grouping of two elements such that their order is
+      important
+    - **Tuple**: immutable ordered sequence that can contain elements of
+      any type
+    - **Delimiter**: a symbol that separates data values
+    - **Flat File**: file that has no structure other than being divided into
+      lines and fields
+    - **CSV Format**: comma-separated value files that use a comma as a
+      delimiter to separate data
+
 ## Learning Opportunities
 
 Interested in learning more about any of the topics on this schedule? If you
