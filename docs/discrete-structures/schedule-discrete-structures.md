@@ -129,15 +129,16 @@
 
 ???+ note "Technical Concepts"
 
-    - **Ordered Pair**: grouping of two elements such that their order is
-      important
-    - **Tuple**: immutable ordered sequence that can contain elements of
-      any type
-    - **Delimiter**: a symbol that separates data values
-    - **Flat File**: file that has no structure other than being divided into
-      lines and fields
-    - **CSV Format**: comma-separated value files that use a comma as a
-      delimiter to separate data
+    - **Sequence**: a collection of ordered homogeneous elements such a strings
+      and files
+    - **n-Tuple**: a collection of ordered heterogeneous elements with a fixed
+      number of components
+    - **Concatenation**: the process of joining together the contents of two or
+      more variables to form a new variable
+    - **Monoid**: abstract discrete structure that describes the behavior of
+      other structures in Python, including a string
+    - **Map Function**: function that applies a one-argument function to every
+      element of a sequence
 
 ## Data Streams
 
