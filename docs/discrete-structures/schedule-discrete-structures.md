@@ -117,7 +117,7 @@
 
 ### Technical Question
 
-- How do I employ the mathematical concepts of sequences, monoids, and lists to
+- How do I use the mathematical concepts of sequences, monoids, and lists to
   implement efficient Python programs that use functions with a clearly
   specified behavior to perform tasks like finding a name in a file or computing
   the arithmetic mean of data values?
@@ -126,6 +126,30 @@
 
 - Chapter 6 of *Programming and Mathematical Thinking*
 - Chapter 3 of *Doing Math with Python*
+
+???+ note "Technical Concepts"
+
+    - **Ordered Pair**: grouping of two elements such that their order is
+      important
+    - **Tuple**: immutable ordered sequence that can contain elements of
+      any type
+    - **Delimiter**: a symbol that separates data values
+    - **Flat File**: file that has no structure other than being divided into
+      lines and fields
+    - **CSV Format**: comma-separated value files that use a comma as a
+      delimiter to separate data
+
+## Data Streams
+
+### Technical Question
+
+- How do I use dynamically generated streams of data to implement memory
+  efficient and predictable Python programs?
+
+### Reading Assignments
+
+- Chapter 7 of *Programming and Mathematical Thinking*
+- All previously assigned chapters in *Doing Math with Python*
 
 ???+ note "Technical Concepts"
 
