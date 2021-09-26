@@ -131,15 +131,16 @@
 
 ???+ note "Technical Concepts"
 
-    - **Tuple**: immutable ordered sequence that can contain elements of
-      any type
-    - **List**: ordered sequence of values where each value is identified by
-      an index
-    - **Set**: unordered collection of unique elements used for data storage
-    - **Shallow Copy**: creation of a new list that involves inserting contained
-      objects into a new list
-    - **Dictionary**: container structure like a list, except for the fact that
-      it is indexed with a key
+    - **Recursive Function**: function that repeatedly calls itself until
+      reaching a base case that stops recursion
+    - **Global Variable**: a variable that is accessible to all of the functions
+      in a module
+    - **Module**: a Python file that contains definitions of variables and
+      functions accessible to a program
+    - **Standard Library**: collection of packages available to all Python
+      programs through an import statement
+    - **File**: disk-based storage mechanism that contains content created by
+      humans and/or computer programs
 
 ## Learning Opportunities
 
