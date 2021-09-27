@@ -125,12 +125,12 @@ Let's explore the use of data containers in Python!
 <v-clicks>
 
 ```
-(40.7580° N, 73.9855° W)
-(40.7580, -73.9855)
-  Times Square
-(60.1699° N, 24.9384° E)
-(60.1699, 24.9384)
-  Helsinki, Finland
+🔍 Times Square
+  (40.7580° N, 73.9855° W)
+  (40.7580, -73.9855)
+🔍 Helsinki, Finland
+  (60.1699° N, 24.9384° E)
+  (60.1699, 24.9384)
 ```
 
 - Specified according to the standard `(Latitude, Longitude)`
@@ -185,6 +185,21 @@ quadruple = ("Story number", 3,
 - What are the **data types** of the values in these tuples?
 
 - Which way is the **best** approach to **describing** these tuples?
+
+---
+
+# Special Tuples in the Python Language
+
+``` {.python mathescape="" numbersep="5pt" fontsize="\\large"}
+empty_tuple = ()
+single_story = ("Story",)
+single_number = (3,)
+number = (3)
+```
+
+- Some tuples may not (yet) contain any data in them!
+- Singleton tuples must use the comma notation
+- What is the difference between a tuple and a number?
 
 ---
 
