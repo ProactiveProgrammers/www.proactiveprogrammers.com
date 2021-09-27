@@ -232,6 +232,118 @@ Wait, what is the purpose of the last two statements? 🤔
 
 ---
 
+[//]: # (Slide Start {{{)
+
+<div class="flex row">
+
+<div class="text-7xl text-orange-600 font-bold mt-5 ml-4 mb-4">
+What are key aspects of storing data with tuples?
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+Tuples are an immutable data structure
+</div>
+
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+Tuples allow for the storage of duplicates
+</div>
+
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+Tuples store zero, one, or many values
+</div>
+
+</div>
+
+</div>
+
+[//]: # (Slide End }}})
+
+---
+
+[//]: # (Slide Start {{{)
+
+<div class="flex row">
+
+<div class="text-7xl text-orange-600 font-bold mt-5 ml-4 mb-4">
+Comparison between tuples and lists?
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+Tuples are an immutable and lists are not
+</div>
+
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+Both allow for the storage of duplicates
+</div>
+
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+Both store zero, one, or many values
+</div>
+
+</div>
+
+</div>
+
+[//]: # (Slide End }}})
+
+---
+
 # Files in Directories Can Store n-Tuples
 
 <div class="border-2 rounded-2xl border-gray-700 bg-true-gray-300 p-5">
@@ -280,7 +392,65 @@ for contact_line in csv.reader(
 
 ---
 
-# Files in Directories Can Store n-Tuples
+[//]: # (Slide Start {{{)
+
+<div class="flex row">
+
+<div class="text-7xl text-orange-600 font-bold mt-5 ml-4 mb-4">
+Review of the Python code for CSV parsing
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+<code>splitlines</code> breaks the CSV file up into lines
+</div>
+
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+<code>delimiter</code> defines the separator for the CSV file
+</div>
+
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+<code>contact_line</code> is a single line in the CSV file
+</div>
+
+</div>
+
+</div>
+
+[//]: # (Slide End }}})
+
+---
+
+# Searching a CSV File
+
+<v-clicks>
 
 <div class="border-2 rounded-2xl border-gray-700 bg-true-gray-300 p-5">
 
@@ -306,6 +476,64 @@ shawkins@watson.com,Science writer
 - Use existing **packages** and **functions** for CSV parsing
 
 - What is most **challenging** about parsing CSV files?
+
+</v-clicks>
+
+---
+
+[//]: # (Slide Start {{{)
+
+<div class="flex row">
+
+<div class="text-7xl text-orange-600 font-bold mt-5 ml-4 mb-4">
+What are the challenges of parsing CSV files?
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<mdi-alert-octagram class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+Handling missing values or values with delimiters
+</div>
+
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<mdi-alert-octagram class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+Parsing files with corrupted data values
+</div>
+
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<mdi-alert-octagram class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+Difficult to efficiently parse large CSV files
+</div>
+
+</div>
+
+</div>
+
+[//]: # (Slide End }}})
 
 ---
 
@@ -334,26 +562,28 @@ provide an alternative in a relational database management system (**RDBMS**).
 
 ---
 
-# Data Storage Containers
+# Using n-Tuples and Lists in Python
 
 <v-clicks>
 
--   How do you pick between the **different types** of **functions**?
+-   n-tuples and lists are frequently used in Python programs
 
--   Python functions to perform **statistical analysis** of data:
+-   Python programs can use CSV files and databases
 
-    -   **Q1**: How do you compute the **median** of a list of numbers?
+-   Using n-tuples inside of a Python program:
 
-    -   **Q2**: How do you compute the **mode** of a list of numbers?
+    -   **Q1**: What is the difference between a list and a tuple?
 
-    -   **Q3**: How do you compute a **frequency table** of a list of
-        numbers?
+    -   **Q2**: How do you read a CSV file from the file system?
 
-    -   **Q4**: How do you compute the **range** of a list of numbers?
+    -   **Q3**: How do you parse a CSV file encoded in a string?
 
-    -   **Q5**: How do you compute the **variance** and **standard deviation**?
+    -   **Q4**: How do you handle the intricacies of real-world CSV
+        files?
 
--   Can you **translate the mathematical descriptions** of these summary statistics
-to **Python programs**? Can you ensure their correctness with testing?
+    -   **Q5**: How can a Python program connect to a SQLite database?
+
+-   Connections for n-tuple and applications in computing, business, and
+science?
 
 </v-clicks>
