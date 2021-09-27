@@ -206,6 +206,25 @@ Wait, what is the purpose of the last two statements? 🤔
 
 ---
 
+# Computing Tuple Intersection
+
+```python {all|1-6|7-8|9-10|11-12|all}
+def intersect(tuple_one, tuple_two):
+    result = ()
+    for element in tuple_one:
+        if element in tuple_two:
+            result += (element,)
+    return result
+first_tuple = (1, "a", 2)
+second_tuple = ("b", 2, "a")
+intersection_tuple_one =
+            intersect(first_tuple, second_tuple)
+intersection_tuple_two =
+            intersect(second_tuple, first_tuple)
+```
+
+---
+
 [//]: # (Slide Start {{{)
 
 # Investigating Structured Types
