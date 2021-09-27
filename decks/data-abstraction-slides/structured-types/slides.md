@@ -298,7 +298,7 @@ print(L)
 
 - Is there another way to write this source code?
 
-- What are the trade-offs with list comprehensions?
+- What are the **trade-offs** with list comprehensions?
 
 ---
 
@@ -316,7 +316,7 @@ print(L)
 
 - Less "compact" way to define the contents of a list
 
-- Which approach is easier to test and maintain? Why?
+- Which approach is easier to **test** and **maintain**? Why?
 
 - Which approach do you prefer for defining a list? Why?
 
@@ -432,9 +432,9 @@ faith["Age"] = 14
 faith["Breed"] = "Havanese"
 ```
 
-- Dictionaries store key values pairs, making an associative map
+- Dictionaries store **key values pairs**, making an **associative map**
 
-- What is the output from running this program?
+- What is the **output** from running this program?
 
 ---
 
@@ -503,21 +503,21 @@ What performance characteristics are needed?
 
 <v-clicks>
 
--   Creating Python programs with "good" designs:
+-   Correct use of structured types in Python programs:
 
-    -   **Q1**: What are the benefits of **good design**?
+    -   **Q1**: What does it mean if a type is **mutable**?
 
-    -   **Q2**: What **language features** support good design?
+    -   **Q2**: What does it mean if a type is **immutable**?
 
-    -   **Q3**: How does a **higher-order** function improve design?
+    -   **Q3**: How can a **higher-order** function process lists?
 
-    -   **Q4**: How does a **lambda** function improve design?
+    -   **Q4**: What does it mean if a container has an **alias**?
 
-    -   **Q5**: How can we compare the **quality** of two designs?
+    -   **Q5**: How can you pick the correct container **type**?
 
--   We will always aim to create good designs in **upcoming projects**!
+-   You will use structured types throughout this course!
 
--   Balance the **trade-offs** associated with designing quality software
+-   Balance the **trade-offs** associated with different data containers!
 
 </v-clicks>
 
