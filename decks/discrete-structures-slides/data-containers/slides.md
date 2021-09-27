@@ -280,6 +280,60 @@ for contact_line in csv.reader(
 
 ---
 
+# Files in Directories Can Store n-Tuples
+
+<div class="border-2 rounded-2xl border-gray-700 bg-true-gray-300 p-5">
+
+<pre>
+tylernelson@gmail.com,Careers adviser
+gregory02@medina-mayer.com,"Accountant, management"
+jonesmiguel@hotmail.com,Health and safety inspector
+rsanchez@yahoo.com,"Surveyor, planning and development"
+hillfrank@ward-wood.com,"Scientist, physiological"
+aaronhunter@gmail.com,"Surveyor, insurance"
+kylebarnes@hotmail.com,Records manager
+joe70@yahoo.com,Network engineer
+torresjames@white.info,Electrical engineer
+shawkins@watson.com,Science writer
+</pre>
+
+</div>
+
+- What would happen if a person searched for "adviser"?
+
+- What would happen if a person searched for "teacher"?
+
+- Use existing **packages** and **functions** for CSV parsing
+
+- What is most **challenging** about parsing CSV files?
+
+---
+
+# Tuples are Worth Billions of Dollars!
+
+<v-clicks>
+
+-   Relational databases store **tuples** of data in **rows**
+
+-   Introduction to **relational databases**:
+
+    -   Databases contain **tables** of data
+
+    -   A table consists of **rows** and **columns**
+
+    -   Each **row** of a table is an **n-tuple**
+
+    -   Database tables are specified by **schemas**
+
+    -   Schemas define the **data types** for the **columns**
+
+-   CSV files do not offer enough **structure** or **enforcement**; relational databases
+provide an alternative in a relational database management system (**RDBMS**).
+
+</v-clicks>
+
+---
+
 # Data Storage Containers
 
 <v-clicks>
