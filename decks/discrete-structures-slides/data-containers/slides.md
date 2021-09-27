@@ -52,9 +52,9 @@ info: |
 ## Key Question
 
 > How do I use the mathematical concepts of **ordered pairs**, **n-tuples**, and
-> **lists** to implement efficient Python programs that use functions with a
-> clearly specified behavior to perform tasks like the **input** and **parsing** of a
-> comma separated value (CSV) file?
+> **lists** to implement functions with a clearly specified behavior to perform
+> tasks like the **input** and **parsing** of a comma separated value (CSV)
+> file?
 
 </div>
 
@@ -76,7 +76,7 @@ info: |
 <uim-rocket class="text-5xl ml-8 mt-5 text-blue-600" />
 
 <div class="text-3xl font-bold mt-8 ml-4">
-Let's explore the types of functions in Python!
+Let's explore the use of data containers in Python!
 </div>
 
 </div>
