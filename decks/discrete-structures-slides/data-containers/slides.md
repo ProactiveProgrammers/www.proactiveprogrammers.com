@@ -566,22 +566,22 @@ provide an alternative in a relational database management system (**RDBMS**).
 
 <v-clicks>
 
--   n-tuples and lists are frequently used in Python programs
+-   **n-tuples** and **lists** are frequently used in Python programs
 
--   Python programs can use CSV files and databases
+-   Python programs can use **CSV files** and **databases**
 
 -   Using n-tuples inside of a Python program:
 
-    -   **Q1**: What is the difference between a list and a tuple?
+    -   **Q1**: What is the difference between a **list** and a **tuple**?
 
-    -   **Q2**: How do you read a CSV file from the file system?
+    -   **Q2**: How do you **read** a CSV file from the file system?
 
-    -   **Q3**: How do you parse a CSV file encoded in a string?
+    -   **Q3**: How do you **parse** a CSV file encoded in a string?
 
-    -   **Q4**: How do you handle the intricacies of real-world CSV
+    -   **Q4**: How do you handle the **intricacies** of real-world CSV
         files?
 
-    -   **Q5**: How can a Python program connect to a SQLite database?
+    -   **Q5**: How can a Python program **use** a **relational database**?
 
 -   Connections for n-tuple and applications in computing, business, and
 science?
