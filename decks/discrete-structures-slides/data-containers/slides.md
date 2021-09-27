@@ -232,6 +232,31 @@ Wait, what is the purpose of the last two statements? 🤔
 
 ---
 
+# Files in Directories Can Store n-Tuples
+
+<div class="border-2 rounded-2xl border-gray-700 bg-true-gray-300 p-5">
+
+<pre>
+tylernelson@gmail.com,Careers adviser
+gregory02@medina-mayer.com,"Accountant, management"
+jonesmiguel@hotmail.com,Health and safety inspector
+rsanchez@yahoo.com,"Surveyor, planning and development"
+hillfrank@ward-wood.com,"Scientist, physiological"
+aaronhunter@gmail.com,"Surveyor, insurance"
+kylebarnes@hotmail.com,Records manager
+joe70@yahoo.com,Network engineer
+torresjames@white.info,Electrical engineer
+shawkins@watson.com,Science writer
+</pre>
+
+</div>
+
+- Comma separate value (CSV) are frequently used in business!
+
+- Input this file of n-tuples into Python? Lists versus tuples?
+
+---
+
 # Data Storage Containers
 
 <v-clicks>
