@@ -302,6 +302,26 @@ print(L)
 
 ---
 
+# Alternative to List Comprehensions
+
+```python
+L = []
+for x in range(6):
+    if x % 2 == 0:
+        for y in range(6):
+            if y % 3 == 0:
+                L.append((x, y))
+print(L)
+```
+
+- Less "compact" way to define the contents of a list
+
+- Which approach is easier to test and maintain? Why?
+
+- Which approach do you prefer for defining a list? Why?
+
+---
+
 [//]: # (Slide Start {{{)
 
 # Investigating Structured Types
