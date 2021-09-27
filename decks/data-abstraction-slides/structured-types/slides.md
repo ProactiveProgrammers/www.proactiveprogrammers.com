@@ -298,7 +298,7 @@ print(L)
 
 - Is there another way to write this source code?
 
-- What are the trade-offs with list compressions?
+- What are the trade-offs with list comprehensions?
 
 ---
 
