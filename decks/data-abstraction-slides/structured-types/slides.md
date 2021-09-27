@@ -279,6 +279,26 @@ List append method has side effect
 
 [//]: # (Slide End }}})
 
+---
+
+# Using List Comprehensions
+
+```python
+L = [(x, y)
+      for x in range(6) if x % 2 == 0
+      for y in range(6) if y % 3 == 0
+    ]
+
+print(L)
+```
+
+- "Compact" way to define the contents of a list
+
+- Collects the even and odd values from `range(6)`
+
+- Is there another way to write this source code?
+
+- What are the trade-offs with list compressions?
 
 ---
 
