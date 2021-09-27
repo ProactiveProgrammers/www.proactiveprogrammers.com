@@ -190,7 +190,7 @@ quadruple = ("Story number", 3,
 
 # Special Tuples in the Python Language
 
-``` {.python mathescape="" numbersep="5pt" fontsize="\\large"}
+```python
 empty_tuple = ()
 single_story = ("Story",)
 single_number = (3,)
@@ -198,8 +198,37 @@ number = (3)
 ```
 
 - Some tuples may not (yet) contain any data in them!
+
 - Singleton tuples must use the comma notation
-- What is the difference between a tuple and a number?
+
+- What is the **difference** between a **tuple** and a **number**?
+  - Conceptual difference
+  - Syntactic difference
+
+- How do we **put data into** and **take data out** of a tuple?
+
+---
+
+# Packing and Unpacking Tuples
+
+```python
+# pack a tuple into a variable
+pair = (3,4)
+
+# unpack the contents of a tuple
+x, y = pair
+(x, y) = pair
+
+# unpack and perform simultaneous assignment
+x, y = y, x
+(x, y) = (y, x)
+```
+
+<div class="mt-7">
+
+Wait, what is the purpose of the last two statements? 🤔
+
+</div>
 
 ---
 
