@@ -418,6 +418,26 @@ x = {list}
 
 ---
 
+# Creating and Using Dictionaries
+
+```python
+bosco = {}
+bosco["Name"] = "Bosco"
+bosco["Age"] = 6
+bosco["Breed"] = "Havanese"
+
+faith = {}
+faith["Name"] = "Faith"
+faith["Age"] = 14
+faith["Breed"] = "Havanese"
+```
+
+- Dictionaries store key values pairs, making an associative map
+
+- What is the output from running this program?
+
+---
+
 [//]: # (Slide Start {{{)
 
 <div class="flex row">
