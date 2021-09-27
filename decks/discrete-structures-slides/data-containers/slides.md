@@ -251,9 +251,32 @@ shawkins@watson.com,Science writer
 
 </div>
 
-- Comma separate value (CSV) are frequently used in business!
+- **Comma separate value** (CSV) are frequently used in business and science!
 
-- Input this file of n-tuples into Python? Lists versus tuples?
+- How can we **input** this file of n-tuples into a Python program?
+
+- How do we parse each line based on a **delimiter**?
+
+- How can the program handle **multiple-word** content with **commas**?
+
+---
+
+# Parsing CSV Files in Python
+
+```python {all|1|2|3-7|9|10-12|all}
+contacts_list = []
+for contact_line in csv.reader(
+    contacts.splitlines(),
+    quotechar='"',
+    delimiter=",",
+    quoting=csv.QUOTE_ALL,
+    skipinitialspace=True,
+):
+    current_contact_job = contact_line[1]
+    if job_description in
+           current_contact_job.lower():
+        contacts_list.append(contact_line)
+```
 
 ---
 
