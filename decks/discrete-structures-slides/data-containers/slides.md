@@ -49,11 +49,12 @@ info: |
 
 <div v-click>
 
-## Key Questions
+## Key Question
 
-> How do I use **non-recursive** functions, **recursive** functions, and
-> **lambda expressions** to perform mathematical operations such as computing
-> the **absolute value** of a number and the **mean** of a sequence of numbers?
+> How do I use the mathematical concepts of **ordered pairs**, **n-tuples**, and
+> **lists** to implement efficient Python programs that use functions with a
+> clearly specified behavior to perform tasks like the **input** and **parsing** of a
+> comma separated value (CSV) file?
 
 </div>
 
@@ -64,7 +65,7 @@ info: |
 ## Learning Objectives
 
 > To **remember** and **understand** some discrete mathematics and Python
-> programming concepts, setting the stage for exploring of discrete structures.
+> programming concepts, enabling the investigation of practical applications
 
 </div>
 
