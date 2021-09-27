@@ -414,7 +414,7 @@ x = {list}
 
 - The last two lines cause this Python program to crash! Why?
 
-- Sets can only store immutable elements and a `list` is not!
+- Sets can only store immutable elements, which  `list` is not!
 
 ---
 
