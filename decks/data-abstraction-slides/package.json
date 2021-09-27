@@ -3,6 +3,7 @@
   "workspaces": [
     "python-foundations",
     "numerical-computation",
-    "function-scope"
+    "function-scope",
+    "structured-types"
   ]
 }
