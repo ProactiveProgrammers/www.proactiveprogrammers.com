@@ -343,6 +343,8 @@ print("square(values) =", values)
 
 # Using the `apply_to_each` Function
 
+<v-clicks>
+
 <div class="border-2 rounded-2xl border-gray-700 bg-true-gray-300 p-5">
 
 <pre>
@@ -365,6 +367,34 @@ square(values) = [1, 4, 9]
     - `map` is more general than `apply_to_each`
 
     - Both functions implement the same idea!
+
+</v-clicks>
+
+---
+
+# Summary of These Structured Types
+
+<v-clicks>
+
+- `str` structured type:
+
+  - All elements are characters
+
+  - Examples: `''` or `'a'` or `'abc'`
+
+- `tuple` structured type:
+
+  - Examples: `()` or `(3,)` or `('abc', 4)`
+
+- `list` structured type:
+
+  - Examples: `[]` or `[3]` or `['abc', 4]`
+
+- Both **lists** and **tuples** can store **any type** of data!
+
+- Also possible to create a **range** for storing a **sequence of integers**
+
+</v-clicks>
 
 ---
 
