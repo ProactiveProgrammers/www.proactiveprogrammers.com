@@ -104,6 +104,7 @@
 ### Reading Assignments
 
 - Chapter 5 of *Introduction to Computation and Programming Using Python*
+- Check out the [course slides](/slides/data-abstraction/structured-types/) for a detailed investigation of these chapters!
 
 ???+ note "Technical Concepts"
 
@@ -112,10 +113,10 @@
     - **List**: ordered sequence of values where each value is identified by
       an index
     - **Set**: unordered collection of unique elements used for data storage
-    - **Shallow Copy**: creation of a new list that involves inserting contained
-      objects into a new list
     - **Dictionary**: container structure like a list, except for the fact that
       it is indexed with a key
+    - **Shallow Copy**: creation of a new list that involves inserting contained
+      objects into a new list
 
 ## Program Components
 

@@ -3,6 +3,7 @@
   "workspaces": [
     "making-connections",
     "programming-constructs",
-    "python-functions"
+    "python-functions",
+    "data-containers"
   ]
 }
