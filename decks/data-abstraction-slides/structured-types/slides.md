@@ -322,6 +322,52 @@ print(L)
 
 ---
 
+# Higher-Order List Operations
+
+```python {all|1-3|5-6|7-8|9-10|11-12|all}
+def apply_to_each(L, f):
+    for i in range(len(L)):
+        L[i] = f(L[i])
+
+values = [1, -2, 3.33]
+print("values =", values)
+apply_to_each(values, abs)
+print("abs(values) =", values)
+apply_to_each(values, int)
+print("int(values) =", values)
+apply_to_each(values, lambda x: x**2)
+print("square(values) =", values)
+```
+
+---
+
+# Using the `apply_to_each` Function
+
+<div class="border-2 rounded-2xl border-gray-700 bg-true-gray-300 p-5">
+
+<pre>
+values = [1, -2, 3.33]
+abs(values) = [1, 2, 3.33]
+int(values) = [1, 2, 3]
+square(values) = [1, 4, 9]
+</pre>
+
+</div>
+
+- Each call to `apply_to_each` modifies the list
+
+- This means that the function has a side effect
+
+- Alternative to defining a bespoke function:
+
+    - Python provides a `map` function
+
+    - `map` is more general than `apply_to_each`
+
+    - Both functions implement the same idea!
+
+---
+
 [//]: # (Slide Start {{{)
 
 # Investigating Structured Types
