@@ -120,7 +120,75 @@ Let's explore the use of data containers in Python!
 
 ---
 
-# Implementing and Testing Functions
+# Practical Applications of Ordered Pairs
+
+<v-clicks>
+
+```
+(40.7580° N, 73.9855° W)
+(40.7580, -73.9855)
+  Times Square
+(60.1699° N, 24.9384° E)
+(60.1699, 24.9384)
+  Helsinki, Finland
+```
+
+- Specified according to the standard `(Latitude, Longitude)`
+
+- Latitude and longitude provide a "global address" for a location
+
+- Why does the order matter for these pairs of location data?
+
+- How do you interpret the **positive** and **negative** numbers?
+
+</v-clicks>
+
+---
+
+# Generalizing Ordered Pairs to n-Tuples
+
+<v-clicks>
+
+-   We could have an "ordered triple" or "ordered quadruple"
+
+-   The n-tuple is the generic name for "tuples" of any size
+    -   A 2-tuple is the same as an **ordered pair**
+    -   A 3-tuple is the same as an **ordered triple**
+    -   A 4-tuple is the same as an **ordered quadruple**
+    -   n-tuples contain a **finite** number of entities
+
+-   Write n-tuples with notation like $(1,2)$ or $(x,y,z)$
+
+-   n-tuples enable the **creation of new mathematical objects**
+
+-   While the type of entity in an n-tuple may be different, not every
+    entity in the n-tuple must be different. This means that **duplicates are possible**!
+
+</v-clicks>
+
+---
+
+# Defining n-Tuples in Python Programs
+
+```python
+pair = 3, 4
+quadruple = "Story number", 3,
+              "is", true
+
+pair = (3, 4)
+quadruple = ("Story number", 3,
+              "is", true)
+```
+
+- The **same data type** is **not** a **requirement** for a tuple
+
+- What are the **data types** of the values in these tuples?
+
+- Which way is the **best** approach to **describing** these tuples?
+
+---
+
+# Data Storage Containers
 
 <v-clicks>
 
