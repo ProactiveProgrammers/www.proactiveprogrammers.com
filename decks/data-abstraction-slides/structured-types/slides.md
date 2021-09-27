@@ -398,6 +398,26 @@ square(values) = [1, 4, 9]
 
 ---
 
+# Sets Store Immutable Elements
+
+```python
+x = {53, 'pencil', (1, 1, 2, 3, 5), 3.14159}
+
+print("Set defined with a multiple types:")
+print(x)
+
+print()
+
+list = [53, 'pencil', (1, 1, 2, 3, 5), 3.14159]
+x = {list}
+```
+
+- The last two lines cause this Python program to crash! Why?
+
+- Sets can only store immutable elements and a `list` is not!
+
+---
+
 [//]: # (Slide Start {{{)
 
 # Investigating Structured Types
