@@ -20,7 +20,7 @@ info: |
 
 # Data Abstraction
 
-## Function Scope
+## Structured Types
 
 <div class="container my-5">
   &nbsp;
