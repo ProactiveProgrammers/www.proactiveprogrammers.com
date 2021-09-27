@@ -472,10 +472,9 @@ What performance characteristics are needed?
 
 [//]: # (Slide End }}})
 
+---
 
 [//]: # (Slide Start {{{)
-
----
 
 # Investigating Structured Types
 
