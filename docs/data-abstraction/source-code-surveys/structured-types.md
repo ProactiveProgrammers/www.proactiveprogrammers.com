@@ -3,16 +3,18 @@
 ## Project Goals
 
 This assignment invites you to run and observe two Python programs called
-`determine-even-odd` and `floating-point-confusion`. Instead of using the
+`compute-tuple-intersection` and `perform-apply-to-each`. Instead of using the
 [Poetry](https://python-poetry.org/) tool for managing dependencies and
 packaging these programs, which the [technical
 skills](/proactive-skills/introduction-proactive-skills/) advise as a best
 practice, these programs are scripts, without any dependencies on other Python
-packages, that you can run through the Python interpreter. As you learn a new
-way to run a Python program, this project offers you the opportunity to ensure
-that you understand how to (i) use the modular arithmetic operation (i.e., `%`)
-to determine if a number is even or odd and (ii) correctly multiply and add
-with float-point variables.
+packages, that you can run through the Python interpreter. As you continue to
+practice a different way to run a Python program, this project offers you the
+opportunity to improve your understanding of how to compute the intersection (or
+elements in common) between two tuples that can contain an arbitrary number of
+values each of an arbitrary type. You will also learn more about high-order
+functions as you implement a program that can apply an arbitrary function to the
+contents of an arbitrary length list of `int` values.
 
 ## Project Access
 
