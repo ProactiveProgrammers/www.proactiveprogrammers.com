@@ -28,46 +28,30 @@ project!
 ## Code Survey
 
 If you change into the `source` directory of your GitHub repository, you will
-see two Python files called `perform-ordered-pair-swap.py` and
-`demonstrate-variable-limitations.py`. You can run the `perform-ordered-pair-swap.py`
-program by typing `python perform-ordered-pair-swap.py` in your terminal window. What
-output does the program produce? Can you explain why it produces this output?
-The key to understanding this segment of source code is to notice that the
-conditional logic in lines `1` through `4` use a programmer's decimal
-approximation of $\frac{1}{3}$ while lines `5` through `8` use the fraction
-itself.  What does this output tell you about the difference between `.33333`
-and `(1/3)` in the Python language?
+see a Python program called `perform-ordered-pair-swap.py`. Your goal for this
+project is to find and fix the defects in the function with the signature `def
+ordered_pair_swap(pair_one: Tuple[Any, Any], pair_two: Tuple[Any, Any]) ->
+Tuple[Tuple[Any, Any], Tuple[Any, Any]]`. When you run the command `python
+perform-ordered-pair-swap.py` after correcting the program's defects, it should
+produce the following output:
 
-```python linenums="1"
-if .33333 + .33333 + .33333 == 1:
-    print(".33333 + .33333 + .33333 is equal to 1")
-else:
-    print(".33333 + .33333 + .33333 is not equal to 1")
-if (1/3) + (1/3) + (1/3) == 1:
-    print("1/3 + 1/3 + 1/3 is equal 1")
-else:
-    print("1/3 + 1/3 + 1/3 is not equal 1")
+```
+Original tuple of ordered pairs: (('A', 1), ('B', 2))
+Swapped tuple of ordered pairs: ((2, 'B'), (1, 'A'))
+Swapped (again) tuple of ordered pairs: (('A', 1), ('B', 2))
 ```
 
-The second Python program is called `demonstrate-variable-limitations.py`
-because it uses the exponentiation operator, written as `**`, to raise different
-numbers to different powers. As shown on line `1` in the following excerpt from
-this program, it is feasible to efficiently perform the computation `2**2**8`,
-written as $2^{2^8}$ using mathematical notation. Line `3` also shows that it is
-possible to efficiently compute the value of $2^{2^{10}}$ using the Python
-expression `2**2**10`. Although not shown in the following source code segment,
-the `demonstrate-variable-limitations.py` script also has commented-out source
-code that performs the computation `2**2**100`. If you un-comment this source
-code and run the program by typing `python floating-point-confusion.py` what
-does the output tell you about the challenges of efficiently performing
-exponentiation?
-
-```python linenums="1"
-feasible_number = 2**2**8
-print(f"The value of a feasible number is {feasible_number}")
-another_feasible_number = 2**2**10
-print(f"The value of another feasible number is {another_feasible_number}")
-```
+It is worth noting that the `ordered_pair_swap` function performs two types of
+swapping. It first swaps the values inside of each of the ordered pairs, as
+evidenced in the first and second lines of the output, where the first tuple is
+input as `('A', 1)` and output as `(1, 'A')`. The second type of swap performed
+by the function involves outputting the second tuple first and the first tuple
+second, which the second output line illustrating with `((2, 'B'), (1, 'A'))`
+for an input of `(('A', 1), ('B', 2))`. The final line of the program output
+also illustrates that the tuple swapping process is reversible since the
+function can accept as input `((2, 'B'), (1, 'A'))` and produce as output
+`(('A', 1), ('B', 2))` &mdash; which is the original tuple that started this the
+tuple swapping process!
 
 ## Running Checks
 
