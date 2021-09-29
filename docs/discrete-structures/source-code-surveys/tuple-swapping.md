@@ -2,17 +2,16 @@
 
 ## Project Goals
 
-This assignment invites you to run and observe two Python programs called
-`compare-variables` and `demonstrate-variable-limitations`. Instead of using the
+This assignment invites you to run and observe one Python program called
+`perform-ordered-pair-swap`. Instead of using the
 [Poetry](https://python-poetry.org/) tool for managing dependencies and
 packaging these programs, which the [technical
 skills](/proactive-skills/introduction-proactive-skills/) advise as a best
-practice, these programs are scripts, without any dependencies on other Python
-packages, that you can run through the Python interpreter. As you learn a new
-way to run a Python program, this project offers you the opportunity to ensure
-that you understand how to (i) understand the representation of float-point
-variables and (ii) the time and space limitations associated with performing
-computations with numbers.
+practice, this program is a script, without any dependencies on other Python
+packages, that you can run through the Python interpreter. As you continue to
+practice a different way to run a Python program, this project invites you to
+explore how to (i) find and fix defects in a function and (ii) create and use
+fixed-size tuples that can contain arbitrary types of data.
 
 ## Project Access
 
@@ -29,9 +28,9 @@ project!
 ## Code Survey
 
 If you change into the `source` directory of your GitHub repository, you will
-see two Python files called `compare-variables.py` and
-`demonstrate-variable-limitations.py`. You can run the `compare-variables.py`
-program by typing `python compare-variables.py` in your terminal window. What
+see two Python files called `perform-ordered-pair-swap.py` and
+`demonstrate-variable-limitations.py`. You can run the `perform-ordered-pair-swap.py`
+program by typing `python perform-ordered-pair-swap.py` in your terminal window. What
 output does the program produce? Can you explain why it produces this output?
 The key to understanding this segment of source code is to notice that the
 conditional logic in lines `1` through `4` use a programmer's decimal
