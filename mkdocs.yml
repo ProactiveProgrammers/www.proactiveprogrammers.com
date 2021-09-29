@@ -225,6 +225,7 @@ nav:
     - Course Schedule: discrete-structures/schedule-discrete-structures.md
     - Source Code Surveys:
       - Data Types: discrete-structures/source-code-surveys/data-types.md
+      - Tuple Swapping: discrete-structures/source-code-surveys/tuple-swapping.md
     - Programming Projects:
       - Computing Averages: discrete-structures/programming-projects/average-computation.md
       - Temperature Conversion: discrete-structures/programming-projects/temperature-conversion.md
