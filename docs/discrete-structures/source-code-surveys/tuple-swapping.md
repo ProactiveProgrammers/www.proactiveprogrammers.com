@@ -1,18 +1,18 @@
-# Numerical Data
+# Tuple Swapping
 
 ## Project Goals
 
 This assignment invites you to run and observe two Python programs called
-`determine-even-odd` and `floating-point-confusion`. Instead of using the
+`compare-variables` and `demonstrate-variable-limitations`. Instead of using the
 [Poetry](https://python-poetry.org/) tool for managing dependencies and
 packaging these programs, which the [technical
 skills](/proactive-skills/introduction-proactive-skills/) advise as a best
 practice, these programs are scripts, without any dependencies on other Python
 packages, that you can run through the Python interpreter. As you learn a new
 way to run a Python program, this project offers you the opportunity to ensure
-that you understand how to (i) use the modular arithmetic operation (i.e., `%`)
-to determine if a number is even or odd and (ii) correctly multiply and add
-with float-point variables.
+that you understand how to (i) understand the representation of float-point
+variables and (ii) the time and space limitations associated with performing
+computations with numbers.
 
 ## Project Access
 
@@ -29,37 +29,45 @@ project!
 ## Code Survey
 
 If you change into the `source` directory of your GitHub repository, you will
-see two Python files called `determine-even-odd.py` and
-`floating-point-confusion.py`. You can run the `determine-even-odd.py` program
-by typing `python determine-even-odd.py` in your terminal window. What output
-does the program produce? Can you explain why it produces this output? The key
-to understanding this segment of source code is to notice that line `1` uses the
-modular arithmetic operation, written as `%`, to compute the remainder that
-results from dividing the variable called `value` by `2`. If `2` divides `value`
-evenly, then the remainder will be `0` and this code segment concludes that the
-number is even. However, if the remainder resulting from dividing `value` by `2`
-is not equal to `0`, then there is clear evidence that `value` is odd.
+see two Python files called `compare-variables.py` and
+`demonstrate-variable-limitations.py`. You can run the `compare-variables.py`
+program by typing `python compare-variables.py` in your terminal window. What
+output does the program produce? Can you explain why it produces this output?
+The key to understanding this segment of source code is to notice that the
+conditional logic in lines `1` through `4` use a programmer's decimal
+approximation of $\frac{1}{3}$ while lines `5` through `8` use the fraction
+itself.  What does this output tell you about the difference between `.33333`
+and `(1/3)` in the Python language?
 
 ```python linenums="1"
-if value % 2 == 0:
-    return "even"
+if .33333 + .33333 + .33333 == 1:
+    print(".33333 + .33333 + .33333 is equal to 1")
 else:
-    return "odd"
+    print(".33333 + .33333 + .33333 is not equal to 1")
+if (1/3) + (1/3) + (1/3) == 1:
+    print("1/3 + 1/3 + 1/3 is equal 1")
+else:
+    print("1/3 + 1/3 + 1/3 is not equal 1")
 ```
 
-The second program is called `floating-point-confusion.py` because it
-illustrates some of the initially confusing aspects of using Python's `float`
-data type to store decimal values. To understand this program better, it is
-important to note that lines `1` and `2` in the following segment illustrate the
-respective use of addition and multiplication with float-point numbers. You can
-run this program by typing `python floating-point-confusion.py` in your
-terminal. Can you explain why it produces this output and what it reveals about
-the challenges of doing arithmetic with float-point numbers?
+The second Python program is called `demonstrate-variable-limitations.py`
+because it uses the exponentiation operator, written as `**`, to raise different
+numbers to different powers. As shown on line `1` in the following excerpt from
+this program, it is feasible to efficiently perform the computation `2**2**8`,
+written as $2^{2^8}$ using mathematical notation. Line `3` also shows that it is
+possible to efficiently compute the value of $2^{2^{10}}$ using the Python
+expression `2**2**10`. Although not shown in the following source code segment,
+the `demonstrate-variable-limitations.py` script also has commented-out source
+code that performs the computation `2**2**100`. If you un-comment this source
+code and run the program by typing `python floating-point-confusion.py` what
+does the output tell you about the challenges of efficiently performing
+exponentiation?
 
 ```python linenums="1"
-for _ in range(10):
-    number = number + 0.1
-multiply_number = 10.0 * 0.1
+feasible_number = 2**2**8
+print(f"The value of a feasible number is {feasible_number}")
+another_feasible_number = 2**2**10
+print(f"The value of another feasible number is {another_feasible_number}")
 ```
 
 ## Running Checks
@@ -80,8 +88,8 @@ editor to answer all of the questions in the `writing/reflection.md` file. Since
 this is a source code survey, you should provide output from running each of the
 provided Python programs on your own laptop and then explain how the program's
 source code produced that output. A specific goal for this project is to ensure
-that you can explain how Python programs should correctly use modular arithmetic
-and floating point numbers to achieve a practical goal.
+that you understand how Python programs should use integer numbers and
+exponentiation in an efficient fashion.
 
 ## Project Assessment
 

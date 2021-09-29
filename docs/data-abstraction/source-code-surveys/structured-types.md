@@ -1,18 +1,20 @@
-# Numerical Data
+# Structured Types
 
 ## Project Goals
 
 This assignment invites you to run and observe two Python programs called
-`determine-even-odd` and `floating-point-confusion`. Instead of using the
+`compute-tuple-intersection` and `perform-apply-to-each`. Instead of using the
 [Poetry](https://python-poetry.org/) tool for managing dependencies and
 packaging these programs, which the [technical
 skills](/proactive-skills/introduction-proactive-skills/) advise as a best
 practice, these programs are scripts, without any dependencies on other Python
-packages, that you can run through the Python interpreter. As you learn a new
-way to run a Python program, this project offers you the opportunity to ensure
-that you understand how to (i) use the modular arithmetic operation (i.e., `%`)
-to determine if a number is even or odd and (ii) correctly multiply and add
-with float-point variables.
+packages, that you can run through the Python interpreter. As you continue to
+practice a different way to run a Python program, this project offers you the
+opportunity to improve your understanding of how to compute the intersection (or
+elements in common) between two tuples that can contain an arbitrary number of
+values each of an arbitrary type. You will also learn more about high-order
+functions as you implement a program that can apply an arbitrary function to the
+contents of an arbitrary length list of `int` values.
 
 ## Project Access
 
@@ -29,37 +31,44 @@ project!
 ## Code Survey
 
 If you change into the `source` directory of your GitHub repository, you will
-see two Python files called `determine-even-odd.py` and
-`floating-point-confusion.py`. You can run the `determine-even-odd.py` program
-by typing `python determine-even-odd.py` in your terminal window. What output
-does the program produce? Can you explain why it produces this output? The key
-to understanding this segment of source code is to notice that line `1` uses the
-modular arithmetic operation, written as `%`, to compute the remainder that
-results from dividing the variable called `value` by `2`. If `2` divides `value`
-evenly, then the remainder will be `0` and this code segment concludes that the
-number is even. However, if the remainder resulting from dividing `value` by `2`
-is not equal to `0`, then there is clear evidence that `value` is odd.
+see two Python files called `compute-tuple-intersection.py` and
+`perform-apply-to-each.py`. You can run the `compute-tuple-intersection.py`
+program by typing `python compute-tuple-intersection.py` in your terminal
+window. This program currently has several `TODO` markers asking you to add
+source code from the text book to provide an implementation of a function with
+the following signature: `def compute_intersection(tuple_one: Tuple[Any, ...],
+tuple_two: Tuple[Any, ...]) -> Tuple[Any, ...]`. Once you have added all of the
+required source code your program should produce the following output. Can you
+explain why different calls to `compute_intersection` yield an output that
+contains the same elements but in a different order?
 
-```python linenums="1"
-if value % 2 == 0:
-    return "even"
-else:
-    return "odd"
+```
+The first tuple: (1, 'a', 2)
+The second tuple: ('b', 2, 'a')
+
+The first intersection tuple: ('a', 2)
+The second intersection tuple: (2, 'a')
 ```
 
-The second program is called `floating-point-confusion.py` because it
-illustrates some of the initially confusing aspects of using Python's `float`
-data type to store decimal values. To understand this program better, it is
-important to note that lines `1` and `2` in the following segment illustrate the
-respective use of addition and multiplication with float-point numbers. You can
-run this program by typing `python floating-point-confusion.py` in your
-terminal. Can you explain why it produces this output and what it reveals about
-the challenges of doing arithmetic with float-point numbers?
+The second program in the `source` directory is called `perform-apply-to-each`.
+Again, this program has several `TODO` markers that invite you to add source
+code from the text book to finish the implementation of the function with the
+signature `def apply_to_each(values: List[int], function: Callable) -> None`.
+After you have added the required source code your program should produce the
+following output. One interesting aspect of the `apply_to_each` function is that
+it does not return any values, as indicated by the return type annotation of
+`None`. If the function does not return a value, then how can it modify the
+`values` input parameter of type `List[int]` as shown in the output? Finally,
+you will note that `apply_to_each` accepts a `function` parameter of type
+`Callable`, making it a higher-order function. What are the benefits of using
+high-order functions in Python programs? How does `apply_to_each` use the
+`function` parameter?
 
-```python linenums="1"
-for _ in range(10):
-    number = number + 0.1
-multiply_number = 10.0 * 0.1
+```
+Values before transformations: [1, -2, 3.33]
+Values after applying abs: [1, 2, 3.33]
+Values after applying int: [1, 2, 3]
+Values after applying squaring: [1, 4, 9]
 ```
 
 ## Running Checks
@@ -80,8 +89,8 @@ editor to answer all of the questions in the `writing/reflection.md` file. Since
 this is a source code survey, you should provide output from running each of the
 provided Python programs on your own laptop and then explain how the program's
 source code produced that output. A specific goal for this project is to ensure
-that you can explain how Python programs should correctly use modular arithmetic
-and floating point numbers to achieve a practical goal.
+that you can explain each component of a function's type signature, including
+details about its inputs and outputs.
 
 ## Project Assessment
 

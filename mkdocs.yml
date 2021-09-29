@@ -211,6 +211,7 @@ nav:
     - Course Schedule: data-abstraction/schedule-data-abstraction.md
     - Source Code Surveys:
       - Numerical Data: data-abstraction/source-code-surveys/numerical-data.md
+      - Structured Types: data-abstraction/source-code-surveys/structured-types.md
     - Programming Projects:
       - Number Comparison: data-abstraction/programming-projects/number-comparison.md
       - Square Root: data-abstraction/programming-projects/square-root.md
@@ -224,6 +225,7 @@ nav:
     - Course Schedule: discrete-structures/schedule-discrete-structures.md
     - Source Code Surveys:
       - Data Types: discrete-structures/source-code-surveys/data-types.md
+      - Tuple Swapping: discrete-structures/source-code-surveys/tuple-swapping.md
     - Programming Projects:
       - Computing Averages: discrete-structures/programming-projects/average-computation.md
       - Temperature Conversion: discrete-structures/programming-projects/temperature-conversion.md
