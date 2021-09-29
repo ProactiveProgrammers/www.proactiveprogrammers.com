@@ -28,12 +28,15 @@ project!
 
 ## Expected Output
 
-Perhaps the best way to understand the meaning of these terms is to observe the
-output of a completed version of the program. For instance, the command `poetry
-run python iterator --forloop --whileloop --minimum 0 --maximum 2` produces the
+This project invites you to implement a program called `iterator`. The program
+has two flags called `--forloop` and `--whileloop` that control the type of
+iteration construct with which the program performs iterative exponentiation. To
+best understand the program's behavior it is nice to observe how it operates
+when given different command-line arguments. For instance, the command `poetry
+run iterator --forloop --whileloop --minimum 0 --maximum 2` produces the
 following output. Can you see the pattern? Please note that the use of both the
 flags `--forloop` and `--whileloop` means that the program will iteratively
-compute the powers of two with both a `for` loop and a `while` loop.
+compute the powers of two with both a `for` and `while` loop.
 
 ```
 Calculating the powers of 2 from 0 to 2 with iteration:
@@ -56,8 +59,13 @@ Wow, all of that iteration was exhausting! 😂
 
 It is important to note that the Python program can also produce the output of
 the powers of two using a single type of iteration construct. For instance, the
-command `poetry run python iterator --forloop --minimum 0 --maximum 5` produces
-the following output:
+command `poetry run iterator --forloop --minimum 0 --maximum 5` produces
+the following output demonstrating that the program only ran a `for` loop. As in
+the previous output example, this output shows that the program uses the `**`
+operator to raise `2` to the power of a number such as `0`, `1`, and `2`. Both
+of these output examples also show that the program should contain several lines
+of diagnostic output that make it clear how it interpreted the command-line
+arguments before it starting to perform iterative exponentiation.
 
 ```
 Calculating the powers of 2 from 0 to 5 with iteration:
@@ -90,81 +98,35 @@ Wow, all of that iteration was exhausting! 😂
 
 If you study the file `iterator/iterator/main.py` you will see that it has many
 `TODO` markers that designate the parts of the program that you need to
-implement before `iterator` will produce correct output. If you run the provided
-test suite with the command `poetry run task test` you will see that it produces
-output like the following:
+implement before `iterator` will produce the correct output. If you run the
+program before adding all of the source code required by the `TODO` markers then
+`iterator` will neither produce the correct output or pass the test suite.
+Ultimately, you are invited to add the required functionality to the functions
+that have the following signature:
 
-```shell
-================================= FAILURES =================================
-__________________ test_calculate_x_values_non_imaginary ___________________
+- Functions in the `display` module:
+    - `def convert_bool_to_answer(argument: bool)`
+    - `def display_list(values: List, indent="")`
+- Functions in the `main` module:
+    - `def calculate_powers_of_two_for_loop(minimum: int, maximum: int)`
+    - `def calculate_powers_of_two_while_loop(minimum: int, maximum: int)`
 
-    def test_calculate_x_values_non_imaginary():
-        """Check that the calculation of x values works if they are not imaginary."""
-        a = 1
-        b = 2
-        c = 1
->       x_one, x_two = rootfind.calculate_quadratic_equation_roots(a, b, c)
-E       TypeError: cannot unpack non-iterable NoneType object
+When you are finished implementing both of the iterative approaches, please take
+time to evaluate each of them, comparing and contrasting their syntactic
+structure. Which one do you think is easier to understand? Why? Can you develop
+any good rules of thumb that suggest when it is better to use one type of loop
+over the other loop type?
 
-tests/test_rootfind.py:20: TypeError
-```
+???+ note
 
-Alternatively, running the program with a command like `poetry run iterator
---a 1 --b 2 --c 1` will not produce any output! This is due to the fact that the
-required source code does not yet exist inside of the `iterator` program. One
-function that you need to implement is specified by the following signature.
-
-```python linenums="1"
-def calculate_quadratic_equation_roots(
-    a: float, b: float, c: float
-) -> Tuple[Union[float, complex], Union[float, complex]]:
-```
-
-This function's type annotations on line `2` suggest that each of its three
-inputs are variables of type `float`. On line `3`, the notation `Union[float,
-complex]` means that one of the outputs of `calculate_quadratic_equation_roots`
-can either be a floating-point value of type `float` or an imaginary number of
-type `complex`. The complete annotation of `Tuple[Union[float, complex],
-Union[float, complex]]` means that the return value of
-`calculate_quadratic_equation_roots` will be a two-tuple of values, with each
-component of the two-tuple being either a `float` or a `complex` number. This
-function should return values for `x_one` and `x_two` according to the following
-equations:
-
-$$
-x_1=\frac{-b+\sqrt{b^2-4ac}}{2a}
-$$
-
-$$
-x_2=\frac{-b-\sqrt{b^2-4ac}}{2a}
-$$
-
-To provide a command-line interface to your program, you should also implement a
-main function that has the following signature:
-
-```python linenums="1"
-def main(
-    a: float = typer.Option(1),
-    b: float = typer.Option(2),
-    c: float = typer.Option(2)
-):
-```
-
-This function signature shows that `iterator` accepts as input three
-parameters called `a`, `b`, and `c` that respectively have default values of
-`1`, `2`, and `2`, as seen on lines `2` through `4`. If you run `poetry run
-iterator` if should produce this output:
-
-```shell
-⭐ Calculating the roots of a quadratic equation with:
-   a = 1.0
-   b = 2.0
-   c = 2.0
-
-⭐ Finished computing the roots of the equation as:
-   x_one = (-0.9999999999999999+1j)
-   x_two = (-1-1j)
-```
+    Before you start to implement the source code required by this project is
+    worth pausing to remember that the instructor will give advance feedback to
+    any learner who requests it through GitHub and Discord at least 24 hours
+    before the project's due date! Seriously, did you catch that? This policy
+    means that you can have a thorough understanding of ways to improve your
+    project **before** its final assessment! To learn more about this
+    opportunity, please read the [assessment
+    strategy](../../../proactive-learning/assessment-strategy/) for this site.
 
 ## Running Checks
 
