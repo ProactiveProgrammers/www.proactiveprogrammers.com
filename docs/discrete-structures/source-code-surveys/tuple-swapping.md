@@ -70,9 +70,9 @@ Once you have finished all of the previous technical tasks, you can use a text
 editor to answer all of the questions in the `writing/reflection.md` file. Since
 this is a source code survey, you should provide output from running each of the
 provided Python programs on your own laptop and then explain how the program's
-source code produced that output. A specific goal for this project is to ensure
-that you understand how Python programs should use integer numbers and
-exponentiation in an efficient fashion.
+source code produced that output. A specific goal for this project is for you to
+improve and document the source code of a function that indexes a tuple in order
+to swap its contents.
 
 ## Project Assessment
 
