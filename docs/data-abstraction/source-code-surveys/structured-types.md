@@ -89,8 +89,8 @@ editor to answer all of the questions in the `writing/reflection.md` file. Since
 this is a source code survey, you should provide output from running each of the
 provided Python programs on your own laptop and then explain how the program's
 source code produced that output. A specific goal for this project is to ensure
-that you understand how Python programs should correctly use modular arithmetic
-and floating point numbers to achieve a practical goal.
+that you can explain each component of a function's type signature, including
+details about its inputs and outputs.
 
 ## Project Assessment
 
