@@ -107,7 +107,7 @@ that have the following signature:
 - Functions in the `display` module:
     - `def convert_bool_to_answer(argument: bool)`
     - `def display_list(values: List, indent="")`
-- Functions in the `main` module:
+- Functions in the `iterate` module:
     - `def calculate_powers_of_two_for_loop(minimum: int, maximum: int)`
     - `def calculate_powers_of_two_while_loop(minimum: int, maximum: int)`
 
