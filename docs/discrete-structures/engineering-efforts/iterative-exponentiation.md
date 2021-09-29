@@ -3,15 +3,16 @@
 ## Project Goals
 
 This engineering effort invites you to combine what you learned about the basics
-of Python programming to implement a useful program that can use an equation to
-find the roots for a quadratic equation. The program will have a command-line
-interface that accepts as input the values `a`, `b`, and `c` for a quadratic
-equation of the form $f(x) = a \times x^2 + b \times x + c$. As you learn more
-about to translate mathematical equations into Python functions and you continue
-to enhance your [technical
-skills](/proactive-skills/introduction-proactive-skills/), you will implement
-and test a complete Python program while using tools such as the VS Code text
-editor, a terminal window, and the Poetry package manager.
+of Python programming to implement a program that can use a `for` loop and/or a
+`while` loop to perform a series of exponentiations. The function that you will
+implement will repeatedly perform an exponentiation and then save the result of
+the computation in the list. Ultimately, the output of the program should
+confirm that it is possible to use either a `for` loop or a `while` loop to
+produce the same program output! As you learn more about how to translate
+mathematical equations into Python functions and you continue to enhance your
+[technical skills](/proactive-skills/introduction-proactive-skills/), you will
+implement and test a complete Python program while using tools such as the VS
+Code text editor, a terminal window, and the Poetry package manager.
 
 ## Project Access
 
@@ -27,61 +28,59 @@ project!
 
 ## Expected Output
 
-This project invites you to implement a quadratic root finding program called
-`rootfinder`. To learn more about the equations for finding the roots of a
-quadratic equation, please try out the [quadratic formula
-calculator](https://www.calculatorsoup.com/calculators/algebra/quadratic-formula-calculator.php).
-For instance, input `a=1`, `b=2`, and `c=1` into this calculator and see what
-answer it produces. After repairing your program, as explained in the next step
-of this assignment, it will also be possible for you to run the provided Python
-program by typing `poetry run rootfinder --a 1 --b 2 --c 1` in your
-terminal window and observe that the programs produces the following output:
+Perhaps the best way to understand the meaning of these terms is to observe the
+output of a completed version of the program. For instance, the command `poetry
+run python iterator --forloop --whileloop --minimum 0 --maximum 2` produces the
+following output. Can you see the pattern? Please note that the use of both the
+flags `--forloop` and `--whileloop` means that the program will iteratively
+compute the powers of two with both a `for` loop and a `while` loop.
 
-```shell
-⭐ Calculating the roots of a quadratic equation with:
-   a = 1.0
-   b = 2.0
-   c = 1.0
+```
+Calculating the powers of 2 from 0 to 2 with iteration:
 
-⭐ Finished computing the roots of the equation as:
-   x_one = -1.0
-   x_two = -1.0
+  Should I use a for loop? Yes
+  Should I use a while loop? Yes
+
+  Here is the output with the for loop.
+
+   2**0 = 1
+   2**1 = 2
+
+  Here is the output with the while loop.
+
+   2**0 = 1
+   2**1 = 2
+
+Wow, all of that iteration was exhausting! 😂
 ```
 
-Does the Python program produce the same output as the quadratic formula
-calculator site suggests it should? If it does, then try to run the program with
-different inputs by typing `poetry run rootfinder --a 1 --b 1 --c 1`. In this
-case, your program should produce the following output:
+It is important to note that the Python program can also produce the output of
+the powers of two using a single type of iteration construct. For instance, the
+command `poetry run python iterator --forloop --minimum 0 --maximum 5` produces
+the following output:
 
-```shell
-⭐ Calculating the roots of a quadratic equation with:
-   a = 1.0
-   b = 1.0
-   c = 1.0
-
-⭐ Finished computing the roots of the equation as:
-   x_one = (-0.49999999999999994+0.8660254037844386j)
-   x_two = (-0.5-0.8660254037844386j)
 ```
+Calculating the powers of 2 from 0 to 5 with iteration:
 
-Is this output the same as what the web-based quadratic formula calculator
-produces? Please note that the output of this program includes numbers like
-`-0.5-0.8660254037844386j`, which means that this is a program that has an
-"imaginary" component. If you would like to learn more about "imaginary" numbers
-and how you can intuitively and geometrically interpret them, please read the
-[visual and intuitive guide to imaginary
-numbers](https://betterexplained.com/articles/a-visual-intuitive-guide-to-imaginary-numbers/),
-bearing in mind that the referenced article uses the variable `i` and Python
-programs always use the variable `j` to mean the same thing. Finally, please
-make sure that you try your program with several additional inputs, always
-confirming that it works correctly by using the web-based quadratic formula
-calculator.
+  Should I use a for loop? Yes
+  Should I use a while loop? No
+
+  Here is the output with the for loop.
+
+   2**0 = 1
+   2**1 = 2
+   2**2 = 4
+   2**3 = 8
+   2**4 = 16
+
+Wow, all of that iteration was exhausting! 😂
+```
 
 ???+ note
 
-    Remember, if you want to run `rootfinder` you must use your terminal to go
+    Remember, if you want to run `iterator` you must use your terminal to go
     into the GitHub repository containing this project and then go into the
-    `rootfinder` directory that contains the project's source code. Finally,
+    `iterator` directory that contains the project's source code. Finally,
     remember that before running the program you must run `poetry install` to
     add the dependencies. If you run into errors when using a `poetry run`
     command you can often resolve them by deleting the `.venv` directry and the
@@ -89,9 +88,9 @@ calculator.
 
 ## Adding Functionality
 
-If you study the file `rootfinder/rootfinder/main.py` you will see that it has many
+If you study the file `iterator/iterator/main.py` you will see that it has many
 `TODO` markers that designate the parts of the program that you need to
-implement before `rootfinder` will produce correct output. If you run the provided
+implement before `iterator` will produce correct output. If you run the provided
 test suite with the command `poetry run task test` you will see that it produces
 output like the following:
 
@@ -110,9 +109,9 @@ E       TypeError: cannot unpack non-iterable NoneType object
 tests/test_rootfind.py:20: TypeError
 ```
 
-Alternatively, running the program with a command like `poetry run rootfinder
+Alternatively, running the program with a command like `poetry run iterator
 --a 1 --b 2 --c 1` will not produce any output! This is due to the fact that the
-required source code does not yet exist inside of the `rootfinder` program. One
+required source code does not yet exist inside of the `iterator` program. One
 function that you need to implement is specified by the following signature.
 
 ```python linenums="1"
@@ -151,10 +150,10 @@ def main(
 ):
 ```
 
-This function signature shows that `rootfinder` accepts as input three
+This function signature shows that `iterator` accepts as input three
 parameters called `a`, `b`, and `c` that respectively have default values of
 `1`, `2`, and `2`, as seen on lines `2` through `4`. If you run `poetry run
-rootfinder` if should produce this output:
+iterator` if should produce this output:
 
 ```shell
 ⭐ Calculating the roots of a quadratic equation with:
@@ -169,7 +168,7 @@ rootfinder` if should produce this output:
 
 ## Running Checks
 
-As you continue to add and confirm the correctness of `rootfinder`'s
+As you continue to add and confirm the correctness of `iterator`'s
 functionality, you also study the source code in the `pyproject.toml` file. This
 file contains the specification of several tasks that will help you to easily
 run checks on your Python source code. Now, you can run commands like `poetry
@@ -177,16 +176,16 @@ run task lint` to automatically run all of the linters designed to check the
 Python source code in your program and its test suite. You can also use the
 command `poetry run task black` to confirm that your source code adheres to the
 industry-standard format defined by the `black` tool. If it does not adhere to
-the standard then you can run the command `poetry run black rootfinder tests`
+the standard then you can run the command `poetry run black iterator tests`
 and it will automatically reformat the source code.
 
 ```toml
 [tool.taskipy.tasks]
-black = { cmd = "black rootfinder tests --check", help = "Run the black checks for source code format" }
-flake8 = { cmd = "flake8 rootfinder tests", help = "Run the flake8 checks for source code documentation" }
-mypy = { cmd = "poetry run mypy rootfinder", help = "Run the mypy type checker for potential type errors" }
-pydocstyle = { cmd = "pydocstyle rootfinder tests", help = "Run the pydocstyle checks for source code documentation" }
-pylint = { cmd = "pylint rootfinder tests", help = "Run the pylint checks for source code documentation" }
+black = { cmd = "black iterator tests --check", help = "Run the black checks for source code format" }
+flake8 = { cmd = "flake8 iterator tests", help = "Run the flake8 checks for source code documentation" }
+mypy = { cmd = "poetry run mypy iterator", help = "Run the mypy type checker for potential type errors" }
+pydocstyle = { cmd = "pydocstyle iterator tests", help = "Run the pydocstyle checks for source code documentation" }
+pylint = { cmd = "pylint iterator tests", help = "Run the pylint checks for source code documentation" }
 test = { cmd = "pytest -x -s", help = "Run the pytest test suite" }
 test-silent = { cmd = "pytest -x --show-capture=no", help = "Run the pytest test suite without showing output" }
 all = "task black && task flake8 && task pydocstyle && task pylint && task mypy && task test"
@@ -198,21 +197,10 @@ relevant instructions in the [technical
 skills](/proactive-skills/introduction-proactive-skills/) to enter into a Docker
 container and run the command `gradle grade` to check your work. If `gradle
 grade` shows that all checks pass, you will know that you made progress towards
-correctly implementing and writing about `rootfinder`. If your program has all
+correctly implementing and writing about `iterator`. If your program has all
 of the anticipated functionality, you can run the command `poetry run task test`
-and see that the test suite produces output like the following. Notice that the
-current test suite only has three test cases! If you are looking for an
-additional challenge, consider using the [quadratic formula
-calculator](https://www.calculatorsoup.com/calculators/algebra/quadratic-formula-calculator.php)
-to guide you as you create new test cases for
-`calculate_quadratic_equation_roots` that run in
-[Pytest](https://docs.pytest.org/).
-
-```shell
-collected 3 items
-
-tests/test_rootfind.py ...
-```
+and see that the test suite passes correctly if you have the correct
+implementation of the function(s) that it tests.
 
 ???+ note
 
