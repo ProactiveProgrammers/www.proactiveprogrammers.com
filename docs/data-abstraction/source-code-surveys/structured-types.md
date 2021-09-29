@@ -39,7 +39,7 @@ source code from the text book to provide an implementation of a function with
 the following signature: `def compute_intersection(tuple_one: Tuple[Any, ...],
 tuple_two: Tuple[Any, ...]) -> Tuple[Any, ...]`. Once you have added all of the
 required source code your program should produce the following output. Can you
-explain why different calls to `compute_intersection` yields an output that
+explain why different calls to `compute_intersection` yield an output that
 contains the same elements but in a different order?
 
 ```
