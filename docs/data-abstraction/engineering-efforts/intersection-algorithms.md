@@ -173,6 +173,18 @@ function uses the `+=` operator on line `8` to create a new `tuple` each time
 that it adds data to the `result` variable. You will empirically study the
 efficiency of this approach!
 
+After finishing your implementation of `intersection` you should conduct an
+experiment to evaluate the efficiency of the different algorithms that it
+provides. You should refer to the `writing/reflection.md` file for more details
+about the experiment that you should conduct and how you must configure the
+`intersection` program to collect data. Ultimately, you need to answer the
+following three research questions:
+
+- Is the intersection of two data containers faster with a `list` or a `tuple`?
+- Is the intersection of two data containers faster with a double or single `for` loop?
+- Overall, what is the fastest approach for computing the intersection of two
+  data containers?
+
 ## Running Checks
 
 If you study the source code in the `pyproject.toml` file you will see that
@@ -208,7 +220,7 @@ correctly implementing and writing about `intersection`. If your program has all
 the anticipated functionality, you can run the command `poetry run task test`
 and see that the test suite produces output like this:
 
-```shell
+```
 collected 4 items
 
 tests/test_intersection.py .......
@@ -242,8 +254,8 @@ instance, you should provide the output of the Python program in a fenced code
 block, explain the meaning of the Python source code segments that you
 implemented, and answer all of the other questions about your experiences in
 completing this project. A specific goal of the reflection for this project is
-to evaluate the efficiency of the two different modes (i.e., `exhaustive` and
-`efficient`) of the `intersection` program.
+to evaluate the efficiency of the different algorithms and data containers
+implemented as part of the `intersection` program.
 
 ## Project Assessment
 
