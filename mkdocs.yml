@@ -218,6 +218,7 @@ nav:
     - Engineering Efforts:
       - Integer Squaring: data-abstraction/engineering-efforts/integer-squaring.md
       - Primality Testing: data-abstraction/engineering-efforts/primality-testing.md
+      - Intersection Algorithms: data-abstraction/engineering-efforts/intersection-algorithms.md
   - Discrete Structures:
     - Introduction: discrete-structures/introduction-discrete-structures.md
     - Learning Objectives: discrete-structures/learning-objectives-discrete-structures.md
