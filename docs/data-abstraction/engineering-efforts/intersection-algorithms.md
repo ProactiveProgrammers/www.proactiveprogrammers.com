@@ -126,40 +126,52 @@ next section, you are invited to add the features needed to ensure that
 
 ## Adding Functionality
 
-If you study the file `intersection/intersection/main.py` you will see that it has
-many `TODO` markers that designate the parts of the program that you need to
-implement before `intersection` will produce correct output. If you run the
-provided test suite with the command `poetry run task test` you will see that it
-produces a message suggesting that there is a syntax error in the program. Along
-with creating instances of the `Typer` and `Profiler` classes, you will need to
-resolve all of the syntax errors so that you can run `intersection` and its test
-suite. You must also implement all of these functions:
+If you study the file `intersection/intersection/main.py` you will see that it
+has many `TODO` markers that designate the parts of the program that you need to
+implement before `intersection` will produce correct output. To ensure that the
+program works correctly, you must implement all of these functions before you
+start to run the experiments.
 
-- `def human_readable_boolean(answer: bool) -> str`
-- `def pretty_print_list(values: Iterable[int]) -> str`
-- `def intersection_test_exhaustive(x: int) -> Tuple[bool, List[int]]`
-- `def intersection_test_efficient(x: int) -> Tuple[bool, List[int]]`
+- `def generate_random_container(size: int, maximum: int, make_tuple: bool = False) -> Union[List[int], Tuple[int, ...]]`
+- `def compute_intersection_list_double(input_one: List[Any], input_two: List[Any]) -> List[Any]`
+- `def compute_intersection_list_single(input_one: List[Any], input_two: List[Any]) -> List[Any]`
 
-The following source code illustrates how to use Pyinstrument to collect the
-timing information for the execution of the `efficient` approach for intersection
-testing, as implemented in the function `intersection_test_efficient`. First, line
-`1` creates an empty `intersection_tuple` and lines `2` and `3` confirm that the
-person using the program requested to profile the execution of the `efficient`
-approach. Using Pyinstrument, line `4` starts the profiler and line `6` stops
-it, with line `5` making the call to the `intersection_test_efficient` function.
-When the person running `intersection` did not use `--profile`, then line `8` calls
-`intersection_test_efficient` without using Pyinstrument.
+The function called `generate_random_container` should automatically create
+either a `tuple` or a `list` of the specified `size` and only containing values
+that are less than or equal to the `maximum`. The function called
+`compute_intersection_list_single` should follow the implementation strategy of
+its counterpart function called `compute_intersection_tuple_single` while still
+using the functions appropriate for the `list` structured type. Moreover, the
+`compute_intersection_list_double` should follow the implementation of
+`compute_intersection_tuple_double` except for the fact that it should populate
+an `list` through the use of a doubly-nested `for` loop. As a reference, here is
+the source code for the `compute_intersection_tuple_single` function:
 
 ```python linenums="1"
-intersection_tuple: Tuple[bool, List[int]]
-if approach.value == intersectionTestingApproach.efficient:
-    if profile:
-        profiler.start()
-        intersection_tuple = intersection_test_efficient(number)
-        profiler.stop()
-    else:
-        intersection_tuple = intersection_test_efficient(number)
+def compute_intersection_tuple_single(
+    input_one: Tuple[Any, ...], input_two: Tuple[Any, ...]
+) -> Tuple[Any, ...]:
+    """Compute the intersection of two provided tuples."""
+    result: Tuple[Any, ...] = ()
+    for element in input_one:
+        if element in input_two:
+            result += (element,)
+    return result
 ```
+
+According to the type signature of this function on lines `1` and `2`, the
+`compute_intersection_tuple_single` function accepts as input two `tuples` that
+can contain `Any` type of data and be of an arbitrary size. Lines `6` through
+`8` of this function show that it uses the combination of a `for` loop and an
+`if` statement to compute the intersection of the `tuple`s called `input_one`
+and `input_two`. After finding those elements that these `tuple`s contain in
+common, `compute_intersection_tuple_single` returns the `result` on line `9`.
+Since this function processes `tuple`s it is possible that the intersection of
+the input parameters will be a `result` that contains a value more than once. It
+is also worth noting that, since the `tuple` structured type is immutable, this
+function uses the `+=` operator on line `8` to create a new `tuple` each time
+that it adds data to the `result` variable. You will empirically study the
+efficiency of this approach!
 
 ## Running Checks
 
