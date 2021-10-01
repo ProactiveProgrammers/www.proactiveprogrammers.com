@@ -172,36 +172,19 @@ that all checks pass, you will know that you made progress towards correctly
 implementing and writing about `contactsearcher`.
 
 If your program has all of the anticipated functionality, you can run the
-command `poetry run task test` and see that the test suite produces output like
-this:
+command `poetry run task test` and see that the test suite produces the
+following output. As you finish your implementation of the
+`search_for_email_given_job` function you can use this test suite to confirm
+that it is working correctly. If one of the test cases fails, you can use its
+output to help you understand what is not yet working in the function under
+test. After all of the test cases pass, you can use the command `poetry run task
+all` and `gradle grade` to confirm that other aspects of your source code and
+technical writing are also correct.
 
 ```
-tests/test_convert.py ........
+tests/test_search.py .....
 
-============================ 8 passed in 0.02s =============================
-```
-
-The `test_convert` test suite contains test cases for all of the functions
-mentioned in the previous section. Even if the test cases for
-`convert_fahrenheit_to_celsius` and `convert_celsius_to_fahrenheit` pass as
-expected it is possible that those for `convert_temperature` make not if the way
-in which it calls the specific temperature conversion functions is not correct.
-When one or more test cases fail, make sure you check to see which ones are
-failing so that you can better know where to start the debugging process! The
-following test case shows how to test `convert_temperature` when lines `3` and
-`4` configure `convert_temperature` to convert from Celsius to Fahrenheit. After
-setting the input `temperature` to `0` on line `1` and calling the
-`convert_temperature` function on line `5`, the test case checks on line `6`
-that the conversion function produced the temperature value of `32`, failing the
-test if that is not the case.
-
-```python linenums="1"
-def test_convert_celsius_to_fahrenheit_wrapper():
-    temperature = 0
-    from_unit = units.TemperatureUnitOfMeasurement.celsius
-    to_unit = units.TemperatureUnitOfMeasurement.fahrenheit
-    converted_temperature = convert.convert_temperature(temperature, from_unit, to_unit)
-    assert converted_temperature == 32
+============================ 5 passed in 0.02s =============================
 ```
 
 ???+ note
