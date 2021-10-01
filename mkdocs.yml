@@ -230,6 +230,7 @@ nav:
     - Programming Projects:
       - Computing Averages: discrete-structures/programming-projects/average-computation.md
       - Temperature Conversion: discrete-structures/programming-projects/temperature-conversion.md
+      - Contact Searching: discrete-structures/programming-projects/contact-searching.md
     - Engineering Efforts:
       - File Searching: discrete-structures/engineering-efforts/file-searching.md
       - Quadratic Roots: discrete-structures/engineering-efforts/quadratic-roots.md
