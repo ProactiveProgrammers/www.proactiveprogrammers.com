@@ -29,70 +29,96 @@ project!
 
 ## Expected Output
 
-This project invites you to implement a number comparison program called
-`contactsearcher`. The program accepts through its command-line a file that contains
-integer values encoded as text. If you run the program with the command `poetry
-run contactsearcher --from-unit Celsius --to-unit Fahrenheit --temperature 22` it
-produces this output:
+This project invites you to implement a CSV file parsing and searching program
+called `contactsearcher`. The program accepts through its command-line interface
+the name of a file, in this case `input/contacts.txt`, that contains the contact
+information and job title descriptions for some people. For instance, here are
+the first lines of this file:
 
 ```
-🧮 Converting from Celsius to Fahrenheit!
-
-22.00 degrees in Celsius is 71.60 degrees in Fahrenheit
+tylernelson@gmail.com,Careers adviser
+gregory02@medina-mayer.com,"Accountant, chartered management"
+jonesmiguel@hotmail.com,Health and safety inspector
+rsanchez@yahoo.com,"Surveyor, planning and development"
+hillfrank@ward-wood.com,"Scientist, physiological"
+aaronhunter@gmail.com,"Surveyor, insurance"
+kylebarnes@hotmail.com,Records manager
+joe70@yahoo.com,Network engineer
+torresjames@white.info,Electrical engineer
+shawkins@watson.com,Science writer
+bakererin@morales.com,"Programmer, multimedia"
 ```
 
-Since the program can also convert from Fahrenheit to Celsius, you can also run
-it with the command `poetry run contactsearcher --from-unit Fahrenheit --to-unit
-Celsius --temperature 71.6` and see that it produces the following output:
+It is worth noting that the `input/contacts.txt` file contains synthetic data
+that the [Faker](https://github.com/joke2k/faker) program automatically
+generated. With that said, after you have correctly implemented all of the
+required features, running the program with the command `poetry run
+contactsearcher --job-description "engineer" --contacts-file input/contacts.txt`
+will produce the following output:
 
 ```
-🧮 Converting from Fahrenheit to Celsius!
+The contacts file contains 100 people in it! Let's get searching!
 
-71.60 degrees in Fahrenheit is 22.00 degrees in Celsius
+  We are looking for contacts who have a job related to "engineer":
+
+  joe70@yahoo.com is a Network engineer
+  torresjames@white.info is a Electrical engineer
+  grahamjoel@castillo-gilbert.net is a Engineer, technical sales
+  gsutton@miller.com is a Engineer, maintenance
+  gharris@villarreal-snow.com is a Water engineer
+  williamsondavid@lopez.com is a Automotive engineer
+  ronald83@yahoo.com is a Maintenance engineer
+  zmarshall@yahoo.com is a Control and instrumentation engineer
+  christopher35@yahoo.com is a Civil engineer, consulting
+  jacquelinedavid@hotmail.com is a Engineer, electronics
+  espinozadaryl@hill-maddox.com is a Engineering geologist
+  edwardsjacob@gmail.com is a Chemical engineer
+
+Wow, we found some contacts! Email them to learn about your job!
 ```
 
-One way in which you can tell that `contactsearcher` is working correctly is that,
-when given "inverse numbers", the output shows that it converts correctly in
-both "directions". For instance, converting `22` degrees Celsius to Fahrenheit
-yields `71.6` degrees and converting `71.6` degrees Fahrenheit to Celsius
-results in `22` degrees! To learn more about how to run this program, you can
-type the command `poetry run contactsearcher --help` to see the following output
-showing how to use `contactsearcher`:
+Notice that the output confirms that there are `100` rows inside of the CSV file
+called `input/contacts.txt` and that you instructed the program to return all of
+the email addresses for people whose job description contains the word
+`engineer`. For the current version of the CSV file, there are twelve people who
+have `engineer` in their job description, including `edwardsjacob@gmail.com` who
+is a `Chemical engineer` and `joe70@yahoo.com` who is a `Network engineer`.
+Since the `contactsearcher` program should return the contact information for
+every person who has the provided job description in their job title, searching
+for `engin` instead of `engineer` should also return details about
+`edwardsjacob@gmail.com` and `joe70@yahoo.com`. To learn more about how to run
+this program, you can type the command `poetry run contactsearcher --help` to
+see the following output showing how to use `contactsearcher`:
 
 ```
 Usage: contactsearcher [OPTIONS]
 
-  Convert units.from Fahrenheit to Celsius or from Celsius to
-  Fahrenheit.
+  Search for either an email address of a contact who has a job in the
+  file.
 
 Options:
-  --from-unit [Celsius|Fahrenheit]
-                                  [default: Celsius]
-  --to-unit [Celsius|Fahrenheit]  [default: Fahrenheit]
-  --temperature FLOAT RANGE       [default: 98.6]
-  --install-completion            Install completion for the current
-                                  shell.
+  --job-description TEXT  [required]
+  --contacts-file PATH
+  --install-completion    Install completion for the current shell.
+  --show-completion       Show completion for the current shell, to copy
+                          it or customize the installation.
 
-  --show-completion               Show completion for the current shell,
-                                  to copy it or customize the
-                                  installation.
-
-  --help                          Show this message and exit.
+  --help                  Show this message and exit.
 ```
 
 Please note that the provided source code does not contain all of the
-functionality to produce this output. As explained in the next section, you are
-invited to add all of the missing features to ensure that `contactsearcher` produces
-the expected output. Once you finish the program, it should produce all of the
-expected output described in this section.
+functionality needed to produce this output. As explained in the next section,
+you are invited to add all of the missing features to ensure that
+`contactsearcher` produces the expected output. Once you finish the program, it
+should produce all of the expected output.
 
 ???+ note
 
-    Recall that if you want to run the `contactsearcher` program you must use your
-    terminal window to first go into the GitHub repository containing this
-    project and then go into the `contactsearcher` directory that contains the
-    project's source code. Remember that before running the program you must run
-    `poetry install` to add the dependencies!
+    Recall that if you want to run `contactsearcher` you must use your terminal
+    window to first go into the GitHub repository containing this project and
+    then go into the `contactsearcher` directory that contains the project's
+    source code. Remember that before running the program you must run `poetry
+    install` to add the dependencies!
 
 ## Adding Functionality
 
