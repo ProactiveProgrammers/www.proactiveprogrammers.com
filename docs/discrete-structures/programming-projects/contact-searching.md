@@ -2,20 +2,18 @@
 
 ## Project Goals
 
-This programming project invites you to combine what you learned about the
-basics of Python programming to implement a useful program that converts a
-temperature value between two different measurement scales, Celsius and
-Fahrenheit. The program inputs the temperature reading that it should convert
-and a configuration explaining whether it should convert from Celsius to
-Fahrenheit or from Fahrenheit to Celsius. Using these inputs the program
-performs the conversion and outputs it in the terminal. Along with adding
+This programming project invites you to implement a program called
+`contactsearcher`. This program takes as input a comma separate value (CSV) file
+that contains the email address and job description of a person and a string
+that describes a specific job. After reading in and parsing the CSV file, the
+`contactsearcher` program will find the email addresses of all the people who
+have a job description that contains the provided description. Along with adding
 documentation to the provided source code, you will create your own Python
-functions that uses both assignment statements and conditional logic to
-implement a correct program that passes the test suite and all of the checks. As
-you enhance your [technical
-skills](/proactive-skills/introduction-proactive-skills/), you will program with
-tools such as VS Code and a terminal window and the Python programming language
-and the Poetry package manager.
+functions that uses iteration constructs and conditional logic to implement a
+correct program that passes the test suite and all of the checks. As you enhance
+your [technical skills](/proactive-skills/introduction-proactive-skills/), you
+will program with tools such as VS Code and a terminal window and the Python
+programming language and the Poetry package manager.
 
 ## Project Access
 
@@ -32,9 +30,9 @@ project!
 ## Expected Output
 
 This project invites you to implement a number comparison program called
-`converter`. The program accepts through its command-line a file that contains
+`contactsearcher`. The program accepts through its command-line a file that contains
 integer values encoded as text. If you run the program with the command `poetry
-run converter --from-unit Celsius --to-unit Fahrenheit --temperature 22` it
+run contactsearcher --from-unit Celsius --to-unit Fahrenheit --temperature 22` it
 produces this output:
 
 ```
@@ -44,7 +42,7 @@ produces this output:
 ```
 
 Since the program can also convert from Fahrenheit to Celsius, you can also run
-it with the command `poetry run converter --from-unit Fahrenheit --to-unit
+it with the command `poetry run contactsearcher --from-unit Fahrenheit --to-unit
 Celsius --temperature 71.6` and see that it produces the following output:
 
 ```
@@ -53,16 +51,16 @@ Celsius --temperature 71.6` and see that it produces the following output:
 71.60 degrees in Fahrenheit is 22.00 degrees in Celsius
 ```
 
-One way in which you can tell that `converter` is working correctly is that,
+One way in which you can tell that `contactsearcher` is working correctly is that,
 when given "inverse numbers", the output shows that it converts correctly in
 both "directions". For instance, converting `22` degrees Celsius to Fahrenheit
 yields `71.6` degrees and converting `71.6` degrees Fahrenheit to Celsius
 results in `22` degrees! To learn more about how to run this program, you can
-type the command `poetry run converter --help` to see the following output
-showing how to use `converter`:
+type the command `poetry run contactsearcher --help` to see the following output
+showing how to use `contactsearcher`:
 
 ```
-Usage: converter [OPTIONS]
+Usage: contactsearcher [OPTIONS]
 
   Convert units.from Fahrenheit to Celsius or from Celsius to
   Fahrenheit.
@@ -84,23 +82,23 @@ Options:
 
 Please note that the provided source code does not contain all of the
 functionality to produce this output. As explained in the next section, you are
-invited to add all of the missing features to ensure that `converter` produces
+invited to add all of the missing features to ensure that `contactsearcher` produces
 the expected output. Once you finish the program, it should produce all of the
 expected output described in this section.
 
 ???+ note
 
-    Recall that if you want to run the `converter` program you must use your
+    Recall that if you want to run the `contactsearcher` program you must use your
     terminal window to first go into the GitHub repository containing this
-    project and then go into the `converter` directory that contains the
+    project and then go into the `contactsearcher` directory that contains the
     project's source code. Remember that before running the program you must run
     `poetry install` to add the dependencies!
 
 ## Adding Functionality
 
-If you study the file called `converter/converter/main.py` you will see that it
+If you study the file called `contactsearcher/contactsearcher/main.py` you will see that it
 has many `TODO` markers that designate the parts of the program that you need to
-implement before `converter` will produce correct output. Along with adding
+implement before `contactsearcher` will produce correct output. Along with adding
 requested source code to the `main` module, you should implement the following
 functions in the `convert` module:
 
@@ -131,7 +129,7 @@ elif from_unit.value == "Fahrenheit" and to_unit.value == "Celsius":
 return converted_temperature
 ```
 
-Once you have correctly resolved all of the `TODO` markers in `converter`, it
+Once you have correctly resolved all of the `TODO` markers in `contactsearcher`, it
 should produce the expected output described in the previous section. You can
 use the following equations to guide your implementation of the
 `convert_fahrenheit_to_celsius` and `convert_celsius_to_fahrenheit` functions.
@@ -154,11 +152,11 @@ it includes the following section that specifies different executable tasks:
 
 ```toml
 [tool.taskipy.tasks]
-black = { cmd = "black converter tests --check", help = "Run the black checks for source code format" }
-flake8 = { cmd = "flake8 converter tests", help = "Run the flake8 checks for source code documentation" }
-mypy = { cmd = "poetry run mypy converter", help = "Run the mypy type checker for potential type errors" }
-pydocstyle = { cmd = "pydocstyle converter tests", help = "Run the pydocstyle checks for source code documentation" }
-pylint = { cmd = "pylint converter tests", help = "Run the pylint checks for source code documentation" }
+black = { cmd = "black contactsearcher tests --check", help = "Run the black checks for source code format" }
+flake8 = { cmd = "flake8 contactsearcher tests", help = "Run the flake8 checks for source code documentation" }
+mypy = { cmd = "poetry run mypy contactsearcher", help = "Run the mypy type checker for potential type errors" }
+pydocstyle = { cmd = "pydocstyle contactsearcher tests", help = "Run the pydocstyle checks for source code documentation" }
+pylint = { cmd = "pylint contactsearcher tests", help = "Run the pylint checks for source code documentation" }
 test = { cmd = "pytest -x -s", help = "Run the pytest test suite" }
 test-silent = { cmd = "pytest -x --show-capture=no", help = "Run the pytest test suite without showing output" }
 all = "task black && task flake8 && task pydocstyle && task pylint && task mypy && task test"
@@ -170,7 +168,7 @@ automatically run all of the linters designed to check the Python source code in
 your program and its test suite. You can also use the command `poetry run task
 black` to confirm that your source code adheres to the industry-standard format
 defined by the `black` tool. If it does not adhere to the standard then you can
-run the command `poetry run black converter tests` and it will automatically
+run the command `poetry run black contactsearcher tests` and it will automatically
 reformat the source code.
 
 Along with running tasks like `poetry run task lint`, you can leverage the
@@ -178,7 +176,7 @@ relevant instructions in the [technical
 skills](/proactive-skills/introduction-proactive-skills/) to enter into a Docker
 container and run `gradle grade` to check your work. If `gradle grade` shows
 that all checks pass, you will know that you made progress towards correctly
-implementing and writing about `converter`.
+implementing and writing about `contactsearcher`.
 
 If your program has all of the anticipated functionality, you can run the
 command `poetry run task test` and see that the test suite produces output like
@@ -232,7 +230,7 @@ instance, you should provide the output of the Python program in a fenced code
 block and explain the meaning of the Python source code segments that you
 implemented and tested. Along with answering all the questions about your
 experiences with project, you should explain every function call that occurs
-when running the program with a command like `poetry run converter --from-unit
+when running the program with a command like `poetry run contactsearcher --from-unit
 Fahrenheit --to-unit Celsius --temperature 71.6`.
 
 ## Project Assessment
