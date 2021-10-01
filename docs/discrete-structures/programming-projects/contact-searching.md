@@ -122,54 +122,21 @@ should produce all of the expected output.
 
 ## Adding Functionality
 
-If you study the file called `contactsearcher/contactsearcher/main.py` you will see that it
-has many `TODO` markers that designate the parts of the program that you need to
-implement before `contactsearcher` will produce correct output. Along with adding
-requested source code to the `main` module, you should implement the following
-functions in the `convert` module:
-
-- `def convert_celsius_to_fahrenheit(temperature: float) -> float`
-- `def convert_fahrenheit_to_celsius(temperature: float) -> float`
-- `def convert_temperature(temperature: float, from_unit: units.TemperatureUnitOfMeasurement, to_unit: units.TemperatureUnitOfMeasurement)`
-
-The first two functions in this listing input a `float` value that respectively
-represents a temperature in Celsius or Fahrenheit and then converts it to a
-`float` representing a respective temperature in Fahrenheit or Celsius. Finally,
-the `converted_temperature` function uses source code as in the following
-segment to first determine what type of temperature conversion the user
-requested and then call the appropriate function. For instance, lines `3` and
-`4` show that, when the requested temperature conversion is from Celsius to
-Fahrenheit, the `converted_temperature` function will call the
-`convert_celsius_to_fahrenheit` function. Alternatively, lines `6` through `7`
-show that `convert_temperature` calls `convert_fahrenheit_to_celsius` when a
-person requests temperature conversion in the opposite direction.
-
-```python linenums="1"
-converted_temperature = 0
-# the requested temperature conversion is Celsius --> Fahrenheit
-if from_unit.value == "Celsius" and to_unit.value == "Fahrenheit":
-    converted_temperature = convert_celsius_to_fahrenheit(temperature)
-# the requested temperature conversion is Fahrenheit --> Celsius
-elif from_unit.value == "Fahrenheit" and to_unit.value == "Celsius":
-    converted_temperature = convert_fahrenheit_to_celsius(temperature)
-return converted_temperature
-```
-
-Once you have correctly resolved all of the `TODO` markers in `contactsearcher`, it
-should produce the expected output described in the previous section. You can
-use the following equations to guide your implementation of the
-`convert_fahrenheit_to_celsius` and `convert_celsius_to_fahrenheit` functions.
-Knowing that these equations use $C$ and $F$ to respectively denote the
-temperature in Celsius and Fahrenheit, you can translate them into Python source
-code that correctly performs temperature conversion.
-
-$$
-C = (F-32) \times \frac{5}{9}
-$$
-
-$$
-F = (C \times \frac{9}{5}) + 32
-$$
+If you study the file called `contactsearcher/contactsearcher/main.py` you will
+see that it has many `TODO` markers that designate the parts of the program that
+you need to implement before `contactsearcher` will produce correct output.
+Along with adding requested source code to the `main` module, you should
+implement the function in the `convert` module called
+`search_for_email_given_job(job_description: str, contacts: str) ->
+List[List[str]]`. This function takes as input two `str` variables called
+`job_description` and `contacts`, with the first of these containing, for
+instance, `engineer`, and the second containing all of the contents of the
+provided CSV file. The `search_for_email_given_job` function should use the
+`csv` package's `reader` function to input the CSV file on a row-by-row basis,
+and then check each row to see if its job description contains the contents of
+the `job_description` variable. If the job description on a specific line has
+within it the provided `job_description`, then the function should record the
+email address and continue processing the remainder of the file.
 
 ## Running Checks
 
