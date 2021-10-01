@@ -8,9 +8,9 @@ Specifically, you will implement and experimentally evaluate the following
 intersection algorithms: (i) a `list`-based approach with a single `for` loop,
 (ii) a `list`-based approach with a double `for` loop, (iii) a `tuple`-based
 approach with a single `for` loop, and (iv) a `tuple`-based approach with a
-double `for` loop. In addition to adding source code the provided Python files,
-you will conduct an experiment to determine which algorithm is the fastest and
-estimate by how much it is faster. As you enhance your [technical
+double `for` loop. In addition to adding source code to the provided Python
+files, you will conduct an experiment to determine which algorithm is the
+fastest and estimate by how much it is faster. As you enhance your [technical
 skills](/proactive-skills/introduction-proactive-skills/) and explore the
 experimental evaluation of algorithms, you will continue to program with tools
 such as VS Code and a terminal window and the Python programming language and
