@@ -179,7 +179,7 @@ that it is working correctly. If one of the test cases fails, you can use its
 output to help you understand what is not yet working in the function under
 test. After all of the test cases pass, you can use the command `poetry run task
 all` and `gradle grade` to confirm that other aspects of your source code and
-technical writing are also correct.
+technical writing are correct.
 
 ```
 tests/test_search.py .....
@@ -204,10 +204,10 @@ Once you have finished all of the previous technical tasks, you can use a text
 editor to answer all of the questions in the `writing/reflection.md` file. For
 instance, you should provide the output of the Python program in a fenced code
 block and explain the meaning of the Python source code segments that you
-implemented and tested. Along with answering all the questions about your
-experiences with project, you should explain every function call that occurs
-when running the program with a command like `poetry run contactsearcher --from-unit
-Fahrenheit --to-unit Celsius --temperature 71.6`.
+implemented and tested. As you answer the reflection's questions, take
+particular care as you explain every computational step that occurs when running
+the program with a command like `poetry run contactsearcher --job-description
+"engineer" --contacts-file input/contacts.txt`.
 
 ## Project Assessment
 
