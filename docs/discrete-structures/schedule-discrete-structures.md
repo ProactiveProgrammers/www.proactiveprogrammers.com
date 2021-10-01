@@ -132,8 +132,8 @@
 
     - **Sequence**: a collection of ordered homogeneous elements such a strings
       and files
-    - **n-Tuple**: a collection of ordered heterogeneous elements with a fixed
-      number of components
+    - **File**: a sequence of lines, where each line is itself a sequence of
+      characters
     - **Concatenation**: the process of joining together the contents of two or
       more variables to form a new variable
     - **Monoid**: abstract discrete structure that describes the behavior of
