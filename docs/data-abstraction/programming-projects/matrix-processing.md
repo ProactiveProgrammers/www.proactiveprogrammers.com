@@ -2,21 +2,16 @@
 
 ## Project Goals
 
-This assignment invites you to implement a program that features multiple
-algorithms for computing the square root of a number. You will implement two
-algorithms that use iteration constructs to approximate the square root of a
-number. For a given step size and a tolerance level saying how close the
-approximation must be, the exhaustive algorithm check if each possible answer is
-within a specified tolerance for the square root's approximation. In contrast,
-the efficient algorithm will use bisection search to rapidly prune the search to
-the best possible approximation of the number's square root. In addition to
-adding source code and documentation to the provided Python files, you will
-conduct an experiment to determine which algorithm is the fastest and estimate
-by how much it is faster. As you enhance your [technical
-skills](/proactive-skills/introduction-proactive-skills/) and explore the
-experimental evaluation of algorithms, you will continue to program with tools
-such as VS Code and a terminal window and the Python programming language and
-the Poetry package manager.
+This project invites you to implement a `matrix` program that processes a
+two-dimensional "list of lists" called a matrix. The main feature of the program
+is that it can count the number of negative numbers inside of a matrix that it
+inputs from a file specified on its command-line. In addition to implementing
+part of the command-line interface for `matrix` you will add source code that
+traverses the input matrix and counts the negative numbers. As you enhance your
+[technical skills](/proactive-skills/introduction-proactive-skills/) by
+implementing and documenting a Python program, you will continue to explore
+tools such as VS Code and a terminal window and the Python programming language
+and the Poetry package manager.
 
 ## Project Access
 
