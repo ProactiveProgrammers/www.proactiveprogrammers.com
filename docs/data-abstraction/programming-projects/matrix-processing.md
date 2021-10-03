@@ -109,7 +109,46 @@ implement these functions in `matrix`:
 
 Once you have correctly resolved all of the `TODO` markers in the `matrix`
 program, it should produce the expected output described in the previous
-section.
+section. The most important function you need to implement for this project is
+`count_negatives_in_matrix`, which has a signature indicating that it accepts as
+input a `List` of `List`s that contain `int` values (i.e., `List[List[int]]`)
+and returns as output an `int` for the number of negative numbers in the file.
+You may assume that the `matrix` parameter that is input to the
+`confirm_valid_file` function is organized such that each row and column of the
+`matrix` is sorted in a non-increasing order.
+
+The following excerpt of output created by a correct implementation of `matrix`,
+which was produced through the use of the
+[python-tabulate](https://github.com/astanin/python-tabulate) package,
+illustrates the organization of the input matrix. For instance, note that the
+first column of the matrix contains the values `100, 10, 6, 4, 3, -1` which are
+organized in a non-increasing manner from the top to the bottom of the matrix.
+It is also worth noting that all of the other column in the matrix are also
+organized in the same non-increasing fashion. Moreover, the third-from-the-top
+row of the matrix contains the values `6, 4, 2, -1` while the last row contains
+`-1, -1, -2, -5` which are also organized in a non-increasing style.
+
+```
+---  --  --  --
+100  19   9   9
+ 10   9   8   7
+  6   4   2  -1
+  4   2   0  -1
+  3   0  -1  -2
+ -1  -1  -2  -5
+---  --  --  --
+```
+
+???+ note
+
+    Before you start to implement the source code required by this project is
+    worth pausing to remember that the instructor will give advance feedback to
+    any learner who requests it through GitHub and Discord at least 24 hours
+    before the project's due date! Seriously, did you catch that? This policy
+    means that you can have a thorough understanding of ways to improve your
+    project **before** its final assessment! To learn more about this
+    opportunity, please read the [assessment
+    strategy](../../../proactive-learning/assessment-strategy/) for this site.
 
 ## Running Checks
 
