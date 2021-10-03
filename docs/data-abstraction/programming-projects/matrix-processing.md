@@ -27,80 +27,48 @@ project!
 
 ## Expected Output
 
-This project invites you to implement a number comparison program called
-`squareroot`. The program accepts through its command-line a single integer
-value. If you run the program correctly, it will accept as input the single
-number numbers and return the largest odd number as long as at least one of the
-numbers is odd. In the situation in which none of the numbers are odd, it will
-return the smallest number. If you use Poetry to run the program with the
-command `poetry run squareroot --number 25000 --approach exhaustive --profile`
-it produces the following output:
+As previously mentioned, this project invites you to implement a matrix
+processing program program called `matrix`. The program accepts through its
+command-line interface a `matrix-file` parameter that designates a file with a
+matrix inside of it and the `matrix-dir` that is the directory containing the
+specified file. For this project, you should use the `matrix.txt` file inside of
+the `input` directory that contains these contents:
 
-```shell
-🧮 Attempting to calculate the square root of 25000!
-
-✨ Was this search for the square root successful? Yes
-✨ How many guesses did it take to compute the solution? 1581139
-✨ The best approximation for the square root of 25000 is 158.1139000041253
-
-🔬 Here's profile data from performing square root computation on 25000!
-
-  _     ._   __/__   _ _  _  _ _/_   Recorded: 10:25:39  Samples:  507
- /_//_/// /_\ / //_// / //_'/ //     Duration: 0.508     CPU time: 0.508
-/   _/                      v4.0.3
-
-Program: squareroot --number 25000 --approach exhaustive --profile
-
-0.507 primality  squareroot/main.py:106
-└─ 0.507 compute_square_root_exhaustive  squareroot/main.py:36
-   ├─ 0.396 [self]
-   └─ 0.111 abs  <built-in>:0
-         [2 frames hidden]  <built-in>
+```
+100,19,9,9
+10,9,8,7
+6,4,2,-1
+4,2,0,-1
+3,0,-1,-2
+-1,-1,-2,-5
 ```
 
-If you run the program with the command `poetry run squareroot
---first 4 --second 10 --third 20` then it produces output like:
+After correctly adding all of the required features, you can use Poetry to run
+the program with the command `poetry run matrix --matrix-dir input --matrix-file
+matrix.txt` and see that it it produces the following output:
 
-```shell
-🧮 Attempting to calculate the square root of 25000!
-
-✨ Was this search for the square root successful? Yes
-✨ How many guesses did it take to compute the solution? 27
-✨ The best approximation for the square root of 25000 is 158.11389312148094
-
-🔬 Here's profile data from performing square root computation on 25000!
-
-  _     ._   __/__   _ _  _  _ _/_   Recorded: 10:29:41  Samples:  0
- /_//_/// /_\ / //_// / //_'/ //     Duration: 0.000     CPU time: 0.000
-/   _/                      v4.0.3
-
-Program: squareroot --number 25000 --approach efficient --profile
-
-No samples were recorded.
 ```
+✨ Searching for negative numbers in a matrix stored in input/matrix.txt!
 
-It is worth noting that the `exhaustive` algorithm took `1581139` guesses to
-approximate the square root of `25000` while the `efficient` algorithm only
-needed `27`! This shows that `efficient`'s bisection search algorithm is
-significantly faster than the `exhaustive` approach. Interestingly, the
-[Pyinstrument](https://github.com/joerick/pyinstrument) package reports that it
-could not record any performance data for `squareroot` when the program runs in
-`efficient` mode. Why do you think that this is the case? Is there any way to
-overcome this issue by, for instance, reconfiguring Pyinstrument or changing the
-input that you pass to the program? Overall, how much faster is `efficient` in
-comparison to `exhaustive`? You can use the equations and suggestions in the
-engineering effort about [primality
-testing](../../engineering-efforts/primality-testing) to calculate the
-percentage change in execution time when running `squareroot` in `efficient`
-mode instead of the `exhaustive` mode. Finally, to understand why `efficient` is
-faster than `exhaustive` you should study each function's source code and the
-textbook's content.
+📦 The matrix contains the following integer values:
+
+---  --  --  --
+100  19   9   9
+ 10   9   8   7
+  6   4   2  -1
+  4   2   0  -1
+  3   0  -1  -2
+ -1  -1  -2  -5
+---  --  --  --
+
+🧮 The matrix contains 8 negative numbers!
+```
 
 To learn more about how to run this program, you can type the command `poetry
-run squareroot --help` to see the following output showing how to use `squareroot`:
+run matrix --help` to see the following output showing how to use `matrix`:
 
 ```shell
-Usage: squareroot [OPTIONS]
+Usage: matrix [OPTIONS]
 
   Use iteration to perform square root computation of a number and then
   perform profiling to capture execution time.
@@ -119,24 +87,24 @@ Options:
 
 Please note that the provided source code does not contain all of the
 functionality to produce this output. As explained in the next section, you are
-invited to add the missing features and ensure that `squareroot` produces the
+invited to add the missing features and ensure that `matrix` produces the
 expected output. Once the program is working correctly, it should produce output
 similar to that shown in this section.
 
 ???+ note
 
-    Don't forget that if you want to run the `squareroot` program you must use
+    Don't forget that if you want to run the `matrix` program you must use
     your terminal to first go into the GitHub repository containing this project
-    and then go into the `squareroot` directory that houses the project's code.
+    and then go into the `matrix` directory that houses the project's code.
     Finally, remember that before running the program you must run `poetry
     install` to add the dependencies.
 
 ## Adding Functionality
 
-If you study the file `squareroot/squareroot/main.py` you will see that it has
+If you study the file `matrix/matrix/main.py` you will see that it has
 many `TODO` markers that designate the parts of the program that you need to
-implement before `squareroot` will produce correct output. In summary, you
-should implement the following functions for the `squareroot` program:
+implement before `matrix` will produce correct output. In summary, you
+should implement the following functions for the `matrix` program:
 
 - `def compute_square_root_exhaustive(x: int, epsilon: float = 0.01) -> Tuple[bool, float, int]`
 - `def compute_square_root_efficient(x: int, epsilon: float = 0.01) -> Tuple[bool, float, int]`
@@ -153,9 +121,9 @@ within the tolerance of `epsilon`. Finally, the second returned variable is a
 `float` for the calculated value of the square root and the third one is an
 `int` for the number of guesses that the algorithm took.
 
-You will also notice that there are some `TODO` markers in the `squareroot`
+You will also notice that there are some `TODO` markers in the `matrix`
 function of the `main` module. In the scope of the conditional logic statement
-`if approach.value == SquareRootCalculationingApproach.efficient` on lines `1`
+`if approach.value == matrixCalculationingApproach.efficient` on lines `1`
 through `7`, the program should call the function
 `compute_square_root_efficient` depending on whether the `profile` variable
 specified on the command-line is `True` or `False`. If `profile` is `True`, then
@@ -167,7 +135,7 @@ for its `exhaustive` mode, calling the `compute_square_root_exhaustive` instead
 of `compute_square_root_efficient`.
 
 ```python linenums="1"
-if approach.value == SquareRootCalculationingApproach.efficient:
+if approach.value == matrixCalculationingApproach.efficient:
     if profile:
         profiler.start()
         square_root_tuple = compute_square_root_efficient(number)
@@ -175,7 +143,7 @@ if approach.value == SquareRootCalculationingApproach.efficient:
     else:
         square_root_tuple = compute_square_root_efficient(number)
 # use the exhaustive square root computation algorithm
-elif approach.value == SquareRootCalculationingApproach.exhaustive:
+elif approach.value == matrixCalculationingApproach.exhaustive:
     if profile:
         profiler.start()
         square_root_tuple = compute_square_root_exhaustive(number)
@@ -184,9 +152,9 @@ elif approach.value == SquareRootCalculationingApproach.exhaustive:
         square_root_tuple = compute_square_root_exhaustive(number)
 ```
 
-Once you have correctly resolved all of the `TODO` markers in the `squareroot`
+Once you have correctly resolved all of the `TODO` markers in the `matrix`
 program, it should produce the expected output described in the previous
-section. With that said, please bear in mind that, when running `squareroot`
+section. With that said, please bear in mind that, when running `matrix`
 with the `--profile` flag it will produce different profiling data depending on
 the performance of your computer.
 
@@ -197,11 +165,11 @@ it includes the following section that specifies different executable tasks:
 
 ```toml
 [tool.taskipy.tasks]
-black = { cmd = "black squareroot tests --check", help = "Run the black checks for source code format" }
-flake8 = { cmd = "flake8 squareroot tests", help = "Run the flake8 checks for source code documentation" }
-mypy = { cmd = "poetry run mypy squareroot", help = "Run the mypy type checker for potential type errors" }
-pydocstyle = { cmd = "pydocstyle squareroot tests", help = "Run the pydocstyle checks for source code documentation" }
-pylint = { cmd = "pylint squareroot tests", help = "Run the pylint checks for source code documentation" }
+black = { cmd = "black matrix tests --check", help = "Run the black checks for source code format" }
+flake8 = { cmd = "flake8 matrix tests", help = "Run the flake8 checks for source code documentation" }
+mypy = { cmd = "poetry run mypy matrix", help = "Run the mypy type checker for potential type errors" }
+pydocstyle = { cmd = "pydocstyle matrix tests", help = "Run the pydocstyle checks for source code documentation" }
+pylint = { cmd = "pylint matrix tests", help = "Run the pylint checks for source code documentation" }
 test = { cmd = "pytest -x -s", help = "Run the pytest test suite" }
 test-silent = { cmd = "pytest -x --show-capture=no", help = "Run the pytest test suite without showing output" }
 all = "task black && task flake8 && task pydocstyle && task pylint && task mypy && task test"
@@ -213,7 +181,7 @@ automatically run all of the linters designed to check the Python source code in
 your program and its test suite. You can also use the command `poetry run task
 black` to confirm that your source code adheres to the industry-standard format
 defined by the `black` tool. If it does not adhere to the standard then you can
-run the command `poetry run black squareroot tests` and it will automatically
+run the command `poetry run black matrix tests` and it will automatically
 reformat the source code.
 
 Along with running tasks like `poetry run task lint`, you can leverage the
@@ -221,7 +189,7 @@ relevant instructions in the [technical
 skills](/proactive-skills/introduction-proactive-skills/) to enter into a Docker
 container and run `gradle grade` to check your work. If `gradle grade` shows
 that all checks pass, you will know that you made progress towards correctly
-implementing and writing about `squareroot`.
+implementing and writing about `matrix`.
 
 If your program has all of the anticipated functionality, you can run the
 command `poetry run task test` and see that the test suite passes and produces
@@ -230,7 +198,7 @@ output like this:
 ```shell
 collected 3 items
 
-tests/test_squareroot.py ....
+tests/test_matrix.py ....
 ```
 
 ???+ note
