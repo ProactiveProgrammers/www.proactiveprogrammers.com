@@ -67,22 +67,19 @@ matrix.txt` and see that it it produces the following output:
 To learn more about how to run this program, you can type the command `poetry
 run matrix --help` to see the following output showing how to use `matrix`:
 
-```shell
+```
 Usage: matrix [OPTIONS]
 
-  Use iteration to perform square root computation of a number and then
-  perform profiling to capture execution time.
+  Read in a matrix and count the number of negative numbers.
 
 Options:
-  --number INTEGER                [default: 5]
-  --profile / --no-profile        [default: False]
-  --approach [exhaustive|efficient]
-                                  [default: efficient]
-  --install-completion            Install completion for the current shell.
-  --show-completion               Show completion for the current shell, to
-                                  copy it or customize the installation.
+  --matrix-dir PATH
+  --matrix-file PATH
+  --install-completion  Install completion for the current shell.
+  --show-completion     Show completion for the current shell, to copy it
+                        or customize the installation.
 
-  --help                          Show this message and exit.
+  --help                Show this message and exit.
 ```
 
 Please note that the provided source code does not contain all of the
