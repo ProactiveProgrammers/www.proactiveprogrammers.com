@@ -215,6 +215,7 @@ nav:
     - Programming Projects:
       - Number Comparison: data-abstraction/programming-projects/number-comparison.md
       - Square Root: data-abstraction/programming-projects/square-root.md
+      - Matrix Processing: data-abstraction/programming-projects/matrix-processing.md
     - Engineering Efforts:
       - Integer Squaring: data-abstraction/engineering-efforts/integer-squaring.md
       - Primality Testing: data-abstraction/engineering-efforts/primality-testing.md
