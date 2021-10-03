@@ -211,7 +211,7 @@ editor to answer all of the questions in the `writing/reflection.md` file. For
 instance, you should provide the output of the Python program in a fenced code
 block, explain the meaning of the Python source code segments that you
 implemented and tested, compare and contrast the performance of different
-implementations of the square root calculation, and answer all of the other
+implementations of the matrix processing algorithm, and answer all of the other
 questions about your experiences in completing this project.
 
 ## Project Assessment
