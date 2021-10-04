@@ -114,7 +114,7 @@
     - **CSV Format**: comma-separated value files that use a comma as a
       delimiter to separate data
 
-## Monoids
+## Using Monoids
 
 ### Technical Question
 
