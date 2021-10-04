@@ -129,6 +129,7 @@
 ### Reading Assignments
 
 - Chapters 6 and 7 of *Introduction to Computation and Programming Using Python*
+- Check out the [course slides](/slides/data-abstraction/program-components/) for a detailed investigation of these chapters!
 
 ???+ note "Technical Concepts"
 
