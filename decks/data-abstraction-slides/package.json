@@ -4,6 +4,7 @@
     "python-foundations",
     "numerical-computation",
     "function-scope",
-    "structured-types"
+    "structured-types",
+    "program-components"
   ]
 }
