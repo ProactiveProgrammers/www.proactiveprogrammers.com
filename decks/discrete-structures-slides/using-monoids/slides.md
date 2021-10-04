@@ -254,6 +254,62 @@ strings"
 
 ---
 
+[//]: # (Slide Start {{{)
+
+<div class="flex row">
+
+<div class="text-7xl text-orange-600 font-bold mt-5 ml-4 mb-4">
+What are characteristics of strings in Python?
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+Concatenation through the use of the <code>+</code> operator
+</div>
+
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+Identity element exists in the <code>""</code> string
+</div>
+
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+Concatenation is associative but <em>is not</em> commutative
+</div>
+
+</div>
+
+</div>
+
+[//]: # (Slide End }}})
+
+---
+
 # Motivating the Monoid
 
 <v-clicks>
@@ -280,28 +336,132 @@ strings"
 
 ---
 
-# Using n-Tuples and Lists in Python
+# Understanding Monoids
 
 <v-clicks>
 
--   **n-tuples** and **lists** are frequently used in Python programs
+-   A monoid is an ordered pair $(S, \otimes)$ for a set $S$ and any
+    binary operator $\otimes$ that satisfies the following conditions:
 
--   Python programs can use **CSV files** and **databases**
+    -   **Type Preservation**: $\forall s_1, s_2 \in S$, $s_1 \otimes
+                  s_2 \in S$
 
--   Using n-tuples inside of a Python program:
+    -   **Associative Property**: $\forall s_1, s_2, s_3 \in S$, $(s_1
+                  \otimes s_2) \otimes s_3 = s_1 \otimes (s_2 \otimes s_3)$
 
-    -   **Q1**: What is the difference between a **list** and a **tuple**?
+    -   **Identity Element**: $\exists \epsilon \in S$, such that
+        $\forall s \in S, \epsilon \otimes s = s$ and
+        $s \otimes \epsilon = s$
 
-    -   **Q2**: How do you **read** a CSV file from the file system?
+-   We often say that "$S$ is a monoid under $\otimes$ with identity
+    $\epsilon$"
 
-    -   **Q3**: How do you **parse** a CSV file encoded in a string?
+-   If this is confusing, remember that the discrete structure called a
+    monoid is a generalization of strings and integers!
 
-    -   **Q4**: How do you handle the **intricacies** of real-world CSV
-        files?
+-   If you know how strings behave then you understand the monoid;
+    the word "monoid" describes "string-like" structures
 
-    -   **Q5**: How can a Python program **use** a **relational database**?
+</v-clicks>
 
--   Connections for n-tuple and applications in computing, business, and
-science?
+---
+
+# Applying the Monoid Discrete Structure
+
+-   Monoids **frequently exist** inside of our Python programs!
+
+-   Monoids give a **vocabulary** for describing discrete structures
+
+-   Saying that a structure "is a monoid under a specific identity"
+    gives us a **precise understanding** of its behavior
+
+-   Knowing that a discrete structure is a monoid means that we can
+    confidently assume that **associativity holds** for its operator
+
+-   That is why, for integers, we can have "big operators" like $\sum$
+    for adding numbers and $\prod$ for multiplying numbers as in
+
+    -   $\sum_{i=1}^{n} i$
+
+    -   $\prod_{i=1}^{n} i$
+
+---
+
+[//]: # (Slide Start {{{)
+
+<div class="flex row">
+
+<div class="text-7xl text-orange-600 font-bold mt-5 ml-4 mb-4">
+What are the benefits of the monoid concept?
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+Generalizes the behavior of structures
+</div>
+
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+Offers an archetype for understanding
+</div>
+
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+Enables practical parallel computations
+</div>
+
+</div>
+
+</div>
+
+[//]: # (Slide End }}})
+
+---
+
+# Applying Monoids in Python Programs
+
+<v-clicks>
+
+-   Monoids are frequently used in Python programs
+
+-   Python programs can use higher-order sequence functions
+
+-   Using **monoids** and **higher-order** sequence functions:
+
+    -   **Q1**: What is the difference between a list and a tuple?
+    -   **Q2**: How does a monoid generalize strings and integers?
+    -   **Q3**: How do higher-order sequence functions use monoids?
+    -   **Q4**: How can map-filter-reduce support parallel programming?
+    -   **Q5**: What type of speedup will a parallel program achieve?
+
+-   What are the ways in which the mathematical concept of a monoid connects to
+a wide variety of **practical applications** in the area of **parallel computing**?
+
+-   How does the concept of a monoid create an **archetype** in our minds?
 
 </v-clicks>
