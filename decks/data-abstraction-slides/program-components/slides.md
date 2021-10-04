@@ -20,7 +20,7 @@ info: |
 
 # Data Abstraction
 
-## Structured Types
+## Program Components
 
 <div class="container my-5">
   &nbsp;
@@ -51,8 +51,9 @@ info: |
 
 ## Key Question
 
-> How can I use Python's structured types (e.g., `str`, `list`, `range`, and
-> `dict`) to implement programs that efficiently store and retrieve data?
+> How can I use different types of program components, such as recursive
+> functions, modules, libraries, and files to implement efficient programs with
+> effective designs?
 
 </div>
 
@@ -62,8 +63,9 @@ info: |
 
 ## Learning Objectives
 
-> To **remember** and **understand** the principles of data containers so as to
-> avoid common pitfalls associated with storing data
+> To **remember** and **understand** the principles of program components so as
+> to implement programs that use recursive functions, global variables, program
+> modules, external libraries, and files.
 
 </div>
 
