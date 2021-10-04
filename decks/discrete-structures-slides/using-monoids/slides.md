@@ -53,7 +53,7 @@ info: |
 
 > How do I employ the mathematical concepts of **sequences**, **monoids**, and
 > **lists** to implement efficient Python programs that use functions with a
-> clearly specified behavior to perform tasks like finding a name in a
+> **clearly specified behavior** to perform tasks like finding a name in a
 > file or computing the arithmetic mean of data values?
 
 </div>
@@ -65,7 +65,7 @@ info: |
 ## Learning Objectives
 
 > To **remember** and **understand** some the concept of a **monoid**, seeing
-> how it connects to practical applications with strings and sequences
+> how it connects to **practical applications** with strings and sequences
 
 </div>
 
