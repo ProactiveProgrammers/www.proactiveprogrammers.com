@@ -500,7 +500,6 @@ Useful for small functions input to other functions
 
 [//]: # (Slide End }}})
 
-
 ---
 
 # Computing the Arithmetic Mean
