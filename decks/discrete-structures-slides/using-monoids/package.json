@@ -2,7 +2,7 @@
   "private": true,
   "scripts": {
     "dev": "slidev",
-    "build": "slidev build --base /slides/discrete-structures/data-containers/ --out ../../../site/slides/discrete-structures/data-containers",
+    "build": "slidev build --base /slides/discrete-structures/using-monoids/ --out ../../../site/slides/discrete-structures/using-monoids",
     "export": "slidev export"
   },
   "dependencies": {
@@ -10,5 +10,5 @@
     "@slidev/theme-default": "*",
     "@slidev/theme-seriph": "*"
   },
-  "name": "data-containers"
+  "name": "using-monoids"
 }
