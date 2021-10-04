@@ -171,6 +171,54 @@ Behavior: computation with or without side-effects
 
 ---
 
+# Computing the Arithmetic Mean
+
+```python
+def compute_mean(numbers):
+    s = sum(numbers)
+    N = len(numbers)
+    mean = s / N
+    return mean
+numbers = [5,1,7,99,4]
+print(str(compute_mean(numbers)))
+```
+
+<div-clicks>
+
+<div class="mt-8">
+
+- How do we compute the **mean** of a list of numbers?
+
+- How do we compute **summary statistics** of a list of numbers?
+
+- Non-recursive function definition
+
+</div>
+
+</div-clicks>
+
+---
+
+# Type Hints for Function Parameters
+
+```python
+from typing import List
+
+def compute_mean(numbers: List) -> int:
+    s = sum(numbers)
+    N = len(numbers)
+    mean = s / N
+    return mean
+```
+
+- How is this function different from the previous one?
+
+- What are the benefits of adding type hints to parameters?
+
+- What are the downsides of adding type hints to parameters?
+
+---
+
 # Recursive Functions in Python
 
 ```python
