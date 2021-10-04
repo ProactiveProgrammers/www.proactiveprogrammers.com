@@ -301,6 +301,29 @@ print("The factorial of " + str(num) +
 
 [//]: # (Slide Start {{{)
 
+# Recursive Fibonacci with Tuples
+
+```python {all|1|2-4|5-7|8|10-12}
+def fibonacci_tuple(n: int) -> Tuple[int]:
+    result = ( )
+    a = 1
+    b = 1
+    for i in range(n):
+        result += (a,)
+        a, b = b, a + b
+    return result
+
+print(fibonacci_tuple)
+for fibonacci_value in fibonacci_tuple(10):
+    print(fibonacci_value, end=" ")
+```
+
+[//]: # (Slide End }}})
+
+---
+
+[//]: # (Slide Start {{{)
+
 # Investigating Program Components
 
 <div class = "mt-10">
