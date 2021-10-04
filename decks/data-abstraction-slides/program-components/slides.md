@@ -213,16 +213,16 @@ def compute_mean(numbers: List) -> int:
 
 - How is this function different from the previous one?
 
-- What are the benefits of adding type hints to parameters?
+- What are the **benefits** of adding type hints to parameters?
 
-- What are the downsides of adding type hints to parameters?
+- What are the **downsides** of adding type hints to parameters?
 
 ---
 
 # Recursive Functions in Python
 
 ```python
-def factorial(number: int):
+def factorial(number: int) -> int:
     if number == 1:
         return 1
     return number * factorial(number - 1)
@@ -277,7 +277,7 @@ print("The factorial of " + str(num) +
 # Finding Parts of Recursive Functions
 
 ```python
-def factorial(number: int):
+def factorial(number: int) -> int:
     if number == 1:
         return 1
     return number * factorial(number - 1)
