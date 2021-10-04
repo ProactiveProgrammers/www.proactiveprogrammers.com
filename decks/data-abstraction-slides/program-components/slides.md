@@ -303,7 +303,7 @@ print("The factorial of " + str(num) +
 
 # Recursive Fibonacci with Tuples
 
-```python {all|1|2-4|5-7|8|10-12}
+```python {all|1|2-4|5-7|8|10-12|all}
 def fibonacci_tuple(n: int) -> Tuple[int]:
     result = ( )
     a = 1
@@ -317,6 +317,113 @@ print(fibonacci_tuple)
 for fibonacci_value in fibonacci_tuple(10):
     print(fibonacci_value, end=" ")
 ```
+
+[//]: # (Slide End }}})
+
+---
+
+[//]: # (Slide Start {{{)
+
+# Recursive Fibonacci with Lists
+
+```python {all|1|2-4|5-7|8|10-12|all}
+def fibonacci_list(n: int) -> List[int]:
+    result = [  ]
+    a = 1
+    b = 1
+    for i in range(n):
+        result.append(a)
+        a, b = b, a + b
+    return result
+
+print(fibonacci_list)
+for fibonacci_value in fibonacci_list(10):
+    print(fibonacci_value, end=" ")
+```
+
+[//]: # (Slide End }}})
+
+---
+
+[//]: # (Slide Start {{{)
+
+# Recursive Fibonacci with Generator
+
+```python {all|1|2-3|4-6|8-10|all}
+def fibonacci_generator(n: int) -> Iterator[int]:
+    a = 1
+    b = 1
+    for i in range(n):
+        yield a
+        a, b = b, a + b
+print(fibonacci_generator)
+for fibonacci_value in fibonacci_generator(10):
+    print(fibonacci_value, end=" ")
+```
+
+[//]: # (Slide End }}})
+
+<v-clicks>
+
+- The generator function uses `yield` to operate incrementally
+
+- Each function performs the same computation ... differently! How? Trade-offs?
+
+</v-clicks>
+
+---
+
+[//]: # (Slide Start {{{)
+
+<div class="flex row">
+
+<div class="text-7xl text-orange-600 font-bold mt-5 ml-4 mb-4">
+What are foundations of recursive functions?
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+Base case: stop the execution of function
+</div>
+
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+Recursive case: call the function again
+</div>
+
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+Progress: move towards the base case
+</div>
+
+</div>
+
+</div>
 
 [//]: # (Slide End }}})
 
