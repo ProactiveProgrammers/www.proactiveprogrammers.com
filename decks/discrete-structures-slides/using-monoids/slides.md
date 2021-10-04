@@ -224,6 +224,62 @@ print(f"The message is: {message}")
 
 ---
 
+# Characterizing String Concatenation
+
+<v-clicks>
+
+-   Define $S$ to be the set of all possible strings
+
+-   What properties of $S$ are always true?
+
+    -   For $s_1, s_2 \in S$ and the concatenation operator "$+$", $s_1
+                  + s_2 \in S$
+
+    -   For $s_1, s_2, s_3 \in S$, "$+$" is associative: $(s_1 + s_2) +
+                  s_3 = s_1 + (s_2 + s_3)$
+
+    -   For $s_1, s_2, \in S$, "$+$" is not commutative: $(s_1 + s_2)
+                  \neq s_2 + s_1$
+
+    -   For $s_1, s_2, \in S$, if $s_1 = s_2$ or either
+        $s_1 = \epsilon$, then "$+$" is commutative
+
+-   These properties of strings help us to **generalize** and **understand**
+    their behavior! Let's this concept explore further!
+
+-   The **monoid** discrete structure generalizes data that "behaves like
+strings"
+
+</v-clicks>
+
+---
+
+# Motivating the Monoid
+
+<v-clicks>
+
+-   Wow, **strings** and **integers** have **similar** properties!
+
+-   The integers and the mathematical operation of "$+$":
+
+    -   Adding two integers results in another integer
+
+    -   Addition of integers adheres to the associative property
+
+    -   Addition has an identity of $0$ because $0 + n = n + 0$
+
+    -   Key question: are integers and strings of the same general type?
+
+-   **Monoid**: A set that has an **associative binary operator** and an
+    **identity element**. Can we explain this more formally?
+
+-   If we know that a discrete structure used in a Python program is a
+    monoid then we can understand, predict, and test its behavior!
+
+</v-clicks>
+
+---
+
 # Using n-Tuples and Lists in Python
 
 <v-clicks>
