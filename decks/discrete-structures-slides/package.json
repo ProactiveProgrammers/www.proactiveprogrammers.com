@@ -4,6 +4,7 @@
     "making-connections",
     "programming-constructs",
     "python-functions",
-    "data-containers"
+    "data-containers",
+    "using-monoids"
   ]
 }
