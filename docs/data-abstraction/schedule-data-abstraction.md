@@ -122,9 +122,9 @@
 
 ### Technical Question
 
-- How can I use different types of program modules, such as recursive functions,
-  modules, libraries, and files to implement efficient programs with effective
-  designs?
+- How can I use different types of program components, such as recursive
+  functions, modules, libraries, and files to implement efficient programs with
+  effective designs?
 
 ### Reading Assignments
 
