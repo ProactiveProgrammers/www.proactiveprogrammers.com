@@ -500,21 +500,21 @@ Progress: move towards the base case
 
 <v-clicks>
 
--   Correct use of structured types in Python programs:
+-   Correct use of program components in Python programs:
 
-    -   **Q1**: What does it mean if a type is **mutable**?
+    -   **Q1**: What are the benefits of **recursive** functions?
 
-    -   **Q2**: What does it mean if a type is **immutable**?
+    -   **Q2**: What are the different ways to implement **Fibonacci**?
 
-    -   **Q3**: How can a **higher-order** function process lists?
+    -   **Q3**: What are the **trade-offs** of function choices?
 
-    -   **Q4**: What does it mean if a container has an **alias**?
+    -   **Q4**: What the benefits of using program **modules**?
 
-    -   **Q5**: How can you pick the correct container **type**?
+    -   **Q5**: How to external **packages** aid Python programmers?
 
--   You will use structured types throughout this course!
+-   You will different types of functions during this course!
 
--   Balance the **trade-offs** associated with different data containers!
+-   Balance the **trade-offs** associated with different functions!
 
 </v-clicks>
 
