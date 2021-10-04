@@ -512,7 +512,7 @@ Progress: move towards the base case
 
     -   **Q5**: How to external **packages** aid Python programmers?
 
--   You will different types of functions during this course!
+-   You will leverage different types of functions during this course!
 
 -   Balance the **trade-offs** associated with different functions!
 
