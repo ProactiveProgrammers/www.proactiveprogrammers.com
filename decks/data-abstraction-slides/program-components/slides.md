@@ -143,7 +143,117 @@ Behavior: computation with or without side-effects
 
 [//]: # (Slide Start {{{)
 
-# Investigating Structured Types
+# Python Programming with Functions
+
+<v-clicks>
+
+-   Intuitively read the functions to grasp their behavior
+
+-   Key components of the Python functions
+
+    -   Definition of the function
+
+    -   Parameter(s) that serve as the input
+
+    -   Body that performs a computation
+
+    -   Function return value(s) that produce output
+
+    -   Invocation of the function
+
+    -   Collecting the output of the function
+
+-   Investigate the ways to **define** and **call** Python functions!
+
+</v-clicks>
+
+[//]: # (Slide End }}})
+
+---
+
+# Recursive Functions in Python
+
+```python
+def factorial(number: int):
+    if number == 1:
+        return 1
+    return number * factorial(number - 1)
+num = 5
+print("The factorial of " + str(num) +
+        " is " + str(factorial(num)))
+```
+
+<v-clicks>
+
+<div class="mt-10">
+
+- The recursive `factorial` function calls itself!
+
+- How does this function ever stop executing? 🤔
+
+- What are the benefits to using recursive functions?
+
+</div>
+
+</v-clicks>
+
+---
+
+# Recursive Factorial Function
+
+<v-clicks>
+
+-   As an equation:
+    $n! = n \times n-1 \times n-2 \times \ldots \times 1$
+
+-   What are the **parts** of a recursive function in Python?
+
+    -   Defined by **cases** using conditional logic
+
+    -   A function definition that **calls itself**
+
+    -   A recursive call that makes progress to a **base case**
+
+    -   A **base case** that **stops** the **recursive function calls**
+
+-   Repeatedly perform an operation through function calls
+
+-   What would happen if you input a **negative number**?
+
+-   How could you write this function with **iteration**?
+
+</v-clicks>
+
+---
+
+# Finding Parts of Recursive Functions
+
+```python
+def factorial(number: int):
+    if number == 1:
+        return 1
+    return number * factorial(number - 1)
+
+num = 5
+print("The factorial of " + str(num) +
+        " is " + str(factorial(num)))
+```
+
+<v-clicks>
+
+- Where is the **base case**?
+
+- Where is the **recursive case**?
+
+- How does this function **make progress** to the **base case**?
+
+</v-clicks>
+
+---
+
+[//]: # (Slide Start {{{)
+
+# Investigating Program Components
 
 <div class = "mt-10">
 </div>
