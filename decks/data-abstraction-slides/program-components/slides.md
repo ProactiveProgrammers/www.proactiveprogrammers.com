@@ -301,9 +301,9 @@ print("The factorial of " + str(num) +
 
 [//]: # (Slide Start {{{)
 
-# Recursive Fibonacci with Tuples
+# Iterative Fibonacci with Tuples
 
-```python {all|1|2-4|5-7|8|10-12|all}
+```python {all|1|2-4|5-7|8|10-11|all}
 def fibonacci_tuple(n: int) -> Tuple[int]:
     result = ( )
     a = 1
@@ -313,7 +313,6 @@ def fibonacci_tuple(n: int) -> Tuple[int]:
         a, b = b, a + b
     return result
 
-print(fibonacci_tuple)
 for fibonacci_value in fibonacci_tuple(10):
     print(fibonacci_value, end=" ")
 ```
@@ -324,9 +323,9 @@ for fibonacci_value in fibonacci_tuple(10):
 
 [//]: # (Slide Start {{{)
 
-# Recursive Fibonacci with Lists
+# Iterative Fibonacci with Lists
 
-```python {all|1|2-4|5-7|8|10-12|all}
+```python {all|1|2-4|5-7|8|10-11|all}
 def fibonacci_list(n: int) -> List[int]:
     result = [  ]
     a = 1
@@ -336,7 +335,6 @@ def fibonacci_list(n: int) -> List[int]:
         a, b = b, a + b
     return result
 
-print(fibonacci_list)
 for fibonacci_value in fibonacci_list(10):
     print(fibonacci_value, end=" ")
 ```
@@ -347,21 +345,19 @@ for fibonacci_value in fibonacci_list(10):
 
 [//]: # (Slide Start {{{)
 
-# Recursive Fibonacci with Generator
+# Iterative Fibonacci with Generator
 
-```python {all|1|2-3|4-6|8-10|all}
+```python {all|1|2-3|4-6|8-9|all}
 def fibonacci_generator(n: int) -> Iterator[int]:
     a = 1
     b = 1
     for i in range(n):
         yield a
         a, b = b, a + b
-print(fibonacci_generator)
+
 for fibonacci_value in fibonacci_generator(10):
     print(fibonacci_value, end=" ")
 ```
-
-[//]: # (Slide End }}})
 
 <v-clicks>
 
@@ -370,6 +366,72 @@ for fibonacci_value in fibonacci_generator(10):
 - Each function performs the same computation ... differently! How? Trade-offs?
 
 </v-clicks>
+
+[//]: # (Slide End }}})
+
+---
+
+[//]: # (Slide Start {{{)
+
+# Recursive Fibonacci Implementation
+
+```python {all|1|2-3|4-6|8-9|all}
+def fibonacci_recursive(n: int) -> int:
+    if n == 0 or n == 1:
+        return 1
+    else:
+        return fibonacci_recursive(n-1) +
+             fibonacci_recursive(n-2)
+
+for i in range(10):
+    print(f"fib of {i} = ")
+    print(f"{fibonacci_recursive(i)}")
+```
+
+[//]: # (Slide End }}})
+
+---
+
+# Output of the Recursive Fibonacci
+
+<style>
+  h2 {
+    font-size: 42px;
+    @apply text-orange-600 mb-4;
+  }
+  li {
+    font-size: 28px;
+    margin-top: 4px;
+    margin-bottom: 9px;
+  }
+</style>
+
+<div class="border-2 rounded-2xl border-gray-700 bg-true-gray-300 p-5">
+
+<pre>
+fib of 0 is 1
+fib of 1 is 1
+fib of 2 is 2
+fib of 3 is 3
+fib of 4 is 5
+fib of 5 is 8
+fib of 6 is 13
+fib of 7 is 21
+fib of 8 is 34
+fib of 9 is 55
+</pre>
+
+</div>
+
+[//]: # (Slide End }}})
+
+- Output shows that the 10th Fibonacci number is 55
+
+- Do the iterative algorithms produce the same output?
+
+- How many times is `fibonacci_recursive` called? Why important?
+
+- Could add a tracking global variable called `num_fib_calls`
 
 ---
 
