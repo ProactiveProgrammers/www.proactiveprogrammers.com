@@ -146,6 +146,81 @@ print(f"The message is: {message}")
 
     -   `world + space + hello`
 
+---
+
+# Reversed String Concatenation
+
+```python
+hello = "hello"
+world = "world"
+space = " "
+message = world + space + hello
+print(f"The message is: {message}")
+```
+
+<v-clicks>
+
+- What is the **output** of this program segment?
+
+- How does Python **represent** a string in memory?
+
+- What are the different **types** of strings?
+
+- What is an **empty string** in Python?
+
+- How is an empty string different from `" "` ?
+
+</v-clicks>
+
+---
+
+# Empty String Concatenation in Python
+
+```python
+world = "world"
+empty = ""
+message = empty + world
+print(f"The message is: {message}")
+```
+
+<v-clicks>
+
+- The `empty` variable is an identity string
+
+- What is the output of this program segment?
+
+- What if we switched the order of the concatenation?
+
+- How is the `empty` variable different from `" "` ?
+
+- What is an "identity content" for other data types and operators?
+
+</v-clicks>
+
+---
+
+# Reversed Empty String Concatenation
+
+```python
+world = "world"
+empty = ""
+message = world + empty
+print(f"The message is: {message}")
+```
+
+<v-clicks>
+
+- What is the output of this program segment?
+
+- Why does the order of operations not matter in this case?
+
+- Can we generalize these observations about strings?
+
+- Can we define a general discrete structure with predictable properties?
+
+- If you get confused, revisit what you know about `str` in Python!
+
+</v-clicks>
 
 ---
 
