@@ -127,6 +127,7 @@
 
 - Chapter 6 of *Programming and Mathematical Thinking*
 - Chapter 3 of *Doing Math with Python*
+- Check out the [course slides](/slides/discrete-structures/using-monoids/) for a detailed investigation of these chapters!
 
 ???+ note "Technical Concepts"
 
