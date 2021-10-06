@@ -634,7 +634,7 @@ def launch(
 
 # Determining if a File is Valid
 
-```python {all|1-5|6|7|8-12|all}
+```python
 def confirm_valid_file(file: Path) -> bool:
     if file is not None:
         if file.is_file():
