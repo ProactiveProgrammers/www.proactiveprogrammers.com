@@ -441,6 +441,281 @@ Enables practical parallel computations
 
 [//]: # (Slide End }}})
 
+
+---
+
+# Sums of Lists in Python
+
+```python
+standard_list = [1, 2, 3, 4, 5]
+reversed_list = [5, 4, 3, 2, 1]
+
+sum_list = sum(standard_list)
+sum_reversed_list = sum(reversed_list)
+```
+
+<v-clicks>
+
+- `sum` is a built-in function provided by Python
+
+- What is the output of this program segment?
+
+- This code demonstrates the behavior of the $\sum$ operator
+
+- You can sum numbers in any order and get the same answer!
+
+- Any questions about the use of the `sum` function?
+
+</v-clicks>
+
+---
+
+# Products of Lists in Python
+
+```python
+import math
+standard_list = [1, 2, 3, 4, 5]
+reversed_list = [5, 4, 3, 2, 1]
+product_list = math.prod(standard_list)
+product_reversed_list =
+    math.prod(reversed_list)
+```
+
+<v-clicks>
+
+- `math.prod` is a function in the `math` module
+
+- This code demonstrates the behavior of the $\prod$ operator
+
+- Multiplying numbers in any order gets the same answer!
+
+- Any questions about the use of the `prod` function?
+
+</v-clicks>
+
+---
+
+# CSV File Containing Population Data
+
+<style>
+  h2 {
+    font-size: 42px;
+    @apply text-orange-600 mb-4;
+  }
+  li {
+    font-size: 28px;
+    margin-top: 4px;
+    margin-bottom: 9px;
+  }
+</style>
+
+<div class="border-2 rounded-2xl border-gray-700 bg-true-gray-300 p-5">
+
+<pre>
+1970-01-01,81.342
+1971-01-01,83.300
+1972-01-01,84.700
+1973-01-01,85.500
+1974-01-01,86.100
+1975-01-01,87.000
+1976-01-01,87.600
+1977-01-01,87.600
+1978-01-01,88.000
+</pre>
+
+</div>
+
+
+- CSV file stores ordered pairs of **dates** and **population counts**
+
+- Both lists and tuples are examples of **sequences**
+
+- A tuple is an **immutable** data container
+
+- A list is a **mutable** data container
+
+- What are the **trade-offs** when using these containers?
+
+[//]: # (Slide End }}})
+
+---
+
+# Using Mutable Lists in Python
+
+```python
+  data_number_list = []
+  for line in data_text.splitlines():
+      ordered_pair = line.split(",")
+      data_number_list.append(float(
+              ordered_pair[1]))
+  return data_number_list
+```
+
+<v-clicks>
+
+- This source code parses the CSV file and extracts content
+
+- What is the purpose of `ordered_pair[1]` ?
+
+- Does this source code use a tuple or a list?
+
+- Again, what are the differences between lists and tuples?
+
+</v-clicks>
+
+---
+
+# Higher-Order Sequence Functions
+
+<v-clicks>
+
+-   Define **higher-order** functions that work for **any sequence**
+
+-   These functions should work for lists, ordered pairs, tuples:
+
+    -   `map`: Apply a function to every element of a sequence
+
+    -   `filter`: Apply a boolean function to every element of a
+        sequence, returning only those matching the filter's rules
+
+    -   `reduce`: Apply a function that acts like a binary operator to a
+        sequence of values, combining them to a single value
+
+-   These three operators give a **vocabulary** for implementing complex
+    programs in a functional programming style
+
+-   These functions are **higher-order** because they accept function as input
+
+</v-clicks>
+
+---
+
+# Map Function with a Literal Tuple
+
+```python {all|1-2|4-8|10-11|all}
+def square(value):
+    return value * value
+
+def map(f, sequence):
+    result = (  )
+    for element in sequence:
+        result += ( f(element), )
+    return result
+
+squared = map(square, (2, 3, 5, 7, 11))
+print(squared)
+```
+
+---
+
+# Map Function with a Range Sequence
+
+```python {all|1-2|4-8|10-11|all}
+def square(value):
+    return value * value
+
+def map(f, sequence):
+    result = (  )
+    for element in sequence:
+        result += ( f(element), )
+    return result
+
+squared_range = map(square, range(10))
+print(squared_range)
+```
+
+---
+
+# Filtering Even Numbers from a Tuple
+
+```python {all|1-4|6-8|all}
+def is_even(value):
+    if value % 2 == 0:
+        return True
+    return False
+
+filtered_even = filter(is_even,
+    (2, 3, 5, 7, 11))
+print(list(filtered_even))
+```
+
+<v-clicks>
+
+- Which of these functions is a higher-order function?
+
+- What is the purpose of the `is_even` function?
+
+- What are the benefits of this approach? Why?
+
+</v-clicks>
+
+---
+
+# Filtering Odd Numbers from a Tuple
+
+```python {all|1-4|6-8|all}
+def is_odd(value):
+    if value % 2 == 1:
+        return True
+    return False
+
+filtered_odd = filter(is_odd,
+    (2, 3, 5, 7, 11))
+print(list(filtered_odd))
+```
+
+<v-clicks>
+
+- Which of these functions is a higher-order function?
+
+- What is the purpose of the `is_odd` function?
+
+- What are the benefits of this approach? Why?
+
+</v-clicks>
+
+---
+
+# Summations By Using Reduce
+
+```python {all|1-2|4-8|10-11|all}
+def plus(number_one, number_two):
+    return number_one + number_two
+
+def reduce(f, sequence, initial):
+    result = initial
+    for value in sequence:
+        result = f(result, value)
+    return result
+
+numbers = [1, 2, 3, 4, 5]
+added_numbers = reduce(plus, numbers, 0)
+```
+
+---
+
+# Monoids and Map-Filter-Reduce
+
+<v-clicks>
+
+-   These **higher-order sequence functions** are **independent** and free of
+    "side effects" and thus can be **parallelized**
+
+-   Since a **monoid** has the associativity property, can use ` map`, `filter`,
+    and `reduce` operators in **parallel** and then combine the solution, often
+    achieving a **speedup**. This makes the program more efficient!
+
+-   These three operators give a **vocabulary** for implementing complex
+    programs in a **functional** programming style
+
+-   **Parallel** computation is important given the **diminishing** returns
+    associated with sequential computation
+
+-   If you can prove that a structure and operation is a **monoid** then you can
+    use **map**, **reduce**, and **filter** to **parallelize**  its computations
+
+</v-clicks>
+
 ---
 
 # Applying Monoids in Python Programs
@@ -462,6 +737,6 @@ Enables practical parallel computations
 -   What are the ways in which the mathematical concept of a monoid connects to
 a wide variety of **practical applications** in the area of **parallel computing**?
 
--   How does the concept of a monoid create an **archetype** in our minds?
+-   How does the concept of a **monoid** create an **archetype** in our minds?
 
 </v-clicks>
