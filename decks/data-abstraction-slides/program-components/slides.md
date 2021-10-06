@@ -493,6 +493,119 @@ Progress: move towards the base case
 
 [//]: # (Slide Start {{{)
 
+# Using Modules and Files in Python
+
+<v-clicks>
+
+-   Modules are individual `.py` files with definitions and statements
+
+-   Key insights about the use of modules:
+
+    -   **Standard library** packages are a part of the Python language
+
+    -   Examples of packages: `Pathlib` and `os` and `system`
+
+    -   **External** packages are available through Python Packing Index (PyPI)
+
+    -   Learn more about PyPI by visiting `https://pypi.org/`
+
+    -   Need to manage **virtual environments** and **package dependencies**
+
+    -   **Tool support**: Poetry, Pipenv, pip, venv, virtualenv-wrapper, ... !
+
+-   What are the **challenges** associated with using external packages?
+
+</v-clicks>
+
+[//]: # (Slide End }}})
+
+---
+
+[//]: # (Slide Start {{{)
+
+# Using Predefined Packages in Python
+
+<v-clicks>
+
+-   Leverage the source code provided by existing projects!
+
+-   Key insights about the use of modules
+
+    -   **Organize** modules around their **functionality**
+
+    -   Have a **test suite** for each module in the system
+
+    -   Write **test cases** for each function in the module
+
+    -   Provide a **docstring** for each module and each function
+
+    -   When necessary **import** one module into another module
+
+    -   Use the **fully qualified** name of a module
+
+-   What are the **benefits** associated with organizing code into modules?
+
+</v-clicks>
+
+[//]: # (Slide End }}})
+
+---
+
+[//]: # (Slide Start {{{)
+
+# Using `Typer` and `Pathlib` for File Input
+
+```python {all|1-5|6|7|8-12|all}
+@cli.command()
+def launch(
+  rocket_dir: Path = typer.Option(None),
+  rocket_file: Path = typer.Option(None)
+):
+  rocket_file = rocket_dir / rocket_file
+  if confirm_valid_file(rocket_file):
+  rocket_contents_text =
+      rocket_file.read_text()
+      print(rocket_contents_text)
+  else:
+      print(f"{rocket_file} was not valid")
+```
+
+[//]: # (Slide End }}})
+
+---
+
+[//]: # (Slide Start {{{)
+
+# Determining if a File is Valid
+
+```python {all|1-5|6|7|8-12|all}
+def confirm_valid_file(file: Path) -> bool:
+    if file is not None:
+        if file.is_file():
+            return True
+    return False
+```
+
+[//]: # (Slide End }}})
+
+<v-clicks>
+
+- **Typer** and **Pathlib** are beneficially **integrated** together
+
+- Pathlib is often **preferable** to standard approaches
+
+- Why is it important to determine if a file is **valid**?
+
+- What happens if the program receives an **invalid** file as input?
+
+- What can **go wrong** when performing file input and output?
+
+</v-clicks>
+
+---
+
+[//]: # (Slide Start {{{)
+
 # Investigating Program Components
 
 <div class = "mt-10">
@@ -512,9 +625,9 @@ Progress: move towards the base case
 
     -   **Q5**: How to external **packages** aid Python programmers?
 
--   You will leverage different types of functions during this course!
-
 -   Balance the **trade-offs** associated with different functions!
+
+-   Judiciously use **external** program modules when programming
 
 </v-clicks>
 
