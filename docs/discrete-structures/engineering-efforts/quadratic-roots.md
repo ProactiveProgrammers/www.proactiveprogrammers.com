@@ -37,7 +37,7 @@ of this assignment, it will also be possible for you to run the provided Python
 program by typing `poetry run rootfinder --a 1 --b 2 --c 1` in your
 terminal window and observe that the programs produces the following output:
 
-```shell
+```
 ⭐ Calculating the roots of a quadratic equation with:
    a = 1.0
    b = 2.0
@@ -53,7 +53,7 @@ calculator site suggests it should? If it does, then try to run the program with
 different inputs by typing `poetry run rootfinder --a 1 --b 1 --c 1`. In this
 case, your program should produce the following output:
 
-```shell
+```
 ⭐ Calculating the roots of a quadratic equation with:
    a = 1.0
    b = 1.0
@@ -95,7 +95,7 @@ implement before `rootfinder` will produce correct output. If you run the provid
 test suite with the command `poetry run task test` you will see that it produces
 output like the following:
 
-```shell
+```
 ================================= FAILURES =================================
 __________________ test_calculate_x_values_non_imaginary ___________________
 
@@ -156,7 +156,7 @@ parameters called `a`, `b`, and `c` that respectively have default values of
 `1`, `2`, and `2`, as seen on lines `2` through `4`. If you run `poetry run
 rootfinder` if should produce this output:
 
-```shell
+```
 ⭐ Calculating the roots of a quadratic equation with:
    a = 1.0
    b = 2.0
@@ -208,7 +208,7 @@ to guide you as you create new test cases for
 `calculate_quadratic_equation_roots` that run in
 [Pytest](https://docs.pytest.org/).
 
-```shell
+```
 collected 3 items
 
 tests/test_rootfind.py ...
