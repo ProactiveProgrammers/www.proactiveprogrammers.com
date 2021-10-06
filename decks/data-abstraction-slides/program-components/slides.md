@@ -392,6 +392,62 @@ for i in range(10):
 
 ---
 
+[//]: # (Slide Start {{{)
+
+<div class="flex row">
+
+<div class="text-7xl text-orange-600 font-bold mt-5 ml-4 mb-4">
+What are trade-offs of different approaches?
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<uim-repeat class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+Which approach runs in the least amount of time?
+</div>
+
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<uim-repeat class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+Which approach takes up the least memory?
+</div>
+
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<uim-repeat class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+Which approach is the most understandable?
+</div>
+
+</div>
+
+</div>
+
+[//]: # (Slide End }}})
+
+---
+
 # Output of the Recursive Fibonacci
 
 <style>
