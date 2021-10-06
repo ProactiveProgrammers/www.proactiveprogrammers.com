@@ -479,8 +479,6 @@ fib of 9 is 55
 
 </div>
 
-[//]: # (Slide End }}})
-
 - Output shows that the 10th Fibonacci number is 55
 
 - Do the iterative algorithms produce the same output?
@@ -488,6 +486,8 @@ fib of 9 is 55
 - How many times is `fibonacci_recursive` called? Why important?
 
 - Could add a tracking global variable called `num_fib_calls`
+
+[//]: # (Slide End }}})
 
 ---
 
