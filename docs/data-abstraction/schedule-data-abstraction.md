@@ -89,7 +89,7 @@
       type in the function's declaration
     - **Actual Parameters**: the arguments to a function that are passed into it
       at the function invocation point
-    - **Debugging**: the systematic process of finding out what a program does
+    - **Debugging**: the systematic process of finding out why a program does
       not work and then fixing it
     - **Higher-Order Function**: general-purpose functions for problem solving
       that accept functions as input
