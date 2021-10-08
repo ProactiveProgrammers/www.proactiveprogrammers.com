@@ -173,11 +173,11 @@ Let's explore the use of data containers in Python!
 ```python
 pair = 3, 4
 quadruple = "Story number", 3,
-              "is", true
+              "is", True
 
 pair = (3, 4)
 quadruple = ("Story number", 3,
-              "is", true)
+              "is", True)
 ```
 
 - The **same data type** is **not** a **requirement** for a tuple
