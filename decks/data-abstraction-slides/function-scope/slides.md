@@ -413,7 +413,7 @@ else:
 <v-clicks>
 
 <p class = "bold">
-What is are the <b>downsides</b> of this approach to primality testing?
+What are the <b>downsides</b> of this approach to primality testing?
 </p>
 
 </v-clicks>
