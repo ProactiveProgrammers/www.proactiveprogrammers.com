@@ -153,6 +153,7 @@
 
 - Chapter 7 of *Programming and Mathematical Thinking*
 - All previously assigned chapters of *Doing Math with Python*
+- Check out the [course slides](/slides/data-abstraction/data-streams/) for a detailed investigation of these chapters!
 
 ???+ note "Technical Concepts"
 
