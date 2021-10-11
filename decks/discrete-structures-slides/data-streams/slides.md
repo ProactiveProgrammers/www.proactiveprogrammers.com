@@ -398,6 +398,8 @@ for fibonacci_value in fibonacci_list(10):
 
 # Using Generators, Tuples, and Lists
 
+<v-clicks>
+
 -   Remember, each function produces the **same final output**!
 
 -   **Behavior** and **memory** use differs for each function type
@@ -418,27 +420,29 @@ for fibonacci_value in fibonacci_list(10):
 
 -   What are the **overall trade-offs** of using these approaches?
 
+</v-clicks>
+
 ---
 
-# Applying Monoids in Python Programs
+# Using Streams in Python Programs
 
 <v-clicks>
 
--   Monoids are frequently used in Python programs
+-   Python programs frequently generate **streams of values**
 
--   Python programs can use higher-order sequence functions
+-   **Static** versus **dynamic** streams in Python programs
 
--   Using **monoids** and **higher-order** sequence functions:
+-   Using streams enables the program to be **memory efficient**
+
+-   Using tuples, lists, and streams in Python programs:
 
     -   **Q1**: What is the difference between a list and a tuple?
-    -   **Q2**: How does a monoid generalize strings and integers?
-    -   **Q3**: How do higher-order sequence functions use monoids?
-    -   **Q4**: How can map-filter-reduce support parallel programming?
-    -   **Q5**: What type of speedup will a parallel program achieve?
+    -   **Q2**: What is the difference between a list and stream?
+    -   **Q3**: What is the difference between a tuple and a stream?
+    -   **Q4**: How can you concatenate streams into a new stream?
+    -   **Q5**: How do streams aid distributed programming in Python?
 
--   What are the ways in which the mathematical concept of a monoid connects to
-a wide variety of **practical applications** in the area of **parallel computing**?
-
--   How does the concept of a **monoid** create an **archetype** in our minds?
+-   Dynamically generated streams support memory efficiency and flexibility.
+Also, the **stream** is a **monoid** under the identify of the empty stream!
 
 </v-clicks>
