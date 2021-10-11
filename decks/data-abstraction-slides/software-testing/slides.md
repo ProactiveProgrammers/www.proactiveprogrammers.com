@@ -282,6 +282,187 @@ Glass-box testing focuses on the source code
 
 [//]: # (Slide End }}})
 
+---
+
+[//]: # (Slide Begin {{{)
+
+# Squaring a Number with a `while` Loop
+
+<div class="ml-1">
+
+```python {all|1|2-3|4-6|7|all}
+def compute_square_while(value: int) -> int:
+    num_iterations = 0
+    answer = 0
+    while num_iterations < abs(value):
+        answer = answer + abs(value)
+        num_iterations = num_iterations + 1
+    return answer
+```
+
+</div>
+
+<br>
+
+<v-clicks>
+
+<p class = "bold">
+What are the <b>expected outputs</b> for this function?
+</p>
+
+<p class = "bold">
+How can we implement a <b>Pytest test case</b> for this function?
+</p>
+
+<p class = "bold">
+How <b>challenging</b> is full path coverage for this function?
+</p>
+
+</v-clicks>
+
+[//]: # (Slide End }}})
+
+---
+
+[//]: # (Slide Begin {{{)
+
+# Squaring a Number with a `for` Loop
+
+<div class="ml-1">
+
+```python {all|1|2|3-4|5|all}
+def compute_square_for(value: int) -> int:
+    answer = 0
+    for _ in range(abs(value)):
+        answer = answer + abs(value)
+    return answer
+```
+
+</div>
+
+<br>
+
+<v-clicks>
+
+<p class = "bold">
+What are the <b>expected outputs</b> for this function?
+</p>
+
+<p class = "bold">
+How can we implement a <b>Pytest test case</b> for this function?
+</p>
+
+<p class = "bold">
+How <b>challenging</b> is full path coverage for this function?
+</p>
+
+<p class = "bold">
+How is testing this function <b>similar</b> to the previous function?
+</p>
+
+</v-clicks>
+
+[//]: # (Slide End }}})
+
+---
+
+[//]: # (Slide Begin {{{)
+
+# Test Cases for the `while` Loop Method
+
+<div class="-ml-5">
+
+```python {all|1-4|6-9|all}
+def test_compute_square_while_loop_positive():
+    value = 3
+    square_value = main.compute_square_while(value)
+    assert square_value == 9
+
+def test_compute_square_while_loop_negative():
+    value = -3
+    square_value = main.compute_square_while(value)
+    assert square_value == 9
+```
+
+</div>
+
+<v-click>
+
+Where is the **assertion** for these test cases?
+
+What are the **inputs** and **outputs** of the test case?
+
+</v-click>
+
+[//]: # (Slide End }}})
+
+---
+
+[//]: # (Slide Begin {{{)
+
+# Test Cases for the `for` Loop Method
+
+<div class="-ml-5">
+
+```python {all|1-4|6-9|all}
+def test_compute_square_for_loop_positive():
+    value = 3
+    square_value = main.compute_square_for(value)
+    assert square_value == 9
+
+def test_compute_square_for_loop_negative():
+    value = -3
+    square_value = main.compute_square_for(value)
+    assert square_value == 9
+```
+
+</div>
+
+<v-click>
+
+Where is the **assertion** for these test cases?
+
+What are the **inputs** and **outputs** of the test case?
+
+</v-click>
+
+[//]: # (Slide End }}})
+
+---
+
+[//]: # (Slide Begin {{{)
+
+# Test Assertions for Data Containers
+
+<div class="-ml-8">
+
+```python {all}
+def test_compute_square_iterative_for_loop():
+    number_list = """-72
+        29
+        61
+        -42
+        44"""
+    square_function = main.compute_square_for
+    square_list = main.
+    compute_square_iterative(number_list,
+                           square_function)
+    assert square_list ==
+       [72 * 72, 29 * 29, 61 * 61, 42 * 42, 44 * 44]
+```
+
+</div>
+
+<v-click>
+
+Where is the **assertion** for these test cases?
+
+What are the **inputs** and **outputs** of the test case?
+
+</v-click>
+
+[//]: # (Slide End }}})
+
 
 ---
 
