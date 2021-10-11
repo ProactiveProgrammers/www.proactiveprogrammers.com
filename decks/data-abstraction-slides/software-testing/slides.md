@@ -453,14 +453,6 @@ def test_compute_square_iterative_for_loop():
 
 </div>
 
-<v-click>
-
-Where is the **assertion** for these test cases?
-
-What are the **inputs** and **outputs** of the test case?
-
-</v-click>
-
 [//]: # (Slide End }}})
 
 
