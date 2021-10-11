@@ -5,6 +5,7 @@
     "programming-constructs",
     "python-functions",
     "data-containers",
-    "using-monoids"
+    "using-monoids",
+    "data-streams"
   ]
 }
