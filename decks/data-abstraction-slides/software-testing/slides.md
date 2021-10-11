@@ -20,7 +20,7 @@ info: |
 
 # Data Abstraction
 
-## Program Components
+## Software Testing
 
 <div class="container my-5">
   &nbsp;
@@ -49,8 +49,8 @@ info: |
 
 ## Key Question
 
-> How can I use different types of program components, such as recursive
-> functions and modules to make efficient programs with effective designs?
+> How can I use the processes of software testing and debugging to establish a
+> confidence in the correctness of a Python program?
 
 </div>
 
@@ -60,9 +60,10 @@ info: |
 
 ## Learning Objectives
 
-> To **remember** and **understand** the principles of program components so as
-> to implement programs that use recursive functions, global variables, program
-> modules, external libraries, and files.
+> To **remember** and **understand** the principles of software testing and
+> debugging so as to implement test suites, using Pytest, for programs that find
+> bugs and establish a confidence in correctness.
+
 
 </div>
 
@@ -73,7 +74,7 @@ info: |
 <uim-rocket class="text-5xl ml-8 mt-5 text-blue-600" />
 
 <div class="text-3xl font-bold mt-8 ml-4">
-Let's explore the use of program components!
+Let's explore the practice of software testing!
 </div>
 
 </div>
@@ -90,7 +91,7 @@ Let's explore the use of program components!
 <div class="flex row">
 
 <div class="text-7xl text-orange-600 font-bold mt-5 ml-4 mb-4">
-What are foundations of Python functions?
+What are foundations of testing and debugging?
 </div>
 
 </div>
@@ -102,21 +103,7 @@ What are foundations of Python functions?
 <mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
 
 <div class="text-3xl font-bold mt-10 ml-4">
-Input: accepts one or more variables as input
-</div>
-
-</div>
-
-</div>
-
-<div v-click>
-
-<div class="flex row">
-
-<mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
-
-<div class="text-3xl font-bold mt-10 ml-4">
-Output: return one or more variables as output
+Testing: run a program to try to see if it works
 </div>
 
 </div>
@@ -130,7 +117,21 @@ Output: return one or more variables as output
 <mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
 
 <div class="text-3xl font-bold mt-10 ml-4">
-Behavior: computation with or without side-effects
+Debugging: fix a program that is currently broken
+</div>
+
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+Design or testability ensures that testing is possible
 </div>
 
 </div>
