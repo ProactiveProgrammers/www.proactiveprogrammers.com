@@ -131,7 +131,7 @@ Debugging: fix a program that is currently broken
 <mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
 
 <div class="text-3xl font-bold mt-10 ml-4">
-Design or testability ensures that testing is possible
+Design for testability ensures testing is possible
 </div>
 
 </div>
