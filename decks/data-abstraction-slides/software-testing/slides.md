@@ -285,35 +285,6 @@ def create_results_zip_file(
 
 </v-click>
 
-<!--
-
-One of WorkKnow's features is that it can create a ZIP file of all the results
-that it saves about the history of GitHub Action workflows for different
-projects. This feature has come in handy when the data that it downloads is too
-large to send to someone on a per-file basis.
-
-When I first wrote this function, I did so in the way that you see right now.
-That leads me to my next question:
-
-- Can you find the bug in this program?
-
-Thankfully, Pyright can find it for us!
-
-**CUT IN SHORT VERSION**
-
-After walking through the source code for this function, I have a story to tell
-you about how type annotations helped me to implement it correctly!
-
-**Explain each line of source code in the function.**
-
-Although I acknowledge that the defect is a small one and that, in fact, I would
-have been able to find it without using type annotations and type checkers, I'm
-delighted to report that pyright found it for me immediately! I appreciate
-pyright because it works asynchronously in the background, pointing out likely problems
-while I focus on the next feature or test that I want to write.
-
--->
-
 ---
 
 <v-click>
@@ -381,29 +352,6 @@ with zipfile.ZipFile(
 </div>
 
 </v-click>
-
-<!--
-
-Let's take a look at the error message that Pyright shared with me!
-
-**Read the error message.**
-
-As soon as I read this message I realized that I need to focus on the call to
-the write function and the parameter that I passed to it. After contemplating
-Pyright's error again, I realized that I had made a mistake by passing
-results_files, a list containing strings, instead of results_file, the specific
-file, to the write function.
-
-Yep, one extra s would have caused a major problem when I either ran the test
-suite or the program itself! Of course, it is reasonable to ask whether or not I
-would have found this bug by other means. Yes, I think that I would have! But,
-it was nice to find it so quickly through the use of type annotations and the
-Pyright type checker.
-
--->
-
----
-
 
 ---
 
