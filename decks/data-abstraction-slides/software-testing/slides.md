@@ -234,32 +234,54 @@ Glass-box testing focuses on the source code
 
 <v-clicks>
 
--   Consider the **specification** of the program under test
+- Consider the **specification** of the program under test
 
--   Specifications may exist in a **variety of forms**:
+- Specifications may exist in a **variety of forms**:
 
     - Docstring for a function
     - Type annotations for a function
     - Informal specification for a program unit
     - Formal specification for a program unit
 
--   Python source code must be **free** of **static semantic errors**
+- Specifications should explain **what** the program unit should do
 
-- Key insights about software testing in Python:
+- You can use a **specification** to write a **test case** in Pytest
 
-    - Purpose of testing is to show that **bugs exists**
+- Divide the **input space** into **partitions** and make input for each
 
-    - Testing **cannot prove** the **absence of defects**
-
-    - **Exhaustive testing** of trivial functions is **not possible**
-
-    - A **test suite** is a collection of useful program inputs
-
-    - **Partition testing** divides the input space into groups
+- Ultimately, use the **specification** to **guide** your **testing** effort!
 
 </v-clicks>
 
 [//]: # (Slide End }}})
+
+---
+
+# Glass-Box Software Testing
+
+<v-clicks>
+
+- Consider the **implementation** of the program under test
+
+- Attempt to **cover** a **representation** of a program:
+
+    - Function coverage
+    - Statement coverage
+    - Branch coverage
+    - Condition-decision coverage
+    - Multiple condition-decision coverage
+    - All paths coverage
+
+- Organize **test adequacy criteria** into a **subsumption hierarchy**
+
+- Why is it practically impossible to achieve certain strong criteria?
+
+- Use `coverage.py` and `codecov.io` to track and report coverage
+
+</v-clicks>
+
+[//]: # (Slide End }}})
+
 
 ---
 
