@@ -68,6 +68,16 @@ info: |
 
 </div>
 
+<div class="flex row mt-3">
+
+<uim-rocket class="text-6xl ml-9 mt-0 text-blue-600" />
+
+<div class="text-4xl text-true-gray-700 font-bold mt-4 ml-4">
+Let's study static and dynamic sequences!
+</div>
+
+</div>
+
 [//]: # (Slide End }}})
 
 ---
@@ -270,7 +280,7 @@ for value in fibonacci_generator(10):
 # Output from a Generator Function
 
 ```
-print(fibonacci_generator) produces:
+print(fibonacci_generator)
 
     <function fibonacci_generator
       at 0x7f791d4bb1f0>
@@ -288,6 +298,125 @@ for value in fibonacci_generator(10):
 - Can you find the **pattern** in these numbers?
 
 </v-click>
+
+---
+
+# Using Functions and Tuples in Python
+
+<div class="-ml-2">
+
+```python {all|1|2-4|5-8|10-12|all}
+def fibonacci_tuple(n):
+    result = ( )
+    a = 1
+    b = 1
+    for i in range(n):
+        result += (a,)
+        a, b = b, a + b
+    return result
+
+print(fibonacci_tuple)
+for fibonacci_value in fibonacci_tuple(10):
+  print(fibonacci_value, end=" ")
+```
+
+</div>
+
+---
+
+# Output from a Tuple Function in Python
+
+```
+print(fibonacci_tuple)
+
+  <function fibonacci_tuple
+    at 0x7f6e976b61f0>
+
+for fibonacci_value in fibonacci_tuple(10):
+  print(fibonacci_value, end=" ")
+
+  1 1 2 3 5 8 13 21 34 55
+```
+
+<v-click>
+
+- Generator functions versus tuple functions?
+
+- Drawbacks of tuple-creation functions?
+
+</v-click>
+
+---
+
+# Using Functions and List in Python
+
+<div class="-ml-2">
+
+```python {all|1|2-4|5-8|10-12|all}
+def fibonacci_list(n):
+    result = []
+    a = 1
+    b = 1
+    for i in range(n):
+        result.append(a)
+        a, b = b, a + b
+    return result
+
+print(fibonacci_list)
+for fibonacci_value in fibonacci_list(10):
+  print(fibonacci_value, end=" ")
+
+```
+
+</div>
+
+---
+
+# Output from a List Function in Python
+
+```
+print(fibonacci_list)
+
+  <function fibonacci_list at 0x7fd1abf2c040>
+
+
+for fibonacci_value in fibonacci_list(10):
+  print(fibonacci_value, end=" ")
+
+  1 1 2 3 5 8 13 21 34 55
+```
+
+<v-click>
+
+- Tuple functions versus list functions?
+
+- Drawbacks of list-creation functions?
+
+</v-click>
+
+---
+
+# Using Generators, Tuples, and Lists
+
+-   Remember, each function produces the **same final output**!
+
+-   **Behavior** and **memory** use differs for each function type
+
+-   Understanding the properties of these approaches:
+
+    -   **Generator**: caller **pulls** values from the function
+
+    -   **Tuple**: function **pushes** values to the caller
+
+    -   **List**: function also **pushes** values to the caller
+
+-   If a computer's memory was constrained, what would be the **best**
+    approach?
+
+-   If a computer's memory was constrained, what would be the **worst**
+    approach?
+
+-   What are the **overall trade-offs** of using these approaches?
 
 ---
 
