@@ -455,7 +455,6 @@ def test_compute_square_iterative_for_loop():
 
 [//]: # (Slide End }}})
 
-
 ---
 
 # Defect Detection with Pylance
@@ -554,26 +553,25 @@ with zipfile.ZipFile(
 
 # Investigating Software Testing
 
-<div class = "mt-10">
-</div>
-
 <v-clicks>
 
--   Correct use of program components in Python programs:
+- Software testing can **accomplish** these **goals**:
 
-    -   **Q1**: What are the benefits of **recursive** functions?
+    - Find bugs in a Python program by running it
+    - Establish a confidence in a Python program's correctness
+    - Support confident refactoring of a Python program
 
-    -   **Q2**: What are the different ways to implement **Fibonacci**?
+-   Importance of software testing for Python programs:
 
-    -   **Q3**: What are the **trade-offs** of function choices?
+    -   **Q1**: What are the **benefits** of software testing?
 
-    -   **Q4**: What the benefits of using program **modules**?
+    -   **Q2**: What are the **limitations** of software testing?
 
-    -   **Q5**: How to external **packages** aid Python programmers?
+    -   **Q3**: What are the **trade-offs** associated with software testing?
 
--   Balance the **trade-offs** associated with different functions!
+    -   **Q4**: How do you write a test suite using **Pytest**?
 
--   Judiciously use **external** program modules when programming
+    -   **Q5**: How do you know when you are **finished** testing software?
 
 </v-clicks>
 
