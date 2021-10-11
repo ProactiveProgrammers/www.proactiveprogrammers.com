@@ -148,27 +148,84 @@ Design for testability ensures testing is possible
 
 <v-clicks>
 
--   Intuitively read the functions to grasp their behavior
+-   Python program must be in an **executable state**!
 
--   Key components of the Python functions
+-   Python source code must be **free** of **syntactical errors**
 
-    -   Definition of the function
+-   Python source code must be **free** of **static semantic errors**
 
-    -   Parameter(s) that serve as the input
+- Key insights about software testing in Python:
 
-    -   Body that performs a computation
+    - Purpose of testing is to show that **bugs exists**
 
-    -   Function return value(s) that produce output
+    - Testing **cannot prove** the **absence of defects**
 
-    -   Invocation of the function
+    - **Exhaustive testing** of trivial functions is **not possible**
 
-    -   Collecting the output of the function
+    - A **test suite** is a collection of useful program inputs
 
--   Investigate the ways to **define** and **call** Python functions!
+    - **Partition testing** divides the input space into groups
 
 </v-clicks>
 
 [//]: # (Slide End }}})
+
+---
+
+[//]: # (Slide Start {{{)
+
+<div class="flex row">
+
+<div class="text-7xl text-orange-600 font-bold mt-5 ml-4 mb-4">
+What are key strategies for software testing?
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+Keys: What is the focus? <em>and</em> What is the scope?
+</div>
+
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+Closed-box testing focuses on the specification
+</div>
+
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+Glass-box testing focuses on the source code
+</div>
+
+</div>
+
+</div>
+
+[//]: # (Slide End }}})
+
 
 ---
 
