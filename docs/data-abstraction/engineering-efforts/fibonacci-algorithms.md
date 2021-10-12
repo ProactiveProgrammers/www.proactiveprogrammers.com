@@ -78,9 +78,27 @@ Estimated execution time according to the simple timer:
 
 ```
 
+This output shows that, for instance, the zeroth Fibonacci number is `0`, the
+fifth Fibonacci number is `5`, and the tenth Fibonacci number is `55`. This
+program output also shows the amount of memory consumed by the `recursive`
+implementation of the Fibonacci calculation that stores the data in a `list`.
+Importantly, this output also shows that, since the program had to compute so
+few of the numbers in the Fibonacci sequence, it did so in an amount of time
+that was not measurable by the program's execution timer. It is worth noting
+that if you run the `fibonaccicreator` to request a different data container and
+algorithm combination with a command like `poetry run fibonaccicreator --number
+10 --approach iterativetuple --display` it should produce the same numbers in
+the Fibonacci sequence. With that said, remember that if you are running an
+experiment to evaluate the performance of `fibonaccicreator` when it computes a
+large Fibonacci number, you should not use the `--display` parameter since it
+will cause too much output to appear in your terminal window.
+
 Don't forget that you can display `fibonaccicreator`'s help menu and learn more
-about its features by typing `poetry run fibonaccicreator --help` to display the
-following:
+about its features by typing `poetry run fibonaccicreator --help` to show the
+following output. This help menu shows that `fibonaccicreator` also has a
+`--pyinstrument` flag that enables it to produce a web-based output that shows
+the function calls made by the `fibonaccicreator` and the performance results
+created by the [Pyinstrument](https://github.com/joerick/pyinstrument) package.
 
 ```
 Usage: fibonaccicreator [OPTIONS]
@@ -101,7 +119,7 @@ Options:
 
 Please note that the provided source code does not contain all of the
 functionality to produce the output displayed in this section. As explain in the
-next section, you are invited to add the features needed to ensure that
+next section, you should add the features needed to ensure that
 `fibonaccicreator` produces the expected output!
 
 ???+ note
