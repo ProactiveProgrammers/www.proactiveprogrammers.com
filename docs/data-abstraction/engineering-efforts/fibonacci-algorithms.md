@@ -137,12 +137,12 @@ section explains, you should add the features needed to ensure that
 If you study the file `fibonaccicreator/fibonaccicreator/main.py` you will see that it
 has many `TODO` markers that designate the parts of the program that you need to
 implement before `fibonaccicreator` will produce correct output. To ensure that the
-program works correctly, you must implement all of these functions before you
-start to run the experiments.
+program works correctly, you must implement all of these functions:
 
-- `def generate_random_container(size: int, maximum: int, make_tuple: bool = False) -> Union[List[int], Tuple[int, ...]]`
-- `def compute_fibonaccicreator_list_double(input_one: List[Any], input_two: List[Any]) -> List[Any]`
-- `def compute_fibonaccicreator_list_single(input_one: List[Any], input_two: List[Any]) -> List[Any]`
+- `def fibonacci_recursivelist(number: int) -> List[int]`
+- `def fibonacci_recursivetuple(number: int) -> Tuple[int, ...]`
+- `def fibonacci_iterativetuple(number: int) -> Tuple[int, ...]`
+- `def fibonacci_iterativelist(number: int) -> List[int]`
 
 After finishing your implementation of `fibonaccicreator` you should conduct an
 experiment to evaluate the efficiency of the different algorithms that it
@@ -151,10 +151,15 @@ about the experiment that you should conduct and how you must configure the
 `fibonaccicreator` program to collect data. Ultimately, you need to answer the
 following three research questions:
 
-- Is the fibonaccicreator of two data containers faster with a `list` or a `tuple`?
-- Is the fibonaccicreator of two data containers faster with a double or single `for` loop?
-- Overall, what is the fastest approach for computing the fibonaccicreator of two
-  data containers?
+- Is the `fibonaccicreator` faster when it uses the `recursive` or the
+  `iterative` method?
+- Is the `fibonaccicreator` faster when it stores data in a `list` or a `tuple`
+  data container?
+- Which configuration of the `fibonaccicreator` is the most memory efficient?
+- Overall, what is the fastest approach for computing and storing the Fibonacci
+  sequence?
+- Overall, are there modes of the `fibonaccicreator` that are less suitable for
+  Python?
 
 ## Running Checks
 
@@ -187,14 +192,16 @@ relevant instructions in the [technical
 skills](/proactive-skills/introduction-proactive-skills/) to enter into a Docker
 container and run the command `gradle grade` to check your work. If `gradle
 grade` shows that all checks pass, you will know that you made progress towards
-correctly implementing and writing about `fibonaccicreator`. If your program has all of
-the anticipated functionality, you can run the command `poetry run task test`
-and see that the test suite produces output like this:
+correctly implementing and writing about `fibonaccicreator`. If your program has
+all of the anticipated functionality, you can run the command `poetry run task
+test` and see that the test suite produces output like the following. It is
+worth noting that the name of the test suite is `test_fibonacci` because the
+functions mentioned in the previous section exist in the `fibonacci` module.
 
 ```
-collected 4 items
+collected 5 items
 
-tests/test_fibonaccicreator.py .......
+tests/test_fibonacci.py .....
 ```
 
 This project comes with other tasks that you can run once you have used Poetry
@@ -226,7 +233,11 @@ block, explain the meaning of the Python source code segments that you
 implemented, and answer all of the other questions about your experiences in
 completing this project. A specific goal of the reflection for this project is
 to evaluate the efficiency of the different algorithms and data containers
-implemented as part of the `fibonaccicreator` program.
+implemented as part of the `fibonaccicreator` program. In addition to explicitly
+answering the research questions, please make sure that you explain why the
+performance trends are evident in your data by referencing and explaining the
+source code that implements each of the algorithms implemented in the
+`fibonaccicreator`.
 
 ## Project Assessment
 
