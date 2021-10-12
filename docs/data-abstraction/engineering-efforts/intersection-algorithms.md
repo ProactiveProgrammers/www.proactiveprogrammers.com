@@ -42,7 +42,7 @@ this invocation of the `intersection` program configures it to run the
 intersection of the `list`s. Did you notice that this program produces profiling
 data about how long it took to run the `intersection` program with the
 `ListDouble` algorithm? This is because of the fact that it uses the
-[Pyinstrument](https://github.com/joerick/pyinstrument) program to collect
+[Pyinstrument](https://github.com/joerick/pyinstrument) package to collect
 execution traces and efficiency information about the program.
 
 ```
