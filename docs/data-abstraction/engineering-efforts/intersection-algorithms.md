@@ -111,8 +111,8 @@ Options:
 ```
 
 Please note that the provided source code does not contain all of the
-functionality to produce the output displayed in this section. As explain in the
-next section, you are invited to add the features needed to ensure that
+functionality to produce the output displayed in this section. As explained in
+the next section, you are invited to add the features needed to ensure that
 `intersection` produces the expected output!
 
 ???+ note
