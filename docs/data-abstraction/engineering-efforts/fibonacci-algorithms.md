@@ -144,43 +144,6 @@ start to run the experiments.
 - `def compute_fibonaccicreator_list_double(input_one: List[Any], input_two: List[Any]) -> List[Any]`
 - `def compute_fibonaccicreator_list_single(input_one: List[Any], input_two: List[Any]) -> List[Any]`
 
-The function called `generate_random_container` should automatically create
-either a `tuple` or a `list` of the specified `size` and only containing values
-that are less than or equal to the `maximum`. The function called
-`compute_fibonaccicreator_list_single` should follow the implementation strategy of
-its counterpart function called `compute_fibonaccicreator_tuple_single` while still
-using the functions appropriate for the `list` structured type. Moreover, the
-`compute_fibonaccicreator_list_double` should follow the implementation of
-`compute_fibonaccicreator_tuple_double` except for the fact that it should populate
-an `list` through the use of a doubly-nested `for` loop. As a reference, here is
-the source code for the `compute_fibonaccicreator_tuple_single` function:
-
-```python linenums="1"
-def compute_fibonaccicreator_tuple_single(
-    input_one: Tuple[Any, ...], input_two: Tuple[Any, ...]
-) -> Tuple[Any, ...]:
-    """Compute the fibonaccicreator of two provided tuples."""
-    result: Tuple[Any, ...] = ()
-    for element in input_one:
-        if element in input_two:
-            result += (element,)
-    return result
-```
-
-According to the type signature of this function on lines `1` and `2`, the
-`compute_fibonaccicreator_tuple_single` function accepts as input two `tuples` that
-can contain `Any` type of data and be of an arbitrary size. Lines `6` through
-`8` of this function show that it uses the combination of a `for` loop and an
-`if` statement to compute the fibonaccicreator of the `tuple`s called `input_one`
-and `input_two`. After finding those elements that these `tuple`s contain in
-common, `compute_fibonaccicreator_tuple_single` returns the `result` on line `9`.
-Since this function processes `tuple`s it is possible that the fibonaccicreator of
-the input parameters will be a `result` that contains a value more than once. It
-is also worth noting that, since the `tuple` structured type is immutable, this
-function uses the `+=` operator on line `8` to create a new `tuple` each time
-that it adds data to the `result` variable. You will empirically study the
-efficiency of this approach!
-
 After finishing your implementation of `fibonaccicreator` you should conduct an
 experiment to evaluate the efficiency of the different algorithms that it
 provides. You should refer to the `writing/reflection.md` file for more details
