@@ -53,10 +53,29 @@ This project invites you to implement a Python program, called
 `fibonaccicreator`, that features different ways to compute all of the numbers
 in the Fibonacci sequence up to a specified maximum number. After you finish a
 correct implementation of all the program's features, running it with the
-command `` will produce output like the following.
-
+command `poetry run fibonaccicreator --number 10 --approach recursivelist
+--display`, it will produce output like the following.
 
 ```
+🧳 Awesome, the chosen type of approach is the recursivelist!
+
+🧮 The program will compute up to the 10th Fibonacci number!
+
+✨ This is the output from the recursivelist function:
+
+[0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55]
+
+🤷 So, was this an efficient approach for storing the Fibonacci sequence?
+
+Estimated overall memory according to the operating system:
+   30.484375 megabytes
+
+Estimated peak memory according to the operating system:
+   38.78515625 megabytes
+
+Estimated execution time according to the simple timer:
+    0.00 seconds
+
 ```
 
 Don't forget that you can display `fibonaccicreator`'s help menu and learn more
