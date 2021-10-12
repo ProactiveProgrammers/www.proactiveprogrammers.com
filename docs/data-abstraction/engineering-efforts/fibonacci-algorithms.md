@@ -49,128 +49,79 @@ project!
 
 ## Expected Output
 
-This project invites you to implement a data container intersection problem
-called `intersection`. After you finish a correct implementation of all the
-program's features, running it with the command `poetry run intersection
---number 10000 --maximum 25 --profile --approach ListDouble` will produce output
-like the following. This output shows that it took approximately `2.210` seconds
-to compute the intersection of two `list`s that each contain `10,000` randomly
-generated values with the maximum value in each `list` being `25`. Importantly,
-this invocation of the `intersection` program configures it to run the
-`ListDouble` algorithm that uses a doubly-nested `for` loop to compute the
-intersection of the `list`s. Did you notice that this program produces profiling
-data about how long it took to run the `intersection` program with the
-`ListDouble` algorithm? This is because of the fact that it uses the
-[Pyinstrument](https://github.com/joerick/pyinstrument) program to collect
-execution traces and efficiency information about the program.
+This project invites you to implement a Python program, called
+`fibonaccicreator`, that features different ways to compute all of the numbers
+in the Fibonacci sequence up to a specified maximum number. After you finish a
+correct implementation of all the program's features, running it with the
+command `` will produce output like the following.
+
 
 ```
-🔬 Here's profiling data from computing an intersection with random data
-containers of 10000!
-
-  _     ._   __/__   _ _  _  _ _/_   Recorded: 14:01:19  Samples:  2207
- /_//_/// /_\ / //_// / //_'/ //     Duration: 2.211     CPU time: 2.203
-/   _/                      v4.0.3
-
-Program: intersection --number 10000 --maximum 25 --profile --approach ListDouble
-
-2.210 intersection  intersection/main.py:99
-└─ 2.210 compute_intersection_list_double  intersection/main.py:53
-   ├─ 2.051 [self]
-   └─ 0.159 list.append  <built-in>:0
-         [2 frames hidden]  <built-in>
 ```
 
-It is worth noting that you do not have to run `intersection` in the `profile`
-mode that uses Pyinstrument. For instance, running the program with `poetry run
-intersection --number 10 --maximum 25 --display --approach ListDouble` would run
-the program with the `ListDouble` algorithm and perform the same computation
-without collecting the performance data. When run with this command,
-`intersection` would produce output like the following. Note that when the
-program is run with the `--display` flag and without the `--profile` flag it
-shows the two input data containers and their computed intersection &mdash;
-without reporting any details about the efficiency of the algorithm. This mode
-is ideal when you want to confirm that your implementation of `intersection` is
-perform the correct computation and less useful when you are running experiments
-to study the program's performance.
-
-```
-✨ Here are the details about the intersection computation!
-
-Performed intersection with:
----> the first data container: [22, 10, 21, 11, 2, 7, 4, 16, 22, 23]
----> the second data container: [16, 17, 23, 24, 12, 4, 21, 1, 18, 19]
-Computed the intersection as the data container: [21, 4, 16, 23]
-```
-
-Don't forget that you can display `intersection`'s help menu and learn more
-about its features by typing `poetry run intersection --help` to display the
+Don't forget that you can display `fibonaccicreator`'s help menu and learn more
+about its features by typing `poetry run fibonaccicreator --help` to display the
 following:
 
 ```
-Usage: intersection [OPTIONS]
+Usage: fibonaccicreator [OPTIONS]
 
-  Compute the intersection of data containers.
+  Create the list of Fibonacci values in a specified approach.
 
 Options:
-  --number INTEGER                [default: 5]
-  --maximum INTEGER               [default: 25]
-  --profile / --no-profile        [default: False]
-  --display / --no-display        [default: False]
-  --approach [ListSingle|TupleSingle|ListDouble|TupleDouble]
-                                  [default: TupleSingle]
-  --install-completion            Install completion for the current
-                                  shell.
+  --approach TEXT       [required]
+  --number INTEGER      [required]
+  --display             [default: False]
+  --pyinstrument        [default: False]
+  --install-completion  Install completion for the current shell.
+  --show-completion     Show completion for the current shell, to copy it
+                        or customize the installation.
 
-  --show-completion               Show completion for the current shell,
-                                  to copy it or customize the
-                                  installation.
-
-  --help                          Show this message and exit.
+  --help                Show this message and exit.
 ```
 
 Please note that the provided source code does not contain all of the
 functionality to produce the output displayed in this section. As explain in the
 next section, you are invited to add the features needed to ensure that
-`intersection` produces the expected output!
+`fibonaccicreator` produces the expected output!
 
 ???+ note
 
-    Don't forget that if you want to run the `intersection` program you must use
+    Don't forget that if you want to run the `fibonaccicreator` program you must use
     your terminal window to first go into the GitHub repository containing this
-    project and then go into the `intersection` directory that contains the
+    project and then go into the `fibonaccicreator` directory that contains the
     project's source code. Finally, remember that before running the program you
     must run `poetry install` to add its dependencies, such as Pyinstrument,
     Pytest, and Rich.
 
 ## Adding Functionality
 
-If you study the file `intersection/intersection/main.py` you will see that it
+If you study the file `fibonaccicreator/fibonaccicreator/main.py` you will see that it
 has many `TODO` markers that designate the parts of the program that you need to
-implement before `intersection` will produce correct output. To ensure that the
+implement before `fibonaccicreator` will produce correct output. To ensure that the
 program works correctly, you must implement all of these functions before you
 start to run the experiments.
 
 - `def generate_random_container(size: int, maximum: int, make_tuple: bool = False) -> Union[List[int], Tuple[int, ...]]`
-- `def compute_intersection_list_double(input_one: List[Any], input_two: List[Any]) -> List[Any]`
-- `def compute_intersection_list_single(input_one: List[Any], input_two: List[Any]) -> List[Any]`
+- `def compute_fibonaccicreator_list_double(input_one: List[Any], input_two: List[Any]) -> List[Any]`
+- `def compute_fibonaccicreator_list_single(input_one: List[Any], input_two: List[Any]) -> List[Any]`
 
 The function called `generate_random_container` should automatically create
 either a `tuple` or a `list` of the specified `size` and only containing values
 that are less than or equal to the `maximum`. The function called
-`compute_intersection_list_single` should follow the implementation strategy of
-its counterpart function called `compute_intersection_tuple_single` while still
+`compute_fibonaccicreator_list_single` should follow the implementation strategy of
+its counterpart function called `compute_fibonaccicreator_tuple_single` while still
 using the functions appropriate for the `list` structured type. Moreover, the
-`compute_intersection_list_double` should follow the implementation of
-`compute_intersection_tuple_double` except for the fact that it should populate
+`compute_fibonaccicreator_list_double` should follow the implementation of
+`compute_fibonaccicreator_tuple_double` except for the fact that it should populate
 an `list` through the use of a doubly-nested `for` loop. As a reference, here is
-the source code for the `compute_intersection_tuple_single` function:
+the source code for the `compute_fibonaccicreator_tuple_single` function:
 
 ```python linenums="1"
-def compute_intersection_tuple_single(
+def compute_fibonaccicreator_tuple_single(
     input_one: Tuple[Any, ...], input_two: Tuple[Any, ...]
 ) -> Tuple[Any, ...]:
-    """Compute the intersection of two provided tuples."""
+    """Compute the fibonaccicreator of two provided tuples."""
     result: Tuple[Any, ...] = ()
     for element in input_one:
         if element in input_two:
@@ -179,29 +130,29 @@ def compute_intersection_tuple_single(
 ```
 
 According to the type signature of this function on lines `1` and `2`, the
-`compute_intersection_tuple_single` function accepts as input two `tuples` that
+`compute_fibonaccicreator_tuple_single` function accepts as input two `tuples` that
 can contain `Any` type of data and be of an arbitrary size. Lines `6` through
 `8` of this function show that it uses the combination of a `for` loop and an
-`if` statement to compute the intersection of the `tuple`s called `input_one`
+`if` statement to compute the fibonaccicreator of the `tuple`s called `input_one`
 and `input_two`. After finding those elements that these `tuple`s contain in
-common, `compute_intersection_tuple_single` returns the `result` on line `9`.
-Since this function processes `tuple`s it is possible that the intersection of
+common, `compute_fibonaccicreator_tuple_single` returns the `result` on line `9`.
+Since this function processes `tuple`s it is possible that the fibonaccicreator of
 the input parameters will be a `result` that contains a value more than once. It
 is also worth noting that, since the `tuple` structured type is immutable, this
 function uses the `+=` operator on line `8` to create a new `tuple` each time
 that it adds data to the `result` variable. You will empirically study the
 efficiency of this approach!
 
-After finishing your implementation of `intersection` you should conduct an
+After finishing your implementation of `fibonaccicreator` you should conduct an
 experiment to evaluate the efficiency of the different algorithms that it
 provides. You should refer to the `writing/reflection.md` file for more details
 about the experiment that you should conduct and how you must configure the
-`intersection` program to collect data. Ultimately, you need to answer the
+`fibonaccicreator` program to collect data. Ultimately, you need to answer the
 following three research questions:
 
-- Is the intersection of two data containers faster with a `list` or a `tuple`?
-- Is the intersection of two data containers faster with a double or single `for` loop?
-- Overall, what is the fastest approach for computing the intersection of two
+- Is the fibonaccicreator of two data containers faster with a `list` or a `tuple`?
+- Is the fibonaccicreator of two data containers faster with a double or single `for` loop?
+- Overall, what is the fastest approach for computing the fibonaccicreator of two
   data containers?
 
 ## Running Checks
@@ -211,11 +162,11 @@ it includes the following section that specifies different executable tasks:
 
 ```toml
 [tool.taskipy.tasks]
-black = { cmd = "black intersection tests --check", help = "Run the black checks for source code format" }
-flake8 = { cmd = "flake8 intersection tests", help = "Run the flake8 checks for source code documentation" }
-mypy = { cmd = "poetry run mypy intersection", help = "Run the mypy type checker for potential type errors" }
-pydocstyle = { cmd = "pydocstyle intersection tests", help = "Run the pydocstyle checks for source code documentation" }
-pylint = { cmd = "pylint intersection tests", help = "Run the pylint checks for source code documentation" }
+black = { cmd = "black fibonaccicreator tests --check", help = "Run the black checks for source code format" }
+flake8 = { cmd = "flake8 fibonaccicreator tests", help = "Run the flake8 checks for source code documentation" }
+mypy = { cmd = "poetry run mypy fibonaccicreator", help = "Run the mypy type checker for potential type errors" }
+pydocstyle = { cmd = "pydocstyle fibonaccicreator tests", help = "Run the pydocstyle checks for source code documentation" }
+pylint = { cmd = "pylint fibonaccicreator tests", help = "Run the pylint checks for source code documentation" }
 test = { cmd = "pytest -x -s", help = "Run the pytest test suite" }
 test-silent = { cmd = "pytest -x --show-capture=no", help = "Run the pytest test suite without showing output" }
 all = "task black && task flake8 && task pydocstyle && task pylint && task mypy && task test"
@@ -227,7 +178,7 @@ automatically run all of the linters designed to check the Python source code in
 your program and its test suite. You can also use the command `poetry run task
 black` to confirm that your source code adheres to the industry-standard format
 defined by the `black` tool. If it does not adhere to the standard then you can
-run the command `poetry run black intersection tests` and it will automatically
+run the command `poetry run black fibonaccicreator tests` and it will automatically
 reformat the source code.
 
 Along with running tasks like `poetry run task lint`, you can leverage the
@@ -235,14 +186,14 @@ relevant instructions in the [technical
 skills](/proactive-skills/introduction-proactive-skills/) to enter into a Docker
 container and run the command `gradle grade` to check your work. If `gradle
 grade` shows that all checks pass, you will know that you made progress towards
-correctly implementing and writing about `intersection`. If your program has all of
+correctly implementing and writing about `fibonaccicreator`. If your program has all of
 the anticipated functionality, you can run the command `poetry run task test`
 and see that the test suite produces output like this:
 
 ```
 collected 4 items
 
-tests/test_intersection.py .......
+tests/test_fibonaccicreator.py .......
 ```
 
 This project comes with other tasks that you can run once you have used Poetry
@@ -274,7 +225,7 @@ block, explain the meaning of the Python source code segments that you
 implemented, and answer all of the other questions about your experiences in
 completing this project. A specific goal of the reflection for this project is
 to evaluate the efficiency of the different algorithms and data containers
-implemented as part of the `intersection` program.
+implemented as part of the `fibonaccicreator` program.
 
 ## Project Assessment
 
