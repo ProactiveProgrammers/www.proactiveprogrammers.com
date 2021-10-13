@@ -134,10 +134,13 @@ section explains, you should add the features needed to ensure that
 
 ## Adding Functionality
 
-If you study the file `fibonaccicreator/fibonaccicreator/main.py` you will see that it
-has many `TODO` markers that designate the parts of the program that you need to
-implement before `fibonaccicreator` will produce correct output. To ensure that the
-program works correctly, you must implement all of these functions:
+If you study the file `fibonaccicreator/fibonaccicreator/main.py` you will see
+that it has many `TODO` markers that designate the parts of the program that you
+need to implement before `fibonaccicreator` will produce correct output. Once
+you complete a task associated with a `TODO` marker, make sure that you delete
+it and revise the prompt associated with the marker into a meaningful comment.
+To ensure that the program works correctly, you must implement all of these
+functions in the `fibonacci` module:
 
 - `def fibonacci_recursivelist(number: int) -> List[int]`
 - `def fibonacci_recursivetuple(number: int) -> Tuple[int, ...]`
@@ -233,11 +236,15 @@ block, explain the meaning of the Python source code segments that you
 implemented, and answer all of the other questions about your experiences in
 completing this project. A specific goal of the reflection for this project is
 to evaluate the efficiency of the different algorithms and data containers
-implemented as part of the `fibonaccicreator` program. In addition to explicitly
-answering the research questions, please make sure that you explain why the
-performance trends are evident in your data by referencing and explaining the
-source code that implements each of the algorithms implemented in the
-`fibonaccicreator`.
+implemented as part of the `fibonaccicreator` program.
+
+In addition to explicitly answering the research questions, please make sure
+that you explain why the performance trends are evident in your data by
+referencing and explaining the source code that implements each of the
+algorithms implemented in the `fibonaccicreator`. Once you have finished
+addressing the prompts in the `writing/reflection.md` file that have `TODO`
+makers given as reminders, make sure that you either delete the prompt or
+carefully integrate a revised version of it into your writing.
 
 ## Project Assessment
 
