@@ -57,13 +57,13 @@ the `dataanalysis` program must summarize:
 
 As this example indicates, the numbers in this file are either strings, that
 should be interpreted as a date, or a floating-point value, that is a recording
-of a population estimate of humans in Crawford County. After you have studied
-and understood the structure of this file's contents, you are ready to install
-the project's dependencies with the command `poetry install` and then run it
-with the command `poetry run dataanalysis --data-file input/data.txt`. After you
-running the program you can use its output and the data visualization available
-from the Federal Reserve Bank of St. Louis to better understand the population
-trends for Crawford County.
+of a population estimate of people living in Crawford County. After you have
+studied and understood the structure of this file's contents, you are ready to
+install the project's dependencies with the command `poetry install` and then
+run it with the command `poetry run dataanalysis --data-file input/data.txt`.
+After you running the program you can use its output and the data visualization
+available from the Federal Reserve Bank of St. Louis to better understand the
+population trends for Crawford County.
 
 ```
 📦 The data file contains 50 data values in it!
