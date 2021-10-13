@@ -56,10 +56,14 @@ summarize:
 ```
 
 As this example indicates, the numbers in this file are either strings, that
-should be interpreted as a data or a floating-point value. After you have
-studied and understood the contents of this file, you are ready to install the
-project's dependencies with the command `poetry install` and then run it with
-the command `poetry run dataanalysis --data-file input/data.txt`.
+should be interpreted as a date, or a floating-point value, that is a recording
+of a population estimate of humans in Crawford County. After you have studied
+and understood the structure of this file's contents, you are ready to install
+the project's dependencies with the command `poetry install` and then run it
+with the command `poetry run dataanalysis --data-file input/data.txt`. After you
+running the program you can use its output and the data visualization available
+from the Federal Reserve Bank of St. Louis to better understand the population
+trends for Crawford County.
 
 ```
 📦 The data file contains 50 data values in it!
@@ -81,8 +85,8 @@ the command `poetry run dataanalysis --data-file input/data.txt`.
 
     Don't forget that if you want to run the `dataanalysis` you must use your
     terminal to first go into the GitHub repository containing this project and
-    then go into the `dataanalysis` directory that contains the project's
-    code. Finally, remember that before running the program you must run `poetry
+    then go into the `dataanalysis` directory that contains the project's code.
+    Finally, remember that before running the program you must run `poetry
     install` to add the dependencies.
 
 ## Adding Functionality
