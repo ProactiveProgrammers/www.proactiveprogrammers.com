@@ -238,9 +238,9 @@ completing this project. A specific goal of the reflection for this project is
 to evaluate the efficiency of the different algorithms and data containers
 implemented as part of the `fibonaccicreator` program.
 
-In addition to explicitly answering the research questions, please make sure
-that you explain why the performance trends are evident in your data by
-referencing and explaining the source code that implements each of the
+In addition to explicitly answering the aforementioned research questions,
+please make sure that you explain why the performance trends are evident in your
+data by referencing and explaining the source code that implements each of the
 algorithms implemented in the `fibonaccicreator`. Once you have finished
 addressing the prompts in the `writing/reflection.md` file that have `TODO`
 makers given as reminders, make sure that you either delete the prompt or
