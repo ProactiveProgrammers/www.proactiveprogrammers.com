@@ -35,11 +35,11 @@ meaning of the data in this file. To accomplish this task, you should examine
 the discussion of this data set, including its visualization from 1970 until
 2019, from the [Residential Population in Crawford County,
 PA](https://fred.stlouisfed.org/series/PACRAW0POP) from the [Federal Reserve
-Bank of St. Louis](https://fred.stlouisfed.org/). The idea of this program is
-that it should summarize the population data for Crawford County, the county in
-which Allegheny College is located. Here is an excerpt from the `input/data.txt`
-file that contains the floating-point values that the `dataanalysis` must
-summarize:
+Bank of St. Louis](https://fred.stlouisfed.org/). The main goal for this program
+is that it should summarize the population data for Crawford County, the county
+in which Allegheny College is located. Here is an excerpt from the
+`input/data.txt` file that contains the floating-point values that the
+`dataanalysis` must summarize:
 
 ```
 1970-01-01,81.342
