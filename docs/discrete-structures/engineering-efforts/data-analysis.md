@@ -192,7 +192,10 @@ instance, you should provide the output of the Python program in a fenced code
 block, explain the meaning of the Python source code segments that you
 implemented, and answer all of the other questions about your experiences in
 completing this project. The reflection's objective is to invite you to explain
-the Python functions for data summarization and transformation.
+the Python functions for data summarization and transformation. As part of this
+project's reflection you should also consider what technical skills taught in
+the field of computer science will continue to be the most relevant in the
+future.
 
 ## Project Assessment
 
