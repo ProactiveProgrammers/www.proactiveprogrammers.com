@@ -91,49 +91,41 @@ trends for Crawford County.
 
 ## Adding Functionality
 
-If you study the file `dataanalysis/dataanalysis/main.py` you will see that
-it has many `TODO` markers that designate the parts of the program that you need
-to implement before `dataanalysis` will produce correct output. If you run the
+If you study the file `dataanalysis/dataanalysis/main.py` you will see that it
+has many `TODO` markers that designate the parts of the program that you need to
+implement before `dataanalysis` will produce the correct output. If you run the
 provided test suite with the command `poetry run task test` or you try to run
 the program with the command `poetry run dataanalysis --data-file
 input/data.txt` you will see an error message in your terminal window. This is
 due to the fact that there are key parts of this program that are missing! In
-addition to implementing the program's main functions you also need to correctly
-`import` the correct modules and objects, like `typer`.
+addition to implementing the program's `main` function you also need to
+correctly `import` the correct modules and objects, like `typer`. Along with
+adding command-line features to the `main` function in the `main` module, you
+need to provide an implementation of the following functions:
 
-Since the `dataanalysis` program takes as input textual values from an input
-file, you will need to implement a data transformation function that can take as
-input a string that contains a numerical value on each line and returns a list
-of floating-point values suitable for input into a mathematical computation. For
-your reference, here is the signature of the `transform_string_to_number_list`
-function:
+- `def compute_mean(numbers: List[float]) -> float`
+- `def compute_median(numbers: List[float]) -> float`
+- `def compute_difference(numbers: List[float]) -> List[float]`
+- `def compute_variance(numbers: List[float]) -> float`
+- `def compute_standard_deviation(numbers: List[float]) -> float`
 
-`def transform_string_to_number_list(data_text: str) -> List[float]`
-
-You program also needs to contain a data summarization function that can take as
-input a list of floating-point values and then return a single floating-point
-value that corresponds to the arithmetic mean of the values in the list. As you
-are implementing this function, please ensure that your function can handle
-without crashing an empty list of numerical values, returning a "not a number"
-(i.e., `NaN`) designator in this situation. Here is the signature of the
-`compute_mean` function that you must implement:
-
-`def compute_mean(numbers: List[float]) -> float`
-
-In summary, you must follow all of the instructions next to the `TODO` markers
-in the provided source code to implement a program that can correctly compute
-the arithmetic mean of the provided data values in the
-`dataanalysis/input/data.txt` file. In addition to ensuring that your program
-is adequately documented, has the correct industry-standard format, and adheres
-to the industry best practices Python programming, you must implement functions
+It is worth noting that, when appropriate, one of the aforementioned functions
+can call another function. For instance, the `compute_standard_deviation` can
+call the `compute_variance`, thereby reusing its code and avoiding unnecessary
+code duplication. In summary, you must follow all of the instructions next to
+the `TODO` markers in the provided source code to implement a program that can
+correctly compute the arithmetic mean of the provided data values in the
+`dataanalysis/input/data.txt` file. In addition to ensuring that your program is
+adequately documented, has the correct industry-standard format, and adheres to
+the industry best practices Python programming, you must implement functions
 that pass a provided Pytest test suite.
 
 If you look in the files called `test_transform.py` and `test_summarize.py` you
 will find the test suites for the `transform` and `summarize` modules. As you
-complete your implementation of `dataanalysis` you should run these tests, as
-explained in the next subsection, to confirm that your program's functions are
-working correctly. Ultimately, it is important for both your program to produce
-the correct output and the test suite to pass!
+complete your implementation of `dataanalysis` you should repeatedly run these
+tests, as explained in the next subsection, to confirm that your program's
+functions are working correctly. Your program should both produce the correct
+output and the pass the test suite!
 
 ## Running Checks
 
@@ -175,9 +167,9 @@ which should pass so as to establish a confidence in the correctness of the
 program.
 
 ```
-collected 6 items
+collected 13 items
 
-tests/test_summarize.py ....
+tests/test_summarize.py ...........
 tests/test_transform.py ..
 ```
 
