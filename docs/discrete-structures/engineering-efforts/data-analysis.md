@@ -63,7 +63,9 @@ install the project's dependencies with the command `poetry install` and then
 run it with the command `poetry run dataanalysis --data-file input/data.txt`.
 After you running the program you can use its output and the data visualization
 available from the Federal Reserve Bank of St. Louis to better understand the
-population trends for Crawford County.
+population trends for Crawford County. Finally, it is worth noting that the
+numerical output from the `dataanalysis` program contains four properly indented
+floating-point values that are always rounded to two decimal places.
 
 ```
 📦 The data file contains 50 data values in it!
