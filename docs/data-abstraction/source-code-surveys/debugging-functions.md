@@ -35,44 +35,38 @@ project!
 
 If you change into the `source` directory of your GitHub repository, you will
 see two Python files called `perform-primality-check.py` and
-`perform-abs-computation.py`. You can run the `perform-primality-check.py`
-program by typing `python perform-primality-check.py` in your terminal
-window. This program currently has several `TODO` markers asking you to add
-source code from the text book to provide an implementation of a function with
-the following signature: `def compute_intersection(tuple_one: Tuple[Any, ...],
-tuple_two: Tuple[Any, ...]) -> Tuple[Any, ...]`. Once you have added all of the
-required source code your program should produce the following output. Can you
-explain why different calls to `compute_intersection` yield an output that
-contains the same elements but in a different order?
+`perform-abs-computation.py`. The `perform-primality-check` module contains a
+defective function with the signature `def is_prime(x: int) -> bool`. Your task
+is to identify and fix the defects inside of this function! To aid your
+debugging efforts, you should use and extend the `def test_is_prime() -> None`
+function that should subject the `is_prime` function to several tests. The first
+test in the `test_is_prime` is implemented in the following fashion:
 
+```python linenums="1"
+def test_is_prime() -> None:
+    """Implement test cases for the is_prime function."""
+    input_zero = 0
+    expected_output_zero = False
+    output_zero = is_prime(input_zero)
+    if output_zero is not expected_output_zero:
+        print("Expected output not correct for input of zero!")
+    else:
+        print("Expected output correct for input of zero!")
 ```
-The first tuple: (1, 'a', 2)
-The second tuple: ('b', 2, 'a')
 
-The first intersection tuple: ('a', 2)
-The second intersection tuple: (2, 'a')
-```
-
-The second program in the `source` directory is called `perform-abs-computation`.
-Again, this program has several `TODO` markers that invite you to add source
-code from the text book to finish the implementation of the function with the
-signature `def apply_to_each(values: List[int], function: Callable) -> None`.
-After you have added the required source code your program should produce the
-following output. One interesting aspect of the `apply_to_each` function is that
-it does not return any values, as indicated by the return type annotation of
-`None`. If the function does not return a value, then how can it modify the
-`values` input parameter of type `List[int]` as shown in the output? Finally,
-you will note that `apply_to_each` accepts a `function` parameter of type
-`Callable`, making it a higher-order function. What are the benefits of using
-high-order functions in Python programs? How does `apply_to_each` use the
-`function` parameter?
-
-```
-Values before transformations: [1, -2, 3.33]
-Values after applying abs: [1, 2, 3.33]
-Values after applying int: [1, 2, 3]
-Values after applying squaring: [1, 4, 9]
-```
+In the first part of this function, line `3` indicates that the test will input
+the value of `0` to the `is_prime` function and line `4` shows that the expected
+output of `is_prime` for this input is `False` because `0` is not a prime
+number. Line `5` of this function calls the `is_prime` function with the
+previously constructed input and then lines `6` through `9` provide some
+diagnostic output that explains whether or not the output was correct.
+Specifically, if the actual output from the function is not equal to the
+expected output, then line `7` displays a message indicating that the output is
+not correct. When the expected output is equal to `is_prime`'s actual output,
+then line `9` displays a message revealing that the function works correctly.
+Even though this test does not use a specific test automation framework it
+illustrates the key steps that a test case should take to both find defects and
+establish a confident in the correctness of `is_prime`.
 
 ## Running Checks
 
