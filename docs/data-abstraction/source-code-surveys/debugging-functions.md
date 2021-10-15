@@ -3,18 +3,21 @@
 ## Project Goals
 
 This assignment invites you to run and observe two Python programs called
-`compute-tuple-intersection` and `perform-apply-to-each`. Instead of using the
+`perform-primality-check` and `perform-abs-computation`. Instead of using the
 [Poetry](https://python-poetry.org/) tool for managing dependencies and
 packaging these programs, which the [technical
 skills](/proactive-skills/introduction-proactive-skills/) advise as a best
 practice, these programs are scripts, without any dependencies on other Python
 packages, that you can run through the Python interpreter. As you continue to
 practice a different way to run a Python program, this project offers you the
-opportunity to improve your understanding of how to compute the intersection (or
-elements in common) between two tuples that can contain an arbitrary number of
-values each of an arbitrary type. You will also learn more about high-order
-functions as you implement a program that can apply an arbitrary function to the
-contents of an arbitrary length list of `int` values.
+opportunity to improve your understanding of how to debug and test Python
+functions that have a defect inside of them. Specifically, you will write test
+cases that (i) create an input for a function, (ii) pass that input to the
+function under test, (iii) capture the output of the function under test, and
+(iv) assert that the captured function output equals the expected output if the
+function was implemented correctly. Instead of using a test automation framework
+to run these tests you will organize them into functions in the same module as
+the function under test.
 
 ## Project Access
 
@@ -31,9 +34,9 @@ project!
 ## Code Survey
 
 If you change into the `source` directory of your GitHub repository, you will
-see two Python files called `compute-tuple-intersection.py` and
-`perform-apply-to-each.py`. You can run the `compute-tuple-intersection.py`
-program by typing `python compute-tuple-intersection.py` in your terminal
+see two Python files called `perform-primality-check.py` and
+`perform-abs-computation.py`. You can run the `perform-primality-check.py`
+program by typing `python perform-primality-check.py` in your terminal
 window. This program currently has several `TODO` markers asking you to add
 source code from the text book to provide an implementation of a function with
 the following signature: `def compute_intersection(tuple_one: Tuple[Any, ...],
@@ -50,7 +53,7 @@ The first intersection tuple: ('a', 2)
 The second intersection tuple: (2, 'a')
 ```
 
-The second program in the `source` directory is called `perform-apply-to-each`.
+The second program in the `source` directory is called `perform-abs-computation`.
 Again, this program has several `TODO` markers that invite you to add source
 code from the text book to finish the implementation of the function with the
 signature `def apply_to_each(values: List[int], function: Callable) -> None`.
