@@ -335,7 +335,7 @@ for value in fibonacci_generator(10):
 
 # Output from a Generator Function
 
-```
+```python
 print(fibonacci_generator)
 
     <function fibonacci_generator
@@ -382,7 +382,7 @@ for fibonacci_value in fibonacci_tuple(10):
 
 # Output from a Tuple Function in Python
 
-```
+```python
 print(fibonacci_tuple)
 
   <function fibonacci_tuple
@@ -430,7 +430,7 @@ for fibonacci_value in fibonacci_list(10):
 
 # Output from a List Function in Python
 
-```
+```python
 print(fibonacci_list)
 
   <function fibonacci_list at 0x7fd1abf2c040>
@@ -562,7 +562,7 @@ for value in integers(10):
 
 # Output of an Endless Stream Program
 
-```
+```python
 441027
 441028
 441029
