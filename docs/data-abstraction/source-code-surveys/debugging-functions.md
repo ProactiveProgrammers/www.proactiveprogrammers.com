@@ -66,7 +66,21 @@ not correct. When the expected output is equal to `is_prime`'s actual output,
 then line `9` displays a message revealing that the function works correctly.
 Even though this test does not use a specific test automation framework it
 illustrates the key steps that a test case should take to both find defects and
-establish a confident in the correctness of `is_prime`.
+establish a confidence in the correctness of `is_prime`.
+
+After adding more test cases to the `perform-primality-check` module, you should
+follow the same process when you debug and test the `abs` function in the
+`perform-abs-computation` module. Ultimately, you should ensure that both of the
+defective functions no longer have defects inside of them! For instance, when
+the test cases for the `is_prime` function are passing correctly they should
+produce the following output:
+
+```
+Expected output correct for input of zero!
+Expected output correct for input of one!
+Expected output correct for input of two!
+Expected output correct for input of forty-one!
+```
 
 ## Running Checks
 
