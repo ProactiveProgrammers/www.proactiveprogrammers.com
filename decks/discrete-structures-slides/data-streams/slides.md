@@ -536,6 +536,52 @@ Different approaches can produce same sequence
 
 ---
 
+# Endless Streams in Python Programs
+
+```python {all}
+def integers(n: int) -> int:
+    while True:
+        yield n
+        n += 1
+
+for value in integers(10):
+    print(value)
+```
+
+<div class="mt-8">
+
+- What is the purpose of this function?
+
+- What is the output of this program?
+
+- Does this function ever stop running?
+
+</div>
+
+---
+
+# Output of an Endless Stream Program
+
+```
+441027
+441028
+441029
+441030
+^C441031
+Traceback (most recent call last):
+  File "endless-stream.py", line 7,
+  in <module> print(value)
+KeyboardInterrupt
+```
+
+<div class="mt-10">
+
+## You can use <code>ctrl-c</code> to stop a program that runs infinitely!
+
+</div>
+
+---
+
 # Using Streams in Python Programs
 
 <v-clicks>
