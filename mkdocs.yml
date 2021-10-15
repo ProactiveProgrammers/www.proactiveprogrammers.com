@@ -212,6 +212,7 @@ nav:
     - Source Code Surveys:
       - Numerical Data: data-abstraction/source-code-surveys/numerical-data.md
       - Structured Types: data-abstraction/source-code-surveys/structured-types.md
+      - Debugging Functions: data-abstraction/source-code-surveys/debugging-functions.md
     - Programming Projects:
       - Number Comparison: data-abstraction/programming-projects/number-comparison.md
       - Square Root: data-abstraction/programming-projects/square-root.md
