@@ -112,8 +112,11 @@ editor to answer all of the questions in the `writing/reflection.md` file. Since
 this is a source code survey, you should provide output from running each of the
 provided Python programs on your own laptop and then explain how the program's
 source code produced that output. A specific goal for this project is for you to
-improve and document the source code of a function that indexes a tuple in order
-to swap its contents.
+understand each line of source code needed to implement a simplified version of
+the `map` and `reduce` functions. You should also think carefully about the
+steps that you would need to take to implement a distributed and/or parallel
+computation that uses `map` and `reduce` to improve the efficiency of a
+program.
 
 ## Project Assessment
 
