@@ -57,12 +57,19 @@ else:
 return test_case_passed
 ```
 
-
-establish a confidence in the correctness of `remove_duplicates`.
-
- For instance, when
-the test cases for the `remove_duplicates` function are passing correctly they should
-produce the following output:
+Lines `1` and `2` of this function create two lists, called `list_one` and
+`list_two`, that have in common the values `1` and `2`. Lines `3` and `4` of
+this function indicate that, if the `remove_duplicates` function worked
+correctly, then its output should be a tuple container the lists `[3, 4]` and
+`[5, 6]`. After making the assumption that the test case will pass on line `5`,
+the function calls `remove_duplicates` and checks to see if the expected output
+equals the actual output returned by the function. If the expected output is
+correct, then line `8` displays a message indicating that is the case.
+Otherwise, lines `10` through `13` signal that the test did not pass and display
+diagnostic output to highlight that for the tester. Ultimately, if this test
+case passes correctly it will help to establish a confidence in the correctness
+of `remove_duplicates`. When the test case for the `remove_duplicates` function
+passes, then it should produce the following output:
 
 ```
 Expected output correct for input lists: [1, 2, 3, 4] and [1, 2, 5, 6]
