@@ -66,10 +66,11 @@ the function calls `remove_duplicates` and checks to see if the expected output
 equals the actual output returned by the function. If the expected output is
 correct, then line `8` displays a message indicating that is the case.
 Otherwise, lines `10` through `13` signal that the test did not pass and display
-diagnostic output to highlight that for the tester. Ultimately, if this test
-case passes correctly it will help to establish a confidence in the correctness
-of `remove_duplicates`. When the test case for the `remove_duplicates` function
-passes, then it should produce the following output:
+diagnostic output to highlight this fact for the tester. Ultimately, if this
+test case passes correctly it will help to establish a confidence in the
+correctness of `remove_duplicates`. When the test case for the
+`remove_duplicates` function passes, then it should produce the following
+output:
 
 ```
 Expected output correct for input lists: [1, 2, 3, 4] and [1, 2, 5, 6]
