@@ -189,7 +189,7 @@ What are key strategies for software testing?
 <mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
 
 <div class="text-3xl font-bold mt-10 ml-4">
-Keys: What is the focus? <em>and</em> What is the scope?
+Keys: What is the focus? <b>and</b> What is the scope?
 </div>
 
 </div>
@@ -422,7 +422,6 @@ def test_compute_square_for_loop_negative():
 
 Where is the **assertion** for these test cases?
 
-What are the **inputs** and **outputs** of the test case?
 
 </v-click>
 
@@ -513,6 +512,8 @@ Assertions: checks that the output is as expected
 
 ---
 
+[//]: # (Slide Start {{{)
+
 # Defect Detection with Pylance
 
 ```python {all|1-3|4|5-8|9-10|all}
@@ -535,11 +536,15 @@ def create_results_zip_file(
 
 </v-click>
 
+[//]: # (Slide End }}})
+
 ---
+
+[//]: # (Slide Start {{{)
 
 <v-click>
 
-## Pyright Feedback in VS Code
+## Pylance Feedback in VS Code
 
 <style>
   h2 {
@@ -602,6 +607,92 @@ with zipfile.ZipFile(
 </div>
 
 </v-click>
+
+[//]: # (Slide End }}})
+
+---
+
+[//]: # (Slide Start {{{)
+
+<div class="flex row">
+
+<div class="text-7xl text-orange-600 font-bold mt-5 ml-4 mb-4">
+What are the trade-offs of static analysis?
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+Does not require the execution of the program
+</div>
+
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+Integrate with widely used text editors like VS Code
+</div>
+
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+Can surface false positives and false negatives
+</div>
+
+</div>
+
+</div>
+
+[//]: # (Slide End }}})
+---
+
+[//]: # (Slide Start {{{)
+
+# Debugging Complex Software
+
+<v-clicks>
+
+- Complex software fails in complex and confusing ways! 😬
+
+- Once the program fails we need to find and fix the fault
+
+- A fault manifests itself in a failure through the stages of:
+
+    - **Execute**: a test case must execute the fault
+    - **Infect**: the fault must change the value of a variable
+    - **Propagate**: the incorrect value must appear in output
+
+- Faults (or "bugs" or "defects") often take different forms:
+
+    - **Overt**: has an obvious manifestation
+    - **Covert**: has no obvious manifestation
+    - **Persistent**: occurs every time the program runs with same input
+    - **Transient**: occurs only some of the time when program runs with the same input
+
+</v-clicks>
+
+[//]: # (Slide End }}})
 
 ---
 
