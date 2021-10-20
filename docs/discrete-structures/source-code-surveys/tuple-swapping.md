@@ -62,7 +62,7 @@ instructions in the [technical
 skills](/proactive-skills/introduction-proactive-skills/) to enter into a Docker
 container and run the command `gradle grade` to check your work. If `gradle
 grade` shows that all checks pass, you will know that you made progress towards
-correctly implementing and writing about this project's two programs.
+correctly implementing and writing about this project's program.
 
 ## Project Reflection
 
