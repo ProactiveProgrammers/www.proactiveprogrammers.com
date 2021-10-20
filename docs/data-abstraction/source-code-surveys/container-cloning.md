@@ -94,10 +94,10 @@ editor to answer all of the questions in the `writing/reflection.md` file. Since
 this is a source code survey, you should provide output from running each of the
 provided Python programs on your own laptop and then explain how the program's
 source code produced that output. A specific goal for this project is to ensure
-that you can explain each defect that you found in the function and how the test
-cases that you implemented helped you to find it. You should also reflect on how
-the tests that you created as part of this source code survey are similar to and
-different from the ones you might create with a framework like
+that you can explain the defects that you found in the function and identify all
+of the key components of a test case. You should also reflect on how the tests
+that you created as part of this source code survey are similar to and different
+from the ones you might create with a framework like
 [Pytest](https://docs.pytest.org/).
 
 ## Project Assessment
