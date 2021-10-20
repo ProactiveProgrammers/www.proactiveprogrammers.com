@@ -31,52 +31,42 @@ project!
 ## Code Survey
 
 If you change into the `source` directory of your GitHub repository, you will
-see one Python file called `perform-container-cloning.py` and
-`perform-abs-computation.py`. The `perform-container-cloning` module contains a
-defective function with the signature `def is_prime(x: int) -> bool`. Your task
-is to identify and fix the defects inside of this function! To aid your
-debugging efforts, you should use and extend the `def test_is_prime() -> None`
-function that should subject the `is_prime` function to several tests. The first
-test in the `test_is_prime` is implemented in the following fashion:
+see one Python file called `perform-container-cloning.py`. The
+`perform-container-cloning` module contains a defective function with the
+signature `def remove_duplicates(list_one: List[Any], list_two: List[Any]) ->
+Tuple[List[Any], List[Any]]`. Your task is to identify and fix the defects
+inside of this function! To aid your debugging efforts, you should use and
+extend the `def test_remove_duplicates() -> bool` function that should subject
+the `remove_duplicates` function to several tests. The test called
+`test_remove_duplicates` is implemented in the following fashion:
 
 ```python linenums="1"
-def test_is_prime() -> None:
-    """Implement test cases for the is_prime function."""
-    input_zero = 0
-    expected_output_zero = False
-    output_zero = is_prime(input_zero)
-    if output_zero is not expected_output_zero:
-        print("Expected output not correct for input of zero!")
-    else:
-        print("Expected output correct for input of zero!")
+list_one = [1, 2, 3, 4]
+list_two = [1, 2, 5, 6]
+expected_list_one = [3, 4]
+expected_list_two = [5, 6]
+test_case_passed = True
+(actual_list_one, actual_list_two) = remove_duplicates(list_one, list_two)
+if expected_list_one == actual_list_one and expected_list_two == actual_list_two:
+    print("Expected output correct for input lists: [1, 2, 3, 4] and [1, 2, 5, 6]")
+else:
+    print("Expected output not correct for input lists: [1, 2, 3, 4] and [1, 2, 5, 6]")
+    print(f"   actual_list_one: {actual_list_one}")
+    print(f"   actual_list_two: {actual_list_two}")
+    test_case_passed = False
+return test_case_passed
 ```
 
-In the first part of this function, line `3` indicates that the test will input
-the value of `0` to the `is_prime` function and line `4` shows that the expected
-output of `is_prime` for this input is `False` because `0` is not a prime
-number. Line `5` of this function calls the `is_prime` function with the
-previously constructed input and then lines `6` through `9` provide some
-diagnostic output that explains whether or not the output was correct.
-Specifically, if the actual output from the function is not equal to the
-expected output, then line `7` displays a message indicating that the output is
-not correct. When the expected output is equal to `is_prime`'s actual output,
-then line `9` displays a message revealing that the function works correctly.
-Even though this test does not use a specific test automation framework it
-illustrates the key steps that a test case should take to both find defects and
-establish a confidence in the correctness of `is_prime`.
 
-After adding more test cases to the `perform-container-cloning` module, you should
-follow the same process when you debug and test the `abs` function in the
-`perform-abs-computation` module. Ultimately, you should ensure that both of the
-defective functions no longer have defects inside of them! For instance, when
-the test cases for the `is_prime` function are passing correctly they should
+establish a confidence in the correctness of `remove_duplicates`.
+
+ For instance, when
+the test cases for the `remove_duplicates` function are passing correctly they should
 produce the following output:
 
 ```
-Expected output correct for input of zero!
-Expected output correct for input of one!
-Expected output correct for input of two!
-Expected output correct for input of forty-one!
+Expected output correct for input lists: [1, 2, 3, 4] and [1, 2, 5, 6]
+The test case passed!
 ```
 
 ## Running Checks
