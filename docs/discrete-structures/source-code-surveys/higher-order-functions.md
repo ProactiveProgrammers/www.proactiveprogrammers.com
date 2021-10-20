@@ -1,17 +1,18 @@
-# Higher-order Functions
+# Higher-Order Functions
 
 ## Project Goals
 
-This assignment invites you to run and observe one Python program called
-`perform-ordered-pair-swap`. Instead of using the
-[Poetry](https://python-poetry.org/) tool for managing dependencies and
-packaging these programs, which the [technical
-skills](/proactive-skills/introduction-proactive-skills/) advise as a best
-practice, this program is a script, without any dependencies on other Python
-packages, that you can run through the Python interpreter. As you continue to
-practice a different way to run a Python program, this project invites you to
-explore how to (i) find and fix defects in a function and (ii) create and use
-fixed-size tuples that can contain arbitrary types of data.
+This assignment invites you to run and observe two Python programs stored in
+files called `demonstrate-map-function.py` and `demonstrate-reduce-function.py`.
+Both of these programs demonstrate the use of higher-order functions that can
+accept as input a callable function and then use that function to perform a
+computation. Specifically, the `demonstrate-map-function.py` illustrates the use
+of a `map(f, sequence)` function that applies the function `f` to a list of data
+values called `sequence`. The `demonstrate-reduce-function.py` shows the use of
+a `reduce(f, sequence, initial)` function that starts at an `initial` value and
+then applies a function `f` to all of the values in `sequence` and returns a
+result. As you run these two programs and study their output you will explore an
+alternative approach to programming, called functional programming.
 
 ## Project Access
 
@@ -28,11 +29,11 @@ project!
 ## Code Survey
 
 If you change into the `source` directory of your GitHub repository, you will
-see a Python program called `perform-ordered-pair-swap.py`. Your goal for this
+see a Python program called `demonstrate-map-function.py`. Your goal for this
 project is to find and fix the defects in the function with the signature `def
 ordered_pair_swap(pair_one: Tuple[Any, Any], pair_two: Tuple[Any, Any]) ->
 Tuple[Tuple[Any, Any], Tuple[Any, Any]]`. When you run the command `python
-perform-ordered-pair-swap.py` after correcting the program's defects, it should
+demonstrate-map-function.py` after correcting the program's defects, it should
 produce the following output:
 
 ```
