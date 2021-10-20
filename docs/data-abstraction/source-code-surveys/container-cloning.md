@@ -3,21 +3,18 @@
 ## Project Goals
 
 This assignment invites you to study, repair, and test a Python programs called
-`perform-container-cloning` and `perform-abs-computation`. Instead of using the
-[Poetry](https://python-poetry.org/) tool for managing dependencies and
-packaging these programs, which the [technical
-skills](/proactive-skills/introduction-proactive-skills/) advise as a best
-practice, these programs are scripts, without any dependencies on other Python
-packages, that you can run through the Python interpreter. As you continue to
-practice a different way to run a Python program, this project offers you the
-opportunity to improve your understanding of how to debug and test Python
-functions that have a defect inside of them. Specifically, you will write test
-cases that (i) create an input for a function, (ii) pass that input to the
-function under test, (iii) capture the output of the function under test, and
-(iv) assert that the captured function output equals the expected output if the
-function was implemented correctly. Instead of using a test automation framework
-to run these tests you will organize them into functions in the same module as
-the function under test.
+`perform-container-cloning`. Specifically, it affords you to opportunity to
+continue to practice the task of debugging and testing a Python function that
+has defects inside of it. After learning more about how containers are cloned in
+a Python program and why this is needed when a program iterates through a
+collection while changing it at the same time, you will find a fix the fault in
+the provided source code. Once you have fixed the defect, you will document a
+provided test case that (i) creates an input for a function, (ii) passes that
+input to the function under test, (iii) captures the output of the function
+under test, and (iv) asserts that the captured function output equals the
+expected output if the function was implemented correctly. Instead of using a
+test automation framework to run the provided test you will run a function to
+complete the aforementioned steps.
 
 ## Project Access
 
