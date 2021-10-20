@@ -47,7 +47,7 @@ following source code that calls the `map` function to produce the
 aforementioned output. Line `1` of this code creates a tuple called `values`
 that contains five numbers and line `2` calls the `map` function by providing it
 `square` and the `values`. After you have correctly implemented the `map` and
-square functions the two `print` statements on lines `3` and `4` will produce
+`square` functions the two `print` statements on lines `3` and `4` will produce
 the first two lines of output. As shown in the output, the next source code
 segment in `demonstrate-map-function.py` performs the same operation while using
 `range(10)` instead of the specific numbers in the `values` tuple.
@@ -57,6 +57,41 @@ values = (2, 3, 5, 7, 11)
 squared = map(square, values)
 print("Squaring all of the numbers in the values tuple")
 print("   " + str(squared))
+```
+
+You should also notice that the `source` directory of your GitHub repository
+contains a Python program called `demonstrate-map-function.py`. Your goal for
+this project is to implement a `reduce` higher-order function and both a `plus`
+and a `multiply` function that perform arithmetic on two input numbers and can
+serve as the input to the `map` function. When you run the command `python
+` after adding the required source code to the
+program, it should produce the following output:
+
+```
+Adding all of the numbers together with a reduce function
+   15
+Multiplying all of the numbers together with a reduce function
+   120
+```
+
+It is worth noting that the `demonstrate-reduce-function.py` should contain the
+following source code that calls the `reduce` function to produce the
+aforementioned output. Line `1` of this code creates a list called `numbers`
+that contains five numbers and line `2` calls the `reduce` function by providing
+it `plus` and the `numbers` list. After you have correctly implemented the
+`reduce` and `plus` functions the two `print` statements on lines `3` and `4`
+will produce the first two lines of output. As shown in the output, the next
+source code segment in `demonstrate-reduce-function.py` performs a similar
+computation while calling `reduce(multiply, numbers, 1)` instead of
+`reduce(plus, numbers, 0)`. Can you explain why it is sensible to call specify
+that the `initial` parameter for `reduce` should be `1` instead of `0` when
+using the `multiply` function instead of `plus`?
+
+```python linenums="1"
+numbers = [1, 2, 3, 4, 5]
+added_numbers = reduce(plus, numbers, 0)
+print("Adding all of the numbers together with a reduce function")
+print("   " + str(added_numbers))
 ```
 
 ## Running Checks
