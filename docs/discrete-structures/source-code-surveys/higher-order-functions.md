@@ -30,29 +30,34 @@ project!
 
 If you change into the `source` directory of your GitHub repository, you will
 see a Python program called `demonstrate-map-function.py`. Your goal for this
-project is to find and fix the defects in the function with the signature `def
-ordered_pair_swap(pair_one: Tuple[Any, Any], pair_two: Tuple[Any, Any]) ->
-Tuple[Tuple[Any, Any], Tuple[Any, Any]]`. When you run the command `python
-demonstrate-map-function.py` after correcting the program's defects, it should
-produce the following output:
+project is to implement both a `map` higher-order function and a `square`
+function that can serve as the input to the `map` function. When you run the
+command `python demonstrate-map-function.py` after adding the required source
+code to the program, it should produce the following output:
 
 ```
-Original tuple of ordered pairs: (('A', 1), ('B', 2))
-Swapped tuple of ordered pairs: ((2, 'B'), (1, 'A'))
-Swapped (again) tuple of ordered pairs: (('A', 1), ('B', 2))
+Squaring all of the numbers in the values tuple
+   (4, 9, 25, 49, 121)
+Squaring all of the numbers output by range(10)
+   (0, 1, 4, 9, 16, 25, 36, 49, 64, 81)
 ```
 
-It is worth noting that the `ordered_pair_swap` function performs two types of
-swapping. It first swaps the values inside of each of the ordered pairs, as
-evidenced in the first and second lines of the output, where the first tuple is
-input as `('A', 1)` and output as `(1, 'A')`. The second type of swap performed
-by the function involves outputting the second tuple first and the first tuple
-second, which the second output line illustrating with `((2, 'B'), (1, 'A'))`
-for an input of `(('A', 1), ('B', 2))`. The final line of the program output
-also illustrates that the tuple swapping process is reversible since the
-function can accept as input `((2, 'B'), (1, 'A'))` and produce as output
-`(('A', 1), ('B', 2))` &mdash; which is the original tuple that started this the
-tuple swapping process!
+It is worth noting that the `demonstrate-map-function.py` should contain the
+following source code that calls the `map` function to produce the
+aforementioned output. Line `1` of this code creates a tuple called `values`
+that contains five numbers and line `2` calls the `map` function by providing it
+`square` and the `values`. After you have correctly implemented the `map` and
+square functions the two `print` statements on lines `3` and `4` will produce
+the first two lines of output. As shown in the output, the next source code
+segment in `demonstrate-map-function.py` performs the same operation while using
+`range(10)` instead of the specific numbers in the `values` tuple.
+
+```python linenums="1"
+values = (2, 3, 5, 7, 11)
+squared = map(square, values)
+print("Squaring all of the numbers in the values tuple")
+print("   " + str(squared))
+```
 
 ## Running Checks
 
