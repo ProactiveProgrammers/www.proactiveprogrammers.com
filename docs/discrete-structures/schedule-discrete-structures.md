@@ -179,7 +179,7 @@
 
 - Chapter 8 of *Programming and Mathematical Thinking*
 - Chapter 5 of *Doing Math with Python*
-- Check out the [course slides](/slides/discrete-structures/data-streams/) for a detailed investigation of these chapters!
+- Check out the [course slides](/slides/discrete-structures/set-foundations/) for a detailed investigation of these chapters!
 
 ???+ note "Technical Concepts"
 
