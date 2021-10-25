@@ -169,6 +169,31 @@
     - **Defensive Programming**: creating software to ensure that defects are
       overt and persistent
 
+## Object-Oriented Programming
+
+### Technical Question
+
+- How can I use the principles and primitives of object-oriented programming to
+  implement Python programs with top-notch and easy-to-understand designs?
+- Check out the [course slides](/slides/data-abstraction/object-oriented-programming/) for a detailed investigation of these chapters!
+
+### Reading Assignments
+
+- Chapters 9 and 10 of *Introduction to Computation and Programming Using Python*
+
+???+ note "Technical Concepts"
+
+    - **Exception**: something that does not conform to the normal expectation
+      for program behavior
+    - **Unhanded Exception**: an exception that is raised that causes the
+      program to stop running
+    - **Try-Except Block**: key building block for exception handling in the
+      Python pogramming language
+    - **Inheritance**: mechanism for building groups of related abstractions
+      that establishes a parent-child relationship
+    - **Information Hiding**: the client of a class should only rely on the
+      public methods of the class
+
 ## Learning Opportunities
 
 Interested in learning more about any of the topics on this schedule? If you
