@@ -285,7 +285,7 @@ Let's call <code>get_ratios</code> without exception handling!
 
 [//]: # (Slide Begin {{{)
 
-# Use Exception Handling Program ♻
+# Use Exception Handling Program 🤦
 
 <div class="-ml-0">
 
@@ -314,7 +314,7 @@ Why does program <b>crash</b> when no <code>try</code> and a <code>except</code>
 
 [//]: # (Slide End }}})
 
----
+<!--
 
 [//]: # (Slide Start {{{)
 
@@ -343,3 +343,5 @@ Why does program <b>crash</b> when no <code>try</code> and a <code>except</code>
 </v-clicks>
 
 [//]: # (Slide End }}})
+
+-->
