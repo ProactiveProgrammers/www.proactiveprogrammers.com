@@ -6,6 +6,7 @@
     "python-functions",
     "data-containers",
     "using-monoids",
-    "data-streams"
+    "data-streams",
+    "set-foundations"
   ]
 }
