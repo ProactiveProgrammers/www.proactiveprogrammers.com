@@ -49,8 +49,8 @@ info: |
 
 ## Key Question
 
-> How can I use the processes of software testing and debugging to establish a
-> confidence in the correctness of a Python program?
+> How can I use the principles and primitives of object-oriented programming to
+> implement Python programs with easy-to-understand designs?
 
 </div>
 
@@ -60,10 +60,9 @@ info: |
 
 ## Learning Objectives
 
-> To **remember** and **understand** the principles of software testing and
-> debugging so as to implement test suites, using Pytest, for programs that find
-> bugs and establish a confidence in correctness.
-
+> To **remember** and **understand** the principles of object-oriented
+> programming and the exception handling features provided by Python
+> to implement high-quality programs.
 
 </div>
 
@@ -74,7 +73,7 @@ info: |
 <uim-rocket class="text-5xl ml-8 mt-5 text-blue-600" />
 
 <div class="text-3xl font-bold mt-8 ml-4">
-Let's explore the practice of software testing!
+Let's explore the practice of object-oriented programming!
 </div>
 
 </div>
