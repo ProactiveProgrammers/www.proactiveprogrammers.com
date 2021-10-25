@@ -188,7 +188,7 @@
     - **Hashing**: using the value of an object to compute its location in a
       structure
     - **Subset**: a set that does not contain some elements of another set
-    - **Finite Set**: set that does not have a fixed number of elements in it
+    - **Infinite Set**: set that does not have a fixed number of elements in it
 
 ## Learning Opportunities
 
