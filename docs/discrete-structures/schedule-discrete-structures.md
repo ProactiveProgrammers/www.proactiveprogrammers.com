@@ -203,3 +203,9 @@ source code surveys, programming projects, and engineering efforts!
     - **Data Streams**
         - **Start**: October 11, 2021
         - **End**: October 15, 2021
+    - **Mid-Term Examination Review**
+        - **Start**: October 18, 2021
+        - **End**: October 22, 2021
+    - **Sets**
+        - **Start**: October 25, 2021
+        - **End**: October 29, 2021
