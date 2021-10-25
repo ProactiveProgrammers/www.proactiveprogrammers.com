@@ -185,7 +185,7 @@
 
     - **Exception**: something that does not conform to the normal expectation
       for program behavior
-    - **Unhanded Exception**: an exception that is raised that causes the
+    - **Unhandled Exception**: an exception that is raised that causes the
       program to stop running
     - **Try-Except Block**: key building block for exception handling in the
       Python pogramming language
