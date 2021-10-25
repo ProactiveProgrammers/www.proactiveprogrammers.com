@@ -168,6 +168,28 @@
     - **Distributed Processing**: Computations on separate computers communicate
       to solve a large computation
 
+## Sets
+
+### Technical Question
+
+- How do I use the mathematical concepts of sets and Boolean logic to design
+  Python programs that are easier to implement and understand?
+
+### Reading Assignments
+
+- Chapter 8 of *Programming and Mathematical Thinking*
+- Chapter 5 of *Doing Math with Python*
+- Check out the [course slides](/slides/discrete-structures/data-streams/) for a detailed investigation of these chapters!
+
+???+ note "Technical Concepts"
+
+    - **Set**: collection of objects or entities
+    - **Empty Set**: a set that does not contain any elements in it
+    - **Hashing**: using the value of an object to compute its location in a
+      structure
+    - **Subset**: a set that does not contain some elements of another set
+    - **Finite Set**: set that does not have a fixed number of elements in it
+
 ## Learning Opportunities
 
 Interested in learning more about any of the topics on this schedule? If you
