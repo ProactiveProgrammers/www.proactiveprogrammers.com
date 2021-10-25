@@ -113,7 +113,7 @@ Let's investigate the set structure!
 # Creating a Set from a List
 
 ```python
-# creat a set out of a list
+# create a set out of a list
 x = set(['pencil', 'paper', 'pen',
          'pencil', 'wallet', 'pen'])
 
