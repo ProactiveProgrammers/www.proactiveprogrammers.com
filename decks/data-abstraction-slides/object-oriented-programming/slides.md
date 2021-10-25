@@ -143,27 +143,27 @@ Use does not match programmer expectations!
 
 [//]: # (Slide Start {{{)
 
-# Software Testing in Python
+# Exception Handling in Python
 
 <v-clicks>
 
--   Python program must be in an **executable state**!
+- Program implementation may not match its actual use
 
--   Python source code must be **free** of **syntactical errors**
+- Exception handling provides elegant way handle problems
 
--   Python source code must be **free** of **static semantic errors**
+- `try` and `except` are basic building blocks
 
-- Key insights about software testing in Python:
+- Python allows to you try running "risky code" and then handle problems:
 
-    - Purpose of testing is to show that **bugs exists**
+    - `try` block contains code that may throw an exception
 
-    - Testing **cannot prove** the **absence of defects**
+    - `except` block handles case when a specific exception arises
 
-    - **Exhaustive testing** of trivial functions is **not possible**
+    - It is possible to have one or more `except` blocks overall
 
-    - A **test suite** is a collection of useful program inputs
+- What should the program do when the exception is caught?
 
-    - **Partition testing** divides the input space into groups
+- Well, it depends on the type of the exception and what happened!
 
 </v-clicks>
 
