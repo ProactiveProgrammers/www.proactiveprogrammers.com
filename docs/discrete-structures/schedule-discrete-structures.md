@@ -168,7 +168,7 @@
     - **Distributed Processing**: Computations on separate computers communicate
       to solve a large computation
 
-## Sets
+## Set Foundations
 
 ### Technical Question
 
