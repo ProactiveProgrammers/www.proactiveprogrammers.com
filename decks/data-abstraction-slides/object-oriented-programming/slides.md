@@ -73,7 +73,7 @@ info: |
 <uim-rocket class="text-5xl ml-8 mt-5 text-blue-600" />
 
 <div class="text-3xl font-bold mt-8 ml-4">
-Let's explore the practice of object-oriented programming!
+Let's explore object-oriented programming!
 </div>
 
 </div>
@@ -90,7 +90,7 @@ Let's explore the practice of object-oriented programming!
 <div class="flex row">
 
 <div class="text-7xl text-orange-600 font-bold mt-5 ml-4 mb-4">
-What are foundations of testing and debugging?
+What can go wrong when using a program?
 </div>
 
 </div>
@@ -99,24 +99,10 @@ What are foundations of testing and debugging?
 
 <div class="flex row">
 
-<mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
+<mdi-alert-circle class="text-6xl ml-8 mt-6 text-blue-600" />
 
 <div class="text-3xl font-bold mt-10 ml-4">
-Testing: run a program to try to see if it works
-</div>
-
-</div>
-
-</div>
-
-<div v-click>
-
-<div class="flex row">
-
-<mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
-
-<div class="text-3xl font-bold mt-10 ml-4">
-Debugging: fix a program that is currently broken
+Division by zero or index out of range
 </div>
 
 </div>
@@ -127,10 +113,24 @@ Debugging: fix a program that is currently broken
 
 <div class="flex row">
 
-<mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
+<mdi-alert-circle class="text-6xl ml-8 mt-6 text-blue-600" />
 
 <div class="text-3xl font-bold mt-10 ml-4">
-Design for testability ensures testing is possible
+Networking error or file system problems
+</div>
+
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<mdi-alert-circle class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+Use does not match programmer expectations!
 </div>
 
 </div>
