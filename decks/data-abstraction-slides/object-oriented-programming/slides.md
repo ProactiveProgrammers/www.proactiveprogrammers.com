@@ -194,12 +194,42 @@ def get_ratios(one: List, two: List) -> List[float]:
 
 </div>
 
+[//]: # (Slide End }}})
+
+---
+
+[//]: # (Slide Begin {{{)
+
+# Use Function with Exception Handling
+
+<div class="-ml-5">
+
+```python {all|1-2|1,3|1,4|1,5|6-7|all}
+try:
+    print(get_ratios([1, 2, 7, 6], [1, 2, 0, 3]))
+    print(get_ratios([], []))
+    print(get_ratios([1, 2, 7], [1, 2, 10, 3]))
+    print(get_ratios([1, 2, 7, 6], [1, 2, 10]))
+except ValueError as message:
+    print(message)
+```
+
+</div>
+
 <br>
 
 <v-clicks>
 
 <p class = "bold">
-What are the <b>expected outputs</b> for this function?
+What is the <b>output</b> from running these function calls?
+</p>
+
+<p class = "bold">
+Why do certain <b>inputs</b> cause an exception to be thrown?
+</p>
+
+<p class = "bold">
+What is there <b>was not</b> a <code>try</code> and a <code>except</code> ?
 </p>
 
 </v-clicks>
