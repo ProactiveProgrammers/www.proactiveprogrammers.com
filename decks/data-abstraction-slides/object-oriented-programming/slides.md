@@ -238,6 +238,84 @@ What is there <b>was not</b> a <code>try</code> and a <code>except</code> ?
 
 ---
 
+[//]: # (Slide Begin {{{)
+
+# Use Exception Handling Program
+
+```shell {all|1|2|3|4|all}
+[1.0, 1.0, nan, 2.0]
+[]
+[1.0, 1.0, 0.7]
+Incorrect arguments
+```
+
+<v-clicks>
+
+<p class = "bold">
+Which exception handling blocks produced this <b>output</b>?
+</p>
+
+<p class = "bold">
+Was any of this output produced <b>without</b> exception handling?
+</p>
+
+<p class = "bold">
+Why no <b>crash</b> when using <code>try</code> and a <code>except</code> block?
+</p>
+
+<p class = "bold">
+What happens if call function <b>without</b> <code>try</code> and  <code>except</code> ?
+</p>
+
+<div class="flex row">
+
+<mdi-alert-octagon class="text-5xl ml-6 mt-2 text-blue-600"/>
+
+<div class="text-3xl font-bold mt-4 ml-4">
+Let's call <code>get_ratios</code> without exception handling!
+</div>
+
+</div>
+
+</v-clicks>
+
+[//]: # (Slide End }}})
+
+---
+
+[//]: # (Slide Begin {{{)
+
+# Use Exception Handling Program ♻
+
+<div class="-ml-0">
+
+```shell {all|1|3-4|5|6-7|8-9|10|all}
+print(get_ratios([1, 2, 7], [1, 2, 10, 3]))
+
+During handling of the above exception,
+  another exception occurred:
+Traceback (most recent call last):
+File "get-ratios-exceptions.py", line 24
+  print(get_ratios([1, 2, 7, 6], [1, 2, 10]))
+File "get-ratios-exceptions.py", line 11
+  raise ValueError("Incorrect arguments")
+ValueError: Incorrect arguments
+```
+
+</div>
+
+<v-clicks>
+
+<p class = "bold">
+Why does program <b>crash</b> when no <code>try</code> and a <code>except</code> block?
+</p>
+
+</v-clicks>
+
+[//]: # (Slide End }}})
+
+---
+
 [//]: # (Slide Start {{{)
 
 # Investigating Software Testing
