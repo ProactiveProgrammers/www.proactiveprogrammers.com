@@ -398,3 +398,80 @@ print(a | b | c | d)
 - What do you think is the output of the `print` statements?
 
 </v-click>
+
+---
+
+# Using the Set Intersection Operator
+
+<v-click>
+
+```python
+a = {1, 2, 3, 4}
+b = {2, 3, 4, 5}
+c = {3, 4, 5, 6}
+d = {4, 5, 6, 7}
+print(a.intersection(b, c, d))
+print(a & b & c & d)
+```
+
+</v-click>
+
+<v-click>
+
+- Sets in Python provide useful operations like `intersection` !
+
+- The `intersection` method is invoked for a specific set `a`
+
+- The `intersection` method accepts multiple sets like `b` and `c`
+
+- What do you think is the output of the `print` statements?
+
+</v-click>
+
+---
+
+# Using the Set Difference Operator
+
+<v-click>
+
+```python
+a = {1, 2, 3, 4}
+b = {2, 3, 4, 5}
+c = {3, 4, 5, 6}
+d = {4, 5, 6, 7}
+print(a.difference(b, c))
+print(a - b - c)
+```
+
+</v-click>
+
+<v-click>
+
+- Sets in Python provide useful operations like `difference` !
+
+- The `difference` method is invoked for a specific set `a`
+
+- The `difference` method accepts multiple sets like `b` and `c`
+
+- What do you think is the output of the `print` statements?
+
+</v-click>
+
+---
+
+# Output of the Set Operators in Python
+
+```
+Union of the sets:
+  {1, 2, 3, 4, 5, 6, 7}
+  {1, 2, 3, 4, 5, 6, 7}
+
+Intersection of the sets:
+  {4}
+  {4}
+
+Difference of the sets:
+  {1}
+  {1}
+```
+
