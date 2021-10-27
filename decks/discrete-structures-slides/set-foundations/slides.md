@@ -230,9 +230,13 @@ TypeError: unhashable type: 'list'
 
 </div>
 
+<v-click>
+
 - Explicit construction of the set crashes due to `list`
 
 - How is this different than using `set` constructor function?
+
+</v-click>
 
 ---
 
@@ -369,3 +373,28 @@ Sets have practical limitations due to constraints
 </div>
 
 [//]: # (Slide End }}})
+
+---
+
+# Using the Set Union Operator in Python
+
+```python
+a = {1, 2, 3, 4}
+b = {2, 3, 4, 5}
+c = {3, 4, 5, 6}
+d = {4, 5, 6, 7}
+print(a.union(b, c, d))
+print(a | b | c | d)
+```
+
+<v-click>
+
+- Sets in Python provide useful operations like `union` !
+
+- The `union` method is invoked for a specific set `a`
+
+- The `union` method accepts multiple sets like `b` and `c`
+
+- What do you think is the output of the `print` statements?
+
+</v-click>
