@@ -582,3 +582,112 @@ print(list(even_positives))
 - How is this different than the `odd_positives` comprehension?
 
 </v-click>
+
+---
+
+# Boolean Logic and Sets: Logical Or
+
+```python
+odd_positives_two =
+        {n for n in range(20)
+         if n % 2 == 1 or n == 2}
+
+for value in odd_positives_two:
+    print(value)
+
+print(list(odd_positives_two))
+```
+
+<v-click>
+
+<div class="mt-10">
+
+- Logical `or` is `True` when either clause is `True`
+
+- What outputs will the `print` statements produce?
+
+</div>
+
+</v-click>
+
+---
+
+# Program Output from Use of Logical Or
+
+```
+1
+2
+3
+5
+<...>
+19
+
+[1, 2, 3, 5, 7, 9, 11, 13, 15, 17, 19]
+```
+
+<v-click>
+
+<div class="mt-10">
+
+- Note that the use of `<...>` elides extra output that could not fit on slide
+
+- Why is the `print` output format differently for same set comprehension?
+
+</div>
+
+</v-click>
+
+---
+
+# Boolean Logic and Sets: Logical And
+
+```python
+even_positives_by_four =
+     {n for n in range(20)
+      if n % 2 == 0 and n % 4 == 0}
+
+for value in even_positives_by_four:
+    print(value)
+
+print(list(even_positives_by_four))
+```
+
+<v-click>
+
+<div class="mt-10">
+
+- Logical `and` is `True` when both clauses are `True`
+
+- What outputs will the `print` statements produce?
+
+</div>
+
+</v-click>
+
+---
+
+# Program Output From Logical And
+
+```
+0
+4
+8
+12
+16
+
+[0, 4, 8, 12, 16]
+```
+
+<v-click>
+
+<div class="mt-8">
+
+- Both of the conditions must be true for the logical `and` operator!
+
+- Why do different approaches with `print` make different output?
+
+- How are logical `and` and `or` similar and different?
+
+</div>
+
+</v-click>
