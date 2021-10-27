@@ -314,11 +314,67 @@ Why does program <b>crash</b> when no <code>try</code> and a <code>except</code>
 
 [//]: # (Slide End }}})
 
-<!--
+---
 
 [//]: # (Slide Start {{{)
 
-# Investigating Software Testing
+<div class="flex row">
+
+<div class="text-7xl text-orange-600 font-bold mt-5 ml-4 mb-4">
+What are the benefits of exception handling?
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<mdi-check-circle class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+Principled way to to avoid crashes
+</div>
+
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<mdi-check-circle class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+Explicitly handles error conditions
+</div>
+
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<mdi-check-circle class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+Useful flow of control mechanism
+</div>
+
+</div>
+
+</div>
+
+[//]: # (Slide End }}})
+
+---
+
+[//]: # (Slide Start {{{)
+
+# Object-Oriented Programming
 
 <v-clicks>
 
@@ -343,5 +399,3 @@ Why does program <b>crash</b> when no <code>try</code> and a <code>except</code>
 </v-clicks>
 
 [//]: # (Slide End }}})
-
--->
