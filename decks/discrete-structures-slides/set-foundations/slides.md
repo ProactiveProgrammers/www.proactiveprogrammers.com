@@ -691,3 +691,29 @@ print(list(even_positives_by_four))
 </div>
 
 </v-click>
+
+---
+
+# Using Sets in Python Programs
+
+<v-clicks>
+
+-   Sets are a discrete structure with many **practical benefits**!
+
+-   Sets have **built-in operations** that make programming easy
+
+-   Using **sets** and **Boolean logic** in Python programs:
+
+    -   **Q1**: What are the characteristics of a set?
+
+    -   **Q2**: What are the built-in operations provided by a set?
+
+    -   **Q3**: How can you connect sets in math and programming?
+
+    -   **Q4**: How does Boolean logic help us describe a set?
+
+    -   **Q5**: How does the `sympy` package support set programming?
+
+-   Refer to <https://realpython.com/python-sets/> for more details about sets!
+
+</v-clicks>
