@@ -475,3 +475,110 @@ Difference of the sets:
   {1}
 ```
 
+---
+
+[//]: # (Slide Start {{{)
+
+<div class="flex row">
+
+<div class="text-7xl text-orange-600 font-bold mt-5 ml-4 mb-4">
+What do we know about set operations?
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+Operations are part of the default implementation
+</div>
+
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+Intersection finds what sets have in common
+</div>
+
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+Difference subtracts content of set from another
+</div>
+
+</div>
+
+</div>
+
+[//]: # (Slide End }}})
+
+---
+
+# Set Comprehensions: Odd Positives
+
+```python
+odd_positives = {n for n in range(100)
+                 if n % 2 == 1}
+
+for odd_positive in odd_positives:
+    print(odd_positive)
+
+print(list(odd_positives))
+```
+
+<v-click>
+
+- Modular arithmetic helps us determine when a number is odd
+
+- `odd_positives` is a set comprehension for odd positive numbers
+
+- How is this similar to and different from one for `list` or `tuple` ?
+
+</v-click>
+
+---
+
+# Set Comprehensions: Even Positives
+
+<v-click>
+
+```python
+even_positives = {n for n in range(100)
+                  if n % 2 == 0}
+
+for even_positive in even_positives:
+    print(even_positive)
+
+print(list(even_positives))
+```
+
+</v-click>
+
+<v-click>
+
+- Modular arithmetic helps us determine when a number is even
+
+- `even_positives` is a set comprehension for odd positive numbers
+
+- How is this different than the `odd_positives` comprehension?
+
+</v-click>
