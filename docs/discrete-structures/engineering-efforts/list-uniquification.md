@@ -2,16 +2,17 @@
 
 ## Project Goals
 
-This engineering effort invites you to extend your knowledge about the basics of
-data summarization to implement a program that can summarize a data set of
-real-world population records. After you finish the `datauniqifier` program it
-will compute the summary statistics (e.g., mean, median, and standard deviation)
-of population data from from 1970 until 2019. As you enhance your [technical
-skills](/proactive-skills/introduction-proactive-skills/), you will continue to
-program with tools such as VS Code and both the Python programming language and
-the Poetry package manager. Ultimately, your goal for this project is to create
-a program that can efficiently process real-world data about human population
-size.
+This engineering effort invites you to investigate how to use various discrete
+structures, such as the dictionary and the set, to extract the unique values
+contained inside of a list of strings. In addition to implementing and testing
+the functions that perform list uniquification, you will produce the majority of
+the functions for the program's command-line interface and input processing. You
+will also implement functions that calculate the reduction in size and the
+percent reduction in size for a list of strings with an unknown amount of
+redundancy. To experimentally assess the efficiency of the `datauniquifier`
+program that you implement, this project also invites you to conduct an
+experiment to study, for instance, which uniquification process is best at
+reducing a list's size.
 
 ## Project Access
 
@@ -30,11 +31,10 @@ project!
 To get started on this engineering effort, please make sure that you read the
 blog post entitled [Fastest Way to Uniquify a List in
 Python](https://www.peterbe.com/plog/fastest-way-to-uniquify-a-list-in-python-3.6).
-As part of this assignment, you are going to implement at least three ways in
-which you can remove the duplicate values from one of the columns in a large
-input file that contains automatically generated data. Here is a sample of the
-data that you input into the program that you will implement as part of this
-assignment:
+As part of this assignment, you are going to implement at least three ways to
+remove the duplicate values from one of the columns in a large input file that
+contains automatically generated data. Here is a sample of the data that you
+input into the program that you will implement as part of this assignment:
 
 ```
 dana74@mahoney-perez.com,"Administrator, charities/voluntary organisations"
@@ -226,8 +226,7 @@ correctly implementing and writing about `datauniqifier`. If your program has
 all of the anticipated functionality, you can run the command `poetry run task
 test-silent` and see that the test suite produces output like the following. It
 is important to note that `datauniqifier` comes with three test suites, each of
-which should pass so as to establish a confidence in the correctness of the
-program.
+which should pass so as to establish a confidence in its correctness.
 
 ```
 tests/test_analyze.py ......                                         [ 54%]
