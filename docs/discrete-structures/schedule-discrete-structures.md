@@ -183,7 +183,7 @@
 
 ???+ note "Technical Concepts"
 
-    - **Set**: collection of objects or entities
+    - **Set**: an unordered collection of distinct objects
     - **Empty Set**: a set that does not contain any elements in it
     - **Hashing**: using the value of an object to compute its location in a
       structure
