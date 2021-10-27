@@ -302,15 +302,70 @@ TypeError: unhashable type: 'list'
 
 -   Programs need a **procedure** for **constructing** the set
 
--   Different programming languages and packages have other
-    restrictions. For instance, recall that Python programs cannot
-    create sets that contain mutable elements like lists! Why do you think that
-    this is the case?
+-   Different programming languages and packages have other restrictions. For
+instance, recall that Python programs **cannot** create sets that **contain
+mutable elements** like lists! Why do you think that this is the case?
 
--   So, what are the benefits of using sets in Python programs?
+-   So, what are the **benefits** of using sets in Python programs?
 
 -   Importantly, sets come with some **super-useful** default operations!
 
 -   Any questions about sets in mathematics or programming?
 
 </v-clicks>
+
+---
+
+[//]: # (Slide Start {{{)
+
+<div class="flex row">
+
+<div class="text-7xl text-orange-600 font-bold mt-5 ml-4 mb-4">
+What do we know about the set in Python?
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+Sets do not contain duplicate values
+</div>
+
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+Sets can only contain data that is hashable
+</div>
+
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+Sets have practical limitations due to constraints
+</div>
+
+</div>
+
+</div>
+
+[//]: # (Slide End }}})
