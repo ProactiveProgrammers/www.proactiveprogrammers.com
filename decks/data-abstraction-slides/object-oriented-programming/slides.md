@@ -374,6 +374,163 @@ Useful flow of control mechanism
 
 [//]: # (Slide Start {{{)
 
+<div class="flex row">
+
+<div class="text-7xl text-orange-600 font-bold mt-5 ml-4 mb-4">
+Foundations of object-oriented programming?
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<mdi-package class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+Classes are templates for objects
+</div>
+
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<mdi-package class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+Objects contain state in variables
+</div>
+
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<mdi-package class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+Objects feature behavior with methods
+</div>
+
+</div>
+
+</div>
+
+[//]: # (Slide End }}})
+
+---
+
+[//]: # (Slide Begin {{{)
+
+# Constructor for the `Person` Class
+
+<div class="mt-8 -ml-5">
+
+```python
+class Person:
+
+    def __init__(
+        self, name: str, country: str, [...]
+    ) -> None:
+        """Define the constructor for a person."""
+        self.name = name
+        self.country = country
+        self.phone_number = phone_number
+        self.job = job
+        self.email = email
+```
+
+</div>
+
+[//]: # (Slide End }}})
+
+---
+
+[//]: # (Slide Begin {{{)
+
+# Defining a Textual Representation
+
+<div class="-ml-2 -mb-5">
+
+```python
+def __repr__(self) -> str:
+    return f"{self.name} is a
+      {self.job} who lives in
+      {self.country}. You can
+      call this person at
+      {self.phone_number} and
+      email them at {self.email}"
+```
+
+</div>
+
+<br>
+
+<v-clicks>
+
+<p class = "bold">
+Classes in Python have "dunder methods" like <code>__repr__</code>
+</p>
+
+<p class = "bold">
+The <code>self</code> parameter indicates object is parameter to method
+</p>
+
+<p class = "bold">
+Methods can access the state of an object with <code>self.email</code>
+</p>
+
+</v-clicks>
+
+[//]: # (Slide End }}})
+
+---
+
+[//]: # (Slide Begin {{{)
+
+# Defining a Method for the `Person` Class
+
+<div class="mt-8 -ml-5">
+
+```python
+def create_list(self) -> List[str]:
+    details = []
+    details.append(self.name)
+    details.append(self.country)
+    details.append(self.phone_number)
+    details.append(self.job)
+    details.append(self.email)
+    return details
+```
+
+<v-clicks>
+
+<p class = "bold">
+Methods like <code>create_list</code> process and return object state
+</p>
+
+<p class = "bold">
+<b>Key Principles</b>: encapsulation, inheritance, polymorphism
+</p>
+
+</v-clicks>
+
+</div>
+
+[//]: # (Slide End }}})
+
+---
+
+[//]: # (Slide Start {{{)
+
 # Object-Oriented Programming
 
 <v-clicks>
