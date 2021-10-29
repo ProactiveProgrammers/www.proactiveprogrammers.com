@@ -187,7 +187,7 @@
     - **Empty Set**: a set that does not contain any elements in it
     - **Hashing**: using the value of an object to compute its location in a
       structure
-    - **Subset**: a set that does not contain some elements of another set
+    - **Subset**: a set that contains some, but not all of, the elements in another set
     - **Infinite Set**: set that does not have a fixed number of elements in it
 
 ## Learning Opportunities
