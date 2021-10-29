@@ -62,7 +62,7 @@ info: |
 
 > To **remember** and **understand** the principles of object-oriented
 > programming and the exception handling features provided by Python
-> to implement high-quality programs.
+> to implement high-quality and easy-to-understand programs.
 
 </div>
 
@@ -374,6 +374,37 @@ Useful flow of control mechanism
 
 [//]: # (Slide Start {{{)
 
+# Object-Oriented Programming
+
+<v-clicks>
+
+- Python supports both the **procedural** and **functional** programming
+
+- It also supports the **object-oriented** programming model
+
+- Features of the object-oriented programming approach:
+
+    - A class defines a **template** for the **state** and **behavior** of an object
+
+    - Classes create **new types** in the Python program
+
+    - These new types can be used as **type annotations** for functions
+
+    - Classes can be **defined** in a module and **accessed** by other models
+
+- Python's object-oriented features are more **limited** than other languages
+
+- What are the **benefits** and **drawbacks** of object-oriented programming?
+
+</v-clicks>
+
+[//]: # (Slide End }}})
+
+
+---
+
+[//]: # (Slide Start {{{)
+
 <div class="flex row">
 
 <div class="text-7xl text-orange-600 font-bold mt-5 ml-4 mb-4">
@@ -434,7 +465,7 @@ Objects feature behavior with methods
 
 <div class="mt-8 -ml-5">
 
-```python
+```python {all|1|3-5|6|7-11|all}
 class Person:
 
     def __init__(
@@ -531,27 +562,120 @@ Methods like <code>create_list</code> process and return object state
 
 [//]: # (Slide Start {{{)
 
+# Inheritance and Encapsulation
+
+<v-clicks>
+
+- Inheritance enables creation of **parent-child** relationships
+
+- Inheritance forms an **"is a"** relationship between two classes
+
+- Benefits of inheritance in object-oriented programming:
+
+    - Define **specialized behaviors** in the sub-classes
+
+    - Promote **code reuse** since child can access parent's methods
+
+    - Promote **data sharing** since child can access parent's variables
+
+    - Model object-oriented relationships that **mirror reality**
+
+- Encapsulation **protects** the **state** of an object, well sorta 😉
+
+- What are the **benefits** and **drawbacks** of object-oriented programming?
+
+</v-clicks>
+
+[//]: # (Slide End }}})
+
+---
+
+[//]: # (Slide Begin {{{)
+
+# Importing and Using the `Person` Class
+
+<div class="mt-8 -ml-3">
+
+```python
+from objectprocessor import person
+
+def create_display(person_list:
+                   List[person.Person]) -> str:
+    person_list_text = ""
+    for current_person in person_list:
+      person_list_text +=
+        "- " + str(current_person) + "\n"
+    return person_list_text
+```
+
+</div>
+
+<div class="mt-10">
+
+<v-clicks>
+
+<p class = "bold">
+<code>str</code> function calls the <code>__repr__</code> method in <code>Person</code>
+</p>
+
+</v-clicks>
+
+</div>
+
+[//]: # (Slide End }}})
+
+---
+
+[//]: # (Slide Begin {{{)
+
+# Searching for a Matching `Person` Object
+
+<div class="mt-0 -ml-3">
+
+```python {all|1-5|6|7-11|12|all}
+def find_matching_people(
+  attribute: str,
+  match: str,
+  person_data: List[person.Person]
+) -> List[person.Person]:
+    matching_people_list = []
+    for current_person in person_data:
+      if is_matching_person(attribute,
+            match, current_person):
+            matching_people_list.
+               append(current_person)
+    return matching_people_list
+```
+
+</div>
+
+[//]: # (Slide End }}})
+
+---
+
+[//]: # (Slide Start {{{)
+
 # Object-Oriented Programming
 
 <v-clicks>
 
-- Software testing can **accomplish** these **goals**:
+- Object-oriented programming accomplishes these goals:
 
-    - Find bugs in a Python program by running it
-    - Establish a confidence in a Python program's correctness
-    - Support confident refactoring of a Python program
+    - Creates a component with both **state** and **behavior**
+    - Organizes a program into **classes** and their **instances**
+    - Supports **structured** programming that may lack otherwise
 
--   Importance of software testing for Python programs:
+-   Importance of object-oriented programming in Python:
 
-    -   **Q1**: What are the **benefits** of software testing?
+    -   **Q1**: What are the **foundations** of the object-oriented paradigm?
 
-    -   **Q2**: What are the **limitations** of software testing?
+    -   **Q2**: What are the **benefits** of object-oriented paradigm?
 
-    -   **Q3**: What are the **trade-offs** associated with software testing?
+    -   **Q3**: What are the **trade-offs** of object-oriented programming?
 
-    -   **Q4**: How do you write a test suite using **Pytest**?
+    -   **Q4**: How do you use **Pytest** to test an object-oriented program?
 
-    -   **Q5**: How do you know when you are **finished** testing software?
+    -   **Q5**: How is object-oriented programming in Python **unique**?
 
 </v-clicks>
 
