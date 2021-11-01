@@ -7,6 +7,7 @@
     "data-containers",
     "using-monoids",
     "data-streams",
-    "set-foundations"
+    "set-foundations",
+    "probability-functions"
   ]
 }
