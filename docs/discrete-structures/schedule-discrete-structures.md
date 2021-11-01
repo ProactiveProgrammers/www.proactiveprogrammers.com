@@ -190,6 +190,13 @@
     - **Subset**: a set that contains some, but not all of, the elements in another set
     - **Infinite Set**: set that does not have a fixed number of elements in it
 
+## Probability Functions
+
+### Technical Question
+
+- How do I use the implementation of a finite set in `Sympy` to create
+  Python programs that calculate and use probabilities?
+
 ### Reading Assignments
 
 - Chapters 4 and 5 of *Doing Math with Python*
