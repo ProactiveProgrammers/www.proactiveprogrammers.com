@@ -190,6 +190,21 @@
     - **Subset**: a set that contains some, but not all of, the elements in another set
     - **Infinite Set**: set that does not have a fixed number of elements in it
 
+### Reading Assignments
+
+- Chapters 4 and 5 of *Doing Math with Python*
+- Chapter 8 of *Programming and Mathematical Thinking*
+- Check out the [course slides](/slides/discrete-structures/set-foundations/) for a detailed investigation of these chapters!
+
+???+ note "Technical Concepts"
+
+    - **Power Set**: set of all possible subsets of another set
+    - **Experiment**: a test to perform to assess a probability of an outcome
+    - **Sample Space**: all possible outcomes from an experiment
+    - **Event**: set of outcomes that form a subset of the sample space
+    - **Uniform Distribution**: distribution of outcomes such that each outcome in the sample
+       is equally likely to occur
+
 ## Learning Opportunities
 
 Interested in learning more about any of the topics on this schedule? If you
