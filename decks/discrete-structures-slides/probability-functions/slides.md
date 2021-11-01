@@ -85,691 +85,94 @@ Let's investigate sets in Sympy!
 
 ---
 
-# Mathematical Sets in Python
+# Mathematical Sets in Python Programs
 
 <v-clicks>
 
--   Set theory is **important** to many areas of mathematics
+-   Set theory is useful in mathematics and computer science
 
--   Concentrate on the set theory useful for programming:
+-   The `Sympy` package gives an implementation of finite sets
 
-    -   Sets are **containers** for other elements
-    -   Sets do **not** contain **duplicate** values
-    -   Set elements are **not stored** in a specific order
-    -   The **universal** set is the set of all elements
-    -   Sets can contain other objects like **sets** and **tuples**
-    -   A **subset** of a set contains a portion of the set
+    -   Remember, sets are "containers" for other elements
 
--   How do these properties of sets make it easier to implement Python
-    programs? How are they different than lists or tuples or generator
-    expressions? What are the limitations of sets in Python?
+    -   The sets in Sympy are finite sets, called `FiniteSet`
 
-- How do sets differ in **programming** and **mathematics**?
+    -   These sets have the same properties as built-in sets
+
+    -   `FiniteSet` has a few features not provided by `set`
+
+    -   A probability is the likelihood that an event will occur
+
+    -   We can use either `set` or `FiniteSet` to study probabilities
+
+-   Investigate probability after an alternative approach to sets
 
 </v-clicks>
 
 ---
 
-# Creating a Set from a List
+# Using Python to Create a Finite Set
 
 ```python
-# create a set out of a list
-x = set(['pencil', 'paper', 'pen',
-         'pencil', 'wallet', 'pen'])
+empty_set = FiniteSet()
+print(empty_set)
 
-# display the contents of the set
-print("Set defined with a list:")
-print(x)
+finite_set = FiniteSet(2, 4, 6, 8, 10)
+print(finite_set)
 ```
-
-<v-click>
-
-- What is the **output** of this program?
-
-- What are the **properties** of a set in Python?
-
-- Can we **implicitly** define the **order** of the set's elements?
-
-</v-click>
-
----
-
-# Creating a Set from a Tuple
-
-```python
-# create a set out of a tuple
-x = set(('pencil', 'paper', 'pen',
-         'pencil', 'wallet', 'pen'))
-
-# display the contents of the set
-print("Set defined with a tuple:")
-print(x)
-```
-
-<v-click>
-
-- What is the **output** of this program?
-
-- Does the use of a set or a tuple **influence** the container?
-
-- What **types** of elements can we store in a set?
-
-</v-click>
-
----
-
-# Output of a Program that Creates Sets
-
-```python
-# Output from a set defined with a list:
-  {'paper', 'pencil', 'pen', 'wallet'}
-
-# Output from a set defined with a tuple:
-  {'paper', 'pencil', 'pen', 'wallet'}
-```
-
-<v-click>
-
-- The sets do not store duplicate values
-
-- Creation from either a set or a tuple is the same
-
-- The contents of a set are displayed in arbitrary order
-
-- Note the use of `{` and `}` for start and end of a set
-
-- Any questions about the basics associated with sets?
-
-</v-click>
-
----
-
-# Python's Sets Store Immutable Content
-
-```python
-x = {53, 'pencil',
-     (1, 1, 2, 3, 5), 3.14159}
-
-print("Set with multiple types:")
-print(x)
-```
-
-<v-click>
-
-- Note the **explicit** approach to set creation
-
-- The data types in this set are **different**
-
-- All of the variables in this set are **immutable**
-
-- How will this program **display** the elements of the set?
-
-- Note that Python **can** store a **tuple** in a set!
-
-</v-click>
-
----
-
-# Sets Cannot Store Mutable Containers
-
-```python
-list = [53, 'pencil',
-        (1, 1, 2, 3, 5), 3.14159]
-x = {list}
-```
-
-<div class="mt-8">
-
-```python
-Traceback (most recent call last):
-  File "set-element-types.py", line 11,
-       in <module>
-    x = {list}
-TypeError: unhashable type: 'list'
-```
-
-</div>
-
-<v-click>
-
-- Explicit construction of the set crashes due to `list`
-
-- How is this different than using `set` constructor function?
-
-</v-click>
-
----
-
-# Sets with Mathematical Notation
 
 <v-clicks>
 
--   Explicit definition of a set: $S = \{1, 2, 3\}$
+- Only works in you have installed and imported `sympy` !
 
--   Definition of a set with a property:\
-    $\{ n \; | \; 0 < n < 100
-          \;\land\; n \;\%\; 2 = 0 \}$
+- What is the output of this `print` statements in this program?
 
--   $\mathbb{N}$ is the set of natural numbers
+- Are there other ways to create a `FiniteSet` ?
 
--   $\mathbb{Z}$ is the set of integer numbers
-
--   $\mathbb{R}$ is the set of real numbers
-
--   $\mathbb{C}$ is the set of complex numbers
-
--   You can also define sets by using different set **operators**!
-
--   Any questions about these examples of a set definition?
+- What operations can we perform with a `FiniteSet` ?
 
 </v-clicks>
 
 ---
 
-# Mathematical Operations with Sets
+# Creating a Set from a List or Tuple
+
+```python
+list = [2, 4, 6, 8, 10]
+finite_set = FiniteSet(*list)
+print(finite_set)
+
+tuple = (2, 4, 6, 8, 10)
+finite_set = FiniteSet(*tuple)
+print(finite_set)
+```
 
 <v-clicks>
 
--   Set membership: $S = \{1, 2, 3\}$ such that $1 \in S$ and
-    $5 \notin S$
+- All approaches call the `FiniteSet` constructor
 
--   Proper subset: $S = \{1, 2, 3\}$ and thus $\{1\} \subset S$
+- Can construct a `FiniteSet` out of a list or a tuple
 
--   Subset: $S = \{1, 2, 3\}$ and thus $\{1\} \subseteq S$ and
-    $\{1, 2, 3\} \subseteq S$
-
--   Set union: $S_1 \cup S_2$ contains elements in either $S_1$ or $S_2$
-
--   Set intersection: $S_1 \cap S_2$ is the elements in both $S_1$ and
-    $S_2$
-
--   Set difference: $S_1 - S_2$ is the elements in $S_1$ but not in
-    $S_2$
-
--   Union and intersection are **associative** and **commutative**!
-
--   Any questions about these operations for the set?
+- What is the purpose of the `*` in this program?
 
 </v-clicks>
 
 ---
 
-# Math and Programming Differences
-
-<v-clicks>
-
--   Programmers **cannot** use sets like mathematicians do!
-
--   Python programs **cannot** store an infinite set
-
--   Finite sets must **fit** into a computer's **finite** memory
-
--   Programs need a **procedure** for **constructing** the set
-
--   Different programming languages and packages have other restrictions. For
-instance, recall that Python programs **cannot** create sets that **contain
-mutable elements** like lists! Why do you think that this is the case?
-
--   So, what are the **benefits** of using sets in Python programs?
-
--   Importantly, sets come with some **super-useful** default operations!
-
--   Any questions about sets in mathematics or programming?
-
-</v-clicks>
-
----
-
-[//]: # (Slide Start {{{)
-
-<div class="flex row">
-
-<div class="text-7xl text-orange-600 font-bold mt-5 ml-4 mb-4">
-What do we know about the set in Python?
-</div>
-
-</div>
-
-<div v-click>
-
-<div class="flex row">
-
-<mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
-
-<div class="text-3xl font-bold mt-10 ml-4">
-Sets do not contain duplicate values
-</div>
-
-</div>
-
-</div>
-
-<div v-click>
-
-<div class="flex row">
-
-<mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
-
-<div class="text-3xl font-bold mt-10 ml-4">
-Sets can only contain data that is hashable
-</div>
-
-</div>
-
-</div>
-
-<div v-click>
-
-<div class="flex row">
-
-<mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
-
-<div class="text-3xl font-bold mt-10 ml-4">
-Sets have practical limitations due to constraints
-</div>
-
-</div>
-
-</div>
-
-[//]: # (Slide End }}})
-
----
-
-# Using the Set Union Operator in Python
+# Output of Finite Set Creation Program
 
 ```python
-a = {1, 2, 3, 4}
-b = {2, 3, 4, 5}
-c = {3, 4, 5, 6}
-d = {4, 5, 6, 7}
-print(a.union(b, c, d))
-print(a | b | c | d)
+# Explicit FiniteSet:
+FiniteSet(2, 4, 6, 8, 10)
+
+# Empty FiniteSet:
+EmptySet
+
+# FiniteSet from Tuple:
+FiniteSet(2, 4, 6, 8, 10)
+
+# FiniteSet Containing Tuple:
+FiniteSet((2, 4, 6, 8, 10))
 ```
 
-<v-click>
 
-- Sets in Python provide useful operations like `union` !
-
-- The `union` method is invoked for a specific set `a`
-
-- The `union` method accepts multiple sets like `b` and `c`
-
-- What do you think is the output of the `print` statements?
-
-</v-click>
-
----
-
-# Using the Set Intersection Operator
-
-<v-click>
-
-```python
-a = {1, 2, 3, 4}
-b = {2, 3, 4, 5}
-c = {3, 4, 5, 6}
-d = {4, 5, 6, 7}
-print(a.intersection(b, c, d))
-print(a & b & c & d)
-```
-
-</v-click>
-
-<v-click>
-
-- Sets in Python provide useful operations like `intersection` !
-
-- The `intersection` method is invoked for a specific set `a`
-
-- The `intersection` method accepts multiple sets like `b` and `c`
-
-- What do you think is the output of the `print` statements?
-
-</v-click>
-
----
-
-# Using the Set Difference Operator
-
-<v-click>
-
-```python
-a = {1, 2, 3, 4}
-b = {2, 3, 4, 5}
-c = {3, 4, 5, 6}
-d = {4, 5, 6, 7}
-print(a.difference(b, c))
-print(a - b - c)
-```
-
-</v-click>
-
-<v-click>
-
-- Sets in Python provide useful operations like `difference` !
-
-- The `difference` method is invoked for a specific set `a`
-
-- The `difference` method accepts multiple sets like `b` and `c`
-
-- What do you think is the output of the `print` statements?
-
-</v-click>
-
----
-
-# Output of the Set Operators in Python
-
-```
-Union of the sets:
-  {1, 2, 3, 4, 5, 6, 7}
-  {1, 2, 3, 4, 5, 6, 7}
-
-Intersection of the sets:
-  {4}
-  {4}
-
-Difference of the sets:
-  {1}
-  {1}
-```
-
----
-
-[//]: # (Slide Start {{{)
-
-<div class="flex row">
-
-<div class="text-7xl text-orange-600 font-bold mt-5 ml-4 mb-4">
-What do we know about set operations?
-</div>
-
-</div>
-
-<div v-click>
-
-<div class="flex row">
-
-<mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
-
-<div class="text-3xl font-bold mt-10 ml-4">
-Operations are part of the default implementation
-</div>
-
-</div>
-
-</div>
-
-<div v-click>
-
-<div class="flex row">
-
-<mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
-
-<div class="text-3xl font-bold mt-10 ml-4">
-Intersection finds what sets have in common
-</div>
-
-</div>
-
-</div>
-
-<div v-click>
-
-<div class="flex row">
-
-<mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
-
-<div class="text-3xl font-bold mt-10 ml-4">
-Difference subtracts content of set from another
-</div>
-
-</div>
-
-</div>
-
-[//]: # (Slide End }}})
-
----
-
-# Set Comprehensions: Odd Positives
-
-```python
-odd_positives = {n for n in range(100)
-                 if n % 2 == 1}
-
-for odd_positive in odd_positives:
-    print(odd_positive)
-
-print(list(odd_positives))
-```
-
-<v-click>
-
-- Modular arithmetic helps us determine when a number is odd
-
-- `odd_positives` is a set comprehension for odd positive numbers
-
-- How is this similar to and different from one for `list` or `tuple` ?
-
-</v-click>
-
----
-
-# Set Comprehensions: Even Positives
-
-<v-click>
-
-```python
-even_positives = {n for n in range(100)
-                  if n % 2 == 0}
-
-for even_positive in even_positives:
-    print(even_positive)
-
-print(list(even_positives))
-```
-
-</v-click>
-
-<v-click>
-
-- Modular arithmetic helps us determine when a number is even
-
-- `even_positives` is a set comprehension for odd positive numbers
-
-- How is this different than the `odd_positives` comprehension?
-
-</v-click>
-
----
-
-# Boolean Logic and Sets: Logical Or
-
-```python
-odd_positives_two =
-        {n for n in range(20)
-         if n % 2 == 1 or n == 2}
-
-for value in odd_positives_two:
-    print(value)
-
-print(list(odd_positives_two))
-```
-
-<v-click>
-
-<div class="mt-10">
-
-- Logical `or` is `True` when either clause is `True`
-
-- What outputs will the `print` statements produce?
-
-</div>
-
-</v-click>
-
----
-
-# Program Output from Use of Logical Or
-
-```
-1
-2
-3
-5
-<...>
-19
-
-[1, 2, 3, 5, 7, 9, 11, 13, 15, 17, 19]
-```
-
-<v-click>
-
-<div class="mt-10">
-
-- Note that the use of `<...>` elides extra output that could not fit on slide
-
-- Why is the `print` output format differently for same set comprehension?
-
-</div>
-
-</v-click>
-
----
-
-# Boolean Logic and Sets: Logical And
-
-```python
-even_positives_by_four =
-     {n for n in range(20)
-      if n % 2 == 0 and n % 4 == 0}
-
-for value in even_positives_by_four:
-    print(value)
-
-print(list(even_positives_by_four))
-```
-
-<v-click>
-
-<div class="mt-10">
-
-- Logical `and` is `True` when both clauses are `True`
-
-- What outputs will the `print` statements produce?
-
-</div>
-
-</v-click>
-
----
-
-# Program Output From Logical And
-
-```
-0
-4
-8
-12
-16
-
-[0, 4, 8, 12, 16]
-```
-
-<v-click>
-
-<div class="mt-8">
-
-- Both of the conditions must be true for the logical `and` operator!
-
-- Why do different approaches with `print` make different output?
-
-- How are logical `and` and `or` similar and different?
-
-</div>
-
-</v-click>
-
----
-
-[//]: # (Slide Start {{{)
-
-<div class="flex row">
-
-<div class="text-7xl text-orange-600 font-bold mt-5 ml-4 mb-4">
-What do we know about Boolean logic?
-</div>
-
-</div>
-
-<div v-click>
-
-<div class="flex row">
-
-<mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
-
-<div class="text-3xl font-bold mt-10 ml-4">
-Operators are a part of the Python language
-</div>
-
-</div>
-
-</div>
-
-<div v-click>
-
-<div class="flex row">
-
-<mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
-
-<div class="text-3xl font-bold mt-10 ml-4">
-Boolean logic useful when manipulating sets
-</div>
-
-</div>
-
-</div>
-
-<div v-click>
-
-<div class="flex row">
-
-<mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
-
-<div class="text-3xl font-bold mt-10 ml-4">
-Boolean logic helps conditional statements
-</div>
-
-</div>
-
-</div>
-
-[//]: # (Slide End }}})
-
----
-
-# Using Sets in Python Programs
-
-<v-clicks>
-
--   Sets are a discrete structure with many **practical benefits**!
-
--   Sets have **built-in operations** that make programming easy
-
--   Using **sets** and **Boolean logic** in Python programs:
-
-    -   **Q1**: What are the characteristics of a set?
-
-    -   **Q2**: What are the built-in operations provided by a set?
-
-    -   **Q3**: How can you connect sets in math and programming?
-
-    -   **Q4**: How does Boolean logic help us describe a set?
-
-    -   **Q5**: How does the `sympy` package support set programming?
-
--   Refer to <https://realpython.com/python-sets/> for more details about sets!
-
-</v-clicks>
