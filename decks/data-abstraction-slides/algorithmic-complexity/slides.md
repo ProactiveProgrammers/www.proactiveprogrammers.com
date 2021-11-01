@@ -477,3 +477,79 @@ Fast growth functions + fast computer
 </div>
 
 [//]: # (Slide End }}})
+
+---
+
+[//]: # (Slide Start {{{)
+
+# Analyzing the <code>factorial</code> Function
+
+<div class="ml-2 my-2 mt-8">
+
+```python {all|1|2|3-4|5|7-8|all}
+def add_digits(digits: str) -> int:
+    value = 0
+    for digit in digits:
+        value += int(digit)
+    return value
+
+sum_digits = add_digits("123")
+print(sum_digits)
+```
+
+</div>
+
+<div v-click>
+
+<div class="flex row mt-5">
+
+<mdi-help-box class="text-6xl ml-4 mt-4 text-blue-600" />
+
+<div class="text-3xl font-bold mt-8 ml-4">
+What is worst-case time complexity of <code>add_digits</code> ?
+</div>
+
+</div>
+
+</div>
+
+[//]: # (Slide End }}})
+
+
+---
+
+[//]: # (Slide Start {{{)
+
+# Analyzing the <code>add_digits</code> Function
+
+<div class="ml-2 my-2 mt-8">
+
+```python {all|1|2|3-4|5|7-8|all}
+def add_digits(digits: str) -> int:
+    value = 0
+    for digit in digits:
+        value += int(digit)
+    return value
+
+sum_digits = add_digits("123")
+print(sum_digits)
+```
+
+</div>
+
+<div v-click>
+
+<div class="flex row mt-5">
+
+<mdi-help-box class="text-6xl ml-4 mt-4 text-blue-600" />
+
+<div class="text-3xl font-bold mt-8 ml-4">
+Worst-case time complexity of <code>add_digits</code> ?
+</div>
+
+</div>
+
+</div>
+
+[//]: # (Slide End }}})
+
