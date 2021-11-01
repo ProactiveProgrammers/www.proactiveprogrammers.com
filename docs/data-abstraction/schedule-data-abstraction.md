@@ -194,6 +194,33 @@
     - **Information Hiding**: the client of a class should only rely on the
       public methods of the class
 
+## Algorithmic Complexity
+
+### Technical Question
+
+- How can I implement more efficient Python programs by conducting both an
+  analytical and an empirical evaluation of the performance of an algorithm?
+- Check out the [course
+  slides](/slides/data-abstraction/algorithmic-complexity/) for a detailed
+  investigation of these chapters!
+
+### Reading Assignments
+
+- Chapter 11 of *Introduction to Computation and Programming Using Python*
+
+???+ note "Technical Concepts"
+
+    - **Random Access Machine**: model of computation in which steps are
+      executed sequentially one as a time
+    - **Best-Case Running Time**: minimum running time over all possible inputs
+      of a given size
+    - **Worst-Case Running Time**: minimum running time over all possible inputs
+      of a given size
+    - **Average-Case Running Time**: average (or, expected) running time over
+      all possible inputs of a given size
+    - **Asymptotic Notation**: relationship between the
+      running time of an algorithm and the size of its inputs
+
 ## Learning Opportunities
 
 Interested in learning more about any of the topics on this schedule? If you
@@ -235,3 +262,6 @@ source code surveys, programming projects, and engineering efforts!
     - **Object-Oriented Programming**
         - **Start**: October 25, 2021
         - **End**: October 29, 2021
+    - **Object-Oriented Programming**
+        - **Start**: November 1, 2021
+        - **End**: November 5, 2021
