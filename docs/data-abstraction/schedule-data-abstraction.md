@@ -211,10 +211,10 @@
 ???+ note "Technical Concepts"
 
     - **Random Access Machine**: model of computation in which steps are
-      executed sequentially one as a time
+      executed sequentially one at a time
     - **Best-Case Running Time**: minimum running time over all possible inputs
       of a given size
-    - **Worst-Case Running Time**: minimum running time over all possible inputs
+    - **Worst-Case Running Time**: maximum running time over all possible inputs
       of a given size
     - **Average-Case Running Time**: average (or, expected) running time over
       all possible inputs of a given size
