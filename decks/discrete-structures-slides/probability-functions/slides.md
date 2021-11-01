@@ -344,4 +344,31 @@ FiniteSet(1, 2, 3)
 
 </div>
 
+---
 
+# Set Theory for Probability
+
+<v-clicks>
+
+-   Often it is difficult to calculate the probability of an event!
+
+-   Sets help us reason about the basic concepts of probability
+
+-   Fundamental definitions in the context of probability:
+
+    -   **Experiment**: the check that we want to perform and understand
+    -   **Sample Space**: all possible outputs of the chosen experiment
+    -   **Event**: the set of outcomes for which we calculate a
+        probability
+    -   **Probability**: the likelihood that a specified event will
+        occur
+    -   **Uniform Distribution**: all outcomes are equally likely to
+        occur
+
+-   The **probability** of an event $E$ is $P(E) = |E| / |S| \in [0,1]$
+
+-   The notation $|E|$ denotes the cardinality of the event set
+
+-   For all events $E$ a greater $P(E)$ means that $E$ is more likely
+
+</v-clicks>
