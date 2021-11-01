@@ -228,6 +228,9 @@ source code surveys, programming projects, and engineering efforts!
     - **Mid-Term Examination Review**
         - **Start**: October 18, 2021
         - **End**: October 22, 2021
-    - **Sets**
+    - **Set Foundations**
         - **Start**: October 25, 2021
         - **End**: October 29, 2021
+    - **Probability Functions**
+        - **Start**: November 1, 2021
+        - **End**: November 5, 2021
