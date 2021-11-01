@@ -372,3 +372,66 @@ Study program's code constructs
 
 [//]: # (Slide End }}})
 
+---
+
+[//]: # (Slide Start {{{)
+
+# "Slow" Order of Growth Functions
+
+<style>
+  .constraint {
+    width: 100%;
+  }
+</style>
+
+<br>
+
+<div class="constraint -mt-17">
+
+![Slow Order of Growth Functions](/slow-growth-functions.png)
+
+</div>
+
+[//]: # (Slide End }}})
+
+---
+
+[//]: # (Slide Start {{{)
+
+<div class="flex row">
+
+<div class="text-7xl text-orange-600 font-bold mt-5 ml-4 mb-4">
+Relationship between growth function and program's performance?
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<uim-check-circle class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-4xl font-bold mt-10 ml-4">
+Slow growth functions → fast programs
+</div>
+
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<uim-exclamation-circle class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-4xl font-bold mt-10 ml-4">
+Fast growth functions → slow programs
+</div>
+
+</div>
+
+</div>
+
+[//]: # (Slide End }}})
