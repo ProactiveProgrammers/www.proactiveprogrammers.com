@@ -20,7 +20,7 @@ info: |
 
 # Data Abstraction
 
-## Object-Oriented Programming
+## Algorithmic Complexity
 
 <div class="container my-5">
   &nbsp;
@@ -49,8 +49,8 @@ info: |
 
 ## Key Question
 
-> How can I use the principles and primitives of object-oriented programming to
-> implement Python programs with easy-to-understand designs?
+> How can I implement more efficient Python programs by conducting both an
+> analytical and an empirical evaluation of the performance of an algorithm?
 
 </div>
 
@@ -60,9 +60,9 @@ info: |
 
 ## Learning Objectives
 
-> To **remember** and **understand** the principles of object-oriented
-> programming and the exception handling features provided by Python
-> to implement high-quality and easy-to-understand programs.
+> To **remember** and **understand** the principles of the analytical and
+> empirical evaluation of an algorithm, helping you characterize, understand,
+> and improve the performance of a Python program
 
 </div>
 
@@ -73,7 +73,7 @@ info: |
 <uim-rocket class="text-5xl ml-8 mt-5 text-blue-600" />
 
 <div class="text-3xl font-bold mt-8 ml-4">
-Let's explore object-oriented programming!
+Let's explore the topic of algorithmic complexity!
 </div>
 
 </div>
