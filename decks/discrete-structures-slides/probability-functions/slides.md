@@ -20,7 +20,7 @@ info: |
 
 # Discrete Structures
 
-## Set Foundations
+## Probability Functions
 
 <div class="container my-5">
   &nbsp;
@@ -51,8 +51,8 @@ info: |
 
 ## Key Question
 
-> How do I use the mathematical concepts of **sets** and **Boolean logic** to
-> design Python programs that are easier to implement and understand?
+> How do I use the implementation of a finite set in `Sympy` to create
+> Python programs that calculate and use probabilities?
 
 </div>
 
@@ -62,8 +62,8 @@ info: |
 
 ## Learning Objectives
 
-> To **remember** and **understand** some concepts about the **set**,
-> exploring how its use can simplify the implementation of programs
+> To **remember** and **understand** some concepts about the **set**, as
+> implemented in `Sympy`, supporting the calculation of probabilities
 
 </div>
 
@@ -74,7 +74,7 @@ info: |
 <uim-rocket class="text-6xl ml-9 mt-4 text-blue-600" />
 
 <div class="text-4xl text-true-gray-700 font-bold mt-6 ml-8">
-Let's investigate the set structure!
+Let's investigate sets in Sympy!
 </div>
 
 </div>
