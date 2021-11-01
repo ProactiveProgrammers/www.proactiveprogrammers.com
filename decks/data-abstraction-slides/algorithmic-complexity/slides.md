@@ -486,27 +486,28 @@ Fast growth functions + fast computer
 
 <div class="ml-2 my-2 mt-8">
 
-```python {all|1|2|3-4|5|7-8|all}
-def add_digits(digits: str) -> int:
-    value = 0
-    for digit in digits:
-        value += int(digit)
-    return value
+```python {all|1|2|3-5|6|8-9|all}
+def factorial(n: int) -> int:
+    answer = 1
+    while n > 1:
+        answer *= n
+        n -= 1
+    return answer
 
-sum_digits = add_digits("123")
-print(sum_digits)
+for i in range(10):
+    print(f"factorial of {i} is {factorial(i)}")
 ```
 
 </div>
 
 <div v-click>
 
-<div class="flex row mt-5">
+<div class="flex row mt-0">
 
 <mdi-help-box class="text-6xl ml-4 mt-4 text-blue-600" />
 
 <div class="text-3xl font-bold mt-8 ml-4">
-What is worst-case time complexity of <code>add_digits</code> ?
+Worst-case time complexity of <code>add_digits</code> ?
 </div>
 
 </div>
