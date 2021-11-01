@@ -69,12 +69,12 @@ info: |
 
 <v-click>
 
-<div class="flex row mt-3">
+<div class="flex row mt-3 ml-2">
 
-<uim-rocket class="text-6xl ml-9 mt-4 text-blue-600" />
+<uim-rocket class="text-6xl ml-0 mt-4 text-blue-600" />
 
 <div class="text-4xl text-true-gray-700 font-bold mt-6 ml-8">
-Let's investigate sets in Sympy!
+Let's study sets and probability in Sympy!
 </div>
 
 </div>
@@ -105,7 +105,7 @@ Let's investigate sets in Sympy!
 
     -   We can use either `set` or `FiniteSet` to study probabilities
 
--   Investigate probability after an alternative approach to sets
+-   Investigate probability after exploring an alternative approach to sets
 
 </v-clicks>
 
@@ -174,5 +174,174 @@ FiniteSet(2, 4, 6, 8, 10)
 # FiniteSet Containing Tuple:
 FiniteSet((2, 4, 6, 8, 10))
 ```
+
+---
+
+# Math and Programming Differences
+
+<v-clicks>
+
+-   Programmers **cannot** use sets like mathematicians do!
+
+-   Python programs **cannot** store an infinite set
+
+-   Finite sets must **fit** into a computer's **finite** memory
+
+-   Programs need a **procedure** for **constructing** the set
+
+-   Different programming languages and packages have other restrictions. For
+instance, recall that Python programs **cannot** create sets that **contain
+mutable elements** like lists! Why do you think that this is the case?
+
+-   So, what are the **benefits** of using sets in Python programs?
+
+-   Importantly, sets come with some **super-useful** default operations!
+
+-   Thankfully, `sympy` contains even more basic operations! 👍
+
+</v-clicks>
+
+---
+
+# Using Finite Sets in Sympy
+
+```python
+from sympy import FiniteSet
+
+list = [1, 2, 3, 2]
+finite_set = FiniteSet(*list)
+print(finite_set)
+
+for element in finite_set:
+    print(element)
+```
+
+<v-clicks>
+
+- What is the output of `print(finite_set)` ?
+
+- What is the output of `print(element)` in the `for` loop?
+
+- How do these two output segments differ?
+
+</v-clicks>
+
+---
+
+# Subset Relationships with Finite Sets
+
+```python
+one = FiniteSet(1, 2, 3)
+two = FiniteSet(1, 2, 3)
+
+subset = one.is_proper_subset(two)
+print(subset)
+subset = two.is_proper_subset(one)
+print(subset)
+```
+
+<v-clicks>
+
+- What is the mathematical definition of a **proper subset**?
+
+- What is the purpose of the `is_proper_subset` function?
+
+- What is the output of the `print(subset)` function calls?
+
+</v-clicks>
+
+---
+
+# Subsets with Finite Sets ♻
+
+```python
+one = FiniteSet(1, 2, 3)
+three = FiniteSet(1, 2, 3, 4)
+
+subset = one.is_proper_subset(three)
+print(subset)
+subset = three.is_proper_subset(one)
+print(subset)
+```
+
+<v-clicks>
+
+- Is `one` a proper subset of `three` ?
+
+- Is `three` a proper subset of `one` ?
+
+- What is the output of the `print(subset)` ?
+
+</v-clicks>
+
+---
+
+# Program Output for Subset in Sympy
+
+```python
+# Set one proper subset set two:
+False
+
+# Set two proper subset set one:
+False
+
+# Set one proper subset set three:
+True
+
+# Set three proper subset set one:
+False
+```
+
+---
+
+# Union and Intersection with Finite Sets
+
+```python
+one = FiniteSet(1, 2, 3)
+two = FiniteSet(1, 2, 3, 4)
+
+union = one.union(two)
+print(union)
+
+intersection = one.intersection(two)
+print(intersection)
+```
+
+<v-clicks>
+
+- What is the meaning of `one.union(two)` ?
+
+- What is the meaning of `one.intersection(two)` ?
+
+
+</v-clicks>
+
+---
+
+# Output of a Set Intersection Program
+
+```python
+# Union:
+FiniteSet(1, 2, 3, 4)
+
+# Intersection:
+FiniteSet(1, 2, 3)
+```
+
+<div class="mt-10">
+
+<v-clicks>
+
+- Would `set` produce the same output?
+
+- Any questions about operations with `FiniteSet` ?
+
+- A **probability** is the likelihood of an event's occurrence
+
+- How can we use `FiniteSet` s for probability?
+
+</v-clicks>
+
+</div>
 
 
