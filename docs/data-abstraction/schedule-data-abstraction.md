@@ -262,6 +262,6 @@ source code surveys, programming projects, and engineering efforts!
     - **Object-Oriented Programming**
         - **Start**: October 25, 2021
         - **End**: October 29, 2021
-    - **Object-Oriented Programming**
+    - **Algorithmic Complexity**
         - **Start**: November 1, 2021
         - **End**: November 5, 2021
