@@ -435,3 +435,45 @@ Fast growth functions → slow programs
 </div>
 
 [//]: # (Slide End }}})
+
+---
+
+[//]: # (Slide Start {{{)
+
+<div class="flex row">
+
+<div class="text-7xl text-orange-600 font-bold mt-5 ml-4 mb-4">
+Which type of algorithm and computer pairing would you prefer?
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<mdi-help-circle class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-4xl font-bold mt-10 ml-4">
+Slow growth functions + slow computer
+</div>
+
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<mdi-help-circle class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-4xl font-bold mt-10 ml-4">
+Fast growth functions + fast computer
+</div>
+
+</div>
+
+</div>
+
+[//]: # (Slide End }}})
