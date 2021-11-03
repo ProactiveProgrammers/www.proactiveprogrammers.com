@@ -52,8 +52,8 @@ shannon35@allen.com,Ecologist
 When the program accepts this type of input it will also accept a specific
 column for which it should eliminate duplicates through the process of
 uniquification. For instance, when the program is run with the command `poetry
-run python datauniquifier --approach listcomprehension --column 1 --data-file
-inputs/data.txt` then it will remove all of the duplicates from column `1` in
+run datauniquifier --approach listcomprehension --column 1 --data-file
+input/data.txt` then it will remove all of the duplicates from column `1` in
 the data file that stores the job descriptions of specific individuals.
 Alternatively, if the program was run with the command `poetry run python
 datauniquifier --approach listcomprehension --column 0 --data-file
