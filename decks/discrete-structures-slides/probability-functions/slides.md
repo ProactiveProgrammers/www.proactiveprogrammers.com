@@ -635,3 +635,109 @@ Logical <code>or</code> requires at least one <code>True</code>
 
 [//]: # (Slide End }}})
 
+---
+
+# Truth Tables for Logical Operators
+
+```
++-------+-------+-----------+----------+
+|   p   |   q   |  p and q  |  p or q  |
+|-------+-------+-----------+----------+
+| True  | True  |   True    |   True   |
+| True  | False |   False   |   True   |
+| False | True  |   False   |   True   |
+| False | False |   False   |  False   |
++-------+-------+-----------+----------+
+```
+
+<v-clicks>
+
+- The `p` and `q` are logical clauses with a distinct truth value
+
+- The table includes all possible combinations of `True` and `False`
+
+- Shows possible outcomes for both logical operators
+
+</v-clicks>
+
+---
+
+[//]: # (Slide Start {{{)
+
+<div class="flex row">
+
+<div class="text-7xl text-orange-600 font-bold mt-5 ml-4 mb-4">
+What are the benefits of using logical operators?
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+Control the behavior of a program
+</div>
+
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+Influence the calculation of a probability
+</div>
+
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+Truth tables summarize all possible outcomes
+</div>
+
+</div>
+
+</div>
+
+[//]: # (Slide End }}})
+
+---
+
+# Finite Sets in Programs with Sympy
+
+-   Sets are a discrete structure with many practical benefits!
+
+-   Options: `set` and `FrozenSet` and `FiniteSet` in sympy
+
+-   Using finite sets and probability in Python programs:
+
+    -   **Q1**: What are the **characteristics** of an infinite set? Finite
+        set?
+
+    -   **Q2**: What are the **built-in operations** provided by a finite
+        set?
+
+    -   **Q3**: How does the `sympy` package support set programming?
+
+    -   **Q4**: How does the use of sets support **probability**
+        calculations?
+
+    -   **Q5**: How can **Venn diagrams** help to visualize set
+        relationships?
+
+-   See <https://doingmathwithpython.github.io/> for more details
