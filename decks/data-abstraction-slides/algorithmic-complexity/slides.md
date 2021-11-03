@@ -912,6 +912,18 @@ How can we evaluate algorithm performance?
 <mdi-check-circle class="text-6xl ml-8 mt-6 text-blue-600" />
 
 <div class="text-3xl font-bold mt-10 ml-4">
+Perform a doubling experiment to confirm analysis
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<mdi-check-circle class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
 Identify program constructs that perform repeats
 </div>
 
@@ -933,19 +945,34 @@ Carefully count the number of basic operations
 
 </div>
 
-<div v-click>
-
-<div class="flex row">
-
-<mdi-check-circle class="text-6xl ml-8 mt-6 text-blue-600" />
-
-<div class="text-3xl font-bold mt-10 ml-4">
-Perform a doubling experiment to confirm analysis
-</div>
-
-</div>
-
 </div>
 
 [//]: # (Slide End }}})
 
+---
+
+[//]: # (Slide Start {{{)
+
+# Determining a Complexity Class
+
+<v-clicks>
+
+- Rules of thumb for describing the complexity class of an algorithm:
+
+    - Count the number of basic operations, taking into account their repetition
+    - If the running time is the sum of multiple terms, keep one with largest growth rate
+    - If the remaining term is a product, drop any constants from the function
+    - The remaining function characterizes the complexity class for the algorithm
+
+- Characterize the performance of an algorithm as input size increases:
+
+    - $O(1)$: constant time algorithm
+    - $O(log_2n)$: logarithmic time algorithm
+    - $O(n)$: linear time algorithm
+    - $O(n \times log_2n)$: linearithmic time algorithm
+    - $O(n^k)$: polynomial time algorithm for constant $k$
+    - $O(c^n)$: exponential time algorithm for constant $c$
+
+</v-clicks>
+
+[//]: # (Slide End }}})
