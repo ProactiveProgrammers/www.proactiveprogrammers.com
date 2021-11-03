@@ -597,6 +597,90 @@ What is worst-case time complexity of <code>is_subset</code> ?
 
 [//]: # (Slide Start {{{)
 
+# Determining a Complexity Class
+
+<v-clicks>
+
+- Rules of thumb for describing the complexity class of an algorithm:
+
+    - Count the number of basic operations, taking into account their repetition
+    - If the running time is the sum of multiple terms, keep one with largest growth rate
+    - If the remaining term is a product, drop any constants from the function
+    - The remaining function characterizes the complexity class for the algorithm
+
+- Characterize the performance of an algorithm as input size increases:
+
+    - $O(1)$: constant time algorithm
+    - $O(log_2n)$: logarithmic time algorithm
+    - $O(n)$: linear time algorithm
+    - $O(n \times log_2n)$: linearithmic time algorithm
+    - $O(n^k)$: polynomial time algorithm for constant $k$
+    - $O(c^n)$: exponential time algorithm for constant $c$
+
+</v-clicks>
+
+[//]: # (Slide End }}})
+
+---
+
+[//]: # (Slide Start {{{)
+
+<div class="flex row">
+
+<div class="text-7xl text-orange-600 font-bold mt-5 ml-4 mb-4">
+Challenges of analytical algorithm evaluation?
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<mdi-alert-circle class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+Operations may not require equivalent time
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<mdi-alert-circle class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+Operation counting may be tough with loops
+</div>
+
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<mdi-alert-circle class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+Counting with recursion requires alternative
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+[//]: # (Slide End }}})
+
+---
+
+[//]: # (Slide Start {{{)
+
 <div class="flex row">
 
 <div class="text-7xl text-orange-600 font-bold mt-5 ml-4 mb-4">
@@ -907,16 +991,6 @@ How can we evaluate algorithm performance?
 
 <div v-click>
 
-<div class="flex row">
-
-<mdi-check-circle class="text-6xl ml-8 mt-6 text-blue-600" />
-
-<div class="text-3xl font-bold mt-10 ml-4">
-Perform a doubling experiment to confirm analysis
-</div>
-
-</div>
-
 <div v-click>
 
 <div class="flex row">
@@ -943,36 +1017,18 @@ Carefully count the number of basic operations
 
 </div>
 
+<div class="flex row">
+
+<mdi-check-circle class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+Perform a doubling experiment to confirm analysis
 </div>
 
 </div>
 
-[//]: # (Slide End }}})
+</div>
 
----
-
-[//]: # (Slide Start {{{)
-
-# Determining a Complexity Class
-
-<v-clicks>
-
-- Rules of thumb for describing the complexity class of an algorithm:
-
-    - Count the number of basic operations, taking into account their repetition
-    - If the running time is the sum of multiple terms, keep one with largest growth rate
-    - If the remaining term is a product, drop any constants from the function
-    - The remaining function characterizes the complexity class for the algorithm
-
-- Characterize the performance of an algorithm as input size increases:
-
-    - $O(1)$: constant time algorithm
-    - $O(log_2n)$: logarithmic time algorithm
-    - $O(n)$: linear time algorithm
-    - $O(n \times log_2n)$: linearithmic time algorithm
-    - $O(n^k)$: polynomial time algorithm for constant $k$
-    - $O(c^n)$: exponential time algorithm for constant $c$
-
-</v-clicks>
+</div>
 
 [//]: # (Slide End }}})
