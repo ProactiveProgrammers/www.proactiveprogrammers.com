@@ -554,3 +554,398 @@ Worst-case time complexity of <code>add_digits</code> ?
 
 [//]: # (Slide End }}})
 
+---
+
+[//]: # (Slide Start {{{)
+
+# Analyzing the <code>is_subset</code> Function
+
+<div class="ml-2 my-2">
+
+```python{all|1|2|4|5-7|8-9|all}
+def is_subset(one: List, two: List) -> bool:
+    for element_one in one:
+        matched = False
+        for element_two in two:
+            if element_one == element_two:
+                matched = True
+                break
+        if not matched:
+            return False
+    return True
+```
+
+</div>
+
+<div v-click>
+
+<div class="flex row -mt-1">
+
+<mdi-help-box class="text-6xl ml-4 mt-0 text-blue-600" />
+
+<div class="text-3xl font-bold mt-4 ml-4">
+What is worst-case time complexity of <code>is_subset</code> ?
+</div>
+
+</div>
+
+</div>
+
+[//]: # (Slide End }}})
+
+---
+
+[//]: # (Slide Start {{{)
+
+<div class="flex row">
+
+<div class="text-7xl text-orange-600 font-bold mt-5 ml-4 mb-4">
+Experiment to get likely worst-case time complexity of program?
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<uim-chart class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-4xl font-bold mt-10 ml-4">
+Bespoke auto-doubling experiment tool
+</div>
+
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row mt-4">
+
+<uim-rocket class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-4xl font-bold mt-10 ml-4">
+TaDa auto-doubling for a Python function
+</div>
+
+</div>
+
+</div>
+
+[//]: # (Slide End }}})
+
+---
+
+[//]: # (Slide Start {{{)
+
+# Doubling Experiment: Linear
+
+<style>
+  h2 {
+    font-size: 42px;
+    @apply text-orange-600 text-center mt-8 mb-4;
+  }
+</style>
+
+## Double the size of the program's input
+
+<div class="ml-0 grid grid-cols-2 gap-19 mt-1 -mb-3">
+
+<div class="pb-2 border-2 mt-2 border-gray-800 border-opacity-80 rounded">
+
+<uim-box class="text-6xl ml-8 mt-4 text-blue-600" />
+
+<div class="flex row">
+
+<div>
+<ic-twotone-watch-later class="text-6xl ml-8 mt-6 text-blue-600" />
+</div>
+
+<div class="ml-5 mt-10 text-4xl">
+14.98 seconds
+</div>
+
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="pb-2 border-2 mt-2 border-gray-800 border-opacity-80 rounded">
+
+<div class="flex row">
+
+<uim-box class="text-6xl ml-8 mt-6 text-blue-600" />
+<uim-box class="text-6xl ml-8 mt-6 text-blue-600" />
+
+</div>
+
+<div class="flex row">
+
+<div>
+<ic-twotone-watch-later class="text-6xl ml-8 mt-6 text-blue-600" />
+</div>
+
+<div class="ml-5 mt-10 text-4xl">
+31.45 seconds
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+<div v-click>
+
+## Doubling ratio is approximately 2
+
+</div>
+
+<div v-click>
+
+<div class="flex row mt-6 ml-15">
+
+<mdi-alert-octagram class="text-6xl ml-10 mt-0 text-blue-600" />
+
+<div class="text-3xl font-bold mt-4 ml-4">
+Likely worst-case time complexity is O(n)
+</div>
+
+</div>
+
+</div>
+
+[//]: # (Slide End }}})
+
+---
+
+[//]: # (Slide Start {{{)
+
+# Doubling Experiment: Quadratic
+
+<style>
+  h2 {
+    font-size: 42px;
+    @apply text-orange-600 text-center mt-8 mb-4;
+  }
+</style>
+
+## Double the size of the program's input
+
+<div class="ml-0 grid grid-cols-2 gap-19 mt-1 -mb-3">
+
+<div class="pb-2 border-2 mt-2 border-gray-800 border-opacity-80 rounded">
+
+<uim-box class="text-6xl ml-8 mt-4 text-blue-600" />
+
+<div class="flex row">
+
+<div>
+<ic-twotone-watch-later class="text-6xl ml-8 mt-6 text-blue-600" />
+</div>
+
+<div class="ml-5 mt-10 text-4xl">
+12.63 seconds
+</div>
+
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="pb-2 border-2 mt-2 border-gray-800 border-opacity-80 rounded">
+
+<div class="flex row">
+
+<uim-box class="text-6xl ml-8 mt-6 text-blue-600" />
+<uim-box class="text-6xl ml-8 mt-6 text-blue-600" />
+
+</div>
+
+<div class="flex row">
+
+<div>
+<ic-twotone-watch-later class="text-6xl ml-8 mt-6 text-blue-600" />
+</div>
+
+<div class="ml-5 mt-10 text-4xl">
+51.48 seconds
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+<div v-click>
+
+## Doubling ratio is approximately 4
+
+</div>
+
+<div v-click>
+
+<div class="flex row mt-6 ml-11">
+
+<mdi-alert-octagram class="text-6xl ml-10 mt-0 text-blue-600" />
+
+<div class="text-3xl font-bold mt-4 ml-4">
+Likely worst-case time complexity is O(n^2)
+</div>
+
+</div>
+
+</div>
+
+[//]: # (Slide End }}})
+
+[//]: # (Slide Start {{{)
+
+---
+
+# Doubling Experiment: Cubic
+
+<style>
+  h2 {
+    font-size: 42px;
+    @apply text-orange-600 text-center mt-8 mb-4;
+  }
+</style>
+
+## Double the size of the program's input
+
+<div class="ml-0 grid grid-cols-2 gap-19 mt-1 -mb-3">
+
+<div class="pb-2 border-2 mt-2 border-gray-800 border-opacity-80 rounded">
+
+<uim-box class="text-6xl ml-8 mt-4 text-blue-600" />
+
+<div class="flex row">
+
+<div>
+<ic-twotone-watch-later class="text-6xl ml-8 mt-6 text-blue-600" />
+</div>
+
+<div class="ml-5 mt-10 text-4xl">
+11.23 seconds
+</div>
+
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="pb-2 border-2 mt-2 border-gray-800 border-opacity-80 rounded">
+
+<div class="flex row">
+
+<uim-box class="text-6xl ml-8 mt-6 text-blue-600" />
+<uim-box class="text-6xl ml-8 mt-6 text-blue-600" />
+
+</div>
+
+<div class="flex row">
+
+<div>
+<ic-twotone-watch-later class="text-6xl ml-8 mt-6 text-blue-600" />
+</div>
+
+<div class="ml-5 mt-10 text-4xl">
+89.72 seconds
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+<div v-click>
+
+## Doubling ratio is approximately 8
+
+</div>
+
+<div v-click>
+
+<div class="flex row mt-6 ml-11">
+
+<mdi-alert-octagram class="text-6xl ml-10 mt-0 text-blue-600" />
+
+<div class="text-3xl font-bold mt-4 ml-4">
+Likely worst-case time complexity is O(n^3)
+</div>
+
+</div>
+
+</div>
+
+[//]: # (Slide End }}})
+
+---
+
+[//]: # (Slide Start {{{)
+
+<div class="flex row">
+
+<div class="text-7xl text-orange-600 font-bold mt-5 ml-4 mb-4">
+How can we evaluate algorithm performance?
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<mdi-check-circle class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+Identify program constructs that perform repeats
+</div>
+
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<mdi-check-circle class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+Carefully count the number of basic operations
+</div>
+
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<mdi-check-circle class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+Perform a doubling experiment to confirm analysis
+</div>
+
+</div>
+
+</div>
+
+[//]: # (Slide End }}})
+
