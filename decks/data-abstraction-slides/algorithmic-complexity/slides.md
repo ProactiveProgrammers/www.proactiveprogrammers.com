@@ -507,7 +507,7 @@ for i in range(10):
 <mdi-help-box class="text-6xl ml-4 mt-4 text-blue-600" />
 
 <div class="text-3xl font-bold mt-8 ml-4">
-Worst-case time complexity of <code>add_digits</code> ?
+Worst-case time complexity of <code>factorial</code> ?
 </div>
 
 </div>
