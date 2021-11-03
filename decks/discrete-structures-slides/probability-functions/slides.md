@@ -402,11 +402,11 @@ Provide additional set-theoretic operations
 
 ---
 
-# Set Theory for Probability
+# Using Set Theory to Explore Probability
 
 <v-clicks>
 
--   Often it is difficult to calculate the probability of an event!
+-   Often it is difficult to calculate the **probability** of an event!
 
 -   Sets help us reason about the basic concepts of probability
 
@@ -423,8 +423,215 @@ Provide additional set-theoretic operations
 
 -   The **probability** of an event $E$ is $P(E) = |E| / |S| \in [0,1]$
 
--   The notation $|E|$ denotes the cardinality of the event set
+-   The notation $|E|$ denotes the **cardinality** of the event set
 
 -   For all events $E$ a greater $P(E)$ means that $E$ is more likely
 
 </v-clicks>
+
+---
+
+# Probability Calculation with `FiniteSet`
+
+```python
+def probability(space, event):
+    return len(event) / len(space)
+
+six_sided = {*[1, 2, 3, 4, 5, 6]}
+three = {*[3]}
+
+roll_three = probability(six_sided,
+                         three)
+```
+
+- The `probability` function calculates event likelihood
+
+- Would the built-in `set` produce the same output? Yes!
+
+---
+
+# Probability of Event A or Event B
+
+```python
+six_sided = FiniteSet(1, 2, 3, 4, 5, 6)
+roll_one = FiniteSet(2, 3, 5)
+roll_two = FiniteSet(1, 3, 5)
+
+event = roll_one.union(roll_two)
+prob = len(event) / len(six_sided)
+print(prob)
+```
+
+<v-clicks>
+
+- The `union` function connects to a logical `or` operation
+
+- The output of this program is ` 0.6666666666666666`. Why?
+
+- Could also make a direct call to the `probability` function!
+
+</v-clicks>
+
+---
+
+# Probability of Event A and Event B
+
+```python
+six_sided = FiniteSet(1, 2, 3, 4, 5, 6)
+roll_one = FiniteSet(2, 3, 5)
+roll_two = FiniteSet(1, 3, 5)
+
+event = roll_one.intersect(roll_two)
+prob = len(event) / len(six_sided)
+print(prob)
+```
+
+<v-clicks>
+
+- The `intersect` function connects to a logical `and` operation
+
+- The output of this program is ` 0.3333333333333333`. Why?
+
+- Could also make a direct call to the `probability` function!
+
+</v-clicks>
+
+---
+
+[//]: # (Slide Start {{{)
+
+<div class="flex row">
+
+<div class="text-7xl text-orange-600 font-bold mt-5 ml-4 mb-4">
+How to calculate a probability with sets?
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+Create a set for the entire sample space
+</div>
+
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+Create a set for the specific event
+</div>
+
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+Calculate ratio <code>len(event) / len(sample)</code>
+</div>
+
+</div>
+
+</div>
+
+[//]: # (Slide End }}})
+
+---
+
+[//]: # (Slide Start {{{)
+
+# Logical `and` in Square Root
+
+<div class="ml-1">
+
+```python {all|1|2|3-4|5-7|8|9-11|all}
+epsilon = 0.01
+step = epsilon**2
+num_guesses = 0
+ans = 0.0
+while abs(ans**2 - x) >= epsilon and ans <= x:
+    ans += step
+    num_guesses += 1
+print(f"Guessed {num_guesses} times")
+if abs(ans**2 - x) >= epsilon:
+    print(f"Could not find sqrt of {x}")
+else:
+    print(f"{ans} is close to sqrt of {x}")
+```
+
+</div>
+
+[//]: # (Slide End }}})
+
+---
+
+[//]: # (Slide Start {{{)
+
+<div class="flex row">
+
+<div class="text-7xl text-orange-600 font-bold mt-5 ml-4 mb-4">
+How to understand logical operators?
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+Each operator accepts two or more operands
+</div>
+
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+Logical <code>and</code> requires both <code>True</code>
+</div>
+
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+Logical <code>or</code> requires at least one <code>True</code>
+</div>
+
+</div>
+
+</div>
+
+[//]: # (Slide End }}})
+
