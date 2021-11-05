@@ -1032,3 +1032,89 @@ Perform a doubling experiment to confirm analysis
 </div>
 
 [//]: # (Slide End }}})
+
+---
+
+[//]: # (Slide Start {{{)
+
+<div class="flex row">
+
+<div class="text-7xl text-orange-600 font-bold mt-5 ml-4 mb-4">
+Suitable complexity class for an algorithm?
+</div>
+
+</div>
+
+<div v-click>
+
+<div v-click>
+
+<div class="flex row">
+
+<mdi-check-circle class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+Constant is exceptional but rarely attainable
+</div>
+
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<mdi-check-circle class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+Logarithmic, linear, or linearithmic are very good
+</div>
+
+</div>
+
+<div class="flex row">
+
+<mdi-check-circle class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+Quadratic or greater suggests likely infeasibility
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+[//]: # (Slide End }}})
+
+---
+
+[//]: # (Slide Start {{{)
+
+# Reviewing Algorithmic Complexity
+
+<v-clicks>
+
+- Computer program performance is very important:
+
+    - If a program is too slow in way not met our goals
+    - Slow computer programs also present security concerns
+    - Sometimes a computation may prove to be infeasible
+
+-   Understanding Algorithmic Complexity:
+
+    -   **Q1**: What are the **benefits** of empirical studies?
+
+    -   **Q2**: What are the **limitations** of empirical studies?
+
+    -   **Q3**: What are the **trade-offs** associated with analytical evaluation?
+
+    -   **Q4**: How do you conduct a **doubling experiment** to study performance?
+
+    -   **Q5**: What are the **trade-offs** between time and space overhead?
+
+</v-clicks>
+
+[//]: # (Slide End }}})
