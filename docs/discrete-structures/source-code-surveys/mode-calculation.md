@@ -52,17 +52,20 @@ The mode of the list of numbers is 9
 The mode of the list of was found 4 times!
 ```
 
-It is worth noting that the `ordered_pair_swap` function performs two types of
-swapping. It first swaps the values inside of each of the ordered pairs, as
-evidenced in the first and second lines of the output, where the first tuple is
-input as `('A', 1)` and output as `(1, 'A')`. The second type of swap performed
-by the function involves outputting the second tuple first and the first tuple
-second, which the second output line illustrating with `((2, 'B'), (1, 'A'))`
-for an input of `(('A', 1), ('B', 2))`. The final line of the program output
-also illustrates that the tuple swapping process is reversible since the
-function can accept as input `((2, 'B'), (1, 'A'))` and produce as output
-`(('A', 1), ('B', 2))` &mdash; which is the original tuple that started this the
-tuple swapping process!
+It is worth noting that the `calculate_mode` function will only work correctly
+when it is provided with a list that contains a single value for the mode. If
+there are multiple values for the mode (i.e., the list `scores = [7, 8, 7, 7, 9,
+2, 10, 9, 9, 9]` has both the number `7` and the number `9` as a mode) then it
+will not return both of them. How would you need to change the function's
+computation and the type of data that it returns in order to ensure that can
+return all modes that are evident in the input list? Finally, don't forget that
+it is only possible for the program to run correctly if it contains the `import`
+statements that make the classes for the type annotations available! This means
+that you need to have both `from typing import List` and `from typing import
+Tuple` at the top of the `perform-mode-calculation.py`. Since the source code in
+the *Doing Math with Python* book uses the `Counter` module, the
+`perform-mode-calculation.py` script also needs the statement `from collections
+import Counter`.
 
 ## Running Checks
 
