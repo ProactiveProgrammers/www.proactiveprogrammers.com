@@ -16,7 +16,7 @@ a Python program, this project invites you to explore how to (i) import the
 `Counter` module from the `collections` package, (ii) implement a function
 called `calculate_mode` that can find at most one mode inside of a list of
 numbers, and (iii) call the `calculate_mode` function and display the values in
-the tuple that it produces as its output.
+the tuple that it produces.
 
 ## Project Access
 
