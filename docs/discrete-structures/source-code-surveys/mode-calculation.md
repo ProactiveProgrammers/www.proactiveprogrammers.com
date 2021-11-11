@@ -79,6 +79,9 @@ grade` shows that all checks pass, you will know that you made progress towards
 correctly implementing and writing about this project's program. You are also
 encouraged to implement your own test cases for the
 `perform-mode-calculation.py` script to ensure that it is working correctly!
+This might involve creating different inputs to the function under test, calling
+the `calculate_mode` function, and then checking to ensure that it returned the
+correct ordered pair as its output.
 
 ## Project Reflection
 
