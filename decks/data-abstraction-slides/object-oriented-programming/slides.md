@@ -333,7 +333,7 @@ What are the benefits of exception handling?
 <mdi-check-circle class="text-6xl ml-8 mt-6 text-blue-600" />
 
 <div class="text-3xl font-bold mt-10 ml-4">
-Principled way to to avoid crashes
+Principled way to avoid crashes
 </div>
 
 </div>
