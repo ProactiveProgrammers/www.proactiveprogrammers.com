@@ -34,16 +34,22 @@ project!
 
 If you change into the `source` directory of your GitHub repository, you will
 see a Python program called `perform-mode-calculation.py`. Your goal for this
-project is to find and fix the defects in the function with the signature `def
-ordered_pair_swap(pair_one: Tuple[Any, Any], pair_two: Tuple[Any, Any]) ->
-Tuple[Tuple[Any, Any], Tuple[Any, Any]]`. When you run the command `python
+def calculate_mode(numbers: List[int]) -> Tuple[int, int]: project is to find
+and fix the defects in the function with the signature `def
+calculate_mode(numbers: List[int]) -> Tuple[int, int]:`. Specifically, this
+function signature indicates that the `calculate_mode` function takes as input a
+list of integer values and returns a tuple of two integers (i.e., an ordered
+pair) where the first value is the number that is the mode and the second value
+is the number of times that the mode appeared. To be clear, the `calculate_mode`
+function should find the mode of a list of numbers, or the number that appears
+most frequently in the list. When you run the command `python
 perform-mode-calculation.py` after correcting the program's defects, it should
-produce the following output:
+produce the following output when it looks for a mode in the `scores = [7, 8, 9,
+2, 10, 9, 9, 9]`.
 
 ```
-Original tuple of ordered pairs: (('A', 1), ('B', 2))
-Swapped tuple of ordered pairs: ((2, 'B'), (1, 'A'))
-Swapped (again) tuple of ordered pairs: (('A', 1), ('B', 2))
+The mode of the list of numbers is 9
+The mode of the list of was found 4 times!
 ```
 
 It is worth noting that the `ordered_pair_swap` function performs two types of
