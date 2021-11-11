@@ -29,7 +29,7 @@ will be able to demonstrate mastery of the following skills in data structures:
       existing program.
     - Document the trade-offs associated with the implementation of the new data
       structure, comparing and contrasting it with existing alternatives and
-      justifying the need for the bespoke imlementation instead of those that
+      justifying the need for the bespoke implementation instead of those that
       are already available.
 - Use the principles of object-oriented programming (i.e., encapsulation,
   inheritance, and polymorphism) to design, implement, document, and test
