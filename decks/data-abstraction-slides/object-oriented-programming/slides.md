@@ -732,7 +732,9 @@ bosco = Dog("Bosco", 8)
 
 <v-click>
 
-## Define a `Dog` class and then create two instances of it!
+<p class = "bold">
+Define a <code>Dog</code> class and then create two instances of it!
+</p>
 
 </v-click>
 
