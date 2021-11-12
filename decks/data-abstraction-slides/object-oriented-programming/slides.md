@@ -590,6 +590,63 @@ Methods like <code>create_list</code> process and return object state
 
 ---
 
+[//]: # (Slide Start {{{)
+
+<div class="flex row">
+
+<div class="text-7xl text-orange-600 font-bold mt-5 ml-4 mb-4">
+Key benefits of object-oriented programming?
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<mdi-check-circle class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+Combines behavior with the storage of state
+</div>
+
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<mdi-check-circle class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+Supports the modelling of real-world entities
+</div>
+
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<mdi-check-circle class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+But, it sometimes feels more "complex" in Python!
+</div>
+
+</div>
+
+</div>
+
+[//]: # (Slide End }}})
+
+
+---
+
 [//]: # (Slide Begin {{{)
 
 # Importing and Using the `Person` Class
@@ -648,6 +705,36 @@ def find_matching_people(
 ```
 
 </div>
+
+[//]: # (Slide End }}})
+
+---
+
+[//]: # (Slide Begin {{{)
+
+# Modelling a Dog as an Object
+
+<div class="mt-0 -ml-3 mb-10">
+
+```python
+class Dog:
+    species = "Canis familiaris"
+
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+
+miles = Dog("Miles", 4)
+bosco = Dog("Bosco", 8)
+```
+
+</div>
+
+<v-click>
+
+## Define a `Dog` class and then create two instances of it!
+
+</v-click>
 
 [//]: # (Slide End }}})
 
