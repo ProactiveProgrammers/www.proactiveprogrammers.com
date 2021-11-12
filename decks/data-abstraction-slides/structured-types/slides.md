@@ -418,6 +418,30 @@ x = {list}
 
 ---
 
+# Using Dictionaries in Python
+
+<v-clicks>
+
+-   Python's dictionary is a **fast** way to support data lookup:
+
+    -   Create a mapping between keys and values
+    -   Store key-value pairs inside of the structure
+    -   You "lookup" the key to "find" the value
+    -   Dictionary keys must be an immutable object
+    -   The value connected to the key can be of any data type
+    -   Integers and strings are common types for the key
+    -   Often called hashtables or hashmaps in other languages!
+
+-   What are the **benefits** of dictionaries over lists or tuples?
+
+-   How can you **create** and **use** a **dictionary** in Python?
+
+-   How does a dictionary **internally store** the key-value pairs?
+
+</v-clicks>
+
+---
+
 # Creating and Using Dictionaries
 
 ```python
@@ -432,9 +456,59 @@ faith["Age"] = 14
 faith["Breed"] = "Havanese"
 ```
 
-- Dictionaries store **key values pairs**, making an **associative map**
+- Dictionaries store **key-value pairs**, making an **associative map**
 
-- What is the **output** from running this program?
+- How can you access a specific **value** stored with a **key** in `bosco` ?
+
+---
+
+# Creating a Dictionary in Python
+
+```python
+mlb_team = {
+    'Colorado' : 'Rockies',
+    'Boston'   : 'Red Sox',
+    'Minnesota': 'Twins',
+    'Milwaukee': 'Brewers'
+}
+```
+
+<v-clicks>
+
+- Reference: <https://realpython.com/python-dicts/>
+
+- The use of `{` and `}` designates a dictionary
+
+- Can you identify the **key** and the **value**?
+
+- How would you lookup a **value** given a **key**?
+
+</v-clicks>
+
+---
+
+# Alternative Way to Create a Dictionary
+
+```python
+mlb_team = dict([
+    ('Colorado', 'Rockies'),
+    ('Boston', 'Red Sox'),
+    ('Minnesota', 'Twins'),
+    ('Milwaukee', 'Brewers')
+])
+```
+
+<v-clicks>
+
+- Here is an alternative way to create key-value pairs!
+
+- Each of the key-value pairs is expressed as a tuple
+
+- The tuples are stored in a list, one tuple for each pairing
+
+- The `dict` constructor accepts a list of tuples!
+
+</v-clicks>
 
 ---
 
