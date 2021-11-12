@@ -556,6 +556,63 @@ Calculate ratio <code>len(event) / len(sample)</code>
 
 [//]: # (Slide Start {{{)
 
+<div class="flex row">
+
+<div class="text-7xl text-orange-600 font-bold mt-5 ml-4 mb-4">
+Practical applications of probability functions?
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<uim-chart-pie class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+Estimate the likelihood of house price increasing
+</div>
+
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<uim-chart-pie class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+Estimate the likelihood of the spread of disease
+</div>
+
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<uim-chart-pie class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+Determine likelihood of winning an online game
+</div>
+
+</div>
+
+</div>
+
+[//]: # (Slide End }}})
+
+
+---
+
+[//]: # (Slide Start {{{)
+
 # Logical `and` in Square Root
 
 <div class="ml-1">
