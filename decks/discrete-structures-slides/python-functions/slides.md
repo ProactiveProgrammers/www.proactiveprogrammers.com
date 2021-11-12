@@ -531,7 +531,7 @@ print(str(compute_mean(numbers)))
 ```python
 from typing import List
 
-def compute_mean(numbers: List):
+def compute_mean(numbers: List) -> float:
     s = sum(numbers)
     N = len(numbers)
     mean = s / N
