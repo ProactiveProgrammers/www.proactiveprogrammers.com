@@ -537,6 +537,32 @@ Difficult to efficiently parse large CSV files
 
 ---
 
+# Applications of Data Containers?
+
+<v-clicks>
+
+-   Programs frequently need to **input data** and **save** it in memory
+
+-   The programs then take data from memory and **save** it to disk
+
+-   Data that is commonly **input and output** by programs:
+
+    -   Scientific **results** from running experiments
+
+    -   Customer **preference** data at e-commerce sites
+
+    -   Analysis of **trends** inside of a data set
+
+-  Common to organize the data into a **list that stores lists**!
+
+-  How is a list of lists similar to a **spreadsheet**?
+
+-  How would you use a list to store a **word processing** document?
+
+</v-clicks>
+
+---
+
 # Tuples are Worth Billions of Dollars!
 
 <v-clicks>
@@ -559,6 +585,62 @@ Difficult to efficiently parse large CSV files
 provide an alternative in a relational database management system (**RDBMS**).
 
 </v-clicks>
+
+---
+
+[//]: # (Slide Start {{{)
+
+<div class="flex row">
+
+<div class="text-7xl text-orange-600 font-bold mt-5 ml-4 mb-4">
+How to select the correct data container?
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<mdi-help-box class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+Do you want to change the container's contents?
+</div>
+
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<mdi-help-box class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+What type of data will the container need to store?
+</div>
+
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<mdi-help-box class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+How will the containers nest inside of each other?
+</div>
+
+</div>
+
+</div>
+
+[//]: # (Slide End }}})
 
 ---
 
