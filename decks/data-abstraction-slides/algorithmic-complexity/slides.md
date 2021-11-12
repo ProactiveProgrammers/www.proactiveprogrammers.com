@@ -891,9 +891,9 @@ Likely worst-case time complexity is O(n^2)
 
 [//]: # (Slide End }}})
 
-[//]: # (Slide Start {{{)
-
 ---
+
+[//]: # (Slide Start {{{)
 
 # Doubling Experiment: Cubic
 
@@ -974,6 +974,35 @@ Likely worst-case time complexity is O(n^3)
 </div>
 
 </div>
+
+[//]: # (Slide End }}})
+
+---
+
+[//]: # (Slide Start {{{)
+
+# Connecting Analytical and Empirical
+
+<v-clicks>
+
+- It is not always easy or possible to conduct an analytical evaluation:
+
+    - For some algorithms, the source code is not (easily) available for study
+    - It may be very difficult to analytically evaluate some types of algorithms
+    - Sometimes you might not be sure if your analytical evaluation is correct
+
+- It is not always easy or possible to conduct an empirical evaluation:
+
+    - Some implementations may run for a very long period of time during experiments
+    - Sometimes it is difficult to generate realistic or meaningful inputs for a program
+    - Experimenters may not have access to the execution environment used in practice
+
+- When both evaluations are possible they **mutually re-enforce** each other!
+
+- When the two different approaches agree we can have **confidence** in
+correctness! So, doubling ratio is 2 and we independently determine $O(n)$!
+
+</v-clicks>
 
 [//]: # (Slide End }}})
 
@@ -1099,11 +1128,11 @@ Quadratic or greater suggests likely infeasibility
 
 - Computer program performance is very important:
 
-    - If a program is too slow in way not met our goals
+    - If a program is too slow in may not met our goals
     - Slow computer programs also present security concerns
     - Sometimes a computation may prove to be infeasible
 
--   Understanding Algorithmic Complexity:
+-   Understanding algorithmic complexity:
 
     -   **Q1**: What are the **benefits** of empirical studies?
 
