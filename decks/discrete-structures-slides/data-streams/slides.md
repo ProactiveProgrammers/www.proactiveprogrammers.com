@@ -582,6 +582,87 @@ KeyboardInterrupt
 
 ---
 
+# Applications of Data Streams?
+
+<v-clicks>
+
+-   Programs frequently need to **transfer** data to other programs
+
+-   Many applications don't want the **entire data file** to be available
+
+-   Programs prefer to **multicast** stream to multiple clients
+
+-   Data that is commonly **streamed** to other programs:
+
+    -   **Music files** stream from a server to a mobile device
+
+    -   **Video files** stream from a server to a mobile device
+
+    -   **Data sets** stream from server to multiple clients
+
+-  Streaming requires a **constant connection**to the server
+
+-  Streaming often requires a more **complex** implementation
+
+</v-clicks>
+
+---
+
+[//]: # (Slide Start {{{)
+
+<div class="flex row">
+
+<div class="text-7xl text-orange-600 font-bold mt-5 ml-4 mb-4">
+What are the trade-offs for dynamic streams?
+</div>
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+Lowers the memory footprint at point in time
+</div>
+
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+Ensures that entire structure not in memory
+</div>
+
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+Limits opportunity to traverse again the data
+</div>
+
+</div>
+
+</div>
+
+[//]: # (Slide End }}})
+
+---
+
 # Using Streams in Python Programs
 
 <v-clicks>
