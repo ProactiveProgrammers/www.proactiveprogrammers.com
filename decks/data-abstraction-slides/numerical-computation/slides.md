@@ -615,6 +615,171 @@ while abs(answer**2 - x) >= epsilon:
 
 [//]: # (Slide Start {{{)
 
+<div class="flex row">
+
+<div class="text-7xl text-orange-600 font-bold mt-5 ml-4 mb-4">
+Other types of numerical computations in Python?
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+Compute summary statistics of data set
+</div>
+
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+Compute dispersion measurements for data
+</div>
+
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+Helps analyzing data from algorithm experiments
+</div>
+
+</div>
+
+</div>
+
+[//]: # (Slide End }}})
+
+---
+
+[//]: # (Slide Start {{{)
+
+# Computing the Arithmetic Mean
+
+```python
+def compute_mean(numbers):
+    s = sum(numbers)
+    N = len(numbers)
+    mean = s / N
+    return mean
+numbers = [5,1,7,99,4]
+print(str(compute_mean(numbers)))
+```
+
+<div class="mt-8">
+
+- How do we compute the **mean** of a list of numbers?
+
+- How do we compute **summary statistics** of a list of numbers?
+
+- What type of function? Recursive? Iterative? Lambda?
+
+</div>
+
+[//]: # (Slide End }}})
+
+---
+
+[//]: # (Slide Start {{{)
+
+# Type Hints for Function Parameters
+
+```python
+from typing import List
+
+def compute_mean(numbers: List) -> float:
+    s = sum(numbers)
+    N = len(numbers)
+    mean = s / N
+    return mean
+```
+
+- How is this function different from the previous one?
+
+- What are the benefits of adding type hints to parameters?
+
+- Why is this not a complete implementation of `compute_mean` ?
+
+[//]: # (Slide End }}})
+
+---
+
+[//]: # (Slide Start {{{)
+
+<div class="flex row">
+
+<div class="text-7xl text-orange-600 font-bold mt-5 ml-4 mb-4">
+Insights for numerical computation?
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+Performance trade-offs with algorithmic approach
+</div>
+
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+Express computation with a script or a function
+</div>
+
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+Data analysis is commonly needed for experiments
+</div>
+
+</div>
+
+</div>
+
+[//]: # (Slide End }}})
+
+
+---
+
+[//]: # (Slide Start {{{)
+
 # Investigating Numerical Computation
 
 <div class = "mt-10">
