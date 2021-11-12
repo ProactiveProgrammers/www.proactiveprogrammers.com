@@ -585,6 +585,88 @@ print(list(even_positives))
 
 ---
 
+[//]: # (Slide Start {{{)
+
+<div class="flex row">
+
+<div class="text-7xl text-orange-600 font-bold mt-5 ml-4 mb-4">
+What are the benefits of using the set structure?
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+Storing unique items may reduce storage needs
+</div>
+
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+Sets support fast containment checking for value
+</div>
+
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+Sets provide many useful built-in operations
+</div>
+
+</div>
+
+</div>
+
+[//]: # (Slide End }}})
+
+---
+
+# Practical Applications of Sets?
+
+<v-clicks>
+
+-   Programs frequently need to **input data** and **save** it in memory
+
+-   The programs then take data from memory and **save** it to disk
+
+-   Storing data in a set **supports computations** like the following:
+
+    -   Determining the similarities and differences between organisms
+
+    -   Finding similarities in purchases between different people
+
+    -   Identifying evidence of plagiarism between written documents
+
+    -   Recommendations about new music to which you should listen
+
+    -   Suggestions for new items to purchase based on prior purchases
+
+-  How would you use a set to implement one of the previous applications?
+
+</v-clicks>
+
+---
+
 # Boolean Logic and Sets: Logical Or
 
 ```python
