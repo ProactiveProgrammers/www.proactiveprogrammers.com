@@ -600,7 +600,7 @@ KeyboardInterrupt
 
     -   **Data sets** stream from server to multiple clients
 
--  Streaming requires a **constant connection**to the server
+-  Streaming requires a **constant connection** to the server
 
 -  Streaming often requires a more **complex** implementation
 
