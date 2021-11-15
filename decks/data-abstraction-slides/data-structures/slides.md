@@ -99,7 +99,7 @@ What are some common data structures?
 
 <div class="flex row">
 
-<mdi-alert-circle class="text-6xl ml-8 mt-6 text-blue-600" />
+<uim-columns class="text-6xl ml-8 mt-6 text-blue-600" />
 
 <div class="text-3xl font-bold mt-10 ml-4">
 Dynamic arrays that grow (and shrink) in size
@@ -113,7 +113,7 @@ Dynamic arrays that grow (and shrink) in size
 
 <div class="flex row">
 
-<mdi-alert-circle class="text-6xl ml-8 mt-6 text-blue-600" />
+<uim-columns class="text-6xl ml-8 mt-6 text-blue-600" />
 
 <div class="text-3xl font-bold mt-10 ml-4">
 Linked lists that are comprised of nodes and edges
@@ -127,10 +127,66 @@ Linked lists that are comprised of nodes and edges
 
 <div class="flex row">
 
-<mdi-alert-circle class="text-6xl ml-8 mt-6 text-blue-600" />
+<uim-columns class="text-6xl ml-8 mt-6 text-blue-600" />
 
 <div class="text-3xl font-bold mt-10 ml-4">
 Hash tables that employ a function and backing list
+</div>
+
+</div>
+
+</div>
+
+[//]: # (Slide End }}})
+
+---
+
+[//]: # (Slide Start {{{)
+
+<div class="flex row">
+
+<div class="text-7xl text-orange-600 font-bold mt-5 ml-4 mb-4">
+Common algorithms for data processing?
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<uim-repeat class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+Searching algorithms look for data in container
+</div>
+
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<uim-repeat class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+Sorting algorithms reorder the container's data
+</div>
+
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<uim-repeat class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+Combine in unique ways to solve novel problems
 </div>
 
 </div>
@@ -178,11 +234,11 @@ Data structures
 Processing algorithms
 </div>
 
-<div class="text-8xl text-true-gray-600 font-bold mt-16 mr-15">
+<div class="text-8xl text-true-gray-600 font-bold -ml-25 mt-16 mr-15">
 <ul>
 <li>Searching</li>
 <li>Sorting</li>
-<li>Storage</li>
+<li>Combine</li>
 </ul>
 </div>
 
@@ -194,7 +250,7 @@ Processing algorithms
 
 <div class="flex row mt-5">
 
-<mdi-help-box class="text-6xl ml-0 mt-4 text-blue-600" />
+<mdi-help-box class="text-6xl ml-5 mt-4 text-blue-600" />
 
 <div class="text-3xl font-bold mt-8 ml-4">
 Connecting data containers and data processing?
@@ -210,31 +266,57 @@ Connecting data containers and data processing?
 
 [//]: # (Slide Start {{{)
 
-# Understanding Algorithmic Complexity
+# Exhaustive Enumeration and Search
 
 <v-clicks>
 
-- Empirical evaluation of an algorithm depends on:
+- Many computations require a **specific value** in order to proceed
 
-    - The speed of the computer on which it is run
-    - The efficiency of the Python implementation on the computer
-    - The chosen values for the input to the algorithm
+- The **exhaustive enumeration** approach "naively" looks through **all
+possibilities** until it finds the correct solution
 
-- **Random access machine** model of computation assumes that steps are run
-sequentially, one at a time. Why is this not realistic? Acceptable?
+- How does exhaustive enumeration work?
+    - List all possible values for a computation
+    - Check to see if the current value is correct
+    - If not correct, try the next value in the list
+    - Continue until the correct value is found
 
-- Characterize the performance of an algorithm as input size increases:
+- Easy to implement and understand. Often fast enough for practical purposes!
 
-    - **Best-Case**: minimum running time over all possible inputs
-      of a given size
-    - **Worst-Case**: minimum running time over all possible inputs
-      of a given size
-    - **Average-Case**: average (or, expected) running time over
-      all possible inputs of a given size
+- Very useful to **start** with exhaustive approaches while proving a concept
 
-- **Asymptotic Notation**: relationship between the
-   running time of an algorithm and the size of its inputs, focusing on
-   situation when input is large
+- When is it **not efficient** enough to perform exhaustive enumeration? **Big
+data!**
+
+</v-clicks>
+
+[//]: # (Slide End }}})
+
+---
+
+[//]: # (Slide Start {{{)
+
+# Lifecycle for Algorithms and Data
+
+<v-clicks>
+
+- Quickly implement an algorithm to investigate a hypothesis
+
+- If data and approach look promising, optimize the system further:
+
+    - **Explore** different data containers
+    - **Investigate** different algorithms
+    - **Combine** searching, sorting, and containers
+
+- Reduce complex problems to aspects of known problems:
+
+    - **Understand**: grasp the inherent complexity of the problem
+    - **Decompose**: break the problem into subproblems
+    - **Connect**: relate the subproblems and find algorithms
+
+- Make sure to consider the following trade-offs during lifecycle: is the
+approach efficient? Is the approach easy to implement, test, and maintain?
+Trade-offs?
 
 </v-clicks>
 
