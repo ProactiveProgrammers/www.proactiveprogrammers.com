@@ -212,6 +212,27 @@
     - **Uniform Distribution**: distribution of outcomes such that each outcome in the sample
        is equally likely to occur
 
+## Mathematical Mappings
+
+### Technical Question
+
+- How do I use dictionaries, tuples, and lists to correctly implement efficient
+mathematical functions in Python?
+
+### Reading Assignments
+
+- Chapter 9 of *Programming and Mathematical Thinking*
+- Check out the [course slides](/slides/discrete-structures/mathematical-mappings/) for a detailed investigation of these chapters!
+
+???+ note "Technical Concepts"
+
+    - **Mathematical Mapping**: set of ordered pairs in which no two first elements are the same
+    - **Function Domain**: set of values that are the first elements of ordered pairs in mapping
+    - **Function Range**: set of values that are the second elements of ordered pairs in mapping
+    - **Dictionary**: kind of static container that acts like a mapping
+    - **Key-Value Pair**: the two-tuples stored in a dictionary that map a key to a value
+    - **Multiset**: a dictionary that maps specific values to a count of their occurrence
+
 ## Learning Opportunities
 
 Interested in learning more about any of the topics on this schedule? If you
