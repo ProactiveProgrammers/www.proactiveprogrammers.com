@@ -8,6 +8,7 @@
     "using-monoids",
     "data-streams",
     "set-foundations",
-    "probability-functions"
+    "probability-functions",
+    "mathematical-mappings"
   ]
 }
