@@ -221,6 +221,32 @@
     - **Asymptotic Notation**: relationship between the
       running time of an algorithm and the size of its inputs
 
+## Data Structures
+
+### Technical Question
+
+- How can I implement, use, and test data structures that support efficient
+  data processing with searching and sorting algorithms?
+- Check out the [course
+  slides](/slides/data-abstraction/data-structures/) for a detailed
+  investigation of these chapters!
+
+### Reading Assignments
+
+- Chapter 12 of *Introduction to Computation and Programming Using Python*
+
+???+ note "Technical Concepts"
+
+    - **Search Algorithm**: method for finding an item or a group of items in a
+      collection of items
+    - **Search Space**: the collection of items subject to search
+    - **Indirection**: accessing something by first accessing something else
+      that contains a reference to it
+    - **Merge Sort**: sorting algorithm that employs divide-and-conquer approach
+      to sorting data
+    - **Stable Sorting**: process of sorting data such that the order of equal
+      items in an input list are preserved
+
 ## Learning Opportunities
 
 Interested in learning more about any of the topics on this schedule? If you
