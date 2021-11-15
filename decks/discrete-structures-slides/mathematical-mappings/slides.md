@@ -110,3 +110,72 @@ decide which approach is the best? Expressiveness? Speed? Other ways?
 </v-clicks>
 
 ---
+
+# Understanding the Fibonacci Function
+
+```python
+def fibonacci(number: int) -> Tuple[int]:
+    result = ()
+    a = 1
+    b = 1
+    for i in range(number):
+        result += (a,)
+        a, b = b, a + b
+    return result
+```
+
+<v-clicks>
+
+- What are the inputs and outputs of this function?
+
+- What is the data type returned by this function?
+
+- What is the purpose of the `range(number)` function call?
+
+</v-clicks>
+
+---
+
+# Understanding the Factorial Function
+
+```python
+def factorial(number):
+    factorial_value = 1
+    values = list(range(1, number + 1))
+    for value in values:
+        factorial_value = factorial_value * value
+    return factorial_value
+```
+
+<v-clicks>
+
+- How would you write the function's type signature?
+
+- What are the inputs and outputs of this function?
+
+- Are there other ways to implement this function?
+
+- What is the purpose of the `range(1, number + 1)` function call?
+
+</v-clicks>
+
+---
+
+# Inputs and Outputs of Collatz Function
+
+```python
+def collatz(number: int) -> Iterator[int]:
+    yield number
+    while number != 1:
+        if number % 2 == 0:
+            number = number // 2
+        else:
+            number = 3 * number + 1
+        yield number
+```
+
+- What is the output of this program?
+
+- What is the pattern in the Collatz sequence?
+
+- Does this function ever stop running? **Actually, we don't yet know!**
