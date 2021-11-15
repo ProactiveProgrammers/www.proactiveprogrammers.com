@@ -326,27 +326,26 @@ Trade-offs?
 
 [//]: # (Slide Start {{{)
 
-# Reviewing Algorithmic Complexity
+# Linear Search with Indirection
+
+```python
+for i in range(len(L)):
+    if L[i] == e:
+      return True
+return false
+```
 
 <v-clicks>
 
-- Computer program performance is very important:
+- Containment checking for a list `L` uses a `for` loop and is thus $O(n)$
 
-    - If a program is too slow in may not met our goals
-    - Slow computer programs also present security concerns
-    - Sometimes a computation may prove to be infeasible
+- Of course, it is only linear if each operation in the loop is $O(1)$!
 
--   Understanding algorithmic complexity:
+- Consider the cost of running `L[i]` and comparing to `e`
 
-    -   **Q1**: What are the **benefits** of empirical studies?
+- Python implements **list indexing** through **pointers** and **indirection**
 
-    -   **Q2**: What are the **limitations** of empirical studies?
-
-    -   **Q3**: What are the **trade-offs** associated with analytical evaluation?
-
-    -   **Q4**: How do you conduct a **doubling experiment** to study performance?
-
-    -   **Q5**: What are the **trade-offs** between time and space overhead?
+- Indexing can start at the **beginning** of the list and use **pointer arithmetic**
 
 </v-clicks>
 
