@@ -265,3 +265,9 @@ source code surveys, programming projects, and engineering efforts!
     - **Algorithmic Complexity**
         - **Start**: November 1, 2021
         - **End**: November 5, 2021
+    - **Professional Evaluation**
+        - **Start**: November 8, 2021
+        - **End**: November 12, 2021
+    - **Data Structures**
+        - **Start**: November 15, 2021
+        - **End**: November 19, 2021
