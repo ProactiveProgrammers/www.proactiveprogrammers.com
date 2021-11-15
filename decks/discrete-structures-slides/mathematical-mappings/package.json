@@ -1,0 +1,14 @@
+{
+  "private": true,
+  "scripts": {
+    "dev": "slidev",
+    "build": "slidev build --base /slides/discrete-structures/mathematical-mappings/ --out ../../../site/slides/discrete-structures/mathematical-mappings",
+    "export": "slidev export"
+  },
+  "dependencies": {
+    "@slidev/cli": "^0.22.7",
+    "@slidev/theme-default": "*",
+    "@slidev/theme-seriph": "*"
+  },
+  "name": "mathematical-mappings"
+}
