@@ -392,7 +392,6 @@ Input mappings separated by the <code>=</code> operator
 
 [//]: # (Slide End }}})
 
-
 ---
 
 # Using Dictionaries in a Python Program
