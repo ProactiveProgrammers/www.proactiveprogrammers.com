@@ -350,3 +350,232 @@ return false
 </v-clicks>
 
 [//]: # (Slide End }}})
+
+---
+
+[//]: # (Slide Start {{{)
+
+<div class="flex row">
+
+<div class="text-7xl text-orange-600 font-bold mt-5 ml-4 mb-4">
+What if we can assume that the list is sorted?
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<uim-repeat class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+Ensure that the elements of list are sorted
+</div>
+
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<uim-repeat class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+Assume that sort occurs for ascending order
+</div>
+
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<uim-repeat class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+Does it have a better worst-case time complexity?
+</div>
+
+</div>
+
+</div>
+
+[//]: # (Slide End }}})
+
+---
+
+[//]: # (Slide Start {{{)
+
+# Recursive Binary Search Algorithm
+
+<v-clicks>
+
+- Improve the worst-case time complexity by applying a **binary search**
+
+- Leverages the ideas that we developed for the **bisection search**
+
+- Steps for performing a **recursive binary search**:
+
+    - Assume that you are searching list `L` for element `e`
+
+    - Pick an index `i` that roughly divides the list `L` in half
+
+    - Determine if `L[i] == e` and return the element `e` if it is
+
+    - If not found `e` then determine if `L[i]` is smaller or bigger than `e`
+
+    - Depending on the answer, search the left or right half of `L` for `e`
+
+- Continue this process recursively until found or searched entire list!
+
+</v-clicks>
+
+[//]: # (Slide End }}})
+
+---
+
+[//]: # (Slide Start {{{)
+
+<div class="flex row">
+
+<div class="text-7xl text-orange-600 font-bold mt-5 ml-4 mb-4">
+What is performance of binary search method?
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<uim-columns class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+Remember, assumes that the input list <code>L</code> is sorted!
+</div>
+
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<uim-columns class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+<code>math.log(x, base)</code> is key to time complexity
+</div>
+
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<uim-columns class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+The tight bound on the time complexity is log(len(L))
+</div>
+
+</div>
+
+</div>
+
+[//]: # (Slide End }}})
+
+---
+
+[//]: # (Slide Start {{{)
+
+# Sorting Algorithms in Python
+
+<v-clicks>
+
+- Is it **better** to sort and then search? Can that be **faster** that a clever sort?
+
+- Sadly, it is **not** possible to sort with a **sub-linear** time complexity!
+
+- Sometimes it is possible to **amortize** the cost of sorting for many searches
+
+- Understanding sorting algorithms available in Python:
+
+    - **Selection sort** operates in $\theta(n^2)$ and is thus **quadratic**
+
+    - **Merge sort** operates in $\theta(n\times\log(n))$ and is thus **linearithmic**
+
+    - Both of these algorithms have time complexities with $n = len(L)$
+
+    - **Timsort** takes advantage of the fact that lists are often partially sorted
+
+    - It has the same worst-case performance but is **better** in the **average case**!
+
+</v-clicks>
+
+[//]: # (Slide End }}})
+
+---
+
+[//]: # (Slide Start {{{)
+
+<div class="flex row">
+
+<div class="text-7xl text-orange-600 font-bold mt-5 ml-4 mb-4">
+Practical sorting methods for Python?
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<uim-columns class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+Built-in <code>list.sort()</code> that modifies list in-place
+</div>
+
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<uim-columns class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+The <code>sorted</code> function can sort any <code>Iterable</code>
+</div>
+
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<uim-columns class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+Methods are stable and thus guarantee orderings
+</div>
+
+</div>
+
+</div>
+
+[//]: # (Slide End }}})
+
