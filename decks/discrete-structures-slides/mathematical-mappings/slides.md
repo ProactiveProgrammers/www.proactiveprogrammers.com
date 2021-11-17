@@ -182,6 +182,62 @@ def collatz(number: int) -> Iterator[int]:
 
 ---
 
+[//]: # (Slide Start {{{)
+
+<div class="flex row">
+
+<div class="text-7xl text-orange-600 font-bold mt-5 ml-4 mb-4">
+What do we know about functions in Python?
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<uim-columns class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+Accept one or more inputs for processing
+</div>
+
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<uim-columns class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+Produce one or more outputs from a computation
+</div>
+
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<uim-columns class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+May or may not halt depending on the computation
+</div>
+
+</div>
+
+</div>
+
+[//]: # (Slide End }}})
+
+---
+
 # Using Dictionaries to Create Mappings
 
 <v-clicks>
@@ -382,3 +438,111 @@ TypeError: unhashable type: 'list'
 - A dictionary's hashing function must be able to process the key
 
 - How does the hashing function map input to the backing array?
+
+---
+
+[//]: # (Slide Start {{{)
+
+<div class="flex row">
+
+<div class="text-7xl text-orange-600 font-bold mt-5 ml-4 mb-4">
+What do we know about dictionaries in Python?
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<uim-columns class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+Efficiently store and access key-value pairs
+</div>
+
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<uim-columns class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+Support multiple methods for construction
+</div>
+
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<uim-columns class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+Keys of the dictionary must be hashable
+</div>
+
+</div>
+
+</div>
+
+[//]: # (Slide End }}})
+
+
+---
+
+# Picking a Dictionary or a Function?
+
+<v-clicks>
+
+-   Wait, are dictionaries and functions the same? Well ...
+
+-   Picking between a discrete structure and a computation:
+
+    -   A discrete structure must be **finite** and **fit** into memory
+    -   A function might be the only **viable** solution for many keys
+    -   A discrete structure can often be **mutable**, giving flexibility
+    -   The **lookup** of a value for a key is done efficiently in a
+        dictionary
+    -   A function that **computes** the value for a key may take **time**
+    -   But, what is going to be **easier** to program, test, and maintain?
+
+-   The honest answer is **it depends**! Use your **judgement** and create and run
+**benchmarks**! Defend your implementation decision with evidence!
+
+-   Another alternative: use **both** a **function** and a **dictionary** to
+improve performance through the process of **memoization**. Awesome!
+
+</v-clicks>
+
+---
+
+# Mathematical Mappings in Python
+
+-   Dictionaries are super discrete structures with **performance benefits**!
+
+-   **Combine** dictionaries and functions or use separately
+
+-   Using **dictionaries** and **functions** in Python programs:
+
+    -   **Q1**: What are the characteristics of functions in Python?
+
+    -   **Q2**: What are the characteristics of dictionaries in Python?
+
+    -   **Q3**: How do you decide between a dictionary or a function?
+
+    -   **Q4**: What functions can process a multiset discrete
+        structure?
+
+    -   **Q5**: How to combine functions and dictionaries for
+        efficiency?
+
+-   See <https://realpython.com/python-dicts/> for more on dictionaries in
+Python!
