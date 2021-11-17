@@ -338,6 +338,63 @@ mlb_team = dict(
 
 ---
 
+[//]: # (Slide Start {{{)
+
+<div class="flex row">
+
+<div class="text-7xl text-orange-600 font-bold mt-5 ml-4 mb-4">
+How can we construct a dictionary in Python?
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<uim-columns class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+Input mappings separated by the <code>:</code> operator
+</div>
+
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<uim-columns class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+Input a list of two-tuples using <code>dict</code> constructor
+</div>
+
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<uim-columns class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+Input mappings separated by the <code>=</code> operator
+</div>
+
+</div>
+
+</div>
+
+[//]: # (Slide End }}})
+
+
+---
+
 # Using Dictionaries in a Python Program
 
 ```python
