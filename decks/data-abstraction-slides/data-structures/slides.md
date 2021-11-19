@@ -750,3 +750,33 @@ Hashing functions save time/space, hard to design
 </div>
 
 [//]: # (Slide End }}})
+
+---
+
+[//]: # (Slide Start {{{)
+
+# Reviewing Data Structures
+
+<v-clicks>
+
+- Picking the correct data structure and algorithm is challenging:
+
+    - Think carefully about your functionality and performance goals
+    - Try to combine different data structures to create a hybrid solution
+    - Consider ways in which you can effectively trade-off time and space
+
+-   Questions to consider about data structures in Python:
+
+    -   **Q1**: What are the **benefits** of sorting before searching?
+
+    -   **Q2**: What are the fundamental **limitations** of sorting?
+
+    -   **Q3**: How do you conduct a **doubling experiment** to study performance?
+
+    -   **Q4**: How does the built-in **timsort** achieve performance gains?
+
+    -   **Q5**: How can good **hashing functions** avoid collisions in backing list?
+
+</v-clicks>
+
+[//]: # (Slide End }}})
