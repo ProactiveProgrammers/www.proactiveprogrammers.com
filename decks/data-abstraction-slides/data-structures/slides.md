@@ -503,11 +503,11 @@ The tight bound on the time complexity is log(len(L))
 
 - Is it **better** to sort and then search? Can that be **faster** that a clever sort?
 
-- Sadly, it is **not** possible to sort with a **sub-linear** time complexity!
+- Well, may be possible to **amortize** the cost of sorting for many searches!
 
-- Sometimes it is possible to **amortize** the cost of sorting for many searches
+- With that said, it is **not** possible to sort with a **sub-linear** time complexity!
 
-- Understanding sorting algorithms available in Python:
+- Understanding sorting algorithms available or implemented in Python:
 
     - **Selection sort** operates in $\theta(n^2)$ and is thus **quadratic**
 
@@ -571,6 +571,178 @@ The <code>sorted</code> function can sort any <code>Iterable</code>
 
 <div class="text-3xl font-bold mt-10 ml-4">
 Methods are stable and thus guarantee orderings
+</div>
+
+</div>
+
+</div>
+
+[//]: # (Slide End }}})
+
+
+---
+
+[//]: # (Slide Start {{{)
+
+# Combining Searching and Sorting
+
+<v-clicks>
+
+- What happens if we combine merge sort with a recursive binary search?
+
+  - Merge sort can pre-process the list in $O(n \times log(n))$
+  - Binary search can determine an element is in a list at $O(log(n))$
+  - When combining two separate algorithms the time complexity is additive
+  - So, the overall time complexity of the hybrid algorithm is $O(n \times log(n) + k \times log(n))$
+  - This time complexity assumes that you will perform $k$ searches on the sorted list
+
+- Is this the best that we can do for searching? Can we build a better approach?
+
+- What are the requirements for an approach that is better than this one?
+
+    - Avoid the pre-processing step that requires the sorting of a list before searching
+    - Searching algorithm that provides either a constant or logarithmic time complexity
+    - It is possible to achieve these goals with either trees or hash tables
+    - This courses focuses on the hash table because it is likely the fastest!
+
+</v-clicks>
+
+[//]: # (Slide End }}})
+
+---
+
+[//]: # (Slide Start {{{)
+
+<div class="flex row">
+
+<div class="text-7xl text-orange-600 font-bold mt-5 ml-4 mb-4">
+What is the basic idea behind hash tables?
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<uim-columns class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+Store key-value pairs inside of a backing list
+</div>
+
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<uim-columns class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+Lookup a value based on the provided key
+</div>
+
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<uim-columns class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+Hashing function maps the key to value's location
+</div>
+
+</div>
+
+</div>
+
+[//]: # (Slide End }}})
+
+---
+
+[//]: # (Slide Start {{{)
+
+# Fundamentals of Hash Tables
+
+<v-clicks>
+
+- What are the basics of hashing functions?
+
+  - Convert a large space of **keys** to a smaller space of **indices**
+
+  - Implement a **many-to-one** mapping while avoiding collisions
+
+  - Aim to **distribute** the values of keys **uniformly** across the backing list
+
+- How to handle collisions inside of the hash table?
+
+    - Store a list at each index of the backing list
+
+    - When a collision occurs, store next value inside of the list
+
+    - When searching with a key that has collided, linearly search internal list
+
+    - Avoid collisions because they degrade the $O(1)$ lookup cost!
+
+</v-clicks>
+
+[//]: # (Slide End }}})
+
+---
+
+[//]: # (Slide Start {{{)
+
+<div class="flex row">
+
+<div class="text-7xl text-orange-600 font-bold mt-5 ml-4 mb-4">
+What do we know about hash table trade-offs?
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<mdi-alpha-t-box class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+Large backing list avoids collisions, takes up space
+</div>
+
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<mdi-alpha-t-box class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+Small backing list causes collisions, saves space
+</div>
+
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<mdi-alpha-t-box class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+Hashing functions save time/space, hard to design
 </div>
 
 </div>
