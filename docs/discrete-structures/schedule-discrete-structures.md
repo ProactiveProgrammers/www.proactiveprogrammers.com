@@ -227,8 +227,8 @@ mathematical functions in Python?
 ???+ note "Technical Concepts"
 
     - **Mathematical Mapping**: set of ordered pairs in which no two first elements are the same
-    - **Function Domain**: set of values that are the first elements of ordered pairs in mapping
-    - **Function Range**: set of values that are the second elements of ordered pairs in mapping
+    - **Function Domain**: set of values that are the first elements of ordered pairs in a mapping
+    - **Function Range**: set of values that are the second elements of ordered pairs in a mapping
     - **Dictionary**: kind of static container that acts like a mapping
     - **Key-Value Pair**: the two-tuples stored in a dictionary that map a key to a value
     - **Multiset**: a dictionary that maps specific values to a count of their occurrence
