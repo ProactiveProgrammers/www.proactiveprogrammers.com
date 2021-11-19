@@ -660,6 +660,62 @@ def fibonacci(n):
 
 ---
 
+[//]: # (Slide Start {{{)
+
+<div class="flex row">
+
+<div class="text-7xl text-orange-600 font-bold mt-5 ml-4 mb-4">
+How can dictionaries support multi-sets?
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<mdi-content-copy class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+Multisets allow a value to exist more than once
+</div>
+
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<mdi-content-copy class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+Multisets must store the number and its count
+</div>
+
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<mdi-content-copy class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+Implemented with a <code>dict</code> for number and count
+</div>
+
+</div>
+
+</div>
+
+[//]: # (Slide End }}})
+
+---
+
 # Mathematical Mappings in Python
 
 -   Dictionaries are super discrete structures with **performance benefits**!
