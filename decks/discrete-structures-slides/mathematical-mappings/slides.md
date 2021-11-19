@@ -580,6 +580,86 @@ improve performance through the process of **memoization**. Awesome!
 
 ---
 
+[//]: # (Slide Start {{{)
+
+<div class="flex row">
+
+<div class="text-7xl text-orange-600 font-bold mt-5 ml-4 mb-4">
+How can we implement memoization in Python?
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<mdi-archive-search class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+Dictionary stores previously computed values
+</div>
+
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<mdi-archive-search class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+Return previously computed value if available
+</div>
+
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<mdi-archive-search class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+Use the <code>@functools.lru_cache</code> decorator!
+</div>
+
+</div>
+
+</div>
+
+[//]: # (Slide End }}})
+
+---
+
+# Using an LRU Cache for Memoization
+
+```python
+@functools.lru_cache(maxsize=128)
+def fibonacci(n):
+    if n == 0:
+        return 0
+    elif n == 1:
+        return 1
+    return fibonacci(n - 1) + fibonacci(n - 2)
+```
+
+<v-clicks>
+
+- LRU cache has a `maxsize` that defines how many mappings it will store
+
+- It discards the least recently used mapping after reaching `maxsize`
+
+- This approach **improves time** efficiency while accepting **increased storage**
+
+</v-clicks>
+
+---
+
 # Mathematical Mappings in Python
 
 -   Dictionaries are super discrete structures with **performance benefits**!
