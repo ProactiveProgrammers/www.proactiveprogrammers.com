@@ -294,6 +294,8 @@ Pick items with best value for their weight
   }
 </style>
 
+<v-clicks>
+
 <div class="border-2 rounded-2xl border-gray-700 bg-true-gray-300 p-5">
 
 <pre>
@@ -318,10 +320,160 @@ Total value of items taken is 255.0
 
 </div>
 
+</v-clicks>
+
 <div class="mt-5">
 </div>
 
+<v-clicks>
+
 - Can you explain **why** the program produced this output?
-- How does **sorting** play a role in solving a Knapsack problem?
+- How does **sorting** play a role in solving a knapsack instance?
+
+</v-clicks>
+
+[//]: # (Slide End }}})
+
+---
+
+[//]: # (Slide Start {{{)
+
+# Implementing a Greedy Algorithm
+
+<v-clicks>
+
+- Store the table itself as a **CSV file** that can be **input** and **parsed**
+
+- Each row of the table is an `Item` with a value, weight, and density
+
+- After the input and parsing of the table, create a `List` of `Item` s
+
+- Use Python's built-in `sorted` function to sort this `List`:
+
+  - Use the `reverse = True` flag so that we have biggest values first
+
+  - Use the `key` parameter to specify how the sorting happen
+
+  - Remember, we will sorting according to value, weight, or density!
+
+- After sorting, iteratively pick values from list until reaching maximum
+weight.
+
+- The worst-case time complexity is $O(n + n \times log_2 n)$ or $O(n \times
+log_2n)$
+
+</v-clicks>
+
+[//]: # (Slide End }}})
+
+---
+
+[//]: # (Slide Start {{{)
+
+<div class="flex row">
+
+<div class="text-7xl text-orange-600 font-bold mt-5 ml-4 mb-4">
+Benefits of greedy optimization methods?
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+Easy to represent the problem
+</div>
+
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+Easy to implement the solution
+</div>
+
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+Good worst-case time complexity
+</div>
+
+</div>
+
+</div>
+
+[//]: # (Slide End }}})
+
+---
+
+[//]: # (Slide Start {{{)
+
+<div class="flex row">
+
+<div class="text-7xl text-orange-600 font-bold mt-5 ml-4 mb-4">
+Drawbacks of greedy optimization methods?
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<mdi-alert-octagram class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+Does not yield provably optimal solution
+</div>
+
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<mdi-alert-octagram  class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+Heuristics produce results of varying quality
+</div>
+
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<mdi-alert-octagram class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+Always makes decisions that are locally optimal
+</div>
+
+</div>
+
+</div>
 
 [//]: # (Slide End }}})
