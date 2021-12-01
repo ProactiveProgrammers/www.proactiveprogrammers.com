@@ -20,7 +20,7 @@ info: |
 
 # Data Abstraction
 
-## Data Structures
+## Optimization Problems
 
 <div class="container my-5">
   &nbsp;
@@ -49,8 +49,8 @@ info: |
 
 ## Key Question
 
-> How can I implement, use, and test data structures that support efficient data
-> processing with searching and sorting algorithms?
+> How can I use algorithms to efficiently solve an optimization problem
+> characterized by an objective function and a set of constraints?
 
 </div>
 
@@ -60,9 +60,9 @@ info: |
 
 ## Learning Objectives
 
-> To **remember** and **understand** the characteristics of key data structures
-> (e.g., a list and a hash table) so that they can serve as the input and output
-> for searching and sorting algorithms?
+> To **remember** and **understand** the algorithmic strategies (e.g., greedy
+> and dynamic programming) for solving optimization problems that maximize or
+> minimize an objective function subject to constraints.
 
 </div>
 
@@ -73,7 +73,7 @@ info: |
 <uim-rocket class="text-5xl ml-8 mt-5 text-blue-600" />
 
 <div class="text-3xl font-bold mt-8 ml-4">
-Let's explore the topic of data structures!
+Let's explore the topic of optimization problems!
 </div>
 
 </div>
