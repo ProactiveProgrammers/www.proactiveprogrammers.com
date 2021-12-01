@@ -173,9 +173,14 @@ items?
 
 <v-clicks>
 
-| Item | Value | Weight | Value/Weight |
-|------|-------|--------|--------------|
-| Clock | 175  | 10     | 17.5         |
+| **Item** | **Value** | **Weight** | **Value/Weight** |
+|------ |-------|--------|--------------|
+| Clock | 175   | 10     | 17.5         |
+| Painting | 90 | 9      | 10           |
+| Radio | 20 | 4      | 5           |
+| Vase | 50 | 2      | 25           |
+| Book | 10 | 1      | 10           |
+| Computer | 200 | 20      | 10           |
 
 </v-clicks>
 
