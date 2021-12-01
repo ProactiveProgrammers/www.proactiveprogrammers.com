@@ -166,3 +166,17 @@ items?
 </v-clicks>
 
 [//]: # (Slide End }}})
+
+---
+
+# Optimization for Knapsack Problems
+
+<v-clicks>
+
+| Item | Value | Weight | Value/Weight |
+|------|-------|--------|--------------|
+| Clock | 175  | 10     | 17.5         |
+
+</v-clicks>
+
+[//]: # (Slide End }}})
