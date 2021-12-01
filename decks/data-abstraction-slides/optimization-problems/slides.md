@@ -169,7 +169,7 @@ items?
 
 ---
 
-# Optimization for Knapsack Problems
+# Instance of the Knapsack Problem
 
 <v-clicks>
 
@@ -182,6 +182,96 @@ items?
 | Book | 10 | 1      | 10           |
 | Computer | 200 | 20      | 10           |
 
+- If you were a thief what would you steal? Why?
+
+- What are different strategies for stealing items?
+
 </v-clicks>
+
+[//]: # (Slide End }}})
+
+---
+
+[//]: # (Slide Start {{{)
+
+# Greedy Algorithms for Knapsack
+
+<v-clicks>
+
+- Greedy algorithms find an **approximate** solution to the knapsack problem:
+
+  - Pick an **objective function** that will guide what you steal
+
+  - There are many objective functions to consider! Let's start with:
+
+    - **Benefit-driven**: Best item according to the **value**
+    - **Cost-driven**: Best item according to the **weight**
+    - **Density-driven**: Best item according to the **value/weight**
+    - Continue to select items until reaching the knapsack's limit
+
+- Which of these objective functions yields the highest **payout**? Why?
+
+- Are these objective functions **guaranteed** to produce the best result? **No**!
+
+- What are the **benefits** and **limitations** of greedy algorithms for
+knapsack?
+
+</v-clicks>
+
+[//]: # (Slide End }}})
+
+---
+
+[//]: # (Slide Start {{{)
+
+<div class="flex row">
+
+<div class="text-7xl text-orange-600 font-bold mt-5 ml-4 mb-4">
+Strategies for optimizing the knapsack problem?
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+Pick items with the biggest payout
+</div>
+
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+Pick items with the least weight
+</div>
+
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+Pick items with best value for their weight
+</div>
+
+</div>
+
+</div>
 
 [//]: # (Slide End }}})
