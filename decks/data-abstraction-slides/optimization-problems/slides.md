@@ -182,9 +182,16 @@ items?
 | Book | 10 | 1      | 10           |
 | Computer | 200 | 20      | 10           |
 
-- If you were a thief what would you steal? Why?
+</v-clicks>
 
+<br>
+
+<v-clicks>
+
+- If you were a thief what would you steal? Why?
 - What are different strategies for stealing items?
+- Can you tell if one strategy was better than another?
+- How would you execute a stealing strategy?
 
 </v-clicks>
 
@@ -357,7 +364,7 @@ Total value of items taken is 255.0
   - Remember, we will sorting according to value, weight, or density!
 
 - After sorting, iteratively pick values from list until reaching maximum
-weight.
+weight
 
 - The worst-case time complexity is $O(n + n \times log_2 n)$ or $O(n \times
 log_2n)$
