@@ -443,3 +443,51 @@ print(f"The dog's breed is: {faith.breed}")
 - Which approach is easier to implement? Easier to understand? Why?
 
 - Location of `bosco` and `faith` in computer's memory?
+
+---
+
+# Output from Using Objects in Python
+
+```text
+<__main__.Dog object at 0x7f6090b44a90>
+
+The dog's name is: Bosco
+The dog's age is: 6
+The dog's breed is: Havanese
+```
+
+<div class="mt-10">
+
+- `bosco.name` accesses the dog's name
+
+- `bosco.age` accesses the dog's age
+
+- `bosco.breed` accesses the dog's breed
+
+- What about displaying details for the `faith` object?
+
+</div>
+
+---
+
+# Output from Using Objects in Python
+
+```text
+<__main__.Dog object at 0x7f6090b44af0>
+
+The dog's name is: Faith
+The dog's age is: 14
+The dog's breed is: Havanese
+```
+
+<div class="mt-10">
+
+- `faith.name` accesses the dog's name
+
+- `faith.age` accesses the dog's age
+
+- `faith.breed` accesses the dog's breed
+
+- Note that `bosco` and `faith` are distinct instances in memory!
+
+</div>
