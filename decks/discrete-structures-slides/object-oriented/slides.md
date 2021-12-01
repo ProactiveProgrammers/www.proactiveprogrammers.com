@@ -145,3 +145,259 @@ def factorial_iterative(number):
 -   What is the best way to represent relationships in Python?
 
 -   The tuple does not offer **semantic meaning** for return value
+
+---
+
+# Lists to Represent Objects in Python
+
+```python
+bosco = ["Bosco", 6, "Havanese"]
+faith = ["Faith", 14, "Havanese"]
+
+print(f"The name of the dog is: {bosco[0]}")
+print(f"The age of the dog is: {bosco[1]}")
+print(f"The breed of the dog is: {bosco[2]}")
+
+print(f"The name of the dog is: {faith[0]}")
+print(f"The age of the dog is: {faith[1]}")
+print(f"The breed of the dog is: {faith[2]}")
+```
+
+<br>
+
+<v-clicks>
+
+<p class = "bold">
+Leverages a built-in discrete structure! But, drawbacks?
+</p>
+
+</v-clicks>
+
+---
+
+# Output from List Representing Objects
+
+```text
+The name of the dog is: Bosco
+The age of the dog is: 6
+The breed of the dog is: Havanese
+
+The name of the dog is: Faith
+The age of the dog is: 14
+The breed of the dog is: Havanese
+```
+
+- Questions about the **list-based** approach:
+
+  - What are the **benefits** of this approach?
+  - How can this approach lead to **defects**?
+  - Can this approach ensure **object uniformity**?
+  - Are there **other approaches** to creating objects?
+
+---
+
+# Dictionaries to Represent Objects
+
+```python
+bosco = {}
+bosco["Name"] = "Bosco"
+bosco["Age"] = 6
+bosco["Breed"] = "Havanese"
+
+faith = {}
+faith["Name"] = "Faith"
+faith["Age"] = 14
+faith["Breed"] = "Havanese"
+```
+
+<br>
+
+<v-clicks>
+
+<p class = "bold">
+Leverages a built-in discrete structure! But, drawbacks?
+</p>
+
+<p class = "bold">
+Which approach is better? Using a list or a dictionary?
+</p>
+
+</v-clicks>
+
+---
+
+# Accessing a Dictionary Representation
+
+```python
+print(f"The dog's name is: {bosco['Name']}")
+print(f"The dog's age is: {bosco['Age']}")
+print(f"The dog's breed is: {bosco['Breed']}")
+
+print(f"The dog's name is: {faith['Name']}")
+print(f"The dog's age is: {faith['Age']}")
+print(f"The dog's breed is: {faith['Breed']}")
+```
+
+- What is the output of this program?
+
+- What is better `bosco[0]` or `bosco['name']` ? Why?
+
+- Does this approach ensure object uniformity? No!
+
+---
+
+# Output from Using a Dictionary
+
+```text
+The dog's name is: Bosco
+The dog's age is: 6
+The dog's breed is: Havanese
+
+The dog's name is: Faith
+The dog's age is: 14
+The dog's breed is: Havanese
+```
+
+- Note that the program produces the **same output**!
+
+- How can this approach lead to **defects**?
+
+- Are there other approaches to creating objects?
+
+---
+
+[//]: # (Slide Start {{{)
+
+# Object-Oriented Programming
+
+<v-clicks>
+
+- Python supports both the **procedural** and **functional** programming
+
+- It also supports the **object-oriented** programming model
+
+- Features of the object-oriented programming approach:
+
+    - A class defines a **template** for the **state** and **behavior** of an object
+
+    - Classes create **new types** in the Python program
+
+    - These new types can be used as **type annotations** for functions
+
+    - Classes can be **defined** in a module and **accessed** by other models
+
+- Python's object-oriented features are more **limited** than other languages
+
+- What are the **benefits** and **drawbacks** of object-oriented programming?
+
+</v-clicks>
+
+[//]: # (Slide End }}})
+
+---
+
+[//]: # (Slide Start {{{)
+
+<div class="flex row">
+
+<div class="text-7xl text-orange-600 font-bold mt-5 ml-4 mb-4">
+Foundations of object-oriented programming?
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<mdi-package class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+Classes are templates for objects
+</div>
+
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<mdi-package class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+Objects contain state in variables
+</div>
+
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<mdi-package class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+Objects feature behavior with methods
+</div>
+
+</div>
+
+</div>
+
+[//]: # (Slide End }}})
+
+---
+
+[//]: # (Slide Start {{{)
+
+# Inheritance and Encapsulation
+
+<v-clicks>
+
+- Inheritance enables creation of **parent-child** relationships
+
+- Inheritance forms an **"is a"** relationship between two classes
+
+- Benefits of inheritance in object-oriented programming:
+
+    - Define **specialized behaviors** in the sub-classes
+
+    - Promote **code reuse** since child can access parent's methods
+
+    - Promote **data sharing** since child can access parent's variables
+
+    - Model object-oriented relationships that **mirror reality**
+
+- Encapsulation **protects** the **state** of an object, well sorta 😉
+
+- What are the **benefits** and **drawbacks** of object-oriented programming?
+
+</v-clicks>
+
+[//]: # (Slide End }}})
+
+
+---
+
+# Representing an Object with a Class
+
+```python
+class Dog:
+  # constructor for the Dog class
+  def __init__(self, name, age, breed):
+      self.name = name
+      self.age = age
+      self.breed = breed
+```
+
+- What are the components of the `Dog` class?
+
+- How do you create an instance of the `Dog` class?
+
+- How is this better than using a list or a dictionary?
+
+- What are the drawbacks associated with using objects?
