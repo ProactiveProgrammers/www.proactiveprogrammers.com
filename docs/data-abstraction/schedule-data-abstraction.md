@@ -247,6 +247,32 @@
     - **Stable Sorting**: process of sorting data such that the order of equal
       items in an input list are preserved
 
+## Optimization Problems
+
+### Technical Question
+
+- How can I use algorithms to efficiently solve an optimization problem
+  characterized by an objective function and a set of constraints?
+- Check out the [course slides](/slides/data-abstraction/optimization-problems/)
+  for a detailed investigation of these chapters!
+
+### Reading Assignments
+
+- Chapters 14 and 15 of *Introduction to Computation and Programming Using Python*
+
+???+ note "Technical Concepts"
+
+    - **Objective Function**: a function that is to either be maximized or
+      minimized in order to achieve a goal
+    - **Optimization Constraints**: restrictions on the solution to an
+      optimization problem
+    - **Knapsack Problem**: optimization problem with the goal of maximizing a
+      benefit and minimizing a weight
+    - **Greedy Algorithm**: practical approach to solving optimization problems
+      that chooses the next best item
+    - **Dynamic Programming**: strategy for problems that exhibit overlapping
+      subproblems and optimal substructure
+
 ## Learning Opportunities
 
 Interested in learning more about any of the topics on this schedule? If you
@@ -297,3 +323,6 @@ source code surveys, programming projects, and engineering efforts!
     - **Data Structures**
         - **Start**: November 15, 2021
         - **End**: November 19, 2021
+    - **Optimization Problems**
+        - **Start**: December 1, 2021
+        - **End**: December 8, 2021
