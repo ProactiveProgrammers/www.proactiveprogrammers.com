@@ -283,3 +283,6 @@ source code surveys, programming projects, and engineering efforts!
     - **Mathematical Mappings**
         - **Start**: November 15, 2021
         - **End**: November 19, 2021
+    - **Optimization Problems**
+        - **Start**: December 1, 2021
+        - **End**: December 8, 2021
