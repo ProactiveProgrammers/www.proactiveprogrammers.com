@@ -20,7 +20,7 @@ info: |
 
 # Discrete Structures
 
-## Mathematical Mappings
+## Object-Oriented Programming
 
 <div class="container my-5">
   &nbsp;
@@ -51,9 +51,9 @@ info: |
 
 ## Key Question
 
-> How do I use dictionaries, tuples, and lists to correctly implement efficient
-> mathematical functions in Python?
-
+> How do I use the concept of a relation and the industrially relevant practice
+> of object-oriented programming to correctly implement Python programs that
+> are easy to understand and maintain?
 
 </div>
 
@@ -63,19 +63,19 @@ info: |
 
 ## Learning Objectives
 
-> To **remember** and **understand** some concepts about the **mappings**, as
-> implemented with, for instance, a function or a dictionary
+> To **remember** and **understand** some concepts about the **objects**
+> and to learn different ways to represent and use objects in Python
 
 </div>
 
 <v-click>
 
-<div class="flex row mt-3 ml-2">
+<div class="flex row mt-0 ml-0">
 
-<uim-rocket class="text-6xl ml-10 mt-4 text-blue-600" />
+<uim-rocket class="text-6xl ml-5 mt-4 text-blue-600" />
 
 <div class="text-4xl text-true-gray-700 font-bold mt-6 ml-10">
-Let's implement mappings in Python!
+Let's create objects in Python programs!
 </div>
 
 </div>
