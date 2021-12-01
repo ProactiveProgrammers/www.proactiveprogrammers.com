@@ -401,3 +401,45 @@ class Dog:
 - How is this better than using a list or a dictionary?
 
 - What are the drawbacks associated with using objects?
+
+---
+
+# Constructing an Instance of `Dog` Class
+
+```python
+bosco = Dog("Bosco", 6, "Havanese")
+
+print(bosco)
+
+print(f"The dog's name is: {bosco.name}")
+print(f"The dog's age is: {bosco.age}")
+print(f"The dog's breed is: {bosco.breed}")
+```
+
+<br>
+
+- How is this **different** than using a list or a dictionary?
+
+- The `Dog` class defines a new type recognized by Python
+
+- Ensures the uniformity of all instance of `Dog` class
+
+---
+
+# Constructing Another Instance of `Dog`
+
+```python
+faith = Dog("Faith", 14, "Havanese")
+
+print(faith)
+
+print(f"The dog's name is: {faith.name}")
+print(f"The dog's age is: {faith.age}")
+print(f"The dog's breed is: {faith.breed}")
+```
+
+- This program produces same output a list-based and dictionary-based
+
+- Which approach is easier to implement? Easier to understand? Why?
+
+- Location of `bosco` and `faith` in computer's memory?
