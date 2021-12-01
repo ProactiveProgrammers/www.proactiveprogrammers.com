@@ -233,6 +233,29 @@ mathematical functions in Python?
     - **Key-Value Pair**: the two-tuples stored in a dictionary that map a key to a value
     - **Multiset**: a dictionary that maps specific values to a count of their occurrence
 
+## Object-Oriented Programming
+
+### Technical Question
+
+- How do I use the concept of a relation and the industrially relevant practice
+of object-oriented programming to correctly implement programs in Python that
+are easy to understand and maintain?
+
+### Reading Assignments
+
+- Chapters 10 and 11 of *Programming and Mathematical Thinking*
+- Check out the [course slides](/slides/discrete-structures/object-oriented/) for a detailed investigation of these chapters!
+
+???+ note "Technical Concepts"
+
+    - **Object**: instance of a class that has both state and behavior
+    - **Method**: executable function attached to an instance of a class
+    - **Attribute**: variable providing data storage for an instance of a class
+    - **Inheritance**: mechanism for building groups of related abstractions
+      that establishes a parent-child relationship
+    - **Information Hiding**: principle that the client of a class should only
+      rely on the public methods of the class
+
 ## Learning Opportunities
 
 Interested in learning more about any of the topics on this schedule? If you
@@ -283,6 +306,6 @@ source code surveys, programming projects, and engineering efforts!
     - **Mathematical Mappings**
         - **Start**: November 15, 2021
         - **End**: November 19, 2021
-    - **Optimization Problems**
+    - **Object-Oriented Programming**
         - **Start**: December 1, 2021
         - **End**: December 8, 2021
