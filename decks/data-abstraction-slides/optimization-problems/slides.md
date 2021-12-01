@@ -484,3 +484,89 @@ Always makes decisions that are locally optimal
 </div>
 
 [//]: # (Slide End }}})
+
+---
+
+[//]: # (Slide Start {{{)
+
+# Alternatives to Greedy Algorithms
+
+<v-clicks>
+
+- Genetic algorithms **evolve** a solution to an optimization problem:
+
+  - Representation of an individual in a population
+  - Fitness function that describes quality of solution
+  - Crossover operator that combines individuals
+  - Mutation operator that modify individuals
+  - Iteration approach that runs the genetic algorithm
+
+- Genetic algorithms perform a **global** optimization but are also **heuristic**
+
+- Is there an algorithm that will guarantee the correct answer? Yes!
+
+- **Exhaustive enumeration** will **always** find the **correct** solution to knapsack:
+
+  - Generate all subsets of the set of items in the set $I$
+  - Remove all combinations with a weight above the maximum
+  - Chose the combination with the maximum weight from those that remain
+
+</v-clicks>
+
+[//]: # (Slide End }}})
+
+---
+
+[//]: # (Slide Start {{{)
+
+<div class="flex row">
+
+<div class="text-7xl text-orange-600 font-bold mt-5 ml-4 mb-4">
+Drawbacks of the exhaustive algorithm?
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<mdi-alert-octagram class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+Powerset contains exponential number of elements
+</div>
+
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<mdi-alert-octagram  class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+Every subset must be checked in the worst case
+</div>
+
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<mdi-alert-octagram class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+Extreme costs limits the feasible problem size
+</div>
+
+</div>
+
+</div>
+
+[//]: # (Slide End }}})
