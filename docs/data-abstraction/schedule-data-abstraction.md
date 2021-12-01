@@ -251,8 +251,9 @@
 
 ### Technical Question
 
-- How can I use algorithms to efficiently solve an optimization problem
-  characterized by an objective function and a set of constraints?
+- How can I use algorithms to efficiently solve an optimization problem (e.g.,
+  the 0/1 knapsack problem) characterized by an objective function and a set of
+  constraints?
 - Check out the [course slides](/slides/data-abstraction/optimization-problems/)
   for a detailed investigation of these chapters!
 
