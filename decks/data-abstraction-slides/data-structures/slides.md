@@ -73,7 +73,7 @@ info: |
 <uim-rocket class="text-5xl ml-8 mt-5 text-blue-600" />
 
 <div class="text-3xl font-bold mt-8 ml-4">
-Let's explore the topic of data structures!
+Let's explore further the topic of data structures!
 </div>
 
 </div>
