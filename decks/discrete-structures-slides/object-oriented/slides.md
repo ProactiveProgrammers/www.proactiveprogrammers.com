@@ -262,7 +262,7 @@ The dog's breed is: Havanese
 
 - How can this approach lead to **defects**?
 
-- Are there other approaches to creating objects?
+- Are there **alternative approaches** to creating objects?
 
 ---
 
