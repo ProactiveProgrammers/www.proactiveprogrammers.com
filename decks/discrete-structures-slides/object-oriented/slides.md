@@ -404,7 +404,7 @@ class Dog:
 
 ---
 
-# Constructing an Instance of `Dog` Class
+# Constructing an Instance of `Dog`
 
 ```python
 bosco = Dog("Bosco", 6, "Havanese")
@@ -491,3 +491,22 @@ The dog's breed is: Havanese
 - Note that `bosco` and `faith` are distinct instances in memory!
 
 </div>
+
+---
+
+# Defining Methods for a Python Objects
+
+```python
+# define a class to represent a Dog entity
+class Dog:
+
+    # define a description method for the dog
+    def description(self):
+        return f"{self.name} is a {self.age}
+                 years old {self.breed}"
+
+    # define an action method for the dog
+    def action(self, action):
+        return f"Hey, {self.name} {action}!"
+```
+
