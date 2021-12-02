@@ -644,7 +644,6 @@ But, it sometimes feels more "complex" in Python!
 
 [//]: # (Slide End }}})
 
-
 ---
 
 [//]: # (Slide Begin {{{)
