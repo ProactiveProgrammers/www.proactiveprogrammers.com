@@ -438,11 +438,11 @@ print(f"The dog's age is: {faith.age}")
 print(f"The dog's breed is: {faith.breed}")
 ```
 
-- This program produces same output a list-based and dictionary-based
+- This program produces **same** output a list-based and dictionary-based!
 
-- Which approach is easier to implement? Easier to understand? Why?
+- Which approach is easier to **implement**? Easier to **understand**? Why?
 
-- Location of `bosco` and `faith` in computer's memory?
+- What is the **location** of `bosco` and `faith` in computer's memory?
 
 ---
 
@@ -464,7 +464,7 @@ The dog's breed is: Havanese
 
 - `bosco.breed` accesses the dog's breed
 
-- What about displaying details for the `faith` object?
+- What about **displaying** details for the `faith` object?
 
 </div>
 
@@ -488,13 +488,13 @@ The dog's breed is: Havanese
 
 - `faith.breed` accesses the dog's breed
 
-- Note that `bosco` and `faith` are distinct instances in memory!
+- Note that `bosco` and `faith` are **distinct** instances in memory!
 
 </div>
 
 ---
 
-# Defining Methods for a Python Objects
+# Defining Methods for Python Objects
 
 ```python
 # define a class to represent a Dog entity
@@ -509,4 +509,3 @@ class Dog:
     def action(self, action):
         return f"Hey, {self.name} {action}!"
 ```
-
