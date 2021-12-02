@@ -258,11 +258,15 @@ The dog's age is: 14
 The dog's breed is: Havanese
 ```
 
+<div class="mt-8">
+
 - Note that the program produces the **same output**!
 
 - How can this approach lead to **defects**?
 
 - Are there **alternative approaches** to creating objects?
+
+</div>
 
 ---
 
