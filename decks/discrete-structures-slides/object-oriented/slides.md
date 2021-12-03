@@ -384,6 +384,61 @@ Objects feature behavior with methods
 
 [//]: # (Slide End }}})
 
+---
+
+[//]: # (Slide Start {{{)
+
+<div class="flex row">
+
+<div class="text-7xl text-orange-600 font-bold mt-5 ml-4 mb-4">
+Benefits of inheritance and encapsulation?
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<mdi-check-circle class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+Inheritance supports code reuse and data sharing
+</div>
+
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<mdi-check-circle class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+Inheritance allows modelling of real-world entities
+</div>
+
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<mdi-check-circle class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+Encapsulation calls for state change with methods
+</div>
+
+</div>
+
+</div>
+
+[//]: # (Slide End }}})
 
 ---
 
@@ -516,6 +571,110 @@ class Dog:
 
 ---
 
+# Using the Methods of a Python Object
+
+```python
+print(bosco.description())
+print()
+print(bosco.action("roll over"))
+
+print(faith.description())
+print()
+print(faith.action("waive bye-bye"))
+```
+
+<div class="mt-8">
+
+- The `description` method is a function attached to an object
+
+- Both `description` and `action` can access to `bosco` 's state
+
+- What is the input, output, and behavior of these two methods?
+
+</div>
+
+---
+
+[//]: # (Slide Start {{{)
+
+<div class="flex row">
+
+<div class="text-7xl text-orange-600 font-bold mt-5 ml-4 mb-4">
+Methods in object-oriented programming?
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<mdi-check-circle class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+Methods define a behavior for instances of class
+</div>
+
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<mdi-check-circle class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+Methods accept input and produce output
+</div>
+
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<mdi-check-circle class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+The <code>self</code> parameter is always a method's input
+</div>
+
+</div>
+
+</div>
+
+[//]: # (Slide End }}})
+
+---
+
+# Output of an Object-Oriented Program
+
+```
+Bosco is a 6 years old Havanese
+Hey, Bosco roll over!
+
+Faith is a 14 years old Havanese
+Hey, Faith waive bye-bye!
+```
+
+<v-clicks>
+
+- An object has **state** stored in variables like `name`
+
+- An object has **behaviors** provided by methods like ` action`
+
+- Programmer's can define state and behaviors for new classes
+
+- The `Dog` class is now accessible to program, LSP, and linting tools
+
+</v-clicks>
+
+---
+
 [//]: # (Slide Start {{{)
 
 <div class="flex row">
@@ -569,3 +728,48 @@ But, it sometimes feels more "complex" in Python!
 </div>
 
 [//]: # (Slide End }}})
+
+---
+
+# Default Methods for a Python Objects
+
+```python
+class Dog:
+
+  def __str__(self):
+      return f"{self.name} is a
+               {self.age} years old
+               {self.breed}"
+
+bosco = Dog("Bosco", 6, "Havanese")
+print(bosco)
+```
+
+- The `__str__` method provides a textual representation of an object
+
+- Without this method Python will always display the address in memory
+
+---
+
+# Relationships and Objects in Python
+
+-   There are many ways to represent objects in Python
+
+-   Python supports object-oriented programming
+
+-   Creating and using objects in Python programs:
+
+    -   **Q1**: How can you use a list to represent an object?
+
+    -   **Q2**: How can you use a dictionary to represent an object?
+
+    -   **Q3**: How can you use object-oriented programming in Python?
+
+    -   **Q4**: What are the trade-offs in representing objects in
+        Python?
+
+    -   **Q5**: What is the internal implementation of objects in
+        Python?
+
+-   See <https://realpython.com/python3-object-oriented-programming/>
+    for more!
