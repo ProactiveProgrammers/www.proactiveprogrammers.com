@@ -538,7 +538,7 @@ Always makes decisions that are locally optimal
 - What is the worst-case time complexity of this approach?
 
   - For a set $S$ with $|S| = n$, the powerset contains $2^n$ subsets
-  - In the worst case it must calculate quality of each of these subsets
+  - In the worst case it must calculate the quality of each of these subsets
   - Overall, the algorithm has a worst-case time complexity of $O(n \times 2 ^n)$
 
 </v-clicks>
@@ -600,6 +600,68 @@ Extreme costs limits the feasible problem size
 </div>
 
 [//]: # (Slide End }}})
+
+---
+
+[//]: # (Slide Start {{{)
+
+# Output from Exhaustive Solver
+
+<style>
+  h2 {
+    font-size: 42px;
+    @apply text-orange-600 mb-4;
+  }
+  li {
+    font-size: 28px;
+    margin-top: 4px;
+    margin-bottom: 9px;
+  }
+</style>
+
+<v-clicks>
+
+<div class="border-2 rounded-2xl border-gray-700 bg-true-gray-300 p-5 mb-5">
+
+<pre>
+Use exhaustive enumeration to fill a knapsack of size 20:
+Total value of items taken is 275.0
+  (clock, 175, 10)
+  (painting, 90, 9)
+  (book, 10, 1)
+</pre>
+
+</div>
+
+<div class="border-2 rounded-2xl border-gray-700 bg-true-gray-300 p-5">
+
+<pre>
+Use greedy-by-value to fill a knapsack of size 20:
+Total value of items taken is 200.0
+
+Use greedy-by-weight to fill a knapsack of size 20:
+Total value of items taken is 170.0
+
+Use greedy-by-density to fill a knapsack of size 20:
+Total value of items taken is 255.0
+</pre>
+
+</div>
+
+</v-clicks>
+
+<div class="mt-5">
+</div>
+
+<v-clicks>
+
+- Exhaustive enumeration produces the **highest quality** solution!
+- For large-scale problem instances exhaustive solving is **infeasible**
+
+</v-clicks>
+
+[//]: # (Slide End }}})
+
 
 ---
 
