@@ -718,3 +718,221 @@ Greedy algorithm is guaranteed to be optimal
 </div>
 
 [//]: # (Slide End }}})
+
+---
+
+[//]: # (Slide Start {{{)
+
+# Intuitions about Dynamic Programming
+
+<v-clicks>
+
+- Dynamic programming efficiently solves problems when they have:
+
+  - **Optimal substructure**: globally optimal solutions can be found by
+  combining optimal solutions to subproblems, suggesting break down
+
+  - **Overlapping subproblems**: creating an optimal solution involves solving
+  the same problem many times, suggesting to store solutions
+
+- Instance of the 0/1 Knapsack problem exhibit **both** of these characteristics!
+
+- There are two main implementation strategies for dynamic programming:
+
+  - **Memoization** solves the original problem in a **top-down** fashion,
+  storing the solution to each subproblem in a table and looking there first
+  next time is solves a subproblem
+  - **Tabular** solves the problem in a **bottom-up** fashion, starting
+  with small problems and storing their solution in a table, combining them
+  when solving next smallest problems
+
+</v-clicks>
+
+[//]: # (Slide End }}})
+
+---
+
+[//]: # (Slide Start {{{)
+
+<div class="flex row">
+
+<div class="text-7xl text-orange-600 font-bold mt-5 ml-4 mb-4">
+How can we implement memoization in Python?
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<mdi-archive-search class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+Table stores previously computed values
+</div>
+
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<mdi-archive-search class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+Return previously computed value if available
+</div>
+
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<mdi-archive-search class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+Use the <code>@functools.lru_cache</code> decorator!
+</div>
+
+</div>
+
+</div>
+
+[//]: # (Slide End }}})
+
+---
+
+# Using an LRU Cache for Memoization
+
+```python
+@functools.lru_cache(maxsize=128)
+def fibonacci(n):
+    if n == 0:
+        return 0
+    elif n == 1:
+        return 1
+    return fibonacci(n - 1) + fibonacci(n - 2)
+```
+
+<v-clicks>
+
+- LRU cache has a `maxsize` that defines how many mappings it will store
+
+- It discards the least recently used mapping after reaching `maxsize`
+
+- This approach **improves time** efficiency while accepting **increased storage**
+
+</v-clicks>
+
+---
+
+[//]: # (Slide Start {{{)
+
+# Knapsack with Dynamic Programming
+
+<v-clicks>
+
+- Use a `memo` variable to keep track of previous solutions to subproblems
+
+- Explores subproblems systematically but always first checks the `memo`
+
+- Every time a new subproblem is solved, the `memo` stores a record of it
+
+- Declare the `memo` variable to be a dictionary:
+
+  - The key for the dictionary is the current subproblem
+  - The value for the dictionary is the subproblem's solution
+  - Storing and searching the dictionary is done efficiently
+
+- Refer to Figure 15-8 for a table of performance results for dynamic
+programming! Note that the **number of calls** does not grow exponentially!
+
+- Dynamic programming is **faster** than exponential but requires **large** tables
+
+</v-clicks>
+
+[//]: # (Slide End }}})
+
+---
+
+[//]: # (Slide Start {{{)
+
+<div class="flex row">
+
+<div class="text-7xl text-orange-600 font-bold mt-5 ml-4 mb-4">
+Trade-offs for dynamic programming?
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<mdi-swap-horizontal-variant class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+More effective solver than greedy algorithms
+</div>
+
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<mdi-swap-horizontal-variant class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+Significantly faster than exhaustive enumeration
+</div>
+
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<mdi-swap-horizontal-variant class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+Requires extra memory for the memoization table
+</div>
+
+</div>
+
+</div>
+
+[//]: # (Slide End }}})
+
+---
+
+# Solving Optimization Problems
+
+- Solving an optimization problem requires finding a solution that **maximizes**
+or **minimizes** and objective while meeting all solution **constraints**
+
+- Different strategies for solving an optimization problem like 0/1 knapsack
+
+- Trade-offs in terms of effectiveness and both time and space efficiency
+
+- Strategies for solving the 0/1 knapsack problem:
+
+    -   **Q1**: What are three different greedy strategies and how do they work?
+    -   **Q2**: What are the benefits and drawbacks of exhaustive enumeration?
+    -   **Q3**: Can a greedy algorithm solve the fractional knapsack problem?
+    Why?
+    -   **Q4**: How does dynamic programming solve the 0/1 knapsack problem?
+    -   **Q5**: How would you conduct an experiment to evaluate different solvers?
+
+- We will explore an **implementation** of a solution in an upcoming session!
