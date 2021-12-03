@@ -272,6 +272,63 @@ The dog's breed is: Havanese
 
 [//]: # (Slide Start {{{)
 
+<div class="flex row">
+
+<div class="text-7xl text-orange-600 font-bold mt-5 ml-4 mb-4">
+Trade-offs from using a list or a dictionary?
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<mdi-alert-circle class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+List and dictionary cannot enforce uniformity
+</div>
+
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<mdi-alert-circle class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+List and dictionary cannot add semantic meaning
+</div>
+
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<mdi-check-circle class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+But, both approaches leverage built-in structures!
+</div>
+
+</div>
+
+</div>
+
+[//]: # (Slide End }}})
+
+
+---
+
+[//]: # (Slide Start {{{)
+
 # Object-Oriented Programming
 
 <v-clicks>
@@ -667,11 +724,31 @@ Hey, Faith waive bye-bye!
 
 - An object has **behaviors** provided by methods like ` action`
 
-- Programmer's can define state and behaviors for new classes
+- Programmer's can **define** state and behaviors for **new** classes
 
-- The `Dog` class is now accessible to program, LSP, and linting tools
+- The `Dog` class is now accessible to both the **program** and the **LSP**
 
 </v-clicks>
+
+---
+
+# Default Methods for a Python Objects
+
+```python
+class Dog:
+
+  def __str__(self):
+      return f"{self.name} is a
+               {self.age} years old
+               {self.breed}"
+
+bosco = Dog("Bosco", 6, "Havanese")
+print(bosco)
+```
+
+- The `__str__` method provides a textual representation of an object
+
+- Without this method Python will always display the address in memory
 
 ---
 
@@ -731,33 +808,13 @@ But, it sometimes feels more "complex" in Python!
 
 ---
 
-# Default Methods for a Python Objects
-
-```python
-class Dog:
-
-  def __str__(self):
-      return f"{self.name} is a
-               {self.age} years old
-               {self.breed}"
-
-bosco = Dog("Bosco", 6, "Havanese")
-print(bosco)
-```
-
-- The `__str__` method provides a textual representation of an object
-
-- Without this method Python will always display the address in memory
-
----
-
 # Relationships and Objects in Python
 
--   There are many ways to represent objects in Python
+-   There are **many** ways to represent relationships and objects
 
--   Python supports object-oriented programming
+-   Python supports the foundations of **object-oriented programming**
 
--   Creating and using objects in Python programs:
+-   **Creating** and **using** objects in Python programs:
 
     -   **Q1**: How can you use a list to represent an object?
 
