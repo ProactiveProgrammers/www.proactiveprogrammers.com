@@ -519,6 +519,36 @@ Always makes decisions that are locally optimal
 
 [//]: # (Slide Start {{{)
 
+# Optimal Knapsack Solving
+
+<v-clicks>
+
+- Generating all subsets of a set is an **expensive** algorithm for large sets
+
+- Process involves listing all singleton sets like {Clock} and {Painting}
+
+- Then algorithm must generate all sets with two elements like {Vase, Book}
+
+- This process will continue for all possible subsets of items
+
+- The algorithm then removes all subsets with a weight greater than $M$
+
+- Among those subsets that remain, it must evaluate its overall quality
+
+- What is the worst-case time complexity of this approach?
+
+  - For a set $S$ with $|S| = n$, the powerset contains $2^n$ subsets
+  - In the worst case it must calculate quality of each of these subsets
+  - Overall, the algorithm has a worst-case time complexity of $O(n \times 2 ^n)$
+
+</v-clicks>
+
+[//]: # (Slide End }}})
+
+---
+
+[//]: # (Slide Start {{{)
+
 <div class="flex row">
 
 <div class="text-7xl text-orange-600 font-bold mt-5 ml-4 mb-4">
@@ -563,6 +593,62 @@ Every subset must be checked in the worst case
 
 <div class="text-3xl font-bold mt-10 ml-4">
 Extreme costs limits the feasible problem size
+</div>
+
+</div>
+
+</div>
+
+[//]: # (Slide End }}})
+
+---
+
+[//]: # (Slide Start {{{)
+
+<div class="flex row">
+
+<div class="text-7xl text-orange-600 font-bold mt-5 ml-4 mb-4">
+What about fractional knapsack problem?
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+Allows for items to be infinitely divisible
+</div>
+
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+Take as much of an item according to density
+</div>
+
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+Greedy algorithm is guaranteed to be optimal
 </div>
 
 </div>
