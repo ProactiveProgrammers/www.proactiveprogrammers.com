@@ -7,14 +7,15 @@ This assignment invites you to study, repair, and test a Python programs called
 program to determine which items to pick, from a list of items with both costs
 and benefits, in order to maximize the benefits while ensuring that the costs do
 not exceed a specified maximum cost. As part of this source code survey you will
-will implement and run three different greedy solvers called greedy-by-density,
-greedy-by-weight, and greedy-by-value that vary in the way in which they select
-items. You will also implement and run an exhaustive 0/1 knapsack solver that is
-guaranteed to find the optimal solution for a specific problem instance. With
-that said, this exhaustive solver must generate the powerset of the set of all
-items and is thus only efficient for small knapsack instances. After running all
-three of the greedy solvers and then exhaustive solver you will be able to
-determine which greedy approach is best suited for the problem instance.
+will implement and run three different greedy solvers called
+`greedy-by-density`, `greedy-by-weight`, and `greedy-by-value` that vary in the
+way in which they select items. You will also implement and run an exhaustive
+0/1 knapsack solver that is guaranteed to find the optimal solution for a
+specific problem instance. With that said, this exhaustive solver must generate
+the powerset of the set of all items and is thus only efficient for small
+knapsack instances. After running all three of the greedy solvers and then
+exhaustive solver you will be able to determine which greedy approach is best
+suited for the problem instance.
 
 ## Project Access
 
@@ -129,11 +130,8 @@ editor to answer all of the questions in the `writing/reflection.md` file. Since
 this is a source code survey, you should provide output from running each of the
 provided Python programs on your own laptop and then explain how the program's
 source code produced that output. A specific goal for this project is to ensure
-that you can explain the defects that you found in the function and identify all
-of the key components of a test case. You should also reflect on how the tests
-that you created as part of this source code survey are similar to and different
-from the ones you might create with a framework like
-[Pytest](https://docs.pytest.org/).
+that you can explain explain the behavior of the greedy solvers
+called `greedy-by-density`, `greedy-by-weight`, and `greedy-by-value`.
 
 ## Project Assessment
 
