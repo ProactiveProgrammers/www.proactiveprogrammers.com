@@ -24,7 +24,8 @@ description of the [technical
 skills](/proactive-skills/introduction-proactive-skills/). Specifically, you
 will need to use the `git clone` command to download the project from GitHub to
 your computer. Now you are ready to add source code and documentation to the
-project!
+project so that you can refine your understanding of how to process numerical
+data in Python!
 
 ## Code Survey
 

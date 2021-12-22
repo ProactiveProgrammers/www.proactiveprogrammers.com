@@ -28,8 +28,8 @@ to your computer by following the general-purpose instructions in the
 description of the [technical
 skills](/proactive-skills/introduction-proactive-skills/). Specifically, you
 will need to use the `git clone` command to download the project from GitHub to
-your computer. Now you are ready to add source code and documentation to the
-project!
+your computer. Now you are ready to ensure that you understand the debugging
+process for Python programs by practicing the skill in a hands-on fashion.
 
 ## Code Survey
 
