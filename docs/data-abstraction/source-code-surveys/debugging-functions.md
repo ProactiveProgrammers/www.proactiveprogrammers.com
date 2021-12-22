@@ -33,7 +33,7 @@ process for Python programs by practicing the skill in a hands-on fashion.
 
 ## Code Survey
 
-If you change into the `source` directory of your GitHub repository, you will
+If you change into the `source/` directory of your GitHub repository, you will
 see two Python files called `perform-primality-check.py` and
 `perform-abs-computation.py`. The `perform-primality-check` module contains a
 defective function with the signature `def is_prime(x: int) -> bool`. Your task

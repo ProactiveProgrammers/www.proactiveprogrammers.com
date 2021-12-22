@@ -31,7 +31,7 @@ functions.
 
 ## Code Survey
 
-If you change into the `source` directory of your GitHub repository, you will
+If you change into the `source/` directory of your GitHub repository, you will
 see two Python files called `compute-tuple-intersection.py` and
 `perform-apply-to-each.py`. You can run the `compute-tuple-intersection.py`
 program by typing `python compute-tuple-intersection.py` in your terminal
@@ -51,7 +51,7 @@ The first intersection tuple: ('a', 2)
 The second intersection tuple: (2, 'a')
 ```
 
-The second program in the `source` directory is called `perform-apply-to-each`.
+The second program in the `source/` directory is called `perform-apply-to-each`.
 Again, this program has several `TODO` markers that invite you to add source
 code from the text book to finish the implementation of the function with the
 signature `def apply_to_each(values: List[int], function: Callable) -> None`.

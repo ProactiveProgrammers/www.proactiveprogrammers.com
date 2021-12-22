@@ -32,7 +32,7 @@ knapsack solvers!
 
 ## Code Survey
 
-If you change into the `source` directory of your GitHub repository, you will
+If you change into the `source/` directory of your GitHub repository, you will
 see one Python file called `demonstrate-knapsack-solvers.py`. The
 `demonstrate-knapsack-solvers` module contains 
 

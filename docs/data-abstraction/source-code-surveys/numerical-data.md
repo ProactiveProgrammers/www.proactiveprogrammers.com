@@ -29,7 +29,7 @@ data in Python!
 
 ## Code Survey
 
-If you change into the `source` directory of your GitHub repository, you will
+If you change into the `source/` directory of your GitHub repository, you will
 see two Python files called `determine-even-odd.py` and
 `floating-point-confusion.py`. You can run the `determine-even-odd.py` program
 by typing `python determine-even-odd.py` in your terminal window. What output

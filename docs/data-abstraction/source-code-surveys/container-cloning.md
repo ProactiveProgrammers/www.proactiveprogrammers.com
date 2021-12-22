@@ -30,7 +30,7 @@ project so that you can learn more about how to clone a container in Python!
 
 ## Code Survey
 
-If you change into the `source` directory of your GitHub repository, you will
+If you change into the `source/` directory of your GitHub repository, you will
 see one Python file called `perform-container-cloning.py`. The
 `perform-container-cloning` module contains a defective function with the
 signature `def remove_duplicates(list_one: List[Any], list_two: List[Any]) ->
