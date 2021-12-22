@@ -77,7 +77,9 @@ knapsack problem, the `greedy-by-density` greedy solver produces the solution
 that is closest to the optimal one given by the exhaustive solver. It is
 important to note that, at least for this instance of the 0/1 knapsack problem,
 the `greedy-by-density` solver produces the solution that is closest to the
-optimal one given by the exhaustive solver.
+optimal one given by the exhaustive solver. Why do you think that this greedy
+solver produced the best solution? Do you think that it is always going to
+yield the best solution? Why or why not?
 
 ```text
 Running all of the knapsack solvers!
