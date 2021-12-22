@@ -74,8 +74,7 @@ Estimated peak memory according to the operating system:
    38.78515625 megabytes
 
 Estimated execution time according to the simple timer:
-    0.00 seconds
-
+    0.01 seconds
 ```
 
 This output shows that, for instance, the zeroth Fibonacci number is `0`, the
