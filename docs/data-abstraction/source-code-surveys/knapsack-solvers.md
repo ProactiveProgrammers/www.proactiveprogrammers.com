@@ -34,7 +34,41 @@ knapsack solvers!
 
 If you change into the `source/` directory of your GitHub repository, you will
 see one Python file called `demonstrate-knapsack-solvers.py`. The
-`demonstrate-knapsack-solvers` module contains 
+`demonstrate-knapsack-solvers` module contains an incomplete class definition
+written as `class Item(object):`. You need to follow the `TODO` markers in this
+class definition, by inputting the source code from the text book, for functions
+like the constructor `def __init__(self, n, v, w)` and like accessor functions
+such as `def get_name(self) -> str`, `def get_value(self) -> int`, `def
+get_weight(self) -> int`. Since your textbook does not provide an implementation
+of a function for generating the powerset of a set, you will also need to
+consult the references in the source code and create your own function. Finally,
+you will need to implement the function that uses the generated powerset to
+perform an exhaustive search of all possible combinations of input.
+
+To ensure that the `demonstrate-knapsack-solvers.py` script analyzes the same
+instance of the 0/1 knapsack problem as is found in the textbook, you should use
+the following `build_items` function that is also available in the provided
+source code. Lines `3` through `5` of this function respectively create the
+input to the knapsack solver that includes the name of the item and its value
+and weight (i.e., its cost). The `List` of `Item` objects returned from this
+function will be processed by both the greedy and exhaustive solvers.
+
+```python linenums="1"
+def build_items() -> List[Item]:
+    """Create an instance of a 0/1 knapsack using instances of Item."""
+    names = ["Clock", "Painting", "Radio", "Vase", "Book", "Computer"]
+    values = [175, 90, 20, 50, 10, 200]
+    weights = [10, 9, 4, 2, 1, 20]
+    items: List[Item] = []
+    for i in range(len(values)):
+        items.append(Item(names[i], values[i], weights[i]))
+    return items
+```
+
+After you have addressed all of the `TODO` markers inside of the provided source
+code, you can run the program by typing the command `python
+demonstrate-knapsack-solvers.py` as long as you have changed into the `source/`
+directory.
 
 ```text
 Running all of the knapsack solvers!
