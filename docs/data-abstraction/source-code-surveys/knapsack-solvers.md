@@ -50,8 +50,10 @@ instance of the 0/1 knapsack problem as is found in the textbook, you should use
 the following `build_items` function that is also available in the provided
 source code. Lines `3` through `5` of this function respectively create the
 input to the knapsack solver that includes the name of the item and its value
-and weight (i.e., its cost). The `List` of `Item` objects returned from this
-function will be processed by both the greedy and exhaustive solvers.
+and weight (i.e., its cost). Lines `6` through `8` of this function populate the
+`items` `List` with all of the previously created instances of `Item`. Finally,
+the `List` of `Item` objects returned by this function on line `9` will be
+processed by both the greedy and exhaustive solvers.
 
 ```python linenums="1"
 def build_items() -> List[Item]:
