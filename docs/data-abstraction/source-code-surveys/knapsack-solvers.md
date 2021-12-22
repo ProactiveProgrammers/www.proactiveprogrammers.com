@@ -3,21 +3,18 @@
 ## Project Goals
 
 This assignment invites you to study, repair, and test a Python programs called
-`demonstrate-knapsack-solvers`.
-
-
-Specifically, it affords you to opportunity to
-continue to practice the task of debugging and testing a Python function that
-has defects inside of it. After learning more about how containers are cloned in
-a Python program and why this is needed when a program iterates through a
-collection while changing it at the same time, you will find a fix the fault in
-the provided source code. Once you have fixed the defect, you will document a
-provided test case that (i) creates an input for a function, (ii) passes that
-input to the function under test, (iii) captures the output of the function
-under test, and (iv) asserts that the captured function output equals the
-expected output if the function was implemented correctly. Instead of using a
-test automation framework to run the provided test you will run a function to
-complete the aforementioned steps.
+`demonstrate-knapsack-solvers`. The 0/1 Knapsack problem requires a computer
+program to determine which items to pick, from a list of items with both costs
+and benefits, in order to maximize the benefits while ensuring that the costs do
+not exceed a specified maximum cost. As part of this source code survey you will
+will implement and run three different greedy solvers called greedy-by-density,
+greedy-by-weight, and greedy-by-value that vary in the way in which they select
+items. You will also implement and run an exhaustive 0/1 knapsack solver that is
+guaranteed to find the optimal solution for a specific problem instance. With
+that said, this exhaustive solver must generate the powerset of the set of all
+items and is thus only efficient for small knapsack instances. After running all
+three of the greedy solvers and then exhaustive solver you will be able to
+determine which greedy approach is best suited for the problem instance.
 
 ## Project Access
 
@@ -75,9 +72,34 @@ correctness of `remove_duplicates`. When the test case for the
 `remove_duplicates` function passes, then it should produce the following
 output:
 
-```
-Expected output correct for input lists: [1, 2, 3, 4] and [1, 2, 5, 6]
-The test case passed!
+```text
+Running all of the knapsack solvers!
+
+Using greedy-by-value to fill knapsack of size 20
+Total value of items taken is 200.0
+   (Computer, 200, 20)
+
+Using greedy-by-weight to fill knapsack of size 20
+Total value of items taken is 170.0
+   (Book, 10, 1)
+   (Vase, 50, 2)
+   (Radio, 20, 4)
+   (Painting, 90, 9)
+
+Using greedy-by-density to fill knapsack of size 20
+Total value of items taken is 255.0
+   (Vase, 50, 2)
+   (Clock, 175, 10)
+   (Book, 10, 1)
+   (Radio, 20, 4)
+
+Generating the powerset of all items!
+
+Using exhaustive enumeration to fill a knapsack of size 20
+Total value of items taken is 275.0
+   (Clock, 175, 10)
+   (Painting, 90, 9)
+   (Book, 10, 1)
 ```
 
 ## Running Checks
