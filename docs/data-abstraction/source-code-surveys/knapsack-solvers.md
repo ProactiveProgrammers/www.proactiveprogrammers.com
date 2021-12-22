@@ -3,7 +3,10 @@
 ## Project Goals
 
 This assignment invites you to study, repair, and test a Python programs called
-`demonstrate-knapsack-solvers`. Specifically, it affords you to opportunity to
+`demonstrate-knapsack-solvers`.
+
+
+Specifically, it affords you to opportunity to
 continue to practice the task of debugging and testing a Python function that
 has defects inside of it. After learning more about how containers are cloned in
 a Python program and why this is needed when a program iterates through a
