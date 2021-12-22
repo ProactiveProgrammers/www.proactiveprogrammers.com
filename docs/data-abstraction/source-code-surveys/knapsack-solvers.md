@@ -68,7 +68,14 @@ def build_items() -> List[Item]:
 After you have addressed all of the `TODO` markers inside of the provided source
 code, you can run the program by typing the command `python
 demonstrate-knapsack-solvers.py` as long as you have changed into the `source/`
-directory.
+directory. If you correctly implemented the program and provided all of the
+source code required by the `TODO` markers it should produce the following
+output. It is important to note that, at least for this instance of the 0/1
+knapsack problem, the `greedy-by-density` greedy solver produces the solution
+that is closest to the optimal one given by the exhaustive solver. It is
+important to note that, at least for this instance of the 0/1 knapsack problem,
+the `greedy-by-density` solver produces the solution that is closest to the
+optimal one given by the exhaustive solver.
 
 ```text
 Running all of the knapsack solvers!
