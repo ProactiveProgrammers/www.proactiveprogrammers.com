@@ -91,15 +91,15 @@ correctly implementing and writing about this project's program.
 ## Project Reflection
 
 Once you have finished all of the previous technical tasks, you can use a text
-editor to answer all of the questions in the `writing/reflection.md` file. Since
-this is a source code survey, you should provide output from running each of the
-provided Python programs on your own laptop and then explain how the program's
-source code produced that output. A specific goal for this project is to ensure
-that you can explain the defects that you found in the function and identify all
-of the key components of a test case. You should also reflect on how the tests
-that you created as part of this source code survey are similar to and different
-from the ones you might create with a framework like
-[Pytest](https://docs.pytest.org/).
+editor to answer all of the questions in the `writing/reflection.md` file.
+Since this is a source code survey, you should provide output from running each
+of the provided Python programs on your own laptop and then explain how the
+program's source code produced that output. A specific goal for this project is
+to ensure that you can explain the syntax and meaning of function signatures
+like `def remove_duplicates(list_one: List[Any], list_two: List[Any]) ->
+Tuple[List[Any], List[Any]]`. You should also be able to explain what defect(s)
+you found in the `remove_duplicates` function and then discuss how you fixed
+them.
 
 ## Project Assessment
 
