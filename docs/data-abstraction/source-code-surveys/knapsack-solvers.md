@@ -26,52 +26,15 @@ description of the [technical
 skills](/proactive-skills/introduction-proactive-skills/). Specifically, you
 will need to use the `git clone` command to download the project from GitHub to
 your computer. Now you are ready to add source code and documentation to the
-project and then run the program to learn more about the trade-offs in different
-implementations of 0/1 knapsack solvers!
+project and then run the program to learn more about the efficiency and
+effectiveness trade-offs associated with different implementations of 0/1
+knapsack solvers!
 
 ## Code Survey
 
 If you change into the `source` directory of your GitHub repository, you will
 see one Python file called `demonstrate-knapsack-solvers.py`. The
-`demonstrate-knapsack-solvers` module contains a defective function with the
-signature `def remove_duplicates(list_one: List[Any], list_two: List[Any]) ->
-Tuple[List[Any], List[Any]]`. Your task is to identify and fix the defects
-inside of this function! To aid your debugging efforts, you should use and
-extend the `def test_remove_duplicates() -> bool` function that should subject
-the `remove_duplicates` function to several tests. The test called
-`test_remove_duplicates` is implemented in the following fashion:
-
-```python linenums="1"
-list_one = [1, 2, 3, 4]
-list_two = [1, 2, 5, 6]
-expected_list_one = [3, 4]
-expected_list_two = [5, 6]
-test_case_passed = True
-(actual_list_one, actual_list_two) = remove_duplicates(list_one, list_two)
-if expected_list_one == actual_list_one and expected_list_two == actual_list_two:
-    print("Expected output correct for input lists: [1, 2, 3, 4] and [1, 2, 5, 6]")
-else:
-    print("Expected output not correct for input lists: [1, 2, 3, 4] and [1, 2, 5, 6]")
-    print(f"   actual_list_one: {actual_list_one}")
-    print(f"   actual_list_two: {actual_list_two}")
-    test_case_passed = False
-return test_case_passed
-```
-
-Lines `1` and `2` of this function create two lists, called `list_one` and
-`list_two`, that have in common the values `1` and `2`. Lines `3` and `4` of
-this function indicate that, if the `remove_duplicates` function worked
-correctly, then its output should be a tuple container the lists `[3, 4]` and
-`[5, 6]`. After making the assumption that the test case will pass on line `5`,
-the function calls `remove_duplicates` and checks to see if the expected output
-equals the actual output returned by the function. If the expected output is
-correct, then line `8` displays a message indicating that is the case.
-Otherwise, lines `10` through `13` signal that the test did not pass and display
-diagnostic output to highlight this fact for the tester. Ultimately, if this
-test case passes correctly it will help to establish a confidence in the
-correctness of `remove_duplicates`. When the test case for the
-`remove_duplicates` function passes, then it should produce the following
-output:
+`demonstrate-knapsack-solvers` module contains 
 
 ```text
 Running all of the knapsack solvers!
