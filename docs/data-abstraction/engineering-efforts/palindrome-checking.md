@@ -215,15 +215,10 @@ block, explain the meaning of the Python source code segments that you
 implemented, and answer all of the other questions about your experiences in
 completing this project. A specific goal of the reflection for this project is
 to continue to explore how test cases help a developer to both establish a
-confidence in the correctness of and to find bugs in a Python program.
-
-In addition to explicitly answering the aforementioned research questions,
-please make sure that you explain why the performance trends are evident in your
-data by referencing and explaining the source code that implements each of the
-algorithms implemented in the `palindromechecker`. Once you have finished
-addressing the prompts in the `writing/reflection.md` file that have `TODO`
-makers given as reminders, make sure that you either delete the prompt or
-carefully integrate a revised version of it into your writing.
+confidence in the correctness of and to find bugs in a Python program. Once you
+have finished addressing the prompts in the `writing/reflection.md` file that
+have `TODO` makers given as reminders, make sure that you either delete the
+prompt or carefully integrate a revised version of it into your writing.
 
 ## Project Assessment
 
