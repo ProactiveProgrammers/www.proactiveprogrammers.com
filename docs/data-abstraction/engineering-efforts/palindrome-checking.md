@@ -85,29 +85,61 @@ need to implement before `palindromechecker` will produce correct output. Once
 you complete a task associated with a `TODO` marker, make sure that you delete
 it and revise the prompt associated with the marker into a meaningful comment.
 To ensure that the program works correctly, you must implement all of these
-functions in the `fibonacci` module:
+functions in the `palindrome` module:
 
-- `def fibonacci_recursivelist(number: int) -> List[int]`
-- `def fibonacci_recursivetuple(number: int) -> Tuple[int, ...]`
-- `def fibonacci_iterativetuple(number: int) -> Tuple[int, ...]`
-- `def fibonacci_iterativelist(number: int) -> List[int]`
+- `def to_chars(word: str) -> str`
+- `def is_palindrome(word: str) -> bool`
+- `def is_palindrome_recursive(word: str) -> bool`
+- `is_palindrome_reverse(word: str) -> bool`
 
-After finishing your implementation of `palindromechecker` you should conduct an
-experiment to evaluate the efficiency of the different algorithms that it
-provides. You should refer to the `writing/reflection.md` file for more details
-about the experiment that you should conduct and how you must configure the
-`palindromechecker` program to collect data. Ultimately, you need to answer the
-following three research questions:
+After finishing your implementation of `palindromechecker` you should repeatedly
+run the program in different configurations to confirm that it produces the
+correct output. Since the `palindromechecker` provides a checking mode based on
+reversing the string or recursively checking the string, you should make sure
+that both approaches work correctly. You should also confirm that the
+`palindromechecker` can correctly determine when a word both is and is not a
+palindrome. Here are some examples that show the program's correct execution for
+different values for the `--word` and `--approach` arguments.
 
-- Is the `palindromechecker` faster when it uses the `recursive` or the
-  `iterative` method?
-- Is the `palindromechecker` faster when it stores data in a `list` or a `tuple`
-  data container?
-- Which configuration of the `palindromechecker` is the most memory efficient?
-- Overall, what is the fastest approach for computing and storing the Fibonacci
-  sequence?
-- Overall, are there modes of the `palindromechecker` that are less suitable for
-  Python?
+- `poetry run palindromechecker --word civic --approach reverse`
+
+```
+✨ Awesome, using the recursive approach for palindrome checking!
+
+🔖 Going to check to see if the word "civic" is a palindrome!
+
+😆 Is this word a palindrome? Yes, it is!
+```
+
+- `poetry run palindromechecker --word civic --approach reverse`
+
+```
+✨ Awesome, using the reverse approach for palindrome checking!
+
+🔖 Going to check to see if the word "civic" is a palindrome!
+
+😆 Is this word a palindrome? Yes, it is!
+```
+
+- `poetry run palindromechecker --word origin --approach recursive`
+
+```
+✨ Awesome, using the recursive approach for palindrome checking!
+
+🔖 Going to check to see if the word "origin" is a palindrome!
+
+😆 Is this word a palindrome? No, it is not!
+```
+
+- `poetry run palindromechecker --word origin --approach reverse`
+
+```
+✨ Awesome, using the reverse approach for palindrome checking!
+
+🔖 Going to check to see if the word "origin" is a palindrome!
+
+😆 Is this word a palindrome? No, it is not!
+```
 
 ## Running Checks
 
