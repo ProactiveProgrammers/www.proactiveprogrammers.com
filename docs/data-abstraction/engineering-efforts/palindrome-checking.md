@@ -174,11 +174,11 @@ relevant instructions in the [technical
 skills](/proactive-skills/introduction-proactive-skills/) to enter into a Docker
 container and run the command `gradle grade` to check your work. If `gradle
 grade` shows that all checks pass, you will know that you made progress towards
-correctly implementing and writing about `palindromechecker`. If your program has
-all of the anticipated functionality, you can run the command `poetry run task
-test` and see that the test suite produces output like the following. If some of
-the provided tests are not passing, then make sure that you review the test output
-to see what is wrong as you fix the implementation of the required functions.
+correctly implementing and writing about `palindromechecker`. If your program
+has all of the anticipated functionality, you can run the command `poetry run
+task test` and see that the test suite produces output like the following. If
+some of the provided tests do not pass, then you should review the test output
+to see what is wrong as you fix any required functions that are broken.
 
 ```
 tests/test_main.py ....
