@@ -65,8 +65,8 @@ Please note that the provided source code does not contain all of the
 functionality to produce the output displayed in this section. As the next
 section explains, you should add the features needed to ensure that
 `palindromechecker` produces the expected output! Importantly, this project
-invites you to add the following functionality: (i) a recursion-based and
-reversal-based algorithm for palindrome checking, (ii) 
+invites you to add both a recursion-based and reversal-based algorithm for
+palindrome checking.
 
 ???+ note
 
