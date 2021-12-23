@@ -99,7 +99,9 @@ reversing the string or recursively checking the string, you should make sure
 that both approaches work correctly. You should also confirm that the
 `palindromechecker` can correctly determine when a word both is and is not a
 palindrome. Here are some examples that show the program's correct execution for
-different values for the `--word` and `--approach` arguments.
+different values for the `--word` and `--approach` arguments. If you correctly
+resolve all of the `TODO` markers in the provided source code your program
+should produce the same output for each of these commands.
 
 - `poetry run palindromechecker --word civic --approach reverse`
 
