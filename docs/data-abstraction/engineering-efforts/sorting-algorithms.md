@@ -2,8 +2,12 @@
 
 ## Project Goals
 
-This engineering effort invites you to implement a program called
-`listsorting` that performs a 
+This engineering effort invites you to implement and use a program called
+`listsorting` that performs a doubling experiment to evaluate the performance of
+several different sorting algorithms. First, you will follow the [Sorting
+Algorithms in Python](https://realpython.com/sorting-algorithms-python/)
+tutorial from [Real Python](https://realpython.com/) and add certain algorithms
+to your project, like bubble sort and quick sort.
 
 
 In addition to implementing these two approaches for palindrome checking, you
