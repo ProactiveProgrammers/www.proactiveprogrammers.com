@@ -36,28 +36,48 @@ project!
 
 ## Expected Output
 
-This project invites you to implement a Python program, called
-`listsorting`, that features different ways to compute all of the numbers
-in the Fibonacci sequence up to a specified maximum number. After you finish a
-correct implementation of all the program's features, running it with the
-command `poetry run listsorting --number 10 --approach recursivelist
---display`, it will produce output like the following.
+This project invites you to implement a Python program, called `listsorting`,
+that features different ways to compute all of the numbers in the Fibonacci
+sequence up to a specified maximum number. After you finish a correct
+implementation of all the program's features, running it with the command
+`poetry run listsorting --starting-size 100 --number-doubles 6 --approach
+bubble`, it will produce output like the following.
+
+```
+✨ Conducting an experiment to measure the performance of list sorting!
+
+   The chosen sorting algorithm: bubble
+   Starting size of the data container: 100
+   Number of doubles to execute: 6
+
+✨ Here are the results from running the experiment!
+
+  Input Size    Min time (s)    Max time (s)    Avg time (s)
+------------  --------------  --------------  --------------
+         100         0.00422         0.00458         0.00444
+         200         0.01779         0.01831         0.01807
+         400         0.07311         0.07577         0.07459
+         800         0.3057          0.3085          0.3075
+        1600         1.29919         1.30794         1.30381
+        3200         5.33471         5.37118         5.35105
+```
 
 Don't forget that you can display `listsorting`'s help menu and learn more
 about its features by typing `poetry run listsorting --help` to show the
-following output. This help menu shows that `listsorting` also has a
-`--pyinstrument` flag that enables it to produce a web-based output that shows
-the function calls made by the `listsorting` and the performance results
-created by the [Pyinstrument](https://github.com/joerick/pyinstrument) package.
+following output.
 
 ```
 Usage: listsorting [OPTIONS]
 
-  Use a method to determine if an input string is a palindrome or not.
+  Conduct a doubling experiment to measure the performance of list
+  sorting for various algorithms.
 
 Options:
-  --word TEXT                     [required]
-  --approach [recursive|reverse]  [default: reverse]
+  --starting-size INTEGER         [default: 1000000]
+  --maximum-value INTEGER         [default: 10000]
+  --number-doubles INTEGER        [default: 10]
+  --approach [bubble|insertion|merge|quick|tim]
+                                  [default: bubble]
   --install-completion            Install completion for the current
                                   shell.
 
