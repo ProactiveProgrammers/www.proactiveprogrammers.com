@@ -129,19 +129,55 @@ worst-case time complexity of each sorting algorithm.
 
 ## Adding Functionality
 
-If you study the file `listsorting/listsorting/main.py` you will see
-that it has many `TODO` markers that designate the parts of the program that you
-need to implement before `listsorting` will produce correct output. Once
-you complete a task associated with a `TODO` marker, make sure that you delete
-it and revise the prompt associated with the marker into a meaningful comment.
-To ensure that the program works correctly, you must implement all of these
-functions in the `palindrome` module:
+If you study the file `listsorting/listsorting/sorting.py` you will see that it
+has many `TODO` markers that designate the sorting algorithms that you must
+implement so as to ensure that `listsorting` will produce correct output. For
+instance, you will need to provide an implementation of each sorting algorithm,
+like bubble sort, that has a signature like `def bubble_sort(array: List[int])
+-> List[int]`. You will also need to resolve all of the `TODO` markers in
+`listsorting/listsorting/main.py` that involve calling the functions in
+`listsorting/listsorting/experiment.py` to run each of the steps in a doubling
+experiment. Once you complete a task associated with a `TODO` marker, make sure
+that you delete it and revise the prompt associated with the marker into a
+meaningful comment. Specifically, you must ensure that the `listsorting`
+function in the `main` module calls the following
+`run_sorting_algorithm_experiment_campaign` function.
 
-After finishing your implementation of `listsorting` you should repeatedly
-run the program in different configurations to conduct an experiment to evaluate
-the performance of each sorting algorithm that you implemented. This process
-will result in a data table that summarizes the results from a doubling
-experiment for each sorting algorithm.
+```python
+def run_sorting_algorithm_experiment_campaign(
+    algorithm: str,
+    starting_size: int,
+    maximum_value: int,
+    number_doubles: int,
+) -> List[List[Union[int, Tuple[float, float, float]]]]:
+    data_table = []
+    while number_doubles > 0:
+        random_list = generate_random_container(starting_size, maximum_value)
+        performance_data = run_sorting_algorithm(algorithm, random_list)
+        data_table_row = [
+            starting_size,
+            performance_data[0],
+            performance_data[1],
+            performance_data[2],
+        ]
+        data_table.append(data_table_row)
+        number_doubles = number_doubles - 1
+        starting_size = starting_size * 2
+    return data_table
+```
+
+Notably, the `run_sorting_algorithm_experiment_campaign` function completes all
+of the steps associated with running a specified sorting algorithm in a doubling
+experiment. Upon completion, this function returns a `data_table` that contains
+performance results for each round of the doubling experiment, as shown in the
+previous section. After finishing your implementation of `listsorting`,
+including the call to `run_sorting_algorithm_experiment_campaign` in `main`, you
+should repeatedly run the program in different configurations to conduct an
+experiment to evaluate the performance of each sorting algorithm that you
+implemented. This process will result in a data table that summarizes the
+results from a doubling experiment for each sorting algorithm. You can use the
+data in the table to calculate the doubling ratio and then use it to predict the
+likely worst-case time complexity of each sorting algorithm.
 
 ## Running Checks
 
