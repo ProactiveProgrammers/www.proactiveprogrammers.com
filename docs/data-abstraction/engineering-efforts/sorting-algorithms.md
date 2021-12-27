@@ -109,9 +109,14 @@ Options:
 Please note that the provided source code does not contain all of the
 functionality to produce the output displayed in this section. As the next
 section explains, you should add the features needed to ensure that
-`listsorting` produces the expected output! Importantly, this project
-invites you to add both a recursion-based and reversal-based algorithm for
-palindrome checking.
+`listsorting` produces the expected output! Drawing from the source code
+provided in the aforementioned [Sorting Algorithms in
+Python](https://realpython.com/sorting-algorithms-python/) tutorial from [Real
+Python](https://realpython.com/), this project invites you to add all of the
+sorting algorithms, use the `listsorting` program to conduct a doubling
+experiment for each of the sorting algorithms and, finally, leverage the data
+tables of empirical results to calculate a doubling ratio and predict the likely
+worst-case time complexity of each sorting algorithm.
 
 ???+ note
 
@@ -119,8 +124,7 @@ palindrome checking.
     your terminal window to first go into the GitHub repository containing this
     project and then go into the `listsorting` directory that contains the
     project's source code. Finally, remember that before running the program you
-    must run `poetry install` to add its dependencies, such as Pyinstrument,
-    Pytest, and Rich.
+    must run `poetry install` to add its dependencies, such as Pytest and Rich.
 
 ## Adding Functionality
 
