@@ -18,8 +18,9 @@ of each sorting algorithms. In addition to implementing the sorting algorithms
 and extending the benchmarking framework, you will use a comprehensive
 command-line interface, implemented with [Typer](https://typer.tiangolo.com/),
 that allows you to easily control the execution of a doubling experiment.
-Finally, you will use your empirical results to better understand the
-performance trade-offs of sorting algorithms implemented in Python.
+Finally, you will use your empirical results from using the `listsorting`
+program to better understand the performance trade-offs associated with sorting
+algorithms implemented in Python.
 
 ## Project Access
 
