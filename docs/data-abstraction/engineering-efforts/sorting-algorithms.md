@@ -7,13 +7,19 @@ This engineering effort invites you to implement and use a program called
 several different sorting algorithms. First, you will follow the [Sorting
 Algorithms in Python](https://realpython.com/sorting-algorithms-python/)
 tutorial from [Real Python](https://realpython.com/) and add certain sorting
-algorithms, like bubble sort and quick sort, to your project.
-
-
-In addition to implementing these two approaches for palindrome checking, you
-will use a comprehensive command-line interface, implemented with
-[Typer](https://typer.tiangolo.com/), that allows you to easily control the
-execution of a doubling experiment.
+algorithms, like bubble sort and quick sort, to your project. After you have
+implemented all of the required sorting algorithms, you will use the provided
+benchmarking framework to conduct a doubling experiment. This doubling
+experiment will invoke a specific sorting algorithm while repeatedly double the
+size of the input to the sorting algorithm for a specific number of doubling
+rounds. Since the doubling experiment enables you to calculate a doubling ratio,
+it enables you to experimentally predict the likely worst-case time complexity
+of each sorting algorithms. In addition to implementing the sorting algorithms
+and extending the benchmarking framework, you will use a comprehensive
+command-line interface, implemented with [Typer](https://typer.tiangolo.com/),
+that allows you to easily control the execution of a doubling experiment.
+Finally, you will use your empirical results to better understand the
+performance trade-offs of sorting algorithms implemented in Python.
 
 ## Project Access
 
