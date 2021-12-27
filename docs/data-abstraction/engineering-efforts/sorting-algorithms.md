@@ -122,9 +122,10 @@ worst-case time complexity of each sorting algorithm.
 
     Don't forget that if you want to run the `listsorting` program you must use
     your terminal window to first go into the GitHub repository containing this
-    project and then go into the `listsorting` directory that contains the
+    project and then go into the `listsorting/` directory that contains the
     project's source code. Finally, remember that before running the program you
-    must run `poetry install` to add its dependencies, such as Pytest and Rich.
+    must run `poetry install` to add its dependencies, such as Pytest for
+    automated testing and Rich for colorful terminal output!
 
 ## Adding Functionality
 
@@ -136,11 +137,6 @@ it and revise the prompt associated with the marker into a meaningful comment.
 To ensure that the program works correctly, you must implement all of these
 functions in the `palindrome` module:
 
-- `def to_chars(word: str) -> str`
-- `def is_palindrome(word: str) -> bool`
-- `def is_palindrome_recursive(word: str) -> bool`
-- `is_palindrome_reverse(word: str) -> bool`
-
 After finishing your implementation of `listsorting` you should repeatedly
 run the program in different configurations to confirm that it produces the
 correct output. Since the `listsorting` provides a checking mode based on
@@ -148,49 +144,7 @@ reversing the string or recursively checking the string, you should make sure
 that both approaches work correctly. You should also confirm that the
 `listsorting` can correctly determine when a word both is and is not a
 palindrome. Here are some examples that show the program's correct execution for
-different values for the `--word` and `--approach` arguments. If you correctly
-resolve all of the `TODO` markers in the provided source code your program
-should produce the same output for each of these commands.
-
-- `poetry run listsorting --word civic --approach reverse`
-
-```
-✨ Awesome, using the recursive approach for palindrome checking!
-
-🔖 Going to check to see if the word "civic" is a palindrome!
-
-😆 Is this word a palindrome? Yes, it is!
-```
-
-- `poetry run listsorting --word civic --approach reverse`
-
-```
-✨ Awesome, using the reverse approach for palindrome checking!
-
-🔖 Going to check to see if the word "civic" is a palindrome!
-
-😆 Is this word a palindrome? Yes, it is!
-```
-
-- `poetry run listsorting --word origin --approach recursive`
-
-```
-✨ Awesome, using the recursive approach for palindrome checking!
-
-🔖 Going to check to see if the word "origin" is a palindrome!
-
-😆 Is this word a palindrome? No, it is not!
-```
-
-- `poetry run listsorting --word origin --approach reverse`
-
-```
-✨ Awesome, using the reverse approach for palindrome checking!
-
-🔖 Going to check to see if the word "origin" is a palindrome!
-
-😆 Is this word a palindrome? No, it is not!
-```
+different values for the `--word` and `--approach` arguments.
 
 ## Running Checks
 
