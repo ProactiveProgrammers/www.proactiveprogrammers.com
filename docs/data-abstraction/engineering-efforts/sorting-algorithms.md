@@ -125,7 +125,7 @@ worst-case time complexity of each sorting algorithm.
     project and then go into the `listsorting/` directory that contains the
     project's source code. Finally, remember that before running the program you
     must run `poetry install` to add its dependencies, such as Pytest for
-    automated testing and Rich for colorful terminal output!
+    automated testing and Rich for colorful output!
 
 ## Adding Functionality
 
@@ -138,13 +138,10 @@ To ensure that the program works correctly, you must implement all of these
 functions in the `palindrome` module:
 
 After finishing your implementation of `listsorting` you should repeatedly
-run the program in different configurations to confirm that it produces the
-correct output. Since the `listsorting` provides a checking mode based on
-reversing the string or recursively checking the string, you should make sure
-that both approaches work correctly. You should also confirm that the
-`listsorting` can correctly determine when a word both is and is not a
-palindrome. Here are some examples that show the program's correct execution for
-different values for the `--word` and `--approach` arguments.
+run the program in different configurations to conduct an experiment to evaluate
+the performance of each sorting algorithm that you implemented. This process
+will result in a data table that summarizes the results from a doubling
+experiment for each sorting algorithm.
 
 ## Running Checks
 
@@ -184,9 +181,7 @@ some of the provided tests do not pass, then you should review the test output
 to see what is wrong as you fix any required functions that are broken.
 
 ```
-tests/test_main.py ....
-tests/test_palindrome.py ....
-tests/test_util.py ..
+tests/test_sorting.py ...
 ```
 
 This project comes with other tasks that you can run once you have used Poetry
