@@ -40,31 +40,49 @@ This project invites you to implement a Python program, called `listsorting`,
 that features different ways to compute all of the numbers in the Fibonacci
 sequence up to a specified maximum number. After you finish a correct
 implementation of all the program's features, running it with the command
-`poetry run listsorting --starting-size 100 --number-doubles 6 --approach
-bubble`, it will produce output like the following.
+`poetry run listsorting --starting-size 100 --number-doubles 5 --approach
+insertion`, causes it to produce output like the following. With that said,
+please remember that when you run the `listsorting` program your computer it
+will likely produce different performance results! Importantly, this output
+shows that the `listsorting` program ran the insertion sort algorithm, denoted
+`insertion`, for a total of `5` rounds in a doubling experiment that created
+input sizes that ranged from `100` to `1600`. When `listsorting` runs the
+experiment, it uses the [timeit](https://docs.python.org/3/library/timeit.html)
+package to measure the `min`, `max`, and `avg` execution time of the algorithm.
 
 ```
 ✨ Conducting an experiment to measure the performance of list sorting!
 
-   The chosen sorting algorithm: bubble
+   The chosen sorting algorithm: insertion
    Starting size of the data container: 100
-   Number of doubles to execute: 6
+   Number of doubles to execute: 5
 
 ✨ Here are the results from running the experiment!
 
   Input Size    Min time (s)    Max time (s)    Avg time (s)
 ------------  --------------  --------------  --------------
-         100         0.00422         0.00458         0.00444
-         200         0.01779         0.01831         0.01807
-         400         0.07311         0.07577         0.07459
-         800         0.3057          0.3085          0.3075
-        1600         1.29919         1.30794         1.30381
-        3200         5.33471         5.37118         5.35105
+         100         0.00198         0.00228         0.0021
+         200         0.00791         0.00831         0.00804
+         400         0.03091         0.03179         0.03129
+         800         0.1397          0.14232         0.141
+        1600         0.56098         0.58918         0.57665
 ```
 
-Don't forget that you can display `listsorting`'s help menu and learn more
-about its features by typing `poetry run listsorting --help` to show the
-following output.
+These experimental results suggest that insertion sort has a doubling ratio of
+$\frac{0.57665}{0.141} \approx 4.0897$. If you look at the last row of the data
+table you will see that, for the input sizes of `1600` and `800`, the average
+execution time for insertion sort was $0.57665$ and $0.141$ seconds,
+respectively. Dividing the execution time for the larger input size by the
+execution time of the smaller input size yields the doubling ratio of
+approximately $4.0897$, suggestion that insertion sort is a $O(n^2)$ algorithm
+because a doubling of the input size caused a quadrupling of the execution time.
+Finally, don't forget that you can display `listsorting`'s help menu and learn
+more about its features by typing `poetry run listsorting --help` to show the
+following output. Don't forget that the `listsorting` program should also run
+experiments for the other sorting algorithms, such as bubble sort and quick
+sort! You can also run `listsorting` with larger input sizes or more rounds of
+input doubling --- but be aware of the fact that your experiments could take a
+long time to finish for certain algorithms!
 
 ```
 Usage: listsorting [OPTIONS]
