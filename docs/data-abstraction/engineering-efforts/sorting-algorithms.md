@@ -36,19 +36,19 @@ project!
 
 ## Expected Output
 
-This project invites you to implement a Python program, called `listsorting`,
-that features different ways to compute all of the numbers in the Fibonacci
-sequence up to a specified maximum number. After you finish a correct
-implementation of all the program's features, running it with the command
-`poetry run listsorting --starting-size 100 --number-doubles 5 --approach
-insertion`, causes it to produce output like the following. With that said,
-please remember that when you run the `listsorting` program your computer it
-will likely produce different performance results! Importantly, this output
-shows that the `listsorting` program ran the insertion sort algorithm, denoted
-`insertion`, for a total of `5` rounds in a doubling experiment that created
-input sizes that ranged from `100` to `1600`. When `listsorting` runs the
-experiment, it uses the [timeit](https://docs.python.org/3/library/timeit.html)
-package to measure the `min`, `max`, and `avg` execution time of the algorithm.
+This project invites you to implement a Python program, called `listsorting`
+that performs a doubling experiment to evaluate the performance of several
+different sorting algorithms. After you finish a correct implementation of all
+the program's features, running it with the command `poetry run listsorting
+--starting-size 100 --number-doubles 5 --approach insertion`, causes it to
+produce output like the following. With that said, please remember that when you
+run the `listsorting` program your computer it will likely produce different
+performance results! Importantly, this output shows that the `listsorting`
+program ran the insertion sort algorithm, denoted `insertion`, for a total of
+`5` rounds in a doubling experiment that created input sizes that ranged from
+`100` to `1600`. When `listsorting` runs the experiment, it uses the
+[timeit](https://docs.python.org/3/library/timeit.html) package to measure the
+`min`, `max`, and `avg` execution time of the algorithm.
 
 ```
 ✨ Conducting an experiment to measure the performance of list sorting!
