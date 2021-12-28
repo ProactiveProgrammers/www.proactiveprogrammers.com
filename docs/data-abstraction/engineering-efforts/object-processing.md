@@ -3,24 +3,19 @@
 ## Project Goals
 
 This engineering effort invites you to implement and use a program called
-`objectprocessor` that performs a doubling experiment to evaluate the performance of
-several different sorting algorithms. First, you will follow the [Sorting
-Algorithms in Python](https://realpython.com/sorting-algorithms-python/)
-tutorial from [Real Python](https://realpython.com/) and add certain sorting
-algorithms, like bubble sort and quick sort, to your project. After you have
-implemented all of the required sorting algorithms, you will use the provided
-benchmarking framework to conduct a doubling experiment. This doubling
-experiment will invoke a specific sorting algorithm while repeatedly double the
-size of the input to the sorting algorithm for a specific number of doubling
-rounds. Since the doubling experiment enables you to calculate a doubling ratio,
-it enables you to experimentally predict the likely worst-case time complexity
-of each sorting algorithms. In addition to implementing the sorting algorithms
-and extending the benchmarking framework, you will use a comprehensive
-command-line interface, implemented with [Typer](https://typer.tiangolo.com/),
-that allows you to easily control the execution of a doubling experiment.
-Finally, you will use your empirical results from using the `objectprocessor`
-program to better understand the performance trade-offs associated with sorting
-algorithms implemented in Python.
+`objectprocessor` searches a text file for rows of data that match a specific
+pattern. The `objectprocessor` works by reading in a text file in comma-separate
+value (CSV) format that contains information about a person on each row of the
+file. Next, the program converts each row of data into an instance of the
+`Person` class, stores that instance inside of a `list`, and then performs one
+of several configurable searches for instances of `Person` that match the
+constraints specified on the command-line of the `objectprocessor`. Finally, the
+program will save all of the matching rows of data in the specified file. In
+addition to implementing the functions that perform the file input and output
+and the searching for matching `Person`s in the `list`, you will use a
+comprehensive command-line interface, implemented with
+[Typer](https://typer.tiangolo.com/), that allows you to easily to confirm the
+files for input and output and the terms for the query for matching people.
 
 ## Project Access
 
