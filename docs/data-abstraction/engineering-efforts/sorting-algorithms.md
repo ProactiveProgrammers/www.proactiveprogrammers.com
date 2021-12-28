@@ -76,10 +76,10 @@ respectively. Dividing the execution time for the larger input size by the
 execution time of the smaller input size yields the doubling ratio of
 approximately $4.0897$, suggestion that insertion sort is a $O(n^2)$ algorithm
 because a doubling of the input size caused a quadrupling of the execution time.
-Finally, don't forget that you can display `listsorting`'s help menu and learn
+Moreover, don't forget that you can display `listsorting`'s help menu and learn
 more about its features by typing `poetry run listsorting --help` to show the
-following output. Don't forget that the `listsorting` program should also run
-experiments for the other sorting algorithms, such as bubble sort and quick
+following output. Finally, remember that the `listsorting` program should also
+run experiments for the other sorting algorithms, such as bubble sort and quick
 sort! You can also run `listsorting` with larger input sizes or more rounds of
 input doubling --- but be aware of the fact that your experiments could take a
 long time to finish for certain algorithms!
