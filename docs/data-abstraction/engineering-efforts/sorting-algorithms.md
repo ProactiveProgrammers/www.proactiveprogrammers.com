@@ -137,11 +137,11 @@ like bubble sort, that has a signature like `def bubble_sort(array: List[int])
 -> List[int]`. You will also need to resolve all of the `TODO` markers in
 `listsorting/listsorting/main.py` that involve calling the functions in
 `listsorting/listsorting/experiment.py` to run each of the steps in a doubling
-experiment. Once you complete a task associated with a `TODO` marker, make sure
+experiment. Specifically, you must ensure that the `listsorting` function in the
+`main` module calls the following `run_sorting_algorithm_experiment_campaign`
+function. Once you complete a task associated with a `TODO` marker, make sure
 that you delete it and revise the prompt associated with the marker into a
-meaningful comment. Specifically, you must ensure that the `listsorting`
-function in the `main` module calls the following
-`run_sorting_algorithm_experiment_campaign` function.
+meaningful comment.
 
 ```python
 def run_sorting_algorithm_experiment_campaign(
