@@ -7,12 +7,12 @@ This engineering effort invites you to implement and use a program called
 pattern. The `objectprocessor` works by reading in a text file in comma-separate
 value (CSV) format that contains information about a person on each row of the
 file. Next, the program converts each row of data into an instance of the
-`Person` class, stores that instance inside of a `list`, and then performs one
+`Person` class, stores that instance inside of a `List`, and then performs one
 of several configurable searches for instances of `Person` that match the
 constraints specified on the command-line of the `objectprocessor`. Finally, the
 program will save all of the matching rows of data in the specified file. In
 addition to implementing the functions that perform the file input and output
-and the searching for matching `Person`s in the `list`, you will use a
+and the searching for matching `Person`s in the `List`, you will use a
 comprehensive command-line interface, implemented with
 [Typer](https://typer.tiangolo.com/), that allows you to easily to confirm the
 files for input and output and the terms for the query for matching people.
@@ -129,55 +129,19 @@ any functionality to the `person` module, you will need to address all of the
 
 ## Adding Functionality
 
-If you study the file `objectprocessor/objectprocessor/sorting.py` you will see that it
-has many `TODO` markers that designate the sorting algorithms that you must
-implement so as to ensure that `objectprocessor` will produce correct output. For
-instance, you will need to provide an implementation of each sorting algorithm,
-like bubble sort, that has a signature like `def bubble_sort(array: List[int])
--> List[int]`. You will also need to resolve all of the `TODO` markers in
-`objectprocessor/objectprocessor/main.py` that involve calling the functions in
-`objectprocessor/objectprocessor/experiment.py` to run each of the steps in a doubling
-experiment. Once you complete a task associated with a `TODO` marker, make sure
-that you delete it and revise the prompt associated with the marker into a
-meaningful comment. Specifically, you must ensure that the `objectprocessor`
-function in the `main` module calls the following
-`run_sorting_algorithm_experiment_campaign` function.
-
-```python
-def run_sorting_algorithm_experiment_campaign(
-    algorithm: str,
-    starting_size: int,
-    maximum_value: int,
-    number_doubles: int,
-) -> List[List[Union[int, Tuple[float, float, float]]]]:
-    data_table = []
-    while number_doubles > 0:
-        random_list = generate_random_container(starting_size, maximum_value)
-        performance_data = run_sorting_algorithm(algorithm, random_list)
-        data_table_row = [
-            starting_size,
-            performance_data[0],
-            performance_data[1],
-            performance_data[2],
-        ]
-        data_table.append(data_table_row)
-        number_doubles = number_doubles - 1
-        starting_size = starting_size * 2
-    return data_table
-```
-
-Notably, the `run_sorting_algorithm_experiment_campaign` function completes all
-of the steps associated with running a specified sorting algorithm in a doubling
-experiment. Upon completion, this function returns a `data_table` that contains
-performance results for each round of the doubling experiment, as shown in the
-previous section. After finishing your implementation of `objectprocessor`,
-including the call to `run_sorting_algorithm_experiment_campaign` in `main`, you
-should repeatedly run the program in different configurations to conduct an
-experiment to evaluate the performance of each sorting algorithm that you
-implemented. This process will result in a data table that summarizes the
-results from a doubling experiment for each sorting algorithm. You can use the
-data in the table to calculate the doubling ratio and then use it to predict the
-likely worst-case time complexity of each sorting algorithm.
+If you study the file `objectprocessor/objectprocessor/process.py` you will see
+that it has many `TODO` markers that designate the sorting algorithms that you
+must implement so as to ensure that `objectprocessor` will produce correct
+output. For instance, you will need to implement most of the steps in the `def
+extract_person_data(data: str) -> List[person.Person]` function that takes as
+input all of the text in the input CSV file and produces as output a `List` of
+instances of the `Person` class in the `person` module. You will also need to
+implement the both functions that determine if a specific instance of `Person`
+matches the criteria specified on the program's command-line interface and those
+that perform the file input and output. Finally, you are invited to implement
+the functions in the `main` module that call the functions in `process`. Once
+you complete a task associated with a `TODO` marker, make sure that you delete
+it and revise the prompt associated with the marker into a meaningful comment.
 
 ## Running Checks
 
@@ -186,14 +150,12 @@ it includes the following section that specifies different executable tasks:
 
 ```toml
 [tool.taskipy.tasks]
-black = { cmd = "black objectprocessor tests --check", help = "Run the black checks for source code format" }
-flake8 = { cmd = "flake8 objectprocessor tests", help = "Run the flake8 checks for source code documentation" }
+black = { cmd = "black objectprocessor --check", help = "Run the black checks for source code format" }
+flake8 = { cmd = "flake8 objectprocessor", help = "Run the flake8 checks for source code documentation" }
 mypy = { cmd = "poetry run mypy objectprocessor", help = "Run the mypy type checker for potential type errors" }
 pydocstyle = { cmd = "pydocstyle objectprocessor tests", help = "Run the pydocstyle checks for source code documentation" }
-pylint = { cmd = "pylint objectprocessor tests", help = "Run the pylint checks for source code documentation" }
-test = { cmd = "pytest -x -s", help = "Run the pytest test suite" }
-test-silent = { cmd = "pytest -x --show-capture=no", help = "Run the pytest test suite without showing output" }
-all = "task black && task flake8 && task pydocstyle && task pylint && task mypy && task test"
+pylint = { cmd = "pylint objectprocessor", help = "Run the pylint checks for source code documentation" }
+all = "task black && task flake8 && task pydocstyle && task pylint && task mypy"
 lint = "task black && task flake8 && task pydocstyle && task pylint"
 ```
 
@@ -202,24 +164,13 @@ automatically run all of the linters designed to check the Python source code in
 your program and its test suite. You can also use the command `poetry run task
 black` to confirm that your source code adheres to the industry-standard format
 defined by the `black` tool. If it does not adhere to the standard then you can
-run the command `poetry run black objectprocessor tests` and it will automatically
-reformat the source code.
-
-Along with running tasks like `poetry run task lint`, you can leverage the
-relevant instructions in the [technical
+run the command `poetry run black objectprocessor` and it will automatically
+reformat the source code. Along with running tasks like `poetry run task lint`,
+you can leverage the relevant instructions in the [technical
 skills](/proactive-skills/introduction-proactive-skills/) to enter into a Docker
 container and run the command `gradle grade` to check your work. If `gradle
 grade` shows that all checks pass, you will know that you made progress towards
 correctly implementing and writing about `objectprocessor`.
-
-This project comes with other tasks that you can run once you have used Poetry
-to install all of the dependencies. For instance, if you find that your Python
-source code is not in adherence with the required formatting rules, you can run
-`poetry run task black` to automatically return it to the correct format! You
-can also run commands like `poetry run task mypy` to check the program's use of
-data types and `poetry run task pylint` to ensure that your source code adheres
-to other established programming conventions. You can use these built-in tasks
-to understand and improve your code's quality!
 
 ???+ note
 
