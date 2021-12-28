@@ -120,8 +120,8 @@ any functionality to the `person` module, you will need to address all of the
 
 ???+ note
 
-    Don't forget that if you want to run the `objectprocessor` program you must use
-    your terminal window to first go into the GitHub repository containing this
+    Don't forget that if you want to run the `objectprocessor` you must use your
+    terminal window to first go into the GitHub repository containing this
     project and then go into the `objectprocessor/` directory that contains the
     project's source code. Finally, remember that before running the program you
     must run `poetry install` to add its dependencies, such as Pytest for
