@@ -31,46 +31,37 @@ project!
 
 ## Expected Output
 
-This project invites you to implement a Python program, called `objectprocessor`,
-that features different ways to compute all of the numbers in the Fibonacci
-sequence up to a specified maximum number. After you finish a correct
-implementation of all the program's features, running it with the command
-`poetry run objectprocessor --starting-size 100 --number-doubles 5 --approach
-insertion`, causes it to produce output like the following. With that said,
-please remember that when you run the `objectprocessor` program your computer it
-will likely produce different performance results! Importantly, this output
-shows that the `objectprocessor` program ran the insertion sort algorithm, denoted
-`insertion`, for a total of `5` rounds in a doubling experiment that created
-input sizes that ranged from `100` to `1600`. When `objectprocessor` runs the
-experiment, it uses the [timeit](https://docs.python.org/3/library/timeit.html)
-package to measure the `min`, `max`, and `avg` execution time of the algorithm.
+This project invites you to implement a Python program, called
+`objectprocessor`, that features different ways to compute all of the numbers in
+the Fibonacci sequence up to a specified maximum number. After you finish a
+correct implementation of all the program's features, running it with the
+command `poetry run objectprocessor --search-term tylera --attribute email
+--input-file input/people.txt --output-file output/people.txt`, causes it to
+produce output like the following.
 
 ```
-✨ Conducting an experiment to measure the performance of list sorting!
+🧮 Reading in the data from the specified file input/people.txt
 
-   The chosen sorting algorithm: insertion
-   Starting size of the data container: 100
-   Number of doubles to execute: 5
+🚀 Parsing the data file and transforming it into people objects
 
-✨ Here are the results from running the experiment!
+🕵  Searching for the people with an email that matches the search term
+'tylera'
 
-  Input Size    Min time (s)    Max time (s)    Avg time (s)
-------------  --------------  --------------  --------------
-         100         0.00198         0.00228         0.0021
-         200         0.00791         0.00831         0.00804
-         400         0.03091         0.03179         0.03129
-         800         0.1397          0.14232         0.141
-        1600         0.56098         0.58918         0.57665
+✨ Here are the matching people:
+
+- Debra Williams is a Retail merchandiser who lives in Guadeloupe. You can
+call this person at 407-035-6634 and email them at tyleranderson@example.com
+- Christopher Lin is a Embryologist, clinical who lives in United Kingdom.
+You can call this person at (515)580-8082x35082 and email them at
+tyleranthony@example.com
+- William Valdez is a Air broker who lives in Algeria. You can call this
+person at 408.592.1306 and email them at tylerashley@example.net
+- Joshua Chaney is a Water engineer who lives in San Marino. You can call
+this person at 310.624.7694x64127 and email them at tylerallen@example.net
+
+✨ Saving the matching people to the file output/people.txt
 ```
 
-These experimental results suggest that insertion sort has a doubling ratio of
-$\frac{0.57665}{0.141} \approx 4.0897$. If you look at the last row of the data
-table you will see that, for the input sizes of `1600` and `800`, the average
-execution time for insertion sort was $0.57665$ and $0.141$ seconds,
-respectively. Dividing the execution time for the larger input size by the
-execution time of the smaller input size yields the doubling ratio of
-approximately $4.0897$, suggestion that insertion sort is a $O(n^2)$ algorithm
-because a doubling of the input size caused a quadrupling of the execution time.
 Finally, don't forget that you can display `objectprocessor`'s help menu and learn
 more about its features by typing `poetry run objectprocessor --help` to show the
 following output. Don't forget that the `objectprocessor` program should also run
@@ -82,23 +73,18 @@ long time to finish for certain algorithms!
 ```
 Usage: objectprocessor [OPTIONS]
 
-  Conduct a doubling experiment to measure the performance of list
-  sorting for various algorithms.
+  Input data about a person and then analyze and save it.
 
 Options:
-  --starting-size INTEGER         [default: 1000000]
-  --maximum-value INTEGER         [default: 10000]
-  --number-doubles INTEGER        [default: 10]
-  --approach [bubble|insertion|merge|quick|tim]
-                                  [default: bubble]
-  --install-completion            Install completion for the current
-                                  shell.
+  --search-term TEXT    [required]
+  --attribute TEXT      [required]
+  --input-file PATH     [required]
+  --output-file PATH    [required]
+  --install-completion  Install completion for the current shell.
+  --show-completion     Show completion for the current shell, to copy it
+                        or customize the installation.
 
-  --show-completion               Show completion for the current shell,
-                                  to copy it or customize the
-                                  installation.
-
-  --help                          Show this message and exit.
+  --help                Show this message and exit.
 ```
 
 Please note that the provided source code does not contain all of the
