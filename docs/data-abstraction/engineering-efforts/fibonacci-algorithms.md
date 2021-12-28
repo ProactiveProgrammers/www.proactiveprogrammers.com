@@ -185,12 +185,8 @@ This section makes it easy to run commands like `poetry run task lint` to
 automatically run all of the linters designed to check the Python source code in
 your program and its test suite. You can also use the command `poetry run task
 black` to confirm that your source code adheres to the industry-standard format
-defined by the `black` tool. If it does not adhere to the standard then you can
-run the command `poetry run black fibonaccicreator tests` and it will automatically
-reformat the source code.
-
-Along with running tasks like `poetry run task lint`, you can leverage the
-relevant instructions in the [technical
+defined by the `black` tool. Along with running tasks like `poetry run task
+lint`, you can leverage the relevant instructions in the [technical
 skills](/proactive-skills/introduction-proactive-skills/) to enter into a Docker
 container and run the command `gradle grade` to check your work. If `gradle
 grade` shows that all checks pass, you will know that you made progress towards
