@@ -189,11 +189,11 @@ tests/test_util.py ..
 This project comes with other tasks that you can run once you have used Poetry
 to install all of the dependencies. For instance, if you find that your Python
 source code is not in adherence with the required formatting rules, you can run
-`poetry run task black` to automatically return it to the correct format! You
-can also run commands like `poetry run task mypy` to check the program's use of
-data types and `poetry run task pylint` to ensure that your source code adheres
-to other established programming conventions. You can use these built-in tasks
-to understand and improve your code's quality!
+`poetry run black palindromechecker tests` to automatically return it to the
+correct format! You can also run commands like `poetry run task mypy` to check
+the program's use of data types and `poetry run task pylint` to ensure that your
+source code adheres to other established programming conventions. You can use
+these built-in tasks to understand and improve your code's quality!
 
 ???+ note
 
