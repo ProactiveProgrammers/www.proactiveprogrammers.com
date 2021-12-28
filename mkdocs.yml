@@ -226,6 +226,7 @@ nav:
       - Fibonacci Algorithms: data-abstraction/engineering-efforts/fibonacci-algorithms.md
       - Palindrome Checking: data-abstraction/engineering-efforts/palindrome-checking.md
       - Sorting Algorithms: data-abstraction/engineering-efforts/sorting-algorithms.md
+      - Object Processing: data-abstraction/engineering-efforts/object-processing.md
   - Discrete Structures:
     - Introduction: discrete-structures/introduction-discrete-structures.md
     - Learning Objectives: discrete-structures/learning-objectives-discrete-structures.md
