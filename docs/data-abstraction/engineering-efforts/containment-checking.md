@@ -12,6 +12,19 @@ type of data container, and whether or not the searching algorithm should look
 for a value that does or does not exceed the maximum value in the list. If you
 configure it correctly, the `containmentcheck` program will total and average
 time for using the `in` operator for the automatically generated lists.
+Specifically, `containmentcheck` will use the
+[timeit](https://docs.python.org/3/library/timeit.html) package to measure the
+performance of the `in` operator for different data containers, following one
+of the approaches outlined in the article called [measure execution time with
+timeit in Python](https://note.nkmk.me/en/python-timeit-measure/). As you
+complete this engineering effort you will experimentally evaluate the claims
+in the following articles about the best way to determine if a specific value
+exists inside of a data container.
+
+- [Membership testing](https://switowski.com/blog/membership-testing)
+- [Python speed](https://wiki.python.org/moin/PythonSpeed)
+- [Using key in list to check if key is contained in list](https://docs.quantifiedcode.com/python-anti-patterns/performance/using_key_in_list_to_check_if_key_is_contained_in_a_list.html)
+- [Why is a set faster than a list in Python?](https://www.quora.com/Why-is-a-set-faster-than-a-list-in-Python)
 
 ## Project Access
 
