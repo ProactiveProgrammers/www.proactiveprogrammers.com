@@ -43,15 +43,13 @@ project!
 After you finish a correct implementation of all the `containmentcheck`'s
 features you can run it with the command `poetry run containmentcheck --size
 32000000 --maximum 50000000 --approach list` and see that it produces output
-like the following. It is important to note that since this program is
-deterministic and not dependent on the performance characteristics of your
-computer, your implementation of the program should produce exactly the
-following output. This specific invocation of the program looks for people with
-records that have an email address containing the search term `tylera`. After
-inputting the 50,000 records from the file called `input/people.txt` and
-converting each one to an object-oriented format, the program searches and
-ultimately determines that there are four people in the input file that match
-the search parameters.
+like the following. It is worth noting that your invocation of the program will
+likely produce different results than those provided because of the fact that
+your laptop may have different software and hardware, and thus different
+performance characteristics, than the one used to run `containmentcheck`. With
+that said, a finished version of `containmentcheck` should report both the total
+and average time for use the `in` operator for the specified data container and
+searching approach.
 
 ```
 ✨ Conducting an experiment to measure the performance of containment checking!
@@ -71,9 +69,7 @@ show the following output. It is worth noting that all of the parameters to the
 `containmentcheck` program, excepting those connected to completion of
 command-line arguments or the help menu, are required. This means that the
 `containmentcheck` will produce an error if you do not specify the four required
-parameters respectively related to the search term, the "attribute" of a person
-stored in a row of data (e.g., the email address or the country), and both the
-input file and the output file that will save the search results.
+parameters that describe the experiment.
 
 ```
 Usage: containmentcheck [OPTIONS]
@@ -96,9 +92,10 @@ Options:
 Please note that the provided source code does not contain all of the
 functionality to produce the output displayed in this section. As the next
 section explains, you should add the features needed to ensure that
-`containmentcheck` produces the expected output! Although you don't need to add
-any functionality to the `person` module, you will need to address all of the
-`TODO` markers in the `process` and `main` modules.
+`containmentcheck` produces the expected output! After implementing a function
+that can automatically generate a data container that has random numerical
+values inside of it, you will need to create each of the containment checking
+functions for all of the supported data containers (i.e., list, tuple, and set).
 
 ???+ note
 
