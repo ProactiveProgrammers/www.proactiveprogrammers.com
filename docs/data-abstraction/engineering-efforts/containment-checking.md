@@ -121,6 +121,26 @@ following Python functions:
   `maximum` value. When `exceed` is `true` the function should generate a number
   that is greater than the specified maximum value.
 
+- `def generate_random_container(size: int, maximum: int, make_tuple: bool =
+  False) -> Union[List[int], Tuple[int, ...]]`: automatically generate a data
+  container that must be either of type `List` or type `Tuple`, ensuring that it
+  contains exactly `size` numbers that are never bigger than the specified
+  `maximum`.
+
+- `def containment_check_list(thelist: List[int], number: int) -> bool`: use the
+  `in` operator to perform containment checking for the provided list.
+
+- `def containment_check_tuple(thetuple: Tuple[int], number: int) -> bool`: use
+  the `in` operator to perform containment checking for the provided tuple.
+
+- `def containment_check_set(thelist: List[int], number: int) -> bool`: after
+  converting the provided list to a set, use the `in` operator to perform
+  containment checking for the set. This function will allow you to
+  experimentally evaluate the [conventional
+  wisdom](https://docs.quantifiedcode.com/python-anti-patterns/performance/using_key_in_list_to_check_if_key_is_contained_in_a_list.html)
+  that a develop can improve the performance of their Python program by
+  converting a list to a set before using the `in` operator.
+
 ## Running Checks
 
 If you study the source code in the `pyproject.toml` file you will see that
