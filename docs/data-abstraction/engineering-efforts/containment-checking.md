@@ -141,6 +141,15 @@ following Python functions:
   that a develop can improve the performance of their Python program by
   converting a list to a set before using the `in` operator.
 
+Ultimately, you should design your own experiment and state and answer your own
+research questions, focusing on the following key issues:
+
+- The data container: `set`, `list`, and `tuple`
+- The size of the data container: small values (e.g., 1 million numbers) to big
+  values (e.g., 32 million numbers)
+- Whether or not the value that it being searched for is `in` the list
+- The maximum value of the numbers that are inside of the data container
+
 ## Running Checks
 
 If you study the source code in the `pyproject.toml` file you will see that
