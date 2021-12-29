@@ -108,19 +108,18 @@ functions for all of the supported data containers (i.e., list, tuple, and set).
 
 ## Adding Functionality
 
-If you study the file `containmentcheck/containmentcheck/process.py` you will see
-that it has many `TODO` markers that designate the sorting algorithms that you
-must implement so as to ensure that `containmentcheck` will produce correct
-output. For instance, you will need to implement most of the steps in the `def
-extract_person_data(data: str) -> List[person.Person]` function that takes as
-input all of the text in the input CSV file and produces as output a `List` of
-instances of the `Person` class in the `person` module. You will also need to
-implement the both functions that determine if a specific instance of `Person`
-matches the criteria specified on the program's command-line interface and those
-that perform the file input and output. Finally, you are invited to implement
-the functions in the `main` module that call the functions in `process`. Once
-you complete a task associated with a `TODO` marker, make sure that you delete
-it and revise the prompt associated with the marker into a meaningful comment.
+If you study the file `containmentcheck/containmentcheck/main.py` you will see
+that it has many `TODO` markers that designate the functions you must implement
+so as to ensure that `containmentcheck` runs the desired experiment and produces
+the correct output. Once you complete a task associated with a `TODO` marker,
+make sure that you delete it and revise the prompt associated with the marker
+into a meaningful comment. Specifically, you will need to implement the
+following Python functions:
+
+- `def generate_random_number(maximum: int, exceed: bool = False) -> int`:
+  automatically create a random number starting at zero and going up to the
+  `maximum` value. When `exceed` is `true` the function should generate a number
+  that is greater than the specified maximum value.
 
 ## Running Checks
 
