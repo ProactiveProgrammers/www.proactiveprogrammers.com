@@ -198,21 +198,16 @@ instance, you should provide the output of the Python program in several fenced
 code blocks, explain the meaning of the Python source code segments that you
 implemented, and answer all of the other questions about your experiences in
 completing this project. A specific goal for this project's reflection is to
-ensure that you can explain Python source code written in an object-oriented
-fashion and discuss the trade-offs associated with this approach. For instance,
-you should understand how the following constructor, implemented in the
-`__init__` function, is used to create a new instance of the `Person` class.
+ensure that you can explain Python source code that uses the
+[timeit](https://docs.python.org/3/library/timeit.html) package to evaluate the
+performance of a specific approach to containment checking, as illustrated by
+the following code segment.
 
 ```python
-def __init__(
-    self, name: str, country: str, phone_number: str, job: str, email: str
-) -> None:
-    """Define the constructor for a person."""
-    self.name = name
-    self.country = country
-    self.phone_number = phone_number
-    self.job = job
-    self.email = email
+number_runs = 10
+number_repeats = 3
+execution_times = timeit.Timer(containment_check_lambda).repeat(
+    repeat=number_repeats, number=number_runs
 ```
 
 ## Project Assessment
