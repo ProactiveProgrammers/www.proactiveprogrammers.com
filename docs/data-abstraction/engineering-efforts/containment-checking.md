@@ -5,12 +5,13 @@
 This engineering effort invites you to implement and use a program called
 `containmentcheck` that conducts an experiment to evaluate the performance of
 containment checking using the `in` operator for different types of data
-containers like tuples and lists.
-
-you will use a
-comprehensive command-line interface, implemented with
-[Typer](https://typer.tiangolo.com/), that allows you to easily to confirm the
-files for input and output and the terms for the query for matching people.
+containers like tuples and lists. When you run the completed version of the
+`containmentcheck` program it will allow you to specify the size of the
+container, the maximum value of the integer values stored in the container, the
+type of data container, and whether or not the searching algorithm should look
+for a value that does or does not exceed the maximum value in the list. If you
+configure it correctly, the `containmentcheck` program will total and average
+time for using the `in` operator for the automatically generated lists.
 
 ## Project Access
 
