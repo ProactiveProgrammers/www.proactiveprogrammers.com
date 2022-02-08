@@ -111,18 +111,19 @@ here is the way in which the `main` function in the `main.py` file calls the
 first function in the above list: `input_line_count =
 len(extract.extract_lines_including_blanks(input_text))`. Note that it accepts
 as input the `str` called `input_text` that contains the textual input from the
-file specified on the command-line interface. The following code segment
-provides the complete implementation of the `extract_lines_including_blanks`
-function. The function signature on line `1` shows that
-`extract_lines_including_blanks` will accept a `str` as input and return a
-`List` of `str` as output, with each index in the `List` being a single line
-inside of the input `str` called `input_lines`. Line `3` of this function uses
-the `splitlines` function to create the required `List` of `str` and then line
-`4` returns it. It is important to note that this function does not filter out
-the blank lines that `splitlines` returns &mdash; which is the job of the `def
-extract_lines_not_including_blanks(input_lines: str) -> List[str]:` function
-that you also need to create! Once you have implemented the required functions,
-the `textanalysis` should produce the expected output.
+file specified on the command-line interface.
+
+The following code segment provides the complete implementation of the
+`extract_lines_including_blanks` function. The function signature on line `1`
+shows that `extract_lines_including_blanks` will accept a `str` as input and
+return a `List` of `str` as output, with each index in the `List` being a single
+line inside of the input `str` called `input_lines`. Line `3` of this function
+uses the `splitlines` function to create the required `List` of `str` and then
+line `4` returns it. It is important to note that this function does not filter
+out the blank lines that `splitlines` returns &mdash; which is the job of the
+`def extract_lines_not_including_blanks(input_lines: str) -> List[str]:`
+function that you also need to create! Once you have implemented the required
+functions, the `textanalysis` should produce the expected output.
 
 ```python linenums="1"
 def extract_lines_including_blanks(input_lines: str) -> List[str]:
