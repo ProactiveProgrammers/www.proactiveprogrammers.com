@@ -80,6 +80,35 @@ overlap between the words in the document's paragraphs?
 🖌 Saving the visualization in graphics/set-visualization.png
 ```
 
+???+ note
+
+    Don't forget that if you want to run the `textanalysis` you must use your
+    terminal to first go into the GitHub repository containing this project and
+    then go into the `textanalysis` directory that contains the project's
+    code. Finally, remember that before running the program you must run `poetry
+    install` to add the dependencies.
+
+## Adding Functionality
+
+If you study the file `textanalysis/textanalysis/main.py` you will see that it
+has all of the functionality needed to implement the entire command-line
+interface. Furthermore, the file `textanalysis/textanalysis/visualize.py` shows
+that 
+
+`TODO` markers that designate the parts of the program that you need to
+implement before `textanalysis` will produce the correct output. If you run the
+provided test suite with the command `poetry run task test` or you try to run
+the program with the command `poetry run textanalysis --data-file
+input/data.txt` you will see an error message in your terminal window. This is
+due to the fact that there are key parts of this program that are missing! In
+addition to implementing the program's `main` function you also need to
+correctly `import` the correct modules and objects, like `typer`. Along with
+adding command-line features to the `main` function in the `main` module, 
+
+you need to provide an implementation of the following functions:
+
+- `def compute_mean(numbers: List[float]) -> float`
+
 ## Running Checks
 
 If you study the source code in the `pyproject.toml` file you will see that it
@@ -88,11 +117,11 @@ includes the following section section of tasks that use
 
 ```toml
 [tool.taskipy.tasks]
-black = { cmd = "black datauniqifier tests --check", help = "Run the black checks for source code format" }
-flake8 = { cmd = "flake8 datauniqifier tests", help = "Run the flake8 checks for source code documentation" }
-mypy = { cmd = "poetry run mypy datauniqifier", help = "Run the mypy type checker for potential type errors" }
-pydocstyle = { cmd = "pydocstyle datauniqifier tests", help = "Run the pydocstyle checks for source code documentation" }
-pylint = { cmd = "pylint datauniqifier tests", help = "Run the pylint checks for source code documentation" }
+black = { cmd = "black textanalysis tests --check", help = "Run the black checks for source code format" }
+flake8 = { cmd = "flake8 textanalysis tests", help = "Run the flake8 checks for source code documentation" }
+mypy = { cmd = "poetry run mypy textanalysis", help = "Run the mypy type checker for potential type errors" }
+pydocstyle = { cmd = "pydocstyle textanalysis tests", help = "Run the pydocstyle checks for source code documentation" }
+pylint = { cmd = "pylint textanalysis tests", help = "Run the pylint checks for source code documentation" }
 test = { cmd = "pytest -x -s", help = "Run the pytest test suite" }
 test-silent = { cmd = "pytest -x --show-capture=no", help = "Run the pytest test suite without showing output" }
 all = "task black && task flake8 && task pydocstyle && task pylint && task mypy && task test"
@@ -104,7 +133,7 @@ automatically run all of the linters designed to check the Python source code in
 your program and its test suite. You can also use the command `poetry run task
 black` to confirm that your source code adheres to the industry-standard format
 defined by the `black` tool. If it does not adhere to the standard then you can
-run the command `poetry run black datauniqifier tests` and it will automatically
+run the command `poetry run black textanalysis tests` and it will automatically
 reformat the source code.
 
 Along with running tasks like `poetry run task list`, you can leverage the
@@ -112,17 +141,7 @@ relevant instructions in the [technical
 skills](/proactive-skills/introduction-proactive-skills/) to enter into a Docker
 container and run the command `gradle grade` to check your work. If `gradle
 grade` shows that all checks pass, you will know that you made progress towards
-correctly implementing and writing about `datauniqifier`. If your program has
-all of the anticipated functionality, you can run the command `poetry run task
-test-silent` and see that the test suite produces output like the following. It
-is important to note that `datauniqifier` comes with three test suites, each of
-which should pass so as to establish a confidence in its correctness.
-
-```
-tests/test_analyze.py ......                                         [ 54%]
-tests/test_extract.py ..                                             [ 72%]
-tests/test_uniquify.py ...                                           [100%]
-```
+correctly implementing and writing about `textanalysis`.
 
 ???+ note
 
