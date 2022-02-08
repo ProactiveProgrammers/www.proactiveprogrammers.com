@@ -116,15 +116,13 @@ includes the following section section of tasks that use
 [taskipy](https://github.com/illBeRoy/taskipy):
 
 ```toml
-[tool.taskipy.tasks]
-black = { cmd = "black textanalysis tests --check", help = "Run the black checks for source code format" }
-flake8 = { cmd = "flake8 textanalysis tests", help = "Run the flake8 checks for source code documentation" }
+black = { cmd = "black textanalysis --check", help = "Run the black checks for source code format" }
+reformat = { cmd = "black textanalysis", help = "Run the black reformatter for source code style" }
+flake8 = { cmd = "flake8 textanalysis", help = "Run the flake8 checks for source code documentation" }
 mypy = { cmd = "poetry run mypy textanalysis", help = "Run the mypy type checker for potential type errors" }
-pydocstyle = { cmd = "pydocstyle textanalysis tests", help = "Run the pydocstyle checks for source code documentation" }
-pylint = { cmd = "pylint textanalysis tests", help = "Run the pylint checks for source code documentation" }
-test = { cmd = "pytest -x -s", help = "Run the pytest test suite" }
-test-silent = { cmd = "pytest -x --show-capture=no", help = "Run the pytest test suite without showing output" }
-all = "task black && task flake8 && task pydocstyle && task pylint && task mypy && task test"
+pydocstyle = { cmd = "pydocstyle textanalysis", help = "Run the pydocstyle checks for source code documentation" }
+pylint = { cmd = "pylint textanalysis", help = "Run the pylint checks for source code documentation" }
+all = "task black && task flake8 && task pydocstyle && task pylint && task mypy"
 lint = "task black && task flake8 && task pydocstyle && task pylint"
 ```
 
