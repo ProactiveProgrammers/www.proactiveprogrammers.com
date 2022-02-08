@@ -3,7 +3,7 @@
 ## Project Goals
 
 This engineering effort invites you to investigate how to use various discrete
-structures, such as the dictionary and the set, to analyze all of the text in a
+structures, such as the list and the set, to analyze all of the text in a
 file. This means that your program, called `textanalysis`, must complete tasks
 like (i) inputting a text file and storing its contents in a string, (ii)
 extracting the paragraphs from the text file, and (iii) extracting the words in
@@ -162,7 +162,10 @@ relevant instructions in the [technical
 skills](/proactive-skills/introduction-proactive-skills/) to enter into a Docker
 container and run the command `gradle grade` to check your work. If `gradle
 grade` shows that all checks pass, you will know that you made progress towards
-correctly implementing and writing about `textanalysis`.
+correctly implementing and writing about `textanalysis`. If there are checks
+that did not pass correctly, which you can see in either your terminal window or
+the logs from GitHub Actions, then you should read them carefully and take the
+suggested steps to repair the problems.
 
 ???+ note
 
@@ -182,11 +185,10 @@ editor to answer all of the questions in the `writing/reflection.md` file. For
 instance, you should provide the output of the Python program in a fenced code
 block, explain the meaning of the Python source code segments that you
 implemented, and answer all of the other questions about your experiences in
-completing this project. The finished version of your reflection should fully
-describe the influence that the size of the input data set, the procedure chosen
-for performing uniquification, and the type of data that is input into the
-uniquification procedure has on the memory and time efficiency of the process
-and the amount of size reduction achieved by a specific configuration.
+completing this project. One of the main goals of the reflection is for you to
+explain the trends that you see in the different provided text files. You should
+also discuss how the `textanalysis` program uses discrete structures like the
+list and the set to automatically characterize the text of a complete document.
 
 ## Project Assessment
 
