@@ -57,44 +57,6 @@ file.
 
 ```
 
-```python
-def calculate_percent_reduction(list_start, list_final):
-    """Calculate the percent reduction in the size of the list."""
-    reduction = calculate_reduction(list_start, list_final)
-    percent_reduction = (reduction / len(list_start)) * 100
-    return percent_reduction
-```
-
-One noteworthy aspect of this program is that it uses the `getattr` function to
-"construct" an executable version of a Python function when provided with the
-name of the function, as described in this [StackOverflow
-reference](https://stackoverflow.com/questions/3061/calling-a-function-of-a-module-by-using-its-name-a-string).
-After reading the discussion on StackOverflow, make sure that you understand the
-source code line `unique_result_list = function_to_call(data_column_text_list)`.
-You should also notice that, instead of accepting as input the full name of a
-function, this program accepts the name of the approach and then builds up the
-name of the function. Can you find and understand the source code that completes
-this task? Finally, this approach adopts a different approach to recording the
-execution time of the three functions that perform uniquification, leveraging
-the timing "decorator" described in the following function. Make sure that you
-review the following [StackOverflow
-discussion](https://stackoverflow.com/questions/1622943/timeit-versus-timing-decorator)
-to understand how this approach works!
-
-```python
-def timing(function):
-    """Define a profiling function for execution time."""
-    @wraps(function)
-    def wrap(*args, **kw):
-        ts = time()
-        result = function(*args, **kw)
-        te = time()
-        print("The function %r took: %2.4f sec" % (function.__name__, te - ts))
-        return result
-
-    return wrap
-```
-
 ## Running Checks
 
 If you study the source code in the `pyproject.toml` file you will see that it
