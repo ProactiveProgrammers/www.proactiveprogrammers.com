@@ -3,7 +3,13 @@
 ## Project Goals
 
 This engineering effort invites you to investigate how to use various discrete
-structures, such as the dictionary and the set, to extract the unique values
+structures, such as the dictionary and the set, to analyze all of the text in a
+file. This means that your program, called `textanalysis` must complete tasks
+like (i) inputting a text file, (ii) extracting the paragraphs from the text
+file, and (iii) extracting the words in each paragraph. Next, your program
+
+
+extract the unique values
 contained inside of a list of strings. In addition to implementing and testing
 the functions that perform list uniquification, you will produce the majority of
 the functions for the program's command-line interface and input processing. You
