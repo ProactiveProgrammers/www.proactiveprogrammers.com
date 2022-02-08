@@ -4,21 +4,21 @@
 
 This engineering effort invites you to investigate how to use various discrete
 structures, such as the dictionary and the set, to analyze all of the text in a
-file. This means that your program, called `textanalysis` must complete tasks
-like (i) inputting a text file, (ii) extracting the paragraphs from the text
-file, and (iii) extracting the words in each paragraph. Next, your program
-
-
-extract the unique values
-contained inside of a list of strings. In addition to implementing and testing
-the functions that perform list uniquification, you will produce the majority of
-the functions for the program's command-line interface and input processing. You
-will also implement functions that calculate the reduction in size and the
-percent reduction in size for a list of strings with an unknown amount of
-redundancy. To experimentally assess the efficiency of the `datauniquifier`
-program that you implement, this project also invites you to conduct an
-experiment to study, for instance, which uniquification process is best at
-reducing a list's size.
+file. This means that your program, called `textanalysis`, must complete tasks
+like (i) inputting a text file and storing its contents in a string, (ii)
+extracting the paragraphs from the text file, and (iii) extracting the words in
+each paragraph. Next, `textanalysis` should identify the unique words in each
+paragraph, the unique words in the entire document, and the words that are
+evident in all of the paragraphs of the document. To accomplish these tasks your
+program will use external packages, such as
+[supervenn](https://github.com/gecko984/supervenn), that make it possible to
+better visualize and understand the relationships between the sets that
+represent each of the paragraphs in the document. As you enhance your knowledge
+of discrete structures and your [technical
+skills](/proactive-skills/introduction-proactive-skills/), you will continue to
+program with VS Code, the Python programming language, and the Poetry package
+manager. Ultimately, your goal for this project is to create a program that can
+automatically analyze a complete text document.
 
 ## Project Access
 
@@ -79,83 +79,9 @@ The data file contains 50000 data values in it!
 
 🔍 So, was this an efficient approach to uniquifying the data?
 
-The function 'unique_listcomprehension' took: 0.0063 sec
-
-Estimated overall memory according to the operating system:
-   37.921875 megabytes
-
-🔍 So, did this remove a lot of duplicate data?
-
-The number of values removed from the data: 1155
-The percent reduction due to uniquification: 2.31%
-```
-
-???+ note
-
-    Don't forget that if you want to run the `datauniqifier` you must use your
-    terminal to first go into the GitHub repository containing this project and
-    then go into the `datauniqifier` directory that contains the project's code.
-    Finally, remember that before running the program you must run `poetry
-    install` to add the dependencies.
-
-## Adding Functionality
-
-One of your tasks for this project is to address all of the `TODO` markers in
-the `analyze`, `extract`, and `main` modules of the `datauniqifier` program.
-After you have completed all of the `TODO` markers inside of the provided Python
-source code, you should execute the program in a variety of configurations so as
-to determine the influence that the size of the input data set, the procedure
-chosen for performing uniquification, and the type of data that is input into
-the uniquification procedure has on the memory and time efficiency of the
-process and the amount of reduction achieved by a specific configuration.
-
-To automatically generate data sets of different sizes, you can use the [CSV
-Faker](https://github.com/pereorga/csvfaker) tool that relies on the [Faker
-Package](https://github.com/joke2k/faker) package with a command like `csvfaker
---rows 50000 email job > data.txt`. Note that this command will create a data
-file called `data.txt` that contains two columns, the first for an `email` and
-the second for a `job`. It is also important to note that this command will
-generate a data set that contains a total of 50,000 individual records of data.
-Please bear in mind that running the `csvfaker` program in this fashion may,
-depending on the performance characteristics of your laptop, require a long time
-to run. Using the aforementioned approach for running the `csvfaker` program you
-should generate different data files and then use them as the input to the
-`datauniquifier` program. While everyone learning to be a proactive programmer
-is encouraged to use the `csvfaker` tool to generate their own data sets, you
-can complete this project's required tasks by using the provided `data.txt` file
-in the `input` directory.
-
-Along with varying the size of the data, your experiments should also consider
-how the removal of redundant data values varies depending on the type of the
-data input into your tool. You can do this by running the program with both
-`--column 0` and `--column 1`. Finally, you should notice that the `uniquify.py`
-file contains a total of three different procedures for performing
-uniquification, with more approaches outlined in the blog post called [Fastest
-Way to Uniquify a List in
-Python](https://www.peterbe.com/plog/fastest-way-to-uniquify-a-list-in-python-3.6).
-You should make sure to run the `datauniquifier` with at least the three
-required ways to remove duplication, checking to see if different approaches
-vary in terms of their memory consumption and execution time. Along with
-noticing the trends in the data sets that you collect, you should also aim to
-explain why these trends are evident, leveraging your knowledge of how the
-Python programming languages uses discrete structures such as the set.
-
-The evaluation metrics for the efficiency of the `datauniquifier` program are as
-follows: (i) execution time of the approach, (ii) estimated memory overhead of
-the entire Python program, (iii) reduction in the size of the column of data,
-and (iv) percent reduction in the size of the column of data. As you are working
-to understand each of these evaluation metrics, make sure that you review the
-following Python functions that respectively calculate the reduction and percent
-reduction in the size of the data. If you want to reduce the overall size of a
-data set through the process of uniquification, is it better to have a large or
-a small value for these two evaluation metrics? Remember, part of your goal for
-this assignment is to evaluate how the different configurations of the
-`datauniquifier` program influence these four evaluation metrics!
-
-```python
-def calculate_reduction(list_start, list_final):
+The function 'unique__reduction(list_start, list_final):
     """Calculate the reduction in the size of the list."""
-    return len(list_start) - len(list_final)
+    return len() - len(list_final)
 ```
 
 ```python
