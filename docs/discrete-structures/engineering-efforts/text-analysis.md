@@ -34,54 +34,27 @@ project!
 
 ## Expected Output
 
-To get started on this engineering effort, please make sure that you read the
-blog post entitled [Fastest Way to Uniquify a List in
-Python](https://www.peterbe.com/plog/fastest-way-to-uniquify-a-list-in-python-3.6).
-As part of this assignment, you are going to implement at least three ways to
-remove the duplicate values from one of the columns in a large input file that
-contains automatically generated data. Here is a sample of the data that you
-input into the program that you will implement as part of this assignment:
+As part of this assignment, you are going to implement a `textanalysis` program
+that takes as input a complete document stored in a text file and then performs
+an automated analysis of the document's contents. For instance, here is an
+expert of a text file that you could input into your program. With that said, it
+is important to note that the complete version of this file has a total of 5
+paragraphs that consist of 19 lines, not including the blank lines that separate
+the paragraphs.
 
-```
-dana74@mahoney-perez.com,"Administrator, charities/voluntary organisations"
-nathanjohnson@davila.net,Software engineer
-pbush@gmail.com,"Journalist, newspaper"
-timothy75@chang.com,Osteopath
-gsparks@yahoo.com,"Psychologist, clinical"
-daniel39@gmail.com,Logistics and distribution manager
-jason85@ward.com,Logistics and distribution manager
-jacobwalton@hotmail.com,Television camera operator
-markmcgee@hernandez-roberts.com,IT sales professional
-shannon35@allen.com,Ecologist
+```text
+Make enables the end user to build and install your package without knowing
+the details of how that is done --- because these details are recorded in the
+makefile that you supply.
+
+Make figures out automatically which files it needs to update, based on which
+source files have changed. It also automatically determines the proper order
+for updating files, in case one non-source file depends on another non-source
+file.
 ```
 
-When the program accepts this type of input it will also accept a specific
-column for which it should eliminate duplicates through the process of
-uniquification. For instance, when the program is run with the command `poetry
-run python datauniquifier --approach listcomprehension --column 1 --data-file
-inputs/data.txt` then it will remove all of the duplicates from column `1` in
-the data file that stores the job descriptions of specific individuals.
-Alternatively, if the program was run with the command `poetry run python
-datauniquifier --approach listcomprehension --column 0 --data-file
-inputs/data.txt` then it will remove all of the duplicates from column `0` in
-the data file that stores the email addresses of specific individuals. If we
-run the first of these commands two previous commands then the program will
-produce output like this:
+```text
 
-```
-The chosen approach to uniquify the file is: listcomprehension
-
-The data file that contains the input is: input/data.txt
-
-The data file contains 50000 data values in it!
-
-🚀 Let's do some uniquification!
-
-🔍 So, was this an efficient approach to uniquifying the data?
-
-The function 'unique__reduction(list_start, list_final):
-    """Calculate the reduction in the size of the list."""
-    return len() - len(list_final)
 ```
 
 ```python
