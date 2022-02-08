@@ -93,21 +93,15 @@ overlap between the words in the document's paragraphs?
 If you study the file `textanalysis/textanalysis/main.py` you will see that it
 has all of the functionality needed to implement the entire command-line
 interface. Furthermore, the file `textanalysis/textanalysis/visualize.py` shows
-that 
+that it also has all of the functions needed to use `supervenn` the create a
+visualization of the word-level overlap in the provided text file.
 
-`TODO` markers that designate the parts of the program that you need to
-implement before `textanalysis` will produce the correct output. If you run the
-provided test suite with the command `poetry run task test` or you try to run
-the program with the command `poetry run textanalysis --data-file
-input/data.txt` you will see an error message in your terminal window. This is
-due to the fact that there are key parts of this program that are missing! In
-addition to implementing the program's `main` function you also need to
-correctly `import` the correct modules and objects, like `typer`. Along with
-adding command-line features to the `main` function in the `main` module, 
-
-you need to provide an implementation of the following functions:
-
-- `def compute_mean(numbers: List[float]) -> float`
+- `def extract_lines_including_blanks(input_lines: str) -> List[str]:`
+- `def extract_lines_not_including_blanks(input_lines: str) -> List[str]:`
+- `def extract_paragraphs(input_lines: str) -> List[str]:`
+- `def extract_unique_words_paragraphs(paragraphs: List[str]) -> List[Set[str]]:`
+- `def extract_unique_words(sets: List[Set[str]]) -> Set[str]:`
+- `def extract_common_words(sets: List[Set[str]]) -> Set[str]:`
 
 ## Running Checks
 
