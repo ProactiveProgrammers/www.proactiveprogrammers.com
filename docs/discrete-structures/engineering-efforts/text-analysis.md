@@ -37,8 +37,8 @@ project!
 As part of this assignment, you are going to implement a `textanalysis` program
 that takes as input a complete document stored in a text file and then performs
 an automated analysis of the document's contents. For instance, here is an
-expert of a text file that you could input into your program. With that said, it
-is important to note that the complete version of this file has a total of 5
+excerpt of a text file that you could input into your program. With that said,
+it is important to note that the complete version of this file has a total of 5
 paragraphs that consist of 19 lines, not including the blank lines that separate
 the paragraphs.
 
