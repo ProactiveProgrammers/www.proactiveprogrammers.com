@@ -1,4 +1,4 @@
-# Text Analysis
+# Text Processing
 
 ## Project Goals
 
@@ -37,10 +37,9 @@ project!
 As part of this assignment, you are going to implement a `textanalysis` program
 that takes as input a complete document stored in a text file and then performs
 an automated analysis of the document's contents. For instance, here is an
-excerpt of a text file that you could input into your program. With that said,
-it is important to note that the complete version of this file has a total of 5
-paragraphs that consist of 19 lines, not including the blank lines that separate
-the paragraphs.
+excerpt of a text file that you could input into your program. Notably, the
+entire file has a total of 5 paragraphs that consist of 19 lines, not including
+the blank lines that separate the paragraphs.
 
 ```text
 Make enables the end user to build and install your package without knowing
@@ -53,8 +52,32 @@ for updating files, in case one non-source file depends on another non-source
 file.
 ```
 
-```text
+If you run the finished version of the `textanalysis` program with the command
+`poetry run textanalysis --input-file text/input_one.txt --analyze`, where
+`text/input_one.txt` is the file that contains the above excerpt and the
+`--analyze` flag tells the program to perform a textual analysis, you should see
+the following output in your terminal window. It is worth noting that the
+program will also produce additional output that explains how the `supervenn`
+package analyzed the sets representing each paragraph in order to produce its
+graphical representation of the text document. You can learn more about both the
+way in which `supervenn` uses the `FrozenSet` discrete structure and how you
+should interpret the visualization that supervenn produces by visiting the
+[supervenn](https://github.com/gecko984/supervenn) web site. To see the
+visualization produced by `supervenn` you should use a graphics preview program
+to load the file `graphics/set-visualization.png`. For the input file called
+`text/input_one.txt`, what trends does the visualization show you about the
+overlap between the words in the document's paragraphs?
 
+```text
+✨ Let's characterize the file and its words!
+
+        The input file contains 23 lines, including blank lines!
+        The input file contains 19 lines, not including blank lines!
+        The input file contains 5 paragraphs!
+        The input file contains 118 unique words across all sets!
+        The words that are found across all sets are: {'Make', 'to'}
+
+🖌 Saving the visualization in graphics/set-visualization.png
 ```
 
 ## Running Checks
