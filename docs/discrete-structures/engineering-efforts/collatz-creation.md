@@ -100,7 +100,8 @@ you look at the `collatzcreator/collatzcreator/collatz.py` file you will notice
 that the `TODO` marker instructs you to provide a complete implementation of the
 aforementioned `compute_collatz_chain` function. Finally, a review of the
 `collatzcreator/collatzcreator/summarize.py` will show that you also need to
-implement the following functions:
+implement the following functions that characterize the computed Collatz
+sequences:
 
 - `def compute_mean(numbers: List[int]) -> float:`
 - `def compute_median(numbers: List[int]) -> float:`
@@ -114,10 +115,11 @@ The following source code segment provides a complete implementation of the
 initially provided number. Next, lines `4` through `9` iteratively compute the
 values in the Collatz sequence, continuing until the `number` takes on the value
 of `1`. When `number` is even, lines `5` and `6` use the `//` operator to assign
-to `number` to the integer value of `number / 2`. When `number` is odd, line
-`8`.
-
-$n$ becomes $\frac{n}{2}$ when $n$ is even and $3n + 1$ when $n$ is odd
+to `number` to the integer value of `number / 2`. When `number` is odd, line `8`
+assigns to `number` the value of `3 * number + 1`. Ultimately, the
+`compute_collatz_chain` function follows the sequence's definition by which $n$
+becomes $\frac{n}{2}$ when $n$ is even and $3n + 1$ when $n$ is odd, only
+terminating when the value of $n$ is $1$.
 
 ```python linenums="1"
 def compute_collatz_chain(number: int) -> Iterator[int]:
