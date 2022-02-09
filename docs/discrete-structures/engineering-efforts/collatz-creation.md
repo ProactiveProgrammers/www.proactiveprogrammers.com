@@ -15,10 +15,10 @@ not the Collatz sequence will terminate with the value of $1$ when it is
 started with an arbitrary positive integer $n$. However, for all of the
 values tried to date the sequence always yields a Collatz chain (i.e.,
 the sequence values that arise from iteratively applying the rules) of a
-finite length. The Longest Collatz Sequence posed by Project Euler asks
-"Which starting number, under one million, produces the longest chain"?
-The `collatzcreation` program that you implement for this project should
-efficiently produce an answer to this question.
+finite length. The Longest Collatz Sequence problem posed by Project
+Euler asks "Which starting number, under one million, produces the
+longest chain"? The `collatzcreation` program that you implement for
+this project should efficiently produce an answer to this question.
 
 ## Project Access
 
@@ -34,7 +34,7 @@ project!
 
 ## Expected Output
 
-As part of this assignment, you are going to implement a `textanalysis` program
+As part of this assignment, you are going to implement a `collatzcreator` program
 that takes as input a complete document stored in a text file and then performs
 an automated analysis of the document's contents. For instance, here is an
 excerpt of a text file that you could input into your program. Notably, the
@@ -52,8 +52,8 @@ for updating files, in case one non-source file depends on another non-source
 file.
 ```
 
-If you run the finished version of the `textanalysis` program with the command
-`poetry run textanalysis --input-file text/input_one.txt --analyze`, where
+If you run the finished version of the `collatzcreator` program with the command
+`poetry run collatzcreator --input-file text/input_one.txt --analyze`, where
 `text/input_one.txt` is the file that contains the above excerpt and the
 `--analyze` flag tells the program to perform a textual analysis, you should see
 the following output in your terminal window. It is worth noting that the
@@ -82,20 +82,20 @@ overlap between the words in the document's paragraphs?
 
 ???+ note
 
-    Don't forget that if you want to run the `textanalysis` you must use your
+    Don't forget that if you want to run the `collatzcreator` you must use your
     terminal to first go into the GitHub repository containing this project and
-    then go into the `textanalysis` directory that contains the project's
+    then go into the `collatzcreator` directory that contains the project's
     code. Finally, remember that before running the program you must run `poetry
     install` to add the dependencies.
 
 ## Adding Functionality
 
-If you study the file `textanalysis/textanalysis/main.py` you will see that it
+If you study the file `collatzcreator/collatzcreator/main.py` you will see that it
 has all of the functionality needed to implement the entire command-line
-interface. Furthermore, the file `textanalysis/textanalysis/visualize.py` shows
+interface. Furthermore, the file `collatzcreator/collatzcreator/visualize.py` shows
 that it also has all of the functions needed to use `supervenn` the create a
 visualization of the word-level overlap in the provided text file. For this
-assignment, the `textanalysis/textanalysis/extract.py` file contains the `TODO`
+assignment, the `collatzcreator/collatzcreator/extract.py` file contains the `TODO`
 markers that explain how to implement the following functions.
 
 - `def extract_lines_including_blanks(input_lines: str) -> List[str]:`
@@ -105,7 +105,7 @@ markers that explain how to implement the following functions.
 - `def extract_unique_words(sets: List[Set[str]]) -> Set[str]:`
 - `def extract_common_words(sets: List[Set[str]]) -> Set[str]:`
 
-You can study the source code in the `textanalysis/textanalysis/main.py` file to
+You can study the source code in the `collatzcreator/collatzcreator/main.py` file to
 see the input and expected output of each of the above functions. For instance,
 here is the way in which the `main` function in the `main.py` file calls the
 first function in the above list: `input_line_count =
@@ -123,7 +123,7 @@ line `4` returns it. It is important to note that this function does not filter
 out the blank lines that `splitlines` returns &mdash; which is the job of the
 `def extract_lines_not_including_blanks(input_lines: str) -> List[str]:`
 function that you also need to create! Once you have implemented the required
-functions, the `textanalysis` should produce the expected output.
+functions, the `collatzcreator` should produce the expected output.
 
 ```python linenums="1"
 def extract_lines_including_blanks(input_lines: str) -> List[str]:
@@ -139,12 +139,12 @@ includes the following section section of tasks that use
 [taskipy](https://github.com/illBeRoy/taskipy):
 
 ```toml
-black = { cmd = "black textanalysis --check", help = "Run the black checks for source code format" }
-reformat = { cmd = "black textanalysis", help = "Run the black reformatter for source code style" }
-flake8 = { cmd = "flake8 textanalysis", help = "Run the flake8 checks for source code documentation" }
-mypy = { cmd = "poetry run mypy textanalysis", help = "Run the mypy type checker for potential type errors" }
-pydocstyle = { cmd = "pydocstyle textanalysis", help = "Run the pydocstyle checks for source code documentation" }
-pylint = { cmd = "pylint textanalysis", help = "Run the pylint checks for source code documentation" }
+black = { cmd = "black collatzcreator --check", help = "Run the black checks for source code format" }
+reformat = { cmd = "black collatzcreator", help = "Run the black reformatter for source code style" }
+flake8 = { cmd = "flake8 collatzcreator", help = "Run the flake8 checks for source code documentation" }
+mypy = { cmd = "poetry run mypy collatzcreator", help = "Run the mypy type checker for potential type errors" }
+pydocstyle = { cmd = "pydocstyle collatzcreator", help = "Run the pydocstyle checks for source code documentation" }
+pylint = { cmd = "pylint collatzcreator", help = "Run the pylint checks for source code documentation" }
 all = "task black && task flake8 && task pydocstyle && task pylint && task mypy"
 lint = "task black && task flake8 && task pydocstyle && task pylint"
 ```
@@ -154,7 +154,7 @@ automatically run all of the linters designed to check the Python source code in
 your program and its test suite. You can also use the command `poetry run task
 black` to confirm that your source code adheres to the industry-standard format
 defined by the `black` tool. If it does not adhere to the standard then you can
-run the command `poetry run black textanalysis tests` and it will automatically
+run the command `poetry run black collatzcreator tests` and it will automatically
 reformat the source code.
 
 Along with running tasks like `poetry run task list`, you can leverage the
@@ -162,7 +162,7 @@ relevant instructions in the [technical
 skills](/proactive-skills/introduction-proactive-skills/) to enter into a Docker
 container and run the command `gradle grade` to check your work. If `gradle
 grade` shows that all checks pass, you will know that you made progress towards
-correctly implementing and writing about `textanalysis`. If there are checks
+correctly implementing and writing about `collatzcreator`. If there are checks
 that did not pass correctly, which you can see in either your terminal window or
 the logs from GitHub Actions, then you should read them carefully and take the
 suggested steps to repair the problems.
@@ -187,7 +187,7 @@ block, explain the meaning of the Python source code segments that you
 implemented, and answer all of the other questions about your experiences in
 completing this project. One of the main goals of the reflection is for you to
 explain the trends that you see in the different provided text files. You should
-also discuss how the `textanalysis` program uses discrete structures like the
+also discuss how the `collatzcreator` program uses discrete structures like the
 list and the set to automatically characterize the text of a complete document.
 
 ## Project Assessment
