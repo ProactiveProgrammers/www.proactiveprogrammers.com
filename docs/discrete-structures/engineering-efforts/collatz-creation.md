@@ -91,46 +91,33 @@ visualizes the results!
 
 ## Adding Functionality
 
-If you study the file `collatzcreator/collatzcreator/main.py` you will see that it
-has all of the functionality needed to implement the entire command-line
-interface. Furthermore, the file `collatzcreator/collatzcreator/visualize.py` shows
-that it also has all of the functions needed to use `supervenn` the create a
-visualization of the word-level overlap in the provided text file. For this
-assignment, the `collatzcreator/collatzcreator/extract.py` file contains the `TODO`
-markers that explain how to implement the following functions.
+If you study the file `collatzcreator/collatzcreator/main.py` you will see that
+it contains a single `TODO` that reminds you to call the `compute_collatz_chain`
+function that takes as input a specific number and returns an `Iterator[int]` as
+its output. This means that the `compute_collatz_chain` function should use
+`yield` to incrementally produce the `int` values in the Collatz sequence. When
+you look at the `collatzcreator/collatzcreator/collatz.py` file you will notice
+that the `TODO` marker instructs you to provide a complete implementation of the
+aforementioned `compute_collatz_chain` function. Finally, a review of the
+`collatzcreator/collatzcreator/summarize.py` will show that you also need to
+implement the following functions:
 
-- `def extract_lines_including_blanks(input_lines: str) -> List[str]:`
-- `def extract_lines_not_including_blanks(input_lines: str) -> List[str]:`
-- `def extract_paragraphs(input_lines: str) -> List[str]:`
-- `def extract_unique_words_paragraphs(paragraphs: List[str]) -> List[Set[str]]:`
-- `def extract_unique_words(sets: List[Set[str]]) -> Set[str]:`
-- `def extract_common_words(sets: List[Set[str]]) -> Set[str]:`
-
-You can study the source code in the `collatzcreator/collatzcreator/main.py` file to
-see the input and expected output of each of the above functions. For instance,
-here is the way in which the `main` function in the `main.py` file calls the
-first function in the above list: `input_line_count =
-len(extract.extract_lines_including_blanks(input_text))`. Note that it accepts
-as input the `str` called `input_text` that contains the textual input from the
-file specified on the command-line interface.
-
-The following code segment provides the complete implementation of the
-`extract_lines_including_blanks` function. The function signature on line `1`
-shows that `extract_lines_including_blanks` will accept a `str` as input and
-return a `List` of `str` as output, with each index in the `List` being a single
-line inside of the input `str` called `input_lines`. Line `3` of this function
-uses the `splitlines` function to create the required `List` of `str` and then
-line `4` returns it. It is important to note that this function does not filter
-out the blank lines that `splitlines` returns &mdash; which is the job of the
-`def extract_lines_not_including_blanks(input_lines: str) -> List[str]:`
-function that you also need to create! Once you have implemented the required
-functions, the `collatzcreator` should produce the expected output.
+- `def compute_mean(numbers: List[int]) -> float:`
+- `def compute_median(numbers: List[int]) -> float:`
+- `def compute_difference(numbers: List[int]) -> List[float]:`
+- `def compute_variance(numbers: List[int]) -> float:`
+- `def compute_standard_deviation(numbers: List[int]) -> float:`
 
 ```python linenums="1"
-def extract_lines_including_blanks(input_lines: str) -> List[str]:
-    """Extract all of the lines, including the blanks lines."""
-    lines_text = input_lines.splitlines()
-    return lines_text
+def compute_collatz_chain(number: int) -> Iterator[int]:
+    """Compute the numbers in the Collatz sequence for the starting number."""
+    yield number
+    while number != 1:
+        if number % 2 == 0:
+            number = number // 2
+        else:
+            number = 3 * number + 1
+        yield number
 ```
 
 ## Running Checks
