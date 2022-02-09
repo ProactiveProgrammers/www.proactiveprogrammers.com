@@ -6,7 +6,7 @@ class: 'text-center'
 # https://sli.dev/custom/highlighters.html
 highlighter: prism
 colorSchema: light
-lineNumbers: false
+remoteAssets: false
 # show line numbers in code blocks
 lineNumbers: false
 # some information about the slides, markdown enabled
