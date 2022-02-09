@@ -4,16 +4,21 @@
 
 This engineering effort invites you to investigate how to apply all that
 you have learned about Python programming and discrete structures to
-implement a program, called `collatzcreation`, that can solve the [Longest
-Collatz
+implement a program, called `collatzcreation`, that can solve the
+[Longest Collatz
 Sequence](https://projecteuler.net/index.php?section=problems&id=014)
-posed by [Project Euler](https://projecteuler.net/).
-
-
-This means that your program, called `textanalysis`, must complete tasks
-like (i) inputting a text file and storing its contents in a string, (ii)
-extracting the paragraphs from the text file, and (iii) extracting the words in
-each paragraph.
+problem posed by [Project Euler](https://projecteuler.net/). The Collatz
+sequence is defined for the positive integers according to the rule that
+$n$ becomes $\frac{n}{2}$ when $n$ is even and $3n + 1$ when $n$ is odd.
+To date, computer scientists and mathematicians do not know whether or
+not the Collatz sequence will terminate with the value of $1$ when it is
+started with an arbitrary positive integer $n$. However, for all of the
+values tried to date the sequence always yields a Collatz chain (i.e.,
+the sequence values that arise from iteratively applying the rules) of a
+finite length. The Longest Collatz Sequence posed by Project Euler asks
+"Which starting number, under one million, produces the longest chain"?
+The `collatzcreation` program that you implement for this project should
+efficiently produce an answer to this question.
 
 ## Project Access
 
