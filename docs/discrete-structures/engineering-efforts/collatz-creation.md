@@ -7,7 +7,7 @@ you have learned about Python programming and discrete structures to
 implement a program, called `collatzcreation`, that can solve the
 [Longest Collatz
 Sequence](https://projecteuler.net/index.php?section=problems&id=014)
-problem posed by [Project Euler](https://projecteuler.net/). The Collatz
+problem posed on [Project Euler](https://projecteuler.net/). The Collatz
 sequence is defined for the positive integers according to the rule that
 $n$ becomes $\frac{n}{2}$ when $n$ is even and $3n + 1$ when $n$ is odd.
 To date, computer scientists and mathematicians do not know whether or
@@ -132,6 +132,18 @@ def compute_collatz_chain(number: int) -> Iterator[int]:
             number = 3 * number + 1
         yield number
 ```
+
+Finally, don't forget that the [Longest Collatz
+Sequence](https://projecteuler.net/index.php?section=problems&id=014) problem
+posed on [Project Euler](https://projecteuler.net/) is "Which starting number,
+under one million, produces the longest chain"? This means that you will need to
+run the program with the following command-line arguments: `poetry run
+collatzcreator --minimum 1 --maximum 1000000 --display`. It is important to note
+that it is possible that running `collatzcreator` on your laptop with these
+command-line arguments may require a significant amount of computation time.
+This means that you will either have to wait a long time for `collatzcreator` to
+finish or implement a more efficient version of the `compute_collatz_chain`
+function!
 
 ## Running Checks
 
