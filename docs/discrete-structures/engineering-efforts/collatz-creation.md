@@ -108,6 +108,13 @@ implement the following functions:
 - `def compute_variance(numbers: List[int]) -> float:`
 - `def compute_standard_deviation(numbers: List[int]) -> float:`
 
+The following source code segment provides a complete implementation of the
+`compute_collatz_chain` function. Line `3` of this function firsts `yield`s the
+`number` since the first numerical value in the Collatz chain is always the
+initially provided number. Next, lines `4` through `9` iteratively compute the
+values in the Collatz sequence, continuing until the `number` takes on the value
+of `1`.
+
 ```python linenums="1"
 def compute_collatz_chain(number: int) -> Iterator[int]:
     """Compute the numbers in the Collatz sequence for the starting number."""
