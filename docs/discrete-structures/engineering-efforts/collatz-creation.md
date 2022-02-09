@@ -140,13 +140,15 @@ includes the following section section of tasks that use
 [taskipy](https://github.com/illBeRoy/taskipy):
 
 ```toml
-black = { cmd = "black collatzcreator --check", help = "Run the black checks for source code format" }
-reformat = { cmd = "black collatzcreator", help = "Run the black reformatter for source code style" }
-flake8 = { cmd = "flake8 collatzcreator", help = "Run the flake8 checks for source code documentation" }
+black = { cmd = "black collatzcreator tests --check", help = "Run the black checks for source code format" }
+reformat = { cmd = "black collatzcreator tests", help = "Run the black reformatter for source code format" }
+flake8 = { cmd = "flake8 collatzcreator tests", help = "Run the flake8 checks for source code documentation" }
 mypy = { cmd = "poetry run mypy collatzcreator", help = "Run the mypy type checker for potential type errors" }
-pydocstyle = { cmd = "pydocstyle collatzcreator", help = "Run the pydocstyle checks for source code documentation" }
-pylint = { cmd = "pylint collatzcreator", help = "Run the pylint checks for source code documentation" }
-all = "task black && task flake8 && task pydocstyle && task pylint && task mypy"
+pydocstyle = { cmd = "pydocstyle collatzcreator tests", help = "Run the pydocstyle checks for source code documentation" }
+pylint = { cmd = "pylint collatzcreator tests", help = "Run the pylint checks for source code documentation" }
+test = { cmd = "pytest -x -s", help = "Run the pytest test suite" }
+test-silent = { cmd = "pytest -x --show-capture=no", help = "Run the pytest test suite without showing output" }
+all = "task black && task flake8 && task pydocstyle && task pylint && task mypy && task test"
 lint = "task black && task flake8 && task pydocstyle && task pylint"
 ```
 
@@ -155,8 +157,10 @@ automatically run all of the linters designed to check the Python source code in
 your program and its test suite. You can also use the command `poetry run task
 black` to confirm that your source code adheres to the industry-standard format
 defined by the `black` tool. If it does not adhere to the standard then you can
-run the command `poetry run black collatzcreator tests` and it will automatically
-reformat the source code.
+run the command `poetry run black collatzcreator tests` or `poetry run task
+reformat` and it will automatically reformat the source code. You can also run
+the command `poetry run task test` to run the Pytest test suites provided in the
+files `test_collatz.py` and `test_summarize.py`.
 
 Along with running tasks like `poetry run task list`, you can leverage the
 relevant instructions in the [technical
@@ -166,7 +170,9 @@ grade` shows that all checks pass, you will know that you made progress towards
 correctly implementing and writing about `collatzcreator`. If there are checks
 that did not pass correctly, which you can see in either your terminal window or
 the logs from GitHub Actions, then you should read them carefully and take the
-suggested steps to repair the problems.
+suggested steps to repair the problems. You can make as many attempts as needed
+to complete this project and achieve a GitHub Actions build that passes the test
+suite and all of the checks run through `gradle grade`.
 
 ???+ note
 
