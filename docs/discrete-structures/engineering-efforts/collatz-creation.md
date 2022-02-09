@@ -34,50 +34,51 @@ project!
 
 ## Expected Output
 
-As part of this assignment, you are going to implement a `collatzcreator` program
-that takes as input a complete document stored in a text file and then performs
-an automated analysis of the document's contents. For instance, here is an
-excerpt of a text file that you could input into your program. Notably, the
-entire file has a total of 5 paragraphs that consist of 19 lines, not including
-the blank lines that separate the paragraphs.
+As part of this assignment, you are going to implement a
+`collatzcreator` program that takes as input a complete document stored
+in a text file and then performs an automated analysis of the document's
+contents. If you run the `collatzcreator` program with the command
+`poetry run collatzcreator --minimum 1 --maximum 10 --display` it will
+try the numbers `1` through `10` as the input number to the Collatz
+Sequence and then calculate the length of the Collatz chain before the
+sequence produces the value of `1`. The `collatzcreator` program will
+also compute some summary statistics about the length of the Collatz
+chains that it constructed when using the inputs that start at the
+`minimum` and go up to the `maximum`. When the `collatzcreator` accepts
+the input flag of `--display` it will also produce a graph that will
+visualize the relationship between the value of the numerical input and
+the length of the Collatz chain.
 
 ```text
-Make enables the end user to build and install your package without knowing
-the details of how that is done --- because these details are recorded in the
-makefile that you supply.
+🕵  Let's investigate the behavior of the Collatz sequence!
 
-Make figures out automatically which files it needs to update, based on which
-source files have changed. It also automatically determines the proper order
-for updating files, in case one non-source file depends on another non-source
-file.
-```
+  The first input to try will be 1
+  The last input to try will be 10
 
-If you run the finished version of the `collatzcreator` program with the command
-`poetry run collatzcreator --input-file text/input_one.txt --analyze`, where
-`text/input_one.txt` is the file that contains the above excerpt and the
-`--analyze` flag tells the program to perform a textual analysis, you should see
-the following output in your terminal window. It is worth noting that the
-program will also produce additional output that explains how the `supervenn`
-package analyzed the sets representing each paragraph in order to produce its
-graphical representation of the text document. You can learn more about both the
-way in which `supervenn` uses the `FrozenSet` discrete structure and how you
-should interpret the visualization that supervenn produces by visiting the
-[supervenn](https://github.com/gecko984/supervenn) web site. To see the
-visualization produced by `supervenn` you should use a graphics preview program
-to load the file `graphics/set-visualization.png`. For the input file called
-`text/input_one.txt`, what trends does the visualization show you about the
-overlap between the words in the document's paragraphs?
+The inputs to the Collatz function:
 
-```text
-✨ Let's characterize the file and its words!
+[1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 
-        The input file contains 23 lines, including blank lines!
-        The input file contains 19 lines, not including blank lines!
-        The input file contains 5 paragraphs!
-        The input file contains 118 unique words across all sets!
-        The words that are found across all sets are: {'Make', 'to'}
+✨ What is the length of the Collatz chain before the function produces
+the value of 1?
 
-🖌 Saving the visualization in graphics/set-visualization.png
+📏 The length of the resulting Collatz chain:
+
+[1, 2, 8, 3, 6, 9, 17, 4, 20, 7]
+
+✨ What is the summary information about the length of the Collatz chain?
+
+  The minimum length of a Collatz chain is: 1
+  The maximum length of a Collatz chain is: 20
+  The mean of the length of a Collatz chain is: 7.70
+  The median of the length of a Collatz chain is: 6.50
+  The standard deviation of the length of a Collatz chain is: 5.97
+
+🤷 Can you find a pattern between the input number and the length of the
+Collatz chain?
+
+📦 Check the file called 'graphs/collatz.pdf' to see a graph that
+visualizes the results!
 ```
 
 ???+ note
