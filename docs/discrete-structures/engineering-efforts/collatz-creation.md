@@ -113,7 +113,11 @@ The following source code segment provides a complete implementation of the
 `number` since the first numerical value in the Collatz chain is always the
 initially provided number. Next, lines `4` through `9` iteratively compute the
 values in the Collatz sequence, continuing until the `number` takes on the value
-of `1`.
+of `1`. When `number` is even, lines `5` and `6` use the `//` operator to assign
+to `number` to the integer value of `number / 2`. When `number` is odd, line
+`8`.
+
+$n$ becomes $\frac{n}{2}$ when $n$ is even and $3n + 1$ when $n$ is odd
 
 ```python linenums="1"
 def compute_collatz_chain(number: int) -> Iterator[int]:
@@ -154,7 +158,7 @@ reformat the source code.
 
 Along with running tasks like `poetry run task list`, you can leverage the
 relevant instructions in the [technical
-skills](/proactive-skills/introduction-proactive-skills/) to enter into a Docker
+skills](/proactive-skills/introduction-proactive-skills/) to enter a Docker
 container and run the command `gradle grade` to check your work. If `gradle
 grade` shows that all checks pass, you will know that you made progress towards
 correctly implementing and writing about `collatzcreator`. If there are checks
