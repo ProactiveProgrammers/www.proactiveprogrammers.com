@@ -8,7 +8,8 @@ command = """
 pip install -q poetry &&
 poetry config virtualenvs.in-project true &&
 poetry install -v &&
-ENABLE_PDF_EXPORT=1 mkdocs build -d site
+ENABLE_PDF_EXPORT=1 mkdocs build -d site &&
+jupyter lite build --output-dir live
 cd decks
 cd data-abstraction-slides
 npm install
