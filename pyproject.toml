@@ -11,6 +11,7 @@ mkdocs-mermaid2-plugin = "^0.5.2"
 mkdocs-print-site-plugin = "^2.0.0"
 mkdocs-with-pdf = "^0.9.3"
 mkdocs-minify-plugin = "^0.4.1"
+jupyterlite = "^0.1.0-alpha.23"
 
 [tool.poetry.dev-dependencies]
 pytest = "^5.2"
