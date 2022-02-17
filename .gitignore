@@ -130,3 +130,9 @@ build-iPhoneSimulator/
 
 ### Download directory ###
 download
+
+### _output directory ###
+_output
+
+### Jupyter Database ###
+.jupyterlite.doit.db
