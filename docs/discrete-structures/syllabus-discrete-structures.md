@@ -254,10 +254,10 @@ acceptable.
 - Unacceptable forms of collaboration include:
     - Sharing details about specific lines of code, including showing your
       source code to someone or looking at someone else's code.
-    - Copying someone else's source code or technical writing, even with some
-      slight modifications.
-    - Typing source code or technical writing on someone else’s laptop or
-      computer.
+    - Copying someone else's source code, technical writing, or program output,
+      even with some slight modifications.
+    - Typing source code, technical writing, or program commands on someone
+      else’s laptop or computer.
 
 These are unacceptable forms of collaboration because they make it difficult
 for both the course instructor and a learner to assess individual knowledge.
