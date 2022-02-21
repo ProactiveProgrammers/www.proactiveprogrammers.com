@@ -232,16 +232,48 @@ pledge:
 > defined in the Honor Code, and to maintain the integrity of both
 > myself and the College community as a whole.
 
-It is understood that an important part of the learning process in any
-course, and particularly one in computer science, derives from
-thoughtful discussions with teachers and fellow students. Such dialogue
-is encouraged. However, it is necessary to distinguish carefully between
-the student who discusses the principles underlying a problem with
-others and the student who produces assignments that are identical to,
-or merely variations on, someone else's work. While it is acceptable for
-students in this class to discuss their source code, images, and reports
-with their classmates, deliverables that are nearly identical to the
-work of others will be taken as evidence of violating the Honor Code.
+#### Effective Collaboration
+
+Computer science is an inherently collaborative discipline. People must work
+together to produce large, complex, and ultimately useful software systems.
+Because of this, the Department of Computer Science at Allegheny College
+encourages students to engage in collaboration. However, in the context of
+individual coursework, through which each student must demonstrate their own
+knowledge, there are certain forms of collaboration that are and are not
+acceptable.
+
+- Acceptable forms of collaboration include:
+    - Discussing high-level concepts, such as the use cases for `while` loops
+      or the various methods that can add elements to a `list`.
+    - Referring someone to a course text book, course slides, or other
+      resources that contain helpful information or instructions.
+    - Outlining the high-level steps to solving a problem or implementing a
+      feature, without mentioning specific lines of code that need to be
+      written.
+
+- Unacceptable forms of collaboration include:
+    - Sharing details about specific lines of code, including showing your
+      source code to someone or looking at someone else's code.
+    - Copying someone else's source code or technical writing, even with some
+      slight modifications.
+    - Typing source code or technical writing on someone else’s laptop or
+      computer.
+
+These are unacceptable forms of collaboration because they make it difficult
+for both the course instructor and a learner to assess individual knowledge.
+  Moreover, these unacceptable forms of collaboration can impede your learning
+  or someone else's learning since you are less likely to understand source
+  code or technical writing that you do not create yourself. Importantly, any
+  student who participates in these unacceptable forms of collaboration,
+  whether they are the one sharing, showing, looking, copying, or typing, are
+  in violation of the Honor Code Allegheny College.
+
+In summary, students should collaborate as long as they collaborate in
+acceptable ways. However, if a student needs assistance beyond what can be
+gained through acceptable forms of collaboration, they should seek help from
+the course instructor or a technical leader. If a student submits deliverables
+(e.g., source code or technical writing) that are nearly identical to the work
+of others will be taken as evidence of violating the Honor Code.
 
 #### Disability Services
 
