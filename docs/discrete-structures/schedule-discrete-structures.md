@@ -21,10 +21,13 @@
   number, and set), to the implementation of useful Python programs that
   declare and call functions and declare variables and manipulate their values?
 
-### Reading Assignments
+### Next Steps
 
-- Chapters 1 and 2 of *Programming and Mathematical Thinking*
-- Check out the [course slides](/slides/discrete-structures/making-connections/) for a detailed investigation of these chapters!
+- Read chapters 1 and 2 of *Programming and Mathematical Thinking*.
+- Check out the [course
+  slides](/slides/discrete-structures/making-connections/) for a
+  detailed investigation of these chapters!
+- Go to the `discrete-structures/making-connections/` directory on [Proactive Programmers Live](https://proactiveprogrammers.com/live/) and study all of the programs!
 
 ???+ note "Technical Concepts"
 
