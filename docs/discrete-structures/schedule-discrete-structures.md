@@ -269,43 +269,44 @@ learning](../../proactive-learning/introduction-proactive-learning). As such,
 you can best understand the content on this schedule by completing all the
 source code surveys, programming projects, and engineering efforts!
 
-??? note "Schedule Review"
+???+ note "Schedule Review"
     - **Software Operation**
-        - **Start**: August 24, 2021
-        - **End**: September 3, 2021
-    - **Making Connections**
-        - **Start**: September 6, 2021
-        - **End**: September 10, 2021
-    - **Programming Constructs**
-        - **Start**: September 13, 2021
-        - **End**: September 17, 2021
-    - **Python Functions**
-        - **Start**: September 20, 2021
-        - **End**: September 24, 2021
-    - **Data Containers**
-        - **Start**: September 27, 2021
-        - **End**: October 1, 2021
-    - **Monoids**
-        - **Start**: October 4, 2021
-        - **End**: October 8, 2021
-    - **Data Streams**
-        - **Start**: October 11, 2021
-        - **End**: October 15, 2021
-    - **Mid-Term Examination Review**
-        - **Start**: October 18, 2021
-        - **End**: October 22, 2021
-    - **Set Foundations**
-        - **Start**: October 25, 2021
-        - **End**: October 29, 2021
-    - **Probability Functions**
-        - **Start**: November 1, 2021
-        - **End**: November 5, 2021
-    - **Professional Evaluation**
-        - **Start**: November 8, 2021
-        - **End**: November 12, 2021
-    - **Mathematical Mappings**
-        - **Start**: November 15, 2021
-        - **End**: November 19, 2021
-    - **Object-Oriented Programming**
-        - **Start**: December 1, 2021
-        - **End**: December 8, 2021
+        - **Start**: February 21, 2022
+        - **End**: February 25, 2022
+      - **Making Connections**
+        - **Start**: February 21, 2022
+        - **End**: February 25, 2022
+
+<!-- - **Programming Constructs** -->
+<!--     - **Start**: September 13, 2022 -->
+<!--     - **End**: September 17, 2022 -->
+<!-- - **Python Functions** -->
+<!--     - **Start**: September 20, 2022 -->
+<!--     - **End**: September 24, 2022 -->
+<!-- - **Data Containers** -->
+<!--     - **Start**: September 27, 2022 -->
+<!--     - **End**: October 1, 2022 -->
+<!-- - **Monoids** -->
+<!--     - **Start**: October 4, 2022 -->
+<!--     - **End**: October 8, 2022 -->
+<!-- - **Data Streams** -->
+<!--     - **Start**: October 11, 2022 -->
+<!--     - **End**: October 15, 2022 -->
+<!-- - **Mid-Term Examination Review** -->
+<!--     - **Start**: October 18, 2022 -->
+<!--     - **End**: October 22, 2022 -->
+<!-- - **Set Foundations** -->
+<!--     - **Start**: October 25, 2022 -->
+<!--     - **End**: October 29, 2022 -->
+<!-- - **Probability Functions** -->
+<!--     - **Start**: November 1, 2022 -->
+<!--     - **End**: November 5, 2022 -->
+<!-- - **Professional Evaluation** -->
+<!--     - **Start**: November 8, 2022 -->
+<!--     - **End**: November 12, 2022 -->
+<!-- - **Mathematical Mappings** -->
+<!--     - **Start**: November 15, 2022 -->
+<!--     - **End**: November 19, 2022 -->
+<!-- - **Object-Oriented Programming** -->
+<!--     - **Start**: December 1, 2022 -->
+<!--     - **End**: December 8, 2022 -->
