@@ -8,7 +8,7 @@
   help me to rigorously explore discrete structures with the Python programming
   language?
 
-### Reading Assignments
+### Next Steps
 
 - All written content in and tutorials referenced by the list of [proactive
   technical skills](/technical-skills/introduction-technical-skills).
@@ -45,7 +45,7 @@
   computational tasks like processing the contents of a file and mathematical
   tasks like using Newton's method to approximate the square root of a number?
 
-### Reading Assignments
+### Next Steps
 
 - Chapter 3 of *Programming and Mathematical Thinking*
 - Chapter 1 and Appendix B of *Doing Math with Python*
@@ -71,7 +71,7 @@
   expressions to perform mathematical operations such as computing the absolute
   value of a number and the mean and median of a sequence of numbers?
 
-### Reading Assignments
+### Next Steps
 
 - Chapter 4 of *Programming and Mathematical Thinking*
 - Chapter 3 of *Doing Math with Python*
@@ -99,7 +99,7 @@
   specified behavior to perform tasks like the input and parsing of a comma
   separated value file?
 
-### Reading Assignments
+### Next Steps
 
 - Chapter 5 of *Programming and Mathematical Thinking*
 - Chapter 2 of *Doing Math with Python*
@@ -126,7 +126,7 @@
   specified behavior to perform tasks like finding a name in a file or computing
   the arithmetic mean of data values?
 
-### Reading Assignments
+### Next Steps
 
 - Chapter 6 of *Programming and Mathematical Thinking*
 - Chapter 3 of *Doing Math with Python*
@@ -152,7 +152,7 @@
 - How do I use dynamically generated streams of data to implement memory
   efficient and predictable Python programs?
 
-### Reading Assignments
+### Next Steps
 
 - Chapter 7 of *Programming and Mathematical Thinking*
 - All previously assigned chapters of *Doing Math with Python*
@@ -178,7 +178,7 @@
 - How do I use the mathematical concepts of sets and Boolean logic to design
   Python programs that are easier to implement and understand?
 
-### Reading Assignments
+### Next Steps
 
 - Chapter 8 of *Programming and Mathematical Thinking*
 - Chapter 5 of *Doing Math with Python*
@@ -200,7 +200,7 @@
 - How do I use the implementation of a finite set in `Sympy` to create
   Python programs that calculate and use probabilities?
 
-### Reading Assignments
+### Next Steps
 
 - Chapters 4 and 5 of *Doing Math with Python*
 - Chapter 8 of *Programming and Mathematical Thinking*
@@ -222,7 +222,7 @@
 - How do I use dictionaries, tuples, and lists to correctly implement efficient
 mathematical functions in Python?
 
-### Reading Assignments
+### Next Steps
 
 - Chapter 9 of *Programming and Mathematical Thinking*
 - Check out the [course slides](/slides/discrete-structures/mathematical-mappings/) for a detailed investigation of these chapters!
@@ -244,7 +244,7 @@ mathematical functions in Python?
 of object-oriented programming to correctly implement Python programs that
 are easy to understand and maintain?
 
-### Reading Assignments
+### Next Steps
 
 - Chapters 10 and 11 of *Programming and Mathematical Thinking*
 - Check out the [course slides](/slides/discrete-structures/object-oriented/) for a detailed investigation of these chapters!
