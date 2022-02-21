@@ -153,7 +153,7 @@ deadline.
 
 It is mandatory for all students to attend the course sessions. If, due to
 extenuating circumstances, you will not be able to attend a session, then,
-whenever possible, please communicate with the instructor at least one week in
+whenever possible, please communicate with the instructor at least one day in
 advance to describe your situation. Students who have any signs of illness
 should not attend any in-person course sessions.
 
@@ -191,10 +191,26 @@ details needed to discuss their question. Students can find out the office hour
 schedule student technical leaders by viewing the list of [student technical
 leaders](https://www.cs.allegheny.edu/teaching/technicalleaders/).
 
+#### Using GitHub and Discord
+
+This course will primarily use GitHub and Discord for all course communication,
+as summarized in the list of [community
+connections](/proactive-community/community-connections). We will use GitHub for
+the sharing of both source code and course projects and for reporting issues in
+those materials. We will use two distinct Discord servers for all course
+discussions. The [Proactive Programmers Discord
+Server](https://discord.gg/kjah8MFYbR) provides a way for members of the
+proactive community to use text and video to chat with each other and will be
+the main forum for the discussion of technical content in discrete structures.
+The [Allegheny College Computer Science Discord
+Server](https://discord.gg/CS2h9kXzX6) provides a way for students who are
+studying computer science at Allegheny College to use text and video to chat
+with each other and will be the main forum for course announcements.
+
 #### Using Email
 
-Although we will primarily use Discord for class communication, the course
-instructor will sometimes use email to send announcements about important
+Although we will primarily use GitHub and Discord for class communication, the
+course instructor will sometimes use email to send announcements about important
 matters such as changes in the schedule. It is your responsibility to check your
 email at least once a day and to ensure that you can reliably send and receive
 emails. This class policy is based on the statement about the use of email that
