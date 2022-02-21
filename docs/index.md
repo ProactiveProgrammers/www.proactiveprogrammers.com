@@ -1,3 +1,9 @@
+---
+hide:
+  - navigation
+  - toc
+---
+
 ![Placeholder](img/Square-Proactive-Programmers-Logo.svg){align=center}
 
 # Welcome!
