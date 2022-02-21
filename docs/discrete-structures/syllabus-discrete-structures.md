@@ -1,6 +1,6 @@
 # Course Syllabus
 
-## Computer Science 102 Fall 2021
+## Computer Science 102 Spring 2022
 
 ### Course Instructor
 
@@ -9,12 +9,11 @@
 
 ### Instructor Office Hours
 
--   Monday: 1:00 pm-2:00 pm, Alden Hall, 15 minute time slots
--   Tuesday: 1:00 pm-2:00 pm, Google Meet, 15 minute time slots
--   Wednesday: 5:00 pm-5:30 pm, Alden Hall, 15 minute time slots
--   Thursday: 11:00 am-12:00 noon, Google Meet, 15 minute time slots
--   Thursday: 5:00 pm-5:30 pm, Alden Hall, 15 minute time slots
--   Friday: 1:00 pm-3:00 pm, Alden Hall, 15 minute time slots
+-   Monday: 1:00 PM-3:00 PM, Alden Hall, 15 minute time slots
+-   Tuesday: 5:00 PM-5:30 PM, Alden Hall, 15 minute time slots
+-   Wednesday: 5:00 PM-5:30 PM, Alden Hall, 15 minute time slots
+-   Thursday: 1:00 PM-3:00 PM, Alden Hall, 15 minute time slots
+-   Friday: 1:00 PM-2:00 PM, Alden Hall, 15 minute time slots
 
 ???+ note "Scheduling Office Hours"
 
@@ -30,9 +29,9 @@
 
 ### Course Meeting Schedule
 
-- Discussion and Group Work Session: Monday and Wednesday, 11:30 am-12:20 pm
-- Programming Session: Friday, 11:30 am-12:20 am
-- Laboratory Session: Wednesday, 3:00 pm-4:50 pm
+- Discussion and Group Work Session: Monday and Wednesday, 11:40 AM-11:40 AM
+- Programming Session: Friday, 11:40 AM-11:40 AM
+- Laboratory Session: Tuesday, 2:50 pm-4:40 pm
 
 ### Course Description
 
@@ -72,19 +71,21 @@ assigned percentages during the academic semester.
 
 | Category               | Percentage |
 |------------------------| -----------|
-| Technical Assessments  |  10%       |
+| Course Participation   |  5%        |
 | Midterm Examination    |  10%       |
-| Final Examination      |  10%       |
-| Source Code Surveys    |  20%       |
-| Programming Projects   |  20%       |
-| Engineering Efforts    |  30%       |
+| Final Examination      |  15%       |
+| Source Code Surveys    |  15%       |
+| Programming Projects   |  15%       |
+| Engineering Efforts    |  40%       |
 
 These grading categories have the following definitions:
 
--   **Technical Assessments**: These cumulative weekly online assessments will
-    cover all course content introduced to date. Unless prior arrangements are
-    made with the course instructor, all students will be expected to use their
-    computer to take these technical assessments on the scheduled day.
+-   **Course Participation**: After either an unexcused absence or a late
+    attendance to class on two separate occasions, a student's course
+    participation grade will be reduced by half a percentage for each additional
+    time they are absent or late in an unexcused fashion. Students who need to
+    miss class or attend late for an excused reason should communicate their
+    situation to the course instructor as soon as possible.
 
 -   **Midterm Examination**: The midterm is an online cumulative assessment
     covering all of the material from the class, programming, and laboratory
@@ -135,7 +136,10 @@ programming projects, and source code surveys must be submitted to the
 instructor through a student's GitHub repository. No credit will be awarded for
 any course work that is not submitted to your GitHub repository with the
 required name. Unless special arrangements are made with the instructor, no work
-will be accepted after the published deadline.
+will be accepted after the published deadline. Unless there is documentation for
+an extenuating circumstance that warrants extra time, the course instructor will
+disable a student's ability to push to the GitHub repository for a course
+assignment two days after the project is due.
 
 #### Assignment Evaluation
 
@@ -149,7 +153,7 @@ deadline.
 
 It is mandatory for all students to attend the course sessions. If, due to
 extenuating circumstances, you will not be able to attend a session, then,
-whenever possible, please communicate with the instructor at least one week in
+whenever possible, please communicate with the instructor at least one day in
 advance to describe your situation. Students who have any signs of illness
 should not attend any in-person course sessions.
 
@@ -187,10 +191,26 @@ details needed to discuss their question. Students can find out the office hour
 schedule student technical leaders by viewing the list of [student technical
 leaders](https://www.cs.allegheny.edu/teaching/technicalleaders/).
 
+#### Using GitHub and Discord
+
+This course will primarily use GitHub and Discord for all course communication,
+as summarized in the list of [community
+connections](/proactive-community/community-connections). We will use GitHub for
+the sharing of both source code and course projects and for reporting issues in
+those materials. We will use two distinct Discord servers for all course
+discussions. The [Proactive Programmers Discord
+Server](https://discord.gg/kjah8MFYbR) provides a way for members of the
+proactive community to use text and video to chat with each other and will be
+the main forum for the discussion of technical content in discrete structures.
+The [Allegheny College Computer Science Discord
+Server](https://discord.gg/CS2h9kXzX6) provides a way for students who are
+studying computer science at Allegheny College to use text and video to chat
+with each other and will be the main forum for course announcements.
+
 #### Using Email
 
-Although we will primarily use Discord for class communication, the course
-instructor will sometimes use email to send announcements about important
+Although we will primarily use GitHub and Discord for class communication, the
+course instructor will sometimes use email to send announcements about important
 matters such as changes in the schedule. It is your responsibility to check your
 email at least once a day and to ensure that you can reliably send and receive
 emails. This class policy is based on the statement about the use of email that
@@ -212,16 +232,48 @@ pledge:
 > defined in the Honor Code, and to maintain the integrity of both
 > myself and the College community as a whole.
 
-It is understood that an important part of the learning process in any
-course, and particularly one in computer science, derives from
-thoughtful discussions with teachers and fellow students. Such dialogue
-is encouraged. However, it is necessary to distinguish carefully between
-the student who discusses the principles underlying a problem with
-others and the student who produces assignments that are identical to,
-or merely variations on, someone else's work. While it is acceptable for
-students in this class to discuss their source code, images, and reports
-with their classmates, deliverables that are nearly identical to the
-work of others will be taken as evidence of violating the Honor Code.
+#### Effective Collaboration
+
+Computer science is an inherently collaborative discipline. People must work
+together to produce large, complex, and ultimately useful software systems.
+Because of this, the Department of Computer Science at Allegheny College
+encourages students to engage in collaboration. However, in the context of
+individual coursework, through which each student must demonstrate their own
+knowledge, there are certain forms of collaboration that are and are not
+acceptable.
+
+- Acceptable forms of collaboration include:
+    - Discussing high-level concepts, such as the use cases for `while` loops
+      or the various methods that can add elements to a `list`.
+    - Referring someone to a course text book, course slides, or other
+      resources that contain helpful information or instructions.
+    - Outlining the high-level steps to solving a problem or implementing a
+      feature, without mentioning specific lines of code that need to be
+      written.
+
+- Unacceptable forms of collaboration include:
+    - Sharing details about specific lines of code, including showing your
+      source code to someone or looking at someone else's code.
+    - Copying someone else's source code, technical writing, or program output,
+      even with some slight modifications.
+    - Typing source code, technical writing, or program commands on someone
+      else’s laptop or computer.
+
+These are unacceptable forms of collaboration because they make it difficult
+for both the course instructor and a learner to assess individual knowledge.
+  Moreover, these unacceptable forms of collaboration can impede your learning
+  or someone else's learning since you are less likely to understand source
+  code or technical writing that you do not create yourself. Importantly, any
+  student who participates in these unacceptable forms of collaboration,
+  whether they are the one sharing, showing, looking, copying, or typing, are
+  in violation of the Honor Code Allegheny College.
+
+In summary, students should collaborate as long as they collaborate in
+acceptable ways. However, if a student needs assistance beyond what can be
+gained through acceptable forms of collaboration, they should seek help from
+the course instructor or a technical leader. If a student submits deliverables
+(e.g., source code or technical writing) that are nearly identical to the work
+of others will be taken as evidence of violating the Honor Code.
 
 #### Disability Services
 
@@ -237,7 +289,7 @@ ensure that approved accommodations are implemented in a timely fashion.
 
 ### Welcome Message
 
-In reference to software, Frederick P. Brooks, Jr. wrote in chapter one of *The
+Referring to software, Frederick P. Brooks, Jr. wrote in chapter one of *The
 Mythical Man Month*, "The magic of myth and legend has come true in our time."
 Efficient Python programs that correctly use discrete structures to store and
 manipulate data have the potential to positively influence the lives of many

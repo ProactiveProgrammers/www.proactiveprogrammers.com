@@ -392,7 +392,6 @@ Supports both code reuse and modularity
 
 [//]: # (Slide End }}})
 
-
 ---
 
 # Lambda Expressions in Python
