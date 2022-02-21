@@ -27,7 +27,7 @@
 - Check out the [course
   slides](/slides/discrete-structures/making-connections/) for a
   detailed investigation of these chapters!
-- Go to the `discrete-structures/making-connections/` directory on [Proactive Programmers Live](https://proactiveprogrammers.com/live/) and study all of the programs!
+- Go to the `discrete-structures/making-connections/` directory on [Proactive Programmers Live](https://proactiveprogrammers.com/live/) and investigate all of the Python programs!
 
 ???+ note "Technical Concepts"
 
@@ -47,8 +47,8 @@
 
 ### Next Steps
 
-- Chapter 3 of *Programming and Mathematical Thinking*
-- Chapter 1 and Appendix B of *Doing Math with Python*
+- Read chapter 3 of *Programming and Mathematical Thinking*
+- Read chapter 1 and Appendix B of *Doing Math with Python*
 - Check out the [course slides](/slides/discrete-structures/programming-constructs/) for a detailed investigation of these chapters!
 
 ???+ note "Technical Concepts"
@@ -73,8 +73,8 @@
 
 ### Next Steps
 
-- Chapter 4 of *Programming and Mathematical Thinking*
-- Chapter 3 of *Doing Math with Python*
+- Read chapter 4 of *Programming and Mathematical Thinking*
+- Read chapter 3 of *Doing Math with Python*
 - Check out the [course slides](/slides/discrete-structures/python-functions/) for a detailed investigation of these chapters!
 
 ???+ note "Technical Concepts"
@@ -101,8 +101,8 @@
 
 ### Next Steps
 
-- Chapter 5 of *Programming and Mathematical Thinking*
-- Chapter 2 of *Doing Math with Python*
+- Read chapter 5 of *Programming and Mathematical Thinking*
+- Read chapter 2 of *Doing Math with Python*
 - Check out the [course slides](/slides/discrete-structures/data-containers/) for a detailed investigation of these chapters!
 
 ???+ note "Technical Concepts"
@@ -128,8 +128,8 @@
 
 ### Next Steps
 
-- Chapter 6 of *Programming and Mathematical Thinking*
-- Chapter 3 of *Doing Math with Python*
+- Read chapter 6 of *Programming and Mathematical Thinking*
+- Read chapter 3 of *Doing Math with Python*
 - Check out the [course slides](/slides/discrete-structures/using-monoids/) for a detailed investigation of these chapters!
 
 ???+ note "Technical Concepts"
@@ -154,7 +154,7 @@
 
 ### Next Steps
 
-- Chapter 7 of *Programming and Mathematical Thinking*
+- Read chapter 7 of *Programming and Mathematical Thinking*
 - All previously assigned chapters of *Doing Math with Python*
 - Check out the [course slides](/slides/discrete-structures/data-streams/) for a detailed investigation of these chapters!
 
@@ -180,8 +180,8 @@
 
 ### Next Steps
 
-- Chapter 8 of *Programming and Mathematical Thinking*
-- Chapter 5 of *Doing Math with Python*
+- Read chapter 8 of *Programming and Mathematical Thinking*
+- Read chapter 5 of *Doing Math with Python*
 - Check out the [course slides](/slides/discrete-structures/set-foundations/) for a detailed investigation of these chapters!
 
 ???+ note "Technical Concepts"
@@ -202,8 +202,8 @@
 
 ### Next Steps
 
-- Chapters 4 and 5 of *Doing Math with Python*
-- Chapter 8 of *Programming and Mathematical Thinking*
+- Read chapters 4 and 5 of *Doing Math with Python*
+- Read chapter 8 of *Programming and Mathematical Thinking*
 - Check out the [course slides](/slides/discrete-structures/probability-functions/) for a detailed investigation of these chapters!
 
 ???+ note "Technical Concepts"
@@ -224,7 +224,7 @@ mathematical functions in Python?
 
 ### Next Steps
 
-- Chapter 9 of *Programming and Mathematical Thinking*
+- Read chapter 9 of *Programming and Mathematical Thinking*
 - Check out the [course slides](/slides/discrete-structures/mathematical-mappings/) for a detailed investigation of these chapters!
 
 ???+ note "Technical Concepts"
@@ -246,7 +246,7 @@ are easy to understand and maintain?
 
 ### Next Steps
 
-- Chapters 10 and 11 of *Programming and Mathematical Thinking*
+- Read chapters 10 and 11 of *Programming and Mathematical Thinking*
 - Check out the [course slides](/slides/discrete-structures/object-oriented/) for a detailed investigation of these chapters!
 
 ???+ note "Technical Concepts"
