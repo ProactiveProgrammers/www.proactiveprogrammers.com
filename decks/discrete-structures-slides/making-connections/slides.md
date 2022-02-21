@@ -632,6 +632,63 @@ What is the purpose of the <code>for line in file</code> statement?
 
 [//]: # (Slide Start {{{)
 
+<div class="flex row">
+
+<div class="text-7xl text-orange-600 font-bold mt-5 ml-4 mb-4">
+Let's run this program to understand it better!
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+Visit the <a href = "test">Proactive Programmers Live</a> site!
+</div>
+
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+<code>discrete-structures/making-connections/</code>
+</div>
+
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+Fix+Run <code>compute-average-with-file.ipynb</code>
+</div>
+
+</div>
+
+</div>
+
+[//]: # (Slide End }}})
+
+
+---
+
+[//]: # (Slide Start {{{)
+
 # Useful Mathematical Terminology
 
 -   To be clear and succinct, we use mathematical terminology as a
@@ -996,9 +1053,13 @@ Serve as input and output of a function
 
     -   **Q5**: How does the Python language perform **type checking**?
 
--   Make sure to **run** the scripts that we discussed this week!
+-   Use the <a href = "test">Proactive Programmers Live</a> site to
+    **explore** the Python programs!
 
 -   Use the Python **REPL** to explore the **limits** of variable values and types!
+
+-   **Connect** these technical concepts to the course projects for this
+    week!
 
 </v-clicks>
 
