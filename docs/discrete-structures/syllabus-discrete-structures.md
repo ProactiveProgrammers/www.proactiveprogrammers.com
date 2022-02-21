@@ -29,9 +29,9 @@
 
 ### Course Meeting Schedule
 
-- Discussion and Group Work Session: Monday and Wednesday, 11:30 am-12:20 pm
-- Programming Session: Friday, 11:30 am-12:20 am
-- Laboratory Session: Wednesday, 3:00 pm-4:50 pm
+- Discussion and Group Work Session: Monday and Wednesday, 11:40 AM-11:40 AM
+- Programming Session: Friday, 11:40 AM-11:40 AM
+- Laboratory Session: Tuesday, 2:50 pm-4:40 pm
 
 ### Course Description
 
@@ -71,19 +71,21 @@ assigned percentages during the academic semester.
 
 | Category               | Percentage |
 |------------------------| -----------|
-| Technical Assessments  |  10%       |
+| Course Participation   |  5%        |
 | Midterm Examination    |  10%       |
-| Final Examination      |  10%       |
-| Source Code Surveys    |  20%       |
-| Programming Projects   |  20%       |
-| Engineering Efforts    |  30%       |
+| Final Examination      |  15%       |
+| Source Code Surveys    |  15%       |
+| Programming Projects   |  15%       |
+| Engineering Efforts    |  40%       |
 
 These grading categories have the following definitions:
 
--   **Technical Assessments**: These cumulative weekly online assessments will
-    cover all course content introduced to date. Unless prior arrangements are
-    made with the course instructor, all students will be expected to use their
-    computer to take these technical assessments on the scheduled day.
+-   **Course Participation**: After either an unexcused absence or a late
+    attendance to class on two separate occasions, a student's course
+    participation grade will be reduced by half a percentage for each additional
+    time they are absent or late in an unexcused fashion. Students who need to
+    miss class or attend late for an excused reason should communicate their
+    situation to the course instructor as soon as possible.
 
 -   **Midterm Examination**: The midterm is an online cumulative assessment
     covering all of the material from the class, programming, and laboratory
@@ -134,7 +136,10 @@ programming projects, and source code surveys must be submitted to the
 instructor through a student's GitHub repository. No credit will be awarded for
 any course work that is not submitted to your GitHub repository with the
 required name. Unless special arrangements are made with the instructor, no work
-will be accepted after the published deadline.
+will be accepted after the published deadline. Unless there is documentation for
+an extenuating circumstance that warrants extra time, the course instructor will
+disable a student's ability to push to the GitHub repository for a course
+assignment two days after the project is due.
 
 #### Assignment Evaluation
 
