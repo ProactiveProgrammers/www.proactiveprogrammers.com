@@ -13,7 +13,7 @@
 -   Tuesday: 5:00 PM-5:30 PM, Alden Hall, 15 minute time slots
 -   Wednesday: 5:00 PM-5:30 PM, Alden Hall, 15 minute time slots
 -   Thursday: 1:00 PM-3:00 PM, Alden Hall, 15 minute time slots
--   Friday: 1:00 pm-2:00 pm, Alden Hall, 15 minute time slots
+-   Friday: 1:00 PM-2:00 PM, Alden Hall, 15 minute time slots
 
 ???+ note "Scheduling Office Hours"
 
@@ -289,7 +289,7 @@ ensure that approved accommodations are implemented in a timely fashion.
 
 ### Welcome Message
 
-In reference to software, Frederick P. Brooks, Jr. wrote in chapter one of *The
+Referring to software, Frederick P. Brooks, Jr. wrote in chapter one of *The
 Mythical Man Month*, "The magic of myth and legend has come true in our time."
 Efficient Python programs that correctly use discrete structures to store and
 manipulate data have the potential to positively influence the lives of many
