@@ -11,8 +11,7 @@
 ### Reading Assignments
 
 - All written content in and tutorials referenced by the list of [proactive
-  technical skills](/technical-skills/introduction-technical-skills).
-
+  technical skills](/proactive-skills/technical-skills/introduction-technical-skills/).
 
 ## Python Foundations
 
