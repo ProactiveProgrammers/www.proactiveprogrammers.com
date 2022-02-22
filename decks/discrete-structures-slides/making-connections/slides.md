@@ -647,7 +647,7 @@ Let's run this program to understand it better!
 <mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
 
 <div class="text-3xl font-bold mt-10 ml-4">
-Visit the <a href = "test">Proactive Programmers Live</a> site!
+Visit the <a href = "https://proactiveprogrammers.com/live">Proactive Programmers Live</a> site!
 </div>
 
 </div>
@@ -966,7 +966,7 @@ Let's run this code to understand it better!
 <mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
 
 <div class="text-3xl font-bold mt-10 ml-4">
-Visit the <a href = "test">Proactive Programmers Live</a> site!
+Visit the <a href = "https://proactiveprogrammers.com/live">Proactive Programmers Live</a> site!
 </div>
 
 </div>
@@ -1108,7 +1108,7 @@ Serve as input and output of a function
 
     -   **Q5**: How does the Python language perform **type checking**?
 
--   Use the <a href = "test">Proactive Programmers Live</a> site to
+-   Use the <a href = "https://proactiveprogrammers.com/live">Proactive Programmers Live</a> site to
     **explore** the Python programs!
 
 -   Use the Python **REPL** to explore the **limits** of variable values and types!
