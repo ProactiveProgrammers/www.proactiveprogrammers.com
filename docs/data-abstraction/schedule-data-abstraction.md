@@ -8,7 +8,7 @@
   help me to rigorously explore data abstraction with the Python programming
   language?
 
-### Reading Assignments
+### Next Steps
 
 - All written content in and tutorials referenced by the list of [proactive
   technical skills](/proactive-skills/technical-skills/introduction-technical-skills/).
@@ -22,10 +22,11 @@
   find out if a number is even or odd, compute a number's square, or determine
   if a number is divisible by another number?
 
-### Reading Assignments
+### Next Steps
 
 - Chapters 1 and 2 of *Introduction to Computation and Programming Using Python*
 - Check out the [course slides](/slides/data-abstraction/python-foundations/) for a detailed investigation of these chapters!
+- Go to the `data-abstraction/python-foundations/` directory on [Proactive Programmers Live](https://proactiveprogrammers.com/live/) and investigate all of the Python programs!
 
 ???+ note "Technical Concepts"
 
@@ -49,7 +50,7 @@
   to compute (i) the square root of a number, (ii) the logarithm of a number,
   and (iii) the roots of a polynomial function?
 
-### Reading Assignments
+### Next Steps
 
 - Chapter 3 of *Introduction to Computation and Programming Using Python*
 - Check out the [course slides](/slides/data-abstraction/numerical-computation/) for a detailed investigation of these chapters!
@@ -75,7 +76,7 @@
   create modularized and/or higher-order functions that are easy to understand,
   implement, test, and maintain?
 
-### Reading Assignments
+### Next Steps
 
 - Chapter 4 of *Introduction to Computation and Programming Using Python*
 - Check out the [course slides](/slides/data-abstraction/function-scope/) for a detailed investigation of these chapters!
@@ -100,7 +101,7 @@
 - How can I use Python's structured types (e.g., `str`, `list`, `range`, and
   `dict`) to implement programs that efficiently store and retrieve data?
 
-### Reading Assignments
+### Next Steps
 
 - Chapter 5 of *Introduction to Computation and Programming Using Python*
 - Check out the [course slides](/slides/data-abstraction/structured-types/) for a detailed investigation of these chapters!
@@ -125,7 +126,7 @@
   functions, modules, libraries, and files to implement efficient programs with
   effective designs?
 
-### Reading Assignments
+### Next Steps
 
 - Chapters 6 and 7 of *Introduction to Computation and Programming Using Python*
 - Check out the [course slides](/slides/data-abstraction/program-components/) for a detailed investigation of these chapters!
@@ -151,7 +152,7 @@
   confidence in the correctness of a Python program?
 - Check out the [course slides](/slides/data-abstraction/software-testing/) for a detailed investigation of these chapters!
 
-### Reading Assignments
+### Next Steps
 
 - Chapters 8 of *Introduction to Computation and Programming Using Python*
 
@@ -176,7 +177,7 @@
   implement Python programs with top-notch and easy-to-understand designs?
 - Check out the [course slides](/slides/data-abstraction/object-oriented-programming/) for a detailed investigation of these chapters!
 
-### Reading Assignments
+### Next Steps
 
 - Chapters 9 and 10 of *Introduction to Computation and Programming Using Python*
 
@@ -203,7 +204,7 @@
   slides](/slides/data-abstraction/algorithmic-complexity/) for a detailed
   investigation of these chapters!
 
-### Reading Assignments
+### Next Steps
 
 - Chapter 11 of *Introduction to Computation and Programming Using Python*
 
@@ -230,7 +231,7 @@
   slides](/slides/data-abstraction/data-structures/) for a detailed
   investigation of these chapters!
 
-### Reading Assignments
+### Next Steps
 
 - Chapter 12 of *Introduction to Computation and Programming Using Python*
 
@@ -256,7 +257,7 @@
 - Check out the [course slides](/slides/data-abstraction/optimization-problems/)
   for a detailed investigation of these chapters!
 
-### Reading Assignments
+### Next Steps
 
 - Chapters 14 and 15 of *Introduction to Computation and Programming Using Python*
 
