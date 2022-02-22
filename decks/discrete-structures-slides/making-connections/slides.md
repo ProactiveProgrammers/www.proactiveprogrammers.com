@@ -1003,7 +1003,6 @@ Run+Study <code>explore-python-variables.ipynb</code>
 
 [//]: # (Slide End }}})
 
-
 ---
 
 [//]: # (Slide Start {{{)
