@@ -67,19 +67,21 @@ with the installation of Python, you should review these tutorials:
   10](https://www.digitalocean.com/community/tutorials/how-to-install-python-3-and-set-up-a-local-programming-environment-on-windows-10)
 
 If you are learning to become a proactive programmer while using a computer
-running either a Linux or a MacOS, then you should install Python 3.9 by using
-the tool called [Pyenv](https://github.com/pyenv/pyenv). If you are instead
-using a computer that runs Windows 10, then you can attempt to install Python
-3.9 using either [Pyenv-win](https://github.com/pyenv-win/pyenv-win) or the
-installation instructions in one of the aforementioned articles. Please remember
-that, if you are installing Python on Windows it should either be a complete
-version of Python 3.8 or Python 3.9 and it should be executable through the use
-of the `python` command in your terminal. You can confirm that you have the
+running either a Linux or a MacOS, then you should install Python 3.10 by using
+either the tool called [Pyenv](https://github.com/pyenv/pyenv) or the tool
+called [asdf](https://asdf-vm.com/). If you are instead using a computer that
+runs Windows 10, then you can attempt to install Python 3.10 using either
+[Pyenv-win](https://github.com/pyenv-win/pyenv-win) or the installation
+instructions in one of the aforementioned articles. Please remember that, if you
+are installing Python on Windows it should either be a complete version of
+Python 3.8 or Python 3.9 or Python 3.10 and it should be executable through the
+use of the `python` command in your terminal. You can confirm that you have the
 correct version of Python installed on your computer by typing `python
 --version` in your terminal window and then looking for the expected version
-number.
+number. It is important that you do install and attempt to use any older
+versions of the Python programming language than Python 3.8.
 
-Now that you have Python 3.9 installed on your computer you should complete all
+Now that you have Python 3.10 installed on your computer you should complete all
 of the steps in the tutorial called [Getting Started with Python in VS
 Code](https://code.visualstudio.com/docs/python/python-tutorial#_select-a-python-interpreter).
 When you complete this tutorial make sure that select your installed version of
