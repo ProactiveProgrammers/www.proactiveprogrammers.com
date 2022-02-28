@@ -105,9 +105,11 @@ Let's see how to use iteration and conditional logic!
     -   Variable computations
     -   Variable output
 
--   Investigate the **syntax** and **semantics** of these components!
+-   Investigate the **syntax** and **semantics** of these components
 
-- Understand how to **connect** these components together in a program!
+-   Understand how to **connect** these components together in a program
+
+-   **Implement** Python functions to **understand** mathematical functions
 
 </v-clicks>
 
@@ -651,6 +653,8 @@ Go to the <code>programming-constructs/</code> directory
 
 -   Try to see how an equation connects to the source code!
 
+-   Use a Python function to explore a mathematical function
+
 -   Key components of Python programming segments:
 
     -   Function calls
@@ -689,8 +693,8 @@ Go to the <code>programming-constructs/</code> directory
 
     -   **Q5**: How do you know when you have **tested enough**?
 
--   Can you translate the root finding equation into a complete Python program
-with a command-line interface? Can you ensure its correctness? Can you follow
+-   Can you **translate** the root finding equation into a complete Python program
+with a command-line interface? Can you **ensure** its correctness? Can you **follow**
 industry standards for comments, format, and testing?
 
 </v-clicks>
