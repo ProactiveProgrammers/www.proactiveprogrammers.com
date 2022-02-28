@@ -1068,7 +1068,7 @@ Visit the <a href = "https://proactiveprogrammers.com/live">Proactive Programmer
 <mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
 
 <div class="text-3xl font-bold mt-10 ml-4">
-<code>discrete-structures/making-connections/</code>
+<code>data-abstraction/python-foundations/</code>
 </div>
 
 </div>
