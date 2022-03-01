@@ -234,7 +234,10 @@ editor to answer all of the questions in the `writing/reflection.md` file. For
 instance, you should provide the output of the Python program in a fenced code
 block, explain the meaning of the Python source code segments that you
 implemented and used, and answer all of the other questions about your
-experiences in completing this project.
+experiences in completing this project. For instance, your technical writing in
+the `writing/reflection.md` file should make it clear that you understand the
+concept of an "imaginary" number and the notation that the Python programming
+language uses to express these numbers.
 
 ## Project Assessment
 
