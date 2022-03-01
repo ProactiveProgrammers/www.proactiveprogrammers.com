@@ -441,7 +441,7 @@ What is the purpose of the <code>range(3, x, 2)</code> function call?
 <div class="mt-5">
 </div>
 
-- Do these programs correctly detect prime numbers?
+- Do this code **correctly** detect prime numbers? How **quickly**?
 
 [//]: # (Slide End }}})
 
@@ -506,6 +506,62 @@ Exhaustive approach is a good starting point
 
 [//]: # (Slide Start {{{)
 
+<div class="flex row">
+
+<div class="text-7xl text-orange-600 font-bold mt-5 ml-4 mb-4">
+Let's use Python to study primality testing!
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+Visit the <a href = "https://proactiveprogrammers.com/live">Proactive Programmers Live</a> site!
+</div>
+
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-1">
+Go to the <code>numerical-computation/</code> directory
+</div>
+
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+Run+Add <code>perform-primality-testing.ipynb</code>
+</div>
+
+</div>
+
+</div>
+
+[//]: # (Slide End }}})
+
+---
+
+[//]: # (Slide Start {{{)
+
 # Exhaustive Square Root Computation
 
 <div class="ml-1">
@@ -536,7 +592,7 @@ else:
 <div class="flex row">
 
 <div class="text-7xl text-orange-600 font-bold mt-5 ml-4 mb-4">
-Let's use Python study exhaustive computation!
+Use Python to study exhaustive computation
 </div>
 
 </div>
@@ -562,7 +618,7 @@ Visit the <a href = "https://proactiveprogrammers.com/live">Proactive Programmer
 <mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
 
 <div class="text-3xl font-bold mt-10 ml-1">
-Go to the <code>programming-constructs/</code> directory
+Go to the <code>numerical-computation/</code> directory
 </div>
 
 </div>
@@ -584,7 +640,6 @@ Go to the <code>programming-constructs/</code> directory
 </div>
 
 [//]: # (Slide End }}})
-
 
 ---
 
