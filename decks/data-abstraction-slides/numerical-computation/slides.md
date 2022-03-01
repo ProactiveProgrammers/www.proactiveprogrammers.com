@@ -726,7 +726,7 @@ while abs(answer**2 - x) >= epsilon:
 
 ---
 
-[//]: # (Slide Start {{{)
+[//]: # (slide start {{{)
 
 <div class="flex row">
 
@@ -743,7 +743,7 @@ Let's study bisection's speed improvements!
 <mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
 
 <div class="text-3xl font-bold mt-10 ml-4">
-Visit the <a href = "https://proactiveprogrammers.com/live">Proactive Programmers Live</a> site!
+Visit the <a href = "https://proactiveprogrammers.com/live">proactive programmers live</a> site!
 </div>
 
 </div>
@@ -778,8 +778,7 @@ Go to the <code>programming-constructs/</code> directory
 
 </div>
 
-[//]: # (Slide End }}})
-
+[//]: # (slide end }}})
 
 ---
 
@@ -891,12 +890,68 @@ def compute_mean(numbers: List) -> float:
 
 ---
 
+[//]: # (slide start {{{)
+
+<div class="flex row">
+
+<div class="text-7xl text-orange-600 font-bold mt-5 ml-4 mb-4">
+Let's investigate average computation functions!
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+Visit the <a href = "https://proactiveprogrammers.com/live">proactive programmers live</a> site!
+</div>
+
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-1">
+Go to the <code>programming-constructs/</code> directory
+</div>
+
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+Run+Study <code>compute-arithmetic-mean.ipynb</code>
+</div>
+
+</div>
+
+</div>
+
+[//]: # (slide end }}})
+
+---
+
 [//]: # (Slide Start {{{)
 
 <div class="flex row">
 
 <div class="text-7xl text-orange-600 font-bold mt-5 ml-4 mb-4">
-Insights for numerical computation?
+Overall insights for numerical computation?
 </div>
 
 </div>
@@ -952,12 +1007,11 @@ Data analysis is commonly needed for experiments
 
 # Investigating Numerical Computation
 
-<div class = "mt-10">
-</div>
-
 <v-clicks>
 
--   Different forms of numerical computation:
+-   Different algorithms exhibit different performance trade-offs
+
+-   There are different forms of numerical computation in Python:
 
     -   **Q1**: What are the benefits of **exhaustive** enumeration?
 
