@@ -2,16 +2,18 @@
 
 ## Project Goals
 
-This engineering effort invites you to combine what you learned about the basics
-of Python programming to implement a useful program that can use an equation to
-find the roots for a quadratic equation. The program will have a command-line
-interface that accepts as input the values `a`, `b`, and `c` for a quadratic
-equation of the form $f(x) = a \times x^2 + b \times x + c$. As you learn more
-about to translate mathematical equations into Python functions and you continue
-to enhance your [technical
-skills](/proactive-skills/introduction-proactive-skills/), you will implement
-and test a complete Python program while using tools such as the VS Code text
-editor, a terminal window, and the Poetry package manager.
+This engineering effort invites you to combine what you learned about
+the basics of Python programming and mathematical functions to implement
+a useful program that can use an equation to find the roots for a
+quadratic equation. The program will have a command-line interface that
+accepts as input the values `a`, `b`, and `c` for a quadratic equation
+of the form $f(x) = a \times x^2 + b \times x + c$. As you learn more
+about to translate mathematical equations into Python functions and you
+continue to enhance your [technical
+skills](/proactive-skills/introduction-proactive-skills/), you will
+implement and test a complete Python program while using tools such as
+the VS Code text editor, a terminal window, and the Poetry package
+manager.
 
 ## Project Access
 
