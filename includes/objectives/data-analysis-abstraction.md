@@ -12,10 +12,6 @@
       dispersion of values).
     - Use statistical analysis and data visualization techniques to surface
       trends in a data set.
-    - Using existing machine learning algorithms (e.g., cluster analysis or
-      classification and regression trees) to model the data set and then use
-      this model to make predictions about the performance of the algorithm or
-      data structure in new configurations.
     - Implement and use an appropriate data processing method that transforms
       the data into any format required by any external functions (e.g., convert
       from JSON to CSV).
