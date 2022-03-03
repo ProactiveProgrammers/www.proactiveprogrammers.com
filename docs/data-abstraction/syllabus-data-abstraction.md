@@ -66,19 +66,21 @@ assigned percentages during the academic semester.
 
 | Category               | Percentage |
 |------------------------| -----------|
-| Technical Assessments  |  10%       |
+| Course Participation   |  5%        |
 | Midterm Examination    |  10%       |
-| Final Examination      |  10%       |
-| Source Code Surveys    |  20%       |
-| Programming Projects   |  20%       |
-| Engineering Efforts    |  30%       |
+| Final Examination      |  15%       |
+| Source Code Surveys    |  15%       |
+| Programming Projects   |  15%       |
+| Engineering Efforts    |  40%       |
 
 These grading categories have the following definitions:
 
--   **Technical Assessments**: These cumulative weekly online assessments will
-    cover all course content introduced to date. Unless prior arrangements are
-    made with the course instructor, all students will be expected to use their
-    computer to take these technical assessments on the scheduled day.
+-   **Course Participation**: After either an unexcused absence or a late
+    attendance to class on two separate occasions, a student's course
+    participation grade will be reduced by half a percentage for each additional
+    time they are absent or late in an unexcused fashion. Students who need to
+    miss class or attend late for an excused reason should communicate their
+    situation to the course instructor as soon as possible.
 
 -   **Midterm Examination**: The midterm is an online cumulative assessment
     covering all of the material from the class, programming, and laboratory
