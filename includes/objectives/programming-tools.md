@@ -18,11 +18,5 @@
       longer contains the fault and that the fix did not compromise other
       functions in the program.
     - Use a text editor like [VS Code](https://code.visualstudio.com/) to
-      participate in a remote and collaborative Python programming session by
-      effectively completing the following tasks:
-        - Creating and accepting an invitation to collaboratively engineer a
-          Python program.
-        - Collaboratively sharing a terminal window with a remote developer.
-        - While using text-based chat and/or video communication with a team,
-          collaboratively create a feature and/or repair a defect in a Python
-          program.
+      implement, test, debug, document, and manage the source code of a Python
+      program, leveraging plugins and extensions to enhance your workflow.
