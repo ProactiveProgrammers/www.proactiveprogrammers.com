@@ -1,9 +1,9 @@
 - Use a Python programming environment to complete these tasks while
-  implementing a Python program consisting of between one and five hundred
-  lines of code:
-    - Install, upgrade, and use [Python](https://www.python.org/) 3.8 or 3.9
-      programming environment to create, run, and debug a Python program through
-      a terminal window and/or a text editor.
+  implementing a Python program consisting of between one and five hundred lines
+  of code:
+    - Install, upgrade, and use [Python](https://www.python.org/) 3.8, 3.9, or
+      3.10 programming environment to create, run, and debug a Python program
+      through a terminal window and/or a text editor.
     - Use [Poetry](https://python-poetry.org/) to install a Python program's
       dependencies, create a virtual environment, and run it without error in an
       isolated and self-contained configuration.
@@ -20,8 +20,8 @@
     - Use a text editor like [VS Code](https://code.visualstudio.com/) to
       participate in a remote and collaborative Python programming session by
       effectively completing the following tasks:
-        - Creating and accepting an invitation to collaboratively engineer
-          a Python program.
+        - Creating and accepting an invitation to collaboratively engineer a
+          Python program.
         - Collaboratively sharing a terminal window with a remote developer.
         - While using text-based chat and/or video communication with a team,
           collaboratively create a feature and/or repair a defect in a Python
