@@ -1,6 +1,6 @@
 # Course Syllabus
 
-## Computer Science 101 Fall 2021
+## Computer Science 101 Spring 2022
 
 ### Course Instructor
 
