@@ -6,9 +6,6 @@
     - Write short and descriptive commit messages that explain the specific way
       in which a commit changes the source code and documentation in the GitHub
       repository.
-    - Use GitHub [pre-commit hooks](https://pre-commit.com/) to ensure that all
-      of the source code, technical writing, and commit messages adhere to the
-      industry standards for content and format.
     - Navigate reports produced by [GitHub
       Actions](https://github.com/features/actions) so as to determine which
       aspects of a GitHub repository do and do not adhere to a project's
