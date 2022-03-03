@@ -268,10 +268,10 @@ Importantly, any student who participates in these unacceptable forms of
 collaboration, whether they are the one sharing, showing, looking, copying, or
 typing, are in violation of the Honor Code at Allegheny College.
 
-In summary, students should collaborate as long as they collaborate in
-acceptable ways. However, if a student needs assistance beyond what can be
-gained through acceptable forms of collaboration, they should seek help from
-the course instructor or a technical leader. If a student submits deliverables
+In summary, students should collaborate as long as they do so in acceptable
+ways. With that said, if a student needs assistance beyond what can be gained
+through acceptable forms of collaboration, they should seek help from the
+course instructor or a technical leader. If a student submits deliverables
 (e.g., source code or technical writing) that are nearly identical to the work
 of others will be taken as evidence of violating the Honor Code.
 
