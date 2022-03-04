@@ -59,7 +59,7 @@ possible to efficiently compute the value of $2^{2^{10}}$ using the Python
 expression `2**2**10`. Although not shown in the following source code segment,
 the `demonstrate-variable-limitations.py` script also has commented-out source
 code that performs the computation `2**2**100`. If you un-comment this source
-code and run the program by typing `python floating-point-confusion.py` what
+code and run the program by typing `python demonstrate-variable-limitations.py` what
 does the output tell you about the challenges of efficiently performing
 exponentiation?
 
