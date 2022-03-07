@@ -160,6 +160,62 @@ def abs(n):
 
 ---
 
+[//]: # (Slide Start {{{)
+
+<div class="flex row">
+
+<div class="text-7xl text-orange-600 font-bold mt-5 ml-4 mb-4">
+Let's use Python to understand the math!
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+Visit the <a href = "https://proactiveprogrammers.com/live">Proactive Programmers Live</a> site!
+</div>
+
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-1">
+Go to the <code>python-functions/</code> directory
+</div>
+
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+Use <code>explore-mathematical-functions.ipynb</code>
+</div>
+
+</div>
+
+</div>
+
+[//]: # (Slide End }}})
+
+---
+
 # Using Newton's Method in a Function
 
 ```python {all}
@@ -178,6 +234,62 @@ def sqrt(num: int, tol: float):
 - What are the benefits of defining this as a function?
 
 - How could we test the `sqrt` function using Pytest?
+
+---
+
+[//]: # (Slide Start {{{)
+
+<div class="flex row">
+
+<div class="text-7xl text-orange-600 font-bold mt-5 ml-4 mb-4">
+Let's use Python to understand the math!
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+Visit the <a href = "https://proactiveprogrammers.com/live">Proactive Programmers Live</a> site!
+</div>
+
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-1">
+Go to the <code>python-functions/</code> directory
+</div>
+
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+Use <code>explore-mathematical-functions.ipynb</code>
+</div>
+
+</div>
+
+</div>
+
+[//]: # (Slide End }}})
 
 ---
 
@@ -246,6 +358,63 @@ print("The factorial of " + str(num) +
 - Where is the recursive case?
 
 - How does this function make progress to the base case?
+
+---
+
+[//]: # (Slide Start {{{)
+
+<div class="flex row">
+
+<div class="text-7xl text-orange-600 font-bold mt-5 ml-4 mb-4">
+Let's use Python to understand recursion!
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+Visit the <a href = "https://proactiveprogrammers.com/live">Proactive Programmers Live</a> site!
+</div>
+
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-1">
+Go to the <code>python-functions/</code> directory
+</div>
+
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+Use <code>explore-mathematical-functions.ipynb</code>
+</div>
+
+</div>
+
+</div>
+
+[//]: # (Slide End }}})
+
 
 ---
 
