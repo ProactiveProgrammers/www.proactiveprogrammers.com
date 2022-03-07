@@ -623,8 +623,8 @@ Use <code>explore-higher-order-functions.ipynb</code>
 
 ```python {all}
 square = lambda x: x*x
-num = 5
-result = call_twice(square, num)
+number = 5
+result = call_twice(square, number)
 print("Calling square lambda twice " +
       "with " +
       str(number) +
@@ -816,7 +816,7 @@ Supports type checking with tools like <code>mypy</code>
 <mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
 
 <div class="text-3xl font-bold mt-10 ml-4">
-Helps <code>pylance</code> offer feedback in VS Code
+Helps <code>pylance</code> checker offer feedback in VS Code
 </div>
 
 </div>
