@@ -727,6 +727,62 @@ Useful for small functions input to other functions
 
 ---
 
+[//]: # (Slide Start {{{)
+
+<div class="flex row">
+
+<div class="text-7xl text-orange-600 font-bold mt-5 ml-4 mb-4">
+Let's explore lambda expressions in Python!
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+Visit the <a href = "https://proactiveprogrammers.com/live">Proactive Programmers Live</a> site!
+</div>
+
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-1">
+Go to the <code>python-functions/</code> directory
+</div>
+
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+Explore <code>explore-lambda-expressions.ipynb</code>
+</div>
+
+</div>
+
+</div>
+
+[//]: # (Slide End }}})
+
+---
+
 # Computing the Arithmetic Mean
 
 ```python
@@ -748,6 +804,62 @@ print(str(compute_mean(numbers)))
 - What type of function? Recursive? Iterative? Lambda?
 
 </div>
+
+---
+
+[//]: # (Slide Start {{{)
+
+<div class="flex row">
+
+<div class="text-7xl text-orange-600 font-bold mt-5 ml-4 mb-4">
+How do we characterize a list of numbers?
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+Calculate the mean, median, and mode of the list
+</div>
+
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+Calculate range, variance, and standard deviation
+</div>
+
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+Aim to summarize large data set with few numbers
+</div>
+
+</div>
+
+</div>
+
+[//]: # (Slide End }}})
 
 ---
 
