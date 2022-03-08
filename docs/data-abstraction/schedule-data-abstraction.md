@@ -81,6 +81,7 @@
 
 - Chapter 4 of *Introduction to Computation and Programming Using Python*
 - Check out the [course slides](/slides/data-abstraction/function-scope/) for a detailed investigation of these chapters!
+- Go to the `data-abstraction/function-scope/` directory on [Proactive Programmers Live](https://proactiveprogrammers.com/live/) and investigate all of the Python programs!
 
 ???+ note "Technical Concepts"
 
