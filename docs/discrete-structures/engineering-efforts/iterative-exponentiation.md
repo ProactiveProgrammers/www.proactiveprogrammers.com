@@ -131,7 +131,10 @@ implement before `iterator` will produce the correct output. If you run the
 program before adding all of the source code required by the `TODO` markers then
 `iterator` will neither produce the correct output or pass the test suite.
 Ultimately, you are invited to add the required functionality to the functions
-that have the following signature:
+that have the following signatures. It is important to note that you
+should not change the signature of these functions in your own
+implementation unless you receive prior approval from the course
+instructor.
 
 - Functions in the `display` module:
     - `def convert_bool_to_answer(argument: bool)`
