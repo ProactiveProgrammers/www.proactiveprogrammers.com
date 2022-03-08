@@ -510,7 +510,62 @@ def primality_test_exhaustive(x: int)
 <div class="flex row">
 
 <div class="text-7xl text-orange-600 font-bold mt-5 ml-4 mb-4">
-What is a function specification?
+Let's explore this function with Python!
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+Visit the <a href = "https://proactiveprogrammers.com/live">Proactive Programmers Live</a> site!
+</div>
+
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-1">
+Go to the <code>function-scope/</code> directory
+</div>
+
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+<code>perform-exhaustive-primality-testing</code>
+</div>
+
+</div>
+
+</div>
+
+[//]: # (Slide End }}})
+---
+
+[//]: # (Slide Start {{{)
+
+<div class="flex row">
+
+<div class="text-7xl text-orange-600 font-bold mt-5 ml-4 mb-4">
+What is a function specification in Python?
 </div>
 
 </div>
@@ -654,6 +709,62 @@ Supports both code reuse and modularity
 
 [//]: # (Slide Start {{{)
 
+<div class="flex row">
+
+<div class="text-7xl text-orange-600 font-bold mt-5 ml-4 mb-4">
+Let's run higher-order functions in Python!
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+Visit the <a href = "https://proactiveprogrammers.com/live">Proactive Programmers Live</a> site!
+</div>
+
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-1">
+Go to the <code>function-scope/</code> directory
+</div>
+
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+Use <code>explore-higher-order-functions.ipynb</code>
+</div>
+
+</div>
+
+</div>
+
+[//]: # (Slide End }}})
+
+---
+
+[//]: # (Slide Start {{{)
+
 # Lambda Expressions in Python
 
 <div class="ml-1">
@@ -734,6 +845,62 @@ Compared to the function, often faster to create
 
 <div class="text-3xl font-bold mt-10 ml-4">
 Useful for small functions input to other functions
+</div>
+
+</div>
+
+</div>
+
+[//]: # (Slide End }}})
+
+---
+
+[//]: # (Slide Start {{{)
+
+<div class="flex row">
+
+<div class="text-7xl text-orange-600 font-bold mt-5 ml-4 mb-4">
+Let's explore lambda expressions in Python!
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+Visit the <a href = "https://proactiveprogrammers.com/live">Proactive Programmers Live</a> site!
+</div>
+
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-1">
+Go to the <code>function-scope/</code> directory
+</div>
+
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+Explore <code>explore-lambda-expressions.ipynb</code>
 </div>
 
 </div>
