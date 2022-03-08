@@ -84,6 +84,35 @@ Calculating the powers of 2 from 0 to 5 with iteration:
 Wow, all of that iteration was exhausting! 😂
 ```
 
+While all of the previous examples show that the `iterator` works when
+you use `0` as the value for the `--minimum`, it is also important to
+point out that it should work when you increase the value for this
+parameter. For, instance, when you run the command `poetry run iterator
+--forloop --minimum 2 --maximum 10` it should produce the following
+output. Note that this output shows that the first exponentiation that
+the `iterator` performs is `2**2 = 4` instead of starting with `2**0 =
+1` as was the case in the previous computations.
+
+```
+Calculating the powers of 2 from 2 to 10 with iteration:
+
+  Should I use a for loop? Yes
+  Should I use a while loop? No
+
+  Here is the output with the for loop.
+
+   2**2 = 4
+   2**3 = 8
+   2**4 = 16
+   2**5 = 32
+   2**6 = 64
+   2**7 = 128
+   2**8 = 256
+   2**9 = 512
+
+Wow, all of that iteration was exhausting! 😂
+```
+
 ???+ note
 
     Remember, if you want to run `iterator` you must use your terminal to go
