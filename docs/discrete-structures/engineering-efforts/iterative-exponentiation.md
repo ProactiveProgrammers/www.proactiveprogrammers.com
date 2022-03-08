@@ -152,7 +152,16 @@ over the other loop type?
 Finally, the following source code segment shows how the `main` module
 should implement the Python source code that calls the
 `calculate_powers_of_two_for_loop` and
-`calculate_powers_of_two_while_loop` functions.
+`calculate_powers_of_two_while_loop` functions. Lines `1` and `7` of
+this source code segment ensure that the correct function in the
+`iterate` module is called. Next, lines `2` and `3` and `8` and `9`
+produce the correct labels that will appear in the console output.
+Finally, lines `4` and `10` call the correct iteration function
+depending on the command-line arguments specified by the person running
+the program. Once either the `calculate_powers_of_two_for_loop` or
+`calculate_powers_of_two_while_loop` function returns a list of values,
+the `display` function will show the contents of that list with the
+amount of indentation specified in the string constant.
 
 ```python linenums="1"
 if forloop is True:
