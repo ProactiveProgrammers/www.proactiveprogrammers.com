@@ -149,6 +149,26 @@ structure. Which one do you think is easier to understand? Why? Can you develop
 any good rules of thumb that suggest when it is better to use one type of loop
 over the other loop type?
 
+Finally, the following source code segment shows how the `main` module
+should implement the Python source code that calls the
+`calculate_powers_of_two_for_loop` and
+`calculate_powers_of_two_while_loop` functions.
+
+```python linenums="1"
+if forloop is True:
+    typer.echo("  Here is the output with the for loop.")
+    typer.echo("")
+    forloop_list = iterate.calculate_powers_of_two_for_loop(minimum, maximum)
+    display.display_list(forloop_list, "   ")
+    typer.echo("")
+if whileloop is True:
+    typer.echo("  Here is the output with the while loop.")
+    typer.echo("")
+    whileloop_list = iterate.calculate_powers_of_two_while_loop(minimum, maximum)
+    display.display_list(whileloop_list, "   ")
+    typer.echo("")
+```
+
 ???+ note
 
     Before you start to implement the source code required by this project is
