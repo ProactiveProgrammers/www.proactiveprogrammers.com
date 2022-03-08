@@ -104,7 +104,7 @@ Accepts input, does computation, produces output
 <mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
 
 <div class="text-3xl font-bold mt-10 ml-4">
-Improves correctness confidence with testing
+Testing improves correctness and confidence
 </div>
 
 </div>
@@ -118,7 +118,7 @@ Improves correctness confidence with testing
 <mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
 
 <div class="text-3xl font-bold mt-10 ml-4">
-Modular design enables code reuse
+Modular design enables code reuse across projects
 </div>
 
 </div>
