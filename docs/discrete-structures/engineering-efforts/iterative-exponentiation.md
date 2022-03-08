@@ -87,7 +87,7 @@ Wow, all of that iteration was exhausting! 😂
 While all of the prior examples show that the `iterator` works when
 you use `0` as the value for the `--minimum`, it is also important to
 point out that it should work when you increase the value for this
-parameter. For, instance, when you run the command `poetry run iterator
+parameter. For instance, when you run `poetry run iterator
 --forloop --minimum 2 --maximum 10` it should produce the following
 output. Note that this output shows that the first exponentiation that
 the `iterator` performs is `2**2 = 4` instead of starting with `2**0 =
