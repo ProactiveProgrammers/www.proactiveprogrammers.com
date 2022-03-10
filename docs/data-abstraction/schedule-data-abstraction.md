@@ -107,6 +107,7 @@
 
 - Chapter 5 of *Introduction to Computation and Programming Using Python*
 - Check out the [course slides](/slides/data-abstraction/structured-types/) for a detailed investigation of these chapters!
+- Go to the `data-abstraction/structured-types/` directory on [Proactive Programmers Live](https://proactiveprogrammers.com/live/) and investigate all of the Python programs!
 
 ???+ note "Technical Concepts"
 
