@@ -74,8 +74,8 @@ Options:
 ```
 
 Please note that the provided source code does not contain all of the
-functionality to produce this output. As explained in the next section, you are
-invited to add all of the missing features to ensure that `average` produces the
+functionality to produce this output. As explained in the next section, you
+should add all of the missing features to ensure that `average` produces the
 expected output. Once the program is working correctly, it should produce all of
 the expected output described in this section.
 
