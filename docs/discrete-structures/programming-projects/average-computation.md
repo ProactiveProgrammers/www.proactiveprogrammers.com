@@ -239,7 +239,10 @@ instance, you should provide the output of the Python program in a fenced code
 block, explain the meaning of the Python source code segments that you
 implemented and tested, compare and contrast different implementations of the
 Python function called `compute_average`, and answer all of the other questions
-about your experiences in completing this project.
+about your experiences in completing this project. One specific goal for this
+reflection is to ensure that you understand how to accept as input the textual
+representation of a list of numbers, convert that to a list of numerical values,
+and then perform an average computation on those values.
 
 ## Project Assessment
 
