@@ -306,7 +306,7 @@ Comparison between tuples and lists?
 <mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
 
 <div class="text-3xl font-bold mt-10 ml-4">
-Tuples are an immutable and lists are not
+Tuples are immutable and lists are not
 </div>
 
 </div>
