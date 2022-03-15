@@ -122,11 +122,12 @@ the correct output and the test suite to pass!
     repository and confirm that you have improved the build status of your
     project. As you are committing your source code, please pay careful
     attention to the commit message that you write! Specifically, you should
-    make sure that your commit message uses an active sentence to clearly
-    describe the way in which you change the source code. You can read the
-    article [How to Write a Git Commit Message](https://cbea.ms/git-commit/) by
-    [Chris Beams](https://cbea.ms/) to learn some suggestions for ways to
-    improve the quality of your Git commit messages.
+    make sure that your commit message features a sentence with an active verb
+    and a clear description of the way in which you changed the source code. You
+    can read the article [How to Write a Git Commit
+    Message](https://cbea.ms/git-commit/) by [Chris Beams](https://cbea.ms/) to
+    learn some suggestions for ways to improve the quality of your Git commit
+    messages.
 
 ## Running Checks
 
