@@ -112,6 +112,22 @@ explained in the next subsection, to confirm that your program's functions are
 working correctly. Ultimately, it is important for both your program to produce
 the correct output and the test suite to pass!
 
+???+ note
+
+    When you are adding functionality to the `datasummarizer` program, make sure
+    that you work in an incremental fashion, adding a small feature to the
+    system and then confirming that it works correctly through linting, testing,
+    and running the program. Once you have added this feature and confirmed that
+    it works correctly, you should commit your source code to your GitHub
+    repository and confirm that you have improved the build status of your
+    project. As you are committing your source code, please pay careful
+    attention to the commit message that you write! Specifically, you should
+    make sure that your commit message uses an active sentence to clearly
+    describe the way in which you change the source code. You can read the
+    article [How to Write a Git Commit Message](https://cbea.ms/git-commit/) by
+    [Chris Beams](https://cbea.ms/) to learn some suggestions for ways to
+    improve the quality of your Git commit messages.
+
 ## Running Checks
 
 If you study the source code in the `pyproject.toml` file you will see that it
