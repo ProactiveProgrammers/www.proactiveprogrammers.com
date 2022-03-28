@@ -134,6 +134,7 @@
 - Read chapter 6 of *Programming and Mathematical Thinking*
 - Read chapter 3 of *Doing Math with Python*
 - Check out the [course slides](/slides/discrete-structures/using-monoids/) for a detailed investigation of these chapters!
+- Go to the `discrete-structures/using-monoids/` directory on [Proactive Programmers Live](https://proactiveprogrammers.com/live/) and investigate all of the Python programs!
 
 ???+ note "Technical Concepts"
 
