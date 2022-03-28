@@ -500,7 +500,7 @@ product_reversed_list =
 <div class="flex row">
 
 <div class="text-7xl text-orange-600 font-bold mt-5 ml-4 mb-4">
-Let's run this program to understand it better!
+Let's run this code to understand it better!
 </div>
 
 </div>
