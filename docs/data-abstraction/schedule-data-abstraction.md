@@ -290,14 +290,13 @@ learning](../../proactive-learning/introduction-proactive-learning). As such,
 you can best understand the content on this schedule by completing all the
 source code surveys, programming projects, and engineering efforts!
 
-???+ note "Schedule Review"
-    - **Software Operation**
-        - **Start**: February 21, 2022
-        - **End**: February 25, 2022
-      - **Python Foundations**
-        - **Start**: February 21, 2022
-        - **End**: February 25, 2022
-
+<!-- ???+ note "Schedule Review" -->
+<!--     - **Software Operation** -->
+<!--         - **Start**: February 21, 2022 -->
+<!--         - **End**: February 25, 2022 -->
+<!--       - **Python Foundations** -->
+<!--         - **Start**: February 21, 2022 -->
+<!--         - **End**: February 25, 2022 -->
 
 <!-- - **Numerical Computation** -->
 <!--     - **Start**: September 13, 2021 -->
