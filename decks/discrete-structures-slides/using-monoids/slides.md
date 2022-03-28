@@ -328,7 +328,7 @@ Concatenation is associative but <em>is not</em> commutative
     -   Key question: are integers and strings of the same general type?
 
 -   **Monoid**: A set that has an **associative binary operator** and an
-    **identity element**. Can we explain this more formally?
+    **identity element**. How can we explain this more formally?
 
 -   If we know that a discrete structure used in a Python program is a
     monoid then we can understand, predict, and test its behavior!
