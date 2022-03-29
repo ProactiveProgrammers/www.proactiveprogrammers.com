@@ -398,6 +398,63 @@ for i in range(10):
 <div class="flex row">
 
 <div class="text-7xl text-orange-600 font-bold mt-5 ml-4 mb-4">
+What are foundations of recursive functions?
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+Base case: stop the execution of function
+</div>
+
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+Recursive case: call the function again
+</div>
+
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+Progress: move towards the base case
+</div>
+
+</div>
+
+</div>
+
+[//]: # (Slide End }}})
+
+
+---
+
+[//]: # (Slide Start {{{)
+
+<div class="flex row">
+
+<div class="text-7xl text-orange-600 font-bold mt-5 ml-4 mb-4">
 What are trade-offs of different approaches?
 </div>
 
@@ -538,62 +595,6 @@ Visit the <a href = "https://proactiveprogrammers.com/live">Proactive Programmer
 
 <div class="text-3xl font-bold mt-10 ml-4">
 Run+Study <code>run-function-variants.ipynb</code>
-</div>
-
-</div>
-
-</div>
-
-[//]: # (Slide End }}})
-
----
-
-[//]: # (Slide Start {{{)
-
-<div class="flex row">
-
-<div class="text-7xl text-orange-600 font-bold mt-5 ml-4 mb-4">
-What are foundations of recursive functions?
-</div>
-
-</div>
-
-<div v-click>
-
-<div class="flex row">
-
-<mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
-
-<div class="text-3xl font-bold mt-10 ml-4">
-Base case: stop the execution of function
-</div>
-
-</div>
-
-</div>
-
-<div v-click>
-
-<div class="flex row">
-
-<mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
-
-<div class="text-3xl font-bold mt-10 ml-4">
-Recursive case: call the function again
-</div>
-
-</div>
-
-</div>
-
-<div v-click>
-
-<div class="flex row">
-
-<mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
-
-<div class="text-3xl font-bold mt-10 ml-4">
-Progress: move towards the base case
 </div>
 
 </div>
