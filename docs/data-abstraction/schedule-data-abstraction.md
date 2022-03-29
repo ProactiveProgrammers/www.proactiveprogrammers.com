@@ -4,7 +4,7 @@
 
 ### Technical Question
 
-- How do I install and use the industry-standard programming tools that will
+- How do I install and use the industry-standard prsource ogramming tools that will
   help me to rigorously explore data abstraction with the Python programming
   language?
 
@@ -133,6 +133,7 @@
 
 - Chapters 6 and 7 of *Introduction to Computation and Programming Using Python*
 - Check out the [course slides](/slides/data-abstraction/program-components/) for a detailed investigation of these chapters!
+- Go to the `data-abstraction/program-components/` directory on [Proactive Programmers Live](https://proactiveprogrammers.com/live/) and investigate all of the Python programs!
 
 ???+ note "Technical Concepts"
 
