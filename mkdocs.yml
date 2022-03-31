@@ -217,7 +217,7 @@ nav:
       - Knapsack Solvers: data-abstraction/source-code-surveys/knapsack-solvers.md
     - Programming Projects:
       - Number Comparison: data-abstraction/programming-projects/number-comparison.md
-      - Square Root: data-abstraction/programming-projects/square-root.md
+      - Square Roots: data-abstraction/programming-projects/square-root.md
       - Matrix Processing: data-abstraction/programming-projects/matrix-processing.md
     - Engineering Efforts:
       - Integer Squaring: data-abstraction/engineering-efforts/integer-squaring.md
