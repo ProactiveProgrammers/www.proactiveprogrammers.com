@@ -1,4 +1,4 @@
-# Square Root
+# Square Roots
 
 ## Project Goals
 
