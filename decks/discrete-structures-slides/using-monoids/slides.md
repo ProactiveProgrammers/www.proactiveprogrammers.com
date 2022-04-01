@@ -694,8 +694,9 @@ Difficult to efficiently parse large CSV files
     -   `reduce`: Apply a function that acts like a binary operator to a
         sequence of values, combining them to a single value
 
--   These three operators give a **vocabulary** for implementing complex
-    programs in a functional programming style
+-   These three operators give a **vocabulary** for implementing
+    complex, yet easy-to-ready programs in a functional programming
+    style
 
 -   These functions are **higher-order** because they accept function as input
 
@@ -818,11 +819,12 @@ added_numbers = reduce(plus, numbers, 0)
     and `reduce` operators in **parallel** and then combine the solution, often
     achieving a **speedup**. This makes the program more efficient!
 
--   These three operators give a **vocabulary** for implementing complex
-    programs in a **functional** programming style
+-   These three operators give a **vocabulary** for implementing
+    complex, yet easy-to-read, programs in a **functional** programming style
 
--   **Parallel** computation is important given the **diminishing** returns
-    associated with sequential computation
+-   Map-Filter-Reduce enables **parallel** computation, which is
+    important given the **diminishing** returns associated with
+    sequential computation
 
 -   If you can prove that a structure and operation is a **monoid** then you can
     use **map**, **reduce**, and **filter** to **parallelize**  its computations
