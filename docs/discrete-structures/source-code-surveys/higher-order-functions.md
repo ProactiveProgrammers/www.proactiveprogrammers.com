@@ -94,6 +94,30 @@ print("Adding all of the numbers together with a reduce function")
 print("   " + str(added_numbers))
 ```
 
+As you continue this source code survey, make sure to note that the
+function signatures in `demonstrate-map-function.py` look like those in
+the following list. This list demonstrates that these functions do not
+have type annotations. After providing the source code for the `square`
+and `map` functions in this file, please determine and add the type
+annotations for the formal parameters called `value`, `f`, and
+`sequence`. Similarly, there are three functions called `plus`,
+`multiply`, and `reduce` in the `demonstrate-reduce-function.py` file
+that do not have type annotations. You can study the source code of
+these functions and the way that they are called in the
+`demonstrate-reduce-function.py` script to learn more about what type
+annotations you should add to the formal parameters called `number_one`,
+`number_two`, `f`, `sequence`, and `initial`. When you add these type
+annotations, you should leverage them to enhance your understanding of
+the inputs, outputs, and behavior of a map-reduce computation.
+
+- Functions in the `demonstrate-map-function.py` file:
+    - `def square(value)`
+    - `def map(f, sequence)`
+- Functions in the `demonstrate-reduce-function.py` file:
+    - `def plus(number_one, number_two)`
+    - `def multiply(number_one, number_two)`
+    - `def reduce(f, sequence, initial)`
+
 ## Running Checks
 
 Since this project does not use [Poetry](https://python-poetry.org/) to manage
