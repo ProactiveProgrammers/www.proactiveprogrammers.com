@@ -83,7 +83,7 @@ it `plus` and the `numbers` list. After you have correctly implemented the
 will produce the first two lines of output. As shown in the output, the next
 source code segment in `demonstrate-reduce-function.py` performs a similar
 computation while calling `reduce(multiply, numbers, 1)` instead of
-`reduce(plus, numbers, 0)`. Why it is sensible to call specify that the
+`reduce(plus, numbers, 0)`. Why it is sensible to specify that the
 `initial` parameter for `reduce` should be `1` instead of `0` when using the
 `multiply` function instead of `plus`?
 
