@@ -329,7 +329,7 @@ def fibonacci_generator(n):
 print(fibonacci_generator)
 
 for value in fibonacci_generator(10):
-    print(fibonacci_value, end=" ")
+    print(value, end=" ")
 ```
 
 ---
