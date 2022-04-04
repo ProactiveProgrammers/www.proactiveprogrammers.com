@@ -639,6 +639,62 @@ KeyboardInterrupt
 
 ---
 
+[//]: # (Slide Start {{{)
+
+<div class="flex row">
+
+<div class="text-7xl text-orange-600 font-bold mt-5 ml-4 mb-4">
+Let's explore endless data streams in Python!
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+Visit the <a href = "https://proactiveprogrammers.com/live">Proactive Programmers Live</a> site!
+</div>
+
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-1">
+Go to the <code>data-streams/</code> directory
+</div>
+
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+Use <code>explore-generator-techniques.ipynb</code>
+</div>
+
+</div>
+
+</div>
+
+[//]: # (Slide End }}})
+
+---
+
 # Applications of Data Streams?
 
 <v-clicks>
