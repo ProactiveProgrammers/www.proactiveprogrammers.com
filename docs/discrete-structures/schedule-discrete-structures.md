@@ -161,6 +161,7 @@
 - Read chapter 7 of *Programming and Mathematical Thinking*
 - All previously assigned chapters of *Doing Math with Python*
 - Check out the [course slides](/slides/discrete-structures/data-streams/) for a detailed investigation of these chapters!
+- Go to the `discrete-structures/data-streams/` directory on [Proactive Programmers Live](https://proactiveprogrammers.com/live/) and investigate all of the Python programs!
 
 ???+ note "Technical Concepts"
 
