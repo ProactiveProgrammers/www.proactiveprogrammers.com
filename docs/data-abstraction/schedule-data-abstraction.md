@@ -155,6 +155,7 @@
 - How can I use the processes of software testing and debugging to establish a
   confidence in the correctness of a Python program?
 - Check out the [course slides](/slides/data-abstraction/software-testing/) for a detailed investigation of these chapters!
+- Go to the `data-abstraction/software-testing/` directory on [Proactive Programmers Live](https://proactiveprogrammers.com/live/) and investigate all of the Python programs!
 
 ### Next Steps
 
