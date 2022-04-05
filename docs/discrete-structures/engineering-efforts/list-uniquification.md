@@ -170,7 +170,9 @@ process of uniquification, is it better to have a large or a small value for
 these two evaluation metrics calculated by `calculate_reduction` and
 `calculate_percent_reduction`? Remember, part of your goal for this assignment
 is to evaluate how the different configurations of the `datauniquifier` program
-influence these four evaluation metrics!
+influence these four evaluation metrics! To accomplish this task you will need
+to run the `datauniqifier` with different command-line arguments and record
+the time and memory overhead data that it reports.
 
 One noteworthy aspect of this program is that it uses the `getattr` function to
 "construct" an executable version of a Python function when provided with the
