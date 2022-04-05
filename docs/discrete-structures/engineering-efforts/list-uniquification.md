@@ -140,8 +140,14 @@ the entire Python program, (iii) reduction in the size of the column of data,
 and (iv) percent reduction in the size of the column of data. As you are working
 to understand each of these evaluation metrics, make sure that you review the
 following Python functions that respectively calculate the reduction and percent
-reduction in the size of the data.
-
+reduction in the size of the data. In the `calculate_reduction` function, line
+`3` calculates and returns the difference in size between the length of the
+`list_final` and the `list_start`, with larger values suggesting that there was
+a greater reduction in the size of the list. Finally, lines `3` through `5` in
+`calculate_percent_reduction` use the output of the `calculate_reduction`
+function to compute the percent reduction when the size of `list_start` is
+compared to that of `list_final`, with higher values indicating a greater
+overall reduction in size.
 
 ```python linenums="1"
 def calculate_reduction(list_start, list_final):
