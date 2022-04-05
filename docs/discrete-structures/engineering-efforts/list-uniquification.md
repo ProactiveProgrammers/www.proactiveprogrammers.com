@@ -163,10 +163,13 @@ def calculate_percent_reduction(list_start, list_final):
     return percent_reduction
 ```
 
-If you want to reduce the overall size of a data set through the process of
-uniquification, is it better to have a large or a small value for these two
-evaluation metrics? Remember, part of your goal for this assignment is to
-evaluate how the different configurations of the `datauniquifier` program
+As you conduct the experiment using the `datauniqifier` program, you should ask
+yourself what type of values would suggest that the tool worked well. For
+instance, if you want to reduce the overall size of a data set through the
+process of uniquification, is it better to have a large or a small value for
+these two evaluation metrics calculated by `calculate_reduction` and
+`calculate_percent_reduction`? Remember, part of your goal for this assignment
+is to evaluate how the different configurations of the `datauniquifier` program
 influence these four evaluation metrics!
 
 One noteworthy aspect of this program is that it uses the `getattr` function to
