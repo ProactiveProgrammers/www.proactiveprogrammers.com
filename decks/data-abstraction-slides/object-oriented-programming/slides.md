@@ -243,7 +243,7 @@ What is there <b>was not</b> a <code>try</code> and a <code>except</code> ?
 
 # Use Exception Handling Program
 
-```shell {all|1|2|3|4|all}
+```{all|1|2|3|4|all}
 [1.0, 1.0, nan, 2.0]
 []
 [1.0, 1.0, 0.7]
@@ -290,7 +290,7 @@ Let's call <code>get_ratios</code> without exception handling!
 
 <div class="-ml-0">
 
-```shell {all|1|3-4|5|6-7|8-9|10|all}
+```{all|1|3-4|5|6-7|8-9|10|all}
 print(get_ratios([1, 2, 7], [1, 2, 10, 3]))
 
 During handling of the above exception,
