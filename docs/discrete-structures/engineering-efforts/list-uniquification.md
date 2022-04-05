@@ -140,25 +140,28 @@ the entire Python program, (iii) reduction in the size of the column of data,
 and (iv) percent reduction in the size of the column of data. As you are working
 to understand each of these evaluation metrics, make sure that you review the
 following Python functions that respectively calculate the reduction and percent
-reduction in the size of the data. If you want to reduce the overall size of a
-data set through the process of uniquification, is it better to have a large or
-a small value for these two evaluation metrics? Remember, part of your goal for
-this assignment is to evaluate how the different configurations of the
-`datauniquifier` program influence these four evaluation metrics!
+reduction in the size of the data.
 
-```python
+
+```python linenums="1"
 def calculate_reduction(list_start, list_final):
     """Calculate the reduction in the size of the list."""
     return len(list_start) - len(list_final)
 ```
 
-```python
+```python linenums="1"
 def calculate_percent_reduction(list_start, list_final):
     """Calculate the percent reduction in the size of the list."""
     reduction = calculate_reduction(list_start, list_final)
     percent_reduction = (reduction / len(list_start)) * 100
     return percent_reduction
 ```
+
+If you want to reduce the overall size of a data set through the process of
+uniquification, is it better to have a large or a small value for these two
+evaluation metrics? Remember, part of your goal for this assignment is to
+evaluate how the different configurations of the `datauniquifier` program
+influence these four evaluation metrics!
 
 One noteworthy aspect of this program is that it uses the `getattr` function to
 "construct" an executable version of a Python function when provided with the
