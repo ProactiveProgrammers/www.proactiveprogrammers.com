@@ -63,8 +63,8 @@ Program: squareroot --number 25000 --approach exhaustive --profile
          [2 frames hidden]  <built-in>
 ```
 
-If you run the program with the command `poetry run squareroot
---first 4 --second 10 --third 20` then it produces output like:
+If you run the program with the command `poetry run squareroot --number 25000
+--approach efficient --profile` then it produces output like:
 
 ```shell
 🧮 Attempting to calculate the square root of 25000!
