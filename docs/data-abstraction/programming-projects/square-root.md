@@ -32,14 +32,15 @@ project!
 
 ## Expected Output
 
-This project invites you to implement a number comparison program called
+This project invites you to implement a square root calculation program called
 `squareroot`. The program accepts through its command-line a single integer
-value. If you run the program correctly, it will accept as input the single
-number numbers and return the largest odd number as long as at least one of the
-numbers is odd. In the situation in which none of the numbers are odd, it will
-return the smallest number. If you use Poetry to run the program with the
-command `poetry run squareroot --number 25000 --approach exhaustive --profile`
-it produces the following output:
+value for which it will compute the square root using either an `efficient` or
+an `exhaustive` approach. Finally, the `squareroot` program offers a `--profile`
+flag that causes it to use the
+[Pyinstrument](https://github.com/joerick/pyinstrument) package to collect
+timing information about the efficiency of the chosen method. If you use Poetry
+to run the program with the command `poetry run squareroot --number 25000
+--approach exhaustive --profile` it produces the following output:
 
 ```shell
 🧮 Attempting to calculate the square root of 25000!
