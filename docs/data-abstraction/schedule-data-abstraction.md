@@ -181,6 +181,7 @@
 - How can I use the principles and primitives of object-oriented programming to
   implement Python programs with top-notch and easy-to-understand designs?
 - Check out the [course slides](/slides/data-abstraction/object-oriented-programming/) for a detailed investigation of these chapters!
+- Go to the `data-abstraction/object-oriented/` directory on [Proactive Programmers Live](https://proactiveprogrammers.com/live/) and investigate all of the Python programs!
 
 ### Next Steps
 
