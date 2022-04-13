@@ -543,7 +543,7 @@ odd_positives = {n for n in range(100)
 for odd_positive in odd_positives:
     print(odd_positive)
 
-print(list(odd_positives))
+print((odd_positives)
 ```
 
 <v-click>
