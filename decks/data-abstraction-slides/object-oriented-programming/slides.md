@@ -1,20 +1,27 @@
 ---
-# try also 'default' to start simple
+# use the default theme
+default: theme
 theme: default
 # apply any windi css classes to the current slide
 class: 'text-center'
-# https://sli.dev/custom/highlighters.html
+# define the highlighter and the colorSchema
 highlighter: prism
 colorSchema: light
 remoteAssets: false
-# show line numbers in code blocks
+# do not show line numbers in code blocks
 lineNumbers: false
-# some information about the slides, markdown enabled
-info: |
-  ## Slidev Starter Template
-  Presentation slides for developers.
-
-  Learn more at [Sli.dev](https://sli.dev)
+# define the fonts and their weights
+fonts:
+  # define the font for the body text
+  sans: 'IBM Plex Sans'
+  # define the serif font
+  serif: 'IBM Plex Serif'
+  # define the code font
+  mono: 'IBM Plex Mono'
+  # load several font weights
+  weights: '200,400,500'
+  # support the use of italics
+  italic: true
 ---
 
 [//]: # (Slide Start {{{)
@@ -243,7 +250,7 @@ What is there <b>was not</b> a <code>try</code> and a <code>except</code> ?
 
 # Use Exception Handling Program
 
-```{all|1|2|3|4|all}
+```text {all|1|2|3|4|all}
 [1.0, 1.0, nan, 2.0]
 []
 [1.0, 1.0, 0.7]
@@ -290,7 +297,7 @@ Let's call <code>get_ratios</code> without exception handling!
 
 <div class="-ml-0">
 
-```{all|1|3-4|5|6-7|8-9|10|all}
+```text {all|1|3-4|5|6-7|8-9|10|all}
 print(get_ratios([1, 2, 7], [1, 2, 10, 3]))
 
 During handling of the above exception,
