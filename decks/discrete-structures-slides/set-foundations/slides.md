@@ -569,7 +569,7 @@ even_positives = {n for n in range(100)
 for even_positive in even_positives:
     print(even_positive)
 
-print(list(even_positives))
+print(even_positives)
 ```
 
 </v-click>
