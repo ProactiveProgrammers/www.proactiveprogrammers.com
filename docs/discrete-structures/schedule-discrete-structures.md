@@ -161,7 +161,7 @@
 - Read chapter 7 of *Programming and Mathematical Thinking*
 - All previously assigned chapters of *Doing Math with Python*
 - Check out the [course slides](/slides/discrete-structures/data-streams/) for a detailed investigation of these chapters!
-- Go to the `discrete-structures/data-streams/` directory on [Proactive Programmers Live](https://proactiveprogrammers.com/live/) and investigate all of the Python programs!
+- Go to the `discrete-structures/monoids/` directory on [Proactive Programmers Live](https://proactiveprogrammers.com/live/) and investigate all of the Python programs!
 
 ???+ note "Technical Concepts"
 
@@ -188,6 +188,7 @@
 - Read chapter 8 of *Programming and Mathematical Thinking*
 - Read chapter 5 of *Doing Math with Python*
 - Check out the [course slides](/slides/discrete-structures/set-foundations/) for a detailed investigation of these chapters!
+- Go to the `discrete-structures/set-foundations/` directory on [Proactive Programmers Live](https://proactiveprogrammers.com/live/) and investigate all of the Python programs!
 
 ???+ note "Technical Concepts"
 
