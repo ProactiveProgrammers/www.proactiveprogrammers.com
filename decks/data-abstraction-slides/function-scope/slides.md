@@ -9,8 +9,6 @@ colorSchema: light
 remoteAssets: false
 # show line numbers in code blocks
 lineNumbers: false
-# show line numbers in code blocks
-lineNumbers: false
 # define the fonts and their weights
 fonts:
   # define the font for the body text
