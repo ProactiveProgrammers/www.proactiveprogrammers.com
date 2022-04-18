@@ -211,6 +211,7 @@
 - Read chapters 4 and 5 of *Doing Math with Python*
 - Read chapter 8 of *Programming and Mathematical Thinking*
 - Check out the [course slides](/slides/discrete-structures/probability-functions/) for a detailed investigation of these chapters!
+- Go to the `discrete-structures/probability-functions/` directory on [Proactive Programmers Live](https://proactiveprogrammers.com/live/) and investigate all of the Python programs!
 
 ???+ note "Technical Concepts"
 
