@@ -234,7 +234,7 @@ sequentially, one at a time. Why is this not realistic? Acceptable?
 
     - **Best-Case**: minimum running time over all possible inputs
       of a given size
-    - **Worst-Case**: minimum running time over all possible inputs
+    - **Worst-Case**: maximum running time over all possible inputs
       of a given size
     - **Average-Case**: average (or, expected) running time over
       all possible inputs of a given size
