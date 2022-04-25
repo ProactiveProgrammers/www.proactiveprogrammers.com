@@ -9,12 +9,6 @@ colorSchema: light
 remoteAssets: false
 # show line numbers in code blocks
 lineNumbers: false
-# some information about the slides, markdown enabled
-info: |
-  ## Slidev Starter Template
-  Presentation slides for developers.
-
-  Learn more at [Sli.dev](https://sli.dev)
 ---
 
 [//]: # (Slide Start {{{)
