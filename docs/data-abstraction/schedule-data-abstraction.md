@@ -209,6 +209,7 @@
 - Check out the [course
   slides](/slides/data-abstraction/algorithmic-complexity/) for a detailed
   investigation of these chapters!
+- Go to the `data-abstraction/algorithmic-complexity/` directory on [Proactive Programmers Live](https://proactiveprogrammers.com/live/) and investigate all of the Python programs!
 
 ### Next Steps
 
