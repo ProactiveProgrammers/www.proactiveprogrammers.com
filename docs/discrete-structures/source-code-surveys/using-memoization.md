@@ -38,11 +38,11 @@ this project is to add the source code required by the `TODO` markers so that
 the program produces the output that is given below this paragraph.
 Specifically, you will need to add an implementation of the following function:
 `def fibonacci(number: int) -> int:`. This function should be decorated with the
-`@functools.lru_cache(maxsize=128)` annotation so that it leverages a least
-recently used (LRU) cache to store previously computed values, following the
-paradigm of memoization, to make the computation faster. If you run this program
-with the command `python calculate-fibonacci-lru-cache.py` then it should
-produce following output. It is worth noting that the
+`@functools.lru_cache(maxsize=128)` annotation so that it leverages a
+least-recently-used (LRU) cache to store previously computed values, following
+the paradigm of memoization and aiming to make the computation faster. If you
+run this program with the command `python calculate-fibonacci-lru-cache.py` then
+it should produce following output. It is worth noting that the
 `calculate-fibonacci-lru-cache` program also provides a `def fibonacci_binet(n:
 int) -> int`, as described in the following source code segment, that can
 calculate the `n`-th Fibonacci number with [Binet's
