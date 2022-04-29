@@ -75,9 +75,10 @@ After you are finished implementing this version of the function you should run
 the program and confirm that it produces the same output as the one that uses
 the LRU cache. With that said, please note that, while this program should
 produce the same values for numbers in the Fibonacci sequence, it will not
-produce any output concerning the LRU cache because of the fact that it
-implements the memoization directly by creating a `dict` and adding to it and
-then checking it during the recursive computation.
+produce any output concerning the LRU cache since it implements the memoization
+directly by creating a `dict` and adding to it and then checking it during the
+recursive computation. After implementing these two methods, which one do you
+prefer? Why?
 
 ## Running Checks
 
