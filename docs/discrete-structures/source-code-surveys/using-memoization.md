@@ -51,19 +51,13 @@ Finally, please note that the output of this program illustrates that the LRU
 cache provided by `functools.lru_cache` keeps track of its size and the number
 of times a value was and was not found inside of the cache.
 
-```text
-Recursive Fibonacci(100) = 354224848179261915075
-LRU cache information: CacheInfo(hits=98, misses=101, maxsize=128, currsize=101)
-Binet Fibonacci(100) = 354224848179261915075
-Recursive Fibonacci(150) = 9969216677189303386214405760200
-LRU cache information: CacheInfo(hits=149, misses=151, maxsize=128, currsize=128)
-Binet Fibonacci(150) = 9969216677189303386214405760200
-```
-```python linenums="1"
-def fibonacci_binet(n: int) -> int:
-    """Calculate a number in the Fibonacci sequence using Binet's formula."""
-    square_root_n = math.sqrt(n)
-    return int((((1 + square_root_n) ** n - (1 - square_root_n) ** n) / (2 ** n * square_root_n)))
+``````
+Recursive Fibonacci(35) = 9227465
+Binet Fibonacci(35)     = 9227465
+LRU cache information: CacheInfo(hits=33, misses=36, maxsize=128, currsize=36)
+Recursive Fibonacci(70) = 190392490709135
+Binet Fibonacci(70)     = 190392490709135
+LRU cache information: CacheInfo(hits=69, misses=71, maxsize=128, currsize=71)
 ```
 
 You should also notice that the `source` directory contains the Python program
