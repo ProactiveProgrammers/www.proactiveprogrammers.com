@@ -47,6 +47,9 @@ produce following output. It is worth noting that the
 int) -> int`, as described in the following source code segment, that can
 calculate the `n`-th Fibonacci number with [Binet's
 formula](https://artofproblemsolving.com/wiki/index.php/Binet%27s_Formula).
+Finally, please note that the output of this program illustrates that the LRU
+cache provided by `functools.lru_cache` keeps track of its size and the number
+of times a value was and was not found inside of the cache.
 
 ```text
 Recursive Fibonacci(100) = 354224848179261915075
@@ -62,6 +65,19 @@ def fibonacci_binet(n: int) -> int:
     square_root_n = math.sqrt(n)
     return int((((1 + square_root_n) ** n - (1 - square_root_n) ** n) / (2 ** n * square_root_n)))
 ```
+
+You should also notice that the `source` directory contains the Python program
+called `calculate-fibonacci-dictionary`. You will need to follow the `TODO`
+markers in this file to implement a version of the `def fibonacci(number: int)
+-> int:` function that creates and uses a `dict` to explicitly manage a history
+of the inputs to the function and the outputs that resulted from those inputs.
+After you are finished implementing this version of the function you should run
+the program and confirm that it produces the same output as the one that uses
+the LRU cache. With that said, please note that, while this program should
+produce the same values for numbers in the Fibonacci sequence, it will not
+produce any output concerning the LRU cache because of the fact that it
+implements the memoization directly by creating a `dict` and adding to it and
+then checking it during the recursive computation.
 
 ## Running Checks
 
