@@ -89,9 +89,8 @@ source code produced that output. A specific goal for this project is for you to
 ensure that you can implement and understand two distinct approaches to using
 memoization to speed up the computation of a mathematical function. Students who
 want to explore this area further are encouraged to experimentally determine how
-much slower the Fibonacci computations would be if either the LRU cache or the
-`dict`-based approach were not adopted in an attempt to make the functions
-faster.
+much slower the Fibonacci computations would be if the LRU cache or the
+`dict`-based approach were not used to make the functions faster.
 
 ## Project Assessment
 
