@@ -32,40 +32,36 @@ project!
 
 ## Code Survey
 
-If you change into the `source` directory of your GitHub repository, you
-will see a Python program called `calculate-fibonacci-lru-cache.py`.
-Your goal for this project is to find and fix the defects in the
-function with the signature `def calculate_mode(numbers: List[int]) ->
-Tuple[int, int]:`. Specifically, this function signature indicates that
-the `calculate_mode` function takes as input a list of integer values
-and returns a tuple of two integers (i.e., an ordered pair) where the
-first value is the number that is the mode and the second value is the
-number of times that the mode appeared. To be clear, the
-`calculate_mode` function should find the mode of a list of numbers, or
-the number that appears most frequently in the list. When you run the
-command `python calculate-fibonacci-lru-cache.py` after correcting the
-program's defects, it should produce the following output when it looks
-for a mode in the `scores = [7, 8, 9, 2, 10, 9, 9, 9]`.
+If you change into the `source` directory of your GitHub repository, you will
+see a Python program called `calculate-fibonacci-lru-cache.py`. Your goal for
+this project is to add the source code required by the `TODO` markers so that
+the program produces the output that is given below this paragraph.
+Specifically, you will need to add an implementation of the following function:
+`def fibonacci(number: int) -> int:`. This function should be decorated with the
+`@functools.lru_cache(maxsize=128)` annotation so that it leverages a least
+recently used (LRU) cache to store previously computed values, following the
+paradigm of memoization, to make the computation faster. If you run this program
+with the command `python calculate-fibonacci-lru-cache.py` then it should
+produce following output. It is worth noting that the
+`calculate-fibonacci-lru-cache` program also provides a `def fibonacci_binet(n:
+int) -> int`, as described in the following source code segment, that can
+calculate the `n`-th Fibonacci number with [Binet's
+formula](https://artofproblemsolving.com/wiki/index.php/Binet%27s_Formula).
 
+```text
+Recursive Fibonacci(100) = 354224848179261915075
+LRU cache information: CacheInfo(hits=98, misses=101, maxsize=128, currsize=101)
+Binet Fibonacci(100) = 354224848179261915075
+Recursive Fibonacci(150) = 9969216677189303386214405760200
+LRU cache information: CacheInfo(hits=149, misses=151, maxsize=128, currsize=128)
+Binet Fibonacci(150) = 9969216677189303386214405760200
 ```
-The mode of the list of numbers is 9
-The mode of the list of was found 4 times!
+```python linenums="1"
+def fibonacci_binet(n: int) -> int:
+    """Calculate a number in the Fibonacci sequence using Binet's formula."""
+    square_root_n = math.sqrt(n)
+    return int((((1 + square_root_n) ** n - (1 - square_root_n) ** n) / (2 ** n * square_root_n)))
 ```
-
-It is worth noting that the `calculate_mode` function will only work correctly
-when it is provided with a list that contains a single value for the mode. If
-there are multiple values for the mode (i.e., the list `scores = [7, 8, 7, 7, 9,
-2, 10, 9, 9, 9]` has both the number `7` and the number `9` as a mode) then it
-will not return both of them. How would you need to change the function's
-computation and the type of data that it returns in order to ensure that can
-return all modes that are evident in the input list? Finally, don't forget that
-it is only possible for the program to run correctly if it contains the `import`
-statements that make the classes for the type annotations available! This means
-that you need to have both `from typing import List` and `from typing import
-Tuple` at the top of the `calculate-fibonacci-lru-cache.py`. Since the source code in
-the *Doing Math with Python* book uses the `Counter` module, the
-`calculate-fibonacci-lru-cache.py` script also needs the statement `from collections
-import Counter`.
 
 ## Running Checks
 
