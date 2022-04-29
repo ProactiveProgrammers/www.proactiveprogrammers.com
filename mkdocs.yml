@@ -238,6 +238,7 @@ nav:
       - Tuple Swapping: discrete-structures/source-code-surveys/tuple-swapping.md
       - Higher-Order Functions: discrete-structures/source-code-surveys/higher-order-functions.md
       - Mode Calculation: discrete-structures/source-code-surveys/mode-calculation.md
+      - Using Memoization: discrete-structures/source-code-surveys/using-memoization.md
     - Programming Projects:
       - Computing Averages: discrete-structures/programming-projects/average-computation.md
       - Temperature Conversion: discrete-structures/programming-projects/temperature-conversion.md
