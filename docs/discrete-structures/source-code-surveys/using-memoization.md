@@ -42,22 +42,37 @@ Specifically, you will need to add an implementation of the following function:
 least-recently-used (LRU) cache to store previously computed values, following
 the paradigm of memoization and aiming to make the computation faster. If you
 run this program with the command `python calculate-fibonacci-lru-cache.py` then
-it should produce following output. It is worth noting that the
-`calculate-fibonacci-lru-cache` program also provides a `def fibonacci_binet(n:
-int) -> int`, as described in the following source code segment, that can
-calculate the `n`-th Fibonacci number with [Binet's
-formula](https://artofproblemsolving.com/wiki/index.php/Binet%27s_Formula).
-Finally, please note that the output of this program illustrates that the LRU
-cache provided by `functools.lru_cache` keeps track of its size and the number
-of times a value was and was not found inside of the cache.
+it should produce following output. Finally, please observe that the output of
+this program illustrates that the LRU cache provided by `functools.lru_cache`
+keeps track of its size and the number of times a value was and was not found
+inside of the cache.
 
-``````
+```text
 Recursive Fibonacci(35) = 9227465
 Binet Fibonacci(35)     = 9227465
 LRU cache information: CacheInfo(hits=33, misses=36, maxsize=128, currsize=36)
 Recursive Fibonacci(70) = 190392490709135
 Binet Fibonacci(70)     = 190392490709135
 LRU cache information: CacheInfo(hits=69, misses=71, maxsize=128, currsize=71)
+```
+
+It is worth noting that the `calculate-fibonacci-lru-cache` program also
+provides a `def fibonacci_binet(n: int) -> int`, as described in the following
+source code segment, that can calculate the `n`-th Fibonacci number with
+[Binet's
+formula](https://artofproblemsolving.com/wiki/index.php/Binet%27s_Formula). Even
+though this function is only accurate, as implemented in the Python programming
+language, for small values of `n`, it is an efficient approach for ensuring that
+the other implementations work as expected.
+
+```python linenums="1"
+def fibonacci_binet(n: int) -> int:
+    """Calculate a number in the Fibonacci sequence using Binet's formula."""
+    square_root_five = math.sqrt(5)
+    coefficient = (1 / square_root_five)
+    first_term = ((1 + square_root_five) / 2) ** n
+    second_term = ((1 - square_root_five) / 2) ** n
+    return int(coefficient * (first_term - second_term))
 ```
 
 You should also notice that the `source` directory contains the Python program
