@@ -61,9 +61,14 @@ provides a `def fibonacci_binet(n: int) -> int`, as described in the following
 source code segment, that can calculate the `n`-th Fibonacci number with
 [Binet's
 formula](https://artofproblemsolving.com/wiki/index.php/Binet%27s_Formula). Even
-though this function is only accurate, as implemented in the Python programming
-language, for small values of `n`, it is an efficient approach for ensuring that
-the other implementations work as expected.
+though this function is only accurate --- as implemented in the Python
+programming language --- for small values of `n`, it is an efficient approach
+for ensuring that the other implementations work as expected. Notably, as
+explained in the article entitled [Fibonacci direct calculation
+formula](https://stackoverflow.com/questions/50622088/fibonacci-direct-calculation-formula),
+the formula that the following equation implements is "mathematically exact,
+but in practice [...] subject to floating point error". Can you explain why this
+function will not always compute the correct Fibonacci value?
 
 ```python linenums="1"
 def fibonacci_binet(n: int) -> int:
