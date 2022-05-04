@@ -593,7 +593,7 @@ Go to <code>mathematical-mappings/</code> directory
 <mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
 
 <div class="text-3xl font-bold mt-10 ml-4">
-Run <code>explore-mappings-as-dictionaries.ipynb</code>
+<code>explore-mappings-as-dictionaries.ipynb</code>
 </div>
 
 </div>
