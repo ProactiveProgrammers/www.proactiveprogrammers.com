@@ -237,7 +237,7 @@
 - Check out the [course
   slides](/slides/data-abstraction/data-structures/) for a detailed
   investigation of these chapters!
-
+- Go to the `data-abstraction/data-structures/` directory on [Proactive Programmers Live](https://proactiveprogrammers.com/live/) and investigate all of the Python programs!
 ### Next Steps
 
 - Chapter 12 of *Introduction to Computation and Programming Using Python*
