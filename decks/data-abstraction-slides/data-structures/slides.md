@@ -896,6 +896,32 @@ def __init__(self, num_buckets: int) -> None:
 
 ---
 
+# Adding Content to a Dictionary
+
+```python
+def add_entry(self, key: int, value: int) -> None:
+    hash_bucket = self.buckets[
+                   key % self.num_buckets]
+    for i in range(len(hash_bucket)):
+        if hash_bucket[i][0] == key:
+            hash_bucket[i] = (key, value)
+            return
+    hash_bucket.append((key, value))
+```
+<div class="mt-10">
+<v-clicks>
+
+- Use modular arithmetic with `%` to compress the `key`
+
+- Place the `(key, value)` pair at correct location in `buckets`
+
+</v-clicks>
+</div>
+
+[//]: # (Slide End }}})
+
+---
+
 [//]: # (Slide Start {{{)
 
 <div class="flex row">
