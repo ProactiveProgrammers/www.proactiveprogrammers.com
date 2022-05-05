@@ -870,6 +870,88 @@ Hashing function maps the key to value's location
 
 ---
 
+# Constructor for a Dictionary
+
+```python
+def __init__(self, num_buckets: int) -> None:
+    self.buckets = []
+    self.num_buckets = num_buckets
+    for i in range(num_buckets):
+        self.buckets.append([])
+```
+
+<v-clicks>
+
+- Given a number of buckets, create a backing list called `buckets`
+
+- Each index in `buckets` will hold its own list of values
+
+- Store key-value pairs inside of the list at locations in `buckets`
+
+- What are the trade-offs for the `num_buckets` parameter?
+
+</v-clicks>
+
+[//]: # (Slide End }}})
+
+---
+
+[//]: # (Slide Start {{{)
+
+<div class="flex row">
+
+<div class="text-7xl text-orange-600 font-bold mt-5 ml-4 mb-4">
+Let's make an integer-based dictionary!
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+Visit the <a href = "https://proactiveprogrammers.com/live">Proactive Programmers Live</a> site!
+</div>
+
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+<code>data-abstraction/data-structures/</code>
+</div>
+
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+Run <code>create-and-use-dictionaries.ipynb</code>
+</div>
+
+</div>
+
+</div>
+
+[//]: # (Slide End }}})
+
+---
+
 [//]: # (Slide Start {{{)
 
 <div class="flex row">
