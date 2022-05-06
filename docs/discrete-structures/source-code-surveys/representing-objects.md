@@ -82,11 +82,8 @@ editor to answer all of the questions in the `writing/reflection.md` file. Since
 this is a source code survey, you should provide output from running each of the
 provided Python programs on your own laptop and then explain how the program's
 source code produced that output. A specific goal for this project is for you to
-ensure that you can implement and understand two distinct approaches to using
-memoization to speed up the computation of a mathematical function. Students who
-want to explore this area further are encouraged to experimentally determine how
-much slower the Fibonacci computations would be if the LRU cache or the
-`dict`-based approach were not used to make the functions faster.
+ensure that you can implement and understand multiple approaches to representing
+objects in the Python programming language.
 
 ## Project Assessment
 
