@@ -46,52 +46,6 @@ this program illustrates that the LRU cache provided by `functools.lru_cache`
 keeps track of its size and the number of times a value was and was not found
 inside of the cache.
 
-```text
-Recursive Fibonacci(35) = 9227465
-Binet Fibonacci(35)     = 9227465
-LRU cache information: CacheInfo(hits=33, misses=36, maxsize=128, currsize=36)
-Recursive Fibonacci(70) = 190392490709135
-Binet Fibonacci(70)     = 190392490709135
-LRU cache information: CacheInfo(hits=69, misses=71, maxsize=128, currsize=71)
-```
-
-It is worth noting that the `calculate-fibonacci-lru-cache` program also
-provides a `def fibonacci_binet(n: int) -> int`, as described in the following
-source code segment, that can calculate the `n`-th Fibonacci number with
-[Binet's
-formula](https://artofproblemsolving.com/wiki/index.php/Binet%27s_Formula). Even
-though this function is only accurate --- as implemented in the Python
-programming language --- for small values of `n`, it is an efficient approach
-for ensuring that the other implementations work as expected. Notably, as
-explained in the article entitled [Fibonacci direct calculation
-formula](https://stackoverflow.com/questions/50622088/fibonacci-direct-calculation-formula),
-the formula that the following equation implements is "mathematically exact,
-but in practice [...] subject to floating point error". Can you explain why this
-function will not always compute the correct Fibonacci value?
-
-```python linenums="1"
-def fibonacci_binet(n: int) -> int:
-    """Calculate a number in the Fibonacci sequence using Binet's formula."""
-    square_root_five = math.sqrt(5)
-    coefficient = (1 / square_root_five)
-    first_term = ((1 + square_root_five) / 2) ** n
-    second_term = ((1 - square_root_five) / 2) ** n
-    return int(coefficient * (first_term - second_term))
-```
-
-You should also notice that the `source` directory contains the Python program
-called `calculate-fibonacci-dictionary`. You will need to follow the `TODO`
-markers in this file to implement a version of the `def fibonacci(number: int)
--> int:` function that creates and uses a `dict` to explicitly manage a history
-of the inputs to the function and the outputs that resulted from those inputs.
-After you are finished implementing this version of the function you should run
-the program and confirm that it produces the same output as the one that uses
-the LRU cache. With that said, please note that, while this program should
-produce the same values for numbers in the Fibonacci sequence, it will not
-produce any output concerning the LRU cache since it implements the memoization
-directly by creating a `dict` and adding to it and then checking it during the
-recursive computation. After implementing these two methods, which one do you
-prefer? Why?
 
 ## Running Checks
 
