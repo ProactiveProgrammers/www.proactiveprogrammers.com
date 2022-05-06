@@ -55,7 +55,44 @@ The dog's age is: 14
 The dog's breed is: Havanese
 ```
 
+You will notice that the `source` directory also contains a Python program,
+called `create-dog-with-class.py`, that uses the object-oriented programming
+paradigm to represent the state and behavior associated with a `Dog` object. As
+for the two other programs, you should add all of the Python source code
+  required by the `TODO` markers, ensuring that the program produces the
+  following output. Two of the methods that you will need to implement in the
+  `Dog` class include `def __init__(self, name, age, breed):` and `def
+  __str__(self):`. The first of these methods is the constructor, or the method
+  responsible for creating a new instance of the `Dog` class. The second of
+  these methods is responsible for creating a textual representation of a `Dog`
+  object that you can display in a terminal window or a graphical user
+  interface. As you work on this project, you should note the ways in which the
+  object-oriented approach to representing an object supports the combination of
+  both state and behaviors.
 
+```text
+Creating dog objects using a object-oriented approach!
+
+Bosco is a 6 years old Havanese
+
+The dog's name is: Bosco
+The dog's age is: 6
+The dog's breed is: Havanese
+
+Bosco is a 6 years old Havanese
+
+Hey, Bosco roll over!
+
+Faith is a 14 years old Havanese
+
+The dog's name is: Faith
+The dog's age is: 14
+The dog's breed is: Havanese
+
+Faith is a 14 years old Havanese
+
+Hey, Faith waive bye-bye!
+```
 
 ## Running Checks
 
