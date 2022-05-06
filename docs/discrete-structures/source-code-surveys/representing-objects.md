@@ -32,19 +32,29 @@ project!
 ## Code Survey
 
 If you change into the `source` directory of your GitHub repository, you will
-see a Python program called `calculate-fibonacci-lru-cache.py`. Your goal for
-this project is to add the source code required by the `TODO` markers so that
-the program produces the output that is given below this paragraph.
-Specifically, you will need to add an implementation of the following function:
-`def fibonacci(number: int) -> int:`. This function should be decorated with the
-`@functools.lru_cache(maxsize=128)` annotation so that it leverages a
-least-recently-used (LRU) cache to store previously computed values, following
-the paradigm of memoization and aiming to make the computation faster. If you
-run this program with the command `python calculate-fibonacci-lru-cache.py` then
-it should produce following output. Finally, please observe that the output of
-this program illustrates that the LRU cache provided by `functools.lru_cache`
-keeps track of its size and the number of times a value was and was not found
-inside of the cache.
+see two Python programs called `create-dog-with-dictionary.py` and
+`create-dog-with-list.py`. Importantly, both of these Python programs should
+produce the same output! Your goal for this project is to add the source code
+required by the `TODO` markers so that the program produces the output that is
+given below this paragraph. When you are finished adding the required source
+code, both of the aforementioned programs should produce the following output.
+With that said, the first line produced by `create-dog-with-dictionary` should
+be `Creating dog objects using a dictionary-based approach!` and the first line
+produced by `create-dog-with-list.py` should be `Creating dog objects using a
+list-based approach!`. As you implement both of these approaches to representing
+objects, please take time to reflect on the relative strengths and weaknesses of
+both ways to store details about a `Dog` in the computer's memory.
+
+```text
+The dog's name is: Bosco
+The dog's age is: 6
+The dog's breed is: Havanese
+
+The dog's name is: Faith
+The dog's age is: 14
+The dog's breed is: Havanese
+```
+
 
 
 ## Running Checks
