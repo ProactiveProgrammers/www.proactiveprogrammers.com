@@ -67,11 +67,13 @@ skills](/proactive-skills/introduction-proactive-skills/) to enter into a Docker
 container and run the command `gradle grade` to check your work. If `gradle
 grade` shows that all checks pass, you will know that you made progress towards
 correctly implementing and writing about this project's program. You are also
-encouraged to implement your own test cases for the
-`calculate-fibonacci-lru-cache.py` script to ensure that it is working
-correctly! This might involve creating different inputs to the function under
-test, calling the `def fibonacci(number: int) -> int` function, and then
-checking to ensure that it returned the correct ordered pair as its output.
+encouraged to ensure that `create-dog-with-dictionary` and
+`create-dog-with-list` both produce the same output, excepting the fact that
+they both output a starting line that is specific to the kind of representation
+that they use for the `Dog` object. Finally, you should confirm that the
+`create-dog-with-class` program produces similar output to the two
+aforementioned programs while also further demonstrating the features that are
+unique to this approach.
 
 ## Project Reflection
 
