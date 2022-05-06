@@ -8,14 +8,14 @@ called `create-dog-with-class`, `create-dog-with-dictionary`, and
 [Poetry](https://python-poetry.org/) tool for managing dependencies and
 packaging these programs, which the [technical
 skills](/proactive-skills/introduction-proactive-skills/) advise as a best
-practice, this program is a script, without any dependencies on other Python
-packages, you can run each of these programs with the Python interpreter. As you
-continue to practice a different way to run a Python program, this project
-invites you to explore how to use three different approaches to representing an
-object in the Python programming language. After completing this source code
-survey, you should understand how to express relationships between variables in
-three different ways and be able to articulate the trade-offs associated with
-each approach.
+practice, these programs are a script, without any dependencies on other Python
+packages, that you can run with the Python interpreter. As you continue to
+practice a different way to run a Python program, this project invites you to
+explore how to use three different approaches to representing an object in the
+Python programming language. After completing this source code survey, you
+should understand how to express relationships between variables in three
+different ways and be able to articulate the trade-offs associated with each
+approach.
 
 ## Project Access
 
@@ -66,9 +66,9 @@ for the two other programs, you should add all of the Python source code
   responsible for creating a new instance of the `Dog` class. The second of
   these methods is responsible for creating a textual representation of a `Dog`
   object that you can display in a terminal window or a graphical user
-  interface. As you work on this project, you should note the ways in which the
-  object-oriented approach to representing an object supports the combination of
-  both state and behaviors.
+  interface. As you implement the Python source code for this project, you
+  should note the ways in which the object-oriented approach to representing an
+  object supports the combination of both state and behaviors.
 
 ```text
 Creating dog objects using a object-oriented approach!
