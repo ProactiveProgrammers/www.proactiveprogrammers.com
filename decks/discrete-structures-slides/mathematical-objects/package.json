@@ -2,7 +2,7 @@
   "private": true,
   "scripts": {
     "dev": "slidev",
-    "build": "slidev build --base /slides/discrete-structures/object-oriented/ --out ../../../site/slides/discrete-structures/object-oriented",
+    "build": "slidev build --base /slides/discrete-structures/mathematical-objects/ --out ../../../site/slides/discrete-structures/object-oriented",
     "export": "slidev export"
   },
   "dependencies": {
@@ -10,5 +10,5 @@
     "@slidev/theme-default": "*",
     "@slidev/theme-seriph": "*"
   },
-  "name": "object-oriented"
+  "name": "mathematical-objects"
 }
