@@ -343,6 +343,36 @@ But, it sometimes feels more "complex" in Python!
 
 [//]: # (Slide Start {{{)
 
+# Case Study: Moving Average of Values
+
+<v-clicks>
+
+- Many streaming systems produce a never-ending sequence of values
+
+- **Challenge**: how to average these values in space-efficient fashion?
+
+- Approach to computing the **moving average** of a list of values:
+
+    - Define the `__init__` method as the constructor
+
+    - Define the `append` method to add data to `MovingAverage`
+
+    - Define the `value` method to compute a running total
+
+    - Define a `smooth` function for a `window` of data
+
+- **Question**: what are the trade-offs associated with `window` ?
+
+- What are the **benefits** and **drawbacks** of this mathematical object?
+
+</v-clicks>
+
+[//]: # (Slide End }}})
+
+---
+
+[//]: # (Slide Start {{{)
+
 <div class="flex row">
 
 <div class="text-7xl text-orange-600 font-bold mt-5 ml-4 mb-4">
