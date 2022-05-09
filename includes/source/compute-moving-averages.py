@@ -39,6 +39,7 @@ def generate_random_integers(size, minimum, maximum):
 
 
 if __name__ == "__main__":
+
     # Reference:
     # https://docs.python.org/3/library/statistics.html
     # Reference:
@@ -59,17 +60,17 @@ if __name__ == "__main__":
     print()
     # --> demonstrate the MovingAverage for a medium randomly generated data set
     # --> define window to keep a small number of data values for the moving average
-    small_random_data = generate_random_integers(50, 0, 100)
+    medium_random_data = generate_random_integers(50, 0, 100)
     window = 5
-    print(f"Computing the moving average for a medium, random list of values {small_random_data}\n")
-    for smoothed_value in smooth(small_random_data, window):
+    print(f"Computing the moving average for a medium, random list of values {medium_random_data}\n")
+    for smoothed_value in smooth(medium_random_data, window):
         print(f"\tCurrent moving average of {window} values is {smoothed_value:.4f}")
     print()
     # --> demonstrate the MovingAverage for a medium randomly generated data set
     # --> define window to keep a small number of data values for the moving average
-    # --> make sure to use the same small_random_data set with the larger window
+    # --> make sure to use the same medium_random_data set with the larger window
     window = 50
-    print(f"Computing the moving average for a medium, random list of values {small_random_data}\n")
-    for smoothed_value in smooth(small_random_data, window):
+    print(f"Computing the moving average for a medium, random list of values {medium_random_data}}\n")
+    for smoothed_value in smooth(medium_random_data, window):
         print(f"\tCurrent moving average of {window} values is {smoothed_value:.4f}")
     print()
