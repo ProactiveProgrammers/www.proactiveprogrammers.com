@@ -21,7 +21,7 @@ info: |
 
 # Discrete Structures
 
-## Object-Oriented Programming
+## Mathematical Objects
 
 <div class="container my-5">
   &nbsp;
