@@ -1,5 +1,6 @@
 import random
 
+
 class MovingAverage:
 
     def __init__(self, num_points):
