@@ -346,7 +346,7 @@ But, it sometimes feels more "complex" in Python!
 <div class="flex row">
 
 <div class="text-7xl text-orange-600 font-bold mt-5 ml-4 mb-4">
-Let's explore object-oriented programming!
+Let's use objects for mathematics!
 </div>
 
 </div>
@@ -372,7 +372,7 @@ Visit the <a href = "https://proactiveprogrammers.com/live">Proactive Programmer
 <mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
 
 <div class="text-3xl font-bold mt-10 ml-4">
-<code>discrete-structures/object-oriented/</code>
+Find the <code>mathematical-objects/</code> directory
 </div>
 
 </div>
@@ -386,7 +386,7 @@ Visit the <a href = "https://proactiveprogrammers.com/live">Proactive Programmer
 <mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
 
 <div class="text-3xl font-bold mt-10 ml-4">
-Run <code>explore-object-oriented.ipynb</code>
+Run <code>explore-mathematical-objects.ipynb</code>
 </div>
 
 </div>
