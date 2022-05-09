@@ -52,9 +52,9 @@ info: |
 
 ## Key Question
 
-> How do I use the concept of a relation and the industrially relevant practice
-> of object-oriented programming to correctly implement Python programs that
-> are easy to understand and maintain?
+> How do I use the concepts associated with object-oriented programming to
+> create and use objects for the purposes of performing mathematical
+>  computations like the moving average?
 
 </div>
 
@@ -65,7 +65,7 @@ info: |
 ## Learning Objectives
 
 > To **remember** and **understand** some concepts about the **objects**
-> and to learn different ways to represent and use objects in Python
+> and to learn different ways to use them in mathematical computations
 
 </div>
 
@@ -76,7 +76,7 @@ info: |
 <uim-rocket class="text-6xl ml-5 mt-4 text-blue-600" />
 
 <div class="text-4xl text-true-gray-700 font-bold mt-6 ml-10">
-Let's create objects in Python programs!
+Let's create objects to aid mathematics!
 </div>
 
 </div>
