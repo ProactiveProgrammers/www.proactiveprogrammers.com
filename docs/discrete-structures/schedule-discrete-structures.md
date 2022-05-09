@@ -268,6 +268,20 @@ are easy to understand and maintain?
     - **Information Hiding**: principle that the client of a class should only
       rely on the public methods of the class
 
+## Mathematical Objects
+
+### Technical Question
+
+- How do I use the concepts associated with object-oriented programming to
+  create and use objects for the purposes of performing mathematical
+  calculations like the moving average?
+
+### Next Steps
+
+- Read chapter 11 of *Programming and Mathematical Thinking*
+- Check out the [course slides](/slides/discrete-structures/mathematical-objects/) for a detailed investigation of these chapters!
+- Go to the `discrete-structures/mathematical-objects/` directory on [Proactive Programmers Live](https://proactiveprogrammers.com/live/) and investigate all of the Python programs!
+
 ## Learning Opportunities
 
 Interested in learning more about any of the topics on this schedule? If you
