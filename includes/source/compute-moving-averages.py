@@ -30,10 +30,10 @@ def smooth(data, num_points):
         yield average.value()
 
 
-def generate_random_integers(size, min, max):
+def generate_random_integers(size, minimum, maximum):
     # Reference:
     # https://www.geeksforgeeks.org/generating-random-number-list-in-python/
-    random_list = random.sample(range(min, max), size)
+    random_list = random.sample(range(minimum, maximum), size)
     return random_list
 
 
@@ -41,7 +41,7 @@ if __name__ == "__main__":
     # Reference:
     # https://docs.python.org/3/library/statistics.html
     # Reference:
-    # Chapter 11 of Programming and Mathematical Thinking
+    # Chapter 11 of Programminimumg and Mathematical Thinking
     # --> demonstrate the MovingAverage for a small fixed data set
     small_fixed_data = [1, 2, 3, 4, 4]
     window = 5
@@ -62,7 +62,7 @@ if __name__ == "__main__":
     window = 5
     print(f"Computing the moving average for a medium, random list of values {small_random_data}\n")
     for smoothed_value in smooth(small_random_data, window):
-        print(f"\tCurrent moving average of {window} values is {smoothed_value}")
+        print(f"\tCurrent moving average of {window} values is {smoothed_value:.4f}")
     print()
     # --> demonstrate the MovingAverage for a medium randomly generated data set
     # --> define window to keep a small number of data values for the moving average
@@ -70,5 +70,5 @@ if __name__ == "__main__":
     window = 50
     print(f"Computing the moving average for a medium, random list of values {small_random_data}\n")
     for smoothed_value in smooth(small_random_data, window):
-        print(f"\tCurrent moving average of {window} values is {smoothed_value}")
+        print(f"\tCurrent moving average of {window} values is {smoothed_value:.4f}")
     print()
