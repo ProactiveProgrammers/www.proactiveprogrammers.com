@@ -274,7 +274,7 @@ are easy to understand and maintain?
 
 - How do I use the concepts associated with object-oriented programming to
   create and use objects for the purposes of performing mathematical
-  calculations like the moving average?
+  computations like the moving average?
 
 ### Next Steps
 
