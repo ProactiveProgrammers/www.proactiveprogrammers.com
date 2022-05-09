@@ -2,7 +2,7 @@
   "private": true,
   "scripts": {
     "dev": "slidev",
-    "build": "slidev build --base /slides/discrete-structures/mathematical-objects/ --out ../../../site/slides/discrete-structures/mathematical-objects",
+    "build": "slidev build --base /slides/discrete-structures/mathematical-mappings/ --out ../../../site/slides/discrete-structures/mathematical-mappings",
     "export": "slidev export"
   },
   "dependencies": {
@@ -10,5 +10,5 @@
     "@slidev/theme-default": "*",
     "@slidev/theme-seriph": "*"
   },
-  "name": "mathematical-objects"
+  "name": "mathematical-mappings"
 }
