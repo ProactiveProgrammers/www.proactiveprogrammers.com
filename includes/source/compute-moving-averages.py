@@ -1,3 +1,5 @@
+import random
+
 class MovingAverage:
 
     def __init__(self, num_points):
@@ -18,8 +20,7 @@ class MovingAverage:
         length = self.__length
         if length > 0:
             return sum(points) / length
-        else:
-            return None
+        return None
 
 
 def smooth(data, num_points):
@@ -30,6 +31,13 @@ def smooth(data, num_points):
 
 
 if __name__ == "__main__":
-    data = [1, 2, 3, 4, 4]
-    for smoothed_value in smooth(data, 5):
-        print(smoothed_value)
+    # Reference:
+    # https://docs.python.org/3/library/statistics.html
+    # Reference:
+    # Refer to Chapter 11 of Programming and Mathematical Thinking
+    small_data = [1, 2, 3, 4, 4]
+    window = 5
+    print(f"Computing the moving average for a small list of values {small_data}\n")
+    for smoothed_value in smooth(small_data, window):
+        print(f"\tCurrent moving average of {window} values is {smoothed_value}")
+    print()
