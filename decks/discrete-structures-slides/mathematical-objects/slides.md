@@ -450,7 +450,7 @@ def value(self):
 <div class="flex row">
 
 <div class="text-7xl text-orange-600 font-bold mt-5 ml-4 mb-4">
-Let's use objects for mathematics!
+Let's use objects for a moving average!
 </div>
 
 </div>
@@ -547,6 +547,92 @@ Support the traversal of nodes to collect data
 
 <div class="text-3xl font-bold mt-10 ml-4">
 Ordered nodes enable fast searching for data
+</div>
+
+</div>
+
+</div>
+
+[//]: # (Slide End }}})
+
+---
+
+[//]: # (Slide Start {{{)
+
+# Recursively Defined Objects
+
+<v-clicks>
+
+- Create a `Node` object that will connect to two other `Node` s
+
+- When two `Node` objects are connected, we say that they share an edge
+
+- Require the tree to have a root (or starting point) with no edges leading to it
+
+- Require that all other `Node` s in the tree have only one edge leading to it
+
+- Recursively traverse the contents of a `Tree`:
+
+    - **In-order Traversal**: Left, Node, Right
+
+    - **Pre-order Traversal**: Node, Left, Right
+
+    - **Post-order Traversal**: Left, Right, Node
+
+- What are the **benefits** and **drawbacks** of using the `Tree`  structure?
+
+</v-clicks>
+
+[//]: # (Slide End }}})
+
+---
+
+[//]: # (Slide Start {{{)
+
+<div class="flex row">
+
+<div class="text-7xl text-orange-600 font-bold mt-5 ml-4 mb-4">
+Let's use objects to traverse & search trees!
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+Visit the <a href = "https://proactiveprogrammers.com/live">Proactive Programmers Live</a> site!
+</div>
+
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+Find the <code>mathematical-objects/</code> directory
+</div>
+
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+Run <code>explore-mathematical-objects.ipynb</code>
 </div>
 
 </div>
