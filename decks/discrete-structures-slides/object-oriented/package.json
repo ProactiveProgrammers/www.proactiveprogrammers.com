@@ -1,0 +1,14 @@
+{
+  "private": true,
+  "scripts": {
+    "dev": "slidev",
+    "build": "slidev build --base /slides/discrete-structures/object-oriented/ --out ../../../site/slides/discrete-structures/object-oriented",
+    "export": "slidev export"
+  },
+  "dependencies": {
+    "@slidev/cli": "^0.22.7",
+    "@slidev/theme-default": "*",
+    "@slidev/theme-seriph": "*"
+  },
+  "name": "object-oriented"
+}
