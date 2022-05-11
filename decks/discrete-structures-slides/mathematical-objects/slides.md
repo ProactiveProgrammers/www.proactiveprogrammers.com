@@ -559,7 +559,7 @@ Ordered nodes enable fast searching for data
 
 [//]: # (Slide Start {{{)
 
-# Recursively Defined Objects
+# Case Study: Recursively Defined Trees
 
 <v-clicks>
 
