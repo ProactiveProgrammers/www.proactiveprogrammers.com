@@ -498,3 +498,60 @@ Run <code>explore-mathematical-objects.ipynb</code>
 </div>
 
 [//]: # (Slide End }}})
+
+---
+
+[//]: # (Slide Start {{{)
+
+<div class="flex row">
+
+<div class="text-7xl text-orange-600 font-bold mt-5 ml-4 mb-4">
+What are the properties of the tree structure?
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<mdi-content-copy class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+Hierarchical (i.e., non-linear) in their structure
+</div>
+
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<mdi-content-copy class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+Support the traversal of nodes to collect data
+</div>
+
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<mdi-content-copy class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+Ordered nodes enable fast searching for data
+</div>
+
+</div>
+
+</div>
+
+[//]: # (Slide End }}})
+
