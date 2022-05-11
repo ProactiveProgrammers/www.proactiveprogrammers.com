@@ -420,6 +420,31 @@ def append(self, new_value):
 
 ---
 
+# Define the `value` Method
+
+```python
+def value(self):
+    points = self.__points
+    length = self.__length
+    if length > 0:
+        return sum(points) / length
+    return None
+```
+
+<v-clicks>
+
+- The `self` parameter provides access to the current object
+
+- Must compute the current moving average of the data values
+
+- As long as data is available, compute the arithmetic mean
+
+- If no data is available, then return the value of `None`
+
+</v-clicks>
+
+---
+
 [//]: # (Slide Start {{{)
 
 <div class="flex row">
