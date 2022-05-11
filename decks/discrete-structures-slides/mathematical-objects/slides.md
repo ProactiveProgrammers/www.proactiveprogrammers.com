@@ -371,6 +371,55 @@ But, it sometimes feels more "complex" in Python!
 
 ---
 
+# Define the `MovingAverage` Class
+
+```python
+class MovingAverage:
+
+    def __init__(self, num_points):
+        self.__points = []
+        self.__length = 0
+        self.__num_points = num_points
+```
+
+<v-clicks>
+
+- The `__init__` method defines the constructor for the class
+
+- The `MovingAverage` will keep track of a total of `num_points`
+
+- The `__points` list will actually contain the tracked values
+
+- Let's add the other methods to the `MovingAverage` !
+
+</v-clicks>
+
+---
+
+# Define the `append` Method
+
+```python
+def append(self, new_value):
+    points = self.__points
+    if self.__length == self.__num_points:
+        points.pop(0)
+    else:
+        self.__length += 1
+    points.append(new_value)
+```
+
+<v-clicks>
+
+- Responsible for storing the `new_value` inside of `points`
+
+- Must ensure that no more than `__num_points` values are stored
+
+- Uses the `pop` method for a list to remove value at the list's start
+
+</v-clicks>
+
+---
+
 [//]: # (Slide Start {{{)
 
 <div class="flex row">
