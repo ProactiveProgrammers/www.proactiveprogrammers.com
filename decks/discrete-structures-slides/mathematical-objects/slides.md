@@ -714,7 +714,35 @@ def traversePreorder(self, root):
 
 - Traversal occurs through recursive calls to the `traversePreorder`
 
-- What is the output of in-order traversal for the provided sample tree?
+- What is the output of pre-order traversal for the provided sample tree?
+
+</v-clicks>
+
+</div>
+
+---
+
+# Perform an Post-order Traversal of a `Tree`
+
+```python
+def traversePostorder(self, root):
+    if root is not None:
+        self.traversePostorder(root.left)
+        self.traversePostorder(root.right)
+        print (root.data)
+```
+
+<div class="mt-10">
+
+<v-clicks>
+
+- Perform the traversal in the order of "**left**, **right**, **node**"
+
+- The `root` parameter defines where the traversal starts
+
+- Traversal occurs through recursive calls to the `traversePostorder`
+
+- What is the output of post-order traversal for the provided sample tree?
 
 </v-clicks>
 
