@@ -638,6 +638,34 @@ def insert(self, node, data):
 
 ---
 
+# Create a `search` Method for a `Tree`
+
+```python
+def search(self, node, data):
+  if node is None or node.data == data:
+      return node
+  if node.data > data:
+      return self.search(node.right, data)
+  else:
+      return self.search(node.left, data)
+```
+
+<div class="mt-5">
+
+<v-clicks>
+
+- The `node` parameter is the "starting point" for the search for `data`
+
+- Recursively search "to the left" or "to the right" depending
+
+- What are the performance characteristics of the `search` method?
+
+</v-clicks>
+
+</div>
+
+---
+
 [//]: # (Slide Start {{{)
 
 <div class="flex row">
