@@ -722,7 +722,7 @@ def traversePreorder(self, root):
 
 ---
 
-# Perform an Post-order Traversal of a `Tree`
+# Perform Post-order Traversal of a `Tree`
 
 ```python
 def traversePostorder(self, root):
