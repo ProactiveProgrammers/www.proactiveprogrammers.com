@@ -804,3 +804,24 @@ Run <code>explore-tree-structures.ipynb</code>
 
 [//]: # (Slide End }}})
 
+---
+
+# Mathematical Objects in Python
+
+-   Object-oriented programming **enables** use of varied mathematical objects
+
+-   The `Tree` and `MovingAverage` objects combine state and behavior
+
+-   Creating and using **mathematical objects** in Python programs:
+
+    -   **Q1**: What are the trade-offs associated with a moving average?
+
+    -   **Q2**: How does a moving average differ from the standard approach?
+
+    -   **Q3**: What does it mean to recursively define tree out of nodes?
+
+    -   **Q4**: How do you efficiently search through the data in a binary tree?
+
+    -   **Q5**: What are three canonical ways to traverse the data in a tree?
+
+-   Questions about how to use object-oriented programming in mathematics?
