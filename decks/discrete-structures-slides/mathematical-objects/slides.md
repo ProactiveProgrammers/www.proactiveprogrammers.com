@@ -656,7 +656,7 @@ def search(self, node, data):
 
 - The `node` parameter is the "starting point" for the search for `data`
 
-- Recursively search "to the left" or "to the right" depending
+- Recursively search "to the left" or "to the right" depending on `data`
 
 - What are the performance characteristics of the `search` method?
 
@@ -685,6 +685,34 @@ def traverseInorder(self, root):
 - The `root` parameter defines where the traversal starts
 
 - Traversal occurs through recursive calls to the `traverseInorder`
+
+- What is the output of in-order traversal for the provided sample tree?
+
+</v-clicks>
+
+</div>
+
+---
+
+# Perform an Pre-order Traversal of a `Tree`
+
+```python
+def traversePreorder(self, root):
+    if root is not None:
+        print (root.data)
+        self.traversePreorder(root.left)
+        self.traversePreorder(root.right)
+```
+
+<div class="mt-10">
+
+<v-clicks>
+
+- Perform the traversal in the order of "**node**, **left**, **right**"
+
+- The `root` parameter defines where the traversal starts
+
+- Traversal occurs through recursive calls to the `traversePreorder`
 
 - What is the output of in-order traversal for the provided sample tree?
 
