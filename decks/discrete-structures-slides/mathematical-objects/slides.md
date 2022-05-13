@@ -666,6 +666,34 @@ def search(self, node, data):
 
 ---
 
+# Perform an In-order Traversal of a `Tree`
+
+```python
+def traverseInorder(self, root):
+    if root is not None:
+        self.traverseInorder(root.left)
+        print(root.data)
+        self.traverseInorder(root.right)
+```
+
+<div class="mt-10">
+
+<v-clicks>
+
+- Perform the traversal in the order of "**left**, **node**, **right**"
+
+- The `root` parameter defines where the traversal starts
+
+- Traversal occurs through recursive calls to the `traverseInorder`
+
+- What is the output of in-order traversal for the provided sample tree?
+
+</v-clicks>
+
+</div>
+
+---
+
 [//]: # (Slide Start {{{)
 
 <div class="flex row">
