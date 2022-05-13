@@ -587,6 +587,30 @@ Ordered nodes enable fast searching for data
 
 ---
 
+# Define the Constructors for a `Tree`
+
+```python
+class Node:
+    def __init__(self, value):
+        self.left = None
+        self.data = value
+        self.right = None
+
+class Tree:
+    def createNode(self, data):
+        return Node(data)
+```
+
+<v-clicks>
+
+- The `Node` is the building block for the recursively defined `Tree`
+
+- An `insert` method will call `createNode` to build up a `Tree`
+
+</v-clicks>
+
+---
+
 [//]: # (Slide Start {{{)
 
 <div class="flex row">
