@@ -611,6 +611,33 @@ class Tree:
 
 ---
 
+# Define the `insert` Method for a `Tree`
+
+```python
+def insert(self, node, data):
+    if node is None:
+        return self.createNode(data)
+    if data < node.data:
+        node.left = self.insert(node.left, data)
+    elif data > node.data:
+        node.right = self.insert(node.right, data)
+    return node
+```
+
+<div class="mt-10">
+
+<v-clicks>
+
+- The `node` parameter is the "starting point" for the new `data` value
+
+- Organizes the data in the `Tree` instance so that there is a searchable order
+
+</v-clicks>
+
+</div>
+
+---
+
 [//]: # (Slide Start {{{)
 
 <div class="flex row">
@@ -656,7 +683,7 @@ Find the <code>mathematical-objects/</code> directory
 <mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
 
 <div class="text-3xl font-bold mt-10 ml-4">
-Run <code>explore-mathematical-objects.ipynb</code>
+Run <code>explore-tree-structures.ipynb</code>
 </div>
 
 </div>
