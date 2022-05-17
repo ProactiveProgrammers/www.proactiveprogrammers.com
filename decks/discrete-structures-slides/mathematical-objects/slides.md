@@ -694,7 +694,7 @@ def traverseInorder(self, root):
 
 ---
 
-# Perform an Pre-order Traversal of a `Tree`
+# Perform Pre-order Traversal of a `Tree`
 
 ```python
 def traversePreorder(self, root):
