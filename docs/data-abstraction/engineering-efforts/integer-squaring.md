@@ -299,8 +299,8 @@ This test case takes the following steps:
 
 You should write a new test that follows these steps for the
 `compute_square_while` function! Finally, please make sure that you explain all
-of the steps in these test cases by adding single-line comments to each test
-case function.
+of the steps in these test cases by adding single-line comments to each line in
+every test case function.
 
 ???+ note
 
