@@ -310,8 +310,8 @@ every test case function.
     this workflow consumes build minutes for the course's organization! As such,
     you should only commit to your repository once you have made substantive
     changes to your project and you are ready to confirm its correctness. Before
-    you commit to your repository, you can still run checks on your own computer
-    by either using Poetry or Docker and GatorGrader.
+    you commit to your repository, you can should run checks on your own computer
+    by running `gatorgrade --config config/gatorgrade.yml`.
 
 ## Project Reflection
 
@@ -330,9 +330,9 @@ completing this project.
     feedback".[^1] After reflecting on the challenges that you faced and
     identifying areas for improvement, make a list of SMART goals that will
     enable you to more effectively put a specific technical skill into practice,
-    follow your plan, and work to continually to improve.[^2] You can learn more
-    about how to best reflect on your experiences and improve for before
-    starting your next project by reviewing the [technical
+    follow your plan, and continually work to improve.[^2] You can learn more
+    about how to best reflect on your experiences and improve before starting
+    your next project by reviewing the [technical
     skills](proactive-skills/technical-skills/introduction-technical-skills/)
     that a proactive programmer should master!
 
