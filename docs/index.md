@@ -4,7 +4,7 @@ hide:
   - toc
 ---
 
-![Proactive Programmers](img/Square-Proactive-Programmers-Logo.svg){align=center}
+![Proactive Programmers](img/Square-Proactive-Programmers-Logo.svg){loading=lazy}
 
 # Welcome!
 

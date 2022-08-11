@@ -1,4 +1,4 @@
-![Integer Squaring](/img/Pro-Data-Abstraction-Integer-Squaring.svg){align=center}
+![Integer Squaring](/img/Pro-Data-Abstraction-Integer-Squaring.svg){loading=lazy}
 
 # Integer Squaring
 
