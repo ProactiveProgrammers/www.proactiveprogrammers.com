@@ -14,8 +14,8 @@ a `while` loops. As you enhance your [technical
 skills](/proactive-skills/introduction-proactive-skills/), you will implement
 a Python program and write technical content in Markdown while using tools
 such as VS Code, a terminal window, the Python programming language, and the
-Poetry package manager. Ready for some fun with programming? Okay, let's get
-started!
+Poetry package manager. Ready for some fun with programming? *Okay, let's get
+started!*
 
 ## Project Access
 
@@ -29,6 +29,17 @@ will need to use the `git clone` command to download the project from GitHub to
 your computer. Now you are ready to add source code and documentation to the
 project!
 
+???+ note
+
+    If you are an emerging proactive programmer who is not enrolled in a
+    Computer Science class at Allegheny College, you can still work on this
+    assignment! To get started, you should click the "Use this template" icon in
+    the :material-github:
+    [integer-squaring-starter](https://github.com/ProactiveProgrammers/integer-squaring-starter)
+    GitHub repository and create your own version of this project's source code.
+    After creating your GitHub repository, you can follow all of the other
+    steps!
+
 ## Expected Output
 
 This project invites you to implement a number squaring program called `square`.
@@ -36,10 +47,10 @@ The program can accept as input both a file of numbers and the name of an
 approach to squaring an integer. If you run the program correctly, it will
 iterate through the file of numbers, compute the square for each number, and
 output a complete list of the squared values. For instance, if you run the
-program with the command `poetry run square --approach for --dir input --file
+program with the command `poetry run square --approach for --directory input --file
 numbers.txt` it produces this output:
 
-```shell
+```text
 😃 Squaring numbers in a file called input/numbers.txt!
 
 [
@@ -54,7 +65,7 @@ numbers.txt` it produces this output:
 
 In addition to having a feature that lets you square numbers using a `for` loop,
 the `square` program can perform the same task by using a `while` loop! If you
-run the program with the command `poetry run square --approach while --dir input
+run the program with the command `poetry run square --approach while --directory input
 --file numbers.txt` then the program should produce the same output as given
 above this paragraph. If you run the command `poetry run square --help` you
 should see the following output that explains how to use the `square` program:
@@ -66,7 +77,7 @@ Usage: square [OPTIONS]
 
 Options:
   --approach [for|while]  [default: for]
-  --dir PATH
+  --directory PATH
   --file PATH
   --install-completion    Install completion for the current shell.
   --show-completion       Show completion for the current shell, to copy
@@ -80,7 +91,7 @@ functionality to produce this output. As explain in the next section, you are
 invited to add all of the missing features and ensure that `square` produces the
 expected output. Once the program is working correctly, you should also try to
 use it when specifying a file that is not available on your computer! For instance,
-if you run it with the command `poetry run square --approach for --dir input
+if you run it with the command `poetry run square --approach for --directory input
 --file numberswrong.txt` then it will not perform the number squaring and
 instead produce the following output:
 
@@ -116,7 +127,7 @@ E   NameError: name 'typer' is not defined
 ```
 
 Alternatively, running the program with a command like `poetry run square
---approach for --dir input --file numbers.txt` will produce the following
+--approach for --directory input --file numbers.txt` will produce the following
 output:
 
 ```
@@ -172,7 +183,7 @@ call by specifying either `for` or `while` as one of the program's command-line
 arguments. The `square` program uses the Typer package and the following source
 code to ensure that the program only accepts one of these two options. For
 instance, if you try to run the program with the command `poetry run square
---approach recursion --dir input --file numbers.txt` it will produce the
+--approach recursion --directory input --file numbers.txt` it will produce the
 following error message because `recursion` is not a valid option:
 
 ```
