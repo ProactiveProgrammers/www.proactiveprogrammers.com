@@ -6,13 +6,16 @@
 
 This engineering effort invites you to combine what you learned about the basics
 of Python programming to implement a useful program that can compute the square
-for all of the integer values stored inside of a file. In addition to fixing
-defects in the provided source code, you will create your own Python functions
-that use both iteration constructs and conditional logic to implement a
-correct program that passes the test suite and all checks. As you enhance your
-[technical skills](/proactive-skills/introduction-proactive-skills/), you will
-program with tools such as VS Code and a terminal window and the Python
-programming language and the Poetry package manager.
+for all of the integer values stored inside of a file. As part of this project
+you will learn how to navigate the source code in a Python file, perform file
+input and output using `Path` objects from `pathlib`, implement Python
+functions, and implement and test functions that contain either a `for` and or
+a `while` loops. As you enhance your [technical
+skills](/proactive-skills/introduction-proactive-skills/), you will implement
+a Python program and write technical content in Markdown while using tools
+such as VS Code, a terminal window, the Python programming language, and the
+Poetry package manager. Ready for some fun with programming? Okay, let's get
+started!
 
 ## Project Access
 
