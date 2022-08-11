@@ -322,6 +322,20 @@ block, explain the meaning of the Python source code segments that you
 implemented, and answer all of the other questions about your experiences in
 completing this project.
 
+???+ note
+
+    To ensure that you master the technical and professional skills introduced
+    as part of this project you need to participate in deliberate practice that
+    "requires both a clear performance goal and immediate informative
+    feedback".[^1] After reflecting on the challenges that you faced and
+    identifying areas for improvement, make a list of SMART goals that will
+    enable you to more effectively put a specific technical skill into practice,
+    follow your plan, and work to continually to improve.[^2] You can learn more
+    about how to best reflect on your experiences and improve for before
+    starting your next project by reviewing the [technical
+    skills](proactive-skills/technical-skills/introduction-technical-skills/)
+    that a proactive programmer should master!
+
 ## Project Assessment
 
 Since this project is an engineering effort, it is aligned with the
@@ -356,3 +370,16 @@ community](https://proactiveprogrammers.com/proactive-community/community-connec
 If you find a mistake in this project, please describe it and propose a solution
 by creating an issue in the [GitHub Issue
 Tracker](https://github.com/ProactiveProgrammers/www.proactiveprogrammers.com/issues).
+
+--8<-- "includes/abbreviations.md"
+
+[^1]: See Merriam-Webster for the definition of [Teaching Tech
+  Together](https://teachtogether.tech/en/index.html) for more details about how
+  to effectively learn technical skills. What practical steps can you take to
+  best ensure that you can master the technical skills of a proactive programmer?
+
+[^2]: See the article called [How to write SMART
+  goals](https://www.atlassian.com/blog/productivity/how-to-write-smart-goals)
+  for an overview of how to create SMART goals that are specific, measurable,
+    achievable, relevant, and time-bound. In your view, what are the benefits of
+    ensuring that your goals fit into the SMART paradigm?
