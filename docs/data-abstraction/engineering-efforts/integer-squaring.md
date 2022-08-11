@@ -247,46 +247,30 @@ command-line interface.
 
 ## Running Checks
 
-If you study the source code in the `pyproject.toml` file you will see that
-it includes the following section that specifies different executable tasks:
-
-```toml
-[tool.taskipy.tasks]
-black = { cmd = "black square tests --check", help = "Run the black checks for source code format" }
-flake8 = { cmd = "flake8 square tests", help = "Run the flake8 checks for source code documentation" }
-mypy = { cmd = "poetry run mypy square", help = "Run the mypy type checker for potential type errors" }
-pydocstyle = { cmd = "pydocstyle square tests", help = "Run the pydocstyle checks for source code documentation" }
-pylint = { cmd = "pylint square tests", help = "Run the pylint checks for source code documentation" }
-test = { cmd = "pytest -x -s", help = "Run the pytest test suite" }
-test-silent = { cmd = "pytest -x --show-capture=no", help = "Run the pytest test suite without showing output" }
-all = "task black && task flake8 && task pydocstyle && task pylint && task mypy && task test"
-lint = "task black && task flake8 && task pydocstyle && task pylint"
-```
-
-This section makes it easy to run commands like `poetry run task lint` to
-automatically run all of the linters designed to check the Python source code in
-your program and its test suite. You can also use the command `poetry run task
-black` to confirm that your source code adheres to the industry-standard format
-defined by the `black` tool. If it does not adhere to the standard then you can
-run the command `poetry run black square tests` and it will automatically
-reformat the source code.
+If you study the source code in the `pyproject.toml` file you will see that it
+includes the following section that specifies different executable tasks like
+`lint`. If you are in the `square` directory that contains the `pyproject.toml`
+file and the `poetry.lock` file, the tasks in this section make it easy to run
+commands like `poetry run task lint` to automatically run all of the linters
+designed to check the Python source code in your program and its test suite. You
+can also use the command `poetry run task black` to confirm that your source
+code adheres to the industry-standard format defined by the `black` tool. If it
+does not adhere to the standard then you can run the command `poetry run black
+square tests` and it will automatically reformat the source code.
 
 Along with running tasks like `poetry run task lint`, you can leverage the
 relevant instructions in the [technical
-skills](/proactive-skills/introduction-proactive-skills/) to enter into a Docker
-container and run the command `gradle grade` to check your work. If `gradle
-grade` shows that all checks pass, you will know that you made progress towards
-correctly implementing and writing about `square`.
-
-If your program has all of the anticipated functionality, you can run the
-command `poetry run task test` and see that the test suite produces output like
-this:
-
-```shell
-collected 7 items
-
-tests/test_square.py .......
-```
+skills](/proactive-skills/introduction-proactive-skills/) to run the command
+`gatorgrade --config config/gatorgrade.yml` to check your work. If the output of
+the `gatorgrade` command shows that all the checks pass, then you will know that
+you made progress towards correctly implementing and writing about `square`. You
+can study the `config/gatorgrade.yml` file in your repository to learn how the
+:material-github: [GatorGrade](https://github.com/GatorEducator/gatorgrade)
+program runs :material-github:
+[GatorGrader](https://github.com/GatorEducator/gatorgrader) to automatically
+check your program and technical writing. If your work meets the baseline
+requirements and adheres to the best practices that proactive programmers adopt
+you will see that all the checks pass when you run `gatorgrade`.
 
 It is worth noting that the test suite for the `square` program is missing a
 test case! You can create the missing test case by following the example of the
@@ -313,7 +297,10 @@ This test case takes the following steps:
 - Line `9`: Stores the output of the `compute_square_iterative` function in `square_list`
 - Line `10`: Asserts that the `square_list` variable contains the squares of each number
 
-You should write a new test that follows these steps for the `compute_square_while`!
+You should write a new test that follows these steps for the
+`compute_square_while` function! Finally, please make sure that you explain all
+of the steps in these test cases by adding single-line comments to each test
+case function.
 
 ???+ note
 
