@@ -200,11 +200,13 @@ instance, if you try to run the program with the command `poetry run square
 --approach recursion --directory input --file numbers.txt` it will produce the
 following error message because `recursion` is not a valid option:
 
-```
+```text
 Usage: square [OPTIONS]
 Try 'square --help' for help.
-
-Error: Invalid value for '--approach': invalid choice: recursion. (choose from for, while)
+╭─ Error ───────────────────────────────────────────────────────────────╮
+│ Invalid value for '--approach': 'recursion' is not one of 'for',      │
+│ 'while'.                                                              │
+╰───────────────────────────────────────────────────────────────────────╯
 ```
 
 The `square` program contains the following source code to specify the valid
