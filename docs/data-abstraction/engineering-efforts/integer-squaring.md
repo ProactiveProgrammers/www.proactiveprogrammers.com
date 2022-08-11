@@ -43,12 +43,15 @@ project!
 ## Expected Output
 
 This project invites you to implement a number squaring program called `square`.
-The program can accept as input both a file of numbers and the name of an
-approach to squaring an integer. If you run the program correctly, it will
-iterate through the file of numbers, compute the square for each number, and
-output a complete list of the squared values. For instance, if you run the
-program with the command `poetry run square --approach for --directory input --file
-numbers.txt` it produces this output:
+You can install the dependencies for the `square` program and ensure that it is
+ready to run by using your terminal to type the command `poetry install` in the
+`square` directory that contains the `pyproject.toml` and `poetry.lock` files.
+The program can accept as input a file of numbers, a directory that contains the
+this file, and the name of an approach to squaring an integer. If you run the
+program correctly, it will iterate through the file of numbers, compute the
+square for each number, and output a complete list of the squared values. For
+instance, if you run the program with the command `poetry run square --approach
+for --directory input --file numbers.txt` it produces this output:
 
 ```text
 😃 Squaring numbers in a file called input/numbers.txt!
@@ -121,12 +124,19 @@ implement before `square` will produce correct output. If you run the provided
 test suite with the command `poetry run task test` you will see that it produces
 output like the following:
 
-```
-tests/test_square.py:5: in <module>
+```text
+================================ ERRORS =================================
+_________________ ERROR collecting tests/test_square.py _________________
+tests/test_square.py:4: in <module>
     from square import main
-square/main.py:15: in <module>
-    cli = typer.Typer()
-E   NameError: name 'typer' is not defined
+square/main.py:54: in <module>
+    ???
+E   NameError: name 'cli' is not defined
+======================== short test summary info ========================
+ERROR tests/test_square.py - NameError: name 'cli' is not defined
+!!!!!!!!!!!!!!!!!!!!!!! stopping after 1 failures !!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!! Interrupted: 1 error during collection !!!!!!!!!!!!!!!!!
+=========================== 1 error in 0.14s ============================
 ```
 
 Alternatively, running the program with a command like `poetry run square
@@ -136,24 +146,25 @@ output:
 ```
 Traceback (most recent call last):
   File "<string>", line 1, in <module>
-  File "/home/gkapfham/.pyenv/versions/3.9.2/lib/python3.9/importlib/__init__.py", line 127, in import_module
+  File "/home/gkapfham/.asdf/installs/python/3.10.5/lib/python3.10/importlib/__init__.py", line 126, in import_module
     return _bootstrap._gcd_import(name[level:], package, level)
-  File "<frozen importlib._bootstrap>", line 1030, in _gcd_import
-  File "<frozen importlib._bootstrap>", line 1007, in _find_and_load
-  File "<frozen importlib._bootstrap>", line 986, in _find_and_load_unlocked
-  File "<frozen importlib._bootstrap>", line 680, in _load_unlocked
-  File "<frozen importlib._bootstrap_external>", line 790, in exec_module
-  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
-    cli = typer.Typer()
-NameError: name 'typer' is not defined
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/gkapfham/working/teaching/github-classroom/proactive-programmers/data-abstraction/starters/engineering-efforts/integer-squaring-starter/square/square/main.py", line 54, in <module>
+    @cli.command()
+NameError: name 'cli' is not defined
 ```
 
-This output suggests that the `typer` module was not correctly imported! After
-importing this module in the appropriate fashion, all while following the
-relevant instructions in the description of the [technical
-skills](/proactive-skills/introduction-proactive-skills/), you should find the
-other `TODO` markers and correctly resolve them. For instance, you can add this
-function to the `main.py` file:
+This output suggests that the `cli` variable was not correctly defined! After
+correctly resolving this issue --- all while following the relevant instructions
+in the description of the [technical
+skills](/proactive-skills/introduction-proactive-skills/) --- you should find
+the other `TODO` markers and correctly resolve them. For instance, you can add
+this function to the `main.py` file:
 
 ```python linenums="1"
 def confirm_valid_file(file: Path) -> bool:
