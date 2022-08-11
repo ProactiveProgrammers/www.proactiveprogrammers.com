@@ -71,19 +71,22 @@ above this paragraph. If you run the command `poetry run square --help` you
 should see the following output that explains how to use the `square` program:
 
 ```shell
-Usage: square [OPTIONS]
+ Usage: square [OPTIONS]
 
-  Iteratively square all integers in a file.
+ Provide a command-line interface for iteratively squaring all integers
+ in a file.
 
-Options:
-  --approach [for|while]  [default: for]
-  --directory PATH
-  --file PATH
-  --install-completion    Install completion for the current shell.
-  --show-completion       Show completion for the current shell, to copy
-                          it or customize the installation.
-
-  --help                  Show this message and exit.
+╭─ Options ─────────────────────────────────────────────────────────────╮
+│ --approach                  [for|while]  [default: for]               │
+│ --directory                 PATH         [default: None]              │
+│ --file                      PATH         [default: None]              │
+│ --install-completion                     Install completion for the   │
+│                                          current shell.               │
+│ --show-completion                        Show completion for the      │
+│                                          current shell, to copy it or │
+│                                          customize the installation.  │
+│ --help                                   Show this message and exit.  │
+╰───────────────────────────────────────────────────────────────────────╯
 ```
 
 Please note that the provided source code does not contain all of the
