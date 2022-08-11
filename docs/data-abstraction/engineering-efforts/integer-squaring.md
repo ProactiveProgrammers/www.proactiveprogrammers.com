@@ -212,18 +212,36 @@ options:
 
 ```python linenums="1"
 class IntegerSquareApproach(str, Enum):
-    """Define the name for the approach to squaring a number."""
+    """Define the name of the approach to squaring a number."""
 
-    for_loop = "for"
-    while_loop = "while"
+    FOR_LOOP = "for"
+    WHILE_LOOP = "while"
 ```
 
 Line `1` of this code segment defines a new class called `IntegerSquareApproach`
 that operates as a enumeration of values. Specifically, an instance of the
 `IntegerSquareApproach` will have a `value` variable that is either equal to
-`for`, designating that the input integer should be squared through iteration
-with a `for` loop or equal to `while`, meaning that it should complete the same
-task with a `while` loop.
+`FOR`, designating that the input integer should be squared through iteration
+with a `for` loop or equal to `WHILE`, meaning that it should complete the same
+task with a `while` loop. The `square` program uses the `IntegerSquareApproach`
+to define the acceptable arguments that a person can pass to it through its
+command-line interface.
+
+???+ note
+
+    It is possible that you will become overwhelmed by the details associated
+    with Python programming as you implement all of the required functionality
+    for the `square` program. If you get stuck on any aspect of this project,
+    take the time to write out a list of steps that you have already taken, a
+    summary of what worked and did not work, and the current questions that
+    you have. After taking these important steps, you can share a status
+    update and ask questions in either the [GitHub discussions
+    forum](https://github.com/ProactiveProgrammers/www.proactiveprogrammers.com/discussions)
+    or the [Proactive Programmers Discord
+    server](https://discord.gg/kjah8MFYbR). Before you ask your question,
+    please read the advice concerning how to best participate in the
+    [Proactive Programmers
+    community](https://proactiveprogrammers.com/proactive-community/community-connections/).
 
 ## Running Checks
 
