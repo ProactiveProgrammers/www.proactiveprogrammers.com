@@ -1,3 +1,5 @@
+![Integer Squaring](/img/Pro-Data-Abstraction-Integer-Squaring.svg){align=center}
+
 # Integer Squaring
 
 ## Project Goals
