@@ -1,8 +1,10 @@
 ---
 tags:
-  - Python
-  - Poetry
-  - Engineering Effort
+  - Iteration Construct
+  - File I/O
+  - Function Definition
+  - Function Invocation
+  - Poetry Tool
 ---
 
 ![Integer Squaring](/img/Pro-Data-Abstraction-Integer-Squaring.svg){loading=lazy}
