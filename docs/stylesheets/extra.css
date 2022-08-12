@@ -9,11 +9,6 @@
   word-break: break-word;
 }
 
-.md-tinyicon {
-    color: var(--md-default-bg-color);
-    font-size: 1rem;
-}
-
 .md-banner a {
   color: var(--md-default-bg-color)!important;
 }
