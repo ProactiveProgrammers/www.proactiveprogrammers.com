@@ -15,6 +15,14 @@
   word-break: break-word;
 }
 
+[dir=ltr] .md-tag {
+  text-decoration: none;
+}
+
+/* .md-tag { */
+/*   text-decoration: none; */
+/* } */
+
 .md-typeset p {
     font-weight: 500;
     font-size: 0.85rem;
@@ -86,4 +94,12 @@
     margin-bottom: .5em;
     letter-spacing: -0.01em;
     color: var(--md-default-fg-color);
+}
+
+.md-source-file__fact {
+    align-items: center;
+    color: var(--md-default-fg-color);
+    display: inline-flex;
+    font-size: .68rem;
+    gap: .3rem;
 }
