@@ -9,6 +9,10 @@
   word-break: break-word;
 }
 
+.md-banner a {
+  color: white!important;
+}
+
 .md-typeset a {
   text-decoration: underline;
   color: #000;
@@ -18,10 +22,6 @@
 [dir=ltr] .md-tag {
   text-decoration: none;
 }
-
-/* .md-tag { */
-/*   text-decoration: none; */
-/* } */
 
 .md-typeset p {
     font-weight: 500;
