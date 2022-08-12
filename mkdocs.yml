@@ -106,9 +106,13 @@ markdown_extensions:
 
 # Install plugins
 plugins:
-  - tags
   - search
-  - mermaid2
+  - git-revision-date-localized:
+      type: timeago
+      enable_creation_date: true
+  - tags:
+      tags_file: tags.md
+  # - mermaid2
   # Minify the HTML source code to support faster downloads
   - minify:
       minify_html: true
