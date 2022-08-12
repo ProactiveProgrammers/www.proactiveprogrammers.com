@@ -2,6 +2,7 @@
 site_name: "Proactive Programmers"
 site_url: https://www.proactiveprogrammers.com
 repo_url: https://github.com/ProactiveProgrammers/www.proactiveprogrammers.com
+copyright: Default
 
 # Definition of the theme
 theme:
