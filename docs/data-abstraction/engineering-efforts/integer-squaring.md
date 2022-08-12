@@ -1,10 +1,10 @@
 ---
 tags:
+  - Conditional Logic
   - Iteration Construct
   - File I/O
-  - Function Definition
-  - Function Invocation
-  - Poetry Tool
+  - Functions
+  - Testing
 ---
 
 ![Integer Squaring](/img/Pro-Data-Abstraction-Integer-Squaring.svg){loading=lazy}
