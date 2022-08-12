@@ -1,3 +1,10 @@
+---
+tags:
+  - Python
+  - Poetry
+  - Engineering Effort
+---
+
 ![Integer Squaring](/img/Pro-Data-Abstraction-Integer-Squaring.svg){loading=lazy}
 
 # Integer Squaring
