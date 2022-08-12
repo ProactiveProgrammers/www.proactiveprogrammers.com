@@ -158,7 +158,7 @@ extra:
     - icon: fontawesome/brands/discord
       link: https://discord.gg/kjah8MFYbR
     # Computer science Discord (for Allegheny courses)
-    - icon: fontawesome/solid/broadcast-tower
+    - icon: fontawesome/solid/tower-broadcast
       link: https://discord.gg/CS2h9kXzX6
     # Twitter account
     - icon: fontawesome/brands/twitter
