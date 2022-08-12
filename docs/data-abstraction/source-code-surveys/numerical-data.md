@@ -1,3 +1,5 @@
+![Numerical Data](/img/Pro-Data-Abstraction-Numerical-Data.svg){loading=lazy}
+
 # Numerical Data
 
 ## Project Goals
