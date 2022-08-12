@@ -97,3 +97,27 @@
     font-size: .68rem;
     gap: .3rem;
 }
+
+.card {
+  flex-flow: row wrap;
+  background-color: var(--md-default-bg-color);
+  color: var(--md-default-fg-color);
+  padding: 1rem;
+  /* height: 8rem; */
+  border: 2px;
+  border-style: solid;
+  border-color: var(--md-default-fg-color);
+  border-radius: 5px;
+}
+
+.cards {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.tightcard {
+    margin-bottom: 0rem;
+}
