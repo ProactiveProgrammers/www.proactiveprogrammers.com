@@ -121,3 +121,15 @@
 .tightcard {
     margin-bottom: 0rem;
 }
+
+.md-feedback fieldset {
+    float: left;
+    border: none;
+    margin-top: -1em;
+    margin-bottom: 2em;
+    padding: 0;
+}
+
+.md-feedback {
+  margin: 2em 0 1em;
+}
