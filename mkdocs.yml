@@ -176,13 +176,13 @@ extra:
           data: 1
           note: >-
             Thanks for your positive feedback! Share what you like about this
-            page through the <a href = "https://github.com/ProactiveProgrammers/www.proactiveprogrammers.com/issues">issue tracker</a> or <a href = "https://github.com/ProactiveProgrammers/www.proactiveprogrammers.com/discussions">discussions</a> in our <a href = "https://github.com/ProactiveProgrammers/www.proactiveprogrammers.com">GitHub repository</a>.
+            page through the <a href = "https://github.com/ProactiveProgrammers/www.proactiveprogrammers.com/issues">issue tracker</a> or <a href = "https://github.com/ProactiveProgrammers/www.proactiveprogrammers.com/discussions">discussions</a> in our project's <a href = "https://github.com/ProactiveProgrammers/www.proactiveprogrammers.com">GitHub repository</a>.
         - icon: material/emoticon-sad-outline
           name: This page could be improved
           data: 0
           note: >-
             Thanks for your feedback! Share your suggestions for improving this
-            page through the <a href = "https://github.com/ProactiveProgrammers/www.proactiveprogrammers.com/issues">issue tracker</a> or <a href = "https://github.com/ProactiveProgrammers/www.proactiveprogrammers.com/discussions">discussions</a> in our <a href = "https://github.com/ProactiveProgrammers/www.proactiveprogrammers.com">GitHub repository</a>.
+            page through the <a href = "https://github.com/ProactiveProgrammers/www.proactiveprogrammers.com/issues">issue tracker</a> or <a href = "https://github.com/ProactiveProgrammers/www.proactiveprogrammers.com/discussions">discussions</a> in our project's <a href = "https://github.com/ProactiveProgrammers/www.proactiveprogrammers.com">GitHub repository</a>.
 
 # Load the stylesheet that overrides parts of the material for mkdocs theme
 extra_css:
