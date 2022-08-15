@@ -1,3 +1,15 @@
+---
+tags:
+  - Conditional Logic
+  - Data Types
+  - File I/O
+  - Functions
+  - Modular Arithmetic
+---
+
+
+![Numerical Data](/img/Pro-Data-Abstraction-Numerical-Data.svg){loading=lazy}
+
 # Numerical Data
 
 ## Project Goals

@@ -26,7 +26,9 @@
 
 - Chapters 1 and 2 of *Introduction to Computation and Programming Using Python*
 - Check out the [course slides](/slides/data-abstraction/python-foundations/) for a detailed investigation of these chapters!
-- Go to the `data-abstraction/python-foundations/` directory on [Proactive Programmers Live](https://proactiveprogrammers.com/live/) and investigate all of the Python programs!
+- Run the Jupyter notebooks in `data-abstraction/python-foundations/` with:
+    - :material-language-python: [Jupyter Lite](https://proactiveprogrammers.com/live/)
+    - :material-google: [Google Colab](https://githubtocolab.com/ProactiveProgrammers/www.proactiveprogrammers.com)
 
 ???+ note "Technical Concepts"
 

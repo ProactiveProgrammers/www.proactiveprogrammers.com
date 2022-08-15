@@ -1,4 +1,13 @@
-![Integer Squaring](/img/Pro-Data-Abstraction-Integer-Squaring.svg){align=center}
+---
+tags:
+  - Conditional Logic
+  - Iteration Construct
+  - File I/O
+  - Functions
+  - Testing
+---
+
+![Integer Squaring](/img/Pro-Data-Abstraction-Integer-Squaring.svg){loading=lazy}
 
 # Integer Squaring
 

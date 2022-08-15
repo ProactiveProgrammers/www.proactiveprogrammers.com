@@ -2,6 +2,7 @@
 site_name: "Proactive Programmers"
 site_url: https://www.proactiveprogrammers.com
 repo_url: https://github.com/ProactiveProgrammers/www.proactiveprogrammers.com
+copyright: Default
 
 # Definition of the theme
 theme:
@@ -29,6 +30,8 @@ theme:
       accent: orange
   # Enable features that are built-in to material for mkdocs
   features:
+      # Allow a user to dismiss the announcement at the top of the page
+      - announce.dismiss
       # Create a single-page application with faster loading evident
       # Note that this option prohibits the rendering of mathematics;
       # there was some evidence that this was not the case but now
@@ -79,15 +82,10 @@ markdown_extensions:
     - pymdownx.keys
     # Allow jump-to-and-jump back footnotes
     - footnotes
-    # Display diagrams created with mermaid
-    # Note that this works in conjunction with mermaid2
-    # It also seems to be required to display Python
-    # source code correctly (even when mermaid2 not used)
+    # Display source code correctly with line numbers
     - pymdownx.superfences:
         custom_fences:
-            - name: mermaid
-              class: mermaid
-              format: !!python/name:pymdownx.superfences.fence_div_format
+            - format: !!python/name:pymdownx.superfences.fence_div_format
     # Enable source code and admonitions to be tabbed
     - pymdownx.tabbed
     # Provide support for more intelligent emphasis and bolding
@@ -106,7 +104,11 @@ markdown_extensions:
 # Install plugins
 plugins:
   - search
-  - mermaid2
+  - git-revision-date-localized:
+      type: timeago
+      enable_creation_date: true
+  - tags:
+      tags_file: tags.md
   # Minify the HTML source code to support faster downloads
   - minify:
       minify_html: true
@@ -157,11 +159,30 @@ extra:
     - icon: fontawesome/brands/discord
       link: https://discord.gg/kjah8MFYbR
     # Computer science Discord (for Allegheny courses)
-    - icon: fontawesome/solid/broadcast-tower
+    - icon: fontawesome/solid/tower-broadcast
       link: https://discord.gg/CS2h9kXzX6
     # Twitter account
     - icon: fontawesome/brands/twitter
       link: https://twitter.com/ProactiveProgr3
+  # add Google analytics to support receiving feedback through the site
+  analytics:
+    provider: google
+    property: G-BT7YZ6G7ZC
+    feedback:
+      title: Was this page helpful?
+      ratings:
+        - icon: material/emoticon-happy-outline
+          name: This page was helpful
+          data: 1
+          note: >-
+            Thanks for your positive feedback! Share what you like about this
+            page through the <a href = "https://github.com/ProactiveProgrammers/www.proactiveprogrammers.com/issues">issue tracker</a> or <a href = "https://github.com/ProactiveProgrammers/www.proactiveprogrammers.com/discussions">discussions</a> in our project's <a href = "https://github.com/ProactiveProgrammers/www.proactiveprogrammers.com">GitHub repository</a>.
+        - icon: material/emoticon-sad-outline
+          name: This page could be improved
+          data: 0
+          note: >-
+            Thanks for your feedback! Share your suggestions for improving this
+            page through the <a href = "https://github.com/ProactiveProgrammers/www.proactiveprogrammers.com/issues">issue tracker</a> or <a href = "https://github.com/ProactiveProgrammers/www.proactiveprogrammers.com/discussions">discussions</a> in our project's <a href = "https://github.com/ProactiveProgrammers/www.proactiveprogrammers.com">GitHub repository</a>.
 
 # Load the stylesheet that overrides parts of the material for mkdocs theme
 extra_css:
@@ -172,7 +193,6 @@ extra_javascript:
   - javascripts/config.js
   - https://polyfill.io/v3/polyfill.min.js?features=es6
   - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
-  # - https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js
 
 # Page tree that defines the navigation structure
 nav:

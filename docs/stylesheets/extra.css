@@ -9,10 +9,18 @@
   word-break: break-word;
 }
 
+.md-banner a {
+  color: var(--md-default-bg-color)!important;
+}
+
 .md-typeset a {
   text-decoration: underline;
   color: #000;
   word-break: break-word;
+}
+
+[dir=ltr] .md-tag {
+  text-decoration: none;
 }
 
 .md-typeset p {
@@ -56,20 +64,6 @@
     line-height: 1.0;
 }
 
-[data-md-toggle="search"]:not(:checked) ~ .md-header .md-search__form::after {
-  position: absolute;
-  top: .3rem;
-  right: .3rem;
-  display: block;
-  padding: .1rem .4rem;
-  color: var(--md-default-bg-color);
-  font-weight: bold;
-  font-size: .8rem;
-  border: .05rem solid var(--md-default-bg-color--lighter);
-  border-radius: .1rem;
-  content: "/ or s";
-}
-
 #print-site-page h1.nav-section-title,
 #print-site-page h2.nav-section-title,
 #print-site-page h3.nav-section-title,
@@ -86,4 +80,56 @@
     margin-bottom: .5em;
     letter-spacing: -0.01em;
     color: var(--md-default-fg-color);
+}
+
+.md-source-file__fact {
+    align-items: center;
+    color: var(--md-default-fg-color);
+    display: inline-flex;
+    font-size: .68rem;
+    gap: .3rem;
+}
+
+.md-source-file__notify {
+    align-items: center;
+    color: var(--md-default-bg-color);
+    display: inline-flex;
+    font-size: .68rem;
+    gap: .3rem;
+}
+
+.card {
+  flex-flow: row wrap;
+  background-color: var(--md-default-bg-color);
+  color: var(--md-default-fg-color);
+  padding: 1rem;
+  /* height: 8rem; */
+  border: 2px;
+  border-style: solid;
+  border-color: var(--md-default-fg-color);
+  border-radius: 5px;
+}
+
+.cards {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.tightcard {
+    margin-bottom: 0rem;
+}
+
+.md-feedback fieldset {
+    float: left;
+    border: none;
+    margin-top: -1em;
+    margin-bottom: 2em;
+    padding: 0;
+}
+
+.md-feedback {
+  margin: 2em 0 1em;
 }
