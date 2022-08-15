@@ -52,10 +52,11 @@ and documentation are correct, we welcome your **bug reports** and
 **feedback** through the [GitHub issue
 tracker](https://github.com/ProactiveProgrammers/www.proactiveprogrammers.com/issues).
 
-**Ready to put the PRO in your programming skills?** Start with one of these resources!
+:fontawesome-solid-rocket: **Ready to put the PRO in your programming skills?** Start your journey with one of these resources!
 
 <div class="cards">
 
+  <!-- PROACTIVE SKILLS -->
   <div class="card">
 
   <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.75 1.5a.25.25 0 0 0-.25.25v12.5c0 .138.112.25.25.25h12.5a.25.25 0 0 0 .25-.25V1.75a.25.25 0 0 0-.25-.25H1.75zM0 1.75C0 .784.784 0 1.75 0h12.5C15.216 0 16 .784 16 1.75v12.5A1.75 1.75 0 0 1 14.25 16H1.75A1.75 1.75 0 0 1 0 14.25V1.75zm9.22 3.72a.75.75 0 0 0 0 1.06L10.69 8 9.22 9.47a.75.75 0 1 0 1.06 1.06l2-2a.75.75 0 0 0 0-1.06l-2-2a.75.75 0 0 0-1.06 0zM6.78 6.53a.75.75 0 0 0-1.06-1.06l-2 2a.75.75 0 0 0 0 1.06l2 2a.75.75 0 1 0 1.06-1.06L5.31 8l1.47-1.47z"></path></svg></span>
@@ -69,11 +70,143 @@ tracker](https://github.com/ProactiveProgrammers/www.proactiveprogrammers.com/is
 
   </div>
 
-  <div class="card">TWO</div>
+  <!-- DATA ABSTRACTION -->
+  <div class="card">
 
-  <div class="card">THREE</div>
+  <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.75 1.5a.25.25 0 0 0-.25.25v12.5c0 .138.112.25.25.25h12.5a.25.25 0 0 0 .25-.25V1.75a.25.25 0 0 0-.25-.25H1.75zM0 1.75C0 .784.784 0 1.75 0h12.5C15.216 0 16 .784 16 1.75v12.5A1.75 1.75 0 0 1 14.25 16H1.75A1.75 1.75 0 0 1 0 14.25V1.75zm9.22 3.72a.75.75 0 0 0 0 1.06L10.69 8 9.22 9.47a.75.75 0 1 0 1.06 1.06l2-2a.75.75 0 0 0 0-1.06l-2-2a.75.75 0 0 0-1.06 0zM6.78 6.53a.75.75 0 0 0-1.06-1.06l-2 2a.75.75 0 0 0 0 1.06l2 2a.75.75 0 1 0 1.06-1.06L5.31 8l1.47-1.47z"></path></svg></span>
+
+  <b><a href = "proactive-skills/introduction-proactive-skills/">Data Abstraction</a></b>
+
+  <p class="tightcard">
+    After reviewing program building blocks, learn how to design, implement, test, and empirically evaluate data
+    structures and functions.
+  </p>
+
+  </div>
+
+  <!-- DISCRETE STRUCTURES -->
+  <div class="card">
+
+  <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.75 1.5a.25.25 0 0 0-.25.25v12.5c0 .138.112.25.25.25h12.5a.25.25 0 0 0 .25-.25V1.75a.25.25 0 0 0-.25-.25H1.75zM0 1.75C0 .784.784 0 1.75 0h12.5C15.216 0 16 .784 16 1.75v12.5A1.75 1.75 0 0 1 14.25 16H1.75A1.75 1.75 0 0 1 0 14.25V1.75zm9.22 3.72a.75.75 0 0 0 0 1.06L10.69 8 9.22 9.47a.75.75 0 1 0 1.06 1.06l2-2a.75.75 0 0 0 0-1.06l-2-2a.75.75 0 0 0-1.06 0zM6.78 6.53a.75.75 0 0 0-1.06-1.06l-2 2a.75.75 0 0 0 0 1.06l2 2a.75.75 0 1 0 1.06-1.06L5.31 8l1.47-1.47z"></path></svg></span>
+
+  <b><a href = "proactive-skills/introduction-proactive-skills/">Discrete
+  Structures</a></b>
+
+  <p class="tightcard">
+
+    Explore the fascinating connections between discrete mathematics and
+    programming as you implement realistic Python programs.
+
+  </p>
+
+  </div>
 
 </div>
+
+:fontawesome-solid-rocket: **Want to dive in and complete a project?** You can get started by trying one of these engineering efforts!
+
+:fontawesome-solid-code-merge:
+
+<div class="cards">
+
+  <!-- PROACTIVE SKILLS -->
+  <div class="card">
+
+  <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.75 1.5a.25.25 0 0 0-.25.25v12.5c0 .138.112.25.25.25h12.5a.25.25 0 0 0 .25-.25V1.75a.25.25 0 0 0-.25-.25H1.75zM0 1.75C0 .784.784 0 1.75 0h12.5C15.216 0 16 .784 16 1.75v12.5A1.75 1.75 0 0 1 14.25 16H1.75A1.75 1.75 0 0 1 0 14.25V1.75zm9.22 3.72a.75.75 0 0 0 0 1.06L10.69 8 9.22 9.47a.75.75 0 1 0 1.06 1.06l2-2a.75.75 0 0 0 0-1.06l-2-2a.75.75 0 0 0-1.06 0zM6.78 6.53a.75.75 0 0 0-1.06-1.06l-2 2a.75.75 0 0 0 0 1.06l2 2a.75.75 0 1 0 1.06-1.06L5.31 8l1.47-1.47z"></path></svg></span>
+
+  <b><a href = "proactive-skills/introduction-proactive-skills/">Proactive Skills</a></b>
+
+  <p class="tightcard">
+    After installing cutting-edge Python development tools, learn the professional skills
+    that support proactive programming.
+  </p>
+
+  </div>
+
+  <!-- DATA ABSTRACTION -->
+  <div class="card">
+
+  <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.75 1.5a.25.25 0 0 0-.25.25v12.5c0 .138.112.25.25.25h12.5a.25.25 0 0 0 .25-.25V1.75a.25.25 0 0 0-.25-.25H1.75zM0 1.75C0 .784.784 0 1.75 0h12.5C15.216 0 16 .784 16 1.75v12.5A1.75 1.75 0 0 1 14.25 16H1.75A1.75 1.75 0 0 1 0 14.25V1.75zm9.22 3.72a.75.75 0 0 0 0 1.06L10.69 8 9.22 9.47a.75.75 0 1 0 1.06 1.06l2-2a.75.75 0 0 0 0-1.06l-2-2a.75.75 0 0 0-1.06 0zM6.78 6.53a.75.75 0 0 0-1.06-1.06l-2 2a.75.75 0 0 0 0 1.06l2 2a.75.75 0 1 0 1.06-1.06L5.31 8l1.47-1.47z"></path></svg></span>
+
+  <b><a href = "proactive-skills/introduction-proactive-skills/">Data Abstraction</a></b>
+
+  <p class="tightcard">
+    After reviewing program building blocks, learn how to design, implement, test, and empirically evaluate data
+    structures and functions.
+  </p>
+
+  </div>
+
+  <!-- DISCRETE STRUCTURES -->
+  <div class="card">
+
+  <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.75 1.5a.25.25 0 0 0-.25.25v12.5c0 .138.112.25.25.25h12.5a.25.25 0 0 0 .25-.25V1.75a.25.25 0 0 0-.25-.25H1.75zM0 1.75C0 .784.784 0 1.75 0h12.5C15.216 0 16 .784 16 1.75v12.5A1.75 1.75 0 0 1 14.25 16H1.75A1.75 1.75 0 0 1 0 14.25V1.75zm9.22 3.72a.75.75 0 0 0 0 1.06L10.69 8 9.22 9.47a.75.75 0 1 0 1.06 1.06l2-2a.75.75 0 0 0 0-1.06l-2-2a.75.75 0 0 0-1.06 0zM6.78 6.53a.75.75 0 0 0-1.06-1.06l-2 2a.75.75 0 0 0 0 1.06l2 2a.75.75 0 1 0 1.06-1.06L5.31 8l1.47-1.47z"></path></svg></span>
+
+  <b><a href = "proactive-skills/introduction-proactive-skills/">Discrete
+  Structures</a></b>
+
+  <p class="tightcard">
+
+    Explore the fascinating connections between discrete mathematics and
+    programming as you implement realistic Python programs.
+
+  </p>
+
+  </div>
+
+</div>
+
+:fontawesome-solid-rocket: **Want to engage with the proactive programming community?** Say hello in one of the following forums!
+
+<div class="cards">
+
+  <!-- PROACTIVE SKILLS -->
+  <div class="card">
+
+  <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.75 1.5a.25.25 0 0 0-.25.25v12.5c0 .138.112.25.25.25h12.5a.25.25 0 0 0 .25-.25V1.75a.25.25 0 0 0-.25-.25H1.75zM0 1.75C0 .784.784 0 1.75 0h12.5C15.216 0 16 .784 16 1.75v12.5A1.75 1.75 0 0 1 14.25 16H1.75A1.75 1.75 0 0 1 0 14.25V1.75zm9.22 3.72a.75.75 0 0 0 0 1.06L10.69 8 9.22 9.47a.75.75 0 1 0 1.06 1.06l2-2a.75.75 0 0 0 0-1.06l-2-2a.75.75 0 0 0-1.06 0zM6.78 6.53a.75.75 0 0 0-1.06-1.06l-2 2a.75.75 0 0 0 0 1.06l2 2a.75.75 0 1 0 1.06-1.06L5.31 8l1.47-1.47z"></path></svg></span>
+
+  <b><a href = "proactive-skills/introduction-proactive-skills/">Proactive Skills</a></b>
+
+  <p class="tightcard">
+    After installing cutting-edge Python development tools, learn the professional skills
+    that support proactive programming.
+  </p>
+
+  </div>
+
+  <!-- DATA ABSTRACTION -->
+  <div class="card">
+
+  <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.75 1.5a.25.25 0 0 0-.25.25v12.5c0 .138.112.25.25.25h12.5a.25.25 0 0 0 .25-.25V1.75a.25.25 0 0 0-.25-.25H1.75zM0 1.75C0 .784.784 0 1.75 0h12.5C15.216 0 16 .784 16 1.75v12.5A1.75 1.75 0 0 1 14.25 16H1.75A1.75 1.75 0 0 1 0 14.25V1.75zm9.22 3.72a.75.75 0 0 0 0 1.06L10.69 8 9.22 9.47a.75.75 0 1 0 1.06 1.06l2-2a.75.75 0 0 0 0-1.06l-2-2a.75.75 0 0 0-1.06 0zM6.78 6.53a.75.75 0 0 0-1.06-1.06l-2 2a.75.75 0 0 0 0 1.06l2 2a.75.75 0 1 0 1.06-1.06L5.31 8l1.47-1.47z"></path></svg></span>
+
+  <b><a href = "proactive-skills/introduction-proactive-skills/">Data Abstraction</a></b>
+
+  <p class="tightcard">
+    After reviewing program building blocks, learn how to design, implement, test, and empirically evaluate data
+    structures and functions.
+  </p>
+
+  </div>
+
+  <!-- DISCRETE STRUCTURES -->
+  <div class="card">
+
+  <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.75 1.5a.25.25 0 0 0-.25.25v12.5c0 .138.112.25.25.25h12.5a.25.25 0 0 0 .25-.25V1.75a.25.25 0 0 0-.25-.25H1.75zM0 1.75C0 .784.784 0 1.75 0h12.5C15.216 0 16 .784 16 1.75v12.5A1.75 1.75 0 0 1 14.25 16H1.75A1.75 1.75 0 0 1 0 14.25V1.75zm9.22 3.72a.75.75 0 0 0 0 1.06L10.69 8 9.22 9.47a.75.75 0 1 0 1.06 1.06l2-2a.75.75 0 0 0 0-1.06l-2-2a.75.75 0 0 0-1.06 0zM6.78 6.53a.75.75 0 0 0-1.06-1.06l-2 2a.75.75 0 0 0 0 1.06l2 2a.75.75 0 1 0 1.06-1.06L5.31 8l1.47-1.47z"></path></svg></span>
+
+  <b><a href = "proactive-skills/introduction-proactive-skills/">Discrete
+  Structures</a></b>
+
+  <p class="tightcard">
+
+    Explore the fascinating connections between discrete mathematics and
+    programming as you implement realistic Python programs.
+
+  </p>
+
+  </div>
+
+</div>
+
 
 [^1]: See Merriam-Webster for the definition of
   "[proactive](https://www.merriam-webster.com/dictionary/proactive)" and
