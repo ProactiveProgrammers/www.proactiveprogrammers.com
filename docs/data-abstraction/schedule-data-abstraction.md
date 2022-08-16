@@ -4,7 +4,7 @@
 
 ### Technical Question
 
-- How do I install and use the industry-standard prsource ogramming tools that will
+- How do I install and use the industry-standard programming tools that will
   help me to rigorously explore data abstraction with the Python programming
   language?
 
@@ -29,6 +29,8 @@
 - Run the Jupyter notebooks in `data-abstraction/python-foundations/` with:
     - :material-language-python: [Jupyter Lite](https://proactiveprogrammers.com/live/)
     - :material-google: [Google Colab](https://githubtocolab.com/ProactiveProgrammers/www.proactiveprogrammers.com)
+        - :material-notebook-edit-outline: [Compute the Average of Values in a File](https://githubtocolab.com/ProactiveProgrammers/www.proactiveprogrammers.com/blob/master/files/data-abstraction/python-foundations/compute-average-with-file.ipynb){:target="_blank"}
+        - :material-notebook-edit-outline: [Compute the Square of an Integer](https://githubtocolab.com/ProactiveProgrammers/www.proactiveprogrammers.com/blob/master/files/data-abstraction/python-foundations/compute-integer-square.ipynb){:target="_blank"}
 
 ???+ note "Technical Concepts"
 
