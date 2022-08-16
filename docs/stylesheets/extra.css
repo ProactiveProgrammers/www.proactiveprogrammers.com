@@ -95,8 +95,6 @@
 .md-source-file__notify {
     align-items: center;
     color: var(--md-default-bg-color);
-    /* display: inline-flex; */
-    /* display: flex; */
     font-size: .68rem;
     gap: .3rem;
 }
