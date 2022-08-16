@@ -87,10 +87,8 @@ suggestions for improvement, and relate to your struggles.
   Structures</a></b>
 
   <p class="tightcard">
-
     Explore the fascinating connections between discrete mathematics and
     programming as you implement realistic Python programs.
-
   </p>
 
   </div>

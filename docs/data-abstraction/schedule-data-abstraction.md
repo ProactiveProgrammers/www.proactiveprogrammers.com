@@ -4,7 +4,7 @@
 
 ### Technical Question
 
-- How do I install and use the industry-standard prsource ogramming tools that will
+- How do I install and use the industry-standard programming tools that will
   help me to rigorously explore data abstraction with the Python programming
   language?
 
@@ -27,8 +27,12 @@
 - Chapters 1 and 2 of *Introduction to Computation and Programming Using Python*
 - Check out the [course slides](/slides/data-abstraction/python-foundations/) for a detailed investigation of these chapters!
 - Run the Jupyter notebooks in `data-abstraction/python-foundations/` with:
-    - :material-language-python: [Jupyter Lite](https://proactiveprogrammers.com/live/)
-    - :material-google: [Google Colab](https://githubtocolab.com/ProactiveProgrammers/www.proactiveprogrammers.com)
+    - :material-language-python: [Jupyter Lite](https://proactiveprogrammers.com/live/){:target="_blank"}
+    - :material-google: [Google Colab](https://githubtocolab.com/ProactiveProgrammers/www.proactiveprogrammers.com){:target="_blank"}
+        - :material-notebook-edit-outline: [Compute the Average of Values in a File](https://githubtocolab.com/ProactiveProgrammers/www.proactiveprogrammers.com/blob/master/files/data-abstraction/python-foundations/compute-average-with-file.ipynb){:target="_blank"}
+        - :material-notebook-edit-outline: [Compute the Square of an Integer](https://githubtocolab.com/ProactiveProgrammers/www.proactiveprogrammers.com/blob/master/files/data-abstraction/python-foundations/compute-integer-square.ipynb){:target="_blank"}
+        - :material-notebook-edit-outline: [Determine the Status of an Integer](https://githubtocolab.com/ProactiveProgrammers/www.proactiveprogrammers.com/blob/master/files/data-abstraction/python-foundations/determine-number-status.ipynb){:target="_blank"}
+        - :material-notebook-edit-outline: [Explore Data Types for Variables](https://githubtocolab.com/ProactiveProgrammers/www.proactiveprogrammers.com/blob/master/files/data-abstraction/python-foundations/explore-python-variables.ipynb){:target="_blank"}
 
 ???+ note "Technical Concepts"
 

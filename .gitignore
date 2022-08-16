@@ -134,5 +134,6 @@ download
 ### _output directory ###
 _output
 
-### Jupyter Database ###
+### Jupyter Notebooks ###
 .jupyterlite.doit.db
+.ipynb_checkpoints
