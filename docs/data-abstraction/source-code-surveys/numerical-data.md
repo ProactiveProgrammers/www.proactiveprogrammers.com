@@ -21,10 +21,11 @@ packaging these programs, which the [technical
 skills](/proactive-skills/introduction-proactive-skills/) advise as a best
 practice, these programs are scripts, without any dependencies on other Python
 packages, that you can run through the Python interpreter. As you learn a new
-way to run a Python program, this project offers you the opportunity to ensure
-that you understand how to (i) use the modular arithmetic operation (i.e., `%`)
-to determine if a number is even or odd and (ii) correctly multiply and add
-with float-point variables.
+way to run a Python program and use tools like VS Code and a terminal window,
+this project offers you the opportunity to ensure that you understand how to (i)
+use the modular arithmetic operation (i.e., `%`) to determine if a number is
+even or odd and (ii) correctly multiply and add with float-point variables.
+Ready for some programming fun? *Okay, let's get started!*
 
 ## Project Access
 
@@ -38,6 +39,16 @@ will need to use the `git clone` command to download the project from GitHub to
 your computer. Now you are ready to add source code and documentation to the
 project so that you can refine your understanding of how to process numerical
 data in Python!
+???+ note
+
+    If you are an emerging proactive programmer who is not enrolled in a
+    Computer Science class at Allegheny College, you can still work on this
+    assignment! To get started, you should click the "Use this template" icon in
+    the :material-github:
+    [numerical-data-starter](https://github.com/ProactiveProgrammers/numerical-data-starter)
+    GitHub repository and create your own version of this project's source code.
+    After creating your GitHub repository, you can follow all of the other
+    steps!
 
 ## Code Survey
 
