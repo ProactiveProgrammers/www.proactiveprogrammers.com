@@ -39,6 +39,7 @@ will need to use the `git clone` command to download the project from GitHub to
 your computer. Now you are ready to add source code and documentation to the
 project so that you can refine your understanding of how to process numerical
 data in Python!
+
 ???+ note
 
     If you are an emerging proactive programmer who is not enrolled in a
