@@ -7,7 +7,6 @@ tags:
   - Modular Arithmetic
 ---
 
-
 ![Numerical Data](/img/Pro-Data-Abstraction-Numerical-Data.svg){loading=lazy}
 
 # Numerical Data
@@ -145,6 +144,17 @@ proactive programming expert will assess your work by examining the [assessment
 strategy](/proactive-learning/assessment-strategy/). From the start to the end
 of this project you may make an unlimited number of reattempts at submitting
 source code and technical writing that meet the project's specification.
+
+???+ note
+
+    Before you finish all of the required deliverables required by this project is
+    worth pausing to remember that the instructor will give advance feedback to
+    any learner who requests it through GitHub and Discord at least 24 hours
+    before the project's due date! Seriously, did you catch that? This policy
+    means that you can have a thorough understanding of ways to improve your
+    project **before** its final assessment! To learn more about this
+    opportunity, please read the [assessment
+    strategy](../../../proactive-learning/assessment-strategy/) for this site.
 
 ## Seeking Assistance
 
