@@ -42,6 +42,9 @@ welcoming [community](proactive-community/introduction-proactive-community.md)
 of like-minded learners who can answer your technical questions, make
 suggestions for improvement, and relate to your struggles.
 
+<div class="minisculeskip">
+</div>
+
 :fontawesome-solid-rocket: **Ready to put the PRO in your programming skills?** Start your journey with one of these resources!
 
 <!-- JOURNEY START -->
@@ -66,7 +69,7 @@ suggestions for improvement, and relate to your struggles.
 
   <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.75 1.5a.25.25 0 0 0-.25.25v12.5c0 .138.112.25.25.25h12.5a.25.25 0 0 0 .25-.25V1.75a.25.25 0 0 0-.25-.25H1.75zM0 1.75C0 .784.784 0 1.75 0h12.5C15.216 0 16 .784 16 1.75v12.5A1.75 1.75 0 0 1 14.25 16H1.75A1.75 1.75 0 0 1 0 14.25V1.75zm9.22 3.72a.75.75 0 0 0 0 1.06L10.69 8 9.22 9.47a.75.75 0 1 0 1.06 1.06l2-2a.75.75 0 0 0 0-1.06l-2-2a.75.75 0 0 0-1.06 0zM6.78 6.53a.75.75 0 0 0-1.06-1.06l-2 2a.75.75 0 0 0 0 1.06l2 2a.75.75 0 1 0 1.06-1.06L5.31 8l1.47-1.47z"></path></svg></span>
 
-  <b><a href = "proactive-skills/introduction-proactive-skills/">Data Abstraction</a></b>
+  <b><a href = "data-abstraction/introduction-data-abstraction/">Data Abstraction</a></b>
 
   <p class="tightcard">
     After reviewing program building blocks, learn how to design, implement, test, and empirically evaluate data
@@ -80,7 +83,7 @@ suggestions for improvement, and relate to your struggles.
 
   <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.75 1.5a.25.25 0 0 0-.25.25v12.5c0 .138.112.25.25.25h12.5a.25.25 0 0 0 .25-.25V1.75a.25.25 0 0 0-.25-.25H1.75zM0 1.75C0 .784.784 0 1.75 0h12.5C15.216 0 16 .784 16 1.75v12.5A1.75 1.75 0 0 1 14.25 16H1.75A1.75 1.75 0 0 1 0 14.25V1.75zm9.22 3.72a.75.75 0 0 0 0 1.06L10.69 8 9.22 9.47a.75.75 0 1 0 1.06 1.06l2-2a.75.75 0 0 0 0-1.06l-2-2a.75.75 0 0 0-1.06 0zM6.78 6.53a.75.75 0 0 0-1.06-1.06l-2 2a.75.75 0 0 0 0 1.06l2 2a.75.75 0 1 0 1.06-1.06L5.31 8l1.47-1.47z"></path></svg></span>
 
-  <b><a href = "proactive-skills/introduction-proactive-skills/">Discrete
+  <b><a href = "discrete-structures/introduction-discrete-structures/">Discrete
   Structures</a></b>
 
   <p class="tightcard">
@@ -94,6 +97,62 @@ suggestions for improvement, and relate to your struggles.
 
 </div>
 <!-- JOURNEY END -->
+
+<div class="tinyskip">
+</div>
+
+:fontawesome-solid-rocket: **Want to start a learning how to program?** Launch your adventure with one of these projects!
+
+<!-- PROJECTS START -->
+<div class="cards">
+
+  <!-- FEATURED PROJECT FOR DATA ABSTRACTION -->
+  <div class="card">
+
+  <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!-- Font Awesome Free 6.1.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M188.3 147.1c7.5-4.3 16.8-5 24.2.4l144 88c7.1 4.4 11.5 12.1 11.5 20.5s-4.4 16.1-11.5 20.5l-144 88c-7.4 4.5-16.7 4.7-24.2.4-7.6-4.2-12.3-12.2-12.3-20.9V167.1c0-7.8 4.7-15.8 12.3-20zM512 256c0 141.4-114.6 256-256 256S0 397.4 0 256 114.6 0 256 0s256 114.6 256 256zM256 48C141.1 48 48 141.1 48 256s93.1 208 208 208 208-93.1 208-208S370.9 48 256 48z"></path></svg></span>
+
+  <b><a href = "data-abstraction/engineering-efforts/intersection-algorithms/">Intersection
+  Algorithms</a></b>
+
+  <p class="tightcard">
+    After implementing a benchmarking framework, conduct an experiment to
+    determine the fastest approach to finding the common items in a list.
+  </p>
+
+  </div>
+
+  <!-- FEATURED PROJECT FOR DISCRETE STRUCTURES -->
+  <div class="card">
+
+  <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!-- Font Awesome Free 6.1.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M188.3 147.1c7.5-4.3 16.8-5 24.2.4l144 88c7.1 4.4 11.5 12.1 11.5 20.5s-4.4 16.1-11.5 20.5l-144 88c-7.4 4.5-16.7 4.7-24.2.4-7.6-4.2-12.3-12.2-12.3-20.9V167.1c0-7.8 4.7-15.8 12.3-20zM512 256c0 141.4-114.6 256-256 256S0 397.4 0 256 114.6 0 256 0s256 114.6 256 256zM256 48C141.1 48 48 141.1 48 256s93.1 208 208 208 208-93.1 208-208S370.9 48 256 48z"></path></svg></span>
+
+  <b><a href = "discrete-structures/engineering-efforts/collatz-creation/">Collatz Creation</a></b>
+
+  <p class="tightcard">
+    After implementing a Python program that computes the numbers in the Collatz
+    sequence, find which starting number yields the longest chain.
+  </p>
+
+  </div>
+
+  <!-- ALL TOPIC LIST -->
+  <div class="card">
+
+  <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!-- Font Awesome Free 6.1.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M188.3 147.1c7.5-4.3 16.8-5 24.2.4l144 88c7.1 4.4 11.5 12.1 11.5 20.5s-4.4 16.1-11.5 20.5l-144 88c-7.4 4.5-16.7 4.7-24.2.4-7.6-4.2-12.3-12.2-12.3-20.9V167.1c0-7.8 4.7-15.8 12.3-20zM512 256c0 141.4-114.6 256-256 256S0 397.4 0 256 114.6 0 256 0s256 114.6 256 256zM256 48C141.1 48 48 141.1 48 256s93.1 208 208 208 208-93.1 208-208S370.9 48 256 48z"></path></svg></span>
+
+  <b><a href = "tags/">Topic Listing</a></b>
+
+  <p class="tightcard">
+
+    Not sure where to begin? Find learning opportunities in a wide variety of
+    technical areas from object-oriented programming to software testing.
+
+  </p>
+
+  </div>
+
+</div>
+<!-- PROJECTS END -->
 
 [^1]: See Merriam-Webster for the definition of
   "[proactive](https://www.merriam-webster.com/dictionary/proactive)". What do
