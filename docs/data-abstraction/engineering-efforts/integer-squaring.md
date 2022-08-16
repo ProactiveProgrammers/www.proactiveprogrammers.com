@@ -270,16 +270,14 @@ square tests` and it will automatically reformat the source code.
 Along with running tasks like `poetry run task lint`, you can leverage the
 relevant instructions in the [technical
 skills](/proactive-skills/introduction-proactive-skills/) to run the command
-`gatorgrade --config config/gatorgrade.yml` to check your work. If the output of
-the `gatorgrade` command shows that all the checks pass, then you will know that
-you made progress towards correctly implementing and writing about `square`. You
-can study the `config/gatorgrade.yml` file in your repository to learn how the
-:material-github: [GatorGrade](https://github.com/GatorEducator/gatorgrade)
-program runs :material-github:
-[GatorGrader](https://github.com/GatorEducator/gatorgrader) to automatically
-check your program and technical writing. If your work meets the baseline
-requirements and adheres to the best practices that proactive programmers adopt
-you will see that all the checks pass when you run `gatorgrade`.
+`gatorgrade --config config/gatorgrade.yml` to check your work. If your work
+meets the baseline requirements and adheres to the best practices that
+proactive programmers adopt you will see that all the checks pass when you run
+`gatorgrade`. You can study the `config/gatorgrade.yml` file in your repository
+to learn how the :material-github:
+[GatorGrade](https://github.com/GatorEducator/gatorgrade) program runs
+:material-github: [GatorGrader](https://github.com/GatorEducator/gatorgrader)
+to automatically check your program and technical writing.
 
 It is worth noting that the test suite for the `square` program is missing a
 test case! You can create the missing test case by following the example of the
