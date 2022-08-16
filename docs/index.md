@@ -96,6 +96,5 @@ suggestions for improvement, and relate to your struggles.
 <!-- JOURNEY END -->
 
 [^1]: See Merriam-Webster for the definition of
-  "[proactive](https://www.merriam-webster.com/dictionary/proactive)" and
-  examples of sentences using the word. What do you think are the
-  characteristics of a proactive programmer?
+  "[proactive](https://www.merriam-webster.com/dictionary/proactive)". What do
+  you think are the characteristics of a proactive programmer?
