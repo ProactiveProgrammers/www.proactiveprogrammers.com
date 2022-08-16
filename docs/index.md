@@ -15,42 +15,32 @@ As [Perdita Stevens](https://www.stevens-bradfield.com/~perdita/) points out in
 Programs*](https://www.cambridge.org/gb/academic/subjects/computer-science/computing-general-interest/how-write-good-programs-guide-students),
 "ethical programming includes being honest about the extent to which you can be
 confident that your program is good, and adhering to quality control processes
-that ensure if a mistake has been made &mdash; everybody makes mistakes &mdash;
-it is found and rectified before it causes harm." She also writes that an
-ethical programmer should be "a decent human being"!
+that ensure if a mistake has been made [...] it is found and rectified before it
+causes harm." As they "act in anticipation of future problems, needs, or
+changes"[^1] proactive programmers ethically implement software in a fashion
+that is responsible to themselves, to the others in their team, and to the
+people who rely on their project. Proactive programmers implement efficient and
+correct software that is designed, documented, tested, and maintained according
+to industry best practices.
 
-What should you do to ensure that you write source code and documentation in an
-ethical fashion? How can you become a programmer who is an empathetic member of
-a software engineering team? If you complete the projects on this site and adopt
-the principles that it introduces you will have embarked on an adventure to
-become a **proactive programmer** who "acts in anticipation of future problems,
-needs, or changes".[^1]
-
-As they ethically engineer an efficient and correct program that is properly
-designed, documented, tested, and maintained, proactive programmers are
-**responsible** to **themselves**, to the others in their **team**, and to the
-**people** who rely on their software. Does this sounds challenging? It sure
-is! Will you make mistakes along the way to emerging as a proactive programmer?
-Of course! Are there many benefits to being a proactive programmer? Yes, there
-are! If you want to learn more about the principles and practices of proactive
-programming, you should study this site's description of proactive skills and
-complete the projects in the fields like [data
+Is this challenging? *Yep*! Will you make mistakes along the way to emerging as
+a proactive programmer? *Of course*! Are there many benefits to being a
+proactive programmer? *Yes*! If you want to learn more about proactive
+programming, you are invited study the [proactive
+skills](proactive-skills/introduction-proactive-skills/) and complete the
+projects in [data
 abstraction](data-abstraction/introduction-data-abstraction.md) and [discrete
 structures](discrete-structures/introduction-discrete-structures.md).
 
-Are you **nervous** about getting started or **afraid** that becoming a
-proactive programmer will prove to be too overwhelming? Don't worry, you can
-rely on the team of **programming experts** who have crafted activities that
-will help you to hone your technical and professional skills. If you get stuck
-on this adventure you will find a welcoming
-[community](proactive-community/introduction-proactive-community.md) of
-like-minded learners who can answer your technical questions, make suggestions
-for improvement, and relate to your struggles. Oh, remember how Perdita Stevens
-said that everyone makes mistakes? That includes this site's creators!
-Although we have worked hard to ensure that all of the program source code
-and documentation are correct, we welcome your **bug reports** and
-**feedback** through the [GitHub issue
-tracker](https://github.com/ProactiveProgrammers/www.proactiveprogrammers.com/issues).
+Are you nervous about getting started or afraid that becoming a proactive
+programmer will prove to be too overwhelming? Don't worry, you can rely on the
+team of [programming
+experts](https://github.com/ProactiveProgrammers/www.proactiveprogrammers.com/graphs/contributors)
+who have crafted activities that will help you to hone your technical and
+professional skills. If you get stuck on this adventure you will find a
+welcoming [community](proactive-community/introduction-proactive-community.md)
+of like-minded learners who can answer your technical questions, make
+suggestions for improvement, and relate to your struggles.
 
 :fontawesome-solid-rocket: **Ready to put the PRO in your programming skills?** Start your journey with one of these resources!
 
