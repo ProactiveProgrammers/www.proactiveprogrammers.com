@@ -91,9 +91,9 @@ multiply_number = 10.0 * 0.1
     Don't forget that if you want to run one of the provided Python scripts
     program you must use your terminal window to first go into the GitHub
     repository containing this project and then go into the `source/` directory
-    that contains the project's source code. You use also use VS Code to study
-    the provided source code to ensure that you understand why it produces the
-    output that you see in your terminal window.
+    that contains the project's source code. You should also use VS Code to
+    study the provided source code to ensure that you understand why it produces
+    the output that you see in your terminal window.
 
 ## Running Checks
 
