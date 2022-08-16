@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@500&display=swap');
+
 [data-md-color-scheme="default"] {
   --md-typeset-a-color: #f57c00;
   --md-typeset-mark-color: #FFCC80;
@@ -33,7 +35,7 @@
 }
 
 .md-typeset code {
-    font-weight: 600;
+    font-weight: 500;
 }
 
 .md-typeset h1 {
