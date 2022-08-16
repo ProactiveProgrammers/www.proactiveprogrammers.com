@@ -54,7 +54,7 @@ project!
 This project invites you to implement a number squaring program called `square`.
 You can install the dependencies for the `square` program and ensure that it is
 ready to run by using your terminal to type the command `poetry install` in the
-`square` directory that contains the `pyproject.toml` and `poetry.lock` files.
+`square/` directory that contains the `pyproject.toml` and `poetry.lock` files.
 The program can accept as input a file of numbers, a directory that contains the
 this file, and the name of an approach to squaring an integer. If you run the
 program correctly, it will iterate through the file of numbers, compute the
@@ -121,7 +121,7 @@ numbers!
 
     Don't forget that if you want to run the `square` program you must use your
     terminal window to first go into the GitHub repository containing this
-    project and then go into the `square` directory that contains the project's
+    project and then go into the `square/` directory that contains the project's
     source code. Finally, remember that before running the program you must run
     `poetry install` to add the dependencies.
 
