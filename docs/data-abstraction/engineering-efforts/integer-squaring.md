@@ -1,7 +1,7 @@
 ---
 tags:
   - Conditional Logic
-  - Iteration Construct
+  - Iteration Constructs
   - File I/O
   - Functions
   - Testing

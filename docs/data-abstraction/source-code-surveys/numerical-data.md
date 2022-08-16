@@ -2,7 +2,7 @@
 tags:
   - Conditional Logic
   - Data Types
-  - File I/O
+  - Iteration Constructs
   - Functions
   - Modular Arithmetic
 ---
