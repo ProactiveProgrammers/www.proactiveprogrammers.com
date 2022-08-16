@@ -44,6 +44,7 @@ suggestions for improvement, and relate to your struggles.
 
 :fontawesome-solid-rocket: **Ready to put the PRO in your programming skills?** Start your journey with one of these resources!
 
+<!-- JOURNEY START -->
 <div class="cards">
 
   <!-- PROACTIVE SKILLS -->
@@ -92,6 +93,7 @@ suggestions for improvement, and relate to your struggles.
   </div>
 
 </div>
+<!-- JOURNEY END -->
 
 [^1]: See Merriam-Webster for the definition of
   "[proactive](https://www.merriam-webster.com/dictionary/proactive)" and
