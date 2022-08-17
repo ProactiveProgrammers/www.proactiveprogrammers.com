@@ -27,8 +27,8 @@
 - Chapters 1 and 2 of *Introduction to Computation and Programming Using Python*
 - Check out the [course slides](/slides/data-abstraction/python-foundations/) for a detailed investigation of these chapters!
 - Run the Jupyter notebooks in `data-abstraction/python-foundations/` with:
-    - :material-language-python: [Jupyter Lite](https://proactiveprogrammers.com/live/){:target="_blank"}
-    - :material-google: [Google Colab](https://githubtocolab.com/ProactiveProgrammers/www.proactiveprogrammers.com){:target="_blank"}
+    - :material-language-python: [Jupyter Lite](https://proactiveprogrammers.com/live/)
+    - :material-google: [Google Colab](https://githubtocolab.com/ProactiveProgrammers/www.proactiveprogrammers.com)
         - :material-notebook-edit-outline: [Compute the Average of Values in a File](https://githubtocolab.com/ProactiveProgrammers/www.proactiveprogrammers.com/blob/master/files/data-abstraction/python-foundations/compute-average-with-file.ipynb){:target="_blank"}
         - :material-notebook-edit-outline: [Compute the Square of an Integer](https://githubtocolab.com/ProactiveProgrammers/www.proactiveprogrammers.com/blob/master/files/data-abstraction/python-foundations/compute-integer-square.ipynb){:target="_blank"}
         - :material-notebook-edit-outline: [Determine the Status of an Integer](https://githubtocolab.com/ProactiveProgrammers/www.proactiveprogrammers.com/blob/master/files/data-abstraction/python-foundations/determine-number-status.ipynb){:target="_blank"}
@@ -295,51 +295,8 @@ Interested in learning more about any of the topics on this schedule? If you
 are, then make sure to connect with members of the [proactive
 community](../../proactive-community/introduction-proactive-community) for more
 learning opportunities. Remember, this course emphasizes building mastery of the
-course's [learning
-objectives](../learning-objectives-data-abstraction) through
+course's [learning objectives](../learning-objectives-data-abstraction) through
 "learning by doing", as explained in the description of [proactive
 learning](../../proactive-learning/introduction-proactive-learning). As such,
 you can best understand the content on this schedule by completing all the
 source code surveys, programming projects, and engineering efforts!
-
-<!-- ???+ note "Schedule Review" -->
-<!--     - **Software Operation** -->
-<!--         - **Start**: February 21, 2022 -->
-<!--         - **End**: February 25, 2022 -->
-<!--       - **Python Foundations** -->
-<!--         - **Start**: February 21, 2022 -->
-<!--         - **End**: February 25, 2022 -->
-
-<!-- - **Numerical Computation** -->
-<!--     - **Start**: September 13, 2021 -->
-<!--     - **End**: September 17, 2021 -->
-<!-- - **Function Scope** -->
-<!--     - **Start**: September 20, 2021 -->
-<!--     - **End**: September 24, 2021 -->
-<!-- - **Structured Types** -->
-<!--     - **Start**: September 27, 2021 -->
-<!--     - **End**: October 1, 2021 -->
-<!-- - **Program Components** -->
-<!--     - **Start**: October 4, 2021 -->
-<!--     - **End**: October 8, 2021 -->
-<!-- - **Software Testing** -->
-<!--     - **Start**: October 11, 2021 -->
-<!--     - **End**: October 15, 2021 -->
-<!-- - **Mid-Term Examination Review** -->
-<!--     - **Start**: October 18, 2021 -->
-<!--     - **End**: October 22, 2021 -->
-<!-- - **Object-Oriented Programming** -->
-<!--     - **Start**: October 25, 2021 -->
-<!--     - **End**: October 29, 2021 -->
-<!-- - **Algorithmic Complexity** -->
-<!--     - **Start**: November 1, 2021 -->
-<!--     - **End**: November 5, 2021 -->
-<!-- - **Professional Evaluation** -->
-<!--     - **Start**: November 8, 2021 -->
-<!--     - **End**: November 12, 2021 -->
-<!-- - **Data Structures** -->
-<!--     - **Start**: November 15, 2021 -->
-<!--     - **End**: November 19, 2021 -->
-<!-- - **Optimization Problems** -->
-<!--     - **Start**: December 1, 2021 -->
-<!--     - **End**: December 8, 2021 -->
