@@ -31,7 +31,8 @@ theme:
   # Enable features that are built-in to material for mkdocs
   features:
       # Allow a user to dismiss the announcement at the top of the page
-      - announce.dismiss
+      # Stop making dismissing available as it is useful to keep it visible
+      # - announce.dismiss
       # Create a single-page application with faster loading evident
       # Note that this option prohibits the rendering of mathematics;
       # there was some evidence that this was not the case but now
