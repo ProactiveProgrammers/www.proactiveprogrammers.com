@@ -120,7 +120,7 @@ suggestions for improvement, and relate to your struggles.
 <!-- PROJECTS START -->
 <div class="cards">
 
-  <!-- FEATURED PROJECT FOR DATA ABSTRACTION -->
+  <!-- FEATURED PROJECT FOR DATA ABSTRACTION: INTERSECTION ALGORITHMS  -->
   <div class="card">
 
   <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!-- Font Awesome Free 6.1.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M188.3 147.1c7.5-4.3 16.8-5 24.2.4l144 88c7.1 4.4 11.5 12.1 11.5 20.5s-4.4 16.1-11.5 20.5l-144 88c-7.4 4.5-16.7 4.7-24.2.4-7.6-4.2-12.3-12.2-12.3-20.9V167.1c0-7.8 4.7-15.8 12.3-20zM512 256c0 141.4-114.6 256-256 256S0 397.4 0 256 114.6 0 256 0s256 114.6 256 256zM256 48C141.1 48 48 141.1 48 256s93.1 208 208 208 208-93.1 208-208S370.9 48 256 48z"></path></svg></span>
@@ -135,7 +135,7 @@ suggestions for improvement, and relate to your struggles.
 
   </div>
 
-  <!-- FEATURED PROJECT FOR DISCRETE STRUCTURES -->
+  <!-- FEATURED PROJECT FOR DISCRETE STRUCTURES: COLLATZ CREATION -->
   <div class="card">
 
   <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!-- Font Awesome Free 6.1.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M188.3 147.1c7.5-4.3 16.8-5 24.2.4l144 88c7.1 4.4 11.5 12.1 11.5 20.5s-4.4 16.1-11.5 20.5l-144 88c-7.4 4.5-16.7 4.7-24.2.4-7.6-4.2-12.3-12.2-12.3-20.9V167.1c0-7.8 4.7-15.8 12.3-20zM512 256c0 141.4-114.6 256-256 256S0 397.4 0 256 114.6 0 256 0s256 114.6 256 256zM256 48C141.1 48 48 141.1 48 256s93.1 208 208 208 208-93.1 208-208S370.9 48 256 48z"></path></svg></span>
@@ -149,17 +149,31 @@ suggestions for improvement, and relate to your struggles.
 
   </div>
 
-  <!-- ALL TOPIC LIST -->
+  <!-- FEATURED PROJECT for DATA ABSTRACTION: CONTAINMENT CHECKS -->
   <div class="card">
 
   <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!-- Font Awesome Free 6.1.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M188.3 147.1c7.5-4.3 16.8-5 24.2.4l144 88c7.1 4.4 11.5 12.1 11.5 20.5s-4.4 16.1-11.5 20.5l-144 88c-7.4 4.5-16.7 4.7-24.2.4-7.6-4.2-12.3-12.2-12.3-20.9V167.1c0-7.8 4.7-15.8 12.3-20zM512 256c0 141.4-114.6 256-256 256S0 397.4 0 256 114.6 0 256 0s256 114.6 256 256zM256 48C141.1 48 48 141.1 48 256s93.1 208 208 208 208-93.1 208-208S370.9 48 256 48z"></path></svg></span>
 
-  <b><a href = "tags/">Topic Listing</a></b>
+  <b><a href = "data-abstraction/engineering-efforts/containment-checking/">Containment Checks</a></b>
+
+  <p class="tightcard">
+    Ever wondered how fast it is to find out if an item exists in a list? Build
+    a benchmarking framework and conduct an experiment to find out!
+  </p>
+
+  </div>
+
+  <!-- FEATURED PROJECT FOR DISCRETE STRUCTURES: COLLATZ CREATION -->
+  <div class="card">
+
+  <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!-- Font Awesome Free 6.1.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M188.3 147.1c7.5-4.3 16.8-5 24.2.4l144 88c7.1 4.4 11.5 12.1 11.5 20.5s-4.4 16.1-11.5 20.5l-144 88c-7.4 4.5-16.7 4.7-24.2.4-7.6-4.2-12.3-12.2-12.3-20.9V167.1c0-7.8 4.7-15.8 12.3-20zM512 256c0 141.4-114.6 256-256 256S0 397.4 0 256 114.6 0 256 0s256 114.6 256 256zM256 48C141.1 48 48 141.1 48 256s93.1 208 208 208 208-93.1 208-208S370.9 48 256 48z"></path></svg></span>
+
+  <b><a href = "/discrete-structures/engineering-efforts/text-analysis/">Text Analysis</a></b>
 
   <p class="tightcard">
 
-    Not sure where to begin? Find learning opportunities in a wide variety of
-    technical areas from object-oriented programming to software testing.
+    After implementing a Python program reads in text files, use the set discrete structure to 
+    automatically analyze the text and visualize its structure.
 
   </p>
 
