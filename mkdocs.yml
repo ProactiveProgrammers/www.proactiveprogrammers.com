@@ -35,8 +35,9 @@ theme:
       # Create a single-page application with faster loading evident
       # Note that this option prohibits the rendering of mathematics;
       # there was some evidence that this was not the case but now
-      # it seems likely that using "instant" does break MathJax rendering
-      - navigation.instant
+      # it seems likely that using "instant" does break MathJax rendering;
+      # Note that this may break the feedback mechanism
+      # - navigation.instant
       # Display tabs for main sections at top of page
       - navigation.tabs
       # Automatically expand the navigation for each section
