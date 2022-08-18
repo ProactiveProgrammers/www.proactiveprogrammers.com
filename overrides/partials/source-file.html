@@ -4,103 +4,129 @@
 https://github.com/squidfunk/mkdocs-material/blob/master/src/partials/source-file.html -->
 
 <hr />
-<div class="md-source-file">
-<small>
 
+<div class="md-source-file">
+
+  <small>
     <!-- mkdocs-git-revision-date-localized-plugin -->
     {% if page.meta.git_revision_date_localized %}
-       <span class="md-source-file__fact">
-        <span class="md-icon">
-            {% include ".icons/material/clock-edit-outline.svg" %}
-        </span>
-        Updated: {{ page.meta.git_revision_date_localized }}
+    <span class="md-source-file__fact">
+      <span class="md-icon">
+        {% include ".icons/material/clock-edit-outline.svg" %}
       </span>
+      Updated: {{ page.meta.git_revision_date_localized }}
+    </span>
     {% if page.meta.git_creation_date_localized %}
-       &nbsp;
-       <span class="md-source-file__fact">
-          <span class="md-icon">
-            {% include ".icons/material/clock-plus-outline.svg" %}
-          </span>
-          Created: {{ page.meta.git_creation_date_localized }}
+    &nbsp;
+    <span class="md-source-file__fact">
+      <span class="md-icon">
+        {% include ".icons/material/clock-plus-outline.svg" %}
       </span>
+      Created: {{ page.meta.git_creation_date_localized }}
+    </span>
     {% endif %}
 
     <!-- mkdocs-git-revision-date-plugin -->
     {% elif page.meta.revision_date %}
-          <span class="md-icon">
-            {% include ".icons/material/clock.svg" %}
-          </span>
+    <span class="md-icon">
+      {% include ".icons/material/clock.svg" %}
+    </span>
     {{ lang.t("source.file.date.updated") }}:
     {{ page.meta.revision_date }}
     {% endif %}
-</small>
+  </small>
+
 </div>
 
+<!-- Determine title -->
+{% if page and page.meta and page.meta.title %}
+{% set title = page.meta.title | urlencode %}
+{% else %}
+{% set title = page.title | urlencode %}
+{% endif %}
+
+<!-- Determine display title -->
+{% if page and page.meta and page.meta.title %}
+{% set display_title = page.meta.title %}
+{% else %}
+{% set display_title = page.title %}
+{% endif %}
+
+{% set url = "/" ~ page.url | urlencode %}
+
 <div class="md-source-file">
-<small>
+
+  <small>
+    <span class="md-source-file__fact">
+      <span class="md-icon">
+        {% include ".icons/material/progress-question.svg" %}
+      </span>
+      What do you think about the "{{ display_title }}" page?
+      Create a <a href = "https://github.com/ProactiveProgrammers/www.proactiveprogrammers.com/issues/new/?title=[Feedback]+{{title}}+-+{{url}}">new issue</a> to share your ideas!
+    </span>
+
+  </small>
+
+</div>
 
 <!-- Determine feedback configuration -->
 {% if config.extra.analytics %}
-  {% set feedback = config.extra.analytics.feedback %}
+{% set feedback = config.extra.analytics.feedback %}
 {% endif %}
 
 <!-- Determine whether to show feedback -->
 {% if page and page.meta and page.meta.hide %}
-  {% if "feedback" in page.meta.hide %}
-    {% set feedback = None %}
-  {% endif %}
+{% if "feedback" in page.meta.hide %}
+{% set feedback = None %}
+{% endif %}
 {% endif %}
 
 <!-- Was this page helpful? -->
 {% if feedback %}
-  <form class="md-feedback" name="feedback" hidden>
-    <fieldset>
-      <legend class="md-feedback__title">
-        {{ feedback.title }}
-      </legend>
-      <div class="md-feedback__inner">
+<form class="md-feedback" name="feedback" hidden>
+  <fieldset>
+    <legend class="md-feedback__title">
+      {{ feedback.title }}
+    </legend>
+    <div class="md-feedback__inner">
 
-        <!-- Feedback ratings -->
-        <div class="md-feedback__list">
-          {% for rating in feedback.ratings %}
-            <button
-              class="md-feedback__icon md-icon"
-              type="submit"
-              title="{{ rating.name }}"
-              data-md-value="{{ rating.data }}"
-            >
-              {% include ".icons/" ~ rating.icon ~ ".svg" %}
-            </button>
-          {% endfor %}
-        </div>
-
-        <!-- Feedback rating notes (shown after submission) -->
-        <div class="md-feedback__note">
-          {% for rating in feedback.ratings %}
-            <div data-md-value="{{ rating.data }}" hidden>
-              {% set url = "/" ~ page.url %}
-
-              <!-- Determine title -->
-              {% if page and page.meta and page.meta.title %}
-                {% set title = page.meta.title | urlencode %}
-              {% else %}
-                {% set title = page.title | urlencode %}
-              {% endif %}
-
-              <!-- Legacy, deprecated, removed in next major version -->
-              {% if "{}" in rating.note %}
-                {{ rating.note.format(url, title) }}
-
-              <!-- Replace {url} and {title} placeholders in note -->
-              {% else %}
-                {{ rating.note.format(url = url, title = title) }}
-              {% endif %}
-            </div>
-          {% endfor %}
-        </div>
+      <!-- Feedback ratings -->
+      <div class="md-feedback__list">
+        {% for rating in feedback.ratings %}
+        <button class="md-feedback__icon md-icon" type="submit" title="{{ rating.name }}"
+          data-md-value="{{ rating.data }}">
+          {% include ".icons/" ~ rating.icon ~ ".svg" %}
+        </button>
+        {% endfor %}
       </div>
-    </fieldset>
-  </form>
+
+      <!-- Feedback rating notes (shown after submission) -->
+      <div class="md-feedback__note">
+        {% for rating in feedback.ratings %}
+        <div data-md-value="{{ rating.data }}" hidden>
+          {% set url = "/" ~ page.url %}
+
+          <!-- Determine title -->
+          {% if page and page.meta and page.meta.title %}
+          {% set title = page.meta.title | urlencode %}
+          {% else %}
+          {% set title = page.title | urlencode %}
+          {% endif %}
+
+          <!-- Legacy, deprecated, removed in next major version -->
+          {% if "{}" in rating.note %}
+          {{ rating.note.format(url, title) }}
+
+          <!-- Replace {url} and {title} placeholders in note -->
+          {% else %}
+          {{ rating.note.format(url = url, title = title) }}
+          {% endif %}
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+  </fieldset>
+</form>
 {% endif %}
 
 </small>
