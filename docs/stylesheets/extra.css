@@ -21,6 +21,10 @@
   word-break: break-word;
 }
 
+.md-tags {
+  margin-bottom: -0.5em !important;
+}
+
 [dir="ltr"] .md-tag {
   text-decoration: none;
 }
