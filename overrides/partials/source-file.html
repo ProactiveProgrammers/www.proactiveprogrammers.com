@@ -52,8 +52,10 @@ https://github.com/squidfunk/mkdocs-material/blob/master/src/partials/source-fil
 {% set display_title = page.title %}
 {% endif %}
 
+<!-- Extra the url of the current page -->
 {% set url = "/" ~ page.url | urlencode %}
 
+<!-- Request feedback about the content on the site, giving a custom URL to the GitHub issue tracker -->
 <div class="md-source-file">
 
   <small>
@@ -61,13 +63,32 @@ https://github.com/squidfunk/mkdocs-material/blob/master/src/partials/source-fil
       <span class="md-icon">
         {% include ".icons/material/progress-question.svg" %}
       </span>
+      <div class="footertext">
       What do you think about the "{{ display_title }}" page?
       Create a <a
         href="https://github.com/ProactiveProgrammers/www.proactiveprogrammers.com/issues/new/?title=[Feedback]+{{title}}+-+{{url}}"
         target="_blank" and rel="noopener noreferrer">new
         issue</a> to share your valuable ideas!
+      </div>
     </span>
 
+  </small>
+
+</div>
+
+<!-- Encourage visiting another page if the content on this page is not interesting enough, heh heh. -->
+<div class="md-source-file">
+
+  <small>
+    <span class="md-source-file__fact">
+      <span class="md-icon">
+        {% include ".icons/material/skip-next-circle-outline.svg" %}
+      </span>
+      <div class="footertext">
+      Did the content on "{{ display_title }}" not capture your interest?
+      Check out all the <a href="tags/">exciting topics</a> covered on this site!
+      </div>
+    </span>
   </small>
 
 </div>
