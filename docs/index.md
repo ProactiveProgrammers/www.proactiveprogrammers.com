@@ -184,8 +184,8 @@ suggestions for improvement, and relate to your struggles.
   <b><a href = "https://github.com/ProactiveProgrammers/www.proactiveprogrammers.com/issues">Issue Tracker</a></b>
 
   <p class="tightcard">
-    Have something to share? Give feedback or report a bug in the site's
-    writing or source code through the GitHub issue tracker.
+    Have a valuable insight to share? Give feedback or report a bug in the
+    site's writing or source code through the GitHub issue tracker.
   </p>
 
   </div>
