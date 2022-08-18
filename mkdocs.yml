@@ -37,7 +37,7 @@ theme:
       # there was some evidence that this was not the case but now
       # it seems likely that using "instant" does break MathJax rendering;
       # Note that this may break the feedback mechanism
-      # - navigation.instant
+      - navigation.instant
       # Display tabs for main sections at top of page
       - navigation.tabs
       # Automatically expand the navigation for each section
