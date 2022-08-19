@@ -39,6 +39,7 @@ fonts:
 
 [//]: # (Slide End }}})
 
+
 ---
 
 [//]: # (Slide Start {{{)
@@ -507,6 +508,21 @@ What is the purpose of the <code>for line in file</code> statement?
 
 [//]: # (Slide Start {{{)
 
+# Programming Warmup
+
+<iframe
+  src="https://proactiveprogrammers.com/live/repl/index.html?kernel=python&code=sum = 0%0Acount = 0%0Aprint(sum)%0Aprint(count)"
+  width="100%"
+  height="90%"
+  style="border: 1px solid darkgrey;"
+></iframe>
+
+[//]: # (Slide End }}})
+
+---
+
+[//]: # (Slide Start {{{)
+
 <div class="flex row">
 
 <div class="text-7xl text-orange-600 font-bold mt-5 ml-4 mb-4">
@@ -522,7 +538,8 @@ Let's run this code to understand it better!
 <mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
 
 <div class="text-3xl font-bold mt-10 ml-4">
-Visit the <a href = "https://proactiveprogrammers.com/live">Proactive Programmers Live</a> site!
+Find file in <a href = "https://proactiveprogrammers.com/live">Jupyter Lite</a> or
+<a href = "https://githubtocolab.com/ProactiveProgrammers/www.proactiveprogrammers.com">Google Colab</a>!
 </div>
 
 </div>
@@ -944,6 +961,21 @@ Serve as input and output of a function
 -   **Type Changing**: `int(a)` transforms variable `a` into an integer type
 
 </v-clicks>
+
+[//]: # (Slide End }}})
+
+---
+
+[//]: # (Slide Start {{{)
+
+# Programming Warmup
+
+<iframe
+  src="https://proactiveprogrammers.com/live/repl/index.html?kernel=python&code=count_one = 2%0Acount_two = 10%0Acount = count_one %2b count_two%0Aprint(count)"
+  width="100%"
+  height="90%"
+  style="border: 1px solid darkgrey;"
+></iframe>
 
 [//]: # (Slide End }}})
 
