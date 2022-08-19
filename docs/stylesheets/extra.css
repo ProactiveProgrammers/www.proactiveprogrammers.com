@@ -125,12 +125,12 @@
 }
 
 .cards {
-  max-width: 1000px;
+  max-width: 900px;
   margin: 0 auto;
-  margin-left: 1.2rem;
+  margin-left: .1rem;
   display: grid;
   gap: 1rem;
-  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
 }
 
 .tightcard {
