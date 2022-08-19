@@ -88,8 +88,8 @@ suggestions for improvement, and relate to your struggles.
   <b><a href = "data-abstraction/introduction-data-abstraction/">Data Abstraction</a></b>
 
   <p class="tightcard">
-    After reviewing program building blocks, learn how to design, implement, test, and empirically evaluate data
-    structures and functions.
+    After reviewing program building blocks, learn how to integrate, and study
+    the performance of data structures and their functions.
   </p>
 
   </div>
@@ -129,7 +129,7 @@ suggestions for improvement, and relate to your struggles.
   Algorithms</a></b>
 
   <p class="tightcard">
-    After implementing a benchmarking framework, conduct an experiment to
+    After implementing a benchmarking program in Python, conduct an experiment to
     determine the fastest approach to finding the common items in a list.
   </p>
 
@@ -157,8 +157,8 @@ suggestions for improvement, and relate to your struggles.
   <b><a href = "data-abstraction/engineering-efforts/containment-checking/">Containment Checks</a></b>
 
   <p class="tightcard">
-    Ever wondered how fast it is to find out if an item exists in a list? Build
-    a benchmarking framework and conduct an experiment to find out!
+    Ever wondered how fast a Python program can find out if an item exists in a
+    list? Build a benchmarking framework and conduct an experiment to out!
   </p>
 
   </div>
@@ -171,10 +171,9 @@ suggestions for improvement, and relate to your struggles.
   <b><a href = "/discrete-structures/engineering-efforts/text-analysis/">Text Analysis</a></b>
 
   <p class="tightcard">
-
-    After implementing a Python program reads in text files, use the set discrete structure to 
-    automatically analyze the text and visualize its structure.
-
+    After implementing a Python program reads in text files, use the set
+    discrete structure to automatically analyze the text and visualize its
+    structure use Venn diagrams.
   </p>
 
   </div>
