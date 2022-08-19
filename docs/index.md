@@ -10,18 +10,13 @@ hide:
 
 --8<-- "includes/admonitions/admonish-ethics.md"
 
-As [Perdita Stevens](https://www.stevens-bradfield.com/~perdita/) points out in
-[*How to Write Good
-Programs*](https://www.cambridge.org/gb/academic/subjects/computer-science/computing-general-interest/how-write-good-programs-guide-students),
-"ethical programming includes being honest about the extent to which you can be
-confident that your program is good, and adhering to quality control processes
-that ensure if a mistake has been made [...] it is found and rectified before it
-causes harm." As they "act in anticipation of future problems, needs, or
-changes"[^1] proactive programmers ethically implement software in a fashion
-that is responsible to themselves, to the others in their team, and to the
-people who rely on their project. Proactive programmers implement efficient and
-correct software that is designed, documented, tested, and maintained according
-to industry best practices.
+As they "act in anticipation of future problems, needs, or changes"[^1]
+proactive programmers ethically implement software in a fashion that is
+responsible to themselves, to the others in their team, and to the people who
+rely on their project. Always working to establish a confidence in their
+program's correctness, proactive programmers implement high-quality software
+that is designed, documented, tested, and maintained according to industry best
+practices.
 
 Is this challenging? *Yep*! Will you make mistakes along the way to emerging as
 a proactive programmer? *Of course*! Are there many benefits to being a
@@ -88,8 +83,8 @@ suggestions for improvement, and relate to your struggles.
   <b><a href = "data-abstraction/introduction-data-abstraction/">Data Abstraction</a></b>
 
   <p class="tightcard">
-    After reviewing program building blocks, learn how to design, implement, test, and empirically evaluate data
-    structures and functions.
+    After reviewing program building blocks, learn how to integrate, and study
+    the performance of data structures and their functions.
   </p>
 
   </div>
@@ -129,7 +124,7 @@ suggestions for improvement, and relate to your struggles.
   Algorithms</a></b>
 
   <p class="tightcard">
-    After implementing a benchmarking framework, conduct an experiment to
+    After implementing a benchmarking program in Python, conduct an experiment to
     determine the fastest approach to finding the common items in a list.
   </p>
 
@@ -157,8 +152,9 @@ suggestions for improvement, and relate to your struggles.
   <b><a href = "data-abstraction/engineering-efforts/containment-checking/">Containment Checks</a></b>
 
   <p class="tightcard">
-    Ever wondered how fast it is to find out if an item exists in a list? Build
-    a benchmarking framework and conduct an experiment to find out!
+    Ever wondered how fast a Python program can determine if an item exists
+    inside of a list? Build a benchmarking framework and conduct an experiment
+    to out!
   </p>
 
   </div>
@@ -171,10 +167,9 @@ suggestions for improvement, and relate to your struggles.
   <b><a href = "/discrete-structures/engineering-efforts/text-analysis/">Text Analysis</a></b>
 
   <p class="tightcard">
-
-    After implementing a Python program reads in text files, use the set discrete structure to 
-    automatically analyze the text and visualize its structure.
-
+    After implementing a Python program reads in text files, use the set
+    discrete structure to automatically analyze the text and visualize its
+    structure use Venn diagrams.
   </p>
 
   </div>
@@ -212,7 +207,7 @@ suggestions for improvement, and relate to your struggles.
   <b><a href = "https://github.com/ProactiveProgrammers/www.proactiveprogrammers.com/discussions">Technical Discussions</a></b>
 
   <p class="tightcard">
-    Have a detailed technical question or need technical support with content
+    Have a detailed question or need support with technical content
     on the site? Start a converation on the GitHub discussion forum.
   </p>
 
@@ -226,8 +221,8 @@ suggestions for improvement, and relate to your struggles.
   <b><a href = "https://discord.gg/kjah8MFYbR">Discord Server</a></b>
 
   <p class="tightcard">
-    Want to discuss the challenges you face as you emerge as a proactive
-    programmer or have a quick technical question? Chat on our Discord server.
+    Want to discuss the challenges you face as an emerging proactive
+    programmer or have a brief question? Chat on our Discord server.
   </p>
 
   </div>
@@ -240,10 +235,8 @@ suggestions for improvement, and relate to your struggles.
   <b><a href = "tags/">Topic Listing</a></b>
 
   <p class="tightcard">
-
-    Not sure where to begin? Find learning opportunities in a wide variety of
-    technical areas from object-oriented programming to software testing.
-
+    Not sure where to begin? Find learning opportunities in areas ranging from
+    object-oriented programming to software testing.
   </p>
 
   </div>

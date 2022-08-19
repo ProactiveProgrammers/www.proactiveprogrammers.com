@@ -32,15 +32,15 @@ already, learners should create a free GitHub account. They will use this
 account and the GitHub repositories associated with it to receive starter
 materials and submit the final version of each assignment.
 
-Learners will receive rapid feedback on their work through a tool called
-[GatorGrader](https://github.com/GatorEducator/gatorgrader). The instructor will
-define GatorGrader checks for each type of assignment. A learner's job will be
-to use a programming language, like Python, to implement a complete solution
-that passes all of the GatorGrader checks. Learners should also complete writing
-tasks that demonstrate their knowledge of the technical knowledge and skills
-developed as part of an assignment. In addition to running the GatorGrader tool
-on their laptop, learners will see the results from running GatorGrader checks
-in the continuous integration environment called [GitHub
+All learners at will receive rapid feedback on their work through a tool called
+:material-github: [GatorGrader](https://github.com/GatorEducator/gatorgrader).
+The instructor will define GatorGrader checks for each type of assignment. A
+learner's job will be to use a programming language, like Python, to implement a
+complete solution that passes all of the GatorGrader checks. Learners should
+also complete writing tasks that demonstrate their knowledge of the technical
+knowledge and skills developed as part of an assignment. In addition to running
+the GatorGrader tool on their laptop, learners will see the results from running
+GatorGrader checks in the continuous integration environment called [GitHub
 Actions](https://github.com/features/actions) that is accessible for a GitHub
 repository.
 
@@ -73,7 +73,7 @@ this assignment, the grade for an engineering effort will have these parts:
   inside of a GitHub Actions build.
 
 - **Technical Writing Mastery of Either :fontawesome-solid-check: or
-  :fontawesome-solid-times:**: The responses to the technical writing questions
+  :fontawesome-solid-xmark:**: The responses to the technical writing questions
   will receive a checkmark when they reveal a mastery of technical writing
   skills. To receive a checkmark grade, the submitted writing should have
   correct spelling, grammar, punctuation, and formatting in addition to
@@ -82,19 +82,19 @@ this assignment, the grade for an engineering effort will have these parts:
   detected mistakes in the technical writing.
 
 - **GitHub Actions Build Status of Either :fontawesome-solid-check: or
-  :fontawesome-solid-times::** Since additional checks on the program source
+  :fontawesome-solid-xmark::** Since additional checks on the program source
   code and technical writing are encoded in GitHub Action workflows and,
   moreover, all of the GatorGrader checks are also run in GitHub Actions, an
   engineering effort will receive a checkmark grade if the last
   before-the-deadline build in GitHub Actions passes and a
   :fontawesome-solid-check: appears in the GitHub commit log instead of an
-  :fontawesome-solid-times:. The build status reported by GitHub Actions will
+  :fontawesome-solid-xmark:. The build status reported by GitHub Actions will
   only be a :fontawesome-solid-check: if the source code and technical writing
   in the GitHub repository pass both the GatorGrader checks and the additional
   checks encoded in the configuration of GitHub Actions.
 
 - **Overall Technical Knowledge and Skill Mastery of Either
-  :fontawesome-solid-check: or :fontawesome-solid-times:**: An engineering
+  :fontawesome-solid-check: or :fontawesome-solid-xmark:**: An engineering
   effort will also receive a checkmark grade when the contents of the GitHub
   repository reveals the mastery of the technical knowledge and skills developed
   during the completion of the project. As a part of this assessment, the
@@ -115,10 +115,10 @@ whether or not it meets the standards for technical work in the field of
 computer science as evidenced by:
 
 - **GitHub Actions Build Status of Either :fontawesome-solid-check: or
-  :fontawesome-solid-times::** A programming project will receive a checkmark
+  :fontawesome-solid-xmark::** A programming project will receive a checkmark
   grade if the last before-the-deadline build in GitHub Actions passes and a
   :fontawesome-solid-check: appears in the GitHub commit log instead of an
-  :fontawesome-solid-times:. The build status reported by GitHub Actions will
+  :fontawesome-solid-xmark:. The build status reported by GitHub Actions will
   only be a :fontawesome-solid-check: if the source code and technical writing
   in the GitHub repository pass both the GatorGrader checks and the additional
   checks pass in GitHub Actions.
@@ -132,27 +132,27 @@ whether or not it meets the standards for technical work in the field of
 computer science as evidenced by:
 
 - **GitHub Actions Build Status of Either :fontawesome-solid-check: or
-  :fontawesome-solid-times::** A source code survey will receive a checkmark
+  :fontawesome-solid-xmark::** A source code survey will receive a checkmark
   grade if the last before-the-deadline build in GitHub Actions passes and a
   :fontawesome-solid-check: appears in the GitHub commit log instead of an
-  :fontawesome-solid-times:. The build status reported by GitHub Actions will
+  :fontawesome-solid-xmark:. The build status reported by GitHub Actions will
   only be a :fontawesome-solid-check: if the source code and program output
   exist in the repository and the program output and the written responses pass
   any checks run in GitHub Actions.
 
 ## Advance Feedback
 
-Learners who wish to receive feedback on their work for any assignment should
-first open an issue on the issue tracker for their assignment's GitHub
-repository, giving an appropriate title and description for the type of feedback
-that they would like the instructor to provide. After creating this issue, they
-will see that GitHub has created a unique web site that references it. To alert
-the instructor to the fact that the issue was created and that you want feedback
-on your work, please send it to him by a Discord direct message at least 24
-hours in advance of the project's due date. After the instructor responds to the
-issue in GitHub, please resolve all of the stated concerns and participate in
-the discussion until the project meets its specification and the issue is
-closed.
+Learners at Allegheny College who wish to receive feedback on their work for any
+assignment should first open an issue on the issue tracker for their
+assignment's GitHub repository, giving an appropriate title and description for
+the type of feedback that they would like the instructor to provide. After
+creating this issue, they will see that GitHub has created a unique web site
+that references it. To alert the instructor to the issue's creation and that you
+want feedback on your work, please send it to him by a Discord direct message at
+least 24 hours in advance of the project's due date. After the instructor
+responds to the issue in GitHub, please resolve all of the stated concerns and
+participate in the discussion until the project meets its specification and the
+issue is closed.
 
 ## Assessment Delivery
 
@@ -188,9 +188,9 @@ name of the assignment:
 
 ### Engineering Efforts
 
-- Assignment One: 100%, :fontawesome-solid-check:, :fontawesome-solid-check:, :fontawesome-solid-times:
-- Assignment Two: 81%, :fontawesome-solid-times:, :fontawesome-solid-check:, :fontawesome-solid-times:
-- Assignment Three: 95%, :fontawesome-solid-times:, :fontawesome-solid-check:, :fontawesome-solid-check:
+- Assignment One: 100%, :fontawesome-solid-check:, :fontawesome-solid-check:, :fontawesome-solid-xmark:
+- Assignment Two: 81%, :fontawesome-solid-xmark:, :fontawesome-solid-check:, :fontawesome-solid-xmark:
+- Assignment Three: 95%, :fontawesome-solid-xmark:, :fontawesome-solid-check:, :fontawesome-solid-check:
 
 **Calculation Example**
 
@@ -225,8 +225,8 @@ name of the assignment:
 ### Programming Projects
 
 - Assignment One: :fontawesome-solid-check:
-- Assignment Two: :fontawesome-solid-times:
-- Assignment Three: :fontawesome-solid-times:
+- Assignment Two: :fontawesome-solid-xmark:
+- Assignment Three: :fontawesome-solid-xmark:
 
 **Calculation Example**
 
