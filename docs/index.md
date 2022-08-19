@@ -157,8 +157,9 @@ suggestions for improvement, and relate to your struggles.
   <b><a href = "data-abstraction/engineering-efforts/containment-checking/">Containment Checks</a></b>
 
   <p class="tightcard">
-    Ever wondered how fast a Python program can find out if an item exists in a
-    list? Build a benchmarking framework and conduct an experiment to out!
+    Ever wondered how fast a Python program can determine if an item exists
+    inside of a list? Build a benchmarking framework and conduct an experiment
+    to out!
   </p>
 
   </div>
@@ -211,7 +212,7 @@ suggestions for improvement, and relate to your struggles.
   <b><a href = "https://github.com/ProactiveProgrammers/www.proactiveprogrammers.com/discussions">Technical Discussions</a></b>
 
   <p class="tightcard">
-    Have a detailed technical question or need technical support with content
+    Have a detailed question or need support with technical content
     on the site? Start a converation on the GitHub discussion forum.
   </p>
 
@@ -225,8 +226,8 @@ suggestions for improvement, and relate to your struggles.
   <b><a href = "https://discord.gg/kjah8MFYbR">Discord Server</a></b>
 
   <p class="tightcard">
-    Want to discuss the challenges you face as you emerge as a proactive
-    programmer or have a quick technical question? Chat on our Discord server.
+    Want to discuss the challenges you face as an emerging proactive
+    programmer or have a brief question? Chat on our Discord server.
   </p>
 
   </div>
@@ -239,10 +240,8 @@ suggestions for improvement, and relate to your struggles.
   <b><a href = "tags/">Topic Listing</a></b>
 
   <p class="tightcard">
-
-    Not sure where to begin? Find learning opportunities in a wide variety of
-    technical areas from object-oriented programming to software testing.
-
+    Not sure where to begin? Find learning opportunities in areas ranging from
+    object-oriented programming to software testing.
   </p>
 
   </div>
