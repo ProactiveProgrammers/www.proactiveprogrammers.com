@@ -33,14 +33,14 @@ account and the GitHub repositories associated with it to receive starter
 materials and submit the final version of each assignment.
 
 All learners at will receive rapid feedback on their work through a tool called
-[GatorGrader](https://github.com/GatorEducator/gatorgrader). The instructor will
-define GatorGrader checks for each type of assignment. A learner's job will be
-to use a programming language, like Python, to implement a complete solution
-that passes all of the GatorGrader checks. Learners should also complete writing
-tasks that demonstrate their knowledge of the technical knowledge and skills
-developed as part of an assignment. In addition to running the GatorGrader tool
-on their laptop, learners will see the results from running GatorGrader checks
-in the continuous integration environment called [GitHub
+:material-github: [GatorGrader](https://github.com/GatorEducator/gatorgrader).
+The instructor will define GatorGrader checks for each type of assignment. A
+learner's job will be to use a programming language, like Python, to implement a
+complete solution that passes all of the GatorGrader checks. Learners should
+also complete writing tasks that demonstrate their knowledge of the technical
+knowledge and skills developed as part of an assignment. In addition to running
+the GatorGrader tool on their laptop, learners will see the results from running
+GatorGrader checks in the continuous integration environment called [GitHub
 Actions](https://github.com/features/actions) that is accessible for a GitHub
 repository.
 
