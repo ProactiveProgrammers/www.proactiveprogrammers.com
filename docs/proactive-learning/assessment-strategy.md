@@ -73,7 +73,7 @@ this assignment, the grade for an engineering effort will have these parts:
   inside of a GitHub Actions build.
 
 - **Technical Writing Mastery of Either :fontawesome-solid-check: or
-  :fontawesome-solid-times:**: The responses to the technical writing questions
+  :fontawesome-solid-xmark:**: The responses to the technical writing questions
   will receive a checkmark when they reveal a mastery of technical writing
   skills. To receive a checkmark grade, the submitted writing should have
   correct spelling, grammar, punctuation, and formatting in addition to
@@ -82,7 +82,7 @@ this assignment, the grade for an engineering effort will have these parts:
   detected mistakes in the technical writing.
 
 - **GitHub Actions Build Status of Either :fontawesome-solid-check: or
-  :fontawesome-solid-times::** Since additional checks on the program source
+  :fontawesome-solid-xmark::** Since additional checks on the program source
   code and technical writing are encoded in GitHub Action workflows and,
   moreover, all of the GatorGrader checks are also run in GitHub Actions, an
   engineering effort will receive a checkmark grade if the last
@@ -94,7 +94,7 @@ this assignment, the grade for an engineering effort will have these parts:
   checks encoded in the configuration of GitHub Actions.
 
 - **Overall Technical Knowledge and Skill Mastery of Either
-  :fontawesome-solid-check: or :fontawesome-solid-times:**: An engineering
+  :fontawesome-solid-check: or :fontawesome-solid-xmark:**: An engineering
   effort will also receive a checkmark grade when the contents of the GitHub
   repository reveals the mastery of the technical knowledge and skills developed
   during the completion of the project. As a part of this assessment, the
