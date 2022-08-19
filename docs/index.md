@@ -10,18 +10,13 @@ hide:
 
 --8<-- "includes/admonitions/admonish-ethics.md"
 
-As [Perdita Stevens](https://www.stevens-bradfield.com/~perdita/) points out in
-[*How to Write Good
-Programs*](https://www.cambridge.org/gb/academic/subjects/computer-science/computing-general-interest/how-write-good-programs-guide-students),
-"ethical programming includes being honest about the extent to which you can be
-confident that your program is good, and adhering to quality control processes
-that ensure if a mistake has been made [...] it is found and rectified before it
-causes harm." As they "act in anticipation of future problems, needs, or
-changes"[^1] proactive programmers ethically implement software in a fashion
-that is responsible to themselves, to the others in their team, and to the
-people who rely on their project. Proactive programmers implement efficient and
-correct software that is designed, documented, tested, and maintained according
-to industry best practices.
+As they "act in anticipation of future problems, needs, or changes"[^1]
+proactive programmers ethically implement software in a fashion that is
+responsible to themselves, to the others in their team, and to the people who
+rely on their project. Always working to establish a confidence in their
+program's correctness, proactive programmers implement high-quality software
+that is designed, documented, tested, and maintained according to industry best
+practices.
 
 Is this challenging? *Yep*! Will you make mistakes along the way to emerging as
 a proactive programmer? *Of course*! Are there many benefits to being a
