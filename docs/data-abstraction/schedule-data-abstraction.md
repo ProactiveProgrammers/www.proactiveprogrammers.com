@@ -60,7 +60,12 @@
 
 - Chapter 3 of *Introduction to Computation and Programming Using Python*
 - Check out the [course slides](/slides/data-abstraction/numerical-computation/) for a detailed investigation of these chapters!
-- Go to the `data-abstraction/numerical-computation/` directory on [Proactive Programmers Live](https://proactiveprogrammers.com/live/) and investigate all of the Python programs!
+- Run the Jupyter notebooks in `data-abstraction/numerical-computation/` with:
+    - :material-language-python: [Jupyter Lite](https://proactiveprogrammers.com/live/)
+    - :material-google: [Google Colab](https://githubtocolab.com/ProactiveProgrammers/www.proactiveprogrammers.com)
+        - :material-notebook-edit-outline: [Calculate Approximate Square Root](https://githubtocolab.com/ProactiveProgrammers/www.proactiveprogrammers.com/blob/master/files/data-abstraction/numerical-computation/calculate-approximate-square-root.ipynb){:target="_blank"}
+        - :material-notebook-edit-outline: [Compute an Arithmetic Mean](https://githubtocolab.com/ProactiveProgrammers/www.proactiveprogrammers.com/blob/master/files/data-abstraction/numerical-computation/compute-arithmetic-mean.ipynb){:target="_blank"}
+        - :material-notebook-edit-outline: [Perform Integer Primality Testing](https://githubtocolab.com/ProactiveProgrammers/www.proactiveprogrammers.com/blob/master/files/data-abstraction/numerical-computation/perform-primality-testing.ipynb){:target="_blank"}
 
 ???+ note "Technical Concepts"
 
