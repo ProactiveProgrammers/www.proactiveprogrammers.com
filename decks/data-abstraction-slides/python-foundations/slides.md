@@ -490,11 +490,11 @@ print(sum/count)
 
 <br>
 
-<v-clicks>
+<v-clicks >
 
-<p class = "bold">
+<div class = "bold -mt-2">
 What are the contents of the <code>observations</code> file?
-</p>
+</div>
 
 <p class = "bold">
 What is the purpose of the <code>for line in file</code> statement?
@@ -538,7 +538,7 @@ Let's run this code to understand it better!
 <mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
 
 <div class="text-3xl font-bold mt-10 ml-4">
-Find file in <a href = "https://proactiveprogrammers.com/live">Jupyter Lite</a> or
+Find the file in <a href = "https://proactiveprogrammers.com/live">Jupyter Lite</a> or
 <a href = "https://githubtocolab.com/ProactiveProgrammers/www.proactiveprogrammers.com">Google Colab</a>!
 </div>
 
@@ -601,9 +601,9 @@ def extract_urls(df):
 
 <v-clicks>
 
-<p class = "bold">
+<div class = "bold -mt-2">
 What is the type of <code>df</code> ? The terrible docstring does not say!
-</p>
+</div>
 
 <p class = "bold">
 What is the behavior of <code>return urls</code> in this function?
@@ -638,9 +638,9 @@ def extract_urls(df: pandas.DataFrame) -> List[str]:
 
 <v-clicks>
 
-<p class = "bold">
+<div class = "bold -mt-2">
 What is the purpose of <code>df: pandas.DataFrame</code> ?
-</p>
+</div>
 
 <p class = "bold">
 How does <code>List[str]</code> describe output of <code>extract_urls</code> ?
@@ -677,7 +677,7 @@ print(f"The number of {number} is {response}!")
 
 <v-clicks>
 
-<div class = "bold mt-2">
+<div class = "bold -mt-3">
 How is this <b>different</b> than the code segment in the book?
 </div>
 
@@ -704,7 +704,8 @@ Let's run this code to understand it better!
 <mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
 
 <div class="text-3xl font-bold mt-10 ml-4">
-Visit the <a href = "https://proactiveprogrammers.com/live">Proactive Programmers Live</a> site!
+Find the file in <a href = "https://proactiveprogrammers.com/live">Jupyter Lite</a> or
+<a href = "https://githubtocolab.com/ProactiveProgrammers/www.proactiveprogrammers.com">Google Colab</a>!
 </div>
 
 </div>
@@ -758,7 +759,6 @@ def compute_square(value: int) -> int:
         answer = answer + value
         num_iterations = num_iterations + 1
     return answer
-
 value = 3
 value_squared = compute_square(value)
 print(f"{value} * {value} = {value_squared}")
@@ -811,7 +811,8 @@ Let's run this code to understand it better!
 <mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
 
 <div class="text-3xl font-bold mt-10 ml-4">
-Visit the <a href = "https://proactiveprogrammers.com/live">Proactive Programmers Live</a> site!
+Find the file in <a href = "https://proactiveprogrammers.com/live">Jupyter Lite</a> or
+<a href = "https://githubtocolab.com/ProactiveProgrammers/www.proactiveprogrammers.com">Google Colab</a>!
 </div>
 
 </div>
@@ -1107,7 +1108,8 @@ Let's run this code to understand it better!
 <mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
 
 <div class="text-3xl font-bold mt-10 ml-4">
-Visit the <a href = "https://proactiveprogrammers.com/live">Proactive Programmers Live</a> site!
+Find the file in <a href = "https://proactiveprogrammers.com/live">Jupyter Lite</a> or
+<a href = "https://githubtocolab.com/ProactiveProgrammers/www.proactiveprogrammers.com">Google Colab</a>!
 </div>
 
 </div>
