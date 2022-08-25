@@ -360,9 +360,9 @@ else:
 
 <v-clicks>
 
-<p class = "bold">
+<div class = "bold -mt-2">
 What is the purpose of the <code>range(2, x)</code> function call?
-</p>
+</div>
 
 </v-clicks>
 
@@ -527,7 +527,8 @@ Let's use Python to study primality testing!
 <mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
 
 <div class="text-3xl font-bold mt-10 ml-4">
-Visit the <a href = "https://proactiveprogrammers.com/live">Proactive Programmers Live</a> site!
+Find the file in <a href = "https://proactiveprogrammers.com/live">Jupyter Lite</a> or
+<a href = "https://githubtocolab.com/ProactiveProgrammers/www.proactiveprogrammers.com">Google Colab</a>!
 </div>
 
 </div>
@@ -540,7 +541,7 @@ Visit the <a href = "https://proactiveprogrammers.com/live">Proactive Programmer
 
 <mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
 
-<div class="text-3xl font-bold mt-10 ml-1">
+<div class="text-3xl font-bold mt-10 ml-4">
 Go to the <code>numerical-computation/</code> directory
 </div>
 
@@ -570,7 +571,7 @@ Run+Add <code>perform-primality-testing.ipynb</code>
 
 # Exhaustive Square Root Computation
 
-<div class="ml-1">
+<div class="ml-1 -mt-3">
 
 ```python {all|1|2|3-4|5-7|8|9-11|all}
 epsilon = 0.01
@@ -593,6 +594,21 @@ else:
 
 ---
 
+[//]: # "Slide Start {{{"
+
+# Programming Warmup
+
+<iframe
+  src="https://proactiveprogrammers.com/live/repl/index.html?kernel=python&code=%65%70%73%69%6c%6f%6e+%3d+%30%2e%30%31%0a%73%74%65%70+%3d+%65%70%73%69%6c%6f%6e%2a%2a%32%0a%6e%75%6d%5f%67%75%65%73%73%65%73+%3d+%30%0a%61%6e%73+%3d+%30%2e%30%0a"
+  width="100%"
+  height="90%"
+  style="border: 1px solid darkgrey;"
+></iframe>
+
+[//]: # "Slide End }}}"
+
+---
+
 [//]: # (Slide Start {{{)
 
 <div class="flex row">
@@ -610,7 +626,8 @@ Use Python to study exhaustive computation
 <mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
 
 <div class="text-3xl font-bold mt-10 ml-4">
-Visit the <a href = "https://proactiveprogrammers.com/live">Proactive Programmers Live</a> site!
+Find the file in <a href = "https://proactiveprogrammers.com/live">Jupyter Lite</a> or
+<a href = "https://githubtocolab.com/ProactiveProgrammers/www.proactiveprogrammers.com">Google Colab</a>!
 </div>
 
 </div>
@@ -623,7 +640,7 @@ Visit the <a href = "https://proactiveprogrammers.com/live">Proactive Programmer
 
 <mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
 
-<div class="text-3xl font-bold mt-10 ml-1">
+<div class="text-3xl font-bold mt-10 ml-4">
 Go to the <code>numerical-computation/</code> directory
 </div>
 
@@ -709,7 +726,7 @@ Repeat process until have an approximate solution
 
 # Bisection Square Root Computation
 
-<div class="ml-1">
+<div class="ml-0 -mt-3">
 
 ```python {all|1-3|4-5|6-7|8-9|10-11|12|all}
 epsilon = 0.01
@@ -732,6 +749,21 @@ while abs(answer**2 - x) >= epsilon:
 
 ---
 
+[//]: # "Slide Start {{{"
+
+# Programming Warmup
+
+<iframe
+  src="https://proactiveprogrammers.com/live/repl/index.html?kernel=python&code=%78+%3d+%35%0a%65%70%73%69%6c%6f%6e+%3d+%30%2e%30%31%0a%73%74%65%70+%3d+%65%70%73%69%6c%6f%6e%2a%2a%32%0a%6e%75%6d%5f%67%75%65%73%73%65%73%2c+%6c%6f%77+%3d+%30%2c+%30%0a%68%69%67%68+%3d+%6d%61%78%28%31%2c%78%29%0a%61%6e%73%77%65%72+%3d+%28%68%69%67%68+%2b+%6c%6f%77%29%2f%32%0a"
+  width="100%"
+  height="90%"
+  style="border: 1px solid darkgrey;"
+></iframe>
+
+[//]: # "Slide End }}}"
+
+---
+
 [//]: # (slide start {{{)
 
 <div class="flex row">
@@ -749,7 +781,8 @@ Let's study bisection's speed improvements!
 <mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
 
 <div class="text-3xl font-bold mt-10 ml-4">
-Visit the <a href = "https://proactiveprogrammers.com/live">proactive programmers live</a> site!
+Find the file in <a href = "https://proactiveprogrammers.com/live">Jupyter Lite</a> or
+<a href = "https://githubtocolab.com/ProactiveProgrammers/www.proactiveprogrammers.com">Google Colab</a>!
 </div>
 
 </div>
@@ -762,7 +795,7 @@ Visit the <a href = "https://proactiveprogrammers.com/live">proactive programmer
 
 <mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
 
-<div class="text-3xl font-bold mt-10 ml-1">
+<div class="text-3xl font-bold mt-10 ml-4">
 Go to the <code>programming-constructs/</code> directory
 </div>
 
@@ -858,7 +891,7 @@ numbers = [5,1,7,99,4]
 print(str(compute_mean(numbers)))
 ```
 
-<div class="mt-8">
+<div class = "bold -mt-2">
 
 - How do we compute the **mean** of a list of numbers?
 
@@ -913,7 +946,8 @@ Let's investigate average computation functions!
 <mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
 
 <div class="text-3xl font-bold mt-10 ml-4">
-Visit the <a href = "https://proactiveprogrammers.com/live">proactive programmers live</a> site!
+Find the file in <a href = "https://proactiveprogrammers.com/live">Jupyter Lite</a> or
+<a href = "https://githubtocolab.com/ProactiveProgrammers/www.proactiveprogrammers.com">Google Colab</a>!
 </div>
 
 </div>
@@ -926,7 +960,7 @@ Visit the <a href = "https://proactiveprogrammers.com/live">proactive programmer
 
 <mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
 
-<div class="text-3xl font-bold mt-10 ml-1">
+<div class="text-3xl font-bold mt-10 ml-4">
 Go to the <code>programming-constructs/</code> directory
 </div>
 

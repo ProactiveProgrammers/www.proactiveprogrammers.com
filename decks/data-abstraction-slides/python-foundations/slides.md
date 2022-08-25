@@ -2,7 +2,7 @@
 # use the default theme
 theme: default
 # apply any windi css classes to the current slide
-class: 'text-center'
+class: "text-center"
 # define the highlighter and the colorSchema
 highlighter: prism
 colorSchema: light
@@ -12,18 +12,18 @@ lineNumbers: false
 # define the fonts and their weights
 fonts:
   # define the font for the body text
-  sans: 'IBM Plex Sans'
+  sans: "IBM Plex Sans"
   # define the serif font
-  serif: 'IBM Plex Serif'
+  serif: "IBM Plex Serif"
   # define the code font
-  mono: 'IBM Plex Mono'
+  mono: "IBM Plex Mono"
   # load several font weights
-  weights: '200,400,500'
+  weights: "200,400,500"
   # support the use of italics
   italic: true
 ---
 
-[//]: # (Slide Start {{{)
+[//]: # "Slide Start {{{"
 
 # Data Abstraction
 
@@ -37,11 +37,11 @@ fonts:
 
 ### www.proactiveprogrammers.com
 
-[//]: # (Slide End }}})
+[//]: # "Slide End }}}"
 
 ---
 
-[//]: # (Slide Start {{{)
+[//]: # "Slide Start {{{"
 
 # <em>Okay</em>, what is this about?
 
@@ -77,11 +77,11 @@ fonts:
 
 </div>
 
-[//]: # (Slide End }}})
+[//]: # "Slide End }}}"
 
 ---
 
-[//]: # (Slide Start {{{)
+[//]: # "Slide Start {{{"
 
 # Why focus on Python programming?
 
@@ -128,11 +128,11 @@ What is challenging about programming in Python?
 
 </div>
 
-[//]: # (Slide End }}})
+[//]: # "Slide End }}}"
 
 ---
 
-[//]: # (Slide Start {{{)
+[//]: # "Slide Start {{{"
 
 <div class="flex row">
 
@@ -184,11 +184,11 @@ Testing, debugging, and program correctness
 
 </div>
 
-[//]: # (Slide End }}})
+[//]: # "Slide End }}}"
 
 ---
 
-[//]: # (Slide Start {{{)
+[//]: # "Slide Start {{{"
 
 <div class="flex row">
 
@@ -240,11 +240,11 @@ There are many other great packages and tools!
 
 </div>
 
-[//]: # (Slide End }}})
+[//]: # "Slide End }}}"
 
 ---
 
-[//]: # (Slide Start {{{)
+[//]: # "Slide Start {{{"
 
 <div class="ml-8 grid grid-cols-2 gap-19">
 <div>
@@ -258,9 +258,9 @@ There are many other great packages and tools!
   }
 </style>
 
-- *Annotations* : assign types to functions accepting arguments
-- *Productivity* : types aid in the creation of the interface
-- *Checking* : confirm that inputs match expected types
+- _Annotations_ : assign types to functions accepting arguments
+- _Productivity_ : types aid in the creation of the interface
+- _Checking_ : confirm that inputs match expected types
 
 </div>
 
@@ -270,9 +270,9 @@ There are many other great packages and tools!
 
 # Poetry
 
-- *Environments* : manage dependencies in isolation
-- *Package* : create a stand-alone executable application
-- *Publish* : expedite and simplify the release of program to PyPI
+- _Environments_ : manage dependencies in isolation
+- _Package_ : create a stand-alone executable application
+- _Publish_ : expedite and simplify the release of program to PyPI
 
 </div>
 
@@ -308,11 +308,11 @@ Adjust to the challenge of adding type annotations
 
 </div>
 
-[//]: # (Slide End }}})
+[//]: # "Slide End }}}"
 
 ---
 
-[//]: # (Slide Start {{{)
+[//]: # "Slide Start {{{"
 
 <div class="flex row">
 
@@ -348,11 +348,11 @@ Sure, but what can go wrong?
 
 </v-clicks>
 
-[//]: # (Slide End }}})
+[//]: # "Slide End }}}"
 
 ---
 
-[//]: # (Slide Start {{{)
+[//]: # "Slide Start {{{"
 
 <div class="flex row">
 
@@ -404,39 +404,40 @@ Runs to completion and produces (correct?) output
 
 </div>
 
-[//]: # (Slide End }}})
+[//]: # "Slide End }}}"
 
 ---
 
-[//]: # (Slide Start {{{)
+[//]: # "Slide Start {{{"
 
 # A First Look at the Python Language
 
 <v-clicks>
 
 - Python is a general purpose programming language with support for **variables**,
-**conditional logic**, **iteration**, **recursion**, **functions**, and **classes**!
+  **conditional logic**, **iteration**, **recursion**, **functions**, and **classes**!
 
 - How can we describe the Python language?
-    - High-level language
-    - Scripting language
-    - Object-oriented language
-    - Functional programming language
-    - Procedural programming language
-    - "Second best" programming language
+
+  - High-level language
+  - Scripting language
+  - Object-oriented language
+  - Functional programming language
+  - Procedural programming language
+  - "Second best" programming language
 
 - VSCode provides support for Python through **syntax highlighting**, **source code
-formatting**, **linting**, **testing**, ... and many more tasks!
+  formatting**, **linting**, **testing**, ... and many more tasks!
 
 - What are some of the **tools** that provide the features highlighted in bold?
 
 </v-clicks>
 
-[//]: # (Slide End }}})
+[//]: # "Slide End }}}"
 
 ---
 
-[//]: # (Slide Start {{{)
+[//]: # "Slide Start {{{"
 
 # Python Programming Constructs
 
@@ -444,13 +445,13 @@ formatting**, **linting**, **testing**, ... and many more tasks!
 
 - Key components of the Python programming segments
 
-    -   Function calls
-    -   Assignment statements
-    -   Iteration constructs
-    -   Conditional logic
-    -   Variable creation
-    -   Variable computations
-    -   Variable output
+  - Function calls
+  - Assignment statements
+  - Iteration constructs
+  - Conditional logic
+  - Variable creation
+  - Variable computations
+  - Variable output
 
 - Make sure that you can find all of these components in Python source code!
 
@@ -464,11 +465,11 @@ Let's study some source code examples!
 
 </div>
 
-[//]: # (Slide End }}})
+[//]: # "Slide End }}}"
 
 ---
 
-[//]: # (Slide Start {{{)
+[//]: # "Slide Start {{{"
 
 # Python Script for Average Computation
 
@@ -489,11 +490,11 @@ print(sum/count)
 
 <br>
 
-<v-clicks>
+<v-clicks >
 
-<p class = "bold">
+<div class = "bold -mt-2">
 What are the contents of the <code>observations</code> file?
-</p>
+</div>
 
 <p class = "bold">
 What is the purpose of the <code>for line in file</code> statement?
@@ -501,11 +502,26 @@ What is the purpose of the <code>for line in file</code> statement?
 
 </v-clicks>
 
-[//]: # (Slide End }}})
+[//]: # "Slide End }}}"
 
 ---
 
-[//]: # (Slide Start {{{)
+[//]: # "Slide Start {{{"
+
+# Programming Warmup
+
+<iframe
+  src="https://proactiveprogrammers.com/live/repl/index.html?kernel=python&code=sum = 0%0Acount = 0%0Aprint(sum)%0Aprint(count)"
+  width="100%"
+  height="90%"
+  style="border: 1px solid darkgrey;"
+></iframe>
+
+[//]: # "Slide End }}}"
+
+---
+
+[//]: # "Slide Start {{{"
 
 <div class="flex row">
 
@@ -522,7 +538,8 @@ Let's run this code to understand it better!
 <mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
 
 <div class="text-3xl font-bold mt-10 ml-4">
-Visit the <a href = "https://proactiveprogrammers.com/live">Proactive Programmers Live</a> site!
+Find the file in <a href = "https://proactiveprogrammers.com/live">Jupyter Lite</a> or
+<a href = "https://githubtocolab.com/ProactiveProgrammers/www.proactiveprogrammers.com">Google Colab</a>!
 </div>
 
 </div>
@@ -557,11 +574,11 @@ Run+Study <code>compute-average-with-file.ipynb</code>
 
 </div>
 
-[//]: # (Slide End }}})
+[//]: # "Slide End }}}"
 
 ---
 
-[//]: # (Slide Start {{{)
+[//]: # "Slide Start {{{"
 
 # Python Function without Annotations
 
@@ -584,9 +601,9 @@ def extract_urls(df):
 
 <v-clicks>
 
-<p class = "bold">
+<div class = "bold -mt-2">
 What is the type of <code>df</code> ? The terrible docstring does not say!
-</p>
+</div>
 
 <p class = "bold">
 What is the behavior of <code>return urls</code> in this function?
@@ -594,11 +611,11 @@ What is the behavior of <code>return urls</code> in this function?
 
 </v-clicks>
 
-[//]: # (Slide End }}})
+[//]: # "Slide End }}}"
 
 ---
 
-[//]: # (Slide Start {{{)
+[//]: # "Slide Start {{{"
 
 # Python Function with Annotations
 
@@ -621,9 +638,9 @@ def extract_urls(df: pandas.DataFrame) -> List[str]:
 
 <v-clicks>
 
-<p class = "bold">
+<div class = "bold -mt-2">
 What is the purpose of <code>df: pandas.DataFrame</code> ?
-</p>
+</div>
 
 <p class = "bold">
 How does <code>List[str]</code> describe output of <code>extract_urls</code> ?
@@ -631,11 +648,11 @@ How does <code>List[str]</code> describe output of <code>extract_urls</code> ?
 
 </v-clicks>
 
-[//]: # (Slide End }}})
+[//]: # "Slide End }}}"
 
 ---
 
-[//]: # (Slide Start {{{)
+[//]: # "Slide Start {{{"
 
 # Is a Number Even or Odd?
 
@@ -660,17 +677,17 @@ print(f"The number of {number} is {response}!")
 
 <v-clicks>
 
-<div class = "bold mt-2">
+<div class = "bold -mt-3">
 How is this <b>different</b> than the code segment in the book?
 </div>
 
 </v-clicks>
 
-[//]: # (Slide End }}})
+[//]: # "Slide End }}}"
 
 ---
 
-[//]: # (Slide Start {{{)
+[//]: # "Slide Start {{{"
 
 <div class="flex row">
 
@@ -687,7 +704,8 @@ Let's run this code to understand it better!
 <mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
 
 <div class="text-3xl font-bold mt-10 ml-4">
-Visit the <a href = "https://proactiveprogrammers.com/live">Proactive Programmers Live</a> site!
+Find the file in <a href = "https://proactiveprogrammers.com/live">Jupyter Lite</a> or
+<a href = "https://githubtocolab.com/ProactiveProgrammers/www.proactiveprogrammers.com">Google Colab</a>!
 </div>
 
 </div>
@@ -722,11 +740,11 @@ Run+Study <code>determine-number-status.ipynb</code>
 
 </div>
 
-[//]: # (Slide End }}})
+[//]: # "Slide End }}}"
 
 ---
 
-[//]: # (Slide Start {{{)
+[//]: # "Slide Start {{{"
 
 # Squaring an Integer &mdash; Well, Kinda! 😉
 
@@ -741,7 +759,6 @@ def compute_square(value: int) -> int:
         answer = answer + value
         num_iterations = num_iterations + 1
     return answer
-
 value = 3
 value_squared = compute_square(value)
 print(f"{value} * {value} = {value_squared}")
@@ -749,7 +766,7 @@ print(f"{value} * {value} = {value_squared}")
 
 </div>
 
-[//]: # (Slide End }}})
+[//]: # "Slide End }}}"
 
 ---
 
@@ -773,11 +790,11 @@ print(f"{value} * {value} = {value_squared}")
 
 </div>
 
-[//]: # (Slide End }}})
+[//]: # "Slide End }}}"
 
 ---
 
-[//]: # (Slide Start {{{)
+[//]: # "Slide Start {{{"
 
 <div class="flex row">
 
@@ -794,7 +811,8 @@ Let's run this code to understand it better!
 <mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
 
 <div class="text-3xl font-bold mt-10 ml-4">
-Visit the <a href = "https://proactiveprogrammers.com/live">Proactive Programmers Live</a> site!
+Find the file in <a href = "https://proactiveprogrammers.com/live">Jupyter Lite</a> or
+<a href = "https://githubtocolab.com/ProactiveProgrammers/www.proactiveprogrammers.com">Google Colab</a>!
 </div>
 
 </div>
@@ -829,11 +847,11 @@ Run+Study <code>compute-integer-square.ipynb</code>
 
 </div>
 
-[//]: # (Slide End }}})
+[//]: # "Slide End }}}"
 
 ---
 
-[//]: # (Slide Start {{{)
+[//]: # "Slide Start {{{"
 
 # Python Programming Constructs ♻
 
@@ -841,13 +859,13 @@ Run+Study <code>compute-integer-square.ipynb</code>
 
 - Key components of the Python programming segments
 
-    -   Function calls
-    -   Assignment statements
-    -   Iteration constructs
-    -   Conditional logic
-    -   Variable creation
-    -   Variable computations
-    -   Variable output
+  - Function calls
+  - Assignment statements
+  - Iteration constructs
+  - Conditional logic
+  - Variable creation
+  - Variable computations
+  - Variable output
 
 - Make sure that you can find all of these components in Python source code!
 
@@ -861,11 +879,11 @@ Questions about the Python source code?
 
 </div>
 
-[//]: # (Slide End }}})
+[//]: # "Slide End }}}"
 
 ---
 
-[//]: # (Slide Start {{{)
+[//]: # "Slide Start {{{"
 
 <div class="flex row">
 
@@ -917,35 +935,50 @@ Serve as input and output of a function
 
 </div>
 
-[//]: # (Slide End }}})
+[//]: # "Slide End }}}"
 
 ---
 
-[//]: # (Slide Start {{{)
+[//]: # "Slide Start {{{"
 
 # Variables in Python Programs
 
 <v-clicks>
 
--   Variables in Python have values, types, and names
+- Variables in Python have values, types, and names
 
--   A function can manipulate a variable using operators
+- A function can manipulate a variable using operators
 
-    -   The `+` symbol denotes addition and concatenation
+  - The `+` symbol denotes addition and concatenation
 
-    -   The `-,*,/` symbols denotes have standard meanings
+  - The `-,*,/` symbols denotes have standard meanings
 
-    -   The `+=` symbol denotes addition and assignment
+  - The `+=` symbol denotes addition and assignment
 
-    -   The `%` symbol denotes modular arithmetic for a remainder
+  - The `%` symbol denotes modular arithmetic for a remainder
 
--   **Variable Types**: The `type(a)` returns the type of `a`
+- **Variable Types**: The `type(a)` returns the type of `a`
 
--   **Type Changing**: `int(a)` transforms variable `a` into an integer type
+- **Type Changing**: `int(a)` transforms variable `a` into an integer type
 
 </v-clicks>
 
-[//]: # (Slide End }}})
+[//]: # "Slide End }}}"
+
+---
+
+[//]: # "Slide Start {{{"
+
+# Programming Warmup
+
+<iframe
+  src="https://proactiveprogrammers.com/live/repl/index.html?kernel=python&code=count_one = 2%0Acount_two = 10%0Acount = count_one %2b count_two%0Aprint(count)"
+  width="100%"
+  height="90%"
+  style="border: 1px solid darkgrey;"
+></iframe>
+
+[//]: # "Slide End }}}"
 
 ---
 
@@ -989,11 +1022,11 @@ KeyboardInterrupt
 
 - How do these **limitations** influence the tasks of programmers?
 
-[//]: # (Slide End }}})
+[//]: # "Slide End }}}"
 
 ---
 
-[//]: # (Slide Start {{{)
+[//]: # "Slide Start {{{"
 
 # Comparing Variables in Python
 
@@ -1039,11 +1072,26 @@ True
 
 - How does this **match** and **diverge** from your intuition?
 
-[//]: # (Slide End }}})
+[//]: # "Slide End }}}"
 
 ---
 
-[//]: # (Slide Start {{{)
+[//]: # "Slide Start {{{"
+
+# Programming Warmup
+
+<iframe
+  src="https://proactiveprogrammers.com/live/repl/index.html?kernel=python&code=print(2**2**8) %0Aprint(0.3333 %2B 0.3333 %2B 0.3333 == 1)%0Aprint(1%2F3 %2B  1%2F3 %2B 1%2F3 == 1)"
+  width="100%"
+  height="90%"
+  style="border: 1px solid darkgrey;"
+></iframe>
+
+[//]: # "Slide End }}}"
+
+---
+
+[//]: # "Slide Start {{{"
 
 <div class="flex row">
 
@@ -1060,7 +1108,8 @@ Let's run this code to understand it better!
 <mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
 
 <div class="text-3xl font-bold mt-10 ml-4">
-Visit the <a href = "https://proactiveprogrammers.com/live">Proactive Programmers Live</a> site!
+Find the file in <a href = "https://proactiveprogrammers.com/live">Jupyter Lite</a> or
+<a href = "https://githubtocolab.com/ProactiveProgrammers/www.proactiveprogrammers.com">Google Colab</a>!
 </div>
 
 </div>
@@ -1095,11 +1144,11 @@ Run+Study <code>explore-python-variables.ipynb</code>
 
 </div>
 
-[//]: # (Slide End }}})
+[//]: # "Slide End }}}"
 
 ---
 
-[//]: # (Slide Start {{{)
+[//]: # "Slide Start {{{"
 
 <div class="flex row">
 
@@ -1151,11 +1200,11 @@ Avoid program defects and follow conventions
 
 </div>
 
-[//]: # (Slide End }}})
+[//]: # "Slide End }}}"
 
 ---
 
-[//]: # (Slide Start {{{)
+[//]: # "Slide Start {{{"
 
 # Investigating Foundations of Python
 
@@ -1164,22 +1213,22 @@ Avoid program defects and follow conventions
 
 <v-clicks>
 
--   Implementing programs in the Python language:
+- Implementing programs in the Python language:
 
-    -   **Q1**: What is the **syntax** of a programming language?
+  - **Q1**: What is the **syntax** of a programming language?
 
-    -   **Q2**: What are the **semantics** of a programming language?
+  - **Q2**: What are the **semantics** of a programming language?
 
-    -   **Q3**: What are some **best practices** for Python programming?
+  - **Q3**: What are some **best practices** for Python programming?
 
-    -   **Q4**: What is a **reserved word** in the Python language?
+  - **Q4**: What is a **reserved word** in the Python language?
 
-    -   **Q5**: How does the Python language perform **type checking**?
+  - **Q5**: How does the Python language perform **type checking**?
 
--   How do you pick between the `for` and `while` loop?
+- How do you pick between the `for` and `while` loop?
 
--   Don't forget to find the defect in the `compute_square` function!
+- Don't forget to find the defect in the `compute_square` function!
 
 </v-clicks>
 
-[//]: # (Slide End }}})
+[//]: # "Slide End }}}"

@@ -1,6 +1,6 @@
-@import 'prism-theme-vars/base.css';
-@import 'codemirror-theme-vars/base.css';
-@import 'prism-theme-vars/to-codemirror.css';
+@import "prism-theme-vars/base.css";
+@import "codemirror-theme-vars/base.css";
+@import "prism-theme-vars/to-codemirror.css";
 
 :root {
   --prism-font-family: var(--slidev-code-font-family);
@@ -8,22 +8,22 @@
 
 html:not(.dark) {
   --prism-foreground: #212121;
-  --prism-background: #E0E0E0;
-  --prism-comment: #9E9E9E;
-  --prism-string: #43A047;
-  --prism-literal: #039BE5;
-  --prism-keyword: #5E35B1;
-  --prism-boolean: #039BE5;
-  --prism-number: #D81B60;
+  --prism-background: #e0e0e0;
+  --prism-comment: #9e9e9e;
+  --prism-string: #43a047;
+  --prism-literal: #039be5;
+  --prism-keyword: #5e35b1;
+  --prism-boolean: #039be5;
+  --prism-number: #d81b60;
   --prism-variable: #d19a66;
-  --prism-function: #1E88E5;
+  --prism-function: #1e88e5;
   --prism-deleted: #a14f55;
   --prism-class: #c18401;
-  --prism-builtin: #F4511E;
+  --prism-builtin: #f4511e;
   --prism-property: #986801;
   --prism-namespace: #db889a;
   --prism-punctuation: #212121;
-  --prism-decorator: #00897B;
+  --prism-decorator: #00897b;
   --prism-regex: #50a14f;
   --prism-selector: #50a14f;
   --prism-important: #61aeee;
@@ -59,8 +59,14 @@ html.dark {
   --prism-selection-background: #444444;
 }
 
-pre[class*='language-'] {
+pre[class*="language-"] {
   @apply p-2;
+}
+
+.slidev-layout pre {
+  display: inline-block !important;
+  margin-right: 0.1em;
+  font-size: 1em;
 }
 
 :not(pre) > code {
@@ -71,14 +77,9 @@ pre[class*='language-'] {
 
 :not(pre) > code:before,
 :not(pre) > code:after {
-  content: '';
-  opacity: 0.50;
+  content: "";
+  opacity: 0.5;
 }
-
-/* :not(pre) > code:before { */
-/*   margin-left: .05em; */
-/*   margin-right: .15em; */
-/* } */
 
 .token.important {
   color: var(--prism-important);

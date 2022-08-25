@@ -419,9 +419,9 @@ else:
 
 <v-clicks>
 
-<p class = "bold">
+<div class = "bold -mt-3">
 What are the <b>downsides</b> of this approach to primality testing?
-</p>
+</div>
 
 </v-clicks>
 
@@ -528,7 +528,8 @@ Let's explore this function with Python!
 <mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
 
 <div class="text-3xl font-bold mt-10 ml-4">
-Visit the <a href = "https://proactiveprogrammers.com/live">Proactive Programmers Live</a> site!
+Find the file in <a href = "https://proactiveprogrammers.com/live">Jupyter Lite</a> or
+<a href = "https://githubtocolab.com/ProactiveProgrammers/www.proactiveprogrammers.com">Google Colab</a>!
 </div>
 
 </div>
@@ -541,7 +542,7 @@ Visit the <a href = "https://proactiveprogrammers.com/live">Proactive Programmer
 
 <mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
 
-<div class="text-3xl font-bold mt-10 ml-1">
+<div class="text-3xl font-bold mt-10 ml-4">
 Go to the <code>function-scope/</code> directory
 </div>
 
@@ -657,6 +658,21 @@ Higher-order functions can accept and call functions as their input! What is the
 
 ---
 
+[//]: # "Slide Start {{{"
+
+# Programming Warmup
+
+<iframe
+  src="https://proactiveprogrammers.com/live/repl/index.html?kernel=python&code=%64%65%66+%73%71%75%61%72%65%28%6e%75%6d%62%65%72%3a+%69%6e%74%29%3a%0a++++%70%72%69%6e%74%28%66%22%43%61%6c%6c%65%64+%73%71%75%61%72%65%28%7b%6e%75%6d%62%65%72%7d%29%22%29%0a++++%70%72%69%6e%74%28%66%22++%72%65%74%75%72%6e%69%6e%67+%7b%6e%75%6d%62%65%72%2a%6e%75%6d%62%65%72%7d%22%29%0a++++%72%65%74%75%72%6e+%6e%75%6d%62%65%72+%2a+%6e%75%6d%62%65%72%0a%0a%64%65%66+%63%61%6c%6c%5f%74%77%69%63%65%28%66%2c+%6e%75%6d%62%65%72%3a+%69%6e%74%29%3a%0a++++%70%72%69%6e%74%28%66%22%43%61%6c%6c%69%6e%67+%74%77%69%63%65+%7b%66%7d+%77%69%74%68+%6e%75%6d%62%65%72+%7b%6e%75%6d%62%65%72%7d%22%29%0a++++%72%65%74%75%72%6e+%66%28%66%28%6e%75%6d%62%65%72%29%29%0a"
+  width="100%"
+  height="90%"
+  style="border: 1px solid darkgrey;"
+></iframe>
+
+[//]: # "Slide End }}}"
+
+---
+
 [//]: # (Slide Start {{{)
 
 <div class="flex row">
@@ -730,7 +746,8 @@ Let's run higher-order functions in Python!
 <mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
 
 <div class="text-3xl font-bold mt-10 ml-4">
-Visit the <a href = "https://proactiveprogrammers.com/live">Proactive Programmers Live</a> site!
+Find the file in <a href = "https://proactiveprogrammers.com/live">Jupyter Lite</a> or
+<a href = "https://githubtocolab.com/ProactiveProgrammers/www.proactiveprogrammers.com">Google Colab</a>!
 </div>
 
 </div>
@@ -743,7 +760,7 @@ Visit the <a href = "https://proactiveprogrammers.com/live">Proactive Programmer
 
 <mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
 
-<div class="text-3xl font-bold mt-10 ml-1">
+<div class="text-3xl font-bold mt-10 ml-4">
 Go to the <code>function-scope/</code> directory
 </div>
 
@@ -802,6 +819,22 @@ What is the benefit?
 </div>
 
 [//]: # (Slide End }}})
+
+---
+
+[//]: # "Slide Start {{{"
+
+# Programming Warmup
+
+<iframe
+  src="https://proactiveprogrammers.com/live/repl/index.html?kernel=python&code=%64%65%66+%63%61%6c%6c%5f%74%77%69%63%65%28%66%2c+%6e%75%6d%62%65%72%3a+%69%6e%74%29%3a%0a++++%70%72%69%6e%74%28%66%22%43%61%6c%6c%69%6e%67+%74%77%69%63%65+%7b%66%7d+%77%69%74%68+%6e%75%6d%62%65%72+%7b%6e%75%6d%62%65%72%7d%22%29%0a++++%72%65%74%75%72%6e+%66%28%66%28%6e%75%6d%62%65%72%29%29%0a%0a%73%71%75%61%72%65%5f%6c%61%6d%62%64%61+%3d+%6c%61%6d%62%64%61+%78%3a+%78%2a%78%0a%0a%6e%75%6d%62%65%72+%3d+%35%0a%72%65%73%75%6c%74+%3d+%63%61%6c%6c%5f%74%77%69%63%65%28%73%71%75%61%72%65%5f%6c%61%6d%62%64%61%2c+%6e%75%6d%62%65%72%29%0a%0a%70%72%69%6e%74%28%22%43%61%6c%6c%69%6e%67+%74%68%65+%73%71%75%61%72%65+%6c%61%6d%62%64%61+%74%77%69%63%65+%77%69%74%68+%22+%2b%0a++++++++%73%74%72%28%6e%75%6d%62%65%72%29+%2b+%22+%69%73+%22+%2b+%73%74%72%28%72%65%73%75%6c%74%29%29%0a%70%72%69%6e%74%28%29%0a"
+  width="100%"
+  height="90%"
+  style="border: 1px solid darkgrey;"
+></iframe>
+
+[//]: # "Slide End }}}"
+
 
 ---
 
@@ -878,7 +911,8 @@ Let's explore lambda expressions in Python!
 <mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
 
 <div class="text-3xl font-bold mt-10 ml-4">
-Visit the <a href = "https://proactiveprogrammers.com/live">Proactive Programmers Live</a> site!
+Find the file in <a href = "https://proactiveprogrammers.com/live">Jupyter Lite</a> or
+<a href = "https://githubtocolab.com/ProactiveProgrammers/www.proactiveprogrammers.com">Google Colab</a>!
 </div>
 
 </div>
@@ -891,7 +925,7 @@ Visit the <a href = "https://proactiveprogrammers.com/live">Proactive Programmer
 
 <mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
 
-<div class="text-3xl font-bold mt-10 ml-1">
+<div class="text-3xl font-bold mt-10 ml-4">
 Go to the <code>function-scope/</code> directory
 </div>
 
