@@ -92,7 +92,10 @@
 
 - Chapter 4 of *Introduction to Computation and Programming Using Python*
 - Check out the [course slides](/slides/data-abstraction/function-scope/) for a detailed investigation of these chapters!
-- Go to the `data-abstraction/function-scope/` directory on [Proactive Programmers Live](https://proactiveprogrammers.com/live/) and investigate all of the Python programs!
+- Run the Jupyter notebooks in `data-abstraction/function-scope/` with:
+    - :material-language-python: [Jupyter Lite](https://proactiveprogrammers.com/live/)
+    - :material-google: [Google Colab](https://githubtocolab.com/ProactiveProgrammers/www.proactiveprogrammers.com)
+        - :material-notebook-edit-outline: [Explore Higher-Order Functions](https://githubtocolab.com/ProactiveProgrammers/www.proactiveprogrammers.com/blob/master/files/data-abstraction/function-scope/explore-higher-order-functions.ipynb){:target="_blank"}
 
 ???+ note "Technical Concepts"
 
