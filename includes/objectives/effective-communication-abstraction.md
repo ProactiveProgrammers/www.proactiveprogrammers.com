@@ -1,6 +1,16 @@
 A person learning data abstraction with the mindset of a proactive programmer
 will be able to demonstrate mastery of the following technology-mediated
-communication skills:
+learning skills:
+
+- Follow a systematic process when using resources to implement Python programs:
+    - After detecting an error in a Python program through the use of tools like
+      [GatorGrader](https://github.com/GatorEducator/gatorgrader) or
+      [Pytest](https://docs.pytest.org/), develop a satisfactory understanding
+      of the problem and then search sites like [Stack
+      Overflow](https://stackoverflow.com/) for potential solutions.
+    - After evaluating suggested solutions to a programming problem on sites
+      like [Stack Overflow](https://stackoverflow.com/), develop a way to fix an
+      error in a Python program.
 
 - Use [Discord](https://discord.com/) to effectively communicate about
   technology in the following fashion:
