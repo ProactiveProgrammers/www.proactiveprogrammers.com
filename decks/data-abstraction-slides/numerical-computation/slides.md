@@ -360,9 +360,9 @@ else:
 
 <v-clicks>
 
-<p class = "bold">
+<div class = "bold -mt-2">
 What is the purpose of the <code>range(2, x)</code> function call?
-</p>
+</div>
 
 </v-clicks>
 
@@ -570,7 +570,7 @@ Run+Add <code>perform-primality-testing.ipynb</code>
 
 # Exhaustive Square Root Computation
 
-<div class="ml-1">
+<div class="ml-1 -mt-3">
 
 ```python {all|1|2|3-4|5-7|8|9-11|all}
 epsilon = 0.01
@@ -709,7 +709,7 @@ Repeat process until have an approximate solution
 
 # Bisection Square Root Computation
 
-<div class="ml-1">
+<div class="ml-0 -mt-3">
 
 ```python {all|1-3|4-5|6-7|8-9|10-11|12|all}
 epsilon = 0.01
@@ -858,7 +858,7 @@ numbers = [5,1,7,99,4]
 print(str(compute_mean(numbers)))
 ```
 
-<div class="mt-8">
+<div class = "bold -mt-2">
 
 - How do we compute the **mean** of a list of numbers?
 
