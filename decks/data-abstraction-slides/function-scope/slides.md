@@ -541,7 +541,7 @@ Visit the <a href = "https://proactiveprogrammers.com/live">Proactive Programmer
 
 <mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
 
-<div class="text-3xl font-bold mt-10 ml-1">
+<div class="text-3xl font-bold mt-10 ml-4">
 Go to the <code>function-scope/</code> directory
 </div>
 
@@ -743,7 +743,7 @@ Visit the <a href = "https://proactiveprogrammers.com/live">Proactive Programmer
 
 <mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
 
-<div class="text-3xl font-bold mt-10 ml-1">
+<div class="text-3xl font-bold mt-10 ml-4">
 Go to the <code>function-scope/</code> directory
 </div>
 
@@ -891,7 +891,7 @@ Visit the <a href = "https://proactiveprogrammers.com/live">Proactive Programmer
 
 <mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
 
-<div class="text-3xl font-bold mt-10 ml-1">
+<div class="text-3xl font-bold mt-10 ml-4">
 Go to the <code>function-scope/</code> directory
 </div>
 
