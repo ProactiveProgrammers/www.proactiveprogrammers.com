@@ -732,6 +732,21 @@ while abs(answer**2 - x) >= epsilon:
 
 ---
 
+[//]: # "Slide Start {{{"
+
+# Programming Warmup
+
+<iframe
+  src="https://proactiveprogrammers.com/live/repl/index.html?kernel=python&code=%65%70%73%69%6c%6f%6e+%3d+%30%2e%30%31%0a%73%74%65%70+%3d+%65%70%73%69%6c%6f%6e%2a%2a%32%0a%6e%75%6d%5f%67%75%65%73%73%65%73%2c+%6c%6f%77+%3d+%30%2c+%30%0a"
+  width="100%"
+  height="90%"
+  style="border: 1px solid darkgrey;"
+></iframe>
+
+[//]: # "Slide End }}}"
+
+---
+
 [//]: # (slide start {{{)
 
 <div class="flex row">
