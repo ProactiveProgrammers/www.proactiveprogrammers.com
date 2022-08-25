@@ -59,12 +59,12 @@ will be able to demonstrate mastery of the following skills in data structures:
       worst-case time complexity class.
     - Using an algorithm's worst-case time complexity, compare and contrast it
       with other algorithms that have similar and different time complexities,
-      explaining which algorithm is most appropriate depending on, for instance,
-      the likely size of a program's input.
+      explaining which algorithm is most appropriate depending on, for
+      instance, the likely size of a program's input.
     - Describe ways in which it is possible to re-design an algorithm and the
-      way in which it processes a data structure so as to improve its worst-case
-      time complexity.
-    - Explain how the algorithm exhibits trade-offs between its worst-case time
+      way in which it processes a data structure so as to improve its
+      worst-case time complexity.
+    - Explain how an algorithm exhibits trade-offs between its worst-case time
       complexity and the amount of space that it needs to store the data
       structure.
 - Given the Python-based implementation of a data structure and the algorithm
@@ -77,15 +77,15 @@ will be able to demonstrate mastery of the following skills in data structures:
       algorithm, computing the doubling ratio for execution time at each stage
       of a benchmark.
     - Use the computed doubling ratio to experimentally predict the likely
-      worst-case time complexity class to which the data structure and algorithm
-      belong.
-    - Leveraging both the likely worst-case time complexity and the experimental
-      data reported from the doubling experiment run by the benchmarking
-      framework, describe ways in which it is possible to re-design the
-      algorithm to improve its performance.
+      worst-case time complexity class to which the data structure and
+      algorithm belong.
+    - Leveraging both the likely worst-case time complexity and the
+      experimental data reported from the doubling experiment run by the
+      benchmarking framework, describe ways in which it is possible to
+      re-design the algorithm to improve its performance.
     - Using the likely worst-case time complexity and the experimental data,
-      explain how the algorithm trades-off between time efficiency and the space
-      needed for data storage.
+      explain how the algorithm trades-off between time efficiency and the
+      space needed for data storage.
 - For the implementation of a data structure and its associated algorithms in
   the Python programming language, use the results from both the analytical and
   empirical evaluation to:
