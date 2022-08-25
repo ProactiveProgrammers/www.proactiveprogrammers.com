@@ -19,4 +19,4 @@
       functions in the program.
     - Use a text editor like [VS Code](https://code.visualstudio.com/) to
       implement, test, debug, document, and manage the source code of a Python
-      program, leveraging plugins and extensions to enhance your workflow.
+      program, leveraging plugins for workflow enhancement.
