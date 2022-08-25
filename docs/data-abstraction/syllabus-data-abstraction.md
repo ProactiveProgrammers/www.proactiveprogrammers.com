@@ -111,8 +111,8 @@ These grading categories have the following definitions:
     material available in the textbook and the content covered during that
     week's in-person classroom session, the programming projects further equip a
     learner to solve new problems in the field of data abstraction by applying
-    --- in a new way --- their knowledge of the facts and techniques of data
-    abstraction and rigorous Python programming.
+    &mdash; in a new way &mdash; their knowledge of the facts and techniques of
+    data abstraction and rigorous Python programming.
 
 -   **Engineering Efforts**: These assignments invite students to explore
     different techniques for rigorously designing, implementing, evaluating, and
@@ -129,10 +129,10 @@ These grading categories have the following definitions:
 All assignments will have a stated due date shared through GitHub, GitHub
 Classroom, and Google Calendar. Electronic versions of the engineering efforts,
 programming projects, and source code surveys must be submitted to the
-instructor through a student's GitHub repository. No credit will be awarded for
-any course work that is not submitted to your GitHub repository with the
-required name. Unless special arrangements are made with the instructor, no work
-will be accepted after the published deadline.
+instructor through a student's GitHub repository created by GitHub Classroom. No
+credit will be awarded for any course work that you submit to the incorrect
+GitHub repository. Unless special arrangements are made with the instructor, no
+work will be accepted after the published assignment deadline.
 
 #### Assignment Evaluation
 
@@ -291,3 +291,13 @@ people. Moreover, the design, implementation, evaluation, and documentation of
 Python-based software are exciting and rewarding activities! The course
 instructor invites you to pursue, with great enthusiasm and vigor, this
 adventure in rigorous Python programming.
+
+???+ note
+
+    This syllabus is for learners who enrolled in a for-credit Computer Science
+    class at Allegheny College. Even though external learners are not bound by
+    the rules in this syllabus, they can rely on the team of [programming
+    experts](https://github.com/ProactiveProgrammers/www.proactiveprogrammers.com/graphs/contributors)
+    and the members of the [proactive
+    community](proactive-community/introduction-proactive-community.md) to
+    complete the projects on this web site.
