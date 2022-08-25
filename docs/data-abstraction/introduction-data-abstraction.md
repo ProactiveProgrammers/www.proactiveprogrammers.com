@@ -35,4 +35,4 @@ abstractions. Let's learn more about how to confidently create complex software!
     by [John V. Guttag](https://people.csail.mit.edu/guttag/). Even though you
     must purchase this textbook, all of the supporting materials on this site
     are available for free. Please stay tuned as future versions of this course
-    will leverage a free and open-access textbook.
+    will leverage a free and open-access textbook!
