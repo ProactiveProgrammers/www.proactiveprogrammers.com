@@ -108,21 +108,20 @@ These grading categories have the following definitions:
     web site.
 
 -   **Programming Projects**: Graded on a checkmark basis and building on
-    material in the textbook and on the course web site, the content covered
-    during that week's in-person classroom session, and the source code surveys,
-    the programming projects further equip a learner to solve new problems in
-    the field of data abstraction by applying --- in a new way --- their
-    knowledge of the facts, techniques, and rules of data abstraction and
-    rigorous Python programming.
+    material available in the textbook and the content covered during that
+    week's in-person classroom session, the programming projects further equip a
+    learner to solve new problems in the field of data abstraction by applying
+    --- in a new way --- their knowledge of the facts and techniques of data
+    abstraction and rigorous Python programming.
 
 -   **Engineering Efforts**: These assignments invite students to explore
     different techniques for rigorously designing, implementing, evaluating, and
-    documenting real-world Python programs. These assignments will invite
-    students to use tools like a text editor, a terminal window, and a modern
-    Python development environment to implement functions that strike the right
-    balance between understandability, generalizability, and specialization.
-    Students will also use the data collected from running experiments to
-    evaluate the implementation of a Python function as they consider, for
+    documenting real-world Python programs. These assignments invite students to
+    use tools like a text editor, a terminal window, and a modern Python
+    development environment to implement functions that strike the right balance
+    between understandability, generalizability, and specialization. Students
+    will also use the data collected from running experiments to evaluate the
+    implementation of a Python function as they consider trade-offs between, for
     instance, its efficiency and correctness.
 
 #### Assignment Submission
