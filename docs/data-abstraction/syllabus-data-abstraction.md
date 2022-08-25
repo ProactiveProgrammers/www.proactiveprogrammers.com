@@ -1,6 +1,6 @@
 # Course Syllabus
 
-## Computer Science 101 Spring 2022
+## Computer Science 101 Fall 2022
 
 ### Course Instructor
 
@@ -9,11 +9,12 @@
 
 ### Instructor Office Hours
 
--   Monday: 1:00 PM-3:00 PM, Alden Hall, 15 minute time slots
--   Tuesday: 5:00 PM-5:30 PM, Alden Hall, 15 minute time slots
--   Wednesday: 5:00 PM-5:30 PM, Alden Hall, 15 minute time slots
--   Thursday: 1:00 PM-3:00 PM, Alden Hall, 15 minute time slots
--   Friday: 1:00 PM-2:00 PM, Alden Hall, 15 minute time slots
+- Monday: 10:00 AM-11:00 AM, Alden Hall, 15 minute time slots
+- Monday: 1:00 PM-2:00 PM, Alden Hall, 15 minute time slots
+- Tuesday: 10:00 AM-12 PM, Alden Hall, 15 minute time slots
+- Wednesday: 4:30 PM-5:00 PM, Alden Hall, 15 minute time slots
+- Thursday: 10:00 AM-12 PM, Alden Hall, 15 minute time slots
+- Friday: 4:30 PM-5:00 PM, Alden Hall, 15 minute time slots
 
 ???+ note "Scheduling Office Hours"
 
