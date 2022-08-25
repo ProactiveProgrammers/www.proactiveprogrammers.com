@@ -85,33 +85,35 @@ These grading categories have the following definitions:
 
 -   **Midterm Examination**: The midterm is an online cumulative assessment
     covering all of the material from the class, programming, and laboratory
-    sessions, as outlined on the review sheet. Unless prior arrangements are
+    sessions, as outlined on the course schedule. Unless prior arrangements are
     made with the course instructor, all students will be expected to use their
     computer to take this test on the scheduled date and complete the test in
     the stated period of time.
 
 -   **Final Examination**: The final is an online cumulative assessment covering
     all of the material from the class, programming, and laboratory sessions, as
-    outlined on the review sheet. Unless prior arrangements are made with the
+    outlined on the course schedule. Unless prior arrangements are made with the
     course instructor, all students will be expected to use their computer to
     take this test on the scheduled date and complete the test in the stated
     period of time.
 
 -   **Source Code Surveys**: Graded on a checkmark basis and building on
-    material in the textbook and the content covered during that day's in-person
-    classroom session, technical challenges have the following goals: (i) help a
-    learner to demonstrate that they can remember learned material by recalling
-    facts, basic concepts, and answers to questions presented in the textbook
-    and (ii) allow a learner to demonstrate an understanding of facts and ideas
-    by translating, interpreting, and stating the main technical ideas presented
-    in the textbook.
+    material in the textbook and the content covered during that week's
+    in-person classroom sessions, source code surveys have the following goals:
+    (i) help a learner to demonstrate that they can remember learned material by
+    recalling facts, basic concepts, and answers to questions presented in the
+    textbook and on the course web site and (ii) allow a learner to demonstrate
+    an understanding of facts and ideas by translating, interpreting, and
+    stating the main technical ideas presented in the textbook and course web
+    site.
 
 -   **Programming Projects**: Graded on a checkmark basis and building on
-    material in the textbook, the content covered during that week's in-person
-    classroom session, and the weekly technical challenges, the programming
-    projects further equip a learner to solve new problems in the field of data
-    abstraction by applying --- in a new way --- their knowledge of the facts,
-    techniques, and rules of data abstraction and rigorous Python programming.
+    material in the textbook and on the course web site, the content covered
+    during that week's in-person classroom session, and the source code surveys,
+    the programming projects further equip a learner to solve new problems in
+    the field of data abstraction by applying --- in a new way --- their
+    knowledge of the facts, techniques, and rules of data abstraction and
+    rigorous Python programming.
 
 -   **Engineering Efforts**: These assignments invite students to explore
     different techniques for rigorously designing, implementing, evaluating, and
