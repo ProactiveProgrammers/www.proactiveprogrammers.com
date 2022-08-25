@@ -104,8 +104,8 @@ These grading categories have the following definitions:
     recalling facts, basic concepts, and answers to questions presented in the
     textbook and on the course web site and (ii) allow a learner to demonstrate
     an understanding of facts and ideas by translating, interpreting, and
-    stating the main technical ideas presented in the textbook and course web
-    site.
+    stating the main technical ideas presented through the textbook and course
+    web site.
 
 -   **Programming Projects**: Graded on a checkmark basis and building on
     material in the textbook and on the course web site, the content covered
