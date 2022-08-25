@@ -419,9 +419,9 @@ else:
 
 <v-clicks>
 
-<p class = "bold">
+<div class = "bold -mt-3">
 What are the <b>downsides</b> of this approach to primality testing?
-</p>
+</div>
 
 </v-clicks>
 
