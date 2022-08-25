@@ -116,7 +116,7 @@ will be able to demonstrate mastery of the following programming skills:
 
 --8<-- "includes/objectives/version-control.md"
 
-## Effective Communication
+## Effective Learning
 
 --8<-- "includes/objectives/effective-communication-abstraction.md"
 
