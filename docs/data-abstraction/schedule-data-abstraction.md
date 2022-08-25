@@ -96,6 +96,7 @@
     - :material-language-python: [Jupyter Lite](https://proactiveprogrammers.com/live/)
     - :material-google: [Google Colab](https://githubtocolab.com/ProactiveProgrammers/www.proactiveprogrammers.com)
         - :material-notebook-edit-outline: [Explore Higher-Order Functions](https://githubtocolab.com/ProactiveProgrammers/www.proactiveprogrammers.com/blob/master/files/data-abstraction/function-scope/explore-higher-order-functions.ipynb){:target="_blank"}
+        - :material-notebook-edit-outline: [Explore Lambda Expressions](https://githubtocolab.com/ProactiveProgrammers/www.proactiveprogrammers.com/blob/master/files/data-abstraction/function-scope/explore-lambda-expressions.ipynb){:target="_blank"}
 
 ???+ note "Technical Concepts"
 
