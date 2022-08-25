@@ -43,4 +43,5 @@
     - Jupyter notebooks run through either [Jupyter
       Lite](https://proactiveprogrammers.com/live/) or [Google
       Colab](https://githubtocolab.com/ProactiveProgrammers/www.proactiveprogrammers.com).
-    - Python code segments run in a read-eval-print loop (REPL) on Jupyter Lite.
+    - Python code segments run in a read-eval-print loop (REPL) on [Jupyter
+      Lite](https://proactiveprogrammers.com/live/).
