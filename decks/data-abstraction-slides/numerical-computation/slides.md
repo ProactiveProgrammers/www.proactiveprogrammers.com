@@ -541,7 +541,7 @@ Find the file in <a href = "https://proactiveprogrammers.com/live">Jupyter Lite<
 
 <mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
 
-<div class="text-3xl font-bold mt-10 ml-1">
+<div class="text-3xl font-bold mt-10 ml-4">
 Go to the <code>numerical-computation/</code> directory
 </div>
 
@@ -626,7 +626,8 @@ Use Python to study exhaustive computation
 <mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
 
 <div class="text-3xl font-bold mt-10 ml-4">
-Visit the <a href = "https://proactiveprogrammers.com/live">Proactive Programmers Live</a> site!
+Find the file in <a href = "https://proactiveprogrammers.com/live">Jupyter Lite</a> or
+<a href = "https://githubtocolab.com/ProactiveProgrammers/www.proactiveprogrammers.com">Google Colab</a>!
 </div>
 
 </div>
@@ -639,7 +640,7 @@ Visit the <a href = "https://proactiveprogrammers.com/live">Proactive Programmer
 
 <mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
 
-<div class="text-3xl font-bold mt-10 ml-1">
+<div class="text-3xl font-bold mt-10 ml-4">
 Go to the <code>numerical-computation/</code> directory
 </div>
 
@@ -780,7 +781,8 @@ Let's study bisection's speed improvements!
 <mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
 
 <div class="text-3xl font-bold mt-10 ml-4">
-Visit the <a href = "https://proactiveprogrammers.com/live">proactive programmers live</a> site!
+Find the file in <a href = "https://proactiveprogrammers.com/live">Jupyter Lite</a> or
+<a href = "https://githubtocolab.com/ProactiveProgrammers/www.proactiveprogrammers.com">Google Colab</a>!
 </div>
 
 </div>
@@ -793,7 +795,7 @@ Visit the <a href = "https://proactiveprogrammers.com/live">proactive programmer
 
 <mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
 
-<div class="text-3xl font-bold mt-10 ml-1">
+<div class="text-3xl font-bold mt-10 ml-4">
 Go to the <code>programming-constructs/</code> directory
 </div>
 
@@ -944,7 +946,8 @@ Let's investigate average computation functions!
 <mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
 
 <div class="text-3xl font-bold mt-10 ml-4">
-Visit the <a href = "https://proactiveprogrammers.com/live">proactive programmers live</a> site!
+Find the file in <a href = "https://proactiveprogrammers.com/live">Jupyter Lite</a> or
+<a href = "https://githubtocolab.com/ProactiveProgrammers/www.proactiveprogrammers.com">Google Colab</a>!
 </div>
 
 </div>
@@ -957,7 +960,7 @@ Visit the <a href = "https://proactiveprogrammers.com/live">proactive programmer
 
 <mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
 
-<div class="text-3xl font-bold mt-10 ml-1">
+<div class="text-3xl font-bold mt-10 ml-4">
 Go to the <code>programming-constructs/</code> directory
 </div>
 
