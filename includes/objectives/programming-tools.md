@@ -7,10 +7,6 @@
     - Use [Poetry](https://python-poetry.org/) to install a Python program's
       dependencies, create a virtual environment, and run it without error in an
       isolated and self-contained configuration.
-    - Use [Docker](https://www.docker.com/) to run, in an isolated container and
-      without error, a Python program, an automated test suite, and automated
-      grading tools such as
-      [GatorGrader](https://github.com/GatorEducator/gatorgrader).
     - Use and create a test suite implemented with
       [Pytest](https://docs.pytest.org/) to detect a failure in a Python program
       and then effectively use tools like a text editor and a terminal window to
