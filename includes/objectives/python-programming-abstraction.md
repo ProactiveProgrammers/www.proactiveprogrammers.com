@@ -30,9 +30,9 @@
       (e.g., the mean, median, and standard deviation), while also clearly
       displaying the data, its relevant summarization values, and the
       interpretation of all statistical properties.
-  - Write correct Python programs consisting of between one and five hundred
-    lines of source code that correctly solve problems using data structures
-    like a list or dictionary.
-  - Uses the features of the Python programming language to create classes and
-    instances of these classes that solve problems using the principles of
-    object-oriented programming.
+- Write correct Python programs consisting of between one and five hundred
+  lines of source code that correctly solve problems using data structures
+  like a list or dictionary.
+- Uses the features of the Python programming language to create classes and
+  instances of these classes that solve problems using the principles of
+  object-oriented programming.
