@@ -5,11 +5,12 @@
     - Input, process, check, and clean the data sets to confirm their
       correctness.
     - Run an appropriate statistical technique (e.g., the calculation of a mean,
-      median, or standard deviation) to summarize and analyze the data.
-    - Use an appropriate data visualization technique that can create graphs and
-      diagrams that highlight the salient properties of the data set (e.g., show
-      the general trends in the data set while drawing attention to the
-      dispersion of values).
+      median, or standard deviation) to summarize and analyze the performance
+      data.
+    - Use an appropriate data visualization technique that can create graphs
+      and/or diagrams that highlight the salient properties of the data set
+      (e.g., show the general trends in the data set while drawing attention to
+      the dispersion of the values).
     - Use statistical analysis and data visualization techniques to surface
       trends in a data set.
     - Implement and use an appropriate data processing method that transforms

@@ -1,6 +1,6 @@
 # Course Syllabus
 
-## Computer Science 101 Spring 2022
+## Computer Science 101 Fall 2022
 
 ### Course Instructor
 
@@ -9,11 +9,12 @@
 
 ### Instructor Office Hours
 
--   Monday: 1:00 PM-3:00 PM, Alden Hall, 15 minute time slots
--   Tuesday: 5:00 PM-5:30 PM, Alden Hall, 15 minute time slots
--   Wednesday: 5:00 PM-5:30 PM, Alden Hall, 15 minute time slots
--   Thursday: 1:00 PM-3:00 PM, Alden Hall, 15 minute time slots
--   Friday: 1:00 PM-2:00 PM, Alden Hall, 15 minute time slots
+- Monday: 10:00 AM-11:00 AM, Alden Hall, 15 minute time slots
+- Monday: 1:00 PM-2:00 PM, Alden Hall, 15 minute time slots
+- Tuesday: 10:00 AM-12 PM, Alden Hall, 15 minute time slots
+- Wednesday: 4:30 PM-5:00 PM, Alden Hall, 15 minute time slots
+- Thursday: 10:00 AM-12 PM, Alden Hall, 15 minute time slots
+- Friday: 4:30 PM-5:00 PM, Alden Hall, 15 minute time slots
 
 ???+ note "Scheduling Office Hours"
 
@@ -29,9 +30,9 @@
 
 ### Course Meeting Schedule
 
-- Discussion and Group Work Session: Tuesday, 8:30 AM-10:00 AM and Thursday, 8:30 AM-9:30 AM
-- Programming Session: Thursday, 9:30 AM-10:00 AM
-- Laboratory Session: Wednesday, 2:50 PM-4:50 PM
+- Discussion and Group Work Session: Monday and Wednesday, 9:00 AM-9:50 AM
+- Programming Session: Friday, 9:00 AM-9:50 AM
+- Laboratory Session: Friday, 2:30 PM-4:20 PM
 
 ### Course Description
 
@@ -84,42 +85,43 @@ These grading categories have the following definitions:
 
 -   **Midterm Examination**: The midterm is an online cumulative assessment
     covering all of the material from the class, programming, and laboratory
-    sessions, as outlined on the review sheet. Unless prior arrangements are
+    sessions, as outlined on the course schedule. Unless prior arrangements are
     made with the course instructor, all students will be expected to use their
     computer to take this test on the scheduled date and complete the test in
     the stated period of time.
 
 -   **Final Examination**: The final is an online cumulative assessment covering
     all of the material from the class, programming, and laboratory sessions, as
-    outlined on the review sheet. Unless prior arrangements are made with the
+    outlined on the course schedule. Unless prior arrangements are made with the
     course instructor, all students will be expected to use their computer to
     take this test on the scheduled date and complete the test in the stated
     period of time.
 
 -   **Source Code Surveys**: Graded on a checkmark basis and building on
-    material in the textbook and the content covered during that day's in-person
-    classroom session, technical challenges have the following goals: (i) help a
-    learner to demonstrate that they can remember learned material by recalling
-    facts, basic concepts, and answers to questions presented in the textbook
-    and (ii) allow a learner to demonstrate an understanding of facts and ideas
-    by translating, interpreting, and stating the main technical ideas presented
-    in the textbook.
+    material in the textbook and the content covered during that week's
+    in-person classroom sessions, source code surveys have the following goals:
+    (i) help a learner to demonstrate that they can remember learned material by
+    recalling facts, basic concepts, and answers to questions presented in the
+    textbook and on the course web site and (ii) allow a learner to demonstrate
+    an understanding of facts and ideas by translating, interpreting, and
+    stating the main technical ideas presented through the textbook and course
+    web site.
 
 -   **Programming Projects**: Graded on a checkmark basis and building on
-    material in the textbook, the content covered during that week's in-person
-    classroom session, and the weekly technical challenges, the programming
-    projects further equip a learner to solve new problems in the field of data
-    abstraction by applying --- in a new way --- their knowledge of the facts,
-    techniques, and rules of data abstraction and rigorous Python programming.
+    material available in the textbook and the content covered during that
+    week's in-person classroom session, the programming projects further equip a
+    learner to solve new problems in the field of data abstraction by applying
+    &mdash; in a new way &mdash; their knowledge of the facts and techniques of
+    data abstraction and rigorous Python programming.
 
 -   **Engineering Efforts**: These assignments invite students to explore
     different techniques for rigorously designing, implementing, evaluating, and
-    documenting real-world Python programs. These assignments will invite
-    students to use tools like a text editor, a terminal window, and a modern
-    Python development environment to implement functions that strike the right
-    balance between understandability, generalizability, and specialization.
-    Students will also use the data collected from running experiments to
-    evaluate the implementation of a Python function as they consider, for
+    documenting real-world Python programs. These assignments invite students to
+    use tools like a text editor, a terminal window, and a modern Python
+    development environment to implement functions that strike the right balance
+    between understandability, generalizability, and specialization. Students
+    will also use the data collected from running experiments to evaluate the
+    implementation of a Python function as they consider trade-offs between, for
     instance, its efficiency and correctness.
 
 #### Assignment Submission
@@ -127,10 +129,10 @@ These grading categories have the following definitions:
 All assignments will have a stated due date shared through GitHub, GitHub
 Classroom, and Google Calendar. Electronic versions of the engineering efforts,
 programming projects, and source code surveys must be submitted to the
-instructor through a student's GitHub repository. No credit will be awarded for
-any course work that is not submitted to your GitHub repository with the
-required name. Unless special arrangements are made with the instructor, no work
-will be accepted after the published deadline.
+instructor through a student's GitHub repository created by GitHub Classroom. No
+credit will be awarded for any course work that you submit to the incorrect
+GitHub repository. Unless special arrangements are made with the instructor, no
+work will be accepted after the published assignment deadline.
 
 #### Assignment Evaluation
 
@@ -289,3 +291,13 @@ people. Moreover, the design, implementation, evaluation, and documentation of
 Python-based software are exciting and rewarding activities! The course
 instructor invites you to pursue, with great enthusiasm and vigor, this
 adventure in rigorous Python programming.
+
+???+ note
+
+    This syllabus is for learners who enrolled in a for-credit Computer Science
+    class at Allegheny College. Even though external learners are not bound by
+    the rules in this syllabus, they can rely on the team of [programming
+    experts](https://github.com/ProactiveProgrammers/www.proactiveprogrammers.com/graphs/contributors)
+    and the members of the [proactive
+    community](proactive-community/introduction-proactive-community.md) to
+    complete the projects on this web site.
