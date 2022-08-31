@@ -73,12 +73,12 @@ called [asdf](https://asdf-vm.com/). If you are instead using a computer that
 runs Windows 10, then you can attempt to install Python 3.10 using either
 [Pyenv-win](https://github.com/pyenv-win/pyenv-win) or the installation
 instructions in one of the aforementioned articles. Please remember that, if you
-are installing Python on Windows it should either be a complete version of
-Python 3.8 or Python 3.9 or Python 3.10 and it should be executable through the
-use of the `python` command in your terminal. You can confirm that you have the
-correct version of Python installed on your computer by typing `python
---version` in your terminal window and then looking for the expected version
-number. It is important that you do install and attempt to use any older
+are installing Python on Windows it should either be a complete version of the
+most recent version of Python (i.e., Python 3.10) and it should be executable
+through the use of the `python` command in your terminal. You can confirm that
+you have the correct version of Python installed on your computer by typing
+`python --version` in your terminal window and then looking for the expected
+version number. It is important that you do install and attempt to use any older
 versions of the Python programming language than Python 3.8.
 
 Now that you have Python 3.10 installed on your computer you should complete all
