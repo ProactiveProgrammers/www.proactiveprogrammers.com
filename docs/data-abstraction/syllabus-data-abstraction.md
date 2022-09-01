@@ -167,7 +167,7 @@ the field of web development. In order to help students remain organized and to
 effectively prepare for classes, the course instructor will maintain a class
 schedule with reading assignments and presentation slides, available at on this
 site. During the class sessions students will also be required to download, use,
-and modify web site components and data sets that are made available through
+and modify Python software components and data sets that are made available through
 means such as the course web site and a GitHub repository.
 
 #### Seeking Assistance
