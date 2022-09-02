@@ -194,7 +194,7 @@ those materials. We will use two distinct Discord servers for all course
 discussions. The [Proactive Programmers Discord
 Server](https://discord.gg/kjah8MFYbR) provides a way for members of the
 proactive community to use text and video to chat with each other and will be
-the main forum for the discussion of technical content in discrete structures.
+the main forum for the discussion of technical content in data abstraction.
 The [Allegheny College Computer Science Discord
 Server](https://discord.gg/CS2h9kXzX6) provides a way for students who are
 studying computer science at Allegheny College to use text and video to chat
