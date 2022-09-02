@@ -263,10 +263,11 @@ typing, are in violation of the Honor Code at Allegheny College.
 
 In summary, students should collaborate as long as they do so in acceptable
 ways. With that said, if a student needs assistance beyond what can be gained
-through acceptable forms of collaboration, they should seek help from the
-course instructor or a technical leader. If a student submits deliverables
-(e.g., source code or technical writing) that are nearly identical to the work
-of others will be taken as evidence of violating the Honor Code.
+through acceptable forms of collaboration, they should seek help from the course
+instructor or a technical leader. If a student submits deliverables (e.g.,
+source code or technical writing) that are nearly identical to the work of
+others, this will be taken as evidence of violating the Honor Code at Allegheny
+College.
 
 #### Disability Services
 
