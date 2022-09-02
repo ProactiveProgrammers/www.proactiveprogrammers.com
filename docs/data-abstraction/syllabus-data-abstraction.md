@@ -256,7 +256,7 @@ The aforementioned forms of communication are unacceptable because they make it
 difficult for both the course instructor and a learner to assess individual
 knowledge. Moreover, these unacceptable forms of collaboration can impede your
 learning or someone else's learning since an individual is less likely to
-understand source code or technical writing that you do not create by themself.
+understand source code or technical writing that they do not create by themself.
 Importantly, any student who participates in these unacceptable forms of
 collaboration, whether they are the one sharing, showing, looking, copying, or
 typing, are in violation of the Honor Code at Allegheny College.
