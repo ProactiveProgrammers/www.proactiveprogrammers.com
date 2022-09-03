@@ -251,10 +251,10 @@ name of the assignment:
 Before asking the instructor a question about the calculation of either your
 assignment grades or your overall course grade, please make sure that you have
 already consulted the GitHub repository for each assignment to see your grades
-and then calculated your grade using the approach outlined in this document. The
-instructor will use your calculations to support the discussion of any questions
-that you have about how to calculate either your grade for a project or your
-overall grade for a course.
+and then calculated your grade using the approach outlined in this document.
+The instructor will use your calculations to support the discussion of any
+questions that you have about how to calculate either your grade for a project
+or your overall grade for a computer science course.
 
 ## Conclusion
 
