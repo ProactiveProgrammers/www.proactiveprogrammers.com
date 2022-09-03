@@ -130,9 +130,9 @@ computer science as evidenced by:
   grade if the last before-the-deadline build in GitHub Actions passes and a
   :fontawesome-solid-check: appears in the GitHub commit log instead of an
   :fontawesome-solid-xmark:. The build status reported by GitHub Actions will
-  only be a :fontawesome-solid-check: if the source code and program output
-  exist in the repository and the program output and the written responses pass
-  any checks run in GitHub Actions.
+  only be a :fontawesome-solid-check: if the source code and technical writing
+  in the GitHub repository pass all of the checks that were automatically
+  executed in GitHub Actions.
 
 ## Advance Feedback
 
