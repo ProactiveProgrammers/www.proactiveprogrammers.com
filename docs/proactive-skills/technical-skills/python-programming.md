@@ -80,30 +80,30 @@ executable through the use of the `python` command in your terminal. You can
 confirm that you have the correct version of Python installed on your computer
 by typing `python --version` in your terminal window and then looking for the
 expected version number. It is important that you do not install and attempt to
-use any older versions of the Python programming language than Python 3.8.
+use any older versions of this programming language than Python 3.8.
 
-Now that you have Python 3.10 installed on your computer you should complete all
-of the steps in the tutorial called [Getting Started with Python in VS
+Now that you have Python 3.10 installed on your computer you should complete
+all of the steps in the tutorial called [Getting Started with Python in VS
 Code](https://code.visualstudio.com/docs/python/python-tutorial#_select-a-python-interpreter).
 When you complete this tutorial make sure that select your installed version of
 Python through VS Code and write, run, and debug a "Hello World!" program
 written in Python. Along with confirming that you can run the "Hello World!"
-Python program in VS Code, you should ensure that you can run the same program
-in your terminal window.
+Python program through VS Code, you should ensure that you can run the same
+program in your terminal window by using the `python` program.
 
 Depending on your computer's hardware, operating system, and supporting
 software, you will find numerous tutorials that will explain how to install all
 of the software development tools needed for proactive programming. For
-instance, [Ian Wootten](https://www.ianwootten.co.uk/)'s article called [Setting
-Up a New M1 mac for
+instance, [Ian Wootten](https://www.ianwootten.co.uk/)'s article called
+[Setting Up a New M1 mac for
 Development](https://www.ianwootten.co.uk/2021/03/05/setting-up-a-new-m1-mac-for-development/)
 explains, among many other steps, how to install Python on a laptop running
 MacOS. Regardless of which approach you adopt for installing Python on your
-compute, make sure that you take careful notes at each step and plan for having
-to repeat specific steps until you can confirm that you can implement and run a
-simple program on your computer. If you get stuck or if you have advice to
-share, make sure that you connect with the other members of the [proactive
-community](/proactive-community/community-connections/)!
+computer, make sure that you take careful notes at each step and plan for
+having to repeat specific steps until you can confirm that you can implement
+and run a basic program on your computer. If you get stuck or if you have
+advice to share, make sure that you connect with the other members of the
+[proactive community](/proactive-community/community-connections/)!
 
 Now you are ready to install a tool that supports Python packaging!
 
@@ -111,7 +111,7 @@ Now you are ready to install a tool that supports Python packaging!
   [pyenv](https://github.com/pyenv/pyenv) on either MacOS or Linux and
   [pyenv-win](https://github.com/pyenv-win/pyenv-win) on Windows 10 to manage
   the installation of the Python interpreter on their computers. It is worth
-  noting that these programs will install the Python programming language under
-  the name `python` and not, for instance, `python3`.
+  noting that these programs will often install the Python programming language
+  under the name `python` and not, for instance, `python3`.
 
 --8<-- "includes/abbreviations.md"
