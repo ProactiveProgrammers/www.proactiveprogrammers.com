@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Before you attempt to install the Python Programming language on your computer,
+Before you attempt to install the Python programming language on your computer,
 it is worth taking time to build a mental model about what a Python program
 actually is and what happens when it runs on your computer. Sounds abstract,
 right? In a way, it is! But, building and regularly updating a mental model for
@@ -57,9 +57,10 @@ Python](https://mitpress.mit.edu/books/introduction-computation-and-programming-
 [John Guttag](https://people.csail.mit.edu/guttag/) writes "By now, all of the
 important public domain Python libraries have been ported to Python 3. Today,
 there is no reason to use Python 2." Given this observation, this site
-encourages you to install Python 3 on your computer and ensure that it is
-invoked by the running command `python` in your terminal window. To get started
-with the installation of Python, you should review these tutorials:
+encourages you to install the most up-to-date Python 3 version on your computer
+and ensure that it is invoked by the running command `python` in your terminal
+window. To get started with the installation of Python, you should review
+tutorials like these:
 
 * [Setting Up Python on Windows](https://realpython.com/lessons/python-windows-setup/)
 * [Python 3 Installation and Setup Guide](https://realpython.com/installing-python/)
@@ -72,14 +73,14 @@ either the tool called [Pyenv](https://github.com/pyenv/pyenv) or the tool
 called [asdf](https://asdf-vm.com/). If you are instead using a computer that
 runs Windows 10, then you can attempt to install Python 3.10 using either
 [Pyenv-win](https://github.com/pyenv-win/pyenv-win) or the installation
-instructions in one of the aforementioned articles. Please remember that, if you
-are installing Python on Windows it should either be a complete version of the
-most recent version of Python (i.e., Python 3.10) and it should be executable
-through the use of the `python` command in your terminal. You can confirm that
-you have the correct version of Python installed on your computer by typing
-`python --version` in your terminal window and then looking for the expected
-version number. It is important that you do install and attempt to use any older
-versions of the Python programming language than Python 3.8.
+instructions in one of the aforementioned articles. Please remember that, if
+you are installing Python on Windows it should either be a complete version of
+the most recent version of Python (i.e., Python 3.10) and it should be
+executable through the use of the `python` command in your terminal. You can
+confirm that you have the correct version of Python installed on your computer
+by typing `python --version` in your terminal window and then looking for the
+expected version number. It is important that you do not install and attempt to
+use any older versions of the Python programming language than Python 3.8.
 
 Now that you have Python 3.10 installed on your computer you should complete all
 of the steps in the tutorial called [Getting Started with Python in VS
