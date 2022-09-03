@@ -66,45 +66,39 @@ this assignment, the grade for an engineering effort will have these parts:
   submitted program source code must pass all of GatorGrader's checks by, for
   instance, ensuring that it produces the correct output and has all of the
   required characteristics. The technical writing must pass all of GatorGrader's
-  checks about, for instance, its use of the required Markdown language features
+  checks about, for instance, use of the required Markdown language features
   for technical writing. For this component of the grade for an engineering
   effort, the project will receive a percentage, ranging from 0 to 100, that
   corresponds to the percentage of GatorGrader checks that automatically pass
-  inside of a GitHub Actions build.
+  inside of a GitHub Actions build for a project.
 
-- **Technical Writing Mastery of Either :fontawesome-solid-check: or
+- **Proactive Programming Skills of Either :fontawesome-solid-check: or
+  :fontawesome-solid-xmark:**: An engineering effort will also receive a
+  checkmark grade when the contents of its GitHub repository reveal the mastery
+  of the technical knowledge and skills developed during the completion of the
+  project. This assessment will evaluate aspects of the project including, for
+  instance, the use of accurate and succinct source code comments and Git
+  commit messages.
+
+- **Technical Writing Skills of Either :fontawesome-solid-check: or
   :fontawesome-solid-xmark:**: The responses to the technical writing questions
   will receive a checkmark when they reveal a mastery of technical writing
   skills. To receive a checkmark grade, the submitted writing should have
   correct spelling, grammar, punctuation, and formatting in addition to
   following the rules of the Markdown language. The technical writing will
-  receive a checkmark grade if the build report from GitHub Actions reveals no
-  detected mistakes in the technical writing.
+  further qualify for a checkmark grade if the build report from GitHub Actions
+  reveals no mistakes in the technical writing. Finally, writing that is
+  technically accurate will qualify for the checkmark grade.
 
-- **GitHub Actions Build Status of Either :fontawesome-solid-check: or
-  :fontawesome-solid-xmark::** Since additional checks on the program source
-  code and technical writing are encoded in GitHub Action workflows and,
-  moreover, all of the GatorGrader checks are also run in GitHub Actions, an
-  engineering effort will receive a checkmark grade if the last
-  before-the-deadline build in GitHub Actions passes and a
-  :fontawesome-solid-check: appears in the GitHub commit log instead of an
-  :fontawesome-solid-xmark:. The build status reported by GitHub Actions will
-  only be a :fontawesome-solid-check: if the source code and technical writing
-  in the GitHub repository pass both the GatorGrader checks and the additional
-  checks encoded in the configuration of GitHub Actions.
-
-- **Overall Technical Knowledge and Skill Mastery of Either
-  :fontawesome-solid-check: or :fontawesome-solid-xmark:**: An engineering
-  effort will also receive a checkmark grade when the contents of the GitHub
-  repository reveals the mastery of the technical knowledge and skills developed
-  during the completion of the project. As a part of this assessment, the
-  assessment team will evaluate aspects of the project including, but not
-  limited to, the demonstration of the mastery of the specific
-  [technical](../../proactive-skills/technical-skills/introduction-technical-skills/)
-  and
-  [professional](../../proactive-skills/professional-skills/introduction-professional-skills/)
-  skills associated with proactive programming and the accuracy of the responses
-  to the technical writing questions.
+- **Professional Skills of Either :fontawesome-solid-check: or
+  :fontawesome-solid-xmark::** An engineering effort will receive a checkmark
+  grade when the contents of its GitHub repository reveal the mastery of
+  professional skills such as the ability to find, leverage, and reference
+  technical documentation and source code examples. A project will further
+  quality for this checkmark when it contains evidence that the person who
+  submitted it reflected on their experiences when completing the project,
+  connected the project to their prior work, and made actionable plans for
+  continued improvement as a proactive programmer.
 
 ## Programming Projects
 
