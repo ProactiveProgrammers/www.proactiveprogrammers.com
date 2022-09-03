@@ -300,5 +300,5 @@ adventure in rigorous Python programming.
     the rules in this syllabus, they can rely on the team of [programming
     experts](https://github.com/ProactiveProgrammers/www.proactiveprogrammers.com/graphs/contributors)
     and the members of the [proactive
-    community](proactive-community/introduction-proactive-community.md) to
+    community](/proactive-community/introduction-proactive-community.md) to
     complete the projects on this web site.
