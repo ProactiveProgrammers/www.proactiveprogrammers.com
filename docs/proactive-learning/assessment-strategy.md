@@ -65,12 +65,12 @@ this assignment, the grade for an engineering effort will have these parts:
 - **Percentage of Correct GatorGrader Checks Ranging Between 0 and 100**: The
   submitted program source code must pass all of GatorGrader's checks by, for
   instance, ensuring that it produces the correct output and has all of the
-  required characteristics. The technical writing must pass all of GatorGrader's
-  checks about, for instance, use of the required Markdown language features
-  for technical writing. For this component of the grade for an engineering
-  effort, the project will receive a percentage, ranging from 0 to 100, that
-  corresponds to the percentage of GatorGrader checks that automatically pass
-  inside of a GitHub Actions build for a project.
+  required characteristics. The technical writing must pass all of
+  GatorGrader's checks about, for instance, use of the required Markdown
+  language features for technical writing. For this component of an engineering
+  effort's grade, the project will receive a percentage, ranging from 0 to 100,
+  that corresponds to the percentage of GatorGrader checks that pass inside of
+  the project's last before-the-deadline GitHub Actions build.
 
 - **Proactive Programming Skills of Either :fontawesome-solid-check: or
   :fontawesome-solid-xmark:**: An engineering effort will also receive a
