@@ -114,8 +114,8 @@ computer science as evidenced by:
   :fontawesome-solid-check: appears in the GitHub commit log instead of an
   :fontawesome-solid-xmark:. The build status reported by GitHub Actions will
   only be a :fontawesome-solid-check: if the source code and technical writing
-  in the GitHub repository pass both the GatorGrader checks and the additional
-  checks pass in GitHub Actions.
+  in the GitHub repository pass all of the checks that were automatically
+  executed in GitHub Actions.
 
 ## Source Code Surveys
 
