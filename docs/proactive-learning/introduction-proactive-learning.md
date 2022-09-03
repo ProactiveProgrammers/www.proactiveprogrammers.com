@@ -15,13 +15,14 @@ programming tasks! This site's projects site will help you to gain the knowledge
 and skills of proactive programming as you "learn by doing".
 
 How challenging should the projects be? How many projects do you need to
-complete to learn to program? Although it is difficult to precisely answer these
-questions for each person, it is fair to say that learning to program involves a
-significant amount of failure. In fact, studies of machine learning algorithms
-that learned to complete complex tasks suggest that they learned better when
-they failed in their efforts about 15% of the time.[^1] Even though you are not
-an algorithm, it is worth bearing in mind that failure is a natural &mdash; and
-even beneficial &mdash; part of becoming a proactive programmer!
+complete to learn to program? Although it is difficult to precisely answer
+these questions for each person, it is fair to say that learning to program
+involves a significant amount of failure. In fact, studies of machine learning
+algorithms that learned to complete complex tasks suggest that they learned
+better when they failed in their efforts about 15% of the time.[^1] Even though
+you are not an algorithm, it is worth bearing in mind that failure through a
+trial-and-error process is a normal and beneficial &mdash; albeit frustrating!
+&mdash; part of becoming a proactive programmer.
 
 Yet, how much failure is too much? [Michael
 Hilton](http://www.cs.cmu.edu/~mhilton/) likes to tell his students "it is okay
