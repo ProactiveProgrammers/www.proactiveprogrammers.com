@@ -220,7 +220,7 @@ non-credit requirements for graduation at Allegheny College. This includes all
 work assigned for this class (e.g., examinations and course assignments). All
 students who have enrolled in the College will work under the Honor Program.
 Each student who has matriculated at the College has acknowledged the following
-pledge:
+Honor Code pledge:
 
 > I hereby recognize and pledge to fulfill my responsibilities, as
 > defined in the Honor Code, and to maintain the integrity of both
@@ -257,10 +257,10 @@ The aforementioned forms of communication are unacceptable because they make it
 difficult for both the course instructor and a learner to assess individual
 knowledge. Moreover, these unacceptable forms of collaboration can impede your
 learning or someone else's learning since an individual is less likely to
-understand source code or technical writing that they do not create by themself.
-Importantly, any student who participates in these unacceptable forms of
-collaboration, whether they are the one sharing, showing, looking, copying, or
-typing, are in violation of the Honor Code at Allegheny College.
+understand source code or technical writing that they do not create by
+themself. Importantly, any student who participates in these unacceptable forms
+of collaboration, whether they are the one sharing, showing, looking, copying,
+or typing, are in violation of Allegheny College's Honor Code.
 
 In summary, students should collaborate as long as they do so in acceptable
 ways. With that said, if a student needs assistance beyond what can be gained
