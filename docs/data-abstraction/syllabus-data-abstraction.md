@@ -158,10 +158,10 @@ In order to minimize confusion and maximize learning, students must invest time
 to prepare for the class discussions, laboratory, and programming sessions.
 During the class periods, the course instructor will often pose challenging
 questions that could require group discussion, the creation of a Python program
-or data table, a vote on a thought-provoking issue, or an in-class presentation.
-Only those students who have prepared for class by reading the assigned material
-and reviewing the current course assignments will be able to effectively
-participate in these class discussions.
+or data table, a vote on a thought-provoking issue, or an in-class
+presentation. Only those students who have prepared for class by reading the
+assigned material and reviewing the current reading assignments course projects
+will be able to effectively participate in these class discussions.
 
 Importantly, only prepared students will be able to acquire the knowledge and
 skills that they need to be successful in this course, subsequent courses, and
