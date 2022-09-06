@@ -43,9 +43,9 @@ will be able to demonstrate mastery of the following skills in data structures:
   sorting algorithm like merge sort to order the list of values. Using the same
   list of values, implement and use a search algorithm that can either find a
   specific value in the list or confirm that the value is not in the list.
-- Given input stored in a data structure and solution constraints, use a method
-  like dynamic programming to solve an optimization problem (e.g., the 0/1
-  Knapsack Problem).
+- Given input stored in a data structure and solution constraints, use a
+  technique like dynamic programming to solve an optimization problem (e.g., the
+  0/1 Knapsack Problem).
 
 ### Algorithm Evaluation
 
