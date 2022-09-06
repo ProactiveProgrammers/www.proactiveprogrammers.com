@@ -84,7 +84,7 @@ will be able to demonstrate mastery of the following skills in data structures:
       benchmarking framework, describe ways in which it is possible to
       re-design the algorithm to improve its performance.
     - Using the likely worst-case time complexity and the experimental data,
-      explain how the algorithm trades-off between time efficiency and the
+      explain how an algorithm trades-off between time efficiency and the
       space needed for data storage.
 - For the implementation of a data structure and its associated algorithms in
   the Python programming language, use the results from both the analytical and
