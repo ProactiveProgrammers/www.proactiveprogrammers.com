@@ -190,17 +190,16 @@ technical leaders](https://www.cs.allegheny.edu/teaching/technicalleaders/).
 
 This course will primarily use GitHub and Discord for all course communication,
 as summarized in the list of [community
-connections](/proactive-community/community-connections). We will use GitHub for
-the sharing of both source code and course projects and for reporting issues in
-those materials. We will use two distinct Discord servers for all course
-discussions. The [Proactive Programmers Discord
+connections](/proactive-community/community-connections). We will use GitHub
+for the sharing of both source code and course projects and for reporting
+issues in those materials. We will use two distinct Discord servers for all
+course discussions. The [Proactive Programmers Discord
 Server](https://discord.gg/kjah8MFYbR) provides a way for members of the
 proactive community to use text and video to chat with each other and will be
-the main forum for the discussion of technical content in data abstraction.
-The [Allegheny College Computer Science Discord
-Server](https://discord.gg/CS2h9kXzX6) provides a way for students who are
-studying computer science at Allegheny College to use text and video to chat
-with each other and will be the main forum for course announcements.
+the main forum for discussing technical content in data abstraction. The
+[Allegheny College Computer Science Discord
+Server](https://discord.gg/CS2h9kXzX6) will be the main forum for Department
+of Computer Science announcements.
 
 #### Using Email
 
