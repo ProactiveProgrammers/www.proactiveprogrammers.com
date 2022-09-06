@@ -78,34 +78,34 @@ These grading categories have the following definitions:
 
 -   **Course Participation**: After either an unexcused absence or a late
     attendance to class on two separate occasions, a student's course
-    participation grade will be reduced by half a percentage for each additional
-    time they are absent or late in an unexcused fashion. Students who need to
-    miss class or attend late for an excused reason should communicate their
-    situation to the course instructor as soon as possible.
+    participation grade will be reduced by half a percentage for each
+    additional time they are absent or late in an unexcused fashion. Students
+    who need to miss class or attend class late for an excused reason should
+    communicate their situation to the course instructor as soon as possible.
 
 -   **Midterm Examination**: The midterm is an online cumulative assessment
     covering all of the material from the class, programming, and laboratory
     sessions, as outlined on the course schedule. Unless prior arrangements are
-    made with the course instructor, all students will be expected to use their
-    computer to take this test on the scheduled date and complete the test in
-    the stated period of time.
+    made with the instructor, all students should use their computer
+    to take this test on the scheduled date and to complete it in the stated
+    location while taking no more than the required amount of time.
 
--   **Final Examination**: The final is an online cumulative assessment covering
-    all of the material from the class, programming, and laboratory sessions, as
-    outlined on the course schedule. Unless prior arrangements are made with the
-    course instructor, all students will be expected to use their computer to
-    take this test on the scheduled date and complete the test in the stated
-    period of time.
+-   **Final Examination**: The final is an online cumulative assessment
+    covering all of the material from the class, programming, and laboratory
+    sessions, as outlined on the course schedule. Unless prior arrangements are
+    made with the instructor, all students should use their computer to take
+    this test on the scheduled date and to complete it in the stated location
+    while taking no more than the required amount of time.
 
 -   **Source Code Surveys**: Graded on a checkmark basis and building on
     material in the textbook and the content covered during that week's
     in-person classroom sessions, source code surveys have the following goals:
-    (i) help a learner to demonstrate that they can remember learned material by
-    recalling facts, basic concepts, and answers to questions presented in the
-    textbook and on the course web site and (ii) allow a learner to demonstrate
-    an understanding of facts and ideas by translating, interpreting, and
-    stating the main technical ideas presented through the textbook and course
-    web site.
+    (i) help a learner to demonstrate that they can remember learned material
+    by recalling facts, basic concepts, and answers to questions presented in
+    the textbook and on the course web site and (ii) allow a learner to
+    demonstrate an understanding of facts and ideas by translating,
+    interpreting, and stating the main technical ideas presented through the
+    textbook and course web site.
 
 -   **Programming Projects**: Graded on a checkmark basis and building on
     material available in the textbook and the content covered during that
