@@ -62,8 +62,8 @@ by [John V. Guttag](https://people.csail.mit.edu/guttag/)
 
 The grade that a student receives in this class will be based on the following
 categories. All of these percentages are approximate and, if the need to do so
-presents itself, it is possible for the course instructor to change the
-assigned percentages during the academic semester.
+presents itself, the course instructor may change the assigned percentages
+during the academic semester.
 
 | Category               | Percentage |
 |------------------------| -----------|
