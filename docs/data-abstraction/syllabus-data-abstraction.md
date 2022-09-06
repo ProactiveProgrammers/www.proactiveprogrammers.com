@@ -291,7 +291,7 @@ manipulate data have the potential to positively influence the lives of many
 people. Moreover, the design, implementation, evaluation, and documentation of
 Python-based software are exciting and rewarding activities! The course
 instructor invites you to pursue, with great enthusiasm and vigor, this
-adventure in rigorous Python programming.
+adventure in data abstraction and rigorous Python programming.
 
 ???+ note
 
