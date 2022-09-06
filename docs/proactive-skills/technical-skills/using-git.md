@@ -94,13 +94,23 @@ communicate with the GitHub servers.
   and, once you start to clone private GitHub repositories, you will again need
   to confirm that your SSH keys are supporting secure communication correctly.
 
+???+ note
+
+    If you are an emerging proactive programmer who is not enrolled in a
+    Computer Science class at Allegheny College, you can still work on this web
+    site's assignments! After you have setup Git and created a GitHub account
+    you can, for instance, work on the [Integer
+    Squaring](/data-abstraction/engineering-efforts/integer-squaring/) project,
+    you would click the "Use this template" icon in the :material-github:
+    [integer-squaring-starter](https://github.com/ProactiveProgrammers/integer-squaring-starter)
+    GitHub repository and create your own version of the project's source code.
+    Now, you will automatically get project feedback through GitHub Actions!
+
 It is a good idea to further customize your configuration of Git! Although you
 might not need to apply all of the commands in the following tutorials, make
 sure to read them and carefully take those steps that are necessary for your
-computer.
+computer and operating system.
 
 - [Setting up Git](https://swcarpentry.github.io/git-novice/02-setup/index.html)
 - [Your First Time with Git and GitHub](https://kbroman.org/github_tutorial/pages/first_time.html)
 - [First-Time Git Setup](https://git-scm.com/book/en/v2/Getting-Started-First-Time-Git-Setup)
-
-Okay, now you are ready to setup Docker on your computer!

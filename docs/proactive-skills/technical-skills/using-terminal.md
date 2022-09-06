@@ -41,5 +41,7 @@ following articles:
 * [Ten Best Alternatives for the MacOS Terminal App](https://www.fossmint.com/alternative-terminal-apps-for-macos/)
 * [Top Seven Open Source Terminal Emulators for Linux](https://opensource.com/life/17/10/top-terminal-emulators)
 
-Now that you can use the terminal, you are ready to install and use
-Docker Desktop!
+Do you have some suggestions on the best way to customize your terminal window?
+Share them with the members of the [proactive
+community](/proactive-community/introduction-proactive-community/)!
+

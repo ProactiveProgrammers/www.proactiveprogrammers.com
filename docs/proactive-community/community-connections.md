@@ -56,8 +56,8 @@ following examples.
   Server](https://discord.gg/kjah8MFYbR).
 
 - If you are a **student** studying computer science at **Allegheny College**
-  and you specifically want to communicate with your instructor or the students
-  in your course, then you should go to the [Allegheny College Computer Science
+  and you want to communicate with your instructor or the students in your
+  department, then you should go to the [Allegheny College Computer Science
   Discord Server](https://discord.gg/CS2h9kXzX6).
 
 - If you want to **offer feedback** about the content on Proactive Programmers,

@@ -1,6 +1,6 @@
 !!! note
 
-    Learners who are not enrolled at Allegheny College, are invited to complete
+    Learners who are not enrolled at Allegheny College are invited to complete
     all of the assignments on this site. With that said, those learners who are
     not at Allegheny College will not receive expert feedback on each of
     their assignments. Since these individuals will not be members of the

@@ -10,8 +10,8 @@ will be able to demonstrate mastery of the following skills in data structures:
 ### Algorithm Engineering
 
 - Correctly implement and/or use a data structure, such as a stack, list, or
-  dictionary, ensuring that it provides all of the functionality required by
-  the program's specification.
+  dictionary, ensuring that it provides all of the functionality required by the
+  program's specification.
 - After importing an existing implementation of a data structure (e.g., a list
   or a dictionary), confirm that it provides the required functionality and
   integrate it into an existing program.
@@ -22,15 +22,15 @@ will be able to demonstrate mastery of the following skills in data structures:
     - Specify the input, output, and behavior of functions for a new data
       structure.
     - Design, implement, and document all functions of a new data structure.
-    - Implement, execute, and maintain a test suite for a new data structure
-      and demonstrate that, for particular input, its behavior matches the
+    - Implement, execute, and maintain a test suite for a new data structure and
+      demonstrate that, for a particular input, its behavior matches the
       specification.
     - Integrate the new data structure with the data structures used by an
       existing program.
-    - Document the trade-offs associated with the implementation of the new
-      data structure, comparing and contrasting it with existing alternatives
-      and justifying the need for the bespoke implementation instead of those
-      that are already available.
+    - Document the trade-offs associated with the implementation of the new data
+      structure, comparing and contrasting it with existing alternatives and
+      justifying the need for the bespoke implementation instead of those that
+      are already available.
 - Use the principles of object-oriented programming (i.e., encapsulation,
   inheritance, and polymorphism) to design, implement, document, and test
   classes that provide all of the features required by the specification of a
@@ -43,9 +43,9 @@ will be able to demonstrate mastery of the following skills in data structures:
   sorting algorithm like merge sort to order the list of values. Using the same
   list of values, implement and use a search algorithm that can either find a
   specific value in the list or confirm that the value is not in the list.
-- Given input stored in a data structure and solution constraints, use a method
-  like dynamic programming to solve an optimization problem (e.g., the 0/1
-  Knapsack Problem).
+- Given input stored in a data structure and solution constraints, use a
+  technique like dynamic programming to solve an optimization problem (e.g., the
+  0/1 Knapsack Problem).
 
 ### Algorithm Evaluation
 
@@ -84,7 +84,7 @@ will be able to demonstrate mastery of the following skills in data structures:
       benchmarking framework, describe ways in which it is possible to
       re-design the algorithm to improve its performance.
     - Using the likely worst-case time complexity and the experimental data,
-      explain how the algorithm trades-off between time efficiency and the
+      explain how an algorithm trades-off between time efficiency and the
       space needed for data storage.
 - For the implementation of a data structure and its associated algorithms in
   the Python programming language, use the results from both the analytical and

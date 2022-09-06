@@ -14,7 +14,7 @@
       such as [Pytest](https://docs.pytest.org/), that covers at least the 80%
       of the statements and branches in the function.
     - Performs the specified operation in an efficient fashion, as determined
-      through experiments that evaluate the function's performance in seconds or
+      through experiments that record the function's performance in seconds or
       milliseconds.
     - Correctly uses assignment statements, iteration constructs, conditional
       logic, function invocation, and function recursion in a way that passes

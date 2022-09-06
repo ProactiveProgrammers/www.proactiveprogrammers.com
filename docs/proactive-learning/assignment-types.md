@@ -48,7 +48,7 @@ programming project normally involves the implementation and testing of fewer
 an engineering effort. Since projects in the engineering effort category focus
 on the creation and evaluation of programs, they also call for learners to
 complete technical writing tasks that are more thorough than those that are a
-part of either a programming project or an source code survey.
+part of either a programming project or a source code survey.
 
 Still a little confused? Unconvinced that this focus on proactive learning is
 important? Don't give up until you complete some projects in fields like [data

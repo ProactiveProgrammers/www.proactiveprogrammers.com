@@ -16,16 +16,16 @@ terminal window.
 ## Using Poetry
 
 Once you have installed Poetry, you should complete a tutorial called [Building
-a Package](https://typer.tiangolo.com/tutorial/package/) where you can learn how
-to use Poetry to create a command-line application using the
-[Typer](https://typer.tiangolo.com/) package for creating a Python program with
-a command-line interface! It is worth noting that this tutorial will ask you to
-write Python source code. If you are not yet familiar with the Python
-programming language you can copy and paste the code from the tutorial to the
-appropriate file that you are editing with VS Code. That is, if you are getting
-started as a proactive Python programmer you should focus on learning how to use
-Poetry and consider less on learning the Python language. As you complete the
-tutorial, make sure that you consider the following commands in Poetry:
+a Package](https://typer.tiangolo.com/tutorial/package/) where you can learn
+how to leverage Poetry to create a command-line application with the
+[Typer](https://typer.tiangolo.com/) package! It is worth noting that this
+tutorial will ask you to write Python source code. If you are not yet familiar
+with the Python programming language you can copy and paste the code from the
+tutorial to the appropriate file that you are editing with VS Code. That is, if
+you are getting started as a proactive Python programmer you should focus on
+learning how to use Poetry and concentrate less on learning the Python
+language. As you complete the tutorial, make sure that you consider the
+following commands in Poetry:
 
 * `poetry new`: creates a new Poetry project
 * `poetry add`: adds a new dependency to a Poetry project
@@ -45,6 +45,3 @@ install your program with either
 you get stuck on the use of either Poetry or Typer, make sure that you ask for
 help from the other members of the [proactive
 community](/proactive-community/community-connections/).
-
-After reviewing all of these technical skills, you are ready to learn more about
-the professional skills of a proactive programmer!
