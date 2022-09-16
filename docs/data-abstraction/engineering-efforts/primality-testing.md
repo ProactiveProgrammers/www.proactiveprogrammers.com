@@ -233,14 +233,16 @@ collected 7 items
 tests/test_primality.py .......
 ```
 
-Don't forget that this project also comes with other tasks that you can run
-once you have used Poetry to install all of the dependencies. For instance, if
-you find that your Python source code is not in adherence with the required
-formatting rules, you can run `poetry run task black` to automatically return
-it to the correct format! You can also run commands like `poetry run task mypy`
-to check the program's use of data types and `poetry run task pylint` to ensure
+Don't forget that this project also comes with other tasks that you can run once
+you have used Poetry to install all of the dependencies. For instance, if you
+find that your Python source code is not in adherence with the required
+formatting rules, you can run `poetry run task black` to automatically return it
+to the correct format! You can also run commands like `poetry run task mypy` to
+check the program's use of data types and `poetry run task pylint` to ensure
 that your source code adheres to other established programming conventions. You
-can use these built-in tasks to understand and improve your code's quality!
+can use these built-in tasks to understand and improve your code's quality! If
+you want to run all of the built-in checking tasks you can type `poetry run task
+all` in the directory that contains the `pyproject.toml` file.
 
 ???+ note
 
