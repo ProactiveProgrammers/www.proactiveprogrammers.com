@@ -1,3 +1,14 @@
+---
+tags:
+  - Conditional Logic
+  - Iteration Constructs
+  - Functions
+  - Numerical Computation
+  - Performance
+---
+
+![Primality Testing](/img/Pro-Data-Abstraction-Primality-Testing.svg){loading=lazy}
+
 # Primality Testing
 
 ## Project Goals
