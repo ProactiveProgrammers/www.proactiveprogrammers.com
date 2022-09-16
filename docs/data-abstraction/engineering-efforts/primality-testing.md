@@ -216,22 +216,16 @@ Along with running tasks like `poetry run task lint`, you can leverage the
 relevant instructions in the [technical
 skills](/proactive-skills/introduction-proactive-skills/) to run the command
 `gatorgrade --config config/gatorgrade.yml` to check your work. If your work
-meets the baseline requirements and adheres to the best practices that
-proactive programmers adopt you will see that all the checks pass when you run
+meets the baseline requirements and adheres to the best practices that proactive
+programmers adopt you will see that all the checks pass when you run
 `gatorgrade`. You can study the `config/gatorgrade.yml` file in your repository
 to learn how the :material-github:
 [GatorGrade](https://github.com/GatorEducator/gatorgrade) program runs
-:material-github: [GatorGrader](https://github.com/GatorEducator/gatorgrader)
-to automatically check your program and technical writing.
-
-Along with running tasks like `poetry run task lint`, you can leverage the
-relevant instructions in the [technical
-skills](/proactive-skills/introduction-proactive-skills/) to enter into a Docker
-container and run the command `gradle grade` to check your work. If `gradle
-grade` shows that all checks pass, you will know that you made progress towards
-correctly implementing and writing about `primality`. If your program has all of
-the anticipated functionality, you can run the command `poetry run task test`
-and see that the test suite produces output like this:
+:material-github: [GatorGrader](https://github.com/GatorEducator/gatorgrader) to
+automatically check your program and technical writing. If your program has all
+of the anticipated functionality, you can run the command `poetry run task test`
+and see that the test suite produces output like the following. Can you add
+comments to `test_primality.py` to show that you understand how the tests work?
 
 ```shell
 collected 7 items
@@ -239,14 +233,14 @@ collected 7 items
 tests/test_primality.py .......
 ```
 
-This project comes with other tasks that you can run once you have used Poetry
-to install all of the dependencies. For instance, if you find that your Python
-source code is not in adherence with the required formatting rules, you can run
-`poetry run task black` to automatically return it to the correct format! You
-can also run commands like `poetry run task mypy` to check the program's use of
-data types and `poetry run task pylint` to ensure that your source code adheres
-to other established programming conventions. You can use these built-in tasks
-to understand and improve your code's quality!
+Don't forget that this project also comes with other tasks that you can run
+once you have used Poetry to install all of the dependencies. For instance, if
+you find that your Python source code is not in adherence with the required
+formatting rules, you can run `poetry run task black` to automatically return
+it to the correct format! You can also run commands like `poetry run task mypy`
+to check the program's use of data types and `poetry run task pylint` to ensure
+that your source code adheres to other established programming conventions. You
+can use these built-in tasks to understand and improve your code's quality!
 
 ???+ note
 
