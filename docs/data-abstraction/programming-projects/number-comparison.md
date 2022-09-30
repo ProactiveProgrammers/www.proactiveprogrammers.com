@@ -1,3 +1,12 @@
+---
+tags:
+  - Conditional Logic
+  - Iteration Constructs
+  - Functions
+  - Testing
+  - Type Annotations
+---
+
 # Number Comparison
 
 ## Project Goals
