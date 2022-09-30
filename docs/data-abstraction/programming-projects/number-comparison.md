@@ -229,8 +229,9 @@ to automatically check your program and technical writing.
 
 If your program has all of the anticipated functionality, you can run the
 command `poetry run task test` and see that the test suite passes and produces
-output as shown in the following output. Can you think of any additional test
-cases to add to the test suite? If you can, then go ahead and add them!
+output as shown in the following output. Can you think of any additional tests
+to add to the test suite? If you can, then add them so that you can increase
+your confident in program correctness!
 
 ```shell
 collected 4 items
