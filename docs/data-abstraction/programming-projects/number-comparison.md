@@ -7,6 +7,8 @@ tags:
   - Type Annotations
 ---
 
+![Number Comparison](/img/Pro-Data-Abstraction-Number-Comparison.svg){loading=lazy}
+
 # Number Comparison
 
 ## Project Goals
