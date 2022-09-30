@@ -203,14 +203,15 @@ found an odd number and return `False` otherwise.
 
 If you study the source code in the `pyproject.toml` file you will see that it
 includes the following section that specifies different executable tasks like
-`lint`. If you are in the `square` directory that contains the `pyproject.toml`
+`lint`. If you are in the `compare` directory that contains the `pyproject.toml`
 file and the `poetry.lock` file, the tasks in this section make it easy to run
 commands like `poetry run task lint` to automatically run all of the linters
 designed to check the Python source code in your program and its test suite. You
 can also use the command `poetry run task black` to confirm that your source
 code adheres to the industry-standard format defined by the `black` tool. If it
 does not adhere to the standard then you can run the command `poetry run black
-square tests` and it will automatically reformat the source code.
+compare tests` or, alternatively, `poetry run task fixformat`, and it will
+automatically reformat the Python source code!
 
 Along with running tasks like `poetry run task lint`, you can leverage the
 relevant instructions in the [technical
