@@ -123,8 +123,7 @@
 
 - Chapter 5 of *Introduction to Computation and Programming Using Python*
 - Check out the [course slides](/slides/data-abstraction/structured-types/) for a detailed investigation of these chapters!
-- Go to the `data-abstraction/structured-types/` directory on [Proactive Programmers Live](https://proactiveprogrammers.com/live/) and investigate all of the Python programs!
-- Run the Jupyter notebooks in `data-abstraction/function-scope/` with:
+- Run the Jupyter notebooks in `data-abstraction/structured-types/` with:
     - :material-language-python: [Jupyter Lite](https://proactiveprogrammers.com/live/)
     - :material-google: [Google Colab](https://githubtocolab.com/ProactiveProgrammers/www.proactiveprogrammers.com)
         - :material-notebook-edit-outline: [Demonstrate Higher-Order Lists](https://githubtocolab.com/ProactiveProgrammers/www.proactiveprogrammers.com/blob/master/files/data-abstraction/structured-types/demonstrate-higher-order-lists.ipynb){:target="_blank"}
