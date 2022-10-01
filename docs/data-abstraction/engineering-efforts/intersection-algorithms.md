@@ -1,3 +1,14 @@
+---
+tags:
+  - Conditional Logic
+  - Iteration Constructs
+  - Functions
+  - Data Types
+  - Performance
+---
+
+![Intersection Algorithms](/img/Pro-Data-Abstraction-Intersection-Algorithms.svg){loading=lazy}
+
 # Intersection Algorithms
 
 ## Project Goals
