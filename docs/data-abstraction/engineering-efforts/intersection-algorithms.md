@@ -260,7 +260,12 @@ block, explain the meaning of the Python source code segments that you
 implemented, and answer all of the other questions about your experiences in
 completing this project. A specific goal of the reflection for this project is
 to evaluate the efficiency of the different algorithms and data containers
-implemented as part of the `intersection` program.
+implemented as part of the `intersection` program. When you are writing your
+performance evaluation make sure that you both explain what performance trends
+are evident and why you think the algorithms yield these trends. Finally, you
+should reflect on how the experimental evaluation of a program's performance is
+more nuanced than you might have initially expected before starting to work on
+this project.
 
 ## Project Assessment
 
@@ -272,6 +277,17 @@ strategy](/proactive-learning/assessment-strategy/). From the start to the end
 of this project you may make an unlimited number of reattempts at submitting
 source code and technical writing that meet all aspects of the project's
 specification.
+
+???+ note
+
+    Before you finish all of the required deliverables required by this project is
+    worth pausing to remember that the instructor will give advance feedback to
+    any learner who requests it through GitHub and Discord at least 24 hours
+    before the project's due date! Seriously, did you catch that? This policy
+    means that you can have a thorough understanding of ways to improve your
+    project **before** its final assessment! To learn more about this
+    opportunity, please read the [assessment
+    strategy](../../../proactive-learning/assessment-strategy/) for this site.
 
 ## Seeking Assistance
 
