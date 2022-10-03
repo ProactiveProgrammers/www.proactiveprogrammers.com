@@ -153,7 +153,10 @@
 
 - Chapters 6 and 7 of *Introduction to Computation and Programming Using Python*
 - Check out the [course slides](/slides/data-abstraction/program-components/) for a detailed investigation of these chapters!
-- Go to the `data-abstraction/program-components/` directory on [Proactive Programmers Live](https://proactiveprogrammers.com/live/) and investigate all of the Python programs!
+- Run the Jupyter notebooks in `data-abstraction/program-components/` with:
+    - :material-language-python: [Jupyter Lite](https://proactiveprogrammers.com/live/)
+    - :material-google: [Google Colab](https://githubtocolab.com/ProactiveProgrammers/www.proactiveprogrammers.com)
+        - :material-notebook-edit-outline: [Run Variants of Functions](https://githubtocolab.com/ProactiveProgrammers/www.proactiveprogrammers.com/blob/master/files/data-abstraction/program-components/run-function-variants.ipynb){:target="_blank"}
 
 ???+ note "Technical Concepts"
 
