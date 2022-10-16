@@ -1,3 +1,14 @@
+---
+tags:
+  - Data Types
+  - Iteration Constructs
+  - Functions
+  - Higher-Order Functions
+  - Type Annotations
+---
+
+![Structured Types](/img/Pro-Data-Abstraction-Structured-Types.svg){loading=lazy}
+
 # Structured Types
 
 ## Project Goals
