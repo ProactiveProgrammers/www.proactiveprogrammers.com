@@ -40,6 +40,17 @@ your computer. Now you are ready to add source code and documentation to the
 project, enabling you to understand more about tuples and higher-order
 functions.
 
+???+ note
+
+    If you are an emerging proactive programmer who is not enrolled in a
+    Computer Science class at Allegheny College, you can still work on this
+    assignment! To get started, you should click the "Use this template" icon
+    in the :material-github:
+    [structured-types-starter](https://github.com/ProactiveProgrammers/structured-types-starter)
+    GitHub repository and create your own version of this project's source
+    code. After creating your GitHub repository, you can follow all of the
+    other steps!
+
 ## Code Survey
 
 If you change into the `source/` directory of your GitHub repository, you will
@@ -49,10 +60,10 @@ program by typing `python compute-tuple-intersection.py` in your terminal
 window. This program currently has several `TODO` markers asking you to add
 source code from the text book to provide an implementation of a function with
 the following signature: `def compute_intersection(tuple_one: Tuple[Any, ...],
-tuple_two: Tuple[Any, ...]) -> Tuple[Any, ...]`. Once you have added all of the
+tuple_two: Tuple[Any, ...]) -> Tuple[Any, ...]`. Once you have added the
 required source code your program should produce the following output. Can you
-explain why different calls to `compute_intersection` yield an output that
-contains the same elements but in a different order?
+explain why different calls to `compute_intersection` yield output with the
+same elements but in a different order?
 
 ```
 The first tuple: (1, 'a', 2)
@@ -89,10 +100,31 @@ Since this project does not use [Poetry](https://python-poetry.org/) to manage
 project dependencies and virtual environments, it does not support the use of
 commands like `poetry run task test`. However, you can leverage the relevant
 instructions in the [technical
-skills](/proactive-skills/introduction-proactive-skills/) to enter into a Docker
-container and run the command `gradle grade` to check your work. If `gradle
-grade` shows that all checks pass, you will know that you made progress towards
-correctly implementing and writing about this project's two programs.
+skills](/proactive-skills/introduction-proactive-skills/) to run the command
+`gatorgrade --config config/gatorgrade.yml` to check your work. If your work
+meets the baseline requirements and adheres to the best practices that proactive
+programmers adopt you will see that all the checks pass when you run
+`gatorgrade`. You can study the `config/gatorgrade.yml` file in your repository
+to learn how :material-github:
+[GatorGrade](https://github.com/GatorEducator/gatorgrade) runs :material-github:
+[GatorGrader](https://github.com/GatorEducator/gatorgrader) to automatically
+check your program and technical writing.
+
+???+ note
+
+    Did you know that :material-github:
+    [GatorGrade](https://github.com/GatorEducator/gatorgrade) and
+    :material-github:
+    [GatorGrader](https://github.com/GatorEducator/gatorgrader) are open-source
+    Python programs implemented by [Proactive
+    Programmers](https://github.com/ProactiveProgrammers/www.proactiveprogrammers.com/graphs/contributors)?
+    If you finish this source code survey and have extra time, please brainstorm
+    some new features that you think these two tools should have, explain your
+    idea by raising an issue in the relevant project's GitHub repository, and
+    take the first step towards implementing and testing your idea. If the
+    maintainers of these tools accept your new feature then you will have helped
+    to improve the experience of other people who use GatorGrade and
+    GatorGrader!
 
 ## Project Reflection
 
