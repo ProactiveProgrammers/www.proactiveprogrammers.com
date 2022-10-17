@@ -78,7 +78,8 @@ this assignment, the grade for an engineering effort will have these parts:
   of the technical knowledge and skills developed during the completion of the
   project. This assessment will evaluate aspects of the project including, for
   instance, the use of accurate and succinct source code comments and Git
-  commit messages.
+  commit messages. This assessment will also include an evaluation of the
+  correctness and efficiency of the submitted Python source code.
 
 - **Technical Writing Skills of Either :fontawesome-solid-check: or
   :fontawesome-solid-xmark:**: The responses to the technical writing questions
