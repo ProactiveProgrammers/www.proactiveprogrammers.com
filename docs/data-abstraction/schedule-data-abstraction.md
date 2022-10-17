@@ -178,7 +178,10 @@
 - How can I use the processes of software testing and debugging to establish a
   confidence in the correctness of a Python program?
 - Check out the [course slides](/slides/data-abstraction/software-testing/) for a detailed investigation of these chapters!
-- Go to the `data-abstraction/software-testing/` directory on [Proactive Programmers Live](https://proactiveprogrammers.com/live/) and investigate all of the Python programs!
+- Run the Jupyter notebooks in `data-abstraction/software-testing/` with:
+    - :material-language-python: [Jupyter Lite](https://proactiveprogrammers.com/live/)
+    - :material-google: [Google Colab](https://githubtocolab.com/ProactiveProgrammers/www.proactiveprogrammers.com)
+        - :material-notebook-edit-outline: [Perform Debugging and Testing](https://githubtocolab.com/ProactiveProgrammers/www.proactiveprogrammers.com/blob/master/files/data-abstraction/software-testing/explore-software-testing.ipynb){:target="_blank"}
 
 ### Next Steps
 
