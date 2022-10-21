@@ -176,38 +176,37 @@ following three research questions:
 
 ## Running Checks
 
-If you study the source code in the `pyproject.toml` file you will see that
-it includes the following section that specifies different executable tasks:
+If you study the source code in the `pyproject.toml` file you will see that it
+includes the following section that specifies different executable tasks like
+`lint`. If you are in the `intersection` directory that contains the
+`pyproject.toml` file and the `poetry.lock` file, the tasks in this section
+make it easy to run commands like `poetry run task lint` to automatically run
+all of the linters designed to check the Python source code in your program and
+its test suite. You can also use the command `poetry run task black` to confirm
+that your source code adheres to the industry-standard format defined by the
+`black` tool. If it does not adhere to the standard then you can run the
+command `poetry run black primality tests` and it will automatically reformat
+the source code.
 
-```toml
-[tool.taskipy.tasks]
-black = { cmd = "black fibonaccicreator tests --check", help = "Run the black checks for source code format" }
-flake8 = { cmd = "flake8 fibonaccicreator tests", help = "Run the flake8 checks for source code documentation" }
-mypy = { cmd = "poetry run mypy fibonaccicreator", help = "Run the mypy type checker for potential type errors" }
-pydocstyle = { cmd = "pydocstyle fibonaccicreator tests", help = "Run the pydocstyle checks for source code documentation" }
-pylint = { cmd = "pylint fibonaccicreator tests", help = "Run the pylint checks for source code documentation" }
-test = { cmd = "pytest -x -s", help = "Run the pytest test suite" }
-test-silent = { cmd = "pytest -x --show-capture=no", help = "Run the pytest test suite without showing output" }
-all = "task black && task flake8 && task pydocstyle && task pylint && task mypy && task test"
-lint = "task black && task flake8 && task pydocstyle && task pylint"
-```
-
-This section makes it easy to run commands like `poetry run task lint` to
-automatically run all of the linters designed to check the Python source code in
-your program and its test suite. You can also use the command `poetry run task
-black` to confirm that your source code adheres to the industry-standard format
-defined by the `black` tool. Along with running tasks like `poetry run task
-lint`, you can leverage the relevant instructions in the [technical
-skills](/proactive-skills/introduction-proactive-skills/) to enter into a Docker
-container and run the command `gradle grade` to check your work. If `gradle
-grade` shows that all checks pass, you will know that you made progress towards
-correctly implementing and writing about `fibonaccicreator`. If your program has
+Along with running tasks like `poetry run task lint`, you can leverage the
+relevant instructions in the [technical
+skills](/proactive-skills/introduction-proactive-skills/) to run the command
+`gatorgrade --config config/gatorgrade.yml` to check your work. If your work
+meets the baseline requirements and adheres to the best practices that
+proactive programmers adopt you will see that all the checks pass when you run
+`gatorgrade`. You can study the `config/gatorgrade.yml` file in your repository
+to learn how the :material-github:
+[GatorGrade](https://github.com/GatorEducator/gatorgrade) program runs
+:material-github: [GatorGrader](https://github.com/GatorEducator/gatorgrader)
+to automatically check your program and technical writing. If your program has
 all of the anticipated functionality, you can run the command `poetry run task
-test` and see that the test suite produces output like the following. It is
-worth noting that the name of the test suite is `test_fibonacci` because the
+test` and see that the test suite produces output like the following. Can you
+add comments to the test suite to explain how the test cases work? It is worth
+noting that the name of the test suite is `test_fibonacci` because the
 functions mentioned in the previous section exist in the `fibonacci` module.
+Can you add comments to explain how these tests work?
 
-```
+```text
 collected 5 items
 
 tests/test_fibonacci.py .....
