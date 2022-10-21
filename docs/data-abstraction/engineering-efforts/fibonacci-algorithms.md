@@ -231,7 +231,7 @@ to understand and improve your code's quality!
     such, you should only commit to your repository once you have made
     substantive changes to your project and you are ready to confirm its
     correctness. Before you commit to your GitHub repository, you can still run
-    checks on your own computer by either using Poetry and GatorGrader.
+    checks on your own computer by using Poetry and GatorGrader.
 
 ## Project Reflection
 
