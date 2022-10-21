@@ -7,6 +7,8 @@ tags:
   - Performance
 ---
 
+![Fibonacci Algorithms](/img/Pro-Data-Abstraction-Fibonacci-Algorithms.svg){loading=lazy}
+
 # Fibonacci Algorithms
 
 ## Project Goals
