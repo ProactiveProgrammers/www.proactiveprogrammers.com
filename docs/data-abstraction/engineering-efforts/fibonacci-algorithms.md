@@ -204,7 +204,8 @@ test` and see that the test suite produces output like the following. Can you
 add comments to the test suite to explain how the test cases work? It is worth
 noting that the name of the test suite is `test_fibonacci` because the
 functions mentioned in the previous section exist in the `fibonacci` module.
-Can you add comments to explain how these tests work?
+Can you add comments to explain how these tests work? What are the key
+components of every test case created with Pytest?
 
 ```text
 collected 5 items
@@ -226,11 +227,11 @@ to understand and improve your code's quality!
     Don't forget that when you commit source code or technical writing to your
     GitHub repository for this project, it will trigger the run of a GitHub
     Actions workflow. If you are a student at Allegheny College, then running
-    this workflow consumes build minutes for the course's organization! As such,
-    you should only commit to your repository once you have made substantive
-    changes to your project and you are ready to confirm its correctness. Before
-    you commit to your repository, you can still run checks on your own computer
-    by either using Poetry or Docker and GatorGrader.
+    this workflow consumes build minutes for the course's organization! As
+    such, you should only commit to your repository once you have made
+    substantive changes to your project and you are ready to confirm its
+    correctness. Before you commit to your GitHub repository, you can still run
+    checks on your own computer by either using Poetry and GatorGrader.
 
 ## Project Reflection
 
