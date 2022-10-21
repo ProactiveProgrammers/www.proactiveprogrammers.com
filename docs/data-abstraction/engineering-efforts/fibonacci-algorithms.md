@@ -1,3 +1,12 @@
+---
+tags:
+  - Conditional Logic
+  - Functions
+  - Data Types
+  - Recursion
+  - Performance
+---
+
 # Fibonacci Algorithms
 
 ## Project Goals
