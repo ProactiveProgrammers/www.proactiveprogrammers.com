@@ -125,7 +125,9 @@ that you can explain each defect that you found in the function and how the test
 cases that you implemented helped you to find it. You should also reflect on how
 the tests that you created as part of this source code survey are similar to and
 different from the ones you might create with a framework like
-[Pytest](https://docs.pytest.org/).
+[Pytest](https://docs.pytest.org/). Finally, make sure that you take time to
+think through the strategy you have adopted for debugging Python functions,
+further considering the ways in which you can improve it.
 
 ## Project Assessment
 
