@@ -236,14 +236,18 @@
 
 - How can I implement more efficient Python programs by conducting both an
   analytical and an empirical evaluation of the performance of an algorithm?
+
+### Next Steps
+
+- Read chapter 11 of *Introduction to Computation and Programming Using Python*
 - Check out the [course
   slides](/slides/data-abstraction/algorithmic-complexity/) for a detailed
   investigation of these chapters!
 - Go to the `data-abstraction/algorithmic-complexity/` directory on [Proactive Programmers Live](https://proactiveprogrammers.com/live/) and investigate all of the Python programs!
-
-### Next Steps
-
-- Chapter 11 of *Introduction to Computation and Programming Using Python*
+- Run the Jupyter notebooks in `data-abstraction/algorithmic-complexity/` with:
+    - :material-language-python: [Jupyter Lite](https://proactiveprogrammers.com/live/)
+    - :material-google: [Google Colab](https://githubtocolab.com/ProactiveProgrammers/www.proactiveprogrammers.com)
+        - :material-notebook-edit-outline: [Perform Timing Experiments](https://githubtocolab.com/ProactiveProgrammers/www.proactiveprogrammers.com/blob/master/files/data-abstraction/algorithmic-complexity/perform-timing-experiments.ipynb){:target="_blank"}
 
 ???+ note "Technical Concepts"
 
