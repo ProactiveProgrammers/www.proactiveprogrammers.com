@@ -565,6 +565,7 @@ Go to the <code>function-scope/</code> directory
 </div>
 
 [//]: # (Slide End }}})
+
 ---
 
 [//]: # (Slide Start {{{)
