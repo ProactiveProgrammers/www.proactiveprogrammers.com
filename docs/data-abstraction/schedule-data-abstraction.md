@@ -243,7 +243,6 @@
 - Check out the [course
   slides](/slides/data-abstraction/algorithmic-complexity/) for a detailed
   investigation of these chapters!
-- Go to the `data-abstraction/algorithmic-complexity/` directory on [Proactive Programmers Live](https://proactiveprogrammers.com/live/) and investigate all of the Python programs!
 - Run the Jupyter notebooks in `data-abstraction/algorithmic-complexity/` with:
     - :material-language-python: [Jupyter Lite](https://proactiveprogrammers.com/live/)
     - :material-google: [Google Colab](https://githubtocolab.com/ProactiveProgrammers/www.proactiveprogrammers.com)
