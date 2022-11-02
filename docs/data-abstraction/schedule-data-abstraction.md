@@ -24,7 +24,7 @@
 
 ### Next Steps
 
-- Chapters 1 and 2 of *Introduction to Computation and Programming Using Python*
+- Read chapters 1 and 2 of *Introduction to Computation and Programming Using Python*
 - Check out the [course slides](/slides/data-abstraction/python-foundations/) for a detailed investigation of these chapters!
 - Run the Jupyter notebooks in `data-abstraction/python-foundations/` with:
     - :material-language-python: [Jupyter Lite](https://proactiveprogrammers.com/live/)
@@ -58,7 +58,7 @@
 
 ### Next Steps
 
-- Chapter 3 of *Introduction to Computation and Programming Using Python*
+- Read chapter 3 of *Introduction to Computation and Programming Using Python*
 - Check out the [course slides](/slides/data-abstraction/numerical-computation/) for a detailed investigation of these chapters!
 - Run the Jupyter notebooks in `data-abstraction/numerical-computation/` with:
     - :material-language-python: [Jupyter Lite](https://proactiveprogrammers.com/live/)
@@ -90,7 +90,7 @@
 
 ### Next Steps
 
-- Chapter 4 of *Introduction to Computation and Programming Using Python*
+- Read chapter 4 of *Introduction to Computation and Programming Using Python*
 - Check out the [course slides](/slides/data-abstraction/function-scope/) for a detailed investigation of these chapters!
 - Run the Jupyter notebooks in `data-abstraction/function-scope/` with:
     - :material-language-python: [Jupyter Lite](https://proactiveprogrammers.com/live/)
@@ -121,7 +121,7 @@
 
 ### Next Steps
 
-- Chapter 5 of *Introduction to Computation and Programming Using Python*
+- Read chapter 5 of *Introduction to Computation and Programming Using Python*
 - Check out the [course slides](/slides/data-abstraction/structured-types/) for a detailed investigation of these chapters!
 - Run the Jupyter notebooks in `data-abstraction/structured-types/` with:
     - :material-language-python: [Jupyter Lite](https://proactiveprogrammers.com/live/)
@@ -151,7 +151,7 @@
 
 ### Next Steps
 
-- Chapters 6 and 7 of *Introduction to Computation and Programming Using Python*
+- Read chapters 6 and 7 of *Introduction to Computation and Programming Using Python*
 - Check out the [course slides](/slides/data-abstraction/program-components/) for a detailed investigation of these chapters!
 - Run the Jupyter notebooks in `data-abstraction/program-components/` with:
     - :material-language-python: [Jupyter Lite](https://proactiveprogrammers.com/live/)
@@ -177,7 +177,6 @@
 
 - How can I use the processes of software testing and debugging to establish a
   confidence in the correctness of a Python program?
-
 
 ### Next Steps
 
@@ -274,7 +273,7 @@
 
 ### Next Steps
 
-- Chapter 12 of *Introduction to Computation and Programming Using Python*
+- Read chapter 12 of *Introduction to Computation and Programming Using Python*
 
 ???+ note "Technical Concepts"
 
@@ -301,7 +300,7 @@
 
 ### Next Steps
 
-- Chapters 14 and 15 of *Introduction to Computation and Programming Using Python*
+- Read chapters 14 and 15 of *Introduction to Computation and Programming Using Python*
 
 ???+ note "Technical Concepts"
 
