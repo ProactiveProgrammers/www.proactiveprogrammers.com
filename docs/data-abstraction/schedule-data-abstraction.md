@@ -266,14 +266,17 @@
 
 - How can I implement, use, and test data structures that support efficient
   data processing with searching and sorting algorithms?
-- Check out the [course
-  slides](/slides/data-abstraction/data-structures/) for a detailed
-  investigation of these chapters!
-- Go to the `data-abstraction/data-structures/` directory on [Proactive Programmers Live](https://proactiveprogrammers.com/live/) and investigate all of the Python programs!
 
 ### Next Steps
 
 - Read chapter 12 of *Introduction to Computation and Programming Using Python*
+- Check out the [course
+  slides](/slides/data-abstraction/data-structures/) for a detailed
+- Run the Jupyter notebooks in `data-abstraction/algorithmic-complexity/` with:
+    - :material-language-python: [Jupyter Lite](https://proactiveprogrammers.com/live/)
+    - :material-google: [Google Colab](https://githubtocolab.com/ProactiveProgrammers/www.proactiveprogrammers.com)
+        - :material-notebook-edit-outline: [Create and Use Dictionaries](https://githubtocolab.com/ProactiveProgrammers/www.proactiveprogrammers.com/blob/master/files/data-abstraction/data-structures/create-and-use-dictionaries.ipynb){:target="_blank"}
+        - :material-notebook-edit-outline: [Use Searching and Sorting](https://githubtocolab.com/ProactiveProgrammers/www.proactiveprogrammers.com/blob/master/files/data-abstraction/data-structures/use-searching-and-sorting.ipynb){:target="_blank"}
 
 ???+ note "Technical Concepts"
 
@@ -294,13 +297,13 @@
 - How can I use algorithms to efficiently solve an optimization problem (e.g.,
   the 0/1 knapsack problem) characterized by an objective function and a set of
   constraints?
-- Check out the [course slides](/slides/data-abstraction/optimization-problems/)
-  for a detailed investigation of these chapters!
-- Go to the `data-abstraction/optimization-problems/` directory on [Proactive Programmers Live](https://proactiveprogrammers.com/live/) and investigate all of the Python programs!
 
 ### Next Steps
 
 - Read chapters 14 and 15 of *Introduction to Computation and Programming Using Python*
+- Check out the [course slides](/slides/data-abstraction/optimization-problems/)
+  for a detailed investigation of these chapters!
+- Go to the `data-abstraction/optimization-problems/` directory on [Proactive Programmers Live](https://proactiveprogrammers.com/live/) and investigate all of the Python programs!
 
 ???+ note "Technical Concepts"
 
