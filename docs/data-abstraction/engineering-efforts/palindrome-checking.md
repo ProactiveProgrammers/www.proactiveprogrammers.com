@@ -1,3 +1,14 @@
+---
+tags:
+  - Conditional Logic
+  - Iteration Constructs
+  - Object-Oriented Programming
+  - Recursive Functions
+  - Software Testing
+---
+
+![Palindrome Checking](/img/Pro-Data-Abstraction-Palindrome-Checking.svg){loading=lazy}
+
 # Palindrome Checking
 
 ## Project Goals
