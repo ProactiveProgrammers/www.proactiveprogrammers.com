@@ -1,3 +1,14 @@
+---
+tags:
+  - Conditional Logic
+  - Iteration Constructs
+  - Functions
+  - Performance
+  - Time Complexity
+---
+
+![Sorting Algorithms](/img/Pro-Data-Abstraction-Sorting-Algorithms.svg){loading=lazy}
+
 # Sorting Algorithms
 
 ## Project Goals
