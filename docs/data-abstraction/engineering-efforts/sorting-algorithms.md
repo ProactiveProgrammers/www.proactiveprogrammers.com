@@ -218,8 +218,8 @@ to automatically check your program and technical writing. If your program has
 all of the anticipated functionality, you can run the command `poetry run task
 test` and see that the test suite produces output like the following. Can you
 add comments to the test suite to explain how the test cases work? It is worth
-noting that the name of the test suite is `test_fibonacci` because the
-functions mentioned in the previous section exist in the `fibonacci` module.
+noting that the name of the test suite is `test_sorting` because the
+functions mentioned in the previous section exist in the `listsorting` module.
 Can you add comments to explain how these tests work? What are the key
 components of every test case created with Pytest?
 
