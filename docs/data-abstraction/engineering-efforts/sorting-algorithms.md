@@ -201,8 +201,8 @@ all of the linters designed to check the Python source code in your program and
 its test suite. You can also use the command `poetry run task black` to confirm
 that your source code adheres to the industry-standard format defined by the
 `black` tool. If it does not adhere to the standard then you can run the
-command `poetry run black primality tests` and it will automatically reformat
-the source code.
+command `poetry run task fixformat` and it will automatically reformat the
+source code.
 
 Along with running tasks like `poetry run task lint`, you can leverage the
 relevant instructions in the [technical
