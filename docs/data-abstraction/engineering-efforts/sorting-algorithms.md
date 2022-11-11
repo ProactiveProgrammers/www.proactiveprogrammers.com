@@ -223,7 +223,7 @@ functions mentioned in the previous section exist in the `listsorting` module.
 Can you add comments to explain how these tests work? What are the key
 components of every test case created with Pytest?
 
-```
+```text
 tests/test_sorting.py ...
 ```
 
