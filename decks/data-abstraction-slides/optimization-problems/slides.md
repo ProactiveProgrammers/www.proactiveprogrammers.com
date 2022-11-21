@@ -292,63 +292,6 @@ Pick items with best value for their weight
 
 ---
 
-[//]: # (Slide Start {{{)
-
-# Output from a Greedy Knapsack Solver
-
-<style>
-  h2 {
-    font-size: 42px;
-    @apply text-orange-600 mb-4;
-  }
-  li {
-    font-size: 28px;
-    margin-top: 4px;
-    margin-bottom: 9px;
-  }
-</style>
-
-<v-clicks>
-
-<div class="border-2 rounded-2xl border-gray-700 bg-true-gray-300 p-5">
-
-<pre>
-Use greedy-by-value to fill a knapsack of size 20:
-Total value of items taken is 200.0
-  (computer, 200, 20)
-
-Use greedy-by-weight to fill a knapsack of size 20:
-Total value of items taken is 170.0
-  (book, 10, 1)
-  (vase, 50, 2)
-  (radio, 20, 4)
-  (painting, 90, 9)
-
-Use greedy-by-density to fill a knapsack of size 20:
-Total value of items taken is 255.0
-  (vase, 50, 2)
-  (clock, 175, 10)
-  (book, 10, 1)
-  (radio, 20, 4)
-</pre>
-
-</div>
-
-</v-clicks>
-
-<div class="mt-5">
-</div>
-
-<v-clicks>
-
-- Can you explain **why** the program produced this output?
-- How does **sorting** play a role in solving a knapsack instance?
-
-</v-clicks>
-
-[//]: # (Slide End }}})
-
----
 
 [//]: # (Slide Start {{{)
 
@@ -434,6 +377,63 @@ Run <code>explore-knapsack-solving.ipynb</code>
 </div>
 
 </div>
+
+[//]: # (Slide End }}})
+---
+
+[//]: # (Slide Start {{{)
+
+# Output from a Greedy Knapsack Solver
+
+<style>
+  h2 {
+    font-size: 42px;
+    @apply text-orange-600 mb-4;
+  }
+  li {
+    font-size: 28px;
+    margin-top: 4px;
+    margin-bottom: 9px;
+  }
+</style>
+
+<v-clicks>
+
+<div class="border-2 rounded-2xl border-gray-700 bg-true-gray-300 p-5">
+
+<pre>
+Use greedy-by-value to fill a knapsack of size 20:
+Total value of items taken is 200.0
+  (computer, 200, 20)
+
+Use greedy-by-weight to fill a knapsack of size 20:
+Total value of items taken is 170.0
+  (book, 10, 1)
+  (vase, 50, 2)
+  (radio, 20, 4)
+  (painting, 90, 9)
+
+Use greedy-by-density to fill a knapsack of size 20:
+Total value of items taken is 255.0
+  (vase, 50, 2)
+  (clock, 175, 10)
+  (book, 10, 1)
+  (radio, 20, 4)
+</pre>
+
+</div>
+
+</v-clicks>
+
+<div class="mt-5">
+</div>
+
+<v-clicks>
+
+- Can you explain **why** the program produced this output?
+- How does **sorting** play a role in solving a knapsack instance?
+
+</v-clicks>
 
 [//]: # (Slide End }}})
 
