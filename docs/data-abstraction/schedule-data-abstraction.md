@@ -303,7 +303,10 @@
 - Read chapters 14 and 15 of *Introduction to Computation and Programming Using Python*
 - Check out the [course slides](/slides/data-abstraction/optimization-problems/)
   for a detailed investigation of these chapters!
-- Go to the `data-abstraction/optimization-problems/` directory on [Proactive Programmers Live](https://proactiveprogrammers.com/live/) and investigate all of the Python programs!
+- Run the Jupyter notebooks in `data-abstraction/optimization-problems/` with:
+    - :material-language-python: [Jupyter Lite](https://proactiveprogrammers.com/live/)
+    - :material-google: [Google Colab](https://githubtocolab.com/ProactiveProgrammers/www.proactiveprogrammers.com)
+        - :material-notebook-edit-outline: [Explore Knapsack Solving](https://githubtocolab.com/ProactiveProgrammers/www.proactiveprogrammers.com/blob/master/files/data-abstraction/data-structures/explore-knapsack-solving.ipynb){:target="_blank"}
 
 ???+ note "Technical Concepts"
 
