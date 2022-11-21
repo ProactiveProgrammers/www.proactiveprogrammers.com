@@ -616,7 +616,7 @@ Always makes decisions that are locally optimal
 <div class="flex row">
 
 <div class="text-7xl text-orange-600 font-bold mt-5 ml-4 mb-4">
-Drawbacks of the exhaustive algorithm?
+Let's explore optimal knapsack solvers!
 </div>
 
 </div>
@@ -625,24 +625,11 @@ Drawbacks of the exhaustive algorithm?
 
 <div class="flex row">
 
-<mdi-alert-octagram class="text-6xl ml-8 mt-6 text-blue-600" />
+<mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
 
 <div class="text-3xl font-bold mt-10 ml-4">
-Powerset contains exponential number of elements
-</div>
-
-</div>
-
-</div>
-
-<div v-click>
-
-<div class="flex row">
-
-<mdi-alert-octagram  class="text-6xl ml-8 mt-6 text-blue-600" />
-
-<div class="text-3xl font-bold mt-10 ml-4">
-Every subset must be checked in the worst case
+Find the file in <a href = "https://proactiveprogrammers.com/live">Jupyter Lite</a> or
+<a href = "https://githubtocolab.com/ProactiveProgrammers/www.proactiveprogrammers.com">Google Colab</a>!
 </div>
 
 </div>
@@ -653,10 +640,24 @@ Every subset must be checked in the worst case
 
 <div class="flex row">
 
-<mdi-alert-octagram class="text-6xl ml-8 mt-6 text-blue-600" />
+<mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
 
 <div class="text-3xl font-bold mt-10 ml-4">
-Extreme costs limits the feasible problem size
+<code>data-abstraction/optimization-problems/</code>
+</div>
+
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+Run <code>explore-knapsack-solving.ipynb</code>
 </div>
 
 </div>
@@ -726,6 +727,61 @@ Total value of items taken is 255.0
 
 [//]: # (Slide End }}})
 
+---
+
+[//]: # (Slide Start {{{)
+
+<div class="flex row">
+
+<div class="text-7xl text-orange-600 font-bold mt-5 ml-4 mb-4">
+Drawbacks of the exhaustive algorithm?
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<mdi-alert-octagram class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+Powerset contains exponential number of elements
+</div>
+
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<mdi-alert-octagram  class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+Every subset must be checked in the worst case
+</div>
+
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<mdi-alert-octagram class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+Extreme costs limits the feasible problem size
+</div>
+
+</div>
+
+</div>
+
+[//]: # (Slide End }}})
 
 ---
 
