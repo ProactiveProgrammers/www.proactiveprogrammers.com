@@ -144,7 +144,7 @@ similar to that shown in this section.
 
     Don't forget that if you want to run the `squareroot` program you must use
     your terminal to first go into the GitHub repository containing this project
-    and then go into the `squareroot` directory that houses the project's code.
+    and then go into the `squareroot/` directory that houses the project's code.
     Finally, remember that before running the program you must run `poetry
     install` to add the dependencies.
 
@@ -211,7 +211,7 @@ the performance of your computer.
 
 If you study the source code in the `pyproject.toml` file you will see that it
 includes a section that specifies different executable tasks like
-`lint`. If you are in the `compare` directory that contains the `pyproject.toml`
+`lint`. If you are in the `squareroot/` directory that contains the `pyproject.toml`
 file and the `poetry.lock` file, the tasks in this section make it easy to run
 commands like `poetry run task lint` to automatically run all of the linters
 designed to check the Python source code in your program and its test suite. You
