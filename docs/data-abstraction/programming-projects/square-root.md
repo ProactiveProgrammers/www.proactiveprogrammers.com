@@ -217,7 +217,7 @@ can also use the command `poetry run task black` to confirm that your source
 code adheres to the industry-standard format defined by the `black` tool. If it
 does not adhere to the standard then you can run the command `poetry run black
 compare tests` or, alternatively, `poetry run task fixformat`, and it will
-automatically reformat the Python source code!
+automatically reformat the code!
 
 Along with running tasks like `poetry run task lint`, you can leverage the
 relevant instructions in the [technical
