@@ -165,8 +165,7 @@ designed to check the Python source code in your program and its test suite.
 You can also use the command `poetry run task black` to confirm that your
 source code adheres to the industry-standard format defined by the `black`
 tool. If it does not adhere to the standard then you can run the command
-`poetry run task black` to see what does not work and then `poetry run task
-fixformat` to will automatically reformat the code!
+`poetry run task fixformat` to automatically reformat the code!
 
 Along with running tasks like `poetry run task lint`, you can leverage the
 relevant instructions in the [technical
