@@ -250,8 +250,8 @@ tests/test_squareroot.py ....
     such, you should only commit to your repository once you have made
     substantive changes to your project and you are ready to confirm its
     correctness. Before you commit to your repository, you can still run checks
-    on your own computer by using
-    the [GatorGrade](https://github.com/GatorEducator/gatorgrade) program to run
+    on your own computer by using the :material-github:
+    [GatorGrade](https://github.com/GatorEducator/gatorgrade) program to run
     :material-github:
     [GatorGrader](https://github.com/GatorEducator/gatorgrader).
 
