@@ -1,3 +1,12 @@
+---
+tags:
+  - Conditional Logic
+  - File I/O
+  - Functions
+  - Iteration Constructs
+  - Object-Oriented
+---
+
 # Object Processing
 
 ## Project Goals
