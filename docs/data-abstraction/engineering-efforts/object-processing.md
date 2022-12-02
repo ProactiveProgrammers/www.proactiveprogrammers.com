@@ -7,6 +7,8 @@ tags:
   - Object-Oriented
 ---
 
+![Object Processing](/img/Pro-Data-Abstraction-Object-Processing.svg){loading=lazy}
+
 # Object Processing
 
 ## Project Goals
