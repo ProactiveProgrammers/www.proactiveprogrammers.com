@@ -156,43 +156,43 @@ it and revise the prompt associated with the marker into a meaningful comment.
 
 ## Running Checks
 
-If you study the source code in the `pyproject.toml` file you will see that
-it includes the following section that specifies different executable tasks:
+If you study the source code in the `pyproject.toml` file you will see that it
+includes a section that specifies different executable tasks like `lint`. If
+you are in the `objectprocessor/` directory that contains the `pyproject.toml`
+file and the `poetry.lock` file, the tasks in this section make it easy to run
+commands like `poetry run task lint` to automatically run all of the linters
+designed to check the Python source code in your program and its test suite.
+You can also use the command `poetry run task black` to confirm that your
+source code adheres to the industry-standard format defined by the `black`
+tool. If it does not adhere to the standard then you can run the command
+`poetry run task black` to see what does not work and then `poetry run task
+fixformat` to will automatically reformat the code!
 
-```toml
-[tool.taskipy.tasks]
-black = { cmd = "black objectprocessor --check", help = "Run the black checks for source code format" }
-flake8 = { cmd = "flake8 objectprocessor", help = "Run the flake8 checks for source code documentation" }
-mypy = { cmd = "poetry run mypy objectprocessor", help = "Run the mypy type checker for potential type errors" }
-pydocstyle = { cmd = "pydocstyle objectprocessor tests", help = "Run the pydocstyle checks for source code documentation" }
-pylint = { cmd = "pylint objectprocessor", help = "Run the pylint checks for source code documentation" }
-all = "task black && task flake8 && task pydocstyle && task pylint && task mypy"
-lint = "task black && task flake8 && task pydocstyle && task pylint"
-```
-
-This section makes it easy to run commands like `poetry run task lint` to
-automatically run all of the linters designed to check the Python source code in
-your program and its test suite. You can also use the command `poetry run task
-black` to confirm that your source code adheres to the industry-standard format
-defined by the `black` tool. If it does not adhere to the standard then you can
-run the command `poetry run black objectprocessor` and it will automatically
-reformat the source code. Along with running tasks like `poetry run task lint`,
-you can leverage the relevant instructions in the [technical
-skills](/proactive-skills/introduction-proactive-skills/) to enter into a Docker
-container and run the command `gradle grade` to check your work. If `gradle
-grade` shows that all checks pass, you will know that you made progress towards
-correctly implementing and writing about `objectprocessor`.
+Along with running tasks like `poetry run task lint`, you can leverage the
+relevant instructions in the [technical
+skills](/proactive-skills/introduction-proactive-skills/) to run the command
+`gatorgrade --config config/gatorgrade.yml` to check your work. If your work
+meets the baseline requirements and adheres to the best practices that
+proactive programmers adopt you will see that all the checks pass when you run
+`gatorgrade`. You can study the `config/gatorgrade.yml` file in your repository
+to learn how the :material-github:
+[GatorGrade](https://github.com/GatorEducator/gatorgrade) program runs
+:material-github: [GatorGrader](https://github.com/GatorEducator/gatorgrader)
+to automatically check your program and technical writing.
 
 ???+ note
 
     Don't forget that when you commit source code or technical writing to your
     GitHub repository for this project, it will trigger the run of a GitHub
     Actions workflow. If you are a student at Allegheny College, then running
-    this workflow consumes build minutes for the course's organization! As such,
-    you should only commit to your repository once you have made substantive
-    changes to your project and you are ready to confirm its correctness. Before
-    you commit to your repository, you can still run checks on your own computer
-    by either using Poetry or Docker and GatorGrader.
+    this workflow consumes build minutes for the course's organization! As
+    such, you should only commit to your repository once you have made
+    substantive changes to your project and you are ready to confirm its
+    correctness. Before you commit to your repository, you can still run checks
+    on your own computer by using the :material-github:
+    [GatorGrade](https://github.com/GatorEducator/gatorgrade) program to run
+    :material-github:
+    [GatorGrader](https://github.com/GatorEducator/gatorgrader).
 
 ## Project Reflection
 
