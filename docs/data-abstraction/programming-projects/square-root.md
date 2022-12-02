@@ -1,3 +1,12 @@
+---
+tags:
+  - Conditional Logic
+  - Iteration Constructs
+  - Functions
+  - Performance
+  - Testing
+---
+
 # Square Roots
 
 ## Project Goals
