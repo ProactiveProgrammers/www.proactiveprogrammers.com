@@ -3,8 +3,8 @@ tags:
   - Conditional Logic
   - Iteration Constructs
   - Functions
+  - Numerical Computation
   - Performance
-  - Testing
 ---
 
 ![Number Comparison](/img/Pro-Data-Abstraction-Square-Roots.svg){loading=lazy}
