@@ -204,7 +204,7 @@ found an odd number and return `False` otherwise.
 ## Running Checks
 
 If you study the source code in the `pyproject.toml` file you will see that it
-includes the following section that specifies different executable tasks like
+includes a section that specifies different executable tasks like
 `lint`. If you are in the `compare` directory that contains the `pyproject.toml`
 file and the `poetry.lock` file, the tasks in this section make it easy to run
 commands like `poetry run task lint` to automatically run all of the linters
