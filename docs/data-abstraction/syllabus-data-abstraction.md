@@ -153,13 +153,13 @@ These grading categories have the following definitions:
 
 -   **Engineering Efforts**: These assignments invite students to explore
     different techniques for rigorously designing, implementing, evaluating, and
-    documenting real-world Python programs. These assignments invite students to
-    use tools like a text editor, a terminal window, and a modern Python
-    development environment to implement functions that strike the right balance
-    between understandability, generalizability, and specialization. Students
-    will also use the data collected from running experiments to evaluate the
-    implementation of a Python function as they consider trade-offs between, for
-    instance, its efficiency and correctness.
+    documenting real-world Python programs. These assignments also encourage
+    students to use tools like a text editor, a terminal window, and a modern
+    Python development environment to implement functions that strike the right
+    balance between understandability, generalizability, and specialization.
+    Students will also use the data collected from running experiments to
+    evaluate the implementation of a Python function as they consider trade-offs
+    between, for instance, its efficiency and correctness.
 
 #### Assignment Submission
 
