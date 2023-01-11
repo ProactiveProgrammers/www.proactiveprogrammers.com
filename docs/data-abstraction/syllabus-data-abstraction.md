@@ -12,7 +12,7 @@
 - Monday: 10:00 AM-11:00 AM, Alden Hall, 15 minute time slots
 - Monday: 3:00 PM-4:00 PM, Alden Hall, 15 minute time slots
 - Tuesday: 3:00 AM-4:00 AM, Alden Hall, 15 minute time slots
-- Monday: 10:00 AM-11:00 AM, Alden Hall, 15 minute time slots
+- Wednesday: 10:00 AM-11:00 AM, Alden Hall, 15 minute time slots
 - Wednesday: 3:00 PM-5:00 PM, Alden Hall, 15 minute time slots
 
 ???+ note "Scheduling Office Hours"
