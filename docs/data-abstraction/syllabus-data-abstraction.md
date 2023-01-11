@@ -56,6 +56,10 @@ presentations.
 Python](https://mitpress.mit.edu/books/introduction-computation-and-programming-using-python-third-edition)
 by [John V. Guttag](https://people.csail.mit.edu/guttag/)
 
+### Course Schedule
+
+- Week One: January 16 to January 20: [Software Operation](../schedule-data-abstraction#software-operation)
+
 ### Course Policies
 
 #### Grading
@@ -68,7 +72,7 @@ during the academic semester.
 | Category               | Percentage |
 |------------------------| -----------|
 | Course Participation   |  5%        |
-| Midterm Examination    |  10%       |
+| Midterm Examinations   |  10%       |
 | Final Examination      |  15%       |
 | Source Code Surveys    |  15%       |
 | Programming Projects   |  15%       |
