@@ -10,11 +10,10 @@
 ### Instructor Office Hours
 
 - Monday: 10:00 AM-11:00 AM, Alden Hall, 15 minute time slots
-- Monday: 1:00 PM-2:00 PM, Alden Hall, 15 minute time slots
-- Tuesday: 10:00 AM-12 PM, Alden Hall, 15 minute time slots
-- Wednesday: 4:30 PM-5:00 PM, Alden Hall, 15 minute time slots
-- Thursday: 10:00 AM-12 PM, Alden Hall, 15 minute time slots
-- Friday: 4:30 PM-5:00 PM, Alden Hall, 15 minute time slots
+- Monday: 3:00 PM-4:00 PM, Alden Hall, 15 minute time slots
+- Tuesday: 3:00 AM-4:00 AM, Alden Hall, 15 minute time slots
+- Monday: 10:00 AM-11:00 AM, Alden Hall, 15 minute time slots
+- Wednesday: 3:00 PM-5:00 PM, Alden Hall, 15 minute time slots
 
 ???+ note "Scheduling Office Hours"
 
@@ -30,9 +29,9 @@
 
 ### Course Meeting Schedule
 
-- Discussion and Group Work Session: Monday and Wednesday, 9:00 AM-9:50 AM
-- Programming Session: Friday, 9:00 AM-9:50 AM
-- Laboratory Session: Friday, 2:30 PM-4:20 PM
+- Discussion and Group Work Session: Monday and Wednesday, 1:30 PM-2:20 PM
+- Programming Session: Friday, 1:30 PM-2:20 PM
+- Laboratory Session: Thursday, 2:30 PM-4:20 PM
 
 ### Course Description
 
