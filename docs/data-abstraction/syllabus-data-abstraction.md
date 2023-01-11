@@ -116,19 +116,23 @@ These grading categories have the following definitions:
     who need to miss class or attend class late for an excused reason should
     communicate their situation to the course instructor as soon as possible.
 
--   **Midterm Examination**: The midterm is an online cumulative assessment
-    covering all of the material from the class, programming, and laboratory
-    sessions, as outlined on the course schedule. Unless prior arrangements are
-    made with the instructor, all students should use their computer
-    to take this test on the scheduled date and to complete it in the stated
-    location while taking no more than the required amount of time.
-
--   **Final Examination**: The final is an online cumulative assessment
-    covering all of the material from the class, programming, and laboratory
+-   **Midterm Examinations**: The midterms are an online cumulative assessment
+    covering all prior material from the class, programming, and laboratory
     sessions, as outlined on the course schedule. Unless prior arrangements are
     made with the instructor, all students should use their computer to take
     this test on the scheduled date and to complete it in the stated location
-    while taking no more than the required amount of time.
+    while taking no more than the required amount of time. Each midterm is an
+    executable examination that a student will complete through the use of
+    GitHub, VS Code, and the programming tools installed on their laptops.
+
+-   **Final Examination**: The final is an online cumulative assessment covering
+    all of the material from the class, programming, and laboratory sessions, as
+    outlined on the course schedule. Unless prior arrangements are made with the
+    instructor, all students should use their computer to take this test on the
+    scheduled date and to complete it in the stated location while taking no
+    more than the required amount of time. The cumulative final is an executable
+    examination that a student will complete through the use of GitHub, VS Code,
+    and the programming tools installed on their laptops.
 
 -   **Source Code Surveys**: Graded on a checkmark basis and building on
     material in the textbook and the content covered during that week's
