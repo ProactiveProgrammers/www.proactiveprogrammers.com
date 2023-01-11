@@ -58,7 +58,9 @@ by [John V. Guttag](https://people.csail.mit.edu/guttag/)
 
 ### Course Schedule
 
-- Week One: January 16 to January 20: [Software Operation](../schedule-data-abstraction#software-operation)
+- **Week One**: January 16 to January 20: [Software Operation](../schedule-data-abstraction#software-operation)
+- **Week Two**: January 23 to January 27: [Python Foundations](../schedule-data-abstraction#python-foundations)
+- **Week Three**: January 30 to February 3: [Numerical Computation](../schedule-data-abstraction#numerical-computation)
 
 ### Course Policies
 
