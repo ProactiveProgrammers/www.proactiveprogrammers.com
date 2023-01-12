@@ -61,7 +61,7 @@ by [John V. Guttag](https://people.csail.mit.edu/guttag/)
 - **Week Two**: January 23 to January 27: [Python Foundations](../schedule-data-abstraction#python-foundations)
 - **Week Three**: January 30 to February 3: [Numerical Computation](../schedule-data-abstraction#numerical-computation)
 - **Week Four**: February 6 to February 10: [Function Scope](../schedule-data-abstraction#function-scope)
-- **Week Five**: February 13 to February 17: Refreshing Retrospective
+- **Week Five**: February 13 to February 17: Proactive Review
 - **Executable Examination One**: February 16 during the laboratory session
     - Relevant Modules:
         - [Software Operation](../schedule-data-abstraction#software-operation)
@@ -73,7 +73,7 @@ by [John V. Guttag](https://people.csail.mit.edu/guttag/)
 - **Week Eight**: February 27 to March 3: Spring Break
 - **Week Nine**: March 13 to March 17: [Software Testing](../schedule-data-abstraction#software-testing)
 - **Week Ten**: March 20 to March 24: [Object-Oriented Programming](../schedule-data-abstraction#object-oriented-programming)
-- **Week Eleven**: March 27 to March 31: Refreshing Retrospective
+- **Week Eleven**: March 27 to March 31: Proactive Review
 - **Executable Examination Two**: March 30 during the laboratory session
     - Relevant Modules:
         - [Structured Types](../schedule-data-abstraction#structured-types)
@@ -84,7 +84,7 @@ by [John V. Guttag](https://people.csail.mit.edu/guttag/)
 - **Week Thirteen**: April 10 to April 14: [Algorithmic Complexity](../schedule-data-abstraction#algorithmic-complexity)
 - **Week Fourteen**: April 17 to April 21: [Data Structures](../schedule-data-abstraction#data-structures)
 - **Week Fifteen**: April 24 to April 28: [Optimization Problems](../schedule-data-abstraction#optimization-problems)
-- **Week Sixteen**: May 1: Refreshing Retrospective
+- **Week Sixteen**: May 1: Proactive Review
 - **Final Examination**: *Examination Code*: F, *Date*: Friday, May 5, 2022
     - Comprehensively covers all course modules
 
