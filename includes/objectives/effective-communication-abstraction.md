@@ -12,7 +12,7 @@ learning skills:
       originate from sites like [Stack Overflow](https://stackoverflow.com/),
       develop a way to fix an error in a Python program.
     - Independently develop solutions to Python programming problems even if the
-      specifical technical challenge that you face was not previously covered in
+      specific technical challenge that you face was not previously covered in
       a course session or as part of your prior review of technical content.
 
 - Use [Discord](https://discord.com/) to effectively communicate about
