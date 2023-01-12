@@ -1,6 +1,6 @@
 # Course Syllabus
 
-## Computer Science 102 Spring 2022
+## Computer Science 102 Spring 2023
 
 ### Course Instructor
 
