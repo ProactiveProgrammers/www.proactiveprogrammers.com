@@ -1,6 +1,6 @@
 A person learning data abstraction with the mindset of a proactive programmer
 will be able to demonstrate mastery of the following technology-mediated
-learning skills:
+communication skills:
 
 - Follow a systematic process when using resources to implement Python programs:
     - After detecting an error in a Python program through the use of tools like
