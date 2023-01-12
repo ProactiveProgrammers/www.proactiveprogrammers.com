@@ -25,10 +25,10 @@
       equivalent implementation in a Python program that uses conditional logic,
       function definitions, and function calls.
     - Use the formal definition of a monoid to describe and predict the output
-      of operations (e.g., concatentation) on textual strings in the Python
+      of operations (e.g., concatenation) on textual strings in the Python
       programming language.
     - Use the formal definition of a monoid to describe and predict the output
-      of operations (e.g., concatentation) on finite and infinite streams in a
+      of operations (e.g., concatenation) on finite and infinite streams in a
       Python program.
     - Use the formal definition of a set and set-theoretic operations like
       union, intersection, and containment check to implement a Python program
@@ -38,5 +38,5 @@
       function, implement that function as either a traditional Python function
       or a dictionary.
     - Using the formal definition of a graph and a file with graph-theoretic
-      data, create an adjacency matrix representaton of the graph and save it
+      data, create an adjacency matrix representation of the graph and save it
       using a Python program.
