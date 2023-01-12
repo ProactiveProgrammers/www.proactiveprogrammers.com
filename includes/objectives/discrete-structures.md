@@ -37,6 +37,7 @@
     - Given the formal definition of the domain and range of a mathematical
       function, implement that function as either a traditional Python function
       or a dictionary.
-    - Using the formal definition of a graph and a file with graph-theoretic
-      data, create an adjacency matrix representation of the graph and save it
-      using a Python program.
+
+    <!-- - Using the formal definition of a graph and a file with graph-theoretic -->
+    <!--   data, create an adjacency matrix representation of the graph and save it -->
+    <!--   using a Python program. -->
