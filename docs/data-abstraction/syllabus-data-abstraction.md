@@ -117,7 +117,7 @@ These grading categories have the following definitions:
     attend class late for an excused reason should communicate their situation
     to the course instructor as soon as possible. The content that a student
     commits to their GitHub repositories during the weeks devoted to proactive
-    review are also a component of a student's class participation.
+    review are also a component of a student's grade for class participation.
 
 -   **Midterm Examinations**: The midterms are online cumulative assessments
     covering all prior material from the class, programming, and laboratory
