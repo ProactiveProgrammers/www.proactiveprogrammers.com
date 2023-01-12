@@ -117,7 +117,7 @@ These grading categories have the following definitions:
     attend class late for an excused reason should communicate their situation
     to the course instructor as soon as possible.
 
--   **Midterm Examinations**: The midterms are an online cumulative assessment
+-   **Midterm Examinations**: The midterms are online cumulative assessments
     covering all prior material from the class, programming, and laboratory
     sessions, as outlined on the course schedule. Unless prior arrangements are
     made with the instructor, all students should use their computer to take
