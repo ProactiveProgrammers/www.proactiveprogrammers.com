@@ -85,7 +85,7 @@ by [John V. Guttag](https://people.csail.mit.edu/guttag/)
 - **Week Fourteen**: April 17 to April 21: [Data Structures](../schedule-data-abstraction#data-structures)
 - **Week Fifteen**: April 24 to April 28: [Optimization Problems](../schedule-data-abstraction#optimization-problems)
 - **Week Sixteen**: May 1: Proactive Review
-- **Final Examination**: *Examination Code*: F, *Date*: Friday, May 5, 2023
+- **Final Examination**: *Examination Code*: F, *Date*: Friday, May 5, 2023 at 7:00 PM
     - Comprehensively covers all course modules
 
 ### Course Policies
