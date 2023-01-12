@@ -2,6 +2,19 @@ A person learning discrete structures with the mindset of a proactive programmer
 will be able to demonstrate mastery of the following technology-mediated
 communication skills:
 
+- Follow a systematic process when using resources to implement Python programs:
+    - After detecting an error in a Python program through the use of tools like
+      [GatorGrader](https://github.com/GatorEducator/gatorgrader) or
+      [Pytest](https://docs.pytest.org/), develop a satisfactory understanding
+      of the problem's possible root cause and then search sites like [Stack
+      Overflow](https://stackoverflow.com/) for potential solutions.
+    - After evaluating suggested solutions to a programming problem that
+      originate from sites like [Stack Overflow](https://stackoverflow.com/),
+      develop a way to fix an error in a Python program.
+    - Independently develop solutions to Python programming problems even if the
+      specific technical challenge that you face was not previously covered in
+      a course session or as part of your prior review of technical content.
+
 - Use [Discord](https://discord.com/) to effectively communicate about
   technology in the following fashion:
     - In the correct public channel, post a question that includes source
