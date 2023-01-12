@@ -330,8 +330,8 @@ computers! Moreover, efficient Python programs that correctly use, store and
 manipulate data have the potential to positively influence the lives of many
 people. Moreover, the design, implementation, evaluation, and documentation of
 Python-based software are exciting and rewarding activities! The course
-instructor invites you to pursue, with great enthusiasm and vigor, this
-adventure in data abstraction and rigorous Python programming.
+instructor invites you to proactively pursue, with great enthusiasm and vigor,
+this adventure in data abstraction and rigorous Python programming.
 
 ???+ note
 
