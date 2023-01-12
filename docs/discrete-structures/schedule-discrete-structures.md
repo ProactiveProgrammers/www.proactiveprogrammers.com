@@ -254,7 +254,7 @@ are easy to understand and maintain?
 
 ### Next Steps
 
-- Read chapters 10 and 11 of *Programming and Mathematical Thinking*
+- Read chapter 10 (Sections 10.1 and 10.2) and chapter 11 of *Programming and Mathematical Thinking*
 - Check out the [course slides](/slides/discrete-structures/object-oriented/) for a detailed investigation of these chapters!
 - Go to the `discrete-structures/object-oriented/` directory on [Proactive Programmers Live](https://proactiveprogrammers.com/live/) and investigate all of the Python programs!
 
