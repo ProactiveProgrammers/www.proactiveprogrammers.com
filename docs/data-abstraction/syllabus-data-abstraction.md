@@ -108,12 +108,14 @@ during the academic semester.
 
 These grading categories have the following definitions:
 
--   **Course Participation**: After either an unexcused absence or a late
-    attendance to class on two separate occasions, a student's course
-    participation grade will be reduced by half a percentage for each
-    additional time they are absent or late in an unexcused fashion. Students
-    who need to miss class or attend class late for an excused reason should
-    communicate their situation to the course instructor as soon as possible.
+-   **Course Participation**: Students are expected to regularly attend and
+    actively participate in all class and laboratory sessions. After either an
+    unexcused absence or a late attendance to a either a class or laboratory
+    session on two separate occasions, a student's course participation grade
+    will be reduced by half a percentage for each additional time they are
+    absent or late in an unexcused fashion. Students who need to miss class or
+    attend class late for an excused reason should communicate their situation
+    to the course instructor as soon as possible.
 
 -   **Midterm Examinations**: The midterms are an online cumulative assessment
     covering all prior material from the class, programming, and laboratory
