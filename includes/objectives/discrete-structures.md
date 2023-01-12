@@ -18,7 +18,7 @@
   those properties through testing and/or proof, describe how these properties
   are similar to and/or different from other discrete structures, and explain
   when it is appropriate to use the structure.
-- Correctly complete Python programming tasks with each discrete structure. For
+- Complete Python programming tasks with a discrete structure. For
   instance:
     - Using the formal definition of Boolean logic operations like `and`, `or`,
       and `implies`, translate a truth table discrete structure into an
