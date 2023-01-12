@@ -72,8 +72,8 @@ by [John V. Guttag](https://people.csail.mit.edu/guttag/)
 - **Week Seven**: February 27 to March 3: [Program Components](../schedule-data-abstraction#program-components)
 - **Week Eight**: February 27 to March 3: Spring Break
 - **Week Nine**: March 13 to March 17: [Software Testing](../schedule-data-abstraction#software-testing)
-- **Week Ten**: March 13 to March 17: [Object-Oriented Programming](../schedule-data-abstraction#object-oriented-programming)
-- **Week Eleven**: March 20 to March 24: Refreshing Retrospective
+- **Week Ten**: March 20 to March 24: [Object-Oriented Programming](../schedule-data-abstraction#object-oriented-programming)
+- **Week Eleven**: March 27 to March 31: Refreshing Retrospective
 - **Executable Examination Two**: March 30 during the laboratory session
     - Relevant Modules:
         - [Structured Types](../schedule-data-abstraction#structured-types)
