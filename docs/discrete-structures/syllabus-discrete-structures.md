@@ -60,6 +60,39 @@ class and lab sessions. Prerequisite: Knowledge of elementary algebra.
   and More](https://nostarch.com/doingmathwithpython) by [Amit
   Saha](https://echorand.me/)
 
+### Course Schedule
+
+- **Week One**: January 16 to January 20: [Software Operation](../schedule-discrete-structures#software-operation)
+- **Week Two**: January 23 to January 27: [Python Foundations](../schedule-discrete-structures#python-foundations)
+- **Week Three**: January 30 to February 3: [Numerical Computation](../schedule-discrete-structures#numerical-computation)
+- **Week Four**: February 6 to February 10: [Function Scope](../schedule-discrete-structures#function-scope)
+- **Week Five**: February 13 to February 17: Proactive Review
+- **Executable Examination One**: February 16 during the laboratory session
+    - Relevant Modules:
+        - [Software Operation](../schedule-discrete-structures#software-operation)
+        - [Python Foundations](../schedule-discrete-structures#python-foundations)
+        - [Numerical Computation](../schedule-discrete-structures#numerical-computation)
+        - [Function Scope](../schedule-discrete-structures#function-scope)
+- **Week Six**: February 20 to February 24: [Structured Types](../schedule-discrete-structures#structured-types)
+- **Week Seven**: February 27 to March 3: [Program Components](../schedule-discrete-structures#program-components)
+- **Week Eight**: February 27 to March 3: Spring Break
+- **Week Nine**: March 13 to March 17: [Software Testing](../schedule-discrete-structures#software-testing)
+- **Week Ten**: March 20 to March 24: [Object-Oriented Programming](../schedule-discrete-structures#object-oriented-programming)
+- **Week Eleven**: March 27 to March 31: Proactive Review
+- **Executable Examination Two**: March 30 during the laboratory session
+    - Relevant Modules:
+        - [Structured Types](../schedule-discrete-structures#structured-types)
+        - [Program Components](../schedule-discrete-structures#program-components)
+        - [Software Testing](../schedule-discrete-structures#software-testing)
+        - [Object-Oriented Programming](../schedule-discrete-structures#object-oriented-programming)
+- **Week Twelve**: April 3 to April 7: [Algorithmic Complexity](../schedule-discrete-structures#algorithmic-complexity)
+- **Week Thirteen**: April 10 to April 14: [Algorithmic Complexity](../schedule-discrete-structures#algorithmic-complexity)
+- **Week Fourteen**: April 17 to April 21: [Data Structures](../schedule-discrete-structures#data-structures)
+- **Week Fifteen**: April 24 to April 28: [Optimization Problems](../schedule-discrete-structures#optimization-problems)
+- **Week Sixteen**: May 1: Proactive Review
+- **Final Examination**: *Examination Code*: A, *Date*: Thursday, May 4, 2023 at 9:00 AM
+    - Comprehensively covers all course modules
+
 ### Course Policies
 
 #### Grading
