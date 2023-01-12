@@ -9,11 +9,11 @@
 
 ### Instructor Office Hours
 
--   Monday: 1:00 PM-3:00 PM, Alden Hall, 15 minute time slots
--   Tuesday: 5:00 PM-5:30 PM, Alden Hall, 15 minute time slots
--   Wednesday: 5:00 PM-5:30 PM, Alden Hall, 15 minute time slots
--   Thursday: 1:00 PM-3:00 PM, Alden Hall, 15 minute time slots
--   Friday: 1:00 PM-2:00 PM, Alden Hall, 15 minute time slots
+- Monday: 10:00 AM-11:00 AM, Alden Hall, 15 minute time slots
+- Monday: 3:00 PM-4:00 PM, Alden Hall, 15 minute time slots
+- Tuesday: 3:00 AM-4:00 AM, Alden Hall, 15 minute time slots
+- Wednesday: 11:00 AM-12:00 noon, Alden Hall, 15 minute time slots
+- Wednesday: 3:00 PM-5:00 PM, Alden Hall, 15 minute time slots
 
 ???+ note "Scheduling Office Hours"
 
@@ -22,10 +22,10 @@
       page of his web site and click the "Schedule an Appointment" link at the
       top of the page. Now you can schedule an appointment by clicking a
       suitable box in Google Calendar and then reserving an open time slot. At
-      his point, the details about your chosen appointment will appear in both
-      your Google Calendar and the instructor's Google Calendar. If you have
-      chosen an appointment slot through Google Meet, please check the event for
-      a link to join the meeting with your browser.
+      this point, the details about your chosen appointment will appear in both
+      your Google Calendar and the instructor's Google Calendar. Please arrive
+      five minutes in advance for your meeting and be aware that, by necessity,
+      the meeting before yours may sometimes run late.
 
 ### Course Meeting Schedule
 
