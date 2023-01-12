@@ -115,7 +115,9 @@ These grading categories have the following definitions:
     will be reduced by half a percentage for each additional time they are
     absent or late in an unexcused fashion. Students who need to miss class or
     attend class late for an excused reason should communicate their situation
-    to the course instructor as soon as possible.
+    to the course instructor as soon as possible. The content that a student
+    commits to their GitHub repositories during the weeks devoted to proactive
+    review are also a component of a student's class participation.
 
 -   **Midterm Examinations**: The midterms are online cumulative assessments
     covering all prior material from the class, programming, and laboratory
