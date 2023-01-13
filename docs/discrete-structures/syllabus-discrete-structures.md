@@ -86,9 +86,9 @@ class and lab sessions. Prerequisite: Knowledge of elementary algebra.
         - [Data Streams](../schedule-discrete-structures#data-streams)
         - [Set Foundations](../schedule-discrete-structures#set-foundations)
 - **Week Twelve**: April 3 to April 7: [Probability Functions](../schedule-discrete-structures#probability-functions)
-- **Week Thirteen**: April 10 to April 14: [Algorithmic Complexity](../schedule-discrete-structures#mathematical-mappings)
-- **Week Fourteen**: April 17 to April 21: [Data Structures](../schedule-discrete-structures#object-oriented-programming)
-- **Week Fifteen**: April 24 to April 28: [Optimization Problems](../schedule-discrete-structures#mathematical-objects)
+- **Week Thirteen**: April 10 to April 14: [Mathematical Mappings](../schedule-discrete-structures#mathematical-mappings)
+- **Week Fourteen**: April 17 to April 21: [Object-Oriented Programming](../schedule-discrete-structures#object-oriented-programming)
+- **Week Fifteen**: April 24 to April 28: [Mathematical Objects](../schedule-discrete-structures#mathematical-objects)
 - **Week Sixteen**: May 1: Proactive Review
 - **Final Examination**: *Examination Code*: A, *Date*: Thursday, May 4, 2023 at 9:00 AM
     - Comprehensively covers all course modules
