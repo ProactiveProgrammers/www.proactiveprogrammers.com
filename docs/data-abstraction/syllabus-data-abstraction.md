@@ -70,7 +70,7 @@ by [John V. Guttag](https://people.csail.mit.edu/guttag/)
         - [Function Scope](../schedule-data-abstraction#function-scope)
 - **Week Six**: February 20 to February 24: [Structured Types](../schedule-data-abstraction#structured-types)
 - **Week Seven**: February 27 to March 3: [Program Components](../schedule-data-abstraction#program-components)
-- **Week Eight**: February 27 to March 3: Spring Break
+- **Week Eight**: March 6 to March 10: Spring Break
 - **Week Nine**: March 13 to March 17: [Software Testing](../schedule-data-abstraction#software-testing)
 - **Week Ten**: March 20 to March 24: [Object-Oriented Programming](../schedule-data-abstraction#object-oriented-programming)
 - **Week Eleven**: March 27 to March 31: Proactive Review
