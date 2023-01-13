@@ -63,23 +63,23 @@ class and lab sessions. Prerequisite: Knowledge of elementary algebra.
 ### Course Schedule
 
 - **Week One**: January 16 to January 20: [Software Operation](../schedule-discrete-structures#software-operation)
-- **Week Two**: January 23 to January 27: [Python Foundations](../schedule-discrete-structures#python-foundations)
-- **Week Three**: January 30 to February 3: [Numerical Computation](../schedule-discrete-structures#numerical-computation)
-- **Week Four**: February 6 to February 10: [Function Scope](../schedule-discrete-structures#function-scope)
+- **Week Two**: January 23 to January 27: [Making Connections](../schedule-discrete-structures#making-connections)
+- **Week Three**: January 30 to February 3: [Programming Constructs](../schedule-discrete-structures#programming-constructs)
+- **Week Four**: February 6 to February 10: [Python Functions](../schedule-discrete-structures#python-functions)
 - **Week Five**: February 13 to February 17: Proactive Review
-- **Executable Examination One**: February 16 during the laboratory session
+- **Executable Examination One**: February 17 during the laboratory session
     - Relevant Modules:
         - [Software Operation](../schedule-discrete-structures#software-operation)
-        - [Python Foundations](../schedule-discrete-structures#python-foundations)
-        - [Numerical Computation](../schedule-discrete-structures#numerical-computation)
-        - [Function Scope](../schedule-discrete-structures#function-scope)
-- **Week Six**: February 20 to February 24: [Structured Types](../schedule-discrete-structures#structured-types)
-- **Week Seven**: February 27 to March 3: [Program Components](../schedule-discrete-structures#program-components)
-- **Week Eight**: February 27 to March 3: Spring Break
-- **Week Nine**: March 13 to March 17: [Software Testing](../schedule-discrete-structures#software-testing)
-- **Week Ten**: March 20 to March 24: [Object-Oriented Programming](../schedule-discrete-structures#object-oriented-programming)
+        - [Python Foundations](../schedule-discrete-structures#making-connections)
+        - [Numerical Computation](../schedule-discrete-structures#programming-constructs)
+        - [Function Scope](../schedule-discrete-structures#python-functions)
+- **Week Six**: February 20 to February 24: [Data Containers](../schedule-discrete-structures#data-containers)
+- **Week Seven**: February 27 to March 3: [Using Monoids](../schedule-discrete-structures#using-monoids)
+- **Week Eight**: March 6 to March 10: Spring Break
+- **Week Nine**: March 13 to March 17: [Data Streams](../schedule-discrete-structures#data-streams)
+- **Week Ten**: March 20 to March 24: [Set Foundations](../schedule-discrete-structures#set-foundations)
 - **Week Eleven**: March 27 to March 31: Proactive Review
-- **Executable Examination Two**: March 30 during the laboratory session
+- **Executable Examination Two**: March 31 during the laboratory session
     - Relevant Modules:
         - [Structured Types](../schedule-discrete-structures#structured-types)
         - [Program Components](../schedule-discrete-structures#program-components)
