@@ -120,12 +120,14 @@ These grading categories have the following definitions:
     miss class or attend late for an excused reason should communicate their
     situation to the course instructor as soon as possible.
 
--   **Midterm Examination**: The midterm is an online cumulative assessment
-    covering all of the material from the class, programming, and laboratory
-    sessions, as outlined on the review sheet. Unless prior arrangements are
-    made with the course instructor, all students will be expected to use their
-    computer to take this test on the scheduled date and complete the test in
-    the stated period of time.
+-   **Midterm Examinations**: The midterms are online cumulative assessments
+    covering all prior material from the class, programming, and laboratory
+    sessions, as outlined on the course schedule. Unless prior arrangements are
+    made with the instructor, all students should use their computer to take
+    this test on the scheduled date and to complete it in the stated location
+    while taking no more than the required amount of time. Each midterm is an
+    executable examination that a student will complete through the use of
+    GitHub, VS Code, and the programming tools installed on their laptops.
 
 -   **Final Examination**: The final is an online cumulative assessment
     covering all of the material from the class, programming, and laboratory
