@@ -141,31 +141,31 @@ These grading categories have the following definitions:
     the stated period of time.
 
 -   **Source Code Surveys**: Graded on a checkmark basis and building on
-    material in the textbook and the content covered during that day's in-person
-    classroom session, technical challenges have the following goals: (i) help a
-    learner to demonstrate that they can remember learned material by recalling
-    facts, basic concepts, and answers to questions presented in the textbook
-    and (ii) allow a learner to demonstrate an understanding of facts and ideas
-    by translating, interpreting, and stating the main technical ideas presented
-    in the textbook.
+    material in the textbook and the content covered during that week's
+    in-person classroom sessions, source code surveys have the following goals:
+    (i) help a learner to demonstrate that they can remember learned material
+    by recalling facts, basic concepts, and answers to questions presented in
+    the textbook and on the course web site and (ii) allow a learner to
+    demonstrate an understanding of facts and ideas by translating,
+    interpreting, and stating the main technical ideas presented through the
+    textbook and course web site.
 
 -   **Programming Projects**: Graded on a checkmark basis and building on
-    material in the textbook, the content covered during that week's in-person
-    classroom session, and the weekly technical challenges, the programming
-    projects further equip a learner to solve new problems in the field of
-    discrete structures by applying &mdash; in a new way &mdash; their
-    knowledge of the facts, techniques, and rules of discrete mathematics and
-    rigorous Python programming.
+    material available in the textbook and the content covered during that
+    week's in-person classroom session, the programming projects further equip
+    a learner to solve new problems in the field of discrete structures by
+    applying &mdash; in a new way &mdash; their knowledge of the both discrete
+    mathematics and rigorous Python programming.
 
 -   **Engineering Efforts**: These assignments invite students to explore
-    different techniques for rigorously designing, implementing, evaluating, and
-    documenting real-world Python programs. These assignments will invite
+    different techniques for rigorously designing, implementing, evaluating,
+    and documenting real-world Python programs. These assignments will invite
     students to use tools like a text editor, a terminal window, and a modern
     Python development environment to implement functions that strike the right
     balance between understandability, generalizability, and specialization.
-    Students will also use the data collected from running experiments to
-    evaluate the implementation of a Python function as they consider, for
-    instance, its efficiency and correctness.
+    Students will also run experiments to evaluate the implementation of a
+    program as they consider trade-offs in the efficiency and expressiveness
+    of its implementation of a mathematical concept.
 
 #### Assignment Submission
 
