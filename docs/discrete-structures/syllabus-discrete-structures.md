@@ -70,9 +70,9 @@ class and lab sessions. Prerequisite: Knowledge of elementary algebra.
 - **Executable Examination One**: February 17 during the laboratory session
     - Relevant Modules:
         - [Software Operation](../schedule-discrete-structures#software-operation)
-        - [Python Foundations](../schedule-discrete-structures#making-connections)
-        - [Numerical Computation](../schedule-discrete-structures#programming-constructs)
-        - [Function Scope](../schedule-discrete-structures#python-functions)
+        - [Making connections](../schedule-discrete-structures#making-connections)
+        - [Programming Constructs](../schedule-discrete-structures#programming-constructs)
+        - [Python Functions](../schedule-discrete-structures#python-functions)
 - **Week Six**: February 20 to February 24: [Data Containers](../schedule-discrete-structures#data-containers)
 - **Week Seven**: February 27 to March 3: [Using Monoids](../schedule-discrete-structures#using-monoids)
 - **Week Eight**: March 6 to March 10: Spring Break
@@ -81,11 +81,11 @@ class and lab sessions. Prerequisite: Knowledge of elementary algebra.
 - **Week Eleven**: March 27 to March 31: Proactive Review
 - **Executable Examination Two**: March 31 during the laboratory session
     - Relevant Modules:
-        - [Structured Types](../schedule-discrete-structures#structured-types)
-        - [Program Components](../schedule-discrete-structures#program-components)
-        - [Software Testing](../schedule-discrete-structures#software-testing)
-        - [Object-Oriented Programming](../schedule-discrete-structures#object-oriented-programming)
-- **Week Twelve**: April 3 to April 7: [Algorithmic Complexity](../schedule-discrete-structures#algorithmic-complexity)
+        - [Data Containers](../schedule-discrete-structures#data-containers)
+        - [Using Monoids](../schedule-discrete-structures#using-monoids)
+        - [Data Streams](../schedule-discrete-structures#data-streams)
+        - [Set Foundations](../schedule-discrete-structures#set-foundations)
+- **Week Twelve**: April 3 to April 7: [Probability Functions](../schedule-discrete-structures#algorithmic-complexity)
 - **Week Thirteen**: April 10 to April 14: [Algorithmic Complexity](../schedule-discrete-structures#algorithmic-complexity)
 - **Week Fourteen**: April 17 to April 21: [Data Structures](../schedule-discrete-structures#data-structures)
 - **Week Fifteen**: April 24 to April 28: [Optimization Problems](../schedule-discrete-structures#optimization-problems)
