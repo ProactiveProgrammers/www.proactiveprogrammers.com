@@ -331,4 +331,4 @@ manipulate data have the potential to positively influence the lives of many
 people. Moreover, the design, implementation, evaluation, and documentation of
 Python-based software are exciting and rewarding activities! At the start of
 this class, I invite you to pursue, with great enthusiasm and vigor, this
-adventure in rigorous Python programming.
+adventure in mathematics and Python programming.
