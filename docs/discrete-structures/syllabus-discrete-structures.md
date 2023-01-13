@@ -280,8 +280,8 @@ acceptable.
 - Acceptable forms of collaboration include:
     - Discussing high-level concepts, such as the use cases for `while` loops
       or the various methods that can add elements to a `list`.
-    - Referring someone to a course text book, course slides, or other
-      resources that contain helpful information or instructions.
+    - Referring someone to a course text book, course slides, example programs,
+      or other resources that contain helpful information or instructions.
     - Outlining the high-level steps to solving a problem or implementing a
       feature, without mentioning specific lines of code that need to be
       written.
@@ -289,10 +289,10 @@ acceptable.
 - Unacceptable forms of collaboration include:
     - Sharing details about specific lines of code, including showing your
       source code to someone or looking at someone else's code.
-    - Copying someone else's source code, technical writing, or program output,
-      even with some slight modifications.
-    - Typing source code, technical writing, or program commands on someone
-      else’s laptop or computer.
+    - Copying someone else's source code, technical writing, program commands,
+      or program output, even with some slight modifications.
+    - Typing source code, technical writing, or commands on someone else’s
+      computer.
 
 The aforementioned forms of communication are unacceptable because they make it
 difficult for both the course instructor and a learner to assess individual
