@@ -172,13 +172,10 @@ These grading categories have the following definitions:
 All assignments will have a stated due date shared through GitHub, GitHub
 Classroom, and Google Calendar. Electronic versions of the engineering efforts,
 programming projects, and source code surveys must be submitted to the
-instructor through a student's GitHub repository. No credit will be awarded for
-any course work that is not submitted to your GitHub repository with the
-required name. Unless special arrangements are made with the instructor, no work
-will be accepted after the published deadline. Unless there is documentation for
-an extenuating circumstance that warrants extra time, the course instructor will
-disable a student's ability to push to the GitHub repository for a course
-assignment two days after the project is due.
+instructor through a student's GitHub repository created by GitHub Classroom. No
+credit will be awarded for any course work that you submit to the incorrect
+GitHub repository. Unless special arrangements are made with the instructor, no
+work will be accepted after the published assignment deadline.
 
 #### Assignment Evaluation
 
