@@ -162,7 +162,7 @@ These grading categories have the following definitions:
     balance between understandability, generalizability, and specialization.
     Students will also use the data collected from running experiments to
     evaluate the implementation of a Python function as they consider trade-offs
-    between, for instance, its efficiency and correctness.
+    between, for instance, its efficiency, flexibility, and correctness.
 
 #### Assignment Submission
 
