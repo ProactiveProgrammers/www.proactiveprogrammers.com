@@ -70,7 +70,7 @@ class and lab sessions. Prerequisite: Knowledge of elementary algebra.
 - **Executable Examination One**: February 17 during the laboratory session
     - Relevant Modules:
         - [Software Operation](../schedule-discrete-structures#software-operation)
-        - [Making connections](../schedule-discrete-structures#making-connections)
+        - [Making Connections](../schedule-discrete-structures#making-connections)
         - [Programming Constructs](../schedule-discrete-structures#programming-constructs)
         - [Python Functions](../schedule-discrete-structures#python-functions)
 - **Week Six**: February 20 to February 24: [Data Containers](../schedule-discrete-structures#data-containers)
