@@ -229,7 +229,7 @@ def main(
 
 <v-clicks>
 
-<div class = "-ml-15">
+<div class = "-ml-15 -mb-3">
 
 ```python
 def calc_quad_eqn_roots(a: float, b: float, c: float):
@@ -288,6 +288,8 @@ print(f"✨ The second root of the equation is
 
 <v-clicks>
 
+<div class = "-ml-5 -mb-3">
+
 ```python
 def test_calculate_x_values_non_imaginary():
     """Check calculation of x values."""
@@ -301,7 +303,9 @@ def test_calculate_x_values_non_imaginary():
     assert x_two == -1.0
 ```
 
-What does this tell us about the function's expected output?
+</div>
+
+What does this tell us about the function's **expected output**?
 
 </v-clicks>
 
