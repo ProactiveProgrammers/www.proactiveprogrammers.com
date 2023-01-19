@@ -54,7 +54,11 @@
 - Read chapter 3 of *Programming and Mathematical Thinking*
 - Read chapter 1 and Appendix B of *Doing Math with Python*
 - Check out the [course slides](/slides/discrete-structures/programming-constructs/) for a detailed investigation of these chapters!
-- Go to the `discrete-structures/programming-constructs/` directory on [Proactive Programmers Live](https://proactiveprogrammers.com/live/) and investigate all of the Python programs!
+- Run the Jupyter notebooks in `discrete-structures/programming-constructs/` with:
+    - :material-language-python: [Jupyter Lite](https://proactiveprogrammers.com/live/)
+    - :material-google: [Google Colab](https://githubtocolab.com/ProactiveProgrammers/www.proactiveprogrammers.com)
+        - :material-notebook-edit-outline: [Calculating the Square Root of a Number](https://githubtocolab.com/ProactiveProgrammers/www.proactiveprogrammers.com/blob/master/files/discrete-structures/programming-constructs/calculate-approximate-square-root.ipynb){:target="_blank"}
+        - :material-notebook-edit-outline: [Calculating a Quadratic Roots of an Equation](https://githubtocolab.com/ProactiveProgrammers/www.proactiveprogrammers.com/blob/master/files/discrete-structures/programming-constructs/calculate-quadratic-roots.ipynb){:target="_blank"}
 
 ???+ note "Technical Concepts"
 
