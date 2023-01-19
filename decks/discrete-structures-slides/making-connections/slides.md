@@ -1,20 +1,26 @@
 ---
-# try also 'default' to start simple
+# use the default theme
 theme: default
 # apply any windi css classes to the current slide
 class: 'text-center'
-# https://sli.dev/custom/highlighters.html
+# define the highlighter and the colorSchema
 highlighter: prism
 colorSchema: light
 remoteAssets: false
 # show line numbers in code blocks
 lineNumbers: false
-# some information about the slides, markdown enabled
-info: |
-  ## Slidev Starter Template
-  Presentation slides for developers.
-
-  Learn more at [Sli.dev](https://sli.dev)
+# define the fonts and their weights
+fonts:
+  # define the font for the body text
+  sans: 'IBM Plex Sans'
+  # define the serif font
+  serif: 'IBM Plex Serif'
+  # define the code font
+  mono: 'IBM Plex Mono'
+  # load several font weights
+  weights: '200,400,500'
+  # support the use of italics
+  italic: true
 ---
 
 [//]: # (Slide Start {{{)
@@ -248,8 +254,7 @@ versus low-level or mathematical versus technical) when we create programs
 
     - Language's semantics match those of discrete structures'
 
--   Download Python and start programming by visiting
-    <https://www.python.org/>
+-   Use a recent version of Python suitably installed for your operating system!
 
 <div v-click>
 
@@ -502,7 +507,7 @@ What are Python's features?
     - "Second best" programming language
 
 - VSCode provides support for Python through **syntax highlighting**, **source code
-formatting**, **linting**, **testing**, ... and many more tasks!
+formatting**, **code completion**, **linting**, **testing**, ... and many more tasks!
 
 - What are some of the **tools** that provide the features highlighted in bold?
 
@@ -595,7 +600,7 @@ for line in file:
 
 [//]: # (Slide Start {{{)
 
-# Python Script for Average Computation
+# Python "Script" for Computing Average
 
 <div class="ml-1">
 
@@ -611,8 +616,6 @@ print(sum/count)
 ```
 
 </div>
-
-<br>
 
 <v-clicks>
 
@@ -635,7 +638,7 @@ What is the purpose of the <code>for line in file</code> statement?
 <div class="flex row">
 
 <div class="text-7xl text-orange-600 font-bold mt-5 ml-4 mb-4">
-Let's run this program to understand it better!
+Let's use Python to compute averages!
 </div>
 
 </div>
@@ -647,21 +650,8 @@ Let's run this program to understand it better!
 <mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
 
 <div class="text-3xl font-bold mt-10 ml-4">
-Visit the <a href = "https://proactiveprogrammers.com/live">Proactive Programmers Live</a> site!
-</div>
-
-</div>
-
-</div>
-
-<div v-click>
-
-<div class="flex row">
-
-<mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
-
-<div class="text-3xl font-bold mt-10 ml-4">
-<code>discrete-structures/making-connections/</code>
+Find the file in <a href = "https://proactiveprogrammers.com/live">Jupyter Lite</a> or
+<a href = "https://githubtocolab.com/ProactiveProgrammers/www.proactiveprogrammers.com">Google Colab</a>!
 </div>
 
 </div>
@@ -675,7 +665,21 @@ Visit the <a href = "https://proactiveprogrammers.com/live">Proactive Programmer
 <mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
 
 <div class="text-3xl font-bold mt-10 ml-4">
-Fix+Run <code>compute-average-with-file.ipynb</code>
+Go to the <code>making-connections/</code> directory
+</div>
+
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+Run <code>compute-average-with-file.ipynb</code>
 </div>
 
 </div>
@@ -719,20 +723,21 @@ file? What does iteration normally process? What are the benefits?
 <div class="mt-8">
 </div>
 
--   The **average computation** program processes integer values that are
-governed by mathematical rules
+-   Regardless of whether run in Jupyter or a script, the **average
+    computation** program processes **integer values** that are governed by
+    mathematical rules
 
--   Precisely define the set of observations: $O = \{ o_i : o_i \in
+-   Let's precisely define the set of observations as $O = \{ o_i : o_i \in
           \mathbb{Z}\}$
 
--   Two properties of integer addition
+-   Two properties of integer addition:
 
     -   **Associative**: $(a + b) + c = a + (b + c), \forall a, b, c \in
                   \mathbb{Z}$
 
     -   **Commutative**: $a + b = b + a, \forall a, b \in \mathbb{Z}$
 
--   Wait, is the collection of observations a set? No, not if it
+-   *Wait*, is the collection of observations a set? No, not if it
     contained recorded temperature values! It can have repeated items,
     which means it is a **multiset**.
 
@@ -836,9 +841,9 @@ mathematics** and in **Python programs**
 
 -   Connecting **mathematical variables** to **Python variables**:
 
-    -   $a \in \mathbb{Z}$ means that $a$ is an integer value in Python
+    -   $a \in \mathbb{Z}$ means that $a$ is an **integer value** in Python
 
-    -   $a \in \mathbb{R}$ means that $a$ is a floating point value in
+    -   $a \in \mathbb{R}$ means that $a$ is a **floating-point value** in
         Python
 
     -   Python variables have descriptive names like `child_count`
@@ -954,7 +959,7 @@ True
 <div class="flex row">
 
 <div class="text-7xl text-orange-600 font-bold mt-5 ml-4 mb-4">
-Let's run this code to understand it better!
+Let's use Python to explore variables!
 </div>
 
 </div>
@@ -966,21 +971,8 @@ Let's run this code to understand it better!
 <mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
 
 <div class="text-3xl font-bold mt-10 ml-4">
-Visit the <a href = "https://proactiveprogrammers.com/live">Proactive Programmers Live</a> site!
-</div>
-
-</div>
-
-</div>
-
-<div v-click>
-
-<div class="flex row">
-
-<mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
-
-<div class="text-3xl font-bold mt-10 ml-4">
-<code>discrete-structures/making-connections/</code>
+Find the file in <a href = "https://proactiveprogrammers.com/live">Jupyter Lite</a> or
+<a href = "https://githubtocolab.com/ProactiveProgrammers/www.proactiveprogrammers.com">Google Colab</a>!
 </div>
 
 </div>
@@ -994,7 +986,21 @@ Visit the <a href = "https://proactiveprogrammers.com/live">Proactive Programmer
 <mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
 
 <div class="text-3xl font-bold mt-10 ml-4">
-Run+Study <code>explore-python-variables.ipynb</code>
+Go to the <code>making-connections/</code> directory
+</div>
+
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+Run <code>explore-python-variables.ipynb</code>
 </div>
 
 </div>
@@ -1050,7 +1056,7 @@ What do we know about program variables?
 <mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
 
 <div class="text-3xl font-bold mt-10 ml-4">
-Store a value received during assignment
+Store a value received during an assignment
 </div>
 
 </div>
@@ -1064,7 +1070,7 @@ Store a value received during assignment
 <mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
 
 <div class="text-3xl font-bold mt-10 ml-4">
-Have an associated type restricting values
+Have an associated type that restricts valid values
 </div>
 
 </div>
@@ -1078,7 +1084,7 @@ Have an associated type restricting values
 <mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
 
 <div class="text-3xl font-bold mt-10 ml-4">
-Serve as input and output of a function
+Serve as the input and output of a function
 </div>
 
 </div>
@@ -1098,9 +1104,9 @@ Serve as input and output of a function
 
 -   Understanding the **connections** between **mathematics** and **programming**:
 
-    -   **Q1**: What is a **mapping** in the mathematics?
+    -   **Q1**: What is a **mapping** in the field of mathematics?
 
-    -   **Q2**: What is a **function** in mathematics and Python?
+    -   **Q2**: What is a **function** in both mathematics and Python?
 
     -   **Q3**: What are some **best practices** for Python programming?
 
@@ -1108,12 +1114,14 @@ Serve as input and output of a function
 
     -   **Q5**: How does the Python language perform **type checking**?
 
--   Use the <a href = "https://proactiveprogrammers.com/live">Proactive Programmers Live</a> site to
-    **explore** the Python programs!
+-   Use the <a href = "https://proactiveprogrammers.com/live">Jupyter Lite</a> to
+    **run** Python programs in your **laptop's web browser**
 
--   Use the Python **REPL** to explore the **limits** of variable values and types!
+-   Or, use [Google
+    Colab](https://githubtocolab.com/ProactiveProgrammers/www.proactiveprogrammers.com)
+    to use your browser to run Python on Google's servers
 
--   **Connect** these technical concepts to the course projects for this
+-   **Connect** these technical concepts to the **course projects** for this
     week!
 
 </v-clicks>
