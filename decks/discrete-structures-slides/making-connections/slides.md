@@ -723,20 +723,21 @@ file? What does iteration normally process? What are the benefits?
 <div class="mt-8">
 </div>
 
--   The **average computation** program processes integer values that are
-governed by mathematical rules
+-   Regardless of whether run in Jupyter or a script, the **average
+    computation** program processes **integer values** that are governed by
+    mathematical rules
 
--   Precisely define the set of observations: $O = \{ o_i : o_i \in
+-   Let's precisely define the set of observations as $O = \{ o_i : o_i \in
           \mathbb{Z}\}$
 
--   Two properties of integer addition
+-   Two properties of integer addition:
 
     -   **Associative**: $(a + b) + c = a + (b + c), \forall a, b, c \in
                   \mathbb{Z}$
 
     -   **Commutative**: $a + b = b + a, \forall a, b \in \mathbb{Z}$
 
--   Wait, is the collection of observations a set? No, not if it
+-   *Wait*, is the collection of observations a set? No, not if it
     contained recorded temperature values! It can have repeated items,
     which means it is a **multiset**.
 
