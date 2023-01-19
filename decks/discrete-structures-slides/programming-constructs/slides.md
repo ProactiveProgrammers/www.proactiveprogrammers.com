@@ -305,6 +305,29 @@ the same** on x-axis
 
 [//]: # (Slide Start {{{)
 
+# Visualization a Quadratic Function
+
+<style>
+  .constraint {
+    width: 100%;
+  }
+</style>
+
+<br>
+
+<div class="constraint -mt-7">
+
+![Quadratic Function](/quadratic-graph.svg)
+
+</div>
+
+[//]: # (Slide End }}})
+
+
+---
+
+[//]: # (Slide Start {{{)
+
 <div class="flex row">
 
 <div class="text-7xl text-orange-600 font-bold mt-5 ml-4 mb-4">
