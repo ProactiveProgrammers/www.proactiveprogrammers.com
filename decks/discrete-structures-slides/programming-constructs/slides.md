@@ -323,7 +323,6 @@ the same** on x-axis
 
 [//]: # (Slide End }}})
 
-
 ---
 
 [//]: # (Slide Start {{{)
