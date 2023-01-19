@@ -256,7 +256,10 @@ def calc_quad_eqn_roots(a: float, b: float, c: float):
 
 # Calling a Root Finding Function
 
+
 <v-clicks>
+
+<div class = "-mt-5 -mb-5">
 
 ```python
 a = 1
@@ -268,6 +271,8 @@ print(f"✨ The first root of the equation is
 print(f"✨ The second root of the equation is
            {x_two}")
 ```
+
+</div>
 
 - What is the input provided to this function?
 
