@@ -1104,9 +1104,9 @@ Serve as the input and output of a function
 
 -   Understanding the **connections** between **mathematics** and **programming**:
 
-    -   **Q1**: What is a **mapping** in the mathematics?
+    -   **Q1**: What is a **mapping** in the field of mathematics?
 
-    -   **Q2**: What is a **function** in mathematics and Python?
+    -   **Q2**: What is a **function** in both mathematics and Python?
 
     -   **Q3**: What are some **best practices** for Python programming?
 
@@ -1114,12 +1114,14 @@ Serve as the input and output of a function
 
     -   **Q5**: How does the Python language perform **type checking**?
 
--   Use the <a href = "https://proactiveprogrammers.com/live">Proactive Programmers Live</a> site to
-    **explore** the Python programs!
+-   Use the <a href = "https://proactiveprogrammers.com/live">Jupyter Lite</a> to
+    **run** Python programs in your **laptop's web browser**
 
--   Use the Python **REPL** to explore the **limits** of variable values and types!
+-   Or, use [Google
+    Colab](https://githubtocolab.com/ProactiveProgrammers/www.proactiveprogrammers.com)
+    to use your browser to run Python on Google's servers
 
--   **Connect** these technical concepts to the course projects for this
+-   **Connect** these technical concepts to the **course projects** for this
     week!
 
 </v-clicks>
