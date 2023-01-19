@@ -259,7 +259,7 @@ def calc_quad_eqn_roots(a: float, b: float, c: float):
 
 <v-clicks>
 
-<div class = "-mt-5 -mb-5">
+<div class = "-mt-4 -mb-5">
 
 ```python
 a = 1
