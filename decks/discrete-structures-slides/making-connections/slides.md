@@ -618,8 +618,6 @@ print(sum/count)
 
 </div>
 
-<br>
-
 <v-clicks>
 
 <p class = "bold">
