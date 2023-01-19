@@ -317,7 +317,7 @@ the same** on x-axis
 
 <div class="constraint -mt-7">
 
-![Quadratic Function](/quadratic-graph.svg)
+![Quadratic Function](/quadratic-graph-one-negativeseven-ten.svg)
 
 </div>
 
