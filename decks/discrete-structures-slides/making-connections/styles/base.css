@@ -54,7 +54,7 @@
   }
 
   li {
-    @apply text-xl text-dark-100 font-medium
+    @apply text-xl text-dark-100
   }
 
 }
