@@ -841,9 +841,9 @@ mathematics** and in **Python programs**
 
 -   Connecting **mathematical variables** to **Python variables**:
 
-    -   $a \in \mathbb{Z}$ means that $a$ is an integer value in Python
+    -   $a \in \mathbb{Z}$ means that $a$ is an **integer value** in Python
 
-    -   $a \in \mathbb{R}$ means that $a$ is a floating point value in
+    -   $a \in \mathbb{R}$ means that $a$ is a **floating-point value** in
         Python
 
     -   Python variables have descriptive names like `child_count`
