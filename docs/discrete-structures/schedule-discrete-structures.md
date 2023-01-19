@@ -27,7 +27,11 @@
 - Check out the [course
   slides](/slides/discrete-structures/making-connections/) for a
   detailed investigation of these chapters!
-- Go to the `discrete-structures/making-connections/` directory on [Proactive Programmers Live](https://proactiveprogrammers.com/live/) and investigate all of the Python programs!
+- Run the Jupyter notebooks in `discrete-structures/making-connections/` with:
+    - :material-language-python: [Jupyter Lite](https://proactiveprogrammers.com/live/)
+    - :material-google: [Google Colab](https://githubtocolab.com/ProactiveProgrammers/www.proactiveprogrammers.com)
+        - :material-notebook-edit-outline: [Compute the Average of Values in a File](https://githubtocolab.com/ProactiveProgrammers/www.proactiveprogrammers.com/blob/master/files/discrete-structures/making-connections/compute-average-with-file.ipynb){:target="_blank"}
+        - :material-notebook-edit-outline: [Explore Data Types and Variables](https://githubtocolab.com/ProactiveProgrammers/www.proactiveprogrammers.com/blob/master/files/discrete-structures/making-connections/explore-python-variables.ipynb){:target="_blank"}
 
 ???+ note "Technical Concepts"
 
