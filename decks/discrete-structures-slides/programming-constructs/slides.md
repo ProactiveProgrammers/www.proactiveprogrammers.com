@@ -317,6 +317,28 @@ the same** on x-axis
 
 <div class="constraint -mt-7">
 
+![Quadratic Function](/quadratic-graph-one-two-one.svg)
+
+</div>
+
+[//]: # (Slide End }}})
+
+---
+
+[//]: # (Slide Start {{{)
+
+# Visualizing a Quadratic Function
+
+<style>
+  .constraint {
+    width: 100%;
+  }
+</style>
+
+<br>
+
+<div class="constraint -mt-7">
+
 ![Quadratic Function](/quadratic-graph-one-negativeseven-ten.svg)
 
 </div>
