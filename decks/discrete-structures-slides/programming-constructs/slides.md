@@ -305,7 +305,7 @@ the same** on x-axis
 
 [//]: # (Slide Start {{{)
 
-# Visualization a Quadratic Function
+# Visualizing a Quadratic Function
 
 <style>
   .constraint {
