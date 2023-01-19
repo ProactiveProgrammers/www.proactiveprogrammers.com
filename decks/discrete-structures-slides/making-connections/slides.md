@@ -959,7 +959,7 @@ True
 <div class="flex row">
 
 <div class="text-7xl text-orange-600 font-bold mt-5 ml-4 mb-4">
-Let's run this code to understand it better!
+Let's use Python to explore variables!
 </div>
 
 </div>
@@ -971,21 +971,8 @@ Let's run this code to understand it better!
 <mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
 
 <div class="text-3xl font-bold mt-10 ml-4">
-Visit the <a href = "https://proactiveprogrammers.com/live">Proactive Programmers Live</a> site!
-</div>
-
-</div>
-
-</div>
-
-<div v-click>
-
-<div class="flex row">
-
-<mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
-
-<div class="text-3xl font-bold mt-10 ml-4">
-<code>discrete-structures/making-connections/</code>
+Find the file in <a href = "https://proactiveprogrammers.com/live">Jupyter Lite</a> or
+<a href = "https://githubtocolab.com/ProactiveProgrammers/www.proactiveprogrammers.com">Google Colab</a>!
 </div>
 
 </div>
@@ -999,7 +986,21 @@ Visit the <a href = "https://proactiveprogrammers.com/live">Proactive Programmer
 <mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
 
 <div class="text-3xl font-bold mt-10 ml-4">
-Run+Study <code>explore-python-variables.ipynb</code>
+Go to the <code>making-connections/</code> directory
+</div>
+
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+Run <code>explore-python-variables.ipynb</code>
 </div>
 
 </div>
