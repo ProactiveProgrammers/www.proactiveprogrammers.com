@@ -254,8 +254,7 @@ versus low-level or mathematical versus technical) when we create programs
 
     - Language's semantics match those of discrete structures'
 
--   Download Python and start programming by visiting
-    <https://www.python.org/>
+-   Use a recent version of Python suitably installed for your operating system!
 
 <div v-click>
 
