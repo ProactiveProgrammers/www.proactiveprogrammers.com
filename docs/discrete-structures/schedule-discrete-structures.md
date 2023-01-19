@@ -63,14 +63,10 @@
 ???+ note "Technical Concepts"
 
     - **Assignment Statement**: an operation to store a value in a variable
-    - **Iteration Construct**: a structure to support the repeated execution of
-      operations
-    - **Conditional Logic**: a construct to support decision making in a
-      program
-    - **Quadratic Root**: value(s) of a quadratic function where it intercepts
-      the horizontal axis
-    - **Square Root**: mathematical function that is the inverse of the square
-      of a number
+    - **Iteration Construct**: a structure to support the repeated execution of operations
+    - **Conditional Logic**: a construct to support decision making in a program
+    - **Quadratic Root**: value(s) of a quadratic function where it intercepts the horizontal axis
+    - **Square Root**: mathematical function that is the inverse of the square of a number
 
 ## Python Functions
 
