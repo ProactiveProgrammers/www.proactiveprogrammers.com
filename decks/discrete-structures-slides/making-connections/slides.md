@@ -508,7 +508,7 @@ What are Python's features?
     - "Second best" programming language
 
 - VSCode provides support for Python through **syntax highlighting**, **source code
-formatting**, **linting**, **testing**, ... and many more tasks!
+formatting**, **code completion**, **linting**, **testing**, ... and many more tasks!
 
 - What are some of the **tools** that provide the features highlighted in bold?
 
