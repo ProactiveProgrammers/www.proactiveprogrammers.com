@@ -1056,7 +1056,7 @@ What do we know about program variables?
 <mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
 
 <div class="text-3xl font-bold mt-10 ml-4">
-Store a value received during assignment
+Store a value received during an assignment
 </div>
 
 </div>
@@ -1070,7 +1070,7 @@ Store a value received during assignment
 <mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
 
 <div class="text-3xl font-bold mt-10 ml-4">
-Have an associated type restricting values
+Have an associated type that restricts valid values
 </div>
 
 </div>
@@ -1084,7 +1084,7 @@ Have an associated type restricting values
 <mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
 
 <div class="text-3xl font-bold mt-10 ml-4">
-Serve as input and output of a function
+Serve as the input and output of a function
 </div>
 
 </div>
