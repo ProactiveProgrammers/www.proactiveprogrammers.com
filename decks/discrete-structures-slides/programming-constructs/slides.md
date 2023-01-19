@@ -254,6 +254,31 @@ def calc_quad_eqn_roots(a: float, b: float, c: float):
 
 ---
 
+# Calling a Root Finding Function
+
+<v-clicks>
+
+```python
+a = 1
+b = 2
+c = 1
+x_one, x_two = calc_quad_eqn_roots(a, b, c)
+print(f"✨ The first root of the equation is
+           {x_one}")
+print(f"✨ The second root of the equation is
+           {x_two}")
+```
+
+- What is the input provided to this function?
+
+- What is the output produced by this function?
+
+- What is the purpose of the notation `{x_two}` ?
+
+</v-clicks>
+
+---
+
 # Testing a Root Finding Function
 
 <v-clicks>
