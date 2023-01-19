@@ -807,7 +807,7 @@ Go to the <code>programming-constructs/</code> directory
 
 -   Programs must **correctly implement** the **mathematical equation**
 
--   Programs must have **industry-standard** comments, format, and tests
+-   Programs must have **industry-standard** comments, code layout, and tests
 
 </v-clicks>
 
@@ -835,6 +835,6 @@ Go to the <code>programming-constructs/</code> directory
 
 -   Can you **translate** the root finding equation into a complete Python program
 with a command-line interface? Can you **ensure** its correctness? Can you **follow**
-industry standards for comments, format, and testing?
+industry standards for comments, code layout, and testing?
 
 </v-clicks>
