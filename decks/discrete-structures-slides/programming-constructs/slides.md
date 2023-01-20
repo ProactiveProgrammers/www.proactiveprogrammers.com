@@ -208,6 +208,8 @@ print(sum/count)
 
 # Quadratic Root Calculation
 
+<div class="-mt-4">
+
 ```python {all|1-3|4-7|8-10|11-12|all}
 def main(
     a: float = typer.Option(1), [...]
@@ -222,6 +224,8 @@ def main(
     console.print(f"   x_one = {x_one}")
     console.print(f"   x_two = {x_two}")
 ```
+
+</div>
 
 ---
 
