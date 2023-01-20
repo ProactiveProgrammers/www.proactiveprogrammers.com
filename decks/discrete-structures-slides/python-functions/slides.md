@@ -126,6 +126,8 @@ Let's explore the types of functions in Python!
 
 # Absolute Value of a Number
 
+<div class="-mt-4 -mb-4">
+
 ```python {all}
 def abs(n):
     if n >= 0:
@@ -133,6 +135,8 @@ def abs(n):
     else:
         return -n
 ```
+
+</div>
 
 - The absolute value of a number is its distance from zero
 
