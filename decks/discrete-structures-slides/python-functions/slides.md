@@ -230,6 +230,8 @@ Use <code>explore-mathematical-functions.ipynb</code>
 
 # Using Newton's Method in a Function
 
+<div class="-mt-3 -mb-3">
+
 ```python {all}
 def sqrt(num: int, tol: float):
     guess = 1.0
@@ -238,6 +240,8 @@ def sqrt(num: int, tol: float):
         (guess*guess - num)/(2*guess)
     return guess
 ```
+
+</div>
 
 - The `sqrt` function calculates the square root of `num`
 
@@ -308,6 +312,8 @@ Use <code>explore-mathematical-functions.ipynb</code>
 
 # Recursive Functions in Python
 
+<div class="-mt-3 -mb-3">
+
 ```python
 def factorial(number: int):
     if number == 1:
@@ -317,8 +323,9 @@ num = 5
 print("The factorial of " + str(num) +
         " is " + str(factorial(num)))
 ```
+</div>
 
-<div class="mt-10">
+<div class="mt-8">
 
 - The recursive `factorial` function calls itself!
 
@@ -355,6 +362,8 @@ print("The factorial of " + str(num) +
 
 # Finding Parts of Recursive Functions
 
+<div class="-mt-3 -mb-4">
+
 ```python
 def factorial(number: int):
     if number == 1:
@@ -365,6 +374,8 @@ num = 5
 print("The factorial of " + str(num) +
         " is " + str(factorial(num)))
 ```
+
+</div>
 
 - Where is the base case?
 
