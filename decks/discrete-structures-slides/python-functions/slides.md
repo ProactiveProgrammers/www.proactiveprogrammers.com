@@ -521,9 +521,9 @@ print("Computation of twice square is "
 
 <div class="flex row mt-5">
 
-<mdi-help-box class="text-6xl ml-4 mt-0 text-blue-600" />
+<mdi-help-box class="text-6xl ml-4 -mt-2 text-blue-600" />
 
-<div class="text-4xl text-true-gray-700 font-bold mt-4 ml-4">
+<div class="text-4xl text-true-gray-700 font-bold mt-2 ml-4">
 The output of the two print statements?
 </div>
 
@@ -545,7 +545,7 @@ What are the benefits of higher-order functions?
 
 <div class="flex row">
 
-<mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
+<uim-layer-group class="text-6xl ml-8 mt-6 text-blue-600" />
 
 <div class="text-3xl font-bold mt-10 ml-4">
 Supports general-purpose function creation
@@ -559,7 +559,7 @@ Supports general-purpose function creation
 
 <div class="flex row">
 
-<mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
+<uim-layer-group class="text-6xl ml-8 mt-6 text-blue-600" />
 
 <div class="text-3xl font-bold mt-10 ml-4">
 Allows executable functions as function input
@@ -573,7 +573,7 @@ Allows executable functions as function input
 
 <div class="flex row">
 
-<mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
+<uim-layer-group class="text-6xl ml-8 mt-6 text-blue-600" />
 
 <div class="text-3xl font-bold mt-10 ml-4">
 Supports both code reuse and modularity
@@ -709,7 +709,7 @@ What are the benefits of lambda expressions?
 
 <div class="flex row">
 
-<mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
+<uim-layer-group class="text-6xl ml-8 mt-6 text-blue-600" />
 
 <div class="text-3xl font-bold mt-10 ml-4">
 Lightweight way to specify a computation
@@ -723,7 +723,7 @@ Lightweight way to specify a computation
 
 <div class="flex row">
 
-<mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
+<uim-layer-group class="text-6xl ml-8 mt-6 text-blue-600" />
 
 <div class="text-3xl font-bold mt-10 ml-4">
 Compared to the function, often faster to create
@@ -737,7 +737,7 @@ Compared to the function, often faster to create
 
 <div class="flex row">
 
-<mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
+<uim-layer-group class="text-6xl ml-8 mt-6 text-blue-600" />
 
 <div class="text-3xl font-bold mt-10 ml-4">
 Useful for small functions input to other functions
@@ -845,7 +845,7 @@ How do we characterize a list of numbers?
 
 <div class="flex row">
 
-<mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
+<uim-layer-group class="text-6xl ml-8 mt-6 text-blue-600" />
 
 <div class="text-3xl font-bold mt-10 ml-4">
 Calculate the mean, median, and mode of the list
@@ -859,7 +859,7 @@ Calculate the mean, median, and mode of the list
 
 <div class="flex row">
 
-<mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
+<uim-layer-group class="text-6xl ml-8 mt-6 text-blue-600" />
 
 <div class="text-3xl font-bold mt-10 ml-4">
 Calculate range, variance, and standard deviation
@@ -873,7 +873,7 @@ Calculate range, variance, and standard deviation
 
 <div class="flex row">
 
-<mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
+<uim-layer-group class="text-6xl ml-8 mt-6 text-blue-600" />
 
 <div class="text-3xl font-bold mt-10 ml-4">
 Aim to summarize large data set with few numbers
@@ -921,7 +921,7 @@ What are the benefits of type annotations?
 
 <div class="flex row">
 
-<mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
+<uim-layer-group class="text-6xl ml-8 mt-6 text-blue-600" />
 
 <div class="text-3xl font-bold mt-10 ml-4">
 Specifies the types of function inputs and outputs
@@ -935,7 +935,7 @@ Specifies the types of function inputs and outputs
 
 <div class="flex row">
 
-<mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
+<uim-layer-group class="text-6xl ml-8 mt-6 text-blue-600" />
 
 <div class="text-3xl font-bold mt-10 ml-4">
 Supports type checking with tools like <code>mypy</code>
@@ -949,7 +949,7 @@ Supports type checking with tools like <code>mypy</code>
 
 <div class="flex row">
 
-<mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
+<uim-layer-group class="text-6xl ml-8 mt-6 text-blue-600" />
 
 <div class="text-3xl font-bold mt-10 ml-4">
 Helps <code>pylance</code> checker offer feedback in VS Code
