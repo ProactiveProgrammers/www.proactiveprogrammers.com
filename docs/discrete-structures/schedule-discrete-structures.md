@@ -57,8 +57,8 @@
 - Run the Jupyter notebooks in `discrete-structures/programming-constructs/` with:
     - :material-language-python: [Jupyter Lite](https://proactiveprogrammers.com/live/)
     - :material-google: [Google Colab](https://githubtocolab.com/ProactiveProgrammers/www.proactiveprogrammers.com)
-        - :material-notebook-edit-outline: [Calculating the Square Root of a Number](https://githubtocolab.com/ProactiveProgrammers/www.proactiveprogrammers.com/blob/master/files/discrete-structures/programming-constructs/calculate-approximate-square-root.ipynb){:target="_blank"}
-        - :material-notebook-edit-outline: [Calculating the Quadratic Roots of an Equation](https://githubtocolab.com/ProactiveProgrammers/www.proactiveprogrammers.com/blob/master/files/discrete-structures/programming-constructs/calculate-quadratic-roots.ipynb){:target="_blank"}
+        - :material-notebook-edit-outline: [Calculate the Square Root of a Number](https://githubtocolab.com/ProactiveProgrammers/www.proactiveprogrammers.com/blob/master/files/discrete-structures/programming-constructs/calculate-approximate-square-root.ipynb){:target="_blank"}
+        - :material-notebook-edit-outline: [Calculate the Quadratic Roots of an Equation](https://githubtocolab.com/ProactiveProgrammers/www.proactiveprogrammers.com/blob/master/files/discrete-structures/programming-constructs/calculate-quadratic-roots.ipynb){:target="_blank"}
 
 ???+ note "Technical Concepts"
 
