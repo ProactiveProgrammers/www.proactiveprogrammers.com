@@ -1,3 +1,14 @@
+---
+tags:
+  - Conditional Logic
+  - Iteration Constructs
+  - File I/O
+  - Functions
+  - Testing
+---
+
+![File Searching](/img/Pro-Discrete-Structures-File-Searching.svg){loading=lazy}
+
 # File Searching
 
 ## Project Goals
