@@ -197,8 +197,8 @@ tests/test_search.py .....
     this workflow consumes build minutes for the course's organization! As such,
     you should only commit to your repository once you have made substantive
     changes to your project and you are ready to confirm its correctness. Before
-    you commit to your repository, you can still run checks on your own computer
-    by either using Poetry or Docker and GatorGrader.
+    you commit to your repository, you can should run checks on your own computer
+    by running `gatorgrade --config config/gatorgrade.yml`.
 
 ## Project Reflection
 
