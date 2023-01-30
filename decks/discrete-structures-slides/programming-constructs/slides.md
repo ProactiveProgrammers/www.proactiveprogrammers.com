@@ -566,11 +566,19 @@ Run <code>calculate-quadratic-roots.ipynb</code>
 
 <v-clicks>
 
+<div class="-mt-2 -mb-2">
+
 ```python
 for i in range(20):
     print("2 to the " + str(i)
           + " power is " + str(2**i))
 ```
+
+</div>
+
+</v-clicks>
+
+<v-clicks>
 
 - **Iteration constructs** enable a program to **repeat computations**
 
@@ -663,6 +671,8 @@ while i < 20:
 
 <v-clicks>
 
+<div class="-mt-4 -mb-4">
+
 ```python
 n = 4
 guess = 1.0
@@ -670,6 +680,11 @@ while abs(n - guess*guess) > 0.0001:
     guess = guess - (guess*guess - n)/(2*guess)
 root = guess
 ```
+</div>
+
+</v-clicks>
+
+<v-clicks>
 
 - Iteratively **guesses** the square root until **within tolerance**
 
