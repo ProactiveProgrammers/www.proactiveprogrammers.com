@@ -600,6 +600,8 @@ for i in range(20):
 
 <v-clicks>
 
+<div class="-mt-4 -mb-4">
+
 ```python
 i = 0
 while i < 20:
@@ -607,6 +609,12 @@ while i < 20:
           + " power is " + str(2**i))
     i += 1
 ```
+
+</div>
+
+</v-clicks>
+
+<v-clicks>
 
 - **Iteration constructs** enable a program to **repeat computations**
 
