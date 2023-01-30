@@ -153,6 +153,8 @@ for line in file:
 
 # Simple and Compound Statements
 
+<div class="-mt-4 -mb-4">
+
 <v-clicks>
 
 ```python
@@ -165,6 +167,12 @@ for line in file:
   count += 1
 print(sum/count)
 ```
+
+</v-clicks>
+
+</div>
+
+<v-clicks>
 
 - Programs contain both **simple** and **compound** statements
 
