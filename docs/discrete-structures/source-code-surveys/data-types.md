@@ -14,8 +14,8 @@ tags:
 ## Project Goals
 
 This assignment invites you to run and observe two Python programs called
-`compare-variables` and `demonstrate-variable-limitations`. Instead of using the
-[Poetry](https://python-poetry.org/) tool for managing dependencies and
+`compare-variables` and `demonstrate-variable-limitations`. Instead of using
+the [Poetry](https://python-poetry.org/) tool for managing dependencies and
 packaging these programs, which the [technical
 skills](/proactive-skills/introduction-proactive-skills/) advise as a best
 practice, these programs are scripts, without any dependencies on other Python
@@ -23,7 +23,8 @@ packages, that you can run through the Python interpreter. As you learn a new
 way to run a Python program, this project offers you the opportunity to ensure
 that you understand how to (i) understand the representation of float-point
 variables and (ii) the time and space limitations associated with performing
-computations with numbers.
+computations with numbers. Ready to explore some of the limitations of data
+variables in Python? *Okay, let's get started!*
 
 ## Project Access
 
@@ -36,6 +37,17 @@ skills](/proactive-skills/introduction-proactive-skills/). Specifically, you
 will need to use the `git clone` command to download the project from GitHub to
 your computer. Now you are ready to add source code and documentation to the
 project!
+
+???+ note
+
+    If you are an emerging proactive programmer who is not enrolled in a
+    Computer Science class at Allegheny College, you can still work on this
+    assignment! To get started, you should click the "Use this template" icon in
+    the :material-github:
+    [numerical-data-starter](https://github.com/ProactiveProgrammers/numerical-data-starter)
+    GitHub repository and create your own version of this project's source code.
+    After creating your GitHub repository, you can follow all of the other
+    steps!
 
 ## Code Survey
 
