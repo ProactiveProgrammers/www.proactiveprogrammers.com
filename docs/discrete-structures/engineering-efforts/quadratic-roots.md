@@ -2,8 +2,8 @@
 tags:
   - Conditional Logic
   - Iteration Constructs
-  - File I/O
   - Functions
+  - Numerical Computation
   - Testing
 ---
 
