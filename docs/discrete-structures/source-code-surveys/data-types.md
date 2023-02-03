@@ -1,3 +1,15 @@
+---
+tags:
+  - Conditional Logic
+  - Data Types
+  - Exponentiation Operator
+  - Floating Point
+  - Iteration Constructs
+---
+
+![Numerical Data](/img/Pro-Data-Abstraction-Data-Types.svg){loading=lazy}
+
+
 # Data Types
 
 ## Project Goals
