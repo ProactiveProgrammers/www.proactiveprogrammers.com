@@ -1,3 +1,14 @@
+---
+tags:
+  - Conditional Logic
+  - Iteration Constructs
+  - File I/O
+  - Functions
+  - Testing
+---
+
+![Quadratic Roots](/img/Pro-Discrete-Structures-Quadratic-Roots.svg){loading=lazy}
+
 # Quadratic Roots
 
 ## Project Goals
