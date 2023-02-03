@@ -194,36 +194,28 @@ rootfinder` if should produce this output:
 
 ## Running Checks
 
-As you continue to add and confirm the correctness of `rootfinder`'s
-functionality, you also study the source code in the `pyproject.toml` file. This
-file contains the specification of several tasks that will help you to easily
-run checks on your Python source code. Now, you can run commands like `poetry
-run task lint` to automatically run all of the linters designed to check the
-Python source code in your program and its test suite. You can also use the
-command `poetry run task black` to confirm that your source code adheres to the
-industry-standard format defined by the `black` tool. If it does not adhere to
-the standard then you can run the command `poetry run black rootfinder tests`
-and it will automatically reformat the source code.
-
-```toml
-[tool.taskipy.tasks]
-black = { cmd = "black rootfinder tests --check", help = "Run the black checks for source code format" }
-flake8 = { cmd = "flake8 rootfinder tests", help = "Run the flake8 checks for source code documentation" }
-mypy = { cmd = "poetry run mypy rootfinder", help = "Run the mypy type checker for potential type errors" }
-pydocstyle = { cmd = "pydocstyle rootfinder tests", help = "Run the pydocstyle checks for source code documentation" }
-pylint = { cmd = "pylint rootfinder tests", help = "Run the pylint checks for source code documentation" }
-test = { cmd = "pytest -x -s", help = "Run the pytest test suite" }
-test-silent = { cmd = "pytest -x --show-capture=no", help = "Run the pytest test suite without showing output" }
-all = "task black && task flake8 && task pydocstyle && task pylint && task mypy && task test"
-lint = "task black && task flake8 && task pydocstyle && task pylint"
-```
+If you study the source code in the `pyproject.toml` file you will see that it
+includes the following section that specifies different executable tasks like
+`lint`. If you are in the `square` directory that contains the `pyproject.toml`
+file and the `poetry.lock` file, the tasks in this section make it easy to run
+commands like `poetry run task lint` to automatically run all of the linters
+designed to check the Python source code in your program and its test suite. You
+can also use the command `poetry run task black` to confirm that your source
+code adheres to the industry-standard format defined by the `black` tool. If it
+does not adhere to the standard then you can run the command `poetry run black
+square tests` and it will automatically reformat the source code.
 
 Along with running tasks like `poetry run task lint`, you can leverage the
 relevant instructions in the [technical
-skills](/proactive-skills/introduction-proactive-skills/) to enter into a Docker
-container and run the command `gradle grade` to check your work. If `gradle
-grade` shows that all checks pass, you will know that you made progress towards
-correctly implementing and writing about `rootfinder`. If your program has all
+skills](/proactive-skills/introduction-proactive-skills/) to run the command
+`gatorgrade --config config/gatorgrade.yml` to check your work. If your work
+meets the baseline requirements and adheres to the best practices that proactive
+programmers adopt you will see that all the checks pass when you run
+`gatorgrade`. You can study the `config/gatorgrade.yml` file in your repository
+to learn how the :material-github:
+[GatorGrade](https://github.com/GatorEducator/gatorgrade) program runs
+:material-github: [GatorGrader](https://github.com/GatorEducator/gatorgrader) to
+automatically check your program and technical writing. If your program has all
 of the anticipated functionality, you can run the command `poetry run task test`
 and see that the test suite produces output like the following. Notice that the
 current test suite only has three test cases! If you are looking for an
