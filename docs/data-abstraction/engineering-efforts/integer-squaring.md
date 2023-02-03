@@ -42,12 +42,12 @@ project!
 
     If you are an emerging proactive programmer who is not enrolled in a
     Computer Science class at Allegheny College, you can still work on this
-    assignment! To get started, you should click the "Use this template" icon in
-    the :material-github:
+    assignment! To get started, you should click the "Use this template" icon
+    in the :material-github:
     [integer-squaring-starter](https://github.com/ProactiveProgrammers/integer-squaring-starter)
-    GitHub repository and create your own version of this project's source code.
-    After creating your GitHub repository, you can follow all of the other
-    steps!
+    GitHub repository and create your own version of this project's source
+    code. After creating your GitHub repository, you can follow all of the
+    other steps!
 
 ## Expected Output
 
