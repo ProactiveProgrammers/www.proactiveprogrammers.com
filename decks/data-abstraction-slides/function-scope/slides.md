@@ -691,6 +691,36 @@ Higher-order functions can accept and call functions as their input! What is the
 
 ---
 
+[//]: # (Slide Start {{{)
+
+# How to Call Higher-Order Function
+
+```python {all}
+num = 5
+result = call_twice(square, num)
+print("Calling the square twice with " +
+      str(num) + " is " + str(result))
+
+num = 5
+result = num ** 4
+print("Computation of twice square is "
+      + str(num) + " is " + str(result))
+```
+
+<div class="flex row mt-5">
+
+<mdi-help-box class="text-6xl ml-4 -mt-2 text-blue-600" />
+
+<div class="text-4xl text-true-gray-700 font-bold mt-2 ml-4">
+The output of the two print statements?
+</div>
+
+</div>
+
+[//]: # (Slide End }}})
+
+---
+
 [//]: # "Slide Start {{{"
 
 # Programming Warmup
