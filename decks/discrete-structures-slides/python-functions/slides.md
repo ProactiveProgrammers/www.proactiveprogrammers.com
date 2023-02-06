@@ -977,10 +977,11 @@ Helps <code>pylance</code> checker offer feedback in VS Code
 
 </div>
 
----
-
 [//]: # (Slide End }}})
 
+---
+
+[//]: # (Slide Start {{{)
 
 # Implementing and Testing Functions
 
@@ -1006,3 +1007,5 @@ Helps <code>pylance</code> checker offer feedback in VS Code
     with **testing**?
 
 </v-clicks>
+
+[//]: # (Slide End }}})
