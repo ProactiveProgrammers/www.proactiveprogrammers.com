@@ -653,6 +653,8 @@ Use <code>explore-higher-order-functions.ipynb</code>
 
 ---
 
+[//]: # (Slide Start {{{)
+
 # Lambda Expressions in Python
 
 ```python {all}
@@ -670,26 +672,29 @@ print("Calling square lambda twice " +
 
 - `square` is an expression that has a function as its value
 
+[//]: # (Slide End }}})
+
 ---
+
+[//]: # (Slide Start {{{)
 
 # Understanding Lambda Expressions
 
 <v-clicks>
 
--   You can define a "function" without an explicit signature!
+- You can define a "function" without an explicit signature!
 
--   What are benefits of `square = lambda x: x*x` ?
+- What are benefits of `square = lambda x: x*x` ?
 
--   What are drawbacks of `square = lambda x: x*x` ?
+- What are drawbacks of `square = lambda x: x*x` ?
 
--  How do decide between function and lambda expression?
+- How do decide between function and lambda expression?
 
 - **Use case**: simple-to-implement mathematical function
 
--   How do you test a lambda function in a Python program?
+- How do you test a lambda function in a Python program?
 
--   Implement $n! = n \times n-1 \times n-2 \times \ldots \times 1$ as
-    lambda?
+- Implement $n! = n \times n-1 \times n-2 \times \ldots \times 1$ as lambda?
 
 <div class="flex row">
 
@@ -702,6 +707,8 @@ Questions about using lambda expressions?
 </div>
 
 </v-clicks>
+
+[//]: # (Slide End }}})
 
 ---
 
