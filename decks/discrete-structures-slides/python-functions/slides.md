@@ -478,6 +478,8 @@ Higher-order functions can accept and call functions as their input! What are th
 
 ---
 
+[//]: # (Slide Start {{{)
+
 # Understanding Higher-Order Functions
 
 <v-clicks>
@@ -504,7 +506,11 @@ Higher-order functions can accept and call functions as their input! What are th
 
 </v-clicks>
 
+[//]: # (Slide End }}})
+
 ---
+
+[//]: # (Slide Start {{{)
 
 # How to Call Higher-Order Function
 
@@ -531,6 +537,8 @@ The output of the two print statements?
 </div>
 
 ---
+
+[//]: # (Slide End }}})
 
 [//]: # (Slide Start {{{)
 
