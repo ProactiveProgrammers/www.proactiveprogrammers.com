@@ -1001,7 +1001,8 @@ Helps <code>pylance</code> checker offer feedback in VS Code
 
     -   **Q5**: How do you compute the **variance** and **standard deviation**?
 
--   Can you **translate the mathematical descriptions** of these summary statistics
-to **Python programs**? Can you ensure their correctness with testing?
+-   Can you **translate the mathematical descriptions** of these summary
+    statistics to **Python programs**? Can you ensure their **correctness**
+    with **testing**?
 
 </v-clicks>
