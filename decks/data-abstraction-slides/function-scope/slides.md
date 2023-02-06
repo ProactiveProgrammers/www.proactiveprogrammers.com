@@ -659,6 +659,38 @@ Higher-order functions can accept and call functions as their input! What is the
 
 ---
 
+[//]: # (Slide Start {{{)
+
+# Understanding Higher-Order Functions
+
+<v-clicks>
+
+-   You can pass a **function** as an **argument** to a **function**!
+
+-   The behavior of **higher-order** functions in Python:
+
+    -   **Step 1**: `square` is a function that computes and returns
+        $x^2$
+
+    -   **Step 2**: `call_twice` is a function that calls a function `f`
+        twice
+
+    -   **Step 3**: First, `call_twice` calls `f` with ` number`
+
+    -   **Step 4**: Then, `call_twice` calls `f` with ` f(number)`
+
+    -   **Step 5**: Finally, `call_twice` returns result of
+        ` f(f(number))`
+
+-   Can you predict the output of the `call_twice` function? How would
+    you test the `call_twice` function? Can you express it differently?
+
+</v-clicks>
+
+[//]: # (Slide End }}})
+
+---
+
 [//]: # "Slide Start {{{"
 
 # Programming Warmup
