@@ -1054,7 +1054,7 @@ Explore <code>explore-lambda-expressions.ipynb</code>
 
 # Investigating Function Scope
 
-<div class = "mt-10">
+<div class = "mt-4">
 </div>
 
 <v-clicks>
@@ -1074,6 +1074,8 @@ Explore <code>explore-lambda-expressions.ipynb</code>
 -   We will always aim to create good designs in **upcoming projects**!
 
 -   Balance the **trade-offs** associated with designing quality software
+
+-   Pick the "right" type of function depending on programming task
 
 </v-clicks>
 
