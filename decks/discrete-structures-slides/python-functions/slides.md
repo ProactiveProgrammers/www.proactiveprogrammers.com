@@ -822,7 +822,7 @@ numbers = [5,1,7,99,4]
 print(str(compute_mean(numbers)))
 ```
 
-<div class="mt-8">
+<div class="mt-4">
 
 - How do we compute the **mean** of a list of numbers?
 
