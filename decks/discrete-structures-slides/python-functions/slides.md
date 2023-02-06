@@ -447,7 +447,7 @@ Use <code>explore-mathematical-functions.ipynb</code>
 
 # Higher-Order Functions
 
-<div class="ml-1">
+<div class="-ml-6">
 
 ```python {all|1-4|6-8|all}
 def square(number: int):
