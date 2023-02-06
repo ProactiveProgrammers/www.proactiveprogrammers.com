@@ -1075,7 +1075,7 @@ Explore <code>explore-lambda-expressions.ipynb</code>
 
 -   Balance the **trade-offs** associated with designing quality software
 
--   Pick the "right" type of function depending on programming task
+-   Pick the "right" type of **function** depending on **programming task**
 
 </v-clicks>
 
