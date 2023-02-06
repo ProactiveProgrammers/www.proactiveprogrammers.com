@@ -986,7 +986,7 @@ Helps <code>pylance</code> checker offer feedback in VS Code
 
 <v-clicks>
 
--   How do you pick between the **different types** of **functions**?
+-   How do you **pick** between the **different types** of **functions**?
 
 -   Python functions to perform **statistical analysis** of data:
 
