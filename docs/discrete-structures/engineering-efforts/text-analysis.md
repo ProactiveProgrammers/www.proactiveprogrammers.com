@@ -194,7 +194,7 @@ list and the set to automatically characterize the text of a complete document.
 
 Since this project is an engineering effort, it is aligned with the
 **evaluating** and **creating** levels of [Bloom's
-taxonomy](proactive-learning/blooms-taxonomy/). You can learn more about how a
+taxonomy](/proactive-learning/blooms-taxonomy/). You can learn more about how a
 proactive programming expert will assess your work by examining the [assessment
 strategy](/proactive-learning/assessment-strategy/). From the start to the end
 of this project you may make an unlimited number of reattempts at submitting
