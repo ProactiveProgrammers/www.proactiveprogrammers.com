@@ -1,3 +1,14 @@
+---
+tags:
+  - Conditional Logic
+  - Iteration Constructs
+  - File I/O
+  - Functions
+  - Testing
+---
+
+![Computing Averages](/img/Pro-Discrete-Structures-Computing-Averages.svg){loading=lazy}
+
 # Computing Averages
 
 ## Project Goals
