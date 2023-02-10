@@ -212,7 +212,7 @@ the program with a command like `poetry run contactsearcher --job-description
 ## Project Assessment
 
 Since this is a programming project, it is aligned with the **applying** and
-**analyzing** levels of [Bloom's taxonomy](proactive-learning/blooms-taxonomy/).
+**analyzing** levels of [Bloom's taxonomy](/proactive-learning/blooms-taxonomy/).
 You can learn more about how a proactive programming expert will assess your
 work by examining the [assessment
 strategy](/proactive-learning/assessment-strategy/). From the start to the end
