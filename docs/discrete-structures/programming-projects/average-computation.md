@@ -56,7 +56,7 @@ arithmetic. The program accepts through its command-line a file that contains
 integer values encoded as text. If you run the program with the command `poetry
 run average --dir input --file numbers.txt` it produces this output:
 
-```
+```shell
 😃 Computing the average of numbers in a file called input/numbers.txt!
 
 😉 Phew, that was hard work!
@@ -69,7 +69,7 @@ with the `numbers.txt` file in the `input` directory, it should work in a
 general-purpose fashion for any text file that contains integer numbers aligned
 in a single row like:
 
-```
+```text
 -19
 -24
 -81
@@ -155,36 +155,29 @@ if all of the numbers inside of the file are `0`, then it returns an average of 
 
 ## Running Checks
 
-If you study the source code in the `pyproject.toml` file you will see that
-it includes the following section that specifies different executable tasks:
-
-```toml
-[tool.taskipy.tasks]
-black = { cmd = "black average tests --check", help = "Run the black checks for source code format" }
-flake8 = { cmd = "flake8 average tests", help = "Run the flake8 checks for source code documentation" }
-mypy = { cmd = "poetry run mypy average", help = "Run the mypy type checker for potential type errors" }
-pydocstyle = { cmd = "pydocstyle average tests", help = "Run the pydocstyle checks for source code documentation" }
-pylint = { cmd = "pylint average tests", help = "Run the pylint checks for source code documentation" }
-test = { cmd = "pytest -x -s", help = "Run the pytest test suite" }
-test-silent = { cmd = "pytest -x --show-capture=no", help = "Run the pytest test suite without showing output" }
-all = "task black && task flake8 && task pydocstyle && task pylint && task mypy && task test"
-lint = "task black && task flake8 && task pydocstyle && task pylint"
-```
-
-This section makes it easy to run commands like `poetry run task lint` to
-automatically run all of the linters designed to check the Python source code in
-your program and its test suite. You can also use the command `poetry run task
-black` to confirm that your source code adheres to the industry-standard format
-defined by the `black` tool. If it does not adhere to the standard then you can
-run the command `poetry run black average tests` and it will automatically
-reformat the source code.
+If you study the source code in the `pyproject.toml` file you will see that it
+includes the following section that specifies different executable tasks like
+`lint`. If you are in the `average` directory that contains the
+`pyproject.toml` file and the `poetry.lock` file, the tasks in this section
+make it easy to run commands like `poetry run task lint` to automatically run
+all of the linters designed to check the Python source code in your program and
+its test suite. You can also use the command `poetry run task black` to confirm
+that your source code adheres to the industry-standard format defined by the
+`black` tool. If it does not adhere to the standard then you can run the
+command `poetry run task fixformat` and it will automatically reformat the
+source code.
 
 Along with running tasks like `poetry run task lint`, you can leverage the
 relevant instructions in the [technical
-skills](/proactive-skills/introduction-proactive-skills/) to enter into a Docker
-container and run `gradle grade` to check your work. If `gradle grade` shows
-that all checks pass, you will know that you made progress towards correctly
-implementing and writing about `average`.
+skills](/proactive-skills/introduction-proactive-skills/) to run the command
+`gatorgrade --config config/gatorgrade.yml` to check your work. If your work
+meets the baseline requirements and adheres to the best practices that
+proactive programmers adopt you will see that all the checks pass when you run
+`gatorgrade`. You can study the `config/gatorgrade.yml` file in your repository
+to learn how the :material-github:
+[GatorGrade](https://github.com/GatorEducator/gatorgrade) program runs
+:material-github: [GatorGrader](https://github.com/GatorEducator/gatorgrader)
+to automatically check your program and technical writing.
 
 If your program has all of the anticipated functionality, you can run the
 command `poetry run task test` and see that the test suite produces output like
