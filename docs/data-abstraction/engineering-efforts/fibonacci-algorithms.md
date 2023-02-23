@@ -174,6 +174,24 @@ following three research questions:
 - Overall, are there modes of the `fibonaccicreator` that are less suitable for
   Python?
 
+Please note that there may be certain configurations of the `fibonaccicreator`
+program that prove to be very slow or prone to crashing if they receive certain
+types of inputs. This type of behavior is expected and something that you must
+investigate and work around whenever possible as you design and conduct your
+experiments. As you are collecting and analyzing the experimental results for
+this project, please do not report on performance data values that arise from a
+run of the program that crashed during the experiment.
+
+???+ note
+
+    Please note that the `fibonaccicreator` program uses Python packages, like
+    `psutil`, that either may not reliably work on certain operating systems or
+    may produce different output depending on the operating system. If you
+    experience difficulties with installing one of the dependencies of
+    `fibonaccicreator` or the program produces counter-intuitive results, please
+    work with the course instructor to develop an alternative plan for
+    taking performance measurements and running the experiments.
+
 ## Running Checks
 
 If you study the source code in the `pyproject.toml` file you will see that it
