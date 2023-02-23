@@ -210,7 +210,7 @@ includes the following section that specifies different executable tasks like
 `pyproject.toml` file and the `poetry.lock` file, the tasks in this section
 make it easy to run commands like `poetry run task lint` to automatically run
 all of the linters designed to check the Python source code in your program and
-its test suite. You can also use the command `poetry run task black` to confirm
+its test suite. You can also use the command `poetry run task fixformat` to confirm
 that your source code adheres to the industry-standard format defined by the
 `black` tool. If it does not adhere to the standard then you can run the
 command `poetry run black primality tests` and it will automatically reformat
