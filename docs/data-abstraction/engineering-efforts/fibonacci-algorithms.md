@@ -111,21 +111,31 @@ following output. This help menu shows that `fibonaccicreator` also has a
 the function calls made by the `fibonaccicreator` and the performance results
 created by the [Pyinstrument](https://github.com/joerick/pyinstrument) package.
 
-```
-Usage: fibonaccicreator [OPTIONS]
+```text
+ Usage: fibonaccicreator [OPTIONS]
 
-  Create the list of Fibonacci values in a specified approach.
+ Create the list of Fibonacci values in a specified approach.
 
-Options:
-  --approach TEXT       [required]
-  --number INTEGER      [required]
-  --display             [default: False]
-  --pyinstrument        [default: False]
-  --install-completion  Install completion for the current shell.
-  --show-completion     Show completion for the current shell, to copy it
-                        or customize the installation.
-
-  --help                Show this message and exit.
+╭─ Options ─────────────────────────────────────────────────────────────╮
+│ *  --approach                TEXT                [default: None]      │
+│                                                  [required]           │
+│ *  --number                  INTEGER             [default: None]      │
+│                                                  [required]           │
+│    --display                                                          │
+│    --pyinstrument                                                     │
+│    --install-complet…        [bash|zsh|fish|pow  Install completion   │
+│                              ershell|pwsh]       for the specified    │
+│                                                  shell.               │
+│                                                  [default: None]      │
+│    --show-completion         [bash|zsh|fish|pow  Show completion for  │
+│                              ershell|pwsh]       the specified shell, │
+│                                                  to copy it or        │
+│                                                  customize the        │
+│                                                  installation.        │
+│                                                  [default: None]      │
+│    --help                                        Show this message    │
+│                                                  and exit.            │
+╰───────────────────────────────────────────────────────────────────────╯
 ```
 
 Please note that the provided source code does not contain all of the
