@@ -100,9 +100,10 @@ project dependencies and virtual environments, it does not support the use of
 commands like `poetry run task test`. However, you can leverage the relevant
 instructions in the [technical
 skills](/proactive-skills/introduction-proactive-skills/) to enter into a Docker
-container and run the command `gradle grade` to check your work. If `gradle
-grade` shows that all checks pass, you will know that you made progress towards
-correctly implementing and writing about this project's two programs.
+container and run the command `gatorgrade --config config/gatorgrade.yml` to
+check your work. If `gatorgrade` shows that all checks pass, you will know that
+you made progress towards correctly implementing and writing about this
+project's two programs.
 
 ???+ note
 
