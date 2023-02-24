@@ -1,3 +1,14 @@
+---
+tags:
+  - Data Manipulation
+  - Functions
+  - Numerical Computation
+  - Parameter Passing
+  - Structured Types
+---
+
+![Discrete Structures](/img/Pro-Discrete-Structures-Data-Types.svg){loading=lazy}
+
 # Tuple Swapping
 
 ## Project Goals
