@@ -214,7 +214,7 @@ defined by the `black` tool. If it does not adhere to the standard then
 you can run the command `poetry run fixformat` and it will
 automatically reformat the source code. By following a
 [tutorial](https://dev.to/adamlombard/how-to-use-the-black-python-code-formatter-in-vscode-3lo0),
-you can also configure your VS Code text editor to use the `black` tool
+you can configure the VS Code text editor to use the `black` tool
 to automatically reformat you source code every time you save a file.
 
 Along with running tasks like `poetry run task lint`, you can leverage the
@@ -237,8 +237,8 @@ to automatically check your program and technical writing.
     this workflow consumes build minutes for the course's organization! As such,
     you should only commit to your repository once you have made substantive
     changes to your project and you are ready to confirm its correctness. Before
-    you commit to your repository, you can still run checks on your own computer
-    by either using Poetry or Docker and GatorGrader.
+    you commit to your repository, you can should run checks on your own computer
+    by running `gatorgrade --config config/gatorgrade.yml`.
 
 ## Project Reflection
 
