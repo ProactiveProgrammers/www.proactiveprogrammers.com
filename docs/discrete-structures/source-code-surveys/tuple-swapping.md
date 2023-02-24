@@ -85,7 +85,7 @@ skills](/proactive-skills/introduction-proactive-skills/) to enter into a Docker
 container and run the command `gatorgrade --config config/gatorgrade.yml` to
 check your work. If `gatorgrade` shows that all checks pass, you will know that
 you made progress towards correctly implementing and writing about this
-project's two programs.
+project's program.
 
 ???+ note
 
