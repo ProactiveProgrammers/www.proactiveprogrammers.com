@@ -1,3 +1,14 @@
+---
+tags:
+  - Conditional Logic
+  - Iteration Constructs
+  - Functions
+  - Numerical Computation
+  - Testing
+---
+
+![Iterative Exponentiation](/img/Pro-Discrete-Structures-Iterative-Exponentiation.svg){loading=lazy}
+
 # Iterative Exponentiation
 
 ## Project Goals
