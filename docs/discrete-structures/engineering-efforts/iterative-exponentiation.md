@@ -203,19 +203,18 @@ if whileloop is True:
 ## Running Checks
 
 As you continue to add and confirm the correctness of `iterator`'s
-functionality, you should study the source code in the `pyproject.toml`
-file. This file contains the specification of several tasks that will
-help you to easily run checks on your Python source code. Now, you can
-run commands like `poetry run task lint` to automatically run all of the
-linters designed to check the Python source code in your program and its
-test suite. You can also use the command `poetry run task black` to
-confirm that your source code adheres to the industry-standard format
-defined by the `black` tool. If it does not adhere to the standard then
-you can run the command `poetry run fixformat` and it will
+functionality, you should study the source code in the `pyproject.toml` file.
+This file contains the specification of several tasks that will help you to
+easily run checks on your Python source code. Now, you can run commands like
+`poetry run task lint` to automatically run all of the linters designed to check
+the Python source code in your program and its test suite. You can also use the
+command `poetry run task black` to confirm that your source code adheres to the
+industry-standard format defined by the `black` tool. If it does not adhere to
+the standard then you can run the command `poetry run fixformat` and it will
 automatically reformat the source code. By following a
 [tutorial](https://dev.to/adamlombard/how-to-use-the-black-python-code-formatter-in-vscode-3lo0),
-you can configure the VS Code text editor to use the `black` tool
-to automatically reformat you source code every time you save a file.
+you can configure VS Code to use the `black` tool to automatically reformat the
+source code when you save a file.
 
 Along with running tasks like `poetry run task lint`, you can leverage the
 relevant instructions in the [technical
