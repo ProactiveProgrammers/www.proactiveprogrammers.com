@@ -1,20 +1,26 @@
 ---
-# try also 'default' to start simple
+# use the default theme
 theme: default
 # apply any windi css classes to the current slide
 class: 'text-center'
-# https://sli.dev/custom/highlighters.html
+# define the highlighter and the colorSchema
 highlighter: prism
 colorSchema: light
 remoteAssets: false
 # show line numbers in code blocks
 lineNumbers: false
-# some information about the slides, markdown enabled
-info: |
-  ## Slidev Starter Template
-  Presentation slides for developers.
-
-  Learn more at [Sli.dev](https://sli.dev)
+# define the fonts
+fonts:
+  # define the font for the body text
+  sans: 'IBM Plex Sans'
+  # define the serif font
+  serif: 'IBM Plex Serif'
+  # define the code font
+  mono: 'IBM Plex Mono'
+  # load several font weights
+  weights: '200,400,500'
+  # support the use of italics
+  italic: true
 ---
 
 [//]: # (Slide Start {{{)
@@ -151,6 +157,8 @@ print(f"The message is: {message}")
 
 # Reversed String Concatenation
 
+<div class="-mt-3 -mb-2">
+
 ```python
 hello = "hello"
 world = "world"
@@ -158,6 +166,8 @@ space = " "
 message = world + space + hello
 print(f"The message is: {message}")
 ```
+
+</div>
 
 <v-clicks>
 
@@ -168,7 +178,6 @@ print(f"The message is: {message}")
 - What are the different **types** of strings?
 
 - What is an **empty string** in Python?
-
 - How is an empty string different from `" "` ?
 
 </v-clicks>
@@ -446,13 +455,16 @@ Enables practical parallel computations
 
 # Sums of Lists in Python
 
+<div class="-mt-3 mb-2">
+
 ```python
 standard_list = [1, 2, 3, 4, 5]
 reversed_list = [5, 4, 3, 2, 1]
-
 sum_list = sum(standard_list)
 sum_reversed_list = sum(reversed_list)
 ```
+
+</div>
 
 <v-clicks>
 
@@ -472,6 +484,8 @@ sum_reversed_list = sum(reversed_list)
 
 # Products of Lists in Python
 
+<div class="-mt-3 mb-2">
+
 ```python
 import math
 standard_list = [1, 2, 3, 4, 5]
@@ -480,6 +494,8 @@ product_list = math.prod(standard_list)
 product_reversed_list =
     math.prod(reversed_list)
 ```
+
+</div>
 
 <v-clicks>
 
