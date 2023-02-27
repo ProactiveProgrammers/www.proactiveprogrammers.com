@@ -179,7 +179,7 @@
 - Run the Jupyter notebooks in `discrete-structures/data-streams/` with:
     - :material-language-python: [Jupyter Lite](https://proactiveprogrammers.com/live/)
     - :material-google: [Google Colab](https://githubtocolab.com/ProactiveProgrammers/www.proactiveprogrammers.com)
-        - :material-notebook-edit-outline: [Explore Generator Techniques](https://githubtocolab.com/ProactiveProgrammers/www.proactiveprogrammers.com/blob/master/files/discrete-stuctures/data-streams/explore-generator-techniques.ipynb){:target="_blank"}
+        - :material-notebook-edit-outline: [Explore Generator Techniques](https://githubtocolab.com/ProactiveProgrammers/www.proactiveprogrammers.com/blob/master/files/discrete-structures/data-streams/explore-generator-techniques.ipynb){:target="_blank"}
 
 ???+ note "Technical Concepts"
 
