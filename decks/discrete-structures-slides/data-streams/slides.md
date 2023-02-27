@@ -174,6 +174,8 @@ Dynamically generated sequences are streams
 
 # File Input Involves the Use of Streams
 
+<div class="-mt-3 -mb-3">
+
 ```python
 file = open("emails")
 for line in file:
@@ -181,6 +183,8 @@ for line in file:
   if name == "John Davis":
     print(email)
 ```
+
+</div>
 
 <v-click>
 
