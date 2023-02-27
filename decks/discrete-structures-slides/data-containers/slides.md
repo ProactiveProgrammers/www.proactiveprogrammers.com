@@ -171,6 +171,8 @@ Let's explore the use of data containers in Python!
 -   While the type of entity in an n-tuple may be different, not every
     entity in the n-tuple must be different. This means that **duplicates are possible**!
 
+- Any questions about the **progression** from **ordered pairs** to **n-tuples**?
+
 </v-clicks>
 
 ---
