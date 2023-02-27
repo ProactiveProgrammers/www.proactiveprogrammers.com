@@ -78,10 +78,10 @@ fonts:
 
 <div class="flex row mt-3">
 
-<uim-rocket class="text-6xl ml-9 mt-4 text-blue-600" />
+<uim-rocket class="text-6xl ml-4 mt-4 text-blue-600" />
 
 <div class="text-4xl text-true-gray-700 font-bold mt-6 ml-8">
-Let's investigate the set structure!
+Let's investigate the set discrete structure!
 </div>
 
 </div>
@@ -167,6 +167,8 @@ print(x)
 
 # Output of a Program that Creates Sets
 
+<div class="-mt-2 -mb-2">
+
 ```python
 # Output from a set defined with a list:
   {'paper', 'pencil', 'pen', 'wallet'}
@@ -174,6 +176,8 @@ print(x)
 # Output from a set defined with a tuple:
   {'paper', 'pencil', 'pen', 'wallet'}
 ```
+
+</div>
 
 <v-click>
 
@@ -193,6 +197,8 @@ print(x)
 
 # Python's Sets Store Immutable Content
 
+<div class="-mt-2 -mb-2">
+
 ```python
 x = {53, 'pencil',
      (1, 1, 2, 3, 5), 3.14159}
@@ -200,6 +206,8 @@ x = {53, 'pencil',
 print("Set with multiple types:")
 print(x)
 ```
+
+</div>
 
 <v-click>
 
@@ -219,13 +227,17 @@ print(x)
 
 # Sets Cannot Store Mutable Containers
 
+<div class="-mt-2 -mb-2">
+
 ```python
 list = [53, 'pencil',
         (1, 1, 2, 3, 5), 3.14159]
 x = {list}
 ```
 
-<div class="mt-8">
+</div>
+
+<div class="-mt-2 -mb-2">
 
 ```python
 Traceback (most recent call last):
