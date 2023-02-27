@@ -204,6 +204,8 @@ for line in file:
 
 # Using Comprehensions and Generators
 
+<div class="-mt-3 -mb-3">
+
 ```python
 list_comprehension =
   ['Hello' for i in range(3)]
@@ -214,6 +216,8 @@ generator_expression =
 print(list_comprehension)
 print(generator_expression)
 ```
+
+</div>
 
 <v-click>
 
