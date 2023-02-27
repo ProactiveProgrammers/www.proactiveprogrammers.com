@@ -443,7 +443,7 @@ Run <code>explore-generator-techniques.ipynb</code>
 
 # Using Functions and Tuples in Python
 
-<div class="-ml-2">
+<div class="-ml-2 -mt-4">
 
 ```python {all|1|2-4|5-8|10-12|all}
 def fibonacci_tuple(n):
@@ -466,6 +466,8 @@ for fibonacci_value in fibonacci_tuple(10):
 
 # Output from a Tuple Function in Python
 
+<div class="-mt-4 -mb-2">
+
 ```python
 print(fibonacci_tuple)
 
@@ -477,6 +479,8 @@ for fibonacci_value in fibonacci_tuple(10):
 
   1 1 2 3 5 8 13 21 34 55
 ```
+
+</div>
 
 <v-click>
 
@@ -490,7 +494,7 @@ for fibonacci_value in fibonacci_tuple(10):
 
 # Using Functions and List in Python
 
-<div class="-ml-2">
+<div class="-ml-2 -mt-2">
 
 ```python {all|1|2-4|5-8|10-12|all}
 def fibonacci_list(n):
@@ -518,7 +522,6 @@ for fibonacci_value in fibonacci_list(10):
 print(fibonacci_list)
 
   <function fibonacci_list at 0x7fd1abf2c040>
-
 
 for fibonacci_value in fibonacci_list(10):
   print(fibonacci_value, end=" ")
