@@ -410,7 +410,7 @@ What do we know about the set in Python?
 
 <div class="flex row">
 
-<mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
+<mdi-cookie class="text-6xl ml-8 mt-6 text-blue-600" />
 
 <div class="text-3xl font-bold mt-10 ml-4">
 Sets do not contain duplicate values
@@ -424,7 +424,7 @@ Sets do not contain duplicate values
 
 <div class="flex row">
 
-<mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
+<mdi-cookie class="text-6xl ml-8 mt-6 text-blue-600" />
 
 <div class="text-3xl font-bold mt-10 ml-4">
 Sets can only contain data that is hashable
@@ -438,7 +438,7 @@ Sets can only contain data that is hashable
 
 <div class="flex row">
 
-<mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
+<mdi-cookie class="text-6xl ml-8 mt-6 text-blue-600" />
 
 <div class="text-3xl font-bold mt-10 ml-4">
 Sets have practical limitations due to constraints
@@ -624,7 +624,7 @@ What do we know about set operations?
 
 <div class="flex row">
 
-<mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
+<mdi-cookie class="text-6xl ml-8 mt-6 text-blue-600" />
 
 <div class="text-3xl font-bold mt-10 ml-4">
 Operations are part of the default implementation
@@ -638,7 +638,7 @@ Operations are part of the default implementation
 
 <div class="flex row">
 
-<mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
+<mdi-cookie class="text-6xl ml-8 mt-6 text-blue-600" />
 
 <div class="text-3xl font-bold mt-10 ml-4">
 Intersection finds what sets have in common
@@ -652,7 +652,7 @@ Intersection finds what sets have in common
 
 <div class="flex row">
 
-<mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
+<mdi-cookie class="text-6xl ml-8 mt-6 text-blue-600" />
 
 <div class="text-3xl font-bold mt-10 ml-4">
 Difference subtracts content of set from another
@@ -789,7 +789,7 @@ What are the benefits of using the set structure?
 
 <div class="flex row">
 
-<mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
+<mdi-check-decagram class="text-6xl ml-8 mt-6 text-blue-600" />
 
 <div class="text-3xl font-bold mt-10 ml-4">
 Storing unique items may reduce storage needs
@@ -803,7 +803,7 @@ Storing unique items may reduce storage needs
 
 <div class="flex row">
 
-<mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
+<mdi-check-decagram class="text-6xl ml-8 mt-6 text-blue-600" />
 
 <div class="text-3xl font-bold mt-10 ml-4">
 Sets support fast containment checking for value
@@ -817,7 +817,7 @@ Sets support fast containment checking for value
 
 <div class="flex row">
 
-<mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
+<mdi-check-decagram class="text-6xl ml-8 mt-6 text-blue-600" />
 
 <div class="text-3xl font-bold mt-10 ml-4">
 Sets provide many useful built-in operations
@@ -913,6 +913,8 @@ print(odd_positives_two)
 
 # Boolean Logic and Sets: Logical And
 
+<div class="mb-0">
+
 ```python
 even_positives_by_four =
      {n for n in range(20)
@@ -920,13 +922,14 @@ even_positives_by_four =
 
 for value in even_positives_by_four:
     print(value)
-
 print(even_positives_by_four)
 ```
 
+</div>
+
 <v-click>
 
-<div class="mt-10">
+<div class="mt-8">
 
 - Logical `and` is `True` when both clauses are `True`
 
@@ -952,7 +955,7 @@ print(even_positives_by_four)
 
 <v-click>
 
-<div class="mt-8">
+<div class="mt-6">
 
 - Both of the conditions must be true for the logical `and` operator!
 
@@ -1038,7 +1041,7 @@ What do we know about Boolean logic?
 
 <div class="flex row">
 
-<mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
+<mdi-check-decagram class="text-6xl ml-8 mt-6 text-blue-600" />
 
 <div class="text-3xl font-bold mt-10 ml-4">
 Operators are a part of the Python language
@@ -1052,7 +1055,7 @@ Operators are a part of the Python language
 
 <div class="flex row">
 
-<mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
+<mdi-check-decagram class="text-6xl ml-8 mt-6 text-blue-600" />
 
 <div class="text-3xl font-bold mt-10 ml-4">
 Boolean logic useful when manipulating sets
@@ -1066,7 +1069,7 @@ Boolean logic useful when manipulating sets
 
 <div class="flex row">
 
-<mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
+<mdi-check-decagram class="text-6xl ml-8 mt-6 text-blue-600" />
 
 <div class="text-3xl font-bold mt-10 ml-4">
 Boolean logic helps conditional statements
