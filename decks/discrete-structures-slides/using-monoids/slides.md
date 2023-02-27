@@ -759,6 +759,8 @@ print(squared_range)
 
 # Filtering Even Numbers from a Tuple
 
+<div class="-mt-4 -mb-4">
+
 ```python {all|1-4|6-8|all}
 def is_even(value):
     if value % 2 == 0:
@@ -769,6 +771,8 @@ filtered_even = filter(is_even,
     (2, 3, 5, 7, 11))
 print(list(filtered_even))
 ```
+
+</div>
 
 <v-clicks>
 
