@@ -581,7 +581,7 @@ Comprehensions and generators in Python
 
 <div class="flex row">
 
-<mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
+<mdi-abacus class="text-6xl ml-8 mt-6 text-blue-600" />
 
 <div class="text-3xl font-bold mt-10 ml-4">
 Dynamically generate a sequence of values
@@ -595,7 +595,7 @@ Dynamically generate a sequence of values
 
 <div class="flex row">
 
-<mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
+<mdi-abacus class="text-6xl ml-8 mt-6 text-blue-600" />
 
 <div class="text-3xl font-bold mt-10 ml-4">
 Functions leverage the <code>yield</code> construct
@@ -609,7 +609,7 @@ Functions leverage the <code>yield</code> construct
 
 <div class="flex row">
 
-<mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
+<mdi-abacus class="text-6xl ml-8 mt-6 text-blue-600" />
 
 <div class="text-3xl font-bold mt-10 ml-4">
 Different approaches can produce same sequence
@@ -625,6 +625,8 @@ Different approaches can produce same sequence
 
 # Endless Streams in Python Programs
 
+<div class="-mt-2">
+
 ```python {all}
 def integers(n: int) -> int:
     while True:
@@ -635,7 +637,9 @@ for value in integers(10):
     print(value)
 ```
 
-<div class="mt-8">
+</div>
+
+<div class="mt-4">
 
 - What is the purpose of this function?
 
@@ -649,6 +653,8 @@ for value in integers(10):
 
 # Output of an Endless Stream Program
 
+<div class="-mt-3">
+
 ```python
 441027
 441028
@@ -661,9 +667,11 @@ Traceback (most recent call last):
 KeyboardInterrupt
 ```
 
-<div class="mt-10">
+</div>
 
-## You can use <code>ctrl-c</code> to stop a program that runs infinitely!
+<div class="mt-6">
+
+## You can use <code>CTRL-C</code> to stop a program that runs infinitely!
 
 </div>
 
@@ -686,7 +694,8 @@ Let's explore endless data streams in Python!
 <mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
 
 <div class="text-3xl font-bold mt-10 ml-4">
-Visit the <a href = "https://proactiveprogrammers.com/live">Proactive Programmers Live</a> site!
+Find the file in <a href = "https://proactiveprogrammers.com/live">Jupyter Lite</a> or
+<a href = "https://githubtocolab.com/ProactiveProgrammers/www.proactiveprogrammers.com">Google Colab</a>!
 </div>
 
 </div>
@@ -714,7 +723,7 @@ Go to the <code>data-streams/</code> directory
 <mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
 
 <div class="text-3xl font-bold mt-10 ml-4">
-Use <code>explore-generator-techniques.ipynb</code>
+Run <code>explore-generator-techniques.ipynb</code>
 </div>
 
 </div>
@@ -764,7 +773,7 @@ What are the trade-offs for dynamic streams?
 
 <div class="flex row">
 
-<mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
+<mdi-abacus class="text-6xl ml-8 mt-6 text-blue-600" />
 
 <div class="text-3xl font-bold mt-10 ml-4">
 Lowers the memory footprint at point in time
@@ -778,7 +787,7 @@ Lowers the memory footprint at point in time
 
 <div class="flex row">
 
-<mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
+<mdi-abacus class="text-6xl ml-8 mt-6 text-blue-600" />
 
 <div class="text-3xl font-bold mt-10 ml-4">
 Ensures that entire structure not in memory
@@ -792,7 +801,7 @@ Ensures that entire structure not in memory
 
 <div class="flex row">
 
-<mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
+<mdi-abacus class="text-6xl ml-8 mt-6 text-blue-600" />
 
 <div class="text-3xl font-bold mt-10 ml-4">
 Limits opportunity to traverse again the data
