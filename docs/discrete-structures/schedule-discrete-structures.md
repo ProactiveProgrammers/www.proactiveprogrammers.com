@@ -118,7 +118,7 @@
 - Run the Jupyter notebooks in `discrete-structures/data-containers/` with:
     - :material-language-python: [Jupyter Lite](https://proactiveprogrammers.com/live/)
     - :material-google: [Google Colab](https://githubtocolab.com/ProactiveProgrammers/www.proactiveprogrammers.com)
-        - :material-notebook-edit-outline: [Explore Tuple Containers](https://githubtocolab.com/ProactiveProgrammers/www.proactiveprogrammers.com/blob/master/files/data-containers/explore-tuple-containers.ipynb){:target="_blank"}
+        - :material-notebook-edit-outline: [Explore Tuple Containers](https://githubtocolab.com/ProactiveProgrammers/www.proactiveprogrammers.com/blob/master/files/discrete-structures/data-containers/explore-tuple-containers.ipynb){:target="_blank"}
 
 ???+ note "Technical Concepts"
 
@@ -149,7 +149,7 @@
 - Run the Jupyter notebooks in `discrete-structures/using-monoids/` with:
     - :material-language-python: [Jupyter Lite](https://proactiveprogrammers.com/live/)
     - :material-google: [Google Colab](https://githubtocolab.com/ProactiveProgrammers/www.proactiveprogrammers.com)
-        - :material-notebook-edit-outline: [Explore List Manipulation](https://githubtocolab.com/ProactiveProgrammers/www.proactiveprogrammers.com/blob/master/files/using-monoids/explore-list-manipulation.ipynb){:target="_blank"}
+        - :material-notebook-edit-outline: [Explore List Manipulation](https://githubtocolab.com/ProactiveProgrammers/www.proactiveprogrammers.com/blob/master/files/discrete-structures/using-monoids/explore-list-manipulation.ipynb){:target="_blank"}
 
 ???+ note "Technical Concepts"
 
@@ -179,7 +179,7 @@
 - Run the Jupyter notebooks in `discrete-structures/data-streams/` with:
     - :material-language-python: [Jupyter Lite](https://proactiveprogrammers.com/live/)
     - :material-google: [Google Colab](https://githubtocolab.com/ProactiveProgrammers/www.proactiveprogrammers.com)
-        - :material-notebook-edit-outline: [Explore Generator Techniques](https://githubtocolab.com/ProactiveProgrammers/www.proactiveprogrammers.com/blob/master/files/data-streams/explore-generator-techniques.ipynb){:target="_blank"}
+        - :material-notebook-edit-outline: [Explore Generator Techniques](https://githubtocolab.com/ProactiveProgrammers/www.proactiveprogrammers.com/blob/master/files/discrete-stuctures/data-streams/explore-generator-techniques.ipynb){:target="_blank"}
 
 ???+ note "Technical Concepts"
 
@@ -209,7 +209,7 @@
 - Run the Jupyter notebooks in `discrete-structures/set-foundations/` with:
     - :material-language-python: [Jupyter Lite](https://proactiveprogrammers.com/live/)
     - :material-google: [Google Colab](https://githubtocolab.com/ProactiveProgrammers/www.proactiveprogrammers.com)
-        - :material-notebook-edit-outline: [Explore Generator Techniques](https://githubtocolab.com/ProactiveProgrammers/www.proactiveprogrammers.com/blob/master/files/data-streams/explore-generator-techniques.ipynb){:target="_blank"}
+        - :material-notebook-edit-outline: [Explore Generator Techniques](https://githubtocolab.com/ProactiveProgrammers/www.proactiveprogrammers.com/blob/master/files/discrete-structures/data-streams/explore-generator-techniques.ipynb){:target="_blank"}
 
 ???+ note "Technical Concepts"
 
