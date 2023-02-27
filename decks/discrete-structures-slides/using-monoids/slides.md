@@ -788,6 +788,8 @@ print(list(filtered_even))
 
 # Filtering Odd Numbers from a Tuple
 
+<div class="-mt-4 -mb-4">
+
 ```python {all|1-4|6-8|all}
 def is_odd(value):
     if value % 2 == 1:
@@ -798,6 +800,8 @@ filtered_odd = filter(is_odd,
     (2, 3, 5, 7, 11))
 print(list(filtered_odd))
 ```
+
+</div>
 
 <v-clicks>
 
@@ -834,7 +838,7 @@ added_numbers = reduce(plus, numbers, 0)
 <v-clicks>
 
 -   These **higher-order sequence functions** are **independent** and free of
-    "side effects" and thus can be **parallelized**
+    "side effects" and thus often can be easily and safely **parallelized**
 
 -   Since a **monoid** has the associativity property, can use ` map`, `filter`,
     and `reduce` operators in **parallel** and then combine the solution, often
@@ -845,7 +849,7 @@ added_numbers = reduce(plus, numbers, 0)
 
 -   Map-Filter-Reduce enables **parallel** computation, which is
     important given the **diminishing** returns associated with
-    sequential computation
+    **sequential** computation
 
 -   If you can prove that a structure and operation is a **monoid** then you can
     use **map**, **reduce**, and **filter** to **parallelize**  its computations
