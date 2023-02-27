@@ -283,6 +283,8 @@ for value in even_squares:
 
 # Output from a Generator Expression
 
+<div class = "-mt-4 -mb-3">
+
 ```python
 <generator object <genexpr>
   at 0x7f8cb00db430>
@@ -293,6 +295,8 @@ for value in even_squares:
   36
   64
 ```
+
+</div>
 
 <v-click>
 
@@ -308,6 +312,8 @@ for value in even_squares:
 
 # Exhausting a Generator Expression
 
+<div class = "-mt-4 -mb-2">
+
 ```python
 even_squares =
   (x * x for x in range(10)
@@ -319,6 +325,8 @@ for value in even_squares:
 for value in even_squares:
     print(value)
 ```
+
+</div>
 
 <v-click>
 
@@ -350,6 +358,8 @@ for value in fibonacci_generator(10):
 
 # Output from a Generator Function
 
+<div class = "-mt-4 -mb-2">
+
 ```python
 print(fibonacci_generator)
 
@@ -361,6 +371,8 @@ for value in fibonacci_generator(10):
 
     1 1 2 3 5 8 13 21 34 55
 ```
+
+</div>
 
 <v-click>
 
