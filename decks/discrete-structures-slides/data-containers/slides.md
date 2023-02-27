@@ -358,7 +358,7 @@ Both store zero, one, or many values
 <div class="flex row">
 
 <div class="text-7xl text-orange-600 font-bold mt-5 ml-4 mb-4">
-Let's explore tuples and lists in Python!
+Let's explore the use of tuples in Python!
 </div>
 
 </div>
@@ -370,7 +370,8 @@ Let's explore tuples and lists in Python!
 <mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
 
 <div class="text-3xl font-bold mt-10 ml-4">
-Visit the <a href = "https://proactiveprogrammers.com/live">Proactive Programmers Live</a> site!
+Find the file in <a href = "https://proactiveprogrammers.com/live">Jupyter Lite</a> or
+<a href = "https://githubtocolab.com/ProactiveProgrammers/www.proactiveprogrammers.com">Google Colab</a>!
 </div>
 
 </div>
@@ -398,7 +399,7 @@ Go to the <code>data-containers/</code> directory
 <mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
 
 <div class="text-3xl font-bold mt-10 ml-4">
-Run+Add <code>explore-tuple-containers.ipynb</code>
+Explore <code>explore-tuple-containers.ipynb</code>
 </div>
 
 </div>
