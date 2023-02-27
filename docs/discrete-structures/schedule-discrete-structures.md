@@ -146,7 +146,10 @@
 - Read chapter 6 of *Programming and Mathematical Thinking*
 - Read chapter 3 of *Doing Math with Python*
 - Check out the [course slides](/slides/discrete-structures/using-monoids/) for a detailed investigation of these chapters!
-- Go to the `discrete-structures/using-monoids/` directory on [Proactive Programmers Live](https://proactiveprogrammers.com/live/) and investigate all of the Python programs!
+- Run the Jupyter notebooks in `discrete-structures/using-monoids/` with:
+    - :material-language-python: [Jupyter Lite](https://proactiveprogrammers.com/live/)
+    - :material-google: [Google Colab](https://githubtocolab.com/ProactiveProgrammers/www.proactiveprogrammers.com)
+        - :material-notebook-edit-outline: [Explore List Manipulation](https://githubtocolab.com/ProactiveProgrammers/www.proactiveprogrammers.com/blob/master/files/using-monoids/explore-list-manipulation.ipynb){:target="_blank"}
 
 ???+ note "Technical Concepts"
 
