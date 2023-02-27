@@ -866,13 +866,12 @@ odd_positives_two =
 
 for value in odd_positives_two:
     print(value)
-
 print(odd_positives_two)
 ```
 
 <v-click>
 
-<div class="mt-10">
+<div class="mt-8">
 
 - Logical `or` is `True` when either clause is `True`
 
