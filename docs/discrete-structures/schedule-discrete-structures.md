@@ -176,7 +176,10 @@
 - Read chapter 7 of *Programming and Mathematical Thinking*
 - All previously assigned chapters of *Doing Math with Python*
 - Check out the [course slides](/slides/discrete-structures/data-streams/) for a detailed investigation of these chapters!
-- Go to the `discrete-structures/monoids/` directory on [Proactive Programmers Live](https://proactiveprogrammers.com/live/) and investigate all of the Python programs!
+- Run the Jupyter notebooks in `discrete-structures/data-streams/` with:
+    - :material-language-python: [Jupyter Lite](https://proactiveprogrammers.com/live/)
+    - :material-google: [Google Colab](https://githubtocolab.com/ProactiveProgrammers/www.proactiveprogrammers.com)
+        - :material-notebook-edit-outline: [Explore Generator Techniques](https://githubtocolab.com/ProactiveProgrammers/www.proactiveprogrammers.com/blob/master/files/data-streams/explore-generator-techniques.ipynb){:target="_blank"}
 
 ???+ note "Technical Concepts"
 
