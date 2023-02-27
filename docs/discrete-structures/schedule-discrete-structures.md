@@ -114,8 +114,11 @@
 
 - Read chapter 5 of *Programming and Mathematical Thinking*
 - Read chapter 2 of *Doing Math with Python*
-- Check out the [course slides](/slides/discrete-structures/data-containers/) for a detailed investigation of these chapters!
-- Go to the `discrete-structures/data-containers/` directory on [Proactive Programmers Live](https://proactiveprogrammers.com/live/) and investigate all of the Python programs!
+- Check out the [course slides](slides/discrete-structures/data-containers/) for a detailed investigation of these chapters!
+- Run the Jupyter notebooks in `discrete-structures/data-containers/` with:
+    - :material-language-python: [Jupyter Lite](https://proactiveprogrammers.com/live/)
+    - :material-google: [Google Colab](https://githubtocolab.com/ProactiveProgrammers/www.proactiveprogrammers.com)
+        - :material-notebook-edit-outline: [Explore Tuple Containers](https://githubtocolab.com/ProactiveProgrammers/www.proactiveprogrammers.com/blob/master/files/data-containers/explore-tuple-containers.ipynb){:target="_blank"}
 
 ???+ note "Technical Concepts"
 
