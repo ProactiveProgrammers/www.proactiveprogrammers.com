@@ -199,12 +199,16 @@ quadruple = ("Story number", 3,
 
 # Special Tuples in the Python Language
 
+<div class = "-mb-3">
+
 ```python
 empty_tuple = ()
 single_story = ("Story",)
 single_number = (3,)
 number = (3)
 ```
+
+</div>
 
 - Some tuples may not (yet) contain any data in them!
 
@@ -441,6 +445,8 @@ shawkins@watson.com,Science writer
 
 # Parsing CSV Files in Python
 
+<div class="-mt-3">
+
 ```python {all|1|2|3-7|9|10-12|all}
 contacts_list = []
 for contact_line in csv.reader(
@@ -455,6 +461,8 @@ for contact_line in csv.reader(
            current_contact_job.lower():
         contacts_list.append(contact_line)
 ```
+
+</div>
 
 ---
 
