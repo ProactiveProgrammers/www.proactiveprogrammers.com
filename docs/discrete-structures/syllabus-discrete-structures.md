@@ -105,7 +105,7 @@ assigned percentages during the academic semester.
 | Category               | Percentage |
 |------------------------| -----------|
 | Course Participation   |  5%        |
-| Midterm Examination    |  10%       |
+| Midterm Examinations   |  10%       |
 | Final Examination      |  15%       |
 | Source Code Surveys    |  15%       |
 | Programming Projects   |  15%       |
