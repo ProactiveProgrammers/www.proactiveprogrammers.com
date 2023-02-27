@@ -233,7 +233,7 @@ x, y = y, x
 (x, y) = (y, x)
 ```
 
-<div class="mt-7">
+<div class="-mt-2">
 
 Wait, what is the purpose of the last two statements? 🤔
 
