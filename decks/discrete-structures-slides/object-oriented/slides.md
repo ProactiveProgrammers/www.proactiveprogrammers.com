@@ -9,12 +9,18 @@ colorSchema: light
 remoteAssets: false
 # show line numbers in code blocks
 lineNumbers: false
-# some information about the slides, markdown enabled
-info: |
-  ## Slidev Starter Template
-  Presentation slides for developers.
-
-  Learn more at [Sli.dev](https://sli.dev)
+# define the fonts and their weights
+fonts:
+  # define the font for the body text
+  sans: "IBM Plex Sans"
+  # define the serif font
+  serif: "IBM Plex Serif"
+  # define the code font
+  mono: "IBM Plex Mono"
+  # load several font weights
+  weights: "200,400,500"
+  # support the use of italics
+  italic: true
 ---
 
 [//]: # (Slide Start {{{)
