@@ -531,7 +531,7 @@ Objects feature behavior with methods
 
 # Constructor for the `Person` Class
 
-<div class="mt-8 -ml-5">
+<div class="mt-4 -ml-5">
 
 ```python {all|1|3-5|6|7-11|all}
 class Person:
@@ -557,7 +557,7 @@ class Person:
 
 # Defining a Textual Representation
 
-<div class="-ml-2 -mb-5">
+<div class="-ml-2 -mb-7 -mt-2">
 
 ```python
 def __repr__(self) -> str:
@@ -597,7 +597,7 @@ Methods can access the state of an object with <code>self.email</code>
 
 # Defining a Method for the `Person` Class
 
-<div class="mt-8 -ml-5">
+<div class="mt-4 -ml-5">
 
 ```python
 def create_list(self) -> List[str]:
