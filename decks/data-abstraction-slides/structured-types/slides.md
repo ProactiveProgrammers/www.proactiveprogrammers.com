@@ -691,11 +691,15 @@ Run <code>explore-structured-types.ipynb</code>
 
 -   How does a dictionary **internally store** the key-value pairs?
 
+- Any **questions** about the use of dictionaries in the Python language?
+
 </v-clicks>
 
 ---
 
 # Creating and Using Dictionaries
+
+<div class="-mt-2 -mb-2">
 
 ```python
 bosco = {}
@@ -709,6 +713,8 @@ faith["Age"] = 14
 faith["Breed"] = "Havanese"
 ```
 
+</div>
+
 - Dictionaries store **key-value pairs**, making an **associative map**
 
 - How can you access a specific **value** stored with a **key** in `bosco` ?
@@ -716,6 +722,8 @@ faith["Breed"] = "Havanese"
 ---
 
 # Creating a Dictionary in Python
+
+<div class="-mt-2 -mb-2">
 
 ```python
 mlb_team = {
@@ -725,6 +733,8 @@ mlb_team = {
     'Milwaukee': 'Brewers'
 }
 ```
+
+</div>
 
 <v-clicks>
 
@@ -742,6 +752,8 @@ mlb_team = {
 
 # Alternative Way to Create a Dictionary
 
+<div class="-mt-2 -mb-2">
+
 ```python
 mlb_team = dict([
     ('Colorado', 'Rockies'),
@@ -750,6 +762,8 @@ mlb_team = dict([
     ('Milwaukee', 'Brewers')
 ])
 ```
+
+</div>
 
 <v-clicks>
 
@@ -882,7 +896,7 @@ What performance characteristics are needed?
 
 # Investigating Structured Types
 
-<div class = "mt-10">
+<div class = "mt-5">
 </div>
 
 <v-clicks>
@@ -902,6 +916,8 @@ What performance characteristics are needed?
 -   You will use structured types throughout this course!
 
 -   Balance the **trade-offs** associated with different data containers!
+
+-   Consider **efficiency** and **effectiveness** of your chosen approach!
 
 </v-clicks>
 
