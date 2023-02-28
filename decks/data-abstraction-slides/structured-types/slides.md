@@ -196,6 +196,8 @@ number = (3)
 
 # Packing and Unpacking Tuples
 
+<div class="-mt-2 -mb-2">
+
 ```python
 # pack a tuple into a variable
 pair = (3,4)
@@ -209,7 +211,9 @@ x, y = y, x
 (x, y) = (y, x)
 ```
 
-<div class="mt-7">
+</div>
+
+<div class="mt-5">
 
 Wait, what is the purpose of the last two statements? 🤔
 
@@ -218,6 +222,8 @@ Wait, what is the purpose of the last two statements? 🤔
 ---
 
 # Computing Tuple Intersection
+
+<div class="-mt-3 -mb-2">
 
 ```python {all|1-6|7-8|9-10|11-12|all}
 def intersect(tuple_one, tuple_two):
@@ -233,6 +239,8 @@ intersection_tuple_one =
 intersection_tuple_two =
             intersect(second_tuple, first_tuple)
 ```
+
+</div>
 
 ---
 
@@ -307,7 +315,7 @@ What are the challenges of using lists and tuples?
 
 <div class="flex row">
 
-<mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
+<mdi-alert class="text-6xl ml-8 mt-6 text-blue-600" />
 
 <div class="text-3xl font-bold mt-10 ml-4">
 Understanding data container aliasing
@@ -321,7 +329,7 @@ Understanding data container aliasing
 
 <div class="flex row">
 
-<mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
+<mdi-alert class="text-6xl ml-8 mt-6 text-blue-600" />
 
 <div class="text-3xl font-bold mt-10 ml-4">
 Determining when containers are equal
@@ -335,7 +343,7 @@ Determining when containers are equal
 
 <div class="flex row">
 
-<mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
+<mdi-alert class="text-6xl ml-8 mt-6 text-blue-600" />
 
 <div class="text-3xl font-bold mt-10 ml-4">
 List append method has side effect
@@ -351,6 +359,8 @@ List append method has side effect
 
 # Using List Comprehensions
 
+<div class="-mt-2 -mb-2">
+
 ```python
 L = [(x, y)
       for x in range(6) if x % 2 == 0
@@ -359,6 +369,8 @@ L = [(x, y)
 
 print(L)
 ```
+
+</div>
 
 - "Compact" way to define the contents of a list
 
@@ -407,7 +419,8 @@ Let's try these list manipulation methods!
 <mdi-tooltip-check class="text-6xl ml-8 mt-6 text-blue-600" />
 
 <div class="text-3xl font-bold mt-10 ml-4">
-Visit the <a href = "https://proactiveprogrammers.com/live">Proactive Programmers Live</a> site!
+Find the file in <a href = "https://proactiveprogrammers.com/live">Jupyter Lite</a> or
+<a href = "https://githubtocolab.com/ProactiveProgrammers/www.proactiveprogrammers.com">Google Colab</a>!
 </div>
 
 </div>
@@ -448,11 +461,12 @@ Run <code>explore-structured-types.ipynb</code>
 
 # Higher-Order List Operations
 
-```python {all|1-3|5-6|7-8|9-10|11-12|all}
+<div class="-mt-2">
+
+```python {all|1-3|4-6|7-8|9-10|11-12|all}
 def apply_to_each(L, f):
     for i in range(len(L)):
         L[i] = f(L[i])
-
 values = [1, -2, 3.33]
 print("values =", values)
 apply_to_each(values, abs)
@@ -462,6 +476,8 @@ print("int(values) =", values)
 apply_to_each(values, lambda x: x**2)
 print("square(values) =", values)
 ```
+
+</div>
 
 ---
 
