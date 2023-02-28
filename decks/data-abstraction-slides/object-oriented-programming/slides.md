@@ -775,7 +775,7 @@ But, it sometimes feels more "complex" in Python!
 
 # Importing and Using the `Person` Class
 
-<div class="mt-8 -ml-3">
+<div class="mt-2 -ml-3 -mb-4">
 
 ```python
 from objectprocessor import person
@@ -811,7 +811,7 @@ def create_display(person_list:
 
 # Searching for a Matching `Person` Object
 
-<div class="mt-0 -ml-3">
+<div class="-mt-4 -ml-3">
 
 ```python {all|1-5|6|7-11|12|all}
 def find_matching_people(
@@ -894,7 +894,7 @@ Create class instances by calling constructor
 
 # Modelling a Dog as an Object
 
-<div class="mt-0 -ml-3 mb-10">
+<div class="-mt-2 -ml-3 mb-6">
 
 ```python
 class Dog:
