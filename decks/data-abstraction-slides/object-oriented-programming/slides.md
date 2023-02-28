@@ -183,11 +183,10 @@ Use does not match programmer expectations!
 
 # Exception Handling for Ratios
 
-<div class="-ml-5">
+<div class="-ml-5 -mt-1">
 
 ```python {all|1-3|4|5|6-7|8-9|10-11|12|all}
 from typing import List
-
 def get_ratios(one: List, two: List) -> List[float]:
     ratios = []
     for index in range(len(one)):
@@ -210,7 +209,7 @@ def get_ratios(one: List, two: List) -> List[float]:
 
 # Use Function with Exception Handling
 
-<div class="-ml-5">
+<div class="-ml-5 -mb-7">
 
 ```python {all|1-2|1,3|1,4|1,5|6-7|all}
 try:
