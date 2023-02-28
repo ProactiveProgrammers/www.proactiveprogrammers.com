@@ -249,12 +249,16 @@ What is there <b>was not</b> a <code>try</code> and a <code>except</code> ?
 
 # Use Exception Handling Program
 
+<div class="-mt-4 -mb-4 -ml-2">
+
 ```text {all|1|2|3|4|all}
 [1.0, 1.0, nan, 2.0]
 []
 [1.0, 1.0, 0.7]
 Incorrect arguments
 ```
+
+</div>
 
 <v-clicks>
 
@@ -294,7 +298,7 @@ Let's call <code>get_ratios</code> without exception handling!
 
 # Use Exception Handling Program 🤦
 
-<div class="-ml-0">
+<div class="-ml-0 -mt-2 -mb-2">
 
 ```text {all|1|3-4|5|6-7|8-9|10|all}
 print(get_ratios([1, 2, 7], [1, 2, 10, 3]))
