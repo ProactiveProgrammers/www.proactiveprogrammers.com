@@ -483,8 +483,6 @@ print("square(values) =", values)
 
 # Using the `apply_to_each` Function
 
-<v-clicks>
-
 <div class="border-2 rounded-2xl border-gray-700 bg-true-gray-300 p-5">
 
 <pre>
@@ -495,6 +493,8 @@ square(values) = [1, 4, 9]
 </pre>
 
 </div>
+
+<div class="mt-6">
 
 - Each call to `apply_to_each` modifies the list
 
@@ -508,7 +508,7 @@ square(values) = [1, 4, 9]
 
     - Both functions implement the same idea!
 
-</v-clicks>
+</div>
 
 ---
 
@@ -602,7 +602,6 @@ x = {53, 'pencil', (1, 1, 2, 3, 5), 3.14159}
 
 print("Set defined with a multiple types:")
 print(x)
-
 print()
 
 list = [53, 'pencil', (1, 1, 2, 3, 5), 3.14159]
