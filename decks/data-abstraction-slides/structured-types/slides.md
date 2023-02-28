@@ -171,12 +171,16 @@ quadruple = ("Story number", 3,
 
 # Special Tuples in the Python Language
 
+<div class="-mt-2 -mb-2">
+
 ```python
 empty_tuple = ()
 single_story = ("Story",)
 single_number = (3,)
 number = (3)
 ```
+
+</div>
 
 - Some tuples may not (yet) contain any data in them!
 
