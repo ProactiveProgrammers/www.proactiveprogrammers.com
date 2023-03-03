@@ -1,3 +1,14 @@
+---
+tags:
+  - Conditional Logic
+  - File I/O
+  - Functions
+  - Numerical Computation
+  - Testing
+---
+
+![Data Summarization](/img/Pro-Discrete-Structures-Data-Summarizationm.svg){loading=lazy}
+
 # Data Summarization
 
 ## Project Goals
