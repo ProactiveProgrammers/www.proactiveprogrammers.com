@@ -7,7 +7,7 @@ tags:
   - Testing
 ---
 
-![Data Summarization](/img/Pro-Discrete-Structures-Data-Summarizationm.svg){loading=lazy}
+![Data Summarization](/img/Pro-Discrete-Structures-Data-Summarization.svg){loading=lazy}
 
 # Data Summarization
 
