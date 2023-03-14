@@ -75,12 +75,16 @@ fonts:
 
 </div>
 
+<div v-click>
+
 <div class="flex row mt-3">
 
 <uim-rocket class="text-6xl ml-9 mt-0 text-blue-600" />
 
 <div class="text-4xl text-true-gray-700 font-bold mt-4 ml-4">
 Let's study static and dynamic sequences!
+</div>
+
 </div>
 
 </div>
