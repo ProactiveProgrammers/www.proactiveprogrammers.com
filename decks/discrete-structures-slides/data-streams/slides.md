@@ -370,7 +370,7 @@ print(fibonacci_generator)
     <function fibonacci_generator
       at 0x7f791d4bb1f0>
 
-for value in fibonacci_generator(10):
+for fibonacci_value in fibonacci_generator(10):
     print(fibonacci_value, end=" ")
 
     1 1 2 3 5 8 13 21 34 55
