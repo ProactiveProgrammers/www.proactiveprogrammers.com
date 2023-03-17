@@ -7,7 +7,7 @@ tags:
   - Testing
 ---
 
-![Numerical Data](/img/Pro-Data-Abstraction-Numerical-Data.svg){loading=lazy}
+![Debugging Functions](/img/Pro-Data-Abstraction-Debugging-Functions.svg){loading=lazy}
 
 # Debugging Functions
 
