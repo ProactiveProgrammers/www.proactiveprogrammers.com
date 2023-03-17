@@ -5,6 +5,12 @@
   --md-typeset-mark-color: #ffcc80;
 }
 
+.md-typeset .admonition,
+.md-typeset details {
+  border-width: 0;
+  border-left-width: 4px;
+}
+
 .announcement {
   color: var(--md-typeset-a-color) !important;
   text-decoration: underline;
