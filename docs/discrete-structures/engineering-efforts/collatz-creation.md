@@ -39,7 +39,7 @@ project!
     assignment!
     To get started, you should click the "Use this template" button in the
     :material-github:
-    [data-analysis-starter](https://github.com/ProactiveProgrammers/data-analysis-starter)
+    [collatz-creation-starter](https://github.com/ProactiveProgrammers/collatz-creation-starter)
     GitHub repository and create your own version of this project's source code.
     After creating your GitHub repository, you can follow all of the other
     steps!
