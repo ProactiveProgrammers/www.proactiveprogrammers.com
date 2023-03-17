@@ -126,7 +126,8 @@ due to the fact that there are key parts of this program that are missing! In
 addition to implementing the program's `main` function you also need to
 correctly `import` the correct modules and objects, like `typer`. Along with
 adding command-line features to the `main` function in the `main` module, you
-need to provide an implementation of the following functions:
+need to provide an implementation of the following functions in other provided
+Python files:
 
 - `def compute_mean(numbers: List[float]) -> float`
 - `def compute_median(numbers: List[float]) -> float`
