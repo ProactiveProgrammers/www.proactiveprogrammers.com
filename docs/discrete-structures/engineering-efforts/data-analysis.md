@@ -195,14 +195,20 @@ tests/test_transform.py ..
 
 ???+ note
 
-    Don't forget that when you commit source code or technical writing to your
-    GitHub repository for this project, it will trigger the run of a GitHub
-    Actions workflow. If you are a student at Allegheny College, then running
-    this workflow consumes build minutes for the course's organization! As such,
-    you should only commit to your repository once you have made substantive
-    changes to your project and you are ready to confirm its correctness. Before
-    you commit to your repository, you can still run checks on your own computer
-    by either using Poetry or Docker and GatorGrader.
+    When you are adding functionality to the `dataanalysis` program, make sure
+    that you work in an incremental fashion, adding a small feature to the
+    system and then confirming that it works correctly through linting, testing,
+    and running the program. Once you have added this feature and confirmed that
+    it works correctly, you should commit your source code to your GitHub
+    repository and confirm that you have improved the build status of your
+    project. As you are committing your source code, please pay careful
+    attention to the commit message that you write! Specifically, you should
+    make sure that your commit message features a sentence with an active verb
+    and a clear description of the way in which you changed the source code. You
+    can read the article [How to Write a Git Commit
+    Message](https://cbea.ms/git-commit/) by [Chris Beams](https://cbea.ms/) to
+    learn some suggestions for ways to improve the quality of your Git commit
+    messages.
 
 ## Project Reflection
 
