@@ -48,7 +48,7 @@ process for Python programs by practicing the skill in a hands-on fashion.
     Computer Science class at Allegheny College, you can still work on this
     assignment! To get started, you should click the "Use this template" button
     in the :material-github:
-    [structured-types-starter](https://github.com/ProactiveProgrammers/structured-types-starter)
+    [debugging-functions-starter](https://github.com/ProactiveProgrammers/debugging-functions-starter)
     GitHub repository and create your own version of this project's source
     code. After creating your GitHub repository, you can follow all of the
     other steps!
