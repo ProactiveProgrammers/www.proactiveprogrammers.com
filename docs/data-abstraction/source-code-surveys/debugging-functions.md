@@ -1,3 +1,14 @@
+---
+tags:
+  - Conditional Logic
+  - Debugging
+  - Iteration Constructs
+  - Numerical Computation
+  - Testing
+---
+
+![Debugging Functions](/img/Pro-Data-Abstraction-Debugging-Functions.svg){loading=lazy}
+
 # Debugging Functions
 
 ## Project Goals
@@ -30,6 +41,17 @@ skills](/proactive-skills/introduction-proactive-skills/). Specifically, you
 will need to use the `git clone` command to download the project from GitHub to
 your computer. Now you are ready to ensure that you understand the debugging
 process for Python programs by practicing the skill in a hands-on fashion.
+
+???+ note
+
+    If you are an emerging proactive programmer who is not enrolled in a
+    Computer Science class at Allegheny College, you can still work on this
+    assignment! To get started, you should click the "Use this template" button
+    in the :material-github:
+    [debugging-functions-starter](https://github.com/ProactiveProgrammers/debugging-functions-starter)
+    GitHub repository and create your own version of this project's source
+    code. After creating your GitHub repository, you can follow all of the
+    other steps!
 
 ## Code Survey
 

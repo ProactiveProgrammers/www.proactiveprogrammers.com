@@ -1,10 +1,21 @@
+---
+tags:
+  - Conditional Logic
+  - File I/O
+  - Functions
+  - Statistics
+  - Testing
+---
+
+![Data Analysis](/img/Pro-Discrete-Structures-Data-Analysis.svg){loading=lazy}
+
 # Data Analysis
 
 ## Project Goals
 
 This engineering effort invites you to extend your knowledge about the basics of
-data summarization to implement a program that can summarize a data set of
-real-world population records. After you finish the `dataanalysis` program it
+data analysis to implement a program that can statistically analyze a data set
+of real-world population records. After you finish the `dataanalysis` program it
 will compute the summary statistics (e.g., mean, median, and standard deviation)
 of population data from from 1970 until 2019. As you enhance your [technical
 skills](/proactive-skills/introduction-proactive-skills/), you will continue to
@@ -24,6 +35,18 @@ skills](/proactive-skills/introduction-proactive-skills/). Specifically, you
 will need to use the `git clone` command to download the project from GitHub to
 your computer. Now you are ready to add source code and documentation to the
 project!
+
+???+ note
+
+    If you are an emerging proactive programmer who is not enrolled in a
+    Computer Science class at Allegheny College, you can still work on this
+    assignment!
+    To get started, you should click the "Use this template" button in the
+    :material-github:
+    [data-analysis-starter](https://github.com/ProactiveProgrammers/data-analysis-starter)
+    GitHub repository and create your own version of this project's source code.
+    After creating your GitHub repository, you can follow all of the other
+    steps!
 
 ## Expected Output
 
@@ -103,7 +126,8 @@ due to the fact that there are key parts of this program that are missing! In
 addition to implementing the program's `main` function you also need to
 correctly `import` the correct modules and objects, like `typer`. Along with
 adding command-line features to the `main` function in the `main` module, you
-need to provide an implementation of the following functions:
+need to provide an implementation of the following functions in other provided
+Python files:
 
 - `def compute_mean(numbers: List[float]) -> float`
 - `def compute_median(numbers: List[float]) -> float`
@@ -131,37 +155,31 @@ output and the pass the test suite!
 
 ## Running Checks
 
-If you study the source code in the `pyproject.toml` file you will see that it
-includes the following section section of tasks that use
-[taskipy](https://github.com/illBeRoy/taskipy):
+As you continue to add and confirm the correctness of `datasummarizer`'s
+functionality, you should study the source code in the `pyproject.toml` file.
+This file contains the specification of several tasks that will help you to
+easily run checks on your Python source code. Now, you can run commands like
+`poetry run task lint` to automatically run all of the linters designed to check
+the Python source code in your program and its test suite. You can also use the
+command `poetry run task black` to confirm that your source code adheres to the
+industry-standard format defined by the `black` tool. If it does not adhere to
+the standard then you can run the command `poetry run fixformat` and it will
+automatically reformat the source code. By following a
+[tutorial](https://dev.to/adamlombard/how-to-use-the-black-python-code-formatter-in-vscode-3lo0),
+you can configure VS Code to use the `black` tool to automatically reformat the
+source code when you save a file.
 
-```toml
-[tool.taskipy.tasks]
-black = { cmd = "black dataanalysis tests --check", help = "Run the black checks for source code format" }
-flake8 = { cmd = "flake8 dataanalysis tests", help = "Run the flake8 checks for source code documentation" }
-mypy = { cmd = "poetry run mypy dataanalysis", help = "Run the mypy type checker for potential type errors" }
-pydocstyle = { cmd = "pydocstyle dataanalysis tests", help = "Run the pydocstyle checks for source code documentation" }
-pylint = { cmd = "pylint dataanalysis tests", help = "Run the pylint checks for source code documentation" }
-test = { cmd = "pytest -x -s", help = "Run the pytest test suite" }
-test-silent = { cmd = "pytest -x --show-capture=no", help = "Run the pytest test suite without showing output" }
-all = "task black && task flake8 && task pydocstyle && task pylint && task mypy && task test"
-lint = "task black && task flake8 && task pydocstyle && task pylint"
-```
-
-This section makes it easy to run commands like `poetry run task lint` to
-automatically run all of the linters designed to check the Python source code in
-your program and its test suite. You can also use the command `poetry run task
-black` to confirm that your source code adheres to the industry-standard format
-defined by the `black` tool. If it does not adhere to the standard then you can
-run the command `poetry run black dataanalysis tests` and it will automatically
-reformat the source code.
-
-Along with running tasks like `poetry run task list`, you can leverage the
+Along with running tasks like `poetry run task lint`, you can leverage the
 relevant instructions in the [technical
-skills](/proactive-skills/introduction-proactive-skills/) to enter into a Docker
-container and run the command `gradle grade` to check your work. If `gradle
-grade` shows that all checks pass, you will know that you made progress towards
-correctly implementing and writing about `dataanalysis`. If your program has
+skills](/proactive-skills/introduction-proactive-skills/) to run the command
+`gatorgrade --config config/gatorgrade.yml` to check your work. If your work
+meets the baseline requirements and adheres to the best practices that
+proactive programmers adopt you will see that all the checks pass when you run
+`gatorgrade`. You can study the `config/gatorgrade.yml` file in your repository
+to learn how the :material-github:
+[GatorGrade](https://github.com/GatorEducator/gatorgrade) program runs
+:material-github: [GatorGrader](https://github.com/GatorEducator/gatorgrader)
+to automatically check your program and technical writing. If your program has
 all of the anticipated functionality, you can run the command `poetry run task
 test` and see that the test suite produces output like the following. It is
 important to note that `dataanalysis` comes with two test suites, both of
@@ -177,14 +195,20 @@ tests/test_transform.py ..
 
 ???+ note
 
-    Don't forget that when you commit source code or technical writing to your
-    GitHub repository for this project, it will trigger the run of a GitHub
-    Actions workflow. If you are a student at Allegheny College, then running
-    this workflow consumes build minutes for the course's organization! As such,
-    you should only commit to your repository once you have made substantive
-    changes to your project and you are ready to confirm its correctness. Before
-    you commit to your repository, you can still run checks on your own computer
-    by either using Poetry or Docker and GatorGrader.
+    When you are adding functionality to the `dataanalysis` program, make sure
+    that you work in an incremental fashion, adding a small feature to the
+    system and then confirming that it works correctly through linting, testing,
+    and running the program. Once you have added this feature and confirmed that
+    it works correctly, you should commit your source code to your GitHub
+    repository and confirm that you have improved the build status of your
+    project. As you are committing your source code, please pay careful
+    attention to the commit message that you write! Specifically, you should
+    make sure that your commit message features a sentence with an active verb
+    and a clear description of the way in which you changed the source code. You
+    can read the article [How to Write a Git Commit
+    Message](https://cbea.ms/git-commit/) by [Chris Beams](https://cbea.ms/) to
+    learn some suggestions for ways to improve the quality of your Git commit
+    messages.
 
 ## Project Reflection
 

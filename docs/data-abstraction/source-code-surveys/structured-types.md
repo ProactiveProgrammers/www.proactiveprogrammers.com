@@ -44,7 +44,7 @@ functions.
 
     If you are an emerging proactive programmer who is not enrolled in a
     Computer Science class at Allegheny College, you can still work on this
-    assignment! To get started, you should click the "Use this template" icon
+    assignment! To get started, you should click the "Use this template" button
     in the :material-github:
     [structured-types-starter](https://github.com/ProactiveProgrammers/structured-types-starter)
     GitHub repository and create your own version of this project's source

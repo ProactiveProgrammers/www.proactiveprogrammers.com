@@ -1,3 +1,14 @@
+---
+tags:
+  - Conditional Logic
+  - Data Types
+  - Functions
+  - Iteration Constructs
+  - Numerical Computation
+---
+
+![Higher-Order Functions](/img/Pro-Discrete-Structures-Higherorder-Functions.svg){loading=lazy}
+
 # Higher-Order Functions
 
 ## Project Goals
