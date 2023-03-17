@@ -43,7 +43,7 @@ project!
     If you are an emerging proactive programmer who is not enrolled in a
     Computer Science class at Allegheny College, you can still work on this
     assignment!
-    To get started, you should click the "Use this template" icon in the
+    To get started, you should click the "Use this template" button in the
     :material-github:
     [quadratic-roots-starter](https://github.com/ProactiveProgrammers/quadratic-roots-starter)
     GitHub repository and create your own version of this project's source code.
