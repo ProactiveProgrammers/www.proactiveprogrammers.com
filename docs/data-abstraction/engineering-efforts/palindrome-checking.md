@@ -213,11 +213,27 @@ tests/test_util.py ..
 This project comes with other tasks that you can run once you have used Poetry
 to install all of the dependencies. For instance, if you find that your Python
 source code is not in adherence with the required formatting rules, you can run
-`poetry run fixformat` to automatically return it to the correct format! You
-can also run commands like `poetry run task mypy` to check the program's use of
-data types and `poetry run task pylint` to ensure that your source code adheres
-to other established programming conventions. You can use these built-in tasks
-to understand and improve your code's quality!
+`poetry run task fixformat` to automatically return it to the correct format!
+You can also run commands like `poetry run task mypy` to check the program's use
+of data types and `poetry run task pylint` to ensure that your source code
+adheres to other established programming conventions. You can use these built-in
+tasks to understand and improve your code's quality! For this assignment, you
+can also use the command `poetry run task coverage` to create a coverage report,
+like the one shown below, that reveals how well your tests exercise the source
+code in the program `palindromechecker` program. You should try to write test
+cases that completely cover the program's source code, producing a report like
+this one.
+
+```text
+Name                              Stmts   Miss  Cover   Missing
+---------------------------------------------------------------
+palindromechecker/__init__.py         1      0   100%
+palindromechecker/main.py            26      0   100%
+palindromechecker/palindrome.py      18      0   100%
+palindromechecker/util.py             4      0   100%
+---------------------------------------------------------------
+TOTAL                                49      0   100%
+```
 
 ???+ note
 
