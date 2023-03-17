@@ -14,8 +14,8 @@ tags:
 ## Project Goals
 
 This engineering effort invites you to extend your knowledge about the basics of
-data summarization to implement a program that can summarize a data set of
-real-world population records. After you finish the `dataanalysis` program it
+data analysis to implement a program that can statistically analyze a data set
+of real-world population records. After you finish the `dataanalysis` program it
 will compute the summary statistics (e.g., mean, median, and standard deviation)
 of population data from from 1970 until 2019. As you enhance your [technical
 skills](/proactive-skills/introduction-proactive-skills/), you will continue to
