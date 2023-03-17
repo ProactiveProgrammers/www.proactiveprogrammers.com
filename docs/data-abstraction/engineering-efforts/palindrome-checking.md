@@ -42,7 +42,7 @@ project!
 
     If you are an emerging proactive programmer who is not enrolled in a
     Computer Science class at Allegheny College, you can still work on this
-    assignment! To get started, you should click the "Use this template" icon
+    assignment! To get started, you should click the "Use this template" button
     in the :material-github:
     [palindrome-checker-starter](https://github.com/ProactiveProgrammers/palindrome-checker-starter)
     GitHub repository and create your own version of this project's source
@@ -52,11 +52,19 @@ project!
 ## Expected Output
 
 This project invites you to implement a Python program, called
-`palindromechecker`, that features different ways to compute all of the numbers
-in the Fibonacci sequence up to a specified maximum number. After you finish a
-correct implementation of all the program's features, running it with the
-command `poetry run palindromechecker --number 10 --approach recursivelist
---display`, it will produce output like the following.
+`palindromechecker`, that features different ways determine whether or not a
+number is a palindrome. After you finish a correct implementation of all the
+program's features, running it with the command `poetry run palindromechecker
+--number 10 --approach recursivelist --display`, it will produce this output.
+See a later section for more output examples!
+
+```text
+✨ Awesome, using the recursive approach for palindrome checking!
+
+🔖 Going to check to see if the word "civic" is a palindrome!
+
+😆 Is this word a palindrome? Yes, it is!
+```
 
 Don't forget that you can display `palindromechecker`'s help menu and learn more
 about its features by typing `poetry run palindromechecker --help` to show the
@@ -65,7 +73,7 @@ following output. This help menu shows that `palindromechecker` also has a
 the function calls made by the `palindromechecker` and the performance results
 created by the [Pyinstrument](https://github.com/joerick/pyinstrument) package.
 
-```
+```text
 Usage: palindromechecker [OPTIONS]
 
   Use a method to determine if an input string is a palindrome or not.
