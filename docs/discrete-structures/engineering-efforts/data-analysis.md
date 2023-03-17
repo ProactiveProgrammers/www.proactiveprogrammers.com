@@ -1,3 +1,14 @@
+---
+tags:
+  - Conditional Logic
+  - File I/O
+  - Functions
+  - Statistics
+  - Testing
+---
+
+![Data Analysis](/img/Pro-Discrete-Structures-Data-Analysis.svg){loading=lazy}
+
 # Data Analysis
 
 ## Project Goals
