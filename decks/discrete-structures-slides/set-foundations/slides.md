@@ -454,6 +454,8 @@ Sets have practical limitations due to constraints
 
 # Using the Set Union Operator in Python
 
+<div class="-mb-5 -mt-2">
+
 ```python
 a = {1, 2, 3, 4}
 b = {2, 3, 4, 5}
@@ -462,6 +464,8 @@ d = {4, 5, 6, 7}
 print(a.union(b, c, d))
 print(a | b | c | d)
 ```
+
+</div>
 
 <v-click>
 
@@ -481,6 +485,8 @@ print(a | b | c | d)
 
 <v-click>
 
+<div class="-mb-5 -mt-2">
+
 ```python
 a = {1, 2, 3, 4}
 b = {2, 3, 4, 5}
@@ -489,6 +495,8 @@ d = {4, 5, 6, 7}
 print(a.intersection(b, c, d))
 print(a & b & c & d)
 ```
+
+</div>
 
 </v-click>
 
@@ -510,6 +518,8 @@ print(a & b & c & d)
 
 <v-click>
 
+<div class="-mb-5 -mt-2">
+
 ```python
 a = {1, 2, 3, 4}
 b = {2, 3, 4, 5}
@@ -518,6 +528,8 @@ d = {4, 5, 6, 7}
 print(a.difference(b, c))
 print(a - b - c)
 ```
+
+</div>
 
 </v-click>
 
