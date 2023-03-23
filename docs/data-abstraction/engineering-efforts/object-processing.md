@@ -152,9 +152,17 @@ instances of the `Person` class in the `person` module. You will also need to
 implement the both functions that determine if a specific instance of `Person`
 matches the criteria specified on the program's command-line interface and those
 that perform the file input and output. Finally, you are invited to implement
-the functions in the `main` module that call the functions in `process`. Once
-you complete a task associated with a `TODO` marker, make sure that you delete
-it and revise the prompt associated with the marker into a meaningful comment.
+the functions in the `main` module that call the functions in `process`.
+
+Once you complete a task associated with a `TODO` marker, make sure that you
+delete it and revise the prompt associated with the marker into a meaningful
+comment! After you revise all of the `TODO` markers your project should feature
+polished source code that is ready for contribution to an open-source project or
+described on your professional web site. Finally, you will notice that this
+project does not come with test cases. If you want to both establish a
+confidence in the correctness of and find defects in your program, then you will
+need to design, implement, and run your own tests using
+[Pytest](https://docs.pytest.org/)!
 
 ## Running Checks
 
