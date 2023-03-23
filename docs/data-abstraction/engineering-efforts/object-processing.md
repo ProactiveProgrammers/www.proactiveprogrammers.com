@@ -206,7 +206,7 @@ completing this project. A specific goal for this project's reflection is to
 ensure that you can explain Python source code written in an object-oriented
 fashion and discuss the trade-offs associated with this approach. For instance,
 you should understand how the following constructor, implemented in the
-`__init__` function, is used to create a new instance of the `Person` class.
+`__init__` method, is used to create a new instance of the `Person` class.
 
 ```python
 def __init__(
