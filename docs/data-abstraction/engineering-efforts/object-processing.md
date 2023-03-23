@@ -105,7 +105,7 @@ parameters respectively related to the search term, the "attribute" of a person
 stored in a row of data (e.g., the email address or the country), and both the
 input file and the output file that will save the search results.
 
-```
+```text
  Usage: objectprocessor [OPTIONS]
 
  Input data about a person and then analyze and save it.
