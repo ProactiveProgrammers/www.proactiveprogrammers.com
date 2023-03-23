@@ -106,20 +106,22 @@ stored in a row of data (e.g., the email address or the country), and both the
 input file and the output file that will save the search results.
 
 ```
-Usage: objectprocessor [OPTIONS]
+ Usage: objectprocessor [OPTIONS]
 
-  Input data about a person and then analyze and save it.
+ Input data about a person and then analyze and save it.
 
-Options:
-  --search-term TEXT    [required]
-  --attribute TEXT      [required]
-  --input-file PATH     [required]
-  --output-file PATH    [required]
-  --install-completion  Install completion for the current shell.
-  --show-completion     Show completion for the current shell, to copy it
-                        or customize the installation.
-
-  --help                Show this message and exit.
+╭─ Options ─────────────────────────────────────────────────────────────╮
+│ *  --search-term               TEXT  [default: None] [required]       │
+│ *  --attribute                 TEXT  [default: None] [required]       │
+│ *  --input-file                PATH  [default: None] [required]       │
+│ *  --output-file               PATH  [default: None] [required]       │
+│    --install-completion              Install completion for the       │
+│                                      current shell.                   │
+│    --show-completion                 Show completion for the current  │
+│                                      shell, to copy it or customize   │
+│                                      the installation.                │
+│    --help                            Show this message and exit.      │
+╰───────────────────────────────────────────────────────────────────────╯
 ```
 
 Please note that the provided source code does not contain all of the
