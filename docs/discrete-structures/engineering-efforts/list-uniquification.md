@@ -256,7 +256,8 @@ automatically check your program and technical writing. If your program has all
 of the anticipated functionality, you can run the command `poetry run task
 test-silent` and see that the test suite produces output like the following. It
 is important to note that `datauniqifier` comes with three test suites, each of
-which should pass so as to establish a confidence in its correctness.
+which, as shown below, should pass so as to establish a confidence in program
+correctness.
 
 ```text
 tests/test_analyze.py ......                                         [ 54%]
