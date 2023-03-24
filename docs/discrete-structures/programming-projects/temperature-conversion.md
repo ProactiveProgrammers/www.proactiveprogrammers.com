@@ -226,7 +226,7 @@ def test_convert_celsius_to_fahrenheit_wrapper():
     you should only commit to your repository once you have made substantive
     changes to your project and you are ready to confirm its correctness. Before
     you commit to your repository, you can still run checks on your own computer
-    by either using Poetry or Docker and GatorGrader.
+    by either using Poetry and GatorGrader.
 
 ## Project Reflection
 
