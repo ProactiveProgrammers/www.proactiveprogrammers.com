@@ -184,13 +184,6 @@ to learn how the :material-github:
 :material-github: [GatorGrader](https://github.com/GatorEducator/gatorgrader)
 to automatically check your program and technical writing.
 
-Along with running tasks like `poetry run task lint`, you can leverage the
-relevant instructions in the [technical
-skills](/proactive-skills/introduction-proactive-skills/) to enter into a Docker
-container and run `gradle grade` to check your work. If `gradle grade` shows
-that all checks pass, you will know that you made progress towards correctly
-implementing and writing about `converter`.
-
 If your program has all of the anticipated functionality, you can run the
 command `poetry run task test` and see that the test suite produces output like
 this:
