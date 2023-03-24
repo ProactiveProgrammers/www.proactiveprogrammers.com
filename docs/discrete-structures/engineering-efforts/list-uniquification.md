@@ -258,7 +258,7 @@ test-silent` and see that the test suite produces output like the following. It
 is important to note that `datauniqifier` comes with three test suites, each of
 which should pass so as to establish a confidence in its correctness.
 
-```
+```text
 tests/test_analyze.py ......                                         [ 54%]
 tests/test_extract.py ..                                             [ 72%]
 tests/test_uniquify.py ...                                           [100%]
