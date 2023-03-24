@@ -199,7 +199,7 @@ the time and memory overhead data that it reports in your terminal window.
 One noteworthy aspect of this program is that it uses the `getattr` function to
 "construct" an executable version of a Python function when provided with the
 name of the function, as described in this [StackOverflow
-reference](https://stackoverflow.com/questions/3061/calling-a-function-of-a-module-by-using-its-name-a-string).
+discussion](https://stackoverflow.com/questions/3061/calling-a-function-of-a-module-by-using-its-name-a-string).
 After reading the discussion on StackOverflow, make sure that you understand the
 source code line `unique_result_list = function_to_call(data_column_text_list)`.
 You should also notice that, instead of accepting as input the full name of a
