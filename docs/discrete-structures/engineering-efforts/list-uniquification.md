@@ -194,7 +194,7 @@ these two evaluation metrics calculated by `calculate_reduction` and
 is to evaluate how the different configurations of the `datauniquifier` program
 influence these four evaluation metrics! To accomplish this task you will need
 to run the `datauniqifier` with different command-line arguments and record
-the time and memory overhead data that it reports.
+the time and memory overhead data that it reports in your terminal window.
 
 One noteworthy aspect of this program is that it uses the `getattr` function to
 "construct" an executable version of a Python function when provided with the
