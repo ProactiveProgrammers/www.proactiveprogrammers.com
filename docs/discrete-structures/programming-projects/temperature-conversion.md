@@ -1,3 +1,14 @@
+---
+tags:
+  - Conditional Logic
+  - Data Types
+  - Functions
+  - Numerical Computation
+  - Testing
+---
+
+![Temperature Conversion](/img/Pro-Discrete-Structures-Temperature-Conversion.svg){loading=lazy}
+
 # Temperature Conversion
 
 ## Project Goals
