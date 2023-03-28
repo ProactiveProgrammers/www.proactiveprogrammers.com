@@ -55,8 +55,8 @@ This project invites you to implement a Python program, called
 `palindromechecker`, that features different ways determine whether or not a
 number is a palindrome. After you finish a correct implementation of all the
 program's features, running it with the command `poetry run palindromechecker
---number 10 --approach recursivelist --display`, it will produce this output.
-See a later section for more output examples!
+--word civic --approach recursive`, it will produce this output. See a later
+section for more output examples!
 
 ```text
 ✨ Awesome, using the recursive approach for palindrome checking!
