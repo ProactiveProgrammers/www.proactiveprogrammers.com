@@ -75,11 +75,11 @@ When the program accepts this type of input it will also accept a specific
 column for which it should eliminate duplicates through the process of
 uniquification. For instance, when the program is run with the command `poetry
 run datauniquifier --approach listcomprehension --column 1 --data-file
-inputs/data.txt` then it will remove all of the duplicates from column `1` in
+input/data.txt` then it will remove all of the duplicates from column `1` in
 the data file that stores the job descriptions of specific individuals.
 Alternatively, if the program was run with the command `poetry run
 datauniquifier --approach listcomprehension --column 0 --data-file
-inputs/data.txt` then it will remove all of the duplicates from column `0` in
+input/data.txt` then it will remove all of the duplicates from column `0` in
 the data file that stores the email addresses of specific individuals. If we run
 the first of these two previous commands then the program will produce output
 like this:
