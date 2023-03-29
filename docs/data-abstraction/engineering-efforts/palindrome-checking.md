@@ -94,11 +94,11 @@ through the use of a `reverse`-based or `recursive`-based technique.
 ```
 
 Please note that the provided source code does not contain all of the
-functionality to produce the output displayed in this section. As the next
-section explains, you should add the features needed to ensure that
-`palindromechecker` produces the expected output! Importantly, this project
-invites you to add both a recursion-based and reversal-based algorithm for
-palindrome checking.
+functionality needed to produce the output displayed in this section and later
+in the project description. As the next section explains, you should add the
+features needed to ensure that `palindromechecker` produces the expected output!
+Importantly, this project invites you to add both a recursion-based and
+reversal-based algorithm for palindrome checking.
 
 ???+ note
 
