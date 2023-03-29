@@ -55,8 +55,8 @@ This project invites you to implement a Python program, called
 `palindromechecker`, that features different ways determine whether or not a
 number is a palindrome. After you finish a correct implementation of all the
 program's features, running it with the command `poetry run palindromechecker
---number 10 --approach recursivelist --display`, it will produce this output.
-See a later section for more output examples!
+--word civic --approach recursive`, it will produce this output. See a later
+section for more output examples!
 
 ```text
 ✨ Awesome, using the recursive approach for palindrome checking!
@@ -68,35 +68,37 @@ See a later section for more output examples!
 
 Don't forget that you can display `palindromechecker`'s help menu and learn more
 about its features by typing `poetry run palindromechecker --help` to show the
-following output. This help menu shows that `palindromechecker` also has a
-`--pyinstrument` flag that enables it to produce a web-based output that shows
-the function calls made by the `palindromechecker` and the performance results
-created by the [Pyinstrument](https://github.com/joerick/pyinstrument) package.
+following output. This help menu shows that `palindromechecker` has a
+`--approach` flag that enables it to check whether or not a word is a palindrome
+through the use of a `reverse`-based or `recursive`-based technique.
 
 ```text
-Usage: palindromechecker [OPTIONS]
-
-  Use a method to determine if an input string is a palindrome or not.
-
-Options:
-  --word TEXT                     [required]
-  --approach [recursive|reverse]  [default: reverse]
-  --install-completion            Install completion for the current
-                                  shell.
-
-  --show-completion               Show completion for the current shell,
-                                  to copy it or customize the
-                                  installation.
-
-  --help                          Show this message and exit.
+╭─ Options ─────────────────────────────────────────────────────────────╮
+│ *  --word                    TEXT                [default: None]      │
+│                                                  [required]           │
+│    --approach                [recursive|reverse  [default: reverse]   │
+│                              ]                                        │
+│    --install-complet…        [bash|zsh|fish|pow  Install completion   │
+│                              ershell|pwsh]       for the specified    │
+│                                                  shell.               │
+│                                                  [default: None]      │
+│    --show-completion         [bash|zsh|fish|pow  Show completion for  │
+│                              ershell|pwsh]       the specified shell, │
+│                                                  to copy it or        │
+│                                                  customize the        │
+│                                                  installation.        │
+│                                                  [default: None]      │
+│    --help                                        Show this message    │
+│                                                  and exit.            │
+╰───────────────────────────────────────────────────────────────────────╯
 ```
 
 Please note that the provided source code does not contain all of the
-functionality to produce the output displayed in this section. As the next
-section explains, you should add the features needed to ensure that
-`palindromechecker` produces the expected output! Importantly, this project
-invites you to add both a recursion-based and reversal-based algorithm for
-palindrome checking.
+functionality needed to produce the output displayed in this section and later
+in the project description. As the next section explains, you should add the
+features needed to ensure that `palindromechecker` produces the expected output!
+Importantly, this project invites you to add both a recursion-based and
+reversal-based algorithm for palindrome checking.
 
 ???+ note
 
