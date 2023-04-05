@@ -235,7 +235,7 @@
 - Run the Jupyter notebooks in `discrete-structures/probability-functions/` with:
     - :material-language-python: [Jupyter Lite](https://proactiveprogrammers.com/live/)
     - :material-google: [Google Colab](https://githubtocolab.com/ProactiveProgrammers/www.proactiveprogrammers.com)
-        - :material-notebook-edit-outline: [Explore Probability Set](https://githubtocolab.com/ProactiveProgrammers/www.proactiveprogrammers.com/blob/master/files/discrete-structures/probability-functions/explore-probability-with-sets.ipynb){:target="_blank"}
+        - :material-notebook-edit-outline: [Explore Probability with Sets](https://githubtocolab.com/ProactiveProgrammers/www.proactiveprogrammers.com/blob/master/files/discrete-structures/probability-functions/explore-probability-with-sets.ipynb){:target="_blank"}
 
 ???+ note "Technical Concepts"
 
