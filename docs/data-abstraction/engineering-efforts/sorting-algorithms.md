@@ -61,7 +61,7 @@ program ran the insertion sort algorithm, denoted `insertion`, for a total of
 [timeit](https://docs.python.org/3/library/timeit.html) package to measure the
 `min`, `max`, and `avg` execution time of the algorithm.
 
-```
+```text
 ✨ Conducting an experiment to measure the performance of list sorting!
 
    The chosen sorting algorithm: insertion
@@ -95,26 +95,26 @@ sort! You can also run `listsorting` with larger input sizes or more rounds of
 input doubling --- but be aware of the fact that your experiments could take a
 long time to finish for certain algorithms!
 
-```
-Usage: listsorting [OPTIONS]
-
-  Conduct a doubling experiment to measure the performance of list
-  sorting for various algorithms.
-
-Options:
-  --starting-size INTEGER         [default: 1000000]
-  --maximum-value INTEGER         [default: 10000]
-  --number-doubles INTEGER        [default: 10]
-  --approach [bubble|insertion|merge|quick|tim]
-                                  [default: bubble]
-  --install-completion            Install completion for the current
-                                  shell.
-
-  --show-completion               Show completion for the current shell,
-                                  to copy it or customize the
-                                  installation.
-
-  --help                          Show this message and exit.
+```text
+╭─ Options ─────────────────────────────────────────────────────────────╮
+│ --starting-size             INTEGER              [default: 1000000]   │
+│ --maximum-value             INTEGER              [default: 10000]     │
+│ --number-doubles            INTEGER              [default: 10]        │
+│ --approach                  [bubble|insertion|m  [default: bubble]    │
+│                             erge|quick|tim]                           │
+│ --install-completion        [bash|zsh|fish|powe  Install completion   │
+│                             rshell|pwsh]         for the specified    │
+│                                                  shell.               │
+│                                                  [default: None]      │
+│ --show-completion           [bash|zsh|fish|powe  Show completion for  │
+│                             rshell|pwsh]         the specified shell, │
+│                                                  to copy it or        │
+│                                                  customize the        │
+│                                                  installation.        │
+│                                                  [default: None]      │
+│ --help                                           Show this message    │
+│                                                  and exit.            │
+╰───────────────────────────────────────────────────────────────────────╯
 ```
 
 Please note that the provided source code does not contain all of the
