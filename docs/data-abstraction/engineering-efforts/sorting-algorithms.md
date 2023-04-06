@@ -21,8 +21,8 @@ tutorial from [Real Python](https://realpython.com/) and add certain sorting
 algorithms, like bubble sort and quick sort, to your project. After you have
 implemented all of the required sorting algorithms, you will use the provided
 benchmarking framework to conduct a doubling experiment. This doubling
-experiment will invoke a specific sorting algorithm while repeatedly double the
-size of the input to the sorting algorithm for a specific number of doubling
+experiment will invoke a specific sorting algorithm while repeatedly doubling
+the size of the input to the sorting algorithm for a specific number of doubling
 rounds. Since the doubling experiment enables you to calculate a doubling ratio,
 it enables you to experimentally predict the likely worst-case time complexity
 of each sorting algorithms. In addition to implementing the sorting algorithms
