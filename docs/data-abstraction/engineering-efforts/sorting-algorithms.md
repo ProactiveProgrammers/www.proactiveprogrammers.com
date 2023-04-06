@@ -202,7 +202,8 @@ its test suite. You can also use the command `poetry run task black` to confirm
 that your source code adheres to the industry-standard format defined by the
 `black` tool. If it does not adhere to the standard then you can run the
 command `poetry run task fixformat` and it will automatically reformat the
-source code.
+source code. You can use these and other built-in tasks to understand and
+improve your code's quality!
 
 Along with running tasks like `poetry run task lint`, you can leverage the
 relevant instructions in the [technical
@@ -227,14 +228,6 @@ components of every test case created with Pytest?
 tests/test_sorting.py ...
 ```
 
-This project comes with other tasks that you can run once you have used Poetry
-to install all of the dependencies. For instance, if you find that your Python
-source code is not in adherence with the required formatting rules, you can run
-`poetry run task black` to automatically return it to the correct format! You
-can also run commands like `poetry run task mypy` to check the program's use of
-data types and `poetry run task pylint` to ensure that your source code adheres
-to other established programming conventions. You can use these built-in tasks
-to understand and improve your code's quality!
 
 ???+ note
 
