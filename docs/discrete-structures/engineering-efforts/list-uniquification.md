@@ -7,7 +7,7 @@ tags:
   - Testing
 ---
 
-![Temperature Conversion](/img/Pro-Discrete-Structures-List-Uniquification.svg){loading=lazy}
+![List Uniquification](/img/Pro-Discrete-Structures-List-Uniquification.svg){loading=lazy}
 
 # List Uniquification
 
