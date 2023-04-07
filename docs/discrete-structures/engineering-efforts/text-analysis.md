@@ -170,8 +170,8 @@ automatically reformat the source code. By following a
 you can configure VS Code to use the `black` tool to automatically reformat the
 source code when you save a file.
 
-Along with running tasks like `poetry run task lint`, you can leverage the
-relevant instructions in the [technical
+Along with running tasks like `poetry run task lint` or `poetry run task mypy`,
+you can leverage the relevant instructions in the [technical
 skills](/proactive-skills/introduction-proactive-skills/) to run the command
 `gatorgrade --config config/gatorgrade.yml` to check your work. If your work
 meets the baseline requirements and adheres to the best practices that
@@ -182,8 +182,8 @@ to learn how the :material-github:
 :material-github: [GatorGrader](https://github.com/GatorEducator/gatorgrader)
 to automatically check your program and technical writing. If there are checks
 that did not pass correctly, which you can see in either your terminal window
-or the logs from GitHub Actions, then you should read them carefully and take
-the suggested steps to repair the problems.
+or through the logs available from GitHub Actions, then you should read them
+carefully and take the suggested steps to repair the problems.
 
 ???+ note
 
