@@ -206,7 +206,7 @@ implemented, and answer all of the other questions about your experiences in
 completing this project. One of the main goals of the reflection is for you to
 explain the trends that you see in the different provided text files. You should
 also discuss how the `textanalysis` program uses discrete structures like the
-list and the set to automatically characterize the text of a complete document.
+`list` and the `set` to automatically characterize the text of a complete document.
 
 ## Project Assessment
 
