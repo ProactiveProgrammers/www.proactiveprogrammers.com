@@ -3,7 +3,7 @@ tags:
   - Conditional Logic
   - File I/O
   - Functions
-  - Numerical Computation
+  - Statistics
   - Testing
 ---
 
