@@ -156,8 +156,6 @@ def extract_lines_including_blanks(input_lines: str) -> List[str]:
 
 ## Running Checks
 
-## Running Checks
-
 As you continue to add and confirm the correctness of `datauniqifier`'s
 functionality, you should study the source code in the `pyproject.toml` file.
 This file contains the specification of several tasks that will help you to
