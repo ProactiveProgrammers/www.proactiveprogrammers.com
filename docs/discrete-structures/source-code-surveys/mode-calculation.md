@@ -1,3 +1,14 @@
+---
+tags:
+  - Conditional Logic
+  - Data Types
+  - Functions
+  - Iteration Constructs
+  - Statistics
+---
+
+![Discrete Structures](/img/Pro-Discrete-Structures-Mode-Calculation.svg){loading=lazy}
+
 # Mode Calculation
 
 ## Project Goals
@@ -29,6 +40,17 @@ skills](/proactive-skills/introduction-proactive-skills/). Specifically, you
 will need to use the `git clone` command to download the project from GitHub to
 your computer. Now you are ready to add source code and documentation to the
 project!
+
+???+ note
+
+    If you are an emerging proactive programmer who is not enrolled in a
+    Computer Science class at Allegheny College, you can still work on this
+    assignment! To get started, you should click the "Use this template" icon in
+    the :material-github:
+    [mode-calculation-starter](https://github.com/ProactiveProgrammers/mode-calculation-starter)
+    GitHub repository and create your own version of this project's source code.
+    After creating your GitHub repository, you can follow all of the other
+    steps!
 
 ## Code Survey
 
