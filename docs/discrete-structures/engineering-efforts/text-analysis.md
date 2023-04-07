@@ -1,3 +1,14 @@
+---
+tags:
+  - Data Types
+  - Iteration Constructs
+  - File I/O
+  - Functions
+  - Sets
+---
+
+![Text Processing](/img/Pro-Discrete-Structures-List-Uniquification.svg){loading=lazy}
+
 # Text Processing
 
 ## Project Goals
