@@ -156,38 +156,36 @@ def extract_lines_including_blanks(input_lines: str) -> List[str]:
 
 ## Running Checks
 
-If you study the source code in the `pyproject.toml` file you will see that it
-includes the following section section of tasks that use
-[taskipy](https://github.com/illBeRoy/taskipy):
+## Running Checks
 
-```toml
-black = { cmd = "black textanalysis --check", help = "Run the black checks for source code format" }
-reformat = { cmd = "black textanalysis", help = "Run the black reformatter for source code style" }
-flake8 = { cmd = "flake8 textanalysis", help = "Run the flake8 checks for source code documentation" }
-mypy = { cmd = "poetry run mypy textanalysis", help = "Run the mypy type checker for potential type errors" }
-pydocstyle = { cmd = "pydocstyle textanalysis", help = "Run the pydocstyle checks for source code documentation" }
-pylint = { cmd = "pylint textanalysis", help = "Run the pylint checks for source code documentation" }
-all = "task black && task flake8 && task pydocstyle && task pylint && task mypy"
-lint = "task black && task flake8 && task pydocstyle && task pylint"
-```
+As you continue to add and confirm the correctness of `datauniqifier`'s
+functionality, you should study the source code in the `pyproject.toml` file.
+This file contains the specification of several tasks that will help you to
+easily run checks on your Python source code. Now, you can run commands like
+`poetry run task lint` to automatically run all of the linters designed to check
+the Python source code in your program and its test suite. You can also use the
+command `poetry run task black` to confirm that your source code adheres to the
+industry-standard format defined by the `black` tool. If it does not adhere to
+the standard then you can run the command `poetry run fixformat` and it will
+automatically reformat the source code. By following a
+[tutorial](https://dev.to/adamlombard/how-to-use-the-black-python-code-formatter-in-vscode-3lo0),
+you can configure VS Code to use the `black` tool to automatically reformat the
+source code when you save a file.
 
-This section makes it easy to run commands like `poetry run task lint` to
-automatically run all of the linters designed to check the Python source code in
-your program and its test suite. You can also use the command `poetry run task
-black` to confirm that your source code adheres to the industry-standard format
-defined by the `black` tool. If it does not adhere to the standard then you can
-run the command `poetry run black textanalysis tests` and it will automatically
-reformat the source code.
-
-Along with running tasks like `poetry run task list`, you can leverage the
+Along with running tasks like `poetry run task lint`, you can leverage the
 relevant instructions in the [technical
-skills](/proactive-skills/introduction-proactive-skills/) to enter into a Docker
-container and run the command `gradle grade` to check your work. If `gradle
-grade` shows that all checks pass, you will know that you made progress towards
-correctly implementing and writing about `textanalysis`. If there are checks
-that did not pass correctly, which you can see in either your terminal window or
-the logs from GitHub Actions, then you should read them carefully and take the
-suggested steps to repair the problems.
+skills](/proactive-skills/introduction-proactive-skills/) to run the command
+`gatorgrade --config config/gatorgrade.yml` to check your work. If your work
+meets the baseline requirements and adheres to the best practices that
+proactive programmers adopt you will see that all the checks pass when you run
+`gatorgrade`. You can study the `config/gatorgrade.yml` file in your repository
+to learn how the :material-github:
+[GatorGrade](https://github.com/GatorEducator/gatorgrade) program runs
+:material-github: [GatorGrader](https://github.com/GatorEducator/gatorgrader)
+to automatically check your program and technical writing. If there are checks
+that did not pass correctly, which you can see in either your terminal window
+or the logs from GitHub Actions, then you should read them carefully and take
+the suggested steps to repair the problems.
 
 ???+ note
 
@@ -197,8 +195,8 @@ suggested steps to repair the problems.
     this workflow consumes build minutes for the course's organization! As such,
     you should only commit to your repository once you have made substantive
     changes to your project and you are ready to confirm its correctness. Before
-    you commit to your repository, you can still run checks on your own computer
-    by either using Poetry or Docker and GatorGrader.
+    you commit to your repository, you can should run checks on your own computer
+    by running `gatorgrade --config config/gatorgrade.yml`.
 
 ## Project Reflection
 
