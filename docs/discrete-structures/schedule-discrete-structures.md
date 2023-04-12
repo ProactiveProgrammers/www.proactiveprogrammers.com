@@ -257,7 +257,11 @@ mathematical functions in Python?
 
 - Read chapter 9 of *Programming and Mathematical Thinking*
 - Check out the [course slides](/slides/discrete-structures/mathematical-mappings/) for a detailed investigation of these chapters!
-- Go to the `discrete-structures/mathematical-mappings/` directory on [Proactive Programmers Live](https://proactiveprogrammers.com/live/) and investigate all of the Python programs!
+- Run the Jupyter notebooks in `discrete-structures/mathematical-mappings/` with:
+    - :material-language-python: [Jupyter Lite](https://proactiveprogrammers.com/live/)
+    - :material-google: [Google Colab](https://githubtocolab.com/ProactiveProgrammers/www.proactiveprogrammers.com)
+        - :material-notebook-edit-outline: [Explore Mappings as Dictionaries](https://githubtocolab.com/ProactiveProgrammers/www.proactiveprogrammers.com/blob/master/files/discrete-structures/mathematical-mappings/explore-mappings-as-dictionaries.ipynb){:target="_blank"}
+        - :material-notebook-edit-outline: [Explore Mappings as Functions](https://githubtocolab.com/ProactiveProgrammers/www.proactiveprogrammers.com/blob/master/files/discrete-structures/mathematical-mappings/explore-mappings-as-functions.ipynb){:target="_blank"}
 
 ???+ note "Technical Concepts"
 
