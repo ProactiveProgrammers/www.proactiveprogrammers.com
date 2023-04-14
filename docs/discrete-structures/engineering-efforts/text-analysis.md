@@ -1,7 +1,7 @@
 ---
 tags:
   - Data Types
-  - Iteration Constructs
+  - Data Visualization
   - File I/O
   - Functions
   - Sets
