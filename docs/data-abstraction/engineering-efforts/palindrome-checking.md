@@ -4,7 +4,7 @@ tags:
   - Iteration Constructs
   - Object-Oriented
   - Recursion
-  - Software Testing
+  - Testing
 ---
 
 ![Palindrome Checking](/img/Pro-Data-Abstraction-Palindrome-Checking.svg){loading=lazy}
