@@ -166,7 +166,7 @@ that it is possible that running `collatzcreator` on your laptop with these
 command-line arguments may require a significant amount of computation time.
 This means that you will either have to wait a long time for `collatzcreator` to
 finish or implement a more efficient version of the `compute_collatz_chain`
-function!
+function! Which approach did you pick?
 
 ## Running Checks
 
