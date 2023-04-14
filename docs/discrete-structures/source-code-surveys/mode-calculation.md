@@ -7,7 +7,7 @@ tags:
   - Statistics
 ---
 
-![Discrete Structures](/img/Pro-Discrete-Structures-Mode-Calculation.svg){loading=lazy}
+![Mode Calculation](/img/Pro-Discrete-Structures-Mode-Calculation.svg){loading=lazy}
 
 # Mode Calculation
 
