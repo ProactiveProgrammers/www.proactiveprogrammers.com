@@ -228,7 +228,7 @@ def timing(function):
 
 ## Running Checks
 
-As you continue to add and confirm the correctness of `datauniqifier`'s
+As you continue to add and confirm the correctness of `datauniquifier`'s
 functionality, you should study the source code in the `pyproject.toml` file.
 This file contains the specification of several tasks that will help you to
 easily run checks on your Python source code. Now, you can run commands like
