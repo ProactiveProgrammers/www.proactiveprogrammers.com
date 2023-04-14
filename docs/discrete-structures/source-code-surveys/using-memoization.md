@@ -132,6 +132,20 @@ correctly! This might involve creating different inputs to the function under
 test, calling the `def fibonacci(number: int) -> int` function, and then
 checking to ensure that it returned the correct ordered pair as its output.
 
+???+ note
+
+    Did you know that :material-github:
+    [GatorGrade](https://github.com/GatorEducator/gatorgrade) and
+    :material-github:
+    [GatorGrader](https://github.com/GatorEducator/gatorgrader) are open-source
+    Python programs implemented by many proactive programmers? If you finish this
+    source code survey and have extra time, please brainstorm some new features
+    that you think these two tools should have, explain your idea by raising an
+    issue in the relevant project's GitHub repository, and take the first step
+    towards implementing and testing your idea. If the maintainers of these
+    tools accept your new feature then you will have helped to improve the
+    experience of other people who use GatorGrade and GatorGrader!
+
 ## Project Reflection
 
 Once you have finished all of the previous technical tasks, you can use a text
