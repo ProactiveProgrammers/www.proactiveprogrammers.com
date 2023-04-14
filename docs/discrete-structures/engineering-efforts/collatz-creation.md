@@ -196,7 +196,7 @@ to learn how the :material-github:
 :material-github: [GatorGrader](https://github.com/GatorEducator/gatorgrader)
 to automatically check your program and technical writing. You can also run the
 command `poetry run task test` to run the Pytest test suites provided in the
-files `test_collatz.py` and `test_summarize.py`.
+files `test_collatz.py` and `test_summarize.py`. Did all of your tests pass?
 
 ???+ note
 
