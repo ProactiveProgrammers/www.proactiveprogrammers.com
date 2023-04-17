@@ -277,8 +277,8 @@ mathematical functions in Python?
 ### Technical Question
 
 - How do I use the concept of a relation and the industrially relevant practice
-of object-oriented programming to correctly implement Python programs that
-are easy to understand and maintain?
+  of object-oriented programming to correctly implement Python programs that
+  are easy to understand and maintain?
 
 ### Next Steps
 
