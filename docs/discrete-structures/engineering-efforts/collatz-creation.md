@@ -166,7 +166,7 @@ that it is possible that running `collatzcreator` on your laptop with these
 command-line arguments may require a significant amount of computation time.
 This means that you will either have to wait a long time for `collatzcreator` to
 finish or implement a more efficient version of the `compute_collatz_chain`
-function! Which approach did you pick?
+function! Which approach did you pick? Why?
 
 ## Running Checks
 
@@ -217,9 +217,10 @@ instance, you should provide the output of the Python program in a fenced code
 block, explain the meaning of the Python source code segments that you
 implemented, and answer all of the other questions about your experiences in
 completing this project. One of the main goals of the reflection is for you to
-explain the trends that you see in the different provided text files. You should
-also discuss how the `collatzcreator` program uses discrete structures like the
-list and the set to automatically characterize the text of a complete document.
+explain the trends that you see in relationship between the input number and
+the length of the Collatz chain. You should also discuss how the
+`collatzcreator` program uses discrete structures like the `list` or the `tuple`
+to store the Collatz chain and then visualize its characteristics with a graph.
 
 ## Project Assessment
 
