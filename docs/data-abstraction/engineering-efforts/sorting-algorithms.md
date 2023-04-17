@@ -249,10 +249,11 @@ block, explain the meaning of the Python source code segments that you
 implemented, and answer all of the other questions about your experiences in
 completing this project. A specific goal of the reflection for this project is
 to ensure that you can clearly write research questions and an experiment
-methodology for assessing the performance of a sorting algorithm. Once you have
-finished addressing the prompts in the `writing/reflection.md` file that have
-`TODO` makers given as reminders, make sure that you either delete the prompt or
-carefully integrate a revised version of it into your writing.
+methodology for assessing the performance of a sorting algorithm through a
+doubling experiment. Once you have finished addressing the prompts in the
+`writing/reflection.md` file that have `TODO` makers given as reminders, make
+sure that you either delete the prompt or carefully integrate a revised version
+of it into your writing.
 
 ## Project Assessment
 
