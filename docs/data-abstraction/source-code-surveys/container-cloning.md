@@ -59,8 +59,9 @@ signature `def remove_duplicates(list_one: List[Any], list_two: List[Any]) ->
 Tuple[List[Any], List[Any]]`. Your task is to identify and fix the defects
 inside of this function! To aid your debugging efforts, you should use and
 extend the `def test_remove_duplicates() -> bool` function that should subject
-the `remove_duplicates` function to several tests. The test called
-`test_remove_duplicates` is implemented in the following fashion:
+the `remove_duplicates` function to several tests. Although it does not use
+Pytest, it is possible to implement a test called `test_remove_duplicates` in
+the following fashion:
 
 ```python linenums="1"
 list_one = [1, 2, 3, 4]
