@@ -219,8 +219,9 @@ implemented, and answer all of the other questions about your experiences in
 completing this project. One of the main goals of the reflection is for you to
 explain the trends that you see in relationship between the input number and
 the length of the Collatz chain. You should also discuss how the
-`collatzcreator` program uses discrete structures like the `list` or the `tuple`
-to store the Collatz chain and then visualize its characteristics with a graph.
+`collatzcreator` program uses discrete structures like the `list` or the
+`tuple` to store the Collatz chain and then visualize its characteristics with
+a scatterplot.
 
 ## Project Assessment
 
