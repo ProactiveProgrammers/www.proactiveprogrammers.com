@@ -1,3 +1,14 @@
+---
+tags:
+  - Data Manipulation
+  - Debugging
+  - Iteration Constructs
+  - Performance
+  - Testing
+---
+
+![Debugging Functions](/img/Pro-Data-Abstraction-Container-Cloning.svg){loading=lazy}
+
 # Container Cloning
 
 ## Project Goals
@@ -27,6 +38,17 @@ skills](/proactive-skills/introduction-proactive-skills/). Specifically, you
 will need to use the `git clone` command to download the project from GitHub to
 your computer. Now you are ready to add source code and documentation to the
 project so that you can learn more about how to clone a container in Python!
+
+???+ note
+
+    If you are an emerging proactive programmer who is not enrolled in a
+    Computer Science class at Allegheny College, you can still work on this
+    assignment! To get started, you should click the "Use this template" button
+    in the :material-github:
+    [debugging-functions-starter](https://github.com/ProactiveProgrammers/debugging-functions-starter)
+    GitHub repository and create your own version of this project's source
+    code. After creating your GitHub repository, you can follow all of the
+    other steps!
 
 ## Code Survey
 
