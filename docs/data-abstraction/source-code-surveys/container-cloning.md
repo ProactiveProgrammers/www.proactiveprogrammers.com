@@ -111,6 +111,19 @@ container and run the command `gradle grade` to check your work. If `gradle
 grade` shows that all checks pass, you will know that you made progress towards
 correctly implementing and writing about this project's program.
 
+???+ note
+
+    Did you know that :material-github:
+    [GatorGrade](https://github.com/GatorEducator/gatorgrade) and
+    :material-github:
+    [GatorGrader](https://github.com/GatorEducator/gatorgrader) are open-source
+    Python programs implemented by many proactive programmers? If you finish this
+    source code survey and have extra time, please brainstorm some new features
+    that you think these two tools should have, explain your idea by raising an
+    issue in the relevant project's GitHub repository, and take the first step
+    towards implementing and testing your idea. If the maintainers of these
+    tools accept your new feature then you will have helped to improve the
+    experience of other people who use GatorGrade and GatorGrader!
 ## Project Reflection
 
 Once you have finished all of the previous technical tasks, you can use a text
@@ -120,9 +133,8 @@ of the provided Python programs on your own laptop and then explain how the
 program's source code produced that output. A specific goal for this project is
 to ensure that you can explain the syntax and meaning of function signatures
 like `def remove_duplicates(list_one: List[Any], list_two: List[Any]) ->
-Tuple[List[Any], List[Any]]`. You should also be able to explain what defect(s)
-you found in the `remove_duplicates` function and then discuss how you fixed
-them.
+Tuple[List[Any], List[Any]]`. You should also be able to discuss what defect(s)
+you found in the `remove_duplicates` function and how you fixed them.
 
 ## Project Assessment
 
