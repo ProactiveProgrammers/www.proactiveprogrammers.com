@@ -94,21 +94,27 @@ command-line arguments or the help menu, are required. This means that the
 parameters that describe the experiment.
 
 ```
-Usage: containmentcheck [OPTIONS]
-
-  Conduct an experiment to measure the performance of containment
-  checking.
-
-Options:
-  --size INTEGER               [default: 5]
-  --maximum INTEGER            [default: 25]
-  --exceed / --no-exceed       [default: False]
-  --approach [list|set|tuple]  [default: list]
-  --install-completion         Install completion for the current shell.
-  --show-completion            Show completion for the current shell, to
-                               copy it or customize the installation.
-
-  --help                       Show this message and exit.
+╭─ Options ─────────────────────────────────────────────────────────────╮
+│ --size                             INTEGER          [default: 5]      │
+│ --maximum                          INTEGER          [default: 25]     │
+│ --exceed            --no-exceed                     [default:         │
+│                                                     no-exceed]        │
+│ --approach                         [list|set|tuple  [default: list]   │
+│                                    ]                                  │
+│ --install-compl…                   [bash|zsh|fish|  Install           │
+│                                    powershell|pwsh  completion for    │
+│                                    ]                the specified     │
+│                                                     shell.            │
+│                                                     [default: None]   │
+│ --show-completi…                   [bash|zsh|fish|  Show completion   │
+│                                    powershell|pwsh  for the specified │
+│                                    ]                shell, to copy it │
+│                                                     or customize the  │
+│                                                     installation.     │
+│                                                     [default: None]   │
+│ --help                                              Show this message │
+│                                                     and exit.         │
+╰───────────────────────────────────────────────────────────────────────╯
 ```
 
 Please note that the provided source code does not contain all of the
@@ -117,7 +123,8 @@ section explains, you should add the features needed to ensure that
 `containmentcheck` produces the expected output! After implementing a function
 that can automatically generate a data container that has random numerical
 values inside of it, you will need to create each of the containment checking
-functions for all of the supported data containers (i.e., list, tuple, and set).
+functions for all of the supported data containers (i.e., `list`, `tuple`, and
+`set`).
 
 ???+ note
 
