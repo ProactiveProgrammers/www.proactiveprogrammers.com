@@ -167,11 +167,11 @@ following Python functions:
   containment checking for the set. This function will allow you to
   experimentally evaluate the [conventional
   wisdom](https://docs.quantifiedcode.com/python-anti-patterns/performance/using_key_in_list_to_check_if_key_is_contained_in_a_list.html)
-  that a develop can improve the performance of their Python program by
-  converting a list to a set before using the `in` operator.
+  that a developer can improve the performance of their Python program by
+  converting a `list` to a `set` before using the `in` operator.
 
-Ultimately, you should design your own experiment and state and answer your own
-research questions, focusing on the following key issues:
+Ultimately, you should design your own experiment and state and run experiments
+to answer your own research questions, focusing on the following key issues:
 
 - The data container: `set`, `list`, and `tuple`
 - The size of the data container: small values (e.g., 1 million numbers) to big
