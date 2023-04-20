@@ -73,16 +73,16 @@ that said, a finished version of `containmentcheck` should report both the total
 and average time for use the `in` operator for the specified data container and
 searching approach.
 
-```
+```text
 ✨ Conducting an experiment to measure the performance of containment checking!
          Type of the data container: list
          Size of the data container: 32000000
          Maximum value for a number in the data container: 50000000
          Should the value to search for exceed the maximum number? No
 
-⏱  Total time for running 10 runs in 3 benchmark campaigns: [2.778451125999709, 2.6102711579987954, 2.6405498099993565]
+🧮 Total time for running 10 runs in 3 benchmark campaigns: [0.016107587000078638, 0.016178363999642897, 0.016164254000614164]
 
-🧮 Average time for running one of 10 runs in 3 benchmark campaigns: [0.2778451125999709, 0.2610271157998795, 0.26405498099993563]
+🧮 Average time for running 10 runs in 3 benchmark campaigns: [0.0016107587000078639, 0.0016178363999642897, 0.0016164254000614164]
 ```
 
 Finally, don't forget that you can display `containmentcheck`'s help menu and
