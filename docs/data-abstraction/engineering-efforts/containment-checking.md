@@ -204,8 +204,9 @@ programmers adopt you will see that all the checks pass when you run
 to learn how the :material-github:
 [GatorGrade](https://github.com/GatorEducator/gatorgrade) program runs
 :material-github: [GatorGrader](https://github.com/GatorEducator/gatorgrader) to
-automatically check your program and technical writing. In addition to running
-all of the tasks
+automatically check your program and technical writing. Please note that this
+project is not accompanied by any automated test cases! Can you implement some
+tests to confirm that the containment checking works correctly?
 
 ???+ note
 
