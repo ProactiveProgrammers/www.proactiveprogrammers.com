@@ -230,7 +230,7 @@ completing this project. A specific goal for this project's reflection is to
 ensure that you can explain Python source code that uses the
 [timeit](https://docs.python.org/3/library/timeit.html) package to evaluate the
 performance of a specific approach to containment checking, as illustrated by
-the following code segment.
+the following code segment. Can you explain this source code?
 
 ```python
 number_runs = 10
