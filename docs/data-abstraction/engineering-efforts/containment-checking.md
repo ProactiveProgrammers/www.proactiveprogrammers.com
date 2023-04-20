@@ -1,3 +1,14 @@
+---
+tags:
+  - Conditional Logic
+  - Iteration Constructs
+  - Functions
+  - Performance
+  - Time Complexity
+---
+
+![Containment Checks](/img/Pro-Data-Structures-Containment-Checks.svg){loading=lazy}
+
 # Containment Checks
 
 ## Project Goals
