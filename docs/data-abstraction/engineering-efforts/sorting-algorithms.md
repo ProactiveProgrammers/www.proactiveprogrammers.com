@@ -239,7 +239,6 @@ components of every test case created with Pytest?
 tests/test_sorting.py ...
 ```
 
-
 ???+ note
 
     Don't forget that when you commit source code or technical writing to your
