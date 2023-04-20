@@ -206,7 +206,7 @@ to learn how the :material-github:
 :material-github: [GatorGrader](https://github.com/GatorEducator/gatorgrader) to
 automatically check your program and technical writing. Please note that this
 project is not accompanied by any automated test cases! Can you implement some
-tests to confirm that the containment checking works correctly?
+tests to confirm that the containment checks work correctly?
 
 ???+ note
 
