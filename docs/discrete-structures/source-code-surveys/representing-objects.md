@@ -1,3 +1,14 @@
+---
+tags:
+  - Conditional Logic
+  - Data Types
+  - Data Manipulation
+  - Functions
+  - Object-Oriented
+---
+
+![Representing Objects](/img/Pro-Discrete-Structures-Representing-Objects.svg){loading=lazy}
+
 # Representing Objects
 
 ## Project Goals
