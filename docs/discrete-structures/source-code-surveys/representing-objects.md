@@ -122,17 +122,24 @@ Since this project does not use [Poetry](https://python-poetry.org/) to manage
 project dependencies and virtual environments, it does not support the use of
 commands like `poetry run task test`. However, you can leverage the relevant
 instructions in the [technical
-skills](/proactive-skills/introduction-proactive-skills/) to enter into a Docker
-container and run the command `gradle grade` to check your work. If `gradle
-grade` shows that all checks pass, you will know that you made progress towards
-correctly implementing and writing about this project's program. You are also
-encouraged to ensure that `create-dog-with-dictionary` and
-`create-dog-with-list` both produce the same output, excepting the fact that
-they both output a starting line that is specific to the kind of representation
-that they use for the `Dog` object. Finally, you should confirm that the
-`create-dog-with-class` program produces similar output to the two
-aforementioned programs while also further demonstrating the features that are
-unique to this approach.
+skills](/proactive-skills/introduction-proactive-skills/) to run the command
+`gatorgrade --config config/gatorgrade.yml` to check your work. If `gatorgrade`
+shows that all checks pass, you will know that you made progress towards
+correctly implementing and writing about this project's program.
+
+???+ note
+
+    Did you know that :material-github:
+    [GatorGrade](https://github.com/GatorEducator/gatorgrade) and
+    :material-github:
+    [GatorGrader](https://github.com/GatorEducator/gatorgrader) are open-source
+    Python programs implemented by many proactive programmers? If you finish this
+    source code survey and have extra time, please brainstorm some new features
+    that you think these two tools should have, explain your idea by raising an
+    issue in the relevant project's GitHub repository, and take the first step
+    towards implementing and testing your idea. If the maintainers of these
+    tools accept your new feature then you will have helped to improve the
+    experience of other people who use GatorGrade and GatorGrader!
 
 ## Project Reflection
 
