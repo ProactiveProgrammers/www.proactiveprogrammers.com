@@ -46,7 +46,7 @@ project!
     Computer Science class at Allegheny College, you can still work on this
     assignment! To get started, you should click the "Use this template" icon in
     the :material-github:
-    [matrix-starter](https://github.com/ProactiveProgrammers/matrix-starter)
+    [object-oriented-starter](https://github.com/ProactiveProgrammers/object-oriented-starter)
     GitHub repository and create your own version of this project's source code.
     After creating your GitHub repository, you can follow all of the other
     steps!
