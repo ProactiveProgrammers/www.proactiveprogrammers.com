@@ -166,48 +166,39 @@ email address and continue processing the remainder of the file.
 
 ## Running Checks
 
-If you study the source code in the `pyproject.toml` file you will see that
-it includes the following section that specifies different executable tasks:
-
-```toml
-[tool.taskipy.tasks]
-black = { cmd = "black contactsearcher tests --check", help = "Run the black checks for source code format" }
-flake8 = { cmd = "flake8 contactsearcher tests", help = "Run the flake8 checks for source code documentation" }
-mypy = { cmd = "poetry run mypy contactsearcher", help = "Run the mypy type checker for potential type errors" }
-pydocstyle = { cmd = "pydocstyle contactsearcher tests", help = "Run the pydocstyle checks for source code documentation" }
-pylint = { cmd = "pylint contactsearcher tests", help = "Run the pylint checks for source code documentation" }
-test = { cmd = "pytest -x -s", help = "Run the pytest test suite" }
-test-silent = { cmd = "pytest -x --show-capture=no", help = "Run the pytest test suite without showing output" }
-all = "task black && task flake8 && task pydocstyle && task pylint && task mypy && task test"
-lint = "task black && task flake8 && task pydocstyle && task pylint"
-```
-
-This section makes it easy to run commands like `poetry run task lint` to
-automatically run all of the linters designed to check the Python source code in
-your program and its test suite. You can also use the command `poetry run task
-black` to confirm that your source code adheres to the industry-standard format
-defined by the `black` tool. If it does not adhere to the standard then you can
-run the command `poetry run black contactsearcher tests` and it will automatically
-reformat the source code.
+If you study the source code in the `pyproject.toml` file you will see that it
+includes the following section that specifies different executable tasks like
+`lint`. If you are in the `converter` directory that contains the
+`pyproject.toml` file and the `poetry.lock` file, the tasks in this section
+make it easy to run commands like `poetry run task lint` to automatically run
+all of the linters designed to check the Python source code in your program and
+its test suite. You can also use the command `poetry run task black` to confirm
+that your source code adheres to the industry-standard format defined by the
+`black` tool. If it does not adhere to the standard then you can run the
+command `poetry run task fixformat` and it will automatically reformat the
+source code.
 
 Along with running tasks like `poetry run task lint`, you can leverage the
 relevant instructions in the [technical
-skills](/proactive-skills/introduction-proactive-skills/) to enter into a Docker
-container and run `gradle grade` to check your work. If `gradle grade` shows
-that all checks pass, you will know that you made progress towards correctly
-implementing and writing about `contactsearcher`.
+skills](/proactive-skills/introduction-proactive-skills/) to run the command
+`gatorgrade --config config/gatorgrade.yml` to check your work. If your work
+meets the baseline requirements and adheres to the best practices that
+proactive programmers adopt you will see that all the checks pass when you run
+`gatorgrade`. You can study the `config/gatorgrade.yml` file in your repository
+to learn how the :material-github:
+[GatorGrade](https://github.com/GatorEducator/gatorgrade) program runs
+:material-github: [GatorGrader](https://github.com/GatorEducator/gatorgrader)
+to automatically check your program and technical writing.
 
 If your program has all of the anticipated functionality, you can run the
 command `poetry run task test` and see that the test suite produces the
 following output. As you finish your implementation of the
 `search_for_email_given_job` function you can use this test suite to confirm
 that it is working correctly. If one of the test cases fails, you can use its
-output to help you understand what is not yet working in the function under
-test. After all of the test cases pass, you can use the command `poetry run task
-all` and `gradle grade` to confirm that other aspects of your source code and
-technical writing are correct.
+output to help you understand what is not yet working in the function that it
+tests.
 
-```
+```text
 tests/test_search.py .....
 
 ============================ 5 passed in 0.02s =============================
