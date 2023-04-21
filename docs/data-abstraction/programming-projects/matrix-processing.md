@@ -1,3 +1,14 @@
+---
+tags:
+  - Conditional Logic
+  - Data Types
+  - Iteration Constructs
+  - Functions
+  - Type Annotations
+---
+
+![Matrix Processing](/img/Pro-Data-Abstraction-Matrix-Processing.svg){loading=lazy}
+
 # Matrix Processing
 
 ## Project Goals
