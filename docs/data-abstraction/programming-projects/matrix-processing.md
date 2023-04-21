@@ -57,7 +57,7 @@ matrix inside of it and the `matrix-dir` that is the directory containing the
 specified file. For this project, you should use the `matrix.txt` file inside of
 the `input` directory that contains these contents:
 
-```
+```text
 100,19,9,9
 10,9,8,7
 6,4,2,-1
@@ -70,7 +70,7 @@ After correctly adding all of the required features, you can use Poetry to run
 the program with the command `poetry run matrix --matrix-dir input --matrix-file
 matrix.txt` and see that it it produces the following output:
 
-```
+```text
 ✨ Searching for negative numbers in a matrix stored in input/matrix.txt!
 
 📦 The matrix contains the following integer values:
@@ -90,19 +90,23 @@ matrix.txt` and see that it it produces the following output:
 To learn more about how to run this program, you can type the command `poetry
 run matrix --help` to see the following output showing how to use `matrix`:
 
-```
-Usage: matrix [OPTIONS]
-
-  Read in a matrix and count the number of negative numbers.
-
-Options:
-  --matrix-dir PATH
-  --matrix-file PATH
-  --install-completion  Install completion for the current shell.
-  --show-completion     Show completion for the current shell, to copy it
-                        or customize the installation.
-
-  --help                Show this message and exit.
+```text
+╭─ Options ─────────────────────────────────────────────────────────────╮
+│ --matrix-dir                PATH                 [default: None]      │
+│ --matrix-file               PATH                 [default: None]      │
+│ --install-completion        [bash|zsh|fish|powe  Install completion   │
+│                             rshell|pwsh]         for the specified    │
+│                                                  shell.               │
+│                                                  [default: None]      │
+│ --show-completion           [bash|zsh|fish|powe  Show completion for  │
+│                             rshell|pwsh]         the specified shell, │
+│                                                  to copy it or        │
+│                                                  customize the        │
+│                                                  installation.        │
+│                                                  [default: None]      │
+│ --help                                           Show this message    │
+│                                                  and exit.            │
+╰───────────────────────────────────────────────────────────────────────╯
 ```
 
 Please note that the provided source code does not contain all of the
@@ -151,7 +155,7 @@ organized in the same non-increasing fashion. Moreover, the third-from-the-top
 row of the matrix contains the values `6, 4, 2, -1` while the last row contains
 `-1, -1, -2, -5` which are also organized in a non-increasing style.
 
-```
+```text
 ---  --  --  --
 100  19   9   9
  10   9   8   7
@@ -175,40 +179,35 @@ row of the matrix contains the values `6, 4, 2, -1` while the last row contains
 
 ## Running Checks
 
-If you study the source code in the `pyproject.toml` file you will see that
-it includes the following section that specifies different executable tasks:
-
-```toml
-[tool.taskipy.tasks]
-black = { cmd = "black matrix tests --check", help = "Run the black checks for source code format" }
-flake8 = { cmd = "flake8 matrix tests", help = "Run the flake8 checks for source code documentation" }
-mypy = { cmd = "poetry run mypy matrix", help = "Run the mypy type checker for potential type errors" }
-pydocstyle = { cmd = "pydocstyle matrix tests", help = "Run the pydocstyle checks for source code documentation" }
-pylint = { cmd = "pylint matrix tests", help = "Run the pylint checks for source code documentation" }
-test = { cmd = "pytest -x -s", help = "Run the pytest test suite" }
-test-silent = { cmd = "pytest -x --show-capture=no", help = "Run the pytest test suite without showing output" }
-all = "task black && task flake8 && task pydocstyle && task pylint && task mypy && task test"
-lint = "task black && task flake8 && task pydocstyle && task pylint"
-```
-
-This section makes it easy to run commands like `poetry run task lint` to
-automatically run all of the linters designed to check the Python source code in
-your program and its test suite. You can also use the command `poetry run task
-black` to confirm that your source code adheres to the industry-standard format
-defined by the `black` tool. If it does not adhere to the standard then you can
-run the command `poetry run black matrix tests` and it will automatically
-reformat the source code.
+If you study the source code in the `pyproject.toml` file you will see that it
+includes a section that specifies different executable tasks like `lint`. If
+you are in the `compare` directory that contains the `pyproject.toml` file and
+the `poetry.lock` file, the tasks in this section make it easy to run commands
+like `poetry run task lint` to automatically run all of the linters designed to
+check the Python source code in your program and its test suite. You can also
+use the command `poetry run task black` to confirm that your source code
+adheres to the industry-standard format defined by `black`. If it does not meet
+this standard, then you can run the command `poetry run black compare tests`
+or, alternatively, `poetry run task fixformat`, and it will reformat the Python
+source code!
 
 Along with running tasks like `poetry run task lint`, you can leverage the
 relevant instructions in the [technical
-skills](/proactive-skills/introduction-proactive-skills/) to enter into a Docker
-container and run `gradle grade` to check your work. If `gradle grade` shows
-that all checks pass, you will know that you made progress towards correctly
-implementing and writing about `matrix`.
+skills](/proactive-skills/introduction-proactive-skills/) to run the command
+`gatorgrade --config config/gatorgrade.yml` to check your work. If your work
+meets the baseline requirements and adheres to the best practices that
+proactive programmers adopt you will see that all the checks pass when you run
+`gatorgrade`. You can study the `config/gatorgrade.yml` file in your repository
+to learn how the :material-github:
+[GatorGrade](https://github.com/GatorEducator/gatorgrade) program runs
+:material-github: [GatorGrader](https://github.com/GatorEducator/gatorgrader)
+to automatically check your program and technical writing.
 
 If your program has all of the anticipated functionality, you can run the
 command `poetry run task test` and see that the test suite passes and produces
-output like this:
+output as shown in the following output. Can you think of any additional tests
+to add to the test suite? If you can, then add them so that you can increase
+your confident in program correctness!
 
 ```shell
 collected 3 items
