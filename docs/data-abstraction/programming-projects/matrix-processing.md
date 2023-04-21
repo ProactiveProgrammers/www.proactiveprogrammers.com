@@ -36,6 +36,18 @@ will need to use the `git clone` command to download the project from GitHub to
 your computer. Now you are ready to add source code and documentation to the
 project!
 
+???+ note
+
+    If you are an emerging proactive programmer who is not enrolled in a
+    Computer Science class at Allegheny College, you can still work on this
+    assignment!
+    To get started, you should click the "Use this template" button in the
+    :material-github:
+    [matrix-starter](https://github.com/ProactiveProgrammers/matrix-starter)
+    GitHub repository and create your own version of this project's source code.
+    After creating your GitHub repository, you can follow all of the other
+    steps!
+
 ## Expected Output
 
 As previously mentioned, this project invites you to implement a matrix
