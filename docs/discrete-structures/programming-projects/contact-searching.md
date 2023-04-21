@@ -57,7 +57,7 @@ the name of a file, in this case `input/contacts.txt`, that contains the contact
 information and job title descriptions for some people. For instance, here are
 the first lines of this file:
 
-```
+```text
 tylernelson@gmail.com,Careers adviser
 gregory02@medina-mayer.com,"Accountant, chartered management"
 jonesmiguel@hotmail.com,Health and safety inspector
@@ -78,7 +78,7 @@ required features, running the program with the command `poetry run
 contactsearcher --job-description "engineer" --contacts-file input/contacts.txt`
 will produce the following output:
 
-```
+```text
 The contacts file contains 100 people in it! Let's get searching!
 
   We are looking for contacts who have a job related to "engineer":
@@ -112,20 +112,24 @@ for `engin` instead of `engineer` should also return details about
 this program, you can type the command `poetry run contactsearcher --help` to
 see the following output showing how to use `contactsearcher`:
 
-```
-Usage: contactsearcher [OPTIONS]
-
-  Search for either an email address of a contact who has a job in the
-  file.
-
-Options:
-  --job-description TEXT  [required]
-  --contacts-file PATH
-  --install-completion    Install completion for the current shell.
-  --show-completion       Show completion for the current shell, to copy
-                          it or customize the installation.
-
-  --help                  Show this message and exit.
+```text
+╭─ Options ─────────────────────────────────────────────────────────────╮
+│ *  --job-description         TEXT                [default: None]      │
+│                                                  [required]           │
+│    --contacts-file           PATH                [default: None]      │
+│    --install-complet…        [bash|zsh|fish|pow  Install completion   │
+│                              ershell|pwsh]       for the specified    │
+│                                                  shell.               │
+│                                                  [default: None]      │
+│    --show-completion         [bash|zsh|fish|pow  Show completion for  │
+│                              ershell|pwsh]       the specified shell, │
+│                                                  to copy it or        │
+│                                                  customize the        │
+│                                                  installation.        │
+│                                                  [default: None]      │
+│    --help                                        Show this message    │
+│                                                  and exit.            │
+╰───────────────────────────────────────────────────────────────────────╯
 ```
 
 Please note that the provided source code does not contain all of the
