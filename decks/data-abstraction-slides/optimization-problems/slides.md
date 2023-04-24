@@ -1042,7 +1042,7 @@ Requires extra memory for the memoization table
 <div class="flex row">
 
 <div class="text-7xl text-orange-600 font-bold mt-5 ml-4 mb-4">
-Next steps for optimization algorithms?
+Next steps with optimization algorithms?
 </div>
 
 </div>
