@@ -314,8 +314,8 @@ mathematical functions in Python?
 - Run the Jupyter notebooks in `discrete-structures/mathematical-mappings/` with:
     - :material-language-python: [Jupyter Lite](https://proactiveprogrammers.com/live/)
     - :material-google: [Google Colab](https://githubtocolab.com/ProactiveProgrammers/www.proactiveprogrammers.com)
-        - :material-notebook-edit-outline: [Explore Object-Oriented Programming](https://githubtocolab.com/ProactiveProgrammers/www.proactiveprogrammers.com/blob/master/files/discrete-structures/mathematical-objects/explore-mathematical-objects.ipynb){:target="_blank"}
-        - :material-notebook-edit-outline: [Explore Object-Oriented Programming](https://githubtocolab.com/ProactiveProgrammers/www.proactiveprogrammers.com/blob/master/files/discrete-structures/mathematical-objects/explore-tree-structures.ipynb){:target="_blank"}
+        - :material-notebook-edit-outline: [Explore Mathematical Objects](https://githubtocolab.com/ProactiveProgrammers/www.proactiveprogrammers.com/blob/master/files/discrete-structures/mathematical-objects/explore-mathematical-objects.ipynb){:target="_blank"}
+        - :material-notebook-edit-outline: [Explore Tree Structures](https://githubtocolab.com/ProactiveProgrammers/www.proactiveprogrammers.com/blob/master/files/discrete-structures/mathematical-objects/explore-tree-structures.ipynb){:target="_blank"}
 
 ???+ note "Technical Concepts"
 
