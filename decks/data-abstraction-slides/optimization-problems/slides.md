@@ -1037,6 +1037,62 @@ Requires extra memory for the memoization table
 
 ---
 
+[//]: # (Slide Start {{{)
+
+<div class="flex row">
+
+<div class="text-7xl text-orange-600 font-bold mt-5 ml-4 mb-4">
+Next steps for optimization algorithms?
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<mdi-archive-search class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+Prove worst-case time complexity of algorithm
+</div>
+
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<mdi-archive-search class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+Conduct experiments to evaluate efficiency
+</div>
+
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<mdi-archive-search class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-10 ml-4">
+Apply optimization to new problem domains
+</div>
+
+</div>
+
+</div>
+
+[//]: # (Slide End }}})
+
+---
+
 # Solving Optimization Problems
 
 - Solving an optimization problem requires finding a solution that **maximizes**
@@ -1050,8 +1106,7 @@ or **minimizes** and objective while meeting all solution **constraints**
 
     -   **Q1**: What are three different greedy strategies and how do they work?
     -   **Q2**: What are the benefits and drawbacks of exhaustive enumeration?
-    -   **Q3**: Can a greedy algorithm solve the fractional knapsack problem?
-    Why?
+    -   **Q3**: Can a greedy algorithm solve the fractional knapsack problem? Why?
     -   **Q4**: How does dynamic programming solve the 0/1 knapsack problem?
     -   **Q5**: How would you conduct an experiment to evaluate different solvers?
 
