@@ -311,7 +311,11 @@ mathematical functions in Python?
 
 - Read chapter 11 of *Programming and Mathematical Thinking*
 - Check out the [course slides](/slides/discrete-structures/mathematical-objects/) for a detailed investigation of these chapters!
-- Go to the `discrete-structures/mathematical-objects/` directory on [Proactive Programmers Live](https://proactiveprogrammers.com/live/) and investigate all of the Python programs!
+- Run the Jupyter notebooks in `discrete-structures/mathematical-mappings/` with:
+    - :material-language-python: [Jupyter Lite](https://proactiveprogrammers.com/live/)
+    - :material-google: [Google Colab](https://githubtocolab.com/ProactiveProgrammers/www.proactiveprogrammers.com)
+        - :material-notebook-edit-outline: [Explore Object-Oriented Programming](https://githubtocolab.com/ProactiveProgrammers/www.proactiveprogrammers.com/blob/master/files/discrete-structures/mathematical-objects/explore-mathematical-objects.ipynb){:target="_blank"}
+        - :material-notebook-edit-outline: [Explore Object-Oriented Programming](https://githubtocolab.com/ProactiveProgrammers/www.proactiveprogrammers.com/blob/master/files/discrete-structures/mathematical-objects/explore-tree-structures.ipynb){:target="_blank"}
 
 ## Learning Opportunities
 
