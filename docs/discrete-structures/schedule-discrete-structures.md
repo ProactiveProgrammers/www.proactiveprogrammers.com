@@ -317,6 +317,14 @@ mathematical functions in Python?
         - :material-notebook-edit-outline: [Explore Object-Oriented Programming](https://githubtocolab.com/ProactiveProgrammers/www.proactiveprogrammers.com/blob/master/files/discrete-structures/mathematical-objects/explore-mathematical-objects.ipynb){:target="_blank"}
         - :material-notebook-edit-outline: [Explore Object-Oriented Programming](https://githubtocolab.com/ProactiveProgrammers/www.proactiveprogrammers.com/blob/master/files/discrete-structures/mathematical-objects/explore-tree-structures.ipynb){:target="_blank"}
 
+???+ note "Technical Concepts"
+
+    - **Number Stream**: sequence of numbers that continues without conclusion
+    - **Moving Average**: average of fixed amount of vales in a number stream
+    - **Recursively Defined Object**: a class that is partly defined in terms of itself
+    - **Tree**: a node-based, hierarchical discrete structure with characteristics distinct from a graph
+    - **Root**: the distinguished node of a tree from which other nodes originate
+
 ## Learning Opportunities
 
 Interested in learning more about any of the topics on this schedule? If you
