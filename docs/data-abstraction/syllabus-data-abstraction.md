@@ -1,26 +1,23 @@
 # Course Syllabus
 
-## Computer Science 101 Spring 2023
+## Computer Science 101 Fall 2023
 
 ### Course Instructor
 
-- Name: Dr. Gregory M. Kapfhammer
-- Office Location: Alden Hall 108
+- Name: Dr. Emily Graber
+- Office Location: Alden Hall 106
 
 ### Instructor Office Hours
 
-- Monday: 10:00 AM-11:00 AM, Alden Hall, 15 minute time slots
-- Monday: 3:00 PM-4:00 PM, Alden Hall, 15 minute time slots
-- Tuesday: 3:00 AM-4:00 AM, Alden Hall, 15 minute time slots
-- Wednesday: 11:00 AM-12:00 noon, Alden Hall, 15 minute time slots
-- Wednesday: 3:00 PM-5:00 PM, Alden Hall, 15 minute time slots
+- Monday: 1:00 PM-2:00 PM, Alden Hall, 10 minute time slots
+- TBD
+
 
 ???+ note "Scheduling Office Hours"
 
-      To schedule a meeting with the course instructor during his office hours,
-      please visit the [schedule](https://www.gregorykapfhammer.com/schedule/)
-      page of his web site and click the "Schedule an Appointment" link at the
-      top of the page. Now you can schedule an appointment by clicking a
+      To schedule a meeting with the course instructor during office hours, please 
+      visit the [Google Calendar for Office Hours](https://calendar.app.google/4ekYyCcKqGanEBqC8). 
+      You can schedule an appointment by clicking a
       suitable box in Google Calendar and then reserving an open time slot. At
       this point, the details about your chosen appointment will appear in both
       your Google Calendar and the instructor's Google Calendar. Please arrive
@@ -29,9 +26,9 @@
 
 ### Course Meeting Schedule
 
-- Discussion and Group Work Session: Monday and Wednesday, 1:30 PM-2:20 PM
-- Programming Session: Friday, 1:30 PM-2:20 PM
-- Laboratory Session: Thursday, 2:30 PM-4:20 PM
+- Discussion and Group Work Session: Monday and Wednesday, 10 AM-10:50 AM, Alden 109
+- Programming Session: Friday, 10 AM-10:50 AM, Alden 109
+- Laboratory Session: Friday, 2:30 PM-4:20 PM, Alden 109
 
 ### Course Description
 
@@ -55,37 +52,40 @@ presentations.
 Python](https://mitpress.mit.edu/books/introduction-computation-and-programming-using-python-third-edition)
 by [John V. Guttag](https://people.csail.mit.edu/guttag/)
 
+More information can be seen in the [virtual campus bookstore](https://bncvirtual.com/allegheny) website. Click on the "Let's get started" box, and enter Fall 2023, Computer Science, CMPSC 101.
+
 ### Course Schedule
 
-- **Week One**: January 16 to January 20: [Software Operation](../schedule-data-abstraction#software-operation)
-- **Week Two**: January 23 to January 27: [Python Foundations](../schedule-data-abstraction#python-foundations)
-- **Week Three**: January 30 to February 3: [Numerical Computation](../schedule-data-abstraction#numerical-computation)
-- **Week Four**: February 6 to February 10: [Function Scope](../schedule-data-abstraction#function-scope)
-- **Week Five**: February 13 to February 17: Proactive Review
-- **Executable Examination One**: February 16 during the laboratory session
+- **Week One**: August 29 to September 1: [Software Operation](../schedule-data-abstraction#software-operation)
+- **Week Two**: September 4 to September 8: [Python Foundations](../schedule-data-abstraction#python-foundations)
+- **Week Three**: September 11 to September 15: [Numerical Computation](../schedule-data-abstraction#numerical-computation)
+- **Week Four**: September 18 to September 22: [Function Scope](../schedule-data-abstraction#function-scope)
+- **Week Five**: September 25 to September 29: Proactive Review
+- **Executable Examination One**: September 29 during the laboratory session
     - Relevant Modules:
         - [Software Operation](../schedule-data-abstraction#software-operation)
         - [Python Foundations](../schedule-data-abstraction#python-foundations)
         - [Numerical Computation](../schedule-data-abstraction#numerical-computation)
         - [Function Scope](../schedule-data-abstraction#function-scope)
-- **Week Six**: February 20 to February 24: [Structured Types](../schedule-data-abstraction#structured-types)
-- **Week Seven**: February 27 to March 3: [Program Components](../schedule-data-abstraction#program-components)
-- **Week Eight**: March 6 to March 10: Spring Break
-- **Week Nine**: March 13 to March 17: [Software Testing](../schedule-data-abstraction#software-testing)
-- **Week Ten**: March 20 to March 24: [Object-Oriented Programming](../schedule-data-abstraction#object-oriented-programming)
-- **Week Eleven**: March 27 to March 31: Proactive Review
-- **Executable Examination Two**: March 30 during the laboratory session
+- **Week Six**: October 2 to October 6: [Structured Types](../schedule-data-abstraction#structured-types)
+- **Monday October 9**: Fall Break
+- **Week Seven**: October 11 to October 13: [Program Components](../schedule-data-abstraction#program-components)
+- **Week Eight**: October 16 to October 20: [Software Testing](../schedule-data-abstraction#software-testing)
+- **Week Nine**: October 23 to October 27: [Object-Oriented Programming](../schedule-data-abstraction#object-oriented-programming)
+- **Week Ten**: October 30 to November 3: Proactive Review
+- **Executable Examination Two**: November 3 during the laboratory session
     - Relevant Modules:
         - [Structured Types](../schedule-data-abstraction#structured-types)
         - [Program Components](../schedule-data-abstraction#program-components)
         - [Software Testing](../schedule-data-abstraction#software-testing)
         - [Object-Oriented Programming](../schedule-data-abstraction#object-oriented-programming)
-- **Week Twelve**: April 3 to April 7: [Algorithmic Complexity](../schedule-data-abstraction#algorithmic-complexity)
-- **Week Thirteen**: April 10 to April 14: [Algorithmic Complexity](../schedule-data-abstraction#algorithmic-complexity)
-- **Week Fourteen**: April 17 to April 21: [Data Structures](../schedule-data-abstraction#data-structures)
-- **Week Fifteen**: April 24 to April 28: [Optimization Problems](../schedule-data-abstraction#optimization-problems)
-- **Week Sixteen**: May 1: Proactive Review
-- **Final Examination**: *Examination Code*: F, *Date*: Friday, May 5, 2023 at 7:00 PM
+- **Week Eleven**: November 6 to November 10: [Algorithmic Complexity](../schedule-data-abstraction#algorithmic-complexity)
+- **Week Twelve**: November 13 to November 17: [Algorithmic Complexity](../schedule-data-abstraction#algorithmic-complexity)
+- **Week Thirteen**: November 20 to November 24: Thanksgiving Break
+- **Week Fourteen**: November 27 to December 1: [Data Structures](../schedule-data-abstraction#data-structures)
+- **Week Fifteen**: December 4 to December 8: [Optimization Problems](../schedule-data-abstraction#optimization-problems)
+- **Week Sixteen**: December 11: Proactive Review
+- **Final Examination**: *Examination Code*: F, *Date*: Friday, December 1XX, 2023 at XXX:00 PM
     - Comprehensively covers all course modules
 
 ### Course Policies
@@ -207,7 +207,7 @@ Importantly, only prepared students will be able to acquire the knowledge and
 skills that they need to be successful in this course, subsequent courses, and
 the field of web development. In order to help students remain organized and to
 effectively prepare for classes, the course instructor will maintain a class
-schedule with reading assignments and presentation slides, available at on this
+schedule with reading assignments and presentation slides, available on this
 site. During the class sessions students will also be required to download, use,
 and modify Python software components and data sets that are made available through
 means such as the course web site or a GitHub repository.
@@ -219,11 +219,11 @@ either a class, laboratory, or programming session are encouraged to seek
 assistance from the course instructor and the student technical leaders.
 Students should, within the bounds of the Honor Code, ask and answer questions
 on the Discord server for our course; please request assistance from the
-instructor and student technical leaders first through Discord Slack before
+instructor and student technical leaders first through Discord before
 sending an email. Students who need the course instructor's assistance must
-schedule a meeting through his web site and come to the virtual meeting with all
+schedule a meeting through the instructor's office hours calendar and come to the meeting with all
 of the details needed to discuss their question. Students can find out the
-office hour schedule student technical leaders by viewing the list of [student
+office hour schedule for student technical leaders by viewing the list of [student
 technical leaders](https://www.cs.allegheny.edu/teaching/technicalleaders/).
 
 #### Using GitHub and Discord

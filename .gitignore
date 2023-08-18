@@ -137,3 +137,6 @@ _output
 ### Jupyter Notebooks ###
 .jupyterlite.doit.db
 .ipynb_checkpoints
+
+### Emily Graber ###
+/site/
