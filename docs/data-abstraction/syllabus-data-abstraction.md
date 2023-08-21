@@ -1,6 +1,6 @@
 # Course Syllabus
 
-## Computer Science 101 Fall 2023
+## Computer Science 101 Fall 2023 (CMPSC 101.00)
 
 ### Course Instructor
 
@@ -9,7 +9,7 @@
 
 ### Instructor Office Hours
 
-- Monday: 1:00 PM-2:00 PM, Alden Hall, 10 minute time slots
+- Monday: 2:00 PM-3:30 PM, Alden Hall, 15 minute time slots
 - TBD
 
 
@@ -46,13 +46,25 @@ presentations.
 - Prerequisite: CMPSC 100 or permission of the instructor.
 - Distribution Requirements: QR, SP.
 
+???+ note "What do these distribution requirements mean?"
+
+      **Quantitative Reasoning (QR)**: Quantitative Reasoning is the ability to understand, investigate, communicate, and contextualize numerical, symbolic, and graphical information towards the exploration of natural, physical, behavioral, or social phenomena.
+
+      *Learning Outcome*: Students who successfully complete this requirement will demonstrate an understanding of how to interpret numeric data and/or their graphical or symbolic representations.
+
+      **Scientific Process and Knowledge (SP)**: Courses involving Scientific Process and Knowledge aim to convey an understanding of what is known or can be known about the natural world; apply scientific reasoning towards the analysis and synthesis of scientific information; and create scientifically literate citizens who can engage productively in problem solving.
+
+      *Learning Outcome*: Students who successfully complete this requirement will demonstrate an understanding of the nature, approaches, and domain of scientific inquiry.
+
 ### Required Textbook
 
 [Introduction to Computation and Programming Using
 Python](https://mitpress.mit.edu/books/introduction-computation-and-programming-using-python-third-edition)
 by [John V. Guttag](https://people.csail.mit.edu/guttag/)
 
-More information can be seen in the [virtual campus bookstore](https://bncvirtual.com/allegheny) website. Click on the "Let's get started" box, and enter Fall 2023, Computer Science, CMPSC 101.
+![Book Cover](https://mit-press-us.imgix.net/covers/9780262542364.jpg?auto=format&w=298&dpr=2&q=20){width=30%}
+
+To order through the [virtual campus bookstore](https://bncvirtual.com/allegheny), click on the "Let's get started" button, and enter Fall 2023, Computer Science, CMPSC 101.
 
 ### Course Schedule
 
@@ -85,7 +97,7 @@ More information can be seen in the [virtual campus bookstore](https://bncvirtua
 - **Week Fourteen**: November 27 to December 1: [Data Structures](../schedule-data-abstraction#data-structures)
 - **Week Fifteen**: December 4 to December 8: [Optimization Problems](../schedule-data-abstraction#optimization-problems)
 - **Week Sixteen**: December 11: Proactive Review
-- **Final Examination**: *Examination Code*: F, *Date*: Friday, December 1XX, 2023 at XXX:00 PM
+- **Final Examination**: *Examination Code*: G, *Date*: Monday, December 18th, 2023 at 09:00 AM. [Complete Final Exam Schedule](https://sites.allegheny.edu/registrar/fall-2023-final-exam-schedule/)
     - Comprehensively covers all course modules
 
 ### Course Policies
