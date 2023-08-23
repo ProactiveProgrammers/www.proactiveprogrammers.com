@@ -33,6 +33,7 @@
         - :material-notebook-edit-outline: [Compute the Square of an Integer](https://githubtocolab.com/ProactiveProgrammers/www.proactiveprogrammers.com/blob/master/files/data-abstraction/python-foundations/compute-integer-square.ipynb){:target="_blank"}
         - :material-notebook-edit-outline: [Determine the Status of an Integer](https://githubtocolab.com/ProactiveProgrammers/www.proactiveprogrammers.com/blob/master/files/data-abstraction/python-foundations/determine-number-status.ipynb){:target="_blank"}
         - :material-notebook-edit-outline: [Explore Data Types for Variables](https://githubtocolab.com/ProactiveProgrammers/www.proactiveprogrammers.com/blob/master/files/data-abstraction/python-foundations/explore-python-variables.ipynb){:target="_blank"}
+- Check out this Engineering Effort on [Integer Squaring](./engineering-efforts/integer-squaring.md)
 
 ???+ note "Technical Concepts"
 
@@ -66,6 +67,8 @@
         - :material-notebook-edit-outline: [Calculate Approximate Square Root](https://githubtocolab.com/ProactiveProgrammers/www.proactiveprogrammers.com/blob/master/files/data-abstraction/numerical-computation/calculate-approximate-square-root.ipynb){:target="_blank"}
         - :material-notebook-edit-outline: [Compute an Arithmetic Mean](https://githubtocolab.com/ProactiveProgrammers/www.proactiveprogrammers.com/blob/master/files/data-abstraction/numerical-computation/compute-arithmetic-mean.ipynb){:target="_blank"}
         - :material-notebook-edit-outline: [Perform Integer Primality Testing](https://githubtocolab.com/ProactiveProgrammers/www.proactiveprogrammers.com/blob/master/files/data-abstraction/numerical-computation/perform-primality-testing.ipynb){:target="_blank"}
+- Check out this Engineering Effort on [Primality Testing](./engineering-efforts/primality-testing.md)
+- Check out this Source Code Survey on [Numerical Data](./source-code-surveys/numerical-data.md)
 
 ???+ note "Technical Concepts"
 
@@ -98,6 +101,8 @@
         - :material-notebook-edit-outline: [Explore Higher-Order Functions](https://githubtocolab.com/ProactiveProgrammers/www.proactiveprogrammers.com/blob/master/files/data-abstraction/function-scope/explore-higher-order-functions.ipynb){:target="_blank"}
         - :material-notebook-edit-outline: [Explore Lambda Expressions](https://githubtocolab.com/ProactiveProgrammers/www.proactiveprogrammers.com/blob/master/files/data-abstraction/function-scope/explore-lambda-expressions.ipynb){:target="_blank"}
         - :material-notebook-edit-outline: [Perform Exhaustive Primality Testing](https://githubtocolab.com/ProactiveProgrammers/www.proactiveprogrammers.com/blob/master/files/data-abstraction/function-scope/perform-exhaustive-primality-testing.ipynb){:target="_blank"}
+- Check out this Programming Project on [Number Comparison](./programming-projects/number-comparison.md)
+- Check out this Programming Project on [Square Roots](./programming-projects/square-root.md)
 
 ???+ note "Technical Concepts"
 
@@ -128,6 +133,7 @@
     - :material-google: [Google Colab](https://githubtocolab.com/ProactiveProgrammers/www.proactiveprogrammers.com)
         - :material-notebook-edit-outline: [Demonstrate Higher-Order Lists](https://githubtocolab.com/ProactiveProgrammers/www.proactiveprogrammers.com/blob/master/files/data-abstraction/structured-types/demonstrate-higher-order-lists.ipynb){:target="_blank"}
         - :material-notebook-edit-outline: [Explore Structured Types](https://githubtocolab.com/ProactiveProgrammers/www.proactiveprogrammers.com/blob/master/files/data-abstraction/structured-types/explore-structured-types.ipynb){:target="_blank"}
+- Check out this Engineering Effort on [Fibonacci Algorithms](./engineering-efforts/fibonacci-algorithms.md)
 
 ???+ note "Technical Concepts"
 
@@ -157,6 +163,7 @@
     - :material-language-python: [Jupyter Lite](https://proactiveprogrammers.com/live/)
     - :material-google: [Google Colab](https://githubtocolab.com/ProactiveProgrammers/www.proactiveprogrammers.com)
         - :material-notebook-edit-outline: [Run Variants of Functions](https://githubtocolab.com/ProactiveProgrammers/www.proactiveprogrammers.com/blob/master/files/data-abstraction/program-components/run-function-variants.ipynb){:target="_blank"}
+- Check out this Engineering Effort on [Intersection Algorithms](./engineering-efforts/intersection-algorithms.md)
 
 ???+ note "Technical Concepts"
 
@@ -186,6 +193,8 @@
     - :material-language-python: [Jupyter Lite](https://proactiveprogrammers.com/live/)
     - :material-google: [Google Colab](https://githubtocolab.com/ProactiveProgrammers/www.proactiveprogrammers.com)
         - :material-notebook-edit-outline: [Perform Debugging and Testing](https://githubtocolab.com/ProactiveProgrammers/www.proactiveprogrammers.com/blob/master/files/data-abstraction/software-testing/explore-software-testing.ipynb){:target="_blank"}
+- Check out this Engineering Effort on [Palindrome Checking](./engineering-efforts/palindrome-checking.md)
+- Check out this Source Code Survey on [Debugging Functions](./source-code-surveys/debugging-functions.md)
 
 ???+ note "Technical Concepts"
 
@@ -215,6 +224,8 @@
     - :material-language-python: [Jupyter Lite](https://proactiveprogrammers.com/live/)
     - :material-google: [Google Colab](https://githubtocolab.com/ProactiveProgrammers/www.proactiveprogrammers.com)
         - :material-notebook-edit-outline: [Explore Exception Handling](https://githubtocolab.com/ProactiveProgrammers/www.proactiveprogrammers.com/blob/master/files/data-abstraction/object-oriented/explore-exception-handling.ipynb){:target="_blank"}
+- Check out this Engineering Effort on [Object Processing](./engineering-efforts/object-processing.md)
+- Check out this Source Code Survey on [Structured Types](./source-code-surveys/structured-types.md)
 
 ???+ note "Technical Concepts"
 
@@ -246,6 +257,7 @@
     - :material-language-python: [Jupyter Lite](https://proactiveprogrammers.com/live/)
     - :material-google: [Google Colab](https://githubtocolab.com/ProactiveProgrammers/www.proactiveprogrammers.com)
         - :material-notebook-edit-outline: [Perform Timing Experiments](https://githubtocolab.com/ProactiveProgrammers/www.proactiveprogrammers.com/blob/master/files/data-abstraction/algorithmic-complexity/perform-timing-experiments.ipynb){:target="_blank"}
+- Check out this Engineering Effort on [Sorting Algorithms](./engineering-efforts/sorting-algorithms.md)
 
 ???+ note "Technical Concepts"
 
@@ -277,6 +289,8 @@
     - :material-google: [Google Colab](https://githubtocolab.com/ProactiveProgrammers/www.proactiveprogrammers.com)
         - :material-notebook-edit-outline: [Create and Use Dictionaries](https://githubtocolab.com/ProactiveProgrammers/www.proactiveprogrammers.com/blob/master/files/data-abstraction/data-structures/create-and-use-dictionaries.ipynb){:target="_blank"}
         - :material-notebook-edit-outline: [Use Searching and Sorting](https://githubtocolab.com/ProactiveProgrammers/www.proactiveprogrammers.com/blob/master/files/data-abstraction/data-structures/use-searching-and-sorting.ipynb){:target="_blank"}
+- Check out this Source Code Survey on [Container Cloning](./source-code-surveys/container-cloning.md)
+- Check out this Engineering Effort on [Containment Checking](./engineering-efforts/containment-checking.md)
 
 ???+ note "Technical Concepts"
 
@@ -307,6 +321,8 @@
     - :material-language-python: [Jupyter Lite](https://proactiveprogrammers.com/live/)
     - :material-google: [Google Colab](https://githubtocolab.com/ProactiveProgrammers/www.proactiveprogrammers.com)
         - :material-notebook-edit-outline: [Explore Knapsack Solving](https://githubtocolab.com/ProactiveProgrammers/www.proactiveprogrammers.com/blob/master/files/data-abstraction/optimization-problems/explore-knapsack-solving.ipynb){:target="_blank"}
+- Check out this Programming Project on [Matrix Processing](./programming-projects/matrix-processing.md)
+- Check out this Source Code Survey on [Optimization](./source-code-surveys/knapsack-solvers.md)
 
 ???+ note "Technical Concepts"
 
