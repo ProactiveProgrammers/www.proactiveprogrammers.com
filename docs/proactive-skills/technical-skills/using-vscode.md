@@ -27,8 +27,9 @@ Make sure that you install extensions in each of the following categories!
 
 - [Getting Started with Python in VS Code](https://code.visualstudio.com/docs/python/python-tutorial)
 - [18 Plugins for Writing Python in VS
-  Code](https://switowski.com/blog/18-plugins-for-python-in-vscode)
-- [10 Best VS Code Extensions for Python](https://dannys.cloud/10-best-vs-code-extensions-for-python)
+  Code](https://switowski.com/blog/plugins-for-python-in-vscode/)
+<!-- dead link -->
+<!-- - [10 Best VS Code Extensions for Python](https://dannys.cloud/10-best-vs-code-extensions-for-python) --> 
 
 ### Collaborative Programming
 

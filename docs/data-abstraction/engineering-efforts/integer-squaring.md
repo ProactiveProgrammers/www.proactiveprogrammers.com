@@ -102,7 +102,7 @@ should see the following output that explains how to use the `square` program:
 ```
 
 Please note that the provided source code does not contain all of the
-functionality to produce this output. As explain in the next section, you are
+functionality to produce this output. As explained in the next section, you are
 invited to add all of the missing features and ensure that `square` produces the
 expected output. Once the program is working correctly, you should also try to
 use it when specifying a file that is not available on your computer! For instance,

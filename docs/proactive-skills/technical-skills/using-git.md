@@ -7,7 +7,7 @@ programmer to incrementally document and save their work on a project. In
 addition to installing Git on your computer you need to setup an account on
 GitHub! Before you do so, it is worth taking some time to read a tutorial on
 [Automated Version
-Control](https://swcarpentry.github.io/git-novice/01-basics/index.html). After
+Control](https://swcarpentry.github.io/git-novice/01-basics.html). After
 you understand what version control is and why you should use it, you are ready
 to install Git on your computer and create and configure a GitHub account! To
 get started, please read [Installing
