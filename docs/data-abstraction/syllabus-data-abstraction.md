@@ -10,7 +10,9 @@
 ### Instructor Office Hours
 
 - Monday: 2:00 PM-3:30 PM, Alden Hall, 15 minute time slots
-- TBD
+- Wednesday: 11:15 AM-12:45 PM, Alden Hall, 15 minute time slots
+- Thursday: 10:00 AM-11:30 AM, Alden Hall, 15 minute time slots
+- Thursday: 2:00 PM-3:30 PM, Alden Hall, 15 minute time slots
 
 
 ???+ note "Scheduling Office Hours"
@@ -92,7 +94,7 @@ To order through the [virtual campus bookstore](https://bncvirtual.com/allegheny
         - [Software Testing](../schedule-data-abstraction#software-testing)
         - [Object-Oriented Programming](../schedule-data-abstraction#object-oriented-programming)
 - **Week Eleven**: November 6 to November 10: [Algorithmic Complexity](../schedule-data-abstraction#algorithmic-complexity)
-- **Week Twelve**: November 13 to November 17: [Algorithmic Complexity](../schedule-data-abstraction#algorithmic-complexity)
+- **Week Twelve**: November 13 to Novegitschedule-data-abstraction#algorithmic-complexity)
 - **Week Thirteen**: November 20 to November 24: Thanksgiving Break
 - **Week Fourteen**: November 27 to December 1: [Data Structures](../schedule-data-abstraction#data-structures)
 - **Week Fifteen**: December 4 to December 8: [Optimization Problems](../schedule-data-abstraction#optimization-problems)
@@ -224,20 +226,6 @@ site. During the class sessions students will also be required to download, use,
 and modify Python software components and data sets that are made available through
 means such as the course web site or a GitHub repository.
 
-#### Seeking Assistance
-
-Students who are struggling to understand the knowledge and skills developed in
-either a class, laboratory, or programming session are encouraged to seek
-assistance from the course instructor and the student technical leaders.
-Students should, within the bounds of the Honor Code, ask and answer questions
-on the Discord server for our course; please request assistance from the
-instructor and student technical leaders first through Discord before
-sending an email. Students who need the course instructor's assistance must
-schedule a meeting through the instructor's office hours calendar and come to the meeting with all
-of the details needed to discuss their question. Students can find out the
-office hour schedule for student technical leaders by viewing the list of [student
-technical leaders](https://www.cs.allegheny.edu/teaching/technicalleaders/).
-
 #### Using GitHub and Discord
 
 This course will primarily use GitHub and Discord for all course communication,
@@ -321,15 +309,42 @@ instructor or a technical leader. If a student submits deliverables (e.g.,
 source code or technical writing) that are nearly identical to the work of
 others, this will be taken as evidence of violating the Honor Code.
 
-#### Disability Services
+#### Seeking Assistance
+
+Students who are struggling to understand the knowledge and skills developed in
+either a class, laboratory, or programming session are encouraged to seek
+assistance from the course instructor and the student technical leaders.
+Students should, within the bounds of the Honor Code, ask and answer questions
+on the Discord server for our course; please request assistance from the
+instructor and student technical leaders first through Discord before
+sending an email. Students who need the course instructor's assistance must
+schedule a meeting through the instructor's office hours calendar and come to the meeting with all
+of the details needed to discuss their question. Students can find out the
+office hour schedule for student technical leaders by viewing the list of [student
+technical leaders](https://www.cs.allegheny.edu/teaching/technicalleaders/).
+
+For exams and all other coursework, students are expected 
+to adhere to the given instructions specifying what is or is not considered authorized 
+assistance for the particular exam or item of coursework. It is the responsibility of the student to 
+review the authorization specifications on every item and act appropriately, 
+upholding the honor code.  Unauthorized assistance may or may not preclude 1. internet use, 
+including but not limited to online large language models; 2. offline artificial intelligence 
+tools; 3. textbooks; 4. other specifically named materials or sources. Students are 
+reminded to review Honor Code Article III Section 1, requiring students who know that 
+an honor code violation has occurred to report the violation. Moreover, "Failure to do 
+so is as injurious to the honor of the College community as is the observed act of 
+dishonesty and constitutes an infraction of the Honor Code."
+
+#### Educational Accommodations
 
 The Americans with Disabilities Act (ADA) is a federal anti-discrimination
 statute that provides comprehensive civil rights protection for persons with
 disabilities. Among other things, this legislation requires all students with
 disabilities be guaranteed a learning environment that provides for reasonable
 accommodation of their disabilities. Students with disabilities who believe they
-may need accommodations in this class are encouraged to contact Disability
-Services at 814-332-2898. Disability Services is part of the Learning Commons
+may need accommodations in this class are encouraged to contact Student 
+Accessibility and Support Services (SASS) at 814-332-2898. Student Accessibility 
+and Support Services is part of the Learning Commons
 and is located in Pelletier Library. Please do this as soon as possible to
 ensure that approved accommodations are implemented in a timely fashion.
 
